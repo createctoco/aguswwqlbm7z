@@ -140,7 +140,8 @@ function structuredData(product, content) {
 
 function validateContent(content, product, previousOutputs, profile, catholicKnowledge) {
   if (!content || typeof content !== 'object') throw new Error('DeepSeek returned invalid JSON.');
-  const requiredStrings = ['product_type', 'primary_topic', 'catholic_relevance', 'catholic_context', 'title', 'meta_description', 'short_description', 'description'];
+  if (content.catholic_relevance === 'none' && content.catholic_context == null) content.catholic_context = '';
+  const requiredStrings = ['product_type', 'primary_topic', 'catholic_relevance', 'title', 'meta_description', 'short_description', 'description'];
   for (const key of requiredStrings) {
     if (typeof content[key] !== 'string' || !content[key].trim()) throw new Error(`DeepSeek field ${key} is missing.`);
   }
@@ -160,11 +161,15 @@ function validateContent(content, product, previousOutputs, profile, catholicKno
   if (!['explicit', 'devotional_context', 'none'].includes(content.catholic_relevance)) {
     throw new Error('DeepSeek catholic_relevance is invalid.');
   }
+  if (typeof content.catholic_context !== 'string') throw new Error('DeepSeek catholic_context is invalid.');
   if (!catholicKnowledge.applicable && (content.catholic_relevance !== 'none' || content.catholic_context.trim() !== '')) {
     throw new Error('DeepSeek added Catholic context to a non-Catholic product.');
   }
   if (catholicKnowledge.applicable && content.catholic_relevance === 'none') {
     throw new Error('DeepSeek omitted Catholic relevance supported by the product facts.');
+  }
+  if (catholicKnowledge.applicable && !content.catholic_context.trim()) {
+    throw new Error('DeepSeek omitted supported Catholic context.');
   }
   const combined = [content.title, content.meta_description, content.short_description, content.description, ...content.key_features].join(' ');
   if (forbiddenPhrases.test(combined)) throw new Error('DeepSeek used a formulaic AI marketing phrase.');

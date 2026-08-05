@@ -20,8 +20,38 @@ function imageList(product) {
     .filter(({ url }) => Boolean(url));
 }
 
+function variantImageList(product) {
+  const seen = new Set();
+  return (product.variations || []).flatMap((variation) => {
+    const url = variation.image?.url || variation.image?.source_url || '';
+    if (!url || seen.has(url)) return [];
+    seen.add(url);
+    const label = Object.values(variation.attributes || {}).filter(Boolean).join(' / ') || variation.sku || 'Variant';
+    return [{ url, alt: `${product.ai.title} - ${label}`, label, sku: variation.sku || '' }];
+  });
+}
+
+function buyerFaq(items) {
+  const unsuitable = /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
+  return (items || []).filter(({ question = '', answer = '' }) => !unsuitable.test(`${question} ${answer}`));
+}
+
+function categoryList(product) {
+  const seen = new Set();
+  const categories = (product.categories || []).flatMap((category) => {
+    const name = String(category?.name || '').trim();
+    if (!name) return [];
+    const slug = slugify(category.slug || name);
+    if (!slug || seen.has(slug)) return [];
+    seen.add(slug);
+    return [{ id: String(category.id || slug), name, slug }];
+  });
+  return categories.length ? categories : [{ id: 'uncategorized', name: 'Other Catholic Gifts', slug: 'other-catholic-gifts' }];
+}
+
 function mapProduct(product, index) {
   const gallery = imageList(product);
+  const variantImages = variantImageList(product);
   const suffix = String(product.source_id).slice(-6).toLowerCase();
   return {
     sourceId: String(product.source_id),
@@ -32,15 +62,17 @@ function mapProduct(product, index) {
     description: product.ai.description,
     catholicContext: product.ai.catholic_context,
     catholicRelevance: product.ai.catholic_relevance,
+    categories: categoryList(product),
     sku: product.sku || `OUO-${suffix.toUpperCase()}`,
     imageUrl: gallery[0]?.url || '',
     imageAlt: gallery[0]?.alt || product.ai.title,
     gallery,
+    variantImages,
     accent: accents[index % accents.length],
     features: product.ai.key_features || [],
     specifications: (product.ai.specifications || []).map(({ name, value }) => ({ name, value })),
     applications: product.ai.applications || [],
-    faq: product.ai.faq || [],
+    faq: buyerFaq(product.ai.faq),
     structuredData: product.structured_data,
   };
 }

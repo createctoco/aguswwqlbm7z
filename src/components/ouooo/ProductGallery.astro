@@ -1,0 +1,50 @@
+---
+import type { Product } from '~/data/products';
+interface Props { product: Product }
+const { product } = Astro.props;
+const images = [
+  ...product.gallery.map((image, index) => ({ ...image, label: index === 0 ? 'Main image' : `Product image ${index + 1}`, sku: '' })),
+  ...product.variantImages,
+].filter((image, index, all) => all.findIndex(({ url }) => url === image.url) === index);
+const initial = images[0] || { url: '', alt: product.title, label: 'Product image', sku: '' };
+---
+<div class="gallery" data-product-gallery>
+  <div class="main-image">
+    {initial.url ? <img data-gallery-main src={initial.url} alt={initial.alt} width="900" height="1125" decoding="async" fetchpriority="high" /> : <div class="image-fallback">Image unavailable</div>}
+  </div>
+  {images.length > 1 && <div class="thumbnails" aria-label="Product gallery">
+    {images.map((image, index) => <button type="button" class="thumbnail" aria-pressed={index === 0 ? 'true' : 'false'} data-image={image.url} data-alt={image.alt} title={image.label}>
+      <img src={image.url} alt="" width="88" height="88" loading="lazy" decoding="async" />
+      {image.sku && <span>{image.label}</span>}
+    </button>)}
+  </div>}
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-product-gallery]').forEach((gallery) => {
+    const main = gallery.querySelector<HTMLImageElement>('[data-gallery-main]');
+    if (!main) return;
+    gallery.querySelectorAll<HTMLButtonElement>('[data-image]').forEach((button) => {
+      button.addEventListener('click', () => {
+        main.src = button.dataset.image || main.src;
+        main.alt = button.dataset.alt || main.alt;
+        gallery.querySelectorAll('[data-image]').forEach((item) => item.setAttribute('aria-pressed', 'false'));
+        button.setAttribute('aria-pressed', 'true');
+      });
+    });
+  });
+</script>
+
+<style>
+  .gallery{display:grid;grid-template-columns:minmax(0,1fr) 5.5rem;gap:1rem;align-items:start}
+  .main-image{aspect-ratio:4/5;display:grid;place-items:center;overflow:hidden;border:1px solid rgb(37 42 38/.1);border-radius:1.25rem;background:#fff}
+  .main-image img{width:100%;height:100%;object-fit:contain}
+  .image-fallback{color:#647067;font-size:.875rem}
+  .thumbnails{display:flex;max-height:min(70vh,42rem);flex-direction:column;gap:.75rem;overflow-y:auto;padding-right:.25rem}
+  .thumbnail{overflow:hidden;border:2px solid transparent;border-radius:.8rem;background:#fff;padding:.2rem;text-align:left;transition:border-color .18s ease,transform .18s ease}
+  .thumbnail:hover{transform:translateY(-1px)}
+  .thumbnail[aria-pressed='true']{border-color:#526a55}
+  .thumbnail img{aspect-ratio:1;width:100%;object-fit:contain}
+  .thumbnail span{display:block;overflow:hidden;padding:.25rem .15rem;font-size:.62rem;line-height:.8rem;color:#5e675f;text-overflow:ellipsis;white-space:nowrap}
+  @media(max-width:640px){.gallery{grid-template-columns:1fr}.thumbnails{order:2;max-height:none;flex-direction:row;overflow-x:auto}.thumbnail{min-width:4.5rem;width:4.5rem}}
+</style>

@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import ProductCard from '~/components/ouooo/ProductCard.astro';
-import { products } from '~/data/products';
+import { collections, products } from '~/data/products';
 const metadata = { title: 'Wholesale Catholic Gifts & Religious Accessories', description: 'Browse OUOOO wholesale Catholic gifts, devotional jewelry, religious ornaments, and accessories sourced for international buyers.' };
 ---
 <Layout metadata={metadata}>
@@ -13,6 +13,9 @@ const metadata = { title: 'Wholesale Catholic Gifts & Religious Accessories', de
     </div>
   </header>
   <section class="mx-auto max-w-7xl px-6 py-16">
+    <nav class="mb-10 flex flex-wrap gap-3" aria-label="Product collections">
+      {collections.map((collection) => <a class="rounded-full border border-black/15 px-4 py-2 text-sm font-medium text-gray-800 transition hover:border-primary hover:text-primary" href={`/collections/${collection.slug}`}>{collection.name} <span class="text-muted">({collection.products.length})</span></a>)}
+    </nav>
     <p class="mb-10 text-sm text-muted">Showing {products.length} synchronized products</p>
     <div class="grid gap-x-7 gap-y-14 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">{products.map((product) => <ProductCard product={product} />)}</div>
   </section>

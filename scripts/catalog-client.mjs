@@ -6,6 +6,8 @@ const baseUrl = (process.env.MECRT_CATALOG_URL || '').replace(/\/$/, '');
 const secret = process.env.MECRT_CATALOG_BRIDGE_SECRET || '';
 const outputFile = resolve(process.env.MECRT_CATALOG_OUTPUT || 'src/data/catalog-index.json');
 const maxAttempts = 5;
+const requestedLimit = Number.parseInt(process.env.MECRT_CATALOG_SYNC_LIMIT || '0', 10);
+const syncLimit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : 0;
 
 if (!baseUrl || secret.length < 32) {
   throw new Error('MECRT_CATALOG_URL and a 32+ character MECRT_CATALOG_BRIDGE_SECRET are required.');
@@ -59,25 +61,41 @@ async function fetchIndex() {
   const all = new Map();
   let page = 1;
   let totalPages = 1;
+  let sourceTotal = 0;
   do {
-    const pageSize = 100;
+    const remaining = syncLimit ? syncLimit - all.size : 100;
+    const pageSize = Math.min(100, remaining);
     const modifiedAfter = '';
     const body = { page, page_size: pageSize, modified_after: modifiedAfter };
     const payload = `${page}\n${pageSize}\n${modifiedAfter}`;
     const data = await signedPost('/wp-json/mecrt-catalog/v1/products', body, payload);
+    sourceTotal = Number(data.total || 0);
     totalPages = Math.max(1, Number(data.total_pages || 1));
     for (const product of data.products || []) {
       if (!product?.source_id) throw new Error(`Product on page ${page} has no source_id.`);
       all.set(String(product.source_id), product);
+      if (syncLimit && all.size >= syncLimit) break;
     }
     page += 1;
-  } while (page <= totalPages);
+  } while (page <= totalPages && (!syncLimit || all.size < syncLimit));
+
+  const products = [];
+  for (const summary of all.values()) {
+    const identifierType = 'source_id';
+    const identifier = String(summary.source_id);
+    const body = { identifier, identifier_type: identifierType };
+    const payload = `${identifierType}\n${identifier}`;
+    const data = await signedPost('/wp-json/mecrt-catalog/v1/product', body, payload);
+    if (!data?.product) throw new Error(`Product detail missing for source_id ${identifier}.`);
+    products.push(data.product);
+  }
 
   return {
     schema_version: '1.0',
     synchronized_at: new Date().toISOString(),
-    total: all.size,
-    products: [...all.values()],
+    source_total: sourceTotal,
+    total: products.length,
+    products,
   };
 }
 

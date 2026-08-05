@@ -1,0 +1,61 @@
+name: Catalog sync test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: catalog-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Synchronize catalog index
+        env:
+          MECRT_CATALOG_URL: ${{ secrets.MECRT_CATALOG_URL }}
+          MECRT_CATALOG_BRIDGE_SECRET: ${{ secrets.MECRT_CATALOG_BRIDGE_SECRET }}
+          MECRT_CATALOG_SYNC_LIMIT: 5
+        run: npm run sync:catalog
+
+      - name: Validate synchronized catalog
+        shell: bash
+        run: |
+          node --input-type=module -e "import data from './src/data/catalog-index.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.total !== data.products.length || data.total < 1) throw new Error('Invalid catalog output'); console.log('Validated products:', data.total);"
+
+      - name: Rewrite catalog with DeepSeek
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: deepseek-v4-flash
+        run: npm run enrich:catalog
+
+      - name: Validate enriched catalog
+        shell: bash
+        run: |
+          node --input-type=module -e "import data from './src/data/enriched-catalog.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.products.length !== 5 || data.products.some((item) => !item.ai?.title || !item.ai?.description)) throw new Error('Invalid enriched catalog output'); console.log('Validated AI products:', data.products.length);"
+
+      - name: Upload catalog artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mecrt-catalog-index
+          path: |
+            src/data/catalog-index.json
+            src/data/enriched-catalog.json
+          if-no-files-found: error
+          retention-days: 7

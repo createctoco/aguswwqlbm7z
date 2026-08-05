@@ -4,6 +4,7 @@ import { resolve } from 'node:path';
 const inputFile = resolve(process.env.OUOOO_ENRICHED_OUTPUT || 'src/data/enriched-catalog.json');
 const outputFile = resolve(process.env.OUOOO_SITE_CATALOG_OUTPUT || 'src/data/site-catalog.json');
 const accents = ['#8b6b4a', '#6f7c72', '#9a6b63', '#7a6d92', '#8a7b55', '#6d7887'];
+const unsuitableClaim = /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
 
 function slugify(value) {
   return String(value)
@@ -32,8 +33,37 @@ function variantImageList(product) {
 }
 
 function buyerFaq(items) {
-  const unsuitable = /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
-  return (items || []).filter(({ question = '', answer = '' }) => !unsuitable.test(`${question} ${answer}`));
+  return (items || []).filter(({ question = '', answer = '' }) => !unsuitableClaim.test(`${question} ${answer}`));
+}
+
+function cleanEditorialText(value) {
+  return String(value || '')
+    .split(/\n+/)
+    .map((paragraph) => paragraph.split(/(?<=[.!?])\s+/).filter((sentence) => !unsuitableClaim.test(sentence)).join(' '))
+    .filter(Boolean)
+    .join('\n\n');
+}
+
+function structuredData(product, faq) {
+  const data = structuredClone(product.structured_data || {});
+  if (data.product) {
+    data.product.name = product.ai.title;
+    data.product.description = product.ai.meta_description || product.ai.short_description;
+  }
+  if (faq.length) {
+    data.faq = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faq.map(({ question, answer }) => ({
+        '@type': 'Question',
+        name: question,
+        acceptedAnswer: { '@type': 'Answer', text: answer },
+      })),
+    };
+  } else {
+    delete data.faq;
+  }
+  return data;
 }
 
 function categoryList(product) {
@@ -52,6 +82,7 @@ function categoryList(product) {
 function mapProduct(product, index) {
   const gallery = imageList(product);
   const variantImages = variantImageList(product);
+  const faq = buyerFaq(product.ai.faq);
   const suffix = String(product.source_id).slice(-6).toLowerCase();
   return {
     sourceId: String(product.source_id),
@@ -59,7 +90,7 @@ function mapProduct(product, index) {
     title: product.ai.title,
     eyebrow: product.ai.product_type,
     summary: product.ai.short_description,
-    description: product.ai.description,
+    description: cleanEditorialText(product.ai.description),
     catholicContext: product.ai.catholic_context,
     catholicRelevance: product.ai.catholic_relevance,
     categories: categoryList(product),
@@ -72,8 +103,8 @@ function mapProduct(product, index) {
     features: product.ai.key_features || [],
     specifications: (product.ai.specifications || []).map(({ name, value }) => ({ name, value })),
     applications: product.ai.applications || [],
-    faq: buyerFaq(product.ai.faq),
-    structuredData: product.structured_data,
+    faq,
+    structuredData: structuredData(product, faq),
   };
 }
 

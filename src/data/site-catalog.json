@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T19:14:46.400Z",
+  "generatedAt": "2026-08-05T19:33:22.010Z",
   "products": [
     {
       "sourceId": "AAFOTG7BAOVioqqEY6emD3Ij",
@@ -195,7 +195,7 @@
       "title": "Plastic Our Lady Pendant Ornament in Five Variants",
       "eyebrow": "Our Lady pendant ornament",
       "summary": "A plastic pendant ornament featuring Our Lady, available in five variants (01–05). Suitable for home decoration, this piece brings a Marian accent to Catholic-themed spaces.",
-      "description": "This Our Lady pendant ornament shows the Virgin Mary in a compact plastic form, offered in five variants (01–05) so you can choose the finish that fits your decor. The piece is designed as a hanging decoration, meant to be displayed in a home or similar setting.\n\nThe ornament's plastic construction keeps it lightweight, and its small scale suits placement on a wall, shelf, or niche. Each variant offers a distinct visual take on the same Marian subject, giving you flexibility when sourcing for retail or personal use.\n\nBecause the source lists it under 'Ornaments' and describes it as an atmosphere decoration, treat it as a devotional accessory rather than a liturgical item. It is not described as blessed or consecrated, and no such claim is implied here.",
+      "description": "This Our Lady pendant ornament shows the Virgin Mary in a compact plastic form, offered in five variants (01–05) so you can choose the finish that fits your decor. The piece is designed as a hanging decoration, meant to be displayed in a home or similar setting.\n\nThe ornament's plastic construction keeps it lightweight, and its small scale suits placement on a wall, shelf, or niche. Each variant offers a distinct visual take on the same Marian subject, giving you flexibility when sourcing for retail or personal use.\n\nBecause the source lists it under 'Ornaments' and describes it as an atmosphere decoration, treat it as a devotional accessory rather than a liturgical item.",
       "catholicContext": "Our Lady is an English Catholic title for the Virgin Mary.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -475,7 +475,20 @@
           "question": "Can this keychain be used as a gift for various occasions?",
           "answer": "Yes, its classic design makes it suitable for events like birthdays, Christmas, weddings, and more, as listed in its applications."
         },
-    …557 tokens truncated…tion",
+        {
+          "question": "Is the keychain reusable?",
+          "answer": "Yes,…459 tokens truncated…             "@type": "PropertyValue",
+              "name": "Place of Origin",
+              "value": "CN;ZHE"
+            }
+          ]
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
               "name": "What material is this keychain made of?",
               "acceptedAnswer": {
                 "@type": "Answer",
@@ -658,14 +671,6 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "The cross is offered in two variants: black walnut with black heart, and olive wood with black heart."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is this product blessed or consecrated?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "There is no indication that this product is blessed or consecrated."
               }
             }
           ]

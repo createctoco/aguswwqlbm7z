@@ -60,8 +60,8 @@ async function signedPost(route, body, payload) {
 async function fetchIndex() {
   const all = new Map();
   let page = 1;
-  let totalPages = 1;
-  let sourceTotal = 0;
+  let totalPages;
+  let sourceTotal;
   do {
     const remaining = syncLimit ? syncLimit - all.size : 100;
     const pageSize = Math.min(100, remaining);

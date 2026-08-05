@@ -48,7 +48,7 @@ jobs:
       - name: Validate enriched catalog
         shell: bash
         run: |
-          node --input-type=module -e "import data from './src/data/enriched-catalog.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.products.length !== 5 || data.products.some((item) => !item.ai?.title || !item.ai?.description)) throw new Error('Invalid enriched catalog output'); console.log('Validated AI products:', data.products.length);"
+          node --input-type=module -e "import data from './src/data/enriched-catalog.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.products.length !== 5 || data.products.some((item) => !item.ai?.title || !item.ai?.description || !item.structured_data?.product)) throw new Error('Invalid enriched catalog output'); console.log('Validated products:', data.products.length, 'AI generated:', data.enrichment_summary.generated, 'source fallback:', data.enrichment_summary.source_fallback);"
 
       - name: Upload catalog artifact
         uses: actions/upload-artifact@v4

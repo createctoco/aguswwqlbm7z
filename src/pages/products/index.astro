@@ -1,0 +1,11 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import ProductCard from '~/components/ouooo/ProductCard.astro';
+import { products } from '~/data/products';
+const metadata = { title: 'Product Catalog', description: 'Browse Ouooo rosaries, devotional jewelry, and custom religious gift concepts.' };
+---
+<Layout metadata={metadata}>
+  <header class="bg-[#f6f1e8]"><div class="mx-auto max-w-7xl px-6 py-16"><p class="text-xs font-bold uppercase tracking-[.2em] text-primary">Product catalog</p><h1 class="mt-4 font-serif text-5xl text-gray-950">Find the right piece for your market.</h1><p class="mt-5 max-w-2xl text-lg leading-8 text-muted">Browse by material, style, occasion, and customization potential. Demo products will be replaced by synchronized catalog data.</p></div></header>
+  <section class="mx-auto max-w-7xl px-6 py-16"><div class="mb-10 flex flex-wrap gap-3">{['All products','Wood','Glass','Stone','Bracelets','Ceremony gifts'].map((item,index)=><button class:list={['rounded-full border px-5 py-2 text-sm', index===0?'border-primary bg-primary text-white':'border-black/15 text-gray-700']}>{item}</button>)}</div><div class="grid gap-x-7 gap-y-14 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">{products.map((product)=><ProductCard product={product}/>)}</div></section>
+</Layout>
+

@@ -1,0 +1,21 @@
+---
+interface Props { accent: string; label?: string; large?: boolean }
+const { accent, label = 'Product image placeholder', large = false } = Astro.props;
+---
+<div class:list={['product-visual', { large }]} style={`--bead:${accent}`} role="img" aria-label={label}>
+  <div class="strand" aria-hidden="true">
+    {Array.from({ length: large ? 13 : 9 }).map((_, index) => <i style={`--i:${index}`}></i>)}
+    <b></b>
+  </div>
+</div>
+
+<style>
+  .product-visual{aspect-ratio:4/5;border-radius:1.25rem;background:linear-gradient(145deg,#fff 0%,#f3eee5 100%);display:grid;place-items:center;overflow:hidden;border:1px solid rgb(37 42 38 / .08)}
+  .strand{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;width:72%;gap:.35rem;transform:rotate(-8deg)}
+  i{display:block;width:clamp(1rem,3vw,1.8rem);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 30% 25%,#fff9 0 12%,var(--bead) 52%,color-mix(in srgb,var(--bead),#000 24%) 100%);box-shadow:0 3px 8px #2c221522}
+  b{display:block;width:2.2rem;height:3.5rem;margin:.2rem 42%;position:relative}
+  b:before,b:after{content:'';position:absolute;background:color-mix(in srgb,var(--bead),#000 28%);border-radius:4px}
+  b:before{width:.55rem;height:3.3rem;left:.82rem}.strand b:after{width:2.2rem;height:.55rem;left:0;top:.8rem}
+  .large .strand{width:64%;gap:.55rem}.large i{width:clamp(1.45rem,4vw,2.5rem)}
+</style>
+

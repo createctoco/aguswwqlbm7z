@@ -1,0 +1,44 @@
+site:
+  name: Ouooo
+  site: 'https://ouooo.com'
+  base: '/'
+  trailingSlash: false
+  googleSiteVerificationId: false
+
+metadata:
+  title:
+    default: Ouooo — Wholesale Rosaries & Custom Religious Gifts
+    template: '%s — Ouooo'
+  description: 'A curated sourcing catalog for wholesale rosaries, devotional jewelry, and custom religious gifts.'
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    site_name: Ouooo
+    type: website
+  twitter:
+    cardType: summary_large_image
+
+i18n:
+  language: en
+  textDirection: ltr
+
+apps:
+  blog:
+    isEnabled: false
+    postsPerPage: 8
+    post: { isEnabled: false, permalink: '/guides/%slug%', robots: { index: true } }
+    list: { isEnabled: false, pathname: 'guides', robots: { index: true } }
+    category: { isEnabled: false, pathname: 'category', robots: { index: false } }
+    tag: { isEnabled: false, pathname: 'tag', robots: { index: false } }
+    isRelatedPostsEnabled: false
+    relatedPostsCount: 3
+
+analytics:
+  vendors:
+    googleAnalytics:
+      id: null
+
+ui:
+  theme: 'light:only'
+

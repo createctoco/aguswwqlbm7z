@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "policy": [
+    "Use Catholic context only when the product title, category, description, attributes, or verified imagery supports it.",
+    "Religious merchandise must not be described as blessed, consecrated, miraculous, protective, grace-giving, Church-approved, or liturgical unless the source explicitly and verifiably establishes that fact.",
+    "A devotional article is not automatically a sacramental. A blessing is a separate ecclesial act and must never be inferred from the object itself.",
+    "Do not force Catholic keywords onto a generic accessory. Return catholic_relevance as none when evidence is absent or ambiguous.",
+    "Distinguish a cross from a crucifix: use crucifix only when the corpus of Christ is explicitly present or verified."
+  ],
+  "entries": [
+    {
+      "id": "rosary",
+      "keywords": ["rosary", "rosario", "rosary beads"],
+      "safe_context": [
+        "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+        "The traditional Rosary mysteries are grouped as Joyful, Luminous, Sorrowful, and Glorious.",
+        "Describe bead count, centerpiece, crucifix, material, and construction only when those details are present in the product facts."
+      ],
+      "source": "https://press.vatican.va/special/rosary/documents/misteri_en.html"
+    },
+    {
+      "id": "popular-devotion",
+      "keywords": ["medal", "religious jewelry", "devotional", "saint", "catholic"],
+      "safe_context": [
+        "The Catholic Catechism lists the Rosary and medals among forms of popular piety surrounding sacramental life.",
+        "Popular devotions extend but do not replace the Church's liturgical life.",
+        "Do not call an unblessed retail object a sacramental or imply spiritual effects."
+      ],
+      "source": "https://www.vatican.va/content/catechism/en/part_two/section_two/chapter_four/article_1.html"
+    },
+    {
+      "id": "marian",
+      "keywords": ["virgin mary", "our lady", "madonna", "guadalupe", "marian"],
+      "safe_context": [
+        "Marian refers to the Virgin Mary in Christian and Catholic context.",
+        "Our Lady is an English Catholic title for the Virgin Mary.",
+        "If the source uses an unclear phrase such as Our Lady of Jesus, do not invent a specific Marian title; prefer a precise generic term such as Marian pendant when supported."
+      ],
+      "source": "https://www.vatican.va/content/john-paul-ii/en/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
+    },
+    {
+      "id": "cross-crucifix",
+      "keywords": ["cross", "crucifix", "corpus"],
+      "safe_context": [
+        "Cross and crucifix are not interchangeable product terms.",
+        "A crucifix depicts Christ on the cross; a plain cross does not.",
+        "Use the more specific term only when the product facts or verified image support it."
+      ],
+      "source": "https://www.vatican.va/content/catechism/en/part_two/section_two/chapter_four/article_1.html"
+    },
+    {
+      "id": "sacramentals",
+      "keywords": ["blessed", "blessing", "sacramental"],
+      "safe_context": [
+        "Catholic sacramentals are sacred signs instituted by the Church and include blessings.",
+        "Sacramentals do not confer grace in the same way as the sacraments.",
+        "Never infer that a product has been blessed, consecrated, or reserved for liturgical use."
+      ],
+      "source": "https://www.vatican.va/content/catechism/en/part_two/section_two/chapter_four/article_1.html"
+    },
+    {
+      "id": "first-communion",
+      "keywords": ["first communion", "holy communion", "eucharist"],
+      "safe_context": [
+        "First Communion refers to a person's first reception of Holy Communion.",
+        "Describe a product as a First Communion gift or accessory only when that use is explicit in the source facts."
+      ],
+      "source": "https://www.vatican.va/archive/ENG0015/__P3W.HTM"
+    }
+  ]
+}

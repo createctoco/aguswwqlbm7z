@@ -6,12 +6,20 @@ const apiKey = process.env.DEEPSEEK_API_KEY || '';
 const model = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
 const inputFile = resolve(process.env.MECRT_CATALOG_OUTPUT || 'src/data/catalog-index.json');
 const outputFile = resolve(process.env.OUOOO_ENRICHED_OUTPUT || 'src/data/enriched-catalog.json');
+const knowledgeFile = resolve(process.env.CATHOLIC_KNOWLEDGE_FILE || 'src/data/catholic-knowledge.json');
 const maxAttempts = 4;
 
 if (!apiKey) throw new Error('DEEPSEEK_API_KEY is required.');
 
 const sleep = (milliseconds) => new Promise((resolvePromise) => setTimeout(resolvePromise, milliseconds));
 const plainText = (value = '') => String(value).replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+const wordCount = (value = '') => plainText(value).split(/\s+/).filter(Boolean).length;
+const shortenTitle = (value, maximum = 65) => {
+  const title = plainText(value);
+  if (title.length <= maximum) return title;
+  const shortened = title.slice(0, maximum + 1).replace(/\s+\S*$/, '').replace(/[\s,;:-]+$/, '');
+  return shortened || title.slice(0, maximum);
+};
 const editorialProfiles = [
   ['buyer-first', 'Open with the buyer decision this product helps with, then move into concrete specifications.'],
   ['materials-first', 'Open with the verified material or visible construction, then explain practical sourcing considerations.'],
@@ -65,7 +73,13 @@ function productFacts(product) {
   };
 }
 
-function sourceFallback(product, profile, error) {
+function catholicContext(facts, knowledge) {
+  const searchable = JSON.stringify(facts).toLowerCase();
+  const entries = knowledge.entries.filter(({ keywords }) => keywords.some((keyword) => searchable.includes(keyword)));
+  return { applicable: entries.length > 0, policy: knowledge.policy, entries: entries.slice(0, 4) };
+}
+
+function sourceFallback(product, profile, error, catholicKnowledge) {
   const facts = productFacts(product);
   const sourceDescription = facts.original_description || facts.original_short_description || facts.original_title;
   const specifications = facts.attributes
@@ -74,7 +88,9 @@ function sourceFallback(product, profile, error) {
   return {
     product_type: facts.categories[0] || 'Product',
     primary_topic: facts.original_title,
-    title: facts.original_title,
+    catholic_relevance: catholicKnowledge.applicable ? 'devotional_context' : 'none',
+    catholic_context: '',
+    title: shortenTitle(facts.original_title),
     meta_description: sourceDescription.slice(0, 180),
     short_description: facts.original_short_description || sourceDescription,
     description: sourceDescription,
@@ -122,14 +138,17 @@ function structuredData(product, content) {
   return { product: productSchema, ...(faqSchema ? { faq: faqSchema } : {}) };
 }
 
-function validateContent(content, product, previousOutputs, profile) {
+function validateContent(content, product, previousOutputs, profile, catholicKnowledge) {
   if (!content || typeof content !== 'object') throw new Error('DeepSeek returned invalid JSON.');
-  const requiredStrings = ['product_type', 'primary_topic', 'title', 'meta_description', 'short_description', 'description'];
+  const requiredStrings = ['product_type', 'primary_topic', 'catholic_relevance', 'catholic_context', 'title', 'meta_description', 'short_description', 'description'];
   for (const key of requiredStrings) {
     if (typeof content[key] !== 'string' || !content[key].trim()) throw new Error(`DeepSeek field ${key} is missing.`);
   }
-  if (content.title.length < 40 || content.title.length > 80) throw new Error('DeepSeek title must be 40 to 80 characters.');
-  if (content.meta_description.length < 120 || content.meta_description.length > 180) throw new Error('DeepSeek meta description must be 120 to 180 characters.');
+  if (content.title.length < 25 || content.title.length > 65) throw new Error('DeepSeek title must be 25 to 65 characters.');
+  if (content.meta_description.length < 120 || content.meta_description.length > 165) throw new Error('DeepSeek meta description must be 120 to 165 characters.');
+  if (wordCount(content.description) < 60 || wordCount(content.description) > 180) {
+    throw new Error('DeepSeek description must be 60 to 180 words.');
+  }
   if (!Array.isArray(content.key_features) || content.key_features.length < 2 || content.key_features.length > 8) {
     throw new Error('DeepSeek key_features must contain 2 to 8 items.');
   }
@@ -138,6 +157,15 @@ function validateContent(content, product, previousOutputs, profile) {
   }
   if (!Array.isArray(content.specifications)) throw new Error('DeepSeek specifications must be an array.');
   if (!Array.isArray(content.applications)) throw new Error('DeepSeek applications must be an array.');
+  if (!['explicit', 'devotional_context', 'none'].includes(content.catholic_relevance)) {
+    throw new Error('DeepSeek catholic_relevance is invalid.');
+  }
+  if (!catholicKnowledge.applicable && (content.catholic_relevance !== 'none' || content.catholic_context.trim() !== '')) {
+    throw new Error('DeepSeek added Catholic context to a non-Catholic product.');
+  }
+  if (catholicKnowledge.applicable && content.catholic_relevance === 'none') {
+    throw new Error('DeepSeek omitted Catholic relevance supported by the product facts.');
+  }
   const combined = [content.title, content.meta_description, content.short_description, content.description, ...content.key_features].join(' ');
   if (forbiddenPhrases.test(combined)) throw new Error('DeepSeek used a formulaic AI marketing phrase.');
   for (const previous of previousOutputs) {
@@ -154,10 +182,11 @@ function validateContent(content, product, previousOutputs, profile) {
   };
 }
 
-async function rewriteProduct(product, previousOutputs, profile) {
+async function rewriteProduct(product, previousOutputs, profile, knowledge) {
   const facts = productFacts(product);
+  const catholicKnowledge = catholicContext(facts, knowledge);
   const [profileName, profileDirection] = profile;
-  const system = `You are a senior English B2B catalog editor for OUOOO, an independent sourcing website. First identify what the product actually is from its original title, categories, attributes, and descriptions; then write the copy. Return only a valid JSON object. Write genuinely useful copy for human wholesale buyers, conventional search engines, and answer engines. Ground every statement in the supplied facts. Never mention Mecrt, Alibaba, the source website, copying, or rewriting. Never invent materials, dimensions, certifications, MOQ, lead time, country of origin, stock, pricing, customization, audiences, occasions, benefits, or performance claims. If a fact is absent, omit it.\n\nSEO: express one clear product topic naturally in the title and opening; use specific entity-attribute-value language; keep related terms natural; avoid keyword stuffing and near-duplicate boilerplate.\nGEO: make factual answers self-contained and quotable; use direct answers in FAQ; name the product before pronouns; preserve concrete specifications and distinctions.\nHuman style: vary sentence length and paragraph rhythm; prefer plain, precise words; do not use hype, generic scene-setting, symmetrical list prose, repetitive transitions, or phrases such as “elevate,” “perfect blend,” “whether you're,” “meticulously crafted,” “testament to,” and “look no further.” Do not give every product the same opening or section order.\n\nAssigned editorial profile: ${profileName}. ${profileDirection}\n\nThe JSON must have exactly this structure: {"product_type":"specific product identity","primary_topic":"natural primary search topic","title":"40-80 character natural buyer-focused title","meta_description":"120-180 character factual summary","short_description":"one concise paragraph","description":"three to five varied factual paragraphs separated by newline characters","key_features":["specific verified fact"],"specifications":[{"name":"verified attribute","value":"verified value"}],"applications":["verified use only"],"faq":[{"question":"real buyer question","answer":"direct answer based only on supplied facts"}]}.`;
+  const system = `You are a senior English B2B catalog editor for OUOOO, an independent Catholic-gift sourcing website. First identify what the product actually is from its original title, categories, attributes, and descriptions; then write the copy. Return only a valid JSON object. Write genuinely useful copy for human wholesale buyers, conventional search engines, and answer engines. Ground every product statement in the supplied product facts. The separate Catholic knowledge is context, not evidence that this particular product has a feature. Never mention Mecrt, Alibaba, the source website, copying, or rewriting. Never invent materials, dimensions, certifications, MOQ, lead time, country of origin, stock, pricing, customization, audiences, occasions, benefits, blessings, spiritual effects, Church approval, or performance claims. If a fact is absent, omit it. Do not force Catholic language onto an item whose product facts do not establish Catholic relevance.\n\nSEO: use a short, specific product name as the title; express one clear product topic naturally in the opening; use specific entity-attribute-value language; keep related terms natural; avoid keyword stuffing and near-duplicate boilerplate.\nGEO: put most factual content into structured fields: key_features, specifications, applications, catholic_context, and FAQ. Make answers self-contained and quotable; name the product before pronouns; preserve concrete specifications and distinctions. Include Catholic context only when relevance is explicit and the supplied knowledge supports it.\nHuman style: keep the prose description concise; vary sentence length and paragraph rhythm; prefer plain, precise words; do not use hype, generic scene-setting, symmetrical list prose, repetitive transitions, or phrases such as “elevate,” “perfect blend,” “whether you're,” “meticulously crafted,” “testament to,” and “look no further.” Do not give every product the same opening or section order.\n\nAssigned editorial profile: ${profileName}. ${profileDirection}\n\nThe JSON must have exactly this structure: {"product_type":"specific product identity","primary_topic":"natural primary search topic","catholic_relevance":"explicit, devotional_context, or none","catholic_context":"one concise verified contextual sentence, or empty string when none","title":"25-65 character product name, preferably 4-10 words","meta_description":"120-165 character factual summary","short_description":"one concise 35-75 word paragraph","description":"one to three varied factual paragraphs totaling 60-180 words","key_features":["specific verified fact"],"specifications":[{"name":"verified attribute","value":"verified value"}],"applications":["verified use only"],"faq":[{"question":"real buyer question","answer":"direct answer based only on supplied facts"}]}.`;
 
   let lastError;
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
@@ -168,7 +197,7 @@ async function rewriteProduct(product, previousOutputs, profile) {
         model,
         messages: [
           { role: 'system', content: system },
-          { role: 'user', content: `Create the JSON product copy from these facts. Revision attempt ${attempt}; avoid formulaic overlap with other catalog entries.\n${JSON.stringify(facts)}` },
+          { role: 'user', content: `Create the JSON product copy from these product facts and the controlled Catholic context. Revision attempt ${attempt}; avoid formulaic overlap with other catalog entries.\nPRODUCT FACTS:\n${JSON.stringify(facts)}\nCATHOLIC CONTEXT:\n${JSON.stringify(catholicKnowledge)}` },
         ],
         response_format: { type: 'json_object' },
         thinking: { type: 'disabled' },
@@ -189,7 +218,7 @@ async function rewriteProduct(product, previousOutputs, profile) {
       }
       const raw = data?.choices?.[0]?.message?.content;
       if (!raw) throw new Error('DeepSeek returned empty content.');
-      return validateContent(JSON.parse(raw), product, previousOutputs, profile);
+      return validateContent(JSON.parse(raw), product, previousOutputs, profile, catholicKnowledge);
     } catch (error) {
       lastError = error;
       if (error instanceof Error && /rejected the request/.test(error.message)) break;
@@ -199,19 +228,20 @@ async function rewriteProduct(product, previousOutputs, profile) {
     }
   }
   process.stderr.write(`DeepSeek fallback for source_id ${product.source_id}: ${lastError instanceof Error ? lastError.message : 'unknown error'}\n`);
-  return sourceFallback(product, profile, lastError);
+  return sourceFallback(product, profile, lastError, catholicKnowledge);
 }
 
 const temporaryFile = `${outputFile}.tmp-${process.pid}`;
 try {
   const catalog = JSON.parse(await readFile(inputFile, 'utf8'));
+  const knowledge = JSON.parse(await readFile(knowledgeFile, 'utf8'));
   if (!Array.isArray(catalog.products) || catalog.products.length < 1) throw new Error('Catalog input is empty or invalid.');
   const products = [];
   const profileCounts = editorialProfiles.map(() => 0);
   for (const product of catalog.products) {
     process.stdout.write(`Rewriting product ${products.length + 1}/${catalog.products.length}...\n`);
     const profile = balancedEditorialProfile(product, profileCounts);
-    const ai = await rewriteProduct(product, products.map(({ ai: previous }) => previous), profile);
+    const ai = await rewriteProduct(product, products.map(({ ai: previous }) => previous), profile, knowledge);
     products.push({ ...product, ai, structured_data: structuredData(product, ai) });
   }
   const generated = products.filter(({ ai }) => ai.enrichment_status === 'generated').length;

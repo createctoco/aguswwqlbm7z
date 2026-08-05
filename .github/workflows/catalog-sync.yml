@@ -50,6 +50,9 @@ jobs:
         run: |
           node --input-type=module -e "import data from './src/data/enriched-catalog.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.products.length !== 5 || data.products.some((item) => !item.ai?.title || !item.ai?.description || !item.structured_data?.product)) throw new Error('Invalid enriched catalog output'); console.log('Validated products:', data.products.length, 'AI generated:', data.enrichment_summary.generated, 'source fallback:', data.enrichment_summary.source_fallback);"
 
+      - name: Prepare minimal static-site catalog
+        run: npm run prepare:catalog
+
       - name: Upload catalog artifact
         uses: actions/upload-artifact@v4
         with:
@@ -57,5 +60,6 @@ jobs:
           path: |
             src/data/catalog-index.json
             src/data/enriched-catalog.json
+            src/data/site-catalog.json
           if-no-files-found: error
           retention-days: 7

@@ -2,21 +2,56 @@
 import Layout from '~/layouts/PageLayout.astro';
 import ProductVisual from '~/components/ouooo/ProductVisual.astro';
 import ProductCard from '~/components/ouooo/ProductCard.astro';
-import { products } from '~/data/products';
-export function getStaticPaths(){ return products.map(product=>({params:{slug:product.slug},props:{product}})); }
-const { product } = Astro.props;
+import { products, type Product } from '~/data/products';
+
+export function getStaticPaths() {
+  return products.map((product) => ({ params: { slug: product.slug }, props: { product } }));
+}
+
+const { product } = Astro.props as { product: Product };
 const metadata = { title: product.title, description: product.summary };
-const related = products.filter((item)=>item.slug!==product.slug).slice(0,3);
+const related = products.filter((item) => item.slug !== product.slug).slice(0, 3);
+const schemas = Object.values(product.structuredData).filter(Boolean);
+const inquiryUrl = `/contact?product=${encodeURIComponent(product.sku || product.title)}`;
 ---
 <Layout metadata={metadata}>
+  {schemas.map((schema) => <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />)}
   <section class="mx-auto grid max-w-7xl gap-12 px-6 py-14 lg:grid-cols-2 lg:py-20">
-    <ProductVisual large accent={product.accent} label={product.title}/>
-    <div class="lg:py-7"><p class="text-xs font-bold uppercase tracking-[.2em] text-primary">{product.eyebrow}</p><h1 class="mt-4 font-serif text-5xl leading-tight text-gray-950">{product.title}</h1><p class="mt-6 text-lg leading-8 text-muted">{product.summary}</p>
-      <dl class="mt-9 grid grid-cols-2 border-y border-black/10 py-6 text-sm"><div><dt class="text-muted">Material</dt><dd class="mt-1 font-semibold">{product.material}</dd></div><div><dt class="text-muted">Bead size</dt><dd class="mt-1 font-semibold">{product.beadSize}</dd></div><div class="mt-5"><dt class="text-muted">Style</dt><dd class="mt-1 font-semibold">{product.style}</dd></div><div class="mt-5"><dt class="text-muted">Reference</dt><dd class="mt-1 font-semibold">{product.sku}</dd></div></dl>
-      <a href={`/contact?product=${product.sku}`} class="btn-primary mt-8">Request a wholesale quote</a><p class="mt-4 text-xs text-muted">No checkout. Tell us your quantity, market, and customization needs.</p>
+    <ProductVisual large accent={product.accent} label={product.imageAlt} imageUrl={product.imageUrl} />
+    <div class="lg:py-7">
+      <p class="text-xs font-bold uppercase tracking-[.2em] text-primary">{product.eyebrow}</p>
+      <h1 class="mt-4 font-serif text-4xl leading-tight text-gray-950 sm:text-5xl">{product.title}</h1>
+      <p class="mt-6 text-lg leading-8 text-muted">{product.summary}</p>
+      <dl class="mt-9 grid grid-cols-2 gap-5 border-y border-black/10 py-6 text-sm">
+        <div><dt class="text-muted">Reference</dt><dd class="mt-1 break-all font-semibold">{product.sku || product.sourceId}</dd></div>
+        <div><dt class="text-muted">Inquiry type</dt><dd class="mt-1 font-semibold">Wholesale sourcing</dd></div>
+      </dl>
+      <a href={inquiryUrl} class="btn-primary mt-8">Request a wholesale quote</a>
+      <p class="mt-4 text-xs text-muted">No checkout. Tell us your quantity, market, and product requirements.</p>
     </div>
   </section>
-  <section class="bg-[#f6f1e8]"><div class="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-[1fr_1.2fr]"><h2 class="font-serif text-4xl">Product overview</h2><div><p class="text-lg leading-8">Designed as a starting point for a tailored wholesale program, this product can be adapted through materials, colors, medals, and packaging.</p><h3 class="mt-8 font-semibold uppercase tracking-wider">Key possibilities</h3><ul class="mt-4 grid gap-3 sm:grid-cols-2">{product.features.map((feature)=><li class="rounded-xl bg-white p-4">✓ {feature}</li>)}</ul></div></div></section>
-  <section class="mx-auto max-w-7xl px-6 py-20"><h2 class="font-serif text-4xl">Related pieces</h2><div class="mt-9 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{related.map((item)=><ProductCard product={item}/>)}</div></section>
-</Layout>
 
+  <section class="bg-[#f6f1e8]">
+    <div class="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-[.8fr_1.2fr]">
+      <div><p class="text-xs font-bold uppercase tracking-[.2em] text-primary">Product details</p><h2 class="mt-3 font-serif text-4xl">Clear facts for sourcing decisions.</h2></div>
+      <div class="space-y-5 text-base leading-8 text-gray-700">{product.description.split(/\n+/).filter(Boolean).map((paragraph) => <p>{paragraph}</p>)}</div>
+    </div>
+  </section>
+
+  <section class="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2">
+    <div>
+      <h2 class="font-serif text-3xl">Key features</h2>
+      <ul class="mt-6 grid gap-3">{product.features.map((feature) => <li class="rounded-xl border border-black/10 bg-white p-4">✓ {feature}</li>)}</ul>
+      {product.catholicContext && <aside class="mt-8 rounded-2xl bg-[#f6f1e8] p-6"><h3 class="font-semibold">Catholic context</h3><p class="mt-2 leading-7 text-muted">{product.catholicContext}</p></aside>}
+    </div>
+    <div>
+      <h2 class="font-serif text-3xl">Specifications</h2>
+      <dl class="mt-6 divide-y divide-black/10 border-y border-black/10">{product.specifications.map((item) => <div class="grid grid-cols-[.8fr_1.2fr] gap-5 py-4"><dt class="text-muted">{item.name}</dt><dd class="font-medium text-gray-900">{item.value}</dd></div>)}</dl>
+      {product.applications.length > 0 && <><h3 class="mt-9 font-semibold uppercase tracking-wider">Applications</h3><ul class="mt-4 flex flex-wrap gap-2">{product.applications.map((item) => <li class="rounded-full bg-gray-100 px-4 py-2 text-sm">{item}</li>)}</ul></>}
+    </div>
+  </section>
+
+  {product.faq.length > 0 && <section class="border-y border-black/10 bg-white"><div class="mx-auto max-w-4xl px-6 py-16"><h2 class="font-serif text-4xl">Buyer questions</h2><div class="mt-8 divide-y divide-black/10">{product.faq.map((item) => <details class="py-5"><summary class="cursor-pointer font-semibold text-gray-950">{item.question}</summary><p class="mt-3 leading-7 text-muted">{item.answer}</p></details>)}</div></div></section>}
+
+  <section class="mx-auto max-w-7xl px-6 py-20"><h2 class="font-serif text-4xl">Related products</h2><div class="mt-9 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{related.map((item) => <ProductCard product={item} />)}</div></section>
+</Layout>

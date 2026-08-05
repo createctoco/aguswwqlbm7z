@@ -24,24 +24,29 @@ const extraSpecifications = product.specifications.slice(8);
   {schemas.map((schema) => <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />)}
   <section class="mx-auto grid max-w-7xl gap-12 px-6 py-14 lg:grid-cols-2 lg:py-20">
     <ProductGallery product={product} />
-    <div class="lg:py-7">
+    <div class="min-w-0 lg:py-7">
       <nav class="mb-5 flex flex-wrap gap-2" aria-label="Product collections">
         {product.categories.map((category) => <a class="rounded-full border border-black/15 px-3 py-1 text-xs font-semibold text-gray-700 hover:border-primary hover:text-primary" href={`/collections/${category.slug}`}>{category.name}</a>)}
       </nav>
       <p class="text-xs font-bold uppercase tracking-[.2em] text-primary">{product.eyebrow}</p>
-      <h1 class="mt-4 font-serif text-4xl leading-tight text-gray-950 sm:text-5xl">{product.title}</h1>
+      <h1 class="mt-4 text-3xl font-semibold leading-tight tracking-tight text-gray-950 sm:text-4xl">{product.title}</h1>
       <p class="mt-6 text-lg leading-8 text-muted">{product.summary}</p>
-      <dl class="mt-9 grid grid-cols-2 gap-5 border-y border-black/10 py-6 text-sm">
-        <div><dt class="text-muted">Reference</dt><dd class="mt-1 break-all font-semibold">{product.sku || product.sourceId}</dd></div>
-        <div><dt class="text-muted">Inquiry type</dt><dd class="mt-1 font-semibold">Wholesale sourcing</dd></div>
-      </dl>
+      {product.variantImages.length > 0 && <div class="variant-panel">
+        <p class="text-xs font-bold uppercase tracking-[.16em] text-primary">Available variants</p>
+        <div class="variant-strip" aria-label="Product variants">
+          {product.variantImages.map((variant) => <button type="button" class="variant-thumbnail" data-sku-image={variant.url} data-sku-alt={variant.alt} aria-pressed="false" title={variant.label}>
+            <img src={variant.url} alt="" width="80" height="80" loading="lazy" decoding="async" />
+            <span>{variant.label}</span>
+          </button>)}
+        </div>
+      </div>}
       <a href={inquiryUrl} class="btn-primary mt-8">Request a wholesale quote</a>
       <p class="mt-4 text-xs text-muted">Tell us your quantity, target market, and product requirements. We will reply with sourcing details.</p>
     </div>
   </section>
 
   <section class="bg-[#f4f5f2] py-16">
-    <div class="mx-auto grid max-w-7xl items-start gap-6 px-6 md:grid-cols-2">
+    <div class="mx-auto grid max-w-7xl gap-6 px-6 md:grid-cols-2 md:items-stretch">
       <article class="detail-card">
         <p class="card-kicker">Product details</p>
         <h2>Overview</h2>
@@ -76,6 +81,7 @@ const extraSpecifications = product.specifications.slice(8);
 
 <style>
   .detail-card{width:100%;border:1px solid rgb(37 42 38/.09);border-radius:1.25rem;background:#fff;padding:clamp(1.35rem,3vw,2rem);box-shadow:0 12px 34px rgb(36 42 37/.05)}
+  @media(min-width:768px){.detail-card{height:100%}}
   .detail-card h2{margin-top:.35rem;font-family:var(--aw-font-serif,serif);font-size:clamp(1.65rem,3vw,2.15rem);line-height:1.15;color:#171b18}
   .detail-card h3{font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3d493f}
   .card-kicker{font-size:.68rem;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#526a55}
@@ -86,5 +92,10 @@ const extraSpecifications = product.specifications.slice(8);
   .tag{border-radius:999px;background:#eef1ec;padding:.45rem .8rem;font-size:.78rem;color:#485349}
   .spec-row{display:grid;grid-template-columns:minmax(7rem,.8fr) minmax(0,1.2fr);gap:1rem;padding:.75rem 0;font-size:.9rem;line-height:1.45}
   .spec-row dt{color:#6b746c}.spec-row dd{overflow-wrap:anywhere;font-weight:600;color:#252b26}
+  .variant-panel{width:100%;max-width:100%;min-width:0;margin-top:2rem;overflow:hidden;border-block:1px solid rgb(37 42 38/.1);padding-block:1.1rem}
+  .variant-strip{display:flex;width:100%;max-width:100%;min-width:0;gap:.65rem;overflow-x:auto;overflow-y:hidden;padding:.75rem .1rem .35rem;box-sizing:border-box;scrollbar-width:thin;overscroll-behavior-inline:contain}
+  .variant-thumbnail{flex:0 0 4.6rem;width:4.6rem;max-width:4.6rem;overflow:hidden;border:2px solid transparent;border-radius:.75rem;background:#fff;padding:.2rem;text-align:left;transition:border-color .18s ease,transform .18s ease}
+  .variant-thumbnail:hover{transform:translateY(-1px)}.variant-thumbnail[aria-pressed='true']{border-color:#526a55}
+  .variant-thumbnail img{aspect-ratio:1;width:100%;object-fit:contain}.variant-thumbnail span{display:block;overflow:hidden;padding:.25rem .1rem 0;font-size:.64rem;line-height:.85rem;color:#5e675f;text-overflow:ellipsis;white-space:nowrap}
   @media(max-width:520px){.spec-row{grid-template-columns:1fr;gap:.25rem}}
 </style>

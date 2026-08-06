@@ -12,7 +12,7 @@ const metadata = {
   <header class="bg-[#f6f1e8]">
     <div class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
       <p class="text-xs font-bold uppercase tracking-[.2em] text-primary">Browse by series</p>
-      <h1 class="mt-4 max-w-4xl font-serif text-4xl text-gray-950 sm:text-5xl">Catholic gift collections</h1>
+      <h1 class="mt-4 max-w-4xl text-4xl font-semibold text-gray-950 sm:text-5xl">Catholic gift collections</h1>
       <p class="mt-5 max-w-2xl text-base leading-7 text-muted sm:text-lg sm:leading-8">Collections are synchronized from our product catalog, so new product categories appear here automatically.</p>
     </div>
   </header>
@@ -24,7 +24,7 @@ const metadata = {
           <ProductVisual accent={featured.accent} label={collection.name} imageUrl={featured.imageUrl} />
           <div class="px-2 pb-3 pt-5">
             <p class="text-xs font-bold uppercase tracking-[.16em] text-primary">{collection.products.length} {collection.products.length === 1 ? 'product' : 'products'}</p>
-            <h2 class="mt-2 font-serif text-3xl text-gray-950 group-hover:text-primary">{collection.name}</h2>
+            <h2 class="mt-2 text-3xl font-semibold text-gray-950 group-hover:text-primary">{collection.name}</h2>
           </div>
         </a>;
       })}

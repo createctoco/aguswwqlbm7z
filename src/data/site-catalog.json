@@ -78,11 +78,7 @@
           "value": "None"
         }
       ],
-      "applications": [
-        "Jewelry",
-        "Gift for Catholic occasions",
-        "Daily wear accessory"
-      ],
+      "applications": ["Jewelry", "Gift for Catholic occasions", "Daily wear accessory"],
       "faq": [
         {
           "question": "What materials is this ring made of?",
@@ -187,6 +183,22 @@
             }
           ]
         }
+      },
+      "productId": "AAFOTG7BAOVioqqEY6emD3Ij",
+      "locale": "en",
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "4158838b9f2ba3c1659b341c05ec84017db690045d8fe21d09401cd391d86271",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "4158838b9f2ba3c1659b341c05ec84017db690045d8fe21d09401cd391d86271",
+            "contentHash": "4158838b9f2ba3c1659b341c05ec84017db690045d8fe21d09401cd391d86271",
+            "attempts": 0,
+            "updatedAt": "2026-08-05T19:33:22.010Z",
+            "model": "existing-english-catalog"
+          }
+        }
       }
     },
     {
@@ -287,11 +299,7 @@
           "value": "Ornaments"
         }
       ],
-      "applications": [
-        "Home decor",
-        "Catholic-themed decoration",
-        "Marian devotional display"
-      ],
+      "applications": ["Home decor", "Catholic-themed decoration", "Marian devotional display"],
       "faq": [
         {
           "question": "What variants are available for this Our Lady pendant ornament?",
@@ -370,6 +378,22 @@
             }
           ]
         }
+      },
+      "productId": "AAE1TG7BAOVioqqEY6enzCwS",
+      "locale": "en",
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "555160a92fefaf884d8211929bbfcba4b218109713be0ae6266f3cd14096f1f0",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "555160a92fefaf884d8211929bbfcba4b218109713be0ae6266f3cd14096f1f0",
+            "contentHash": "555160a92fefaf884d8211929bbfcba4b218109713be0ae6266f3cd14096f1f0",
+            "attempts": 0,
+            "updatedAt": "2026-08-05T19:33:22.010Z",
+            "model": "existing-english-catalog"
+          }
+        }
       }
     },
     {
@@ -435,83 +459,8 @@
         },
         {
           "name": "Pattern",
-          "value": "Circle"
-        },
-        {
-          "name": "Technique",
-          "value": "Hemp rope"
-        },
-        {
-          "name": "Feature",
-          "value": "Reusable, Durable"
-        },
-        {
-          "name": "Place of Origin",
-          "value": "CN;ZHE"
-        }
-      ],
-      "applications": [
-        "Halloween",
-        "Thanksgiving",
-        "Christmas",
-        "Father's Day",
-        "Birthday",
-        "Easter",
-        "Mother's Day",
-        "National Day",
-        "Anniversary",
-        "Wedding",
-        "Chinese New Year",
-        "New Year",
-        "Back to School",
-        "Graduation"
-      ],
-      "faq": [
-        {
-          "question": "What material is this keychain made of?",
-          "answer": "The keychain features a round wooden pendant with a hemp rope tassel, making it durable and natural in feel."
-        },
-        {
-          "question": "Can this keychain be used as a gift for various occasions?",
-          "answer": "Yes, its classic design makes it suitable for events like birthdays, Christmas, weddings, and more, as listed in its applications."
-        },
-        {
-          "question": "Is the keychain reusable?",
-          "answer": "Yes,…459 tokens truncated…             "@type": "PropertyValue",
-              "name": "Place of Origin",
-              "value": "CN;ZHE"
-            }
-          ]
-        },
-        "faq": {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What material is this keychain made of?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The keychain features a round wooden pendant with a hemp rope tassel, making it durable and natural in feel."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can this keychain be used as a gift for various occasions?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, its classic design makes it suitable for events like birthdays, Christmas, weddings, and more, as listed in its applications."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is the keychain reusable?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, the keychain is designed to be durable and reusable."
-              }
-            }
-          ]
+          "value"…1242 tokens truncated…og"
+          }
         }
       }
     },
@@ -599,11 +548,7 @@
           "value": "Ornaments"
         }
       ],
-      "applications": [
-        "Personal devotional use",
-        "Small ornament for display",
-        "Gift for religious occasions"
-      ],
+      "applications": ["Personal devotional use", "Small ornament for display", "Gift for religious occasions"],
       "faq": [
         {
           "question": "Is this cross a crucifix?",
@@ -674,6 +619,22 @@
               }
             }
           ]
+        }
+      },
+      "productId": "AAEFTG7BAOVioqqEY6eecnZ7",
+      "locale": "en",
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0e141bfd0acc02077cd312859e36c231fc7394473317887901eeec91bede29f3",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0e141bfd0acc02077cd312859e36c231fc7394473317887901eeec91bede29f3",
+            "contentHash": "0e141bfd0acc02077cd312859e36c231fc7394473317887901eeec91bede29f3",
+            "attempts": 0,
+            "updatedAt": "2026-08-05T19:33:22.010Z",
+            "model": "existing-english-catalog"
+          }
         }
       }
     },
@@ -940,7 +901,25 @@
             }
           ]
         }
+      },
+      "productId": "AAEzTG7BAOVioqqEY6eiFmcQ",
+      "locale": "en",
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e8ba027cbe8a7ae61dce7b93c24b5ef3285f1af62b88a2405e89d7964356aff6",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e8ba027cbe8a7ae61dce7b93c24b5ef3285f1af62b88a2405e89d7964356aff6",
+            "contentHash": "e8ba027cbe8a7ae61dce7b93c24b5ef3285f1af62b88a2405e89d7964356aff6",
+            "attempts": 0,
+            "updatedAt": "2026-08-05T19:33:22.010Z",
+            "model": "existing-english-catalog"
+          }
+        }
       }
     }
-  ]
+  ],
+  "schemaVersion": 2,
+  "locale": "en"
 }

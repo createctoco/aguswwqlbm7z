@@ -4,9 +4,10 @@ import { SEO } from 'astro-seo';
 
 import type { SEOProps } from 'astro-seo';
 
-import { SITE, METADATA, I18N } from 'astrowind:config';
+import { SITE, METADATA } from 'astrowind:config';
 import type { MetaData, MetaDataOpenGraph } from '~/types';
 import { getCanonical } from '~/utils/permalinks';
+import { BUILD_LOCALE_CONFIG, getAlternateLanguageLinks } from '~/i18n/config';
 
 import { adaptOpenGraphImages } from '~/utils/images';
 
@@ -20,16 +21,19 @@ const {
   canonical = String(getCanonical(String(Astro.url.pathname))),
   robots = {},
   description,
+  alternates,
   openGraph = {},
   twitter = {},
 } = Astro.props;
+
+const alternateLanguageLinks = alternates || getAlternateLanguageLinks(Astro.url.pathname);
 
 const mergedOg: MetaDataOpenGraph = merge(
   {
     url: canonical,
     siteName: SITE?.name,
     images: [],
-    locale: I18N?.language || 'en',
+    locale: BUILD_LOCALE_CONFIG.openGraphLocale,
     type: 'website',
   },
   METADATA?.openGraph,
@@ -111,3 +115,4 @@ const seoProps: SEOProps = {
 ---
 
 <SEO {...seoProps} />
+{alternateLanguageLinks.map(({ hrefLang, href }) => <link rel="alternate" hreflang={hrefLang} href={href} />)}

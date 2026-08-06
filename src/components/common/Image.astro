@@ -156,6 +156,21 @@ const cdnSrcSet =
   isCdnUrl && cdnWidths?.length
     ? cdnWidths.map((bw) => `${buildCdnUrl(bw, heightFromWidth(bw))} ${bw}w`).join(', ')
     : undefined;
+
+// Astro's native Image props are stricter than this forwarding wrapper. Keep
+// the cast in frontmatter so Astro and ESLint parse the template consistently.
+const astroImageProps = resolved
+  ? ({
+      ...rest,
+      src: resolved,
+      width: w,
+      height: h,
+      alt,
+      widths,
+      format,
+      style: finalStyle,
+    } as unknown as Parameters<typeof AstroImage>[0])
+  : undefined;
 ---
 
 {
@@ -172,21 +187,6 @@ const cdnSrcSet =
       style={finalStyle}
     />
   ) : (
-    /* The native <Image /> typing is overly strict for our forwarding wrapper;
-       we cast through `unknown` once so each call site keeps clean types. */
-    resolved && (
-      <AstroImage
-        {...({
-          ...rest,
-          src: resolved,
-          width: w,
-          height: h,
-          alt,
-          widths,
-          format,
-          style: finalStyle,
-        } as unknown as Parameters<typeof AstroImage>[0])}
-      />
-    )
+    astroImageProps && <AstroImage {...astroImageProps} />
   )
 }

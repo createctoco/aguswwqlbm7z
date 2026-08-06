@@ -1,10 +1,12 @@
+import { createHash } from 'node:crypto';
 import { readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
 const inputFile = resolve(process.env.OUOOO_ENRICHED_OUTPUT || 'src/data/enriched-catalog.json');
 const outputFile = resolve(process.env.OUOOO_SITE_CATALOG_OUTPUT || 'src/data/site-catalog.json');
 const accents = ['#8b6b4a', '#6f7c72', '#9a6b63', '#7a6d92', '#8a7b55', '#6d7887'];
-const unsuitableClaim = /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
+const unsuitableClaim =
+  /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
 
 function slugify(value) {
   return String(value)
@@ -13,6 +15,34 @@ function slugify(value) {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
     .slice(0, 64);
+}
+
+function stableSerialize(value) {
+  if (Array.isArray(value)) return `[${value.map(stableSerialize).join(',')}]`;
+  if (value && typeof value === 'object') {
+    return `{${Object.keys(value)
+      .sort()
+      .map((key) => `${JSON.stringify(key)}:${stableSerialize(value[key])}`)
+      .join(',')}}`;
+  }
+  return JSON.stringify(value);
+}
+
+function sourceContentHash(product) {
+  const content = {
+    title: product.ai.title,
+    productType: product.ai.product_type,
+    summary: product.ai.short_description,
+    description: product.ai.description,
+    catholicContext: product.ai.catholic_context,
+    catholicRelevance: product.ai.catholic_relevance,
+    categories: product.categories,
+    features: product.ai.key_features,
+    specifications: product.ai.specifications,
+    applications: product.ai.applications,
+    faq: product.ai.faq,
+  };
+  return createHash('sha256').update(stableSerialize(content)).digest('hex');
 }
 
 function imageList(product) {
@@ -27,7 +57,12 @@ function variantImageList(product) {
     const url = variation.image?.url || variation.image?.source_url || '';
     if (!url || seen.has(url)) return [];
     seen.add(url);
-    const label = Object.values(variation.attributes || {}).filter(Boolean).join(' / ') || variation.sku || 'Variant';
+    const label =
+      Object.values(variation.attributes || {})
+        .filter(Boolean)
+        .join(' / ') ||
+      variation.sku ||
+      'Variant';
     return [{ url, alt: `${product.ai.title} - ${label}`, label, sku: variation.sku || '' }];
   });
 }
@@ -39,7 +74,12 @@ function buyerFaq(items) {
 function cleanEditorialText(value) {
   return String(value || '')
     .split(/\n+/)
-    .map((paragraph) => paragraph.split(/(?<=[.!?])\s+/).filter((sentence) => !unsuitableClaim.test(sentence)).join(' '))
+    .map((paragraph) =>
+      paragraph
+        .split(/(?<=[.!?])\s+/)
+        .filter((sentence) => !unsuitableClaim.test(sentence))
+        .join(' ')
+    )
     .filter(Boolean)
     .join('\n\n');
 }
@@ -76,17 +116,24 @@ function categoryList(product) {
     seen.add(slug);
     return [{ id: String(category.id || slug), name, slug }];
   });
-  return categories.length ? categories : [{ id: 'uncategorized', name: 'Other Catholic Gifts', slug: 'other-catholic-gifts' }];
+  return categories.length
+    ? categories
+    : [{ id: 'uncategorized', name: 'Other Catholic Gifts', slug: 'other-catholic-gifts' }];
 }
 
-function mapProduct(product, index) {
+function mapProduct(product, index, existingSlugs) {
   const gallery = imageList(product);
   const variantImages = variantImageList(product);
   const faq = buyerFaq(product.ai.faq);
   const suffix = String(product.source_id).slice(-6).toLowerCase();
+  const productId = String(product.source_id);
+  const sourceHash = sourceContentHash(product);
+  const updatedAt = product.ai.generated_at || new Date().toISOString();
   return {
-    sourceId: String(product.source_id),
-    slug: `${slugify(product.ai.title)}-${suffix}`,
+    productId,
+    sourceId: productId,
+    locale: 'en',
+    slug: existingSlugs.get(productId) || `${slugify(product.ai.title)}-${suffix}`,
     title: product.ai.title,
     eyebrow: product.ai.product_type,
     summary: product.ai.short_description,
@@ -105,6 +152,20 @@ function mapProduct(product, index) {
     applications: product.ai.applications || [],
     faq,
     structuredData: structuredData(product, faq),
+    localization: {
+      sourceLocale: 'en',
+      sourceHash,
+      translations: {
+        en: {
+          status: 'source',
+          sourceHash,
+          contentHash: sourceHash,
+          attempts: 0,
+          updatedAt,
+          model: product.ai.model || 'source',
+        },
+      },
+    },
   };
 }
 
@@ -112,8 +173,18 @@ const temporaryFile = `${outputFile}.tmp-${process.pid}`;
 try {
   const catalog = JSON.parse(await readFile(inputFile, 'utf8'));
   if (!Array.isArray(catalog.products) || catalog.products.length < 1) throw new Error('Enriched catalog is empty.');
-  const products = catalog.products.map(mapProduct);
-  await writeFile(temporaryFile, `${JSON.stringify({ generatedAt: new Date().toISOString(), products }, null, 2)}\n`, 'utf8');
+  const existingCatalog = await readFile(outputFile, 'utf8')
+    .then(JSON.parse)
+    .catch(() => ({ products: [] }));
+  const existingSlugs = new Map(
+    (existingCatalog.products || []).map((product) => [String(product.productId || product.sourceId), product.slug])
+  );
+  const products = catalog.products.map((product, index) => mapProduct(product, index, existingSlugs));
+  await writeFile(
+    temporaryFile,
+    `${JSON.stringify({ schemaVersion: 2, locale: 'en', generatedAt: new Date().toISOString(), products }, null, 2)}\n`,
+    'utf8'
+  );
   await rename(temporaryFile, outputFile);
   process.stdout.write(`Site catalog prepared: ${products.length} products.\n`);
 } catch (error) {

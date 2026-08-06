@@ -47,8 +47,15 @@ export interface MetaData {
 
   description?: string;
 
+  alternates?: MetaDataAlternate[];
+
   openGraph?: MetaDataOpenGraph;
   twitter?: MetaDataTwitter;
+}
+
+export interface MetaDataAlternate {
+  hrefLang: string;
+  href: string;
 }
 
 export interface MetaDataRobots {

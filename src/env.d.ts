@@ -8,3 +8,13 @@
 // side-effect imports type-check under TypeScript 6 strict (ts2882).
 declare module '@fontsource-variable/*';
 declare module '@fontsource/*';
+
+interface ImportMetaEnv {
+  readonly OUOOO_LOCALE?: string;
+  readonly OUOOO_SITE_URL?: string;
+  readonly OUOOO_PUBLISHED_LOCALES?: string;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
+}

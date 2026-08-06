@@ -76,13 +76,13 @@ const extraSpecifications = product.specifications.slice(8);
     </div>
   </section>
 
-  <section class="mx-auto max-w-7xl px-6 py-20"><h2 class="font-serif text-4xl">Related products</h2><div class="mt-9 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{related.map((item) => <ProductCard product={item} />)}</div></section>
+  <section class="mx-auto max-w-7xl px-6 py-20"><h2 class="text-4xl font-semibold">Related products</h2><div class="mt-9 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{related.map((item) => <ProductCard product={item} />)}</div></section>
 </Layout>
 
 <style>
   .detail-card{width:100%;border:1px solid rgb(37 42 38/.09);border-radius:1.25rem;background:#fff;padding:clamp(1.35rem,3vw,2rem);box-shadow:0 12px 34px rgb(36 42 37/.05)}
   @media(min-width:768px){.detail-card{height:100%}}
-  .detail-card h2{margin-top:.35rem;font-family:var(--aw-font-serif,serif);font-size:clamp(1.65rem,3vw,2.15rem);line-height:1.15;color:#171b18}
+  .detail-card h2{margin-top:.35rem;font-family:inherit;font-size:clamp(1.65rem,3vw,2.15rem);font-weight:600;line-height:1.15;color:#171b18}
   .detail-card h3{font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3d493f}
   .card-kicker{font-size:.68rem;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#526a55}
   .feature-item{display:grid;grid-template-columns:1.2rem 1fr;gap:.55rem;border-radius:.8rem;background:#f6f7f4;padding:.85rem 1rem;line-height:1.5;color:#303832}

@@ -10,11 +10,13 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "prebuild": "node scripts/validate-locale-build.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "sync:catalog": "node --env-file-if-exists=.env scripts/catalog-client.mjs",
     "enrich:catalog": "node --env-file-if-exists=.env scripts/enrich-catalog.mjs",
     "prepare:catalog": "node --env-file-if-exists=.env scripts/build-site-catalog.mjs",
+    "stamp:localization": "node scripts/stamp-catalog-localization.mjs",
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
     "check:astro": "astro check",

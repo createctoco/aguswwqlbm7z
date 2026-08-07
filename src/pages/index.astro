@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import ProductCard from '~/components/ouooo/ProductCard.astro';
-import ProductVisual from '~/components/ouooo/ProductVisual.astro';
 import { products } from '~/data/products';
 
 const metadata = {
@@ -17,7 +16,7 @@ const metadata = {
       <div>
         <p class="mb-5 text-xs font-semibold uppercase tracking-[.16em] text-primary">Curated for global buyers</p>
         <h1 class="max-w-3xl text-4xl font-medium leading-[1.1] tracking-tight text-gray-950 sm:text-5xl">
-          Objects of meaning,<br /><span class="font-normal text-primary">made to connect.</span>
+          OBJECTS OF MEANING,<br /><span class="font-normal text-primary">MADE TO CONNECT.</span>
         </h1>
         <p class="mt-7 max-w-xl text-lg leading-8 text-gray-700">
           Discover rosaries, devotional jewelry, and custom religious gifts through a clearer, more thoughtful sourcing
@@ -30,7 +29,15 @@ const metadata = {
         <p class="mt-8 text-sm text-muted">Materials · Variants · Packaging · Private label</p>
       </div>
       <div class="mx-auto w-full max-w-xl">
-        <ProductVisual large accent="#8a6348" label="Curated rosary collection" />
+        <img
+          class="aspect-square w-full rounded-3xl border border-black/10 bg-white object-cover"
+          src="https://ctoco.com/wp-content/uploads/2024/12/ctoco-1024x1024.jpg"
+          width="1024"
+          height="1024"
+          alt="Catholic rosary and devotional jewelry collection"
+          decoding="async"
+          fetchpriority="high"
+        />
       </div>
     </div>
   </section>

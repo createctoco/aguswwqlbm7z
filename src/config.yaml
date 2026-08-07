@@ -1,5 +1,5 @@
 site:
-  name: Ouooo
+  name: OUOOO
   site: 'https://ouooo.com'
   base: '/'
   trailingSlash: false
@@ -7,14 +7,14 @@ site:
 
 metadata:
   title:
-    default: Ouooo — Wholesale Rosaries & Custom Religious Gifts
-    template: '%s — Ouooo'
+    default: OUOOO — Wholesale Rosaries & Custom Religious Gifts
+    template: '%s — OUOOO'
   description: 'A curated sourcing catalog for wholesale rosaries, devotional jewelry, and custom religious gifts.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Ouooo
+    site_name: OUOOO
     type: website
   twitter:
     cardType: summary_large_image
@@ -41,4 +41,3 @@ analytics:
 
 ui:
   theme: 'light:only'
-

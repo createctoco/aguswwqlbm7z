@@ -7,6 +7,18 @@ const outputFile = resolve(process.env.OUOOO_SITE_CATALOG_OUTPUT || 'src/data/si
 const accents = ['#8b6b4a', '#6f7c72', '#9a6b63', '#7a6d92', '#8a7b55', '#6d7887'];
 const unsuitableClaim =
   /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
+const replaceSourceBrand = (value = '') => {
+  const text = String(value);
+  return /^https?:\/\//i.test(text) ? text : text.replace(/\bmecrt(?:\.com)?\b/gi, 'OUOOO');
+};
+function sanitizeSourceBrand(value) {
+  if (typeof value === 'string') return replaceSourceBrand(value);
+  if (Array.isArray(value)) return value.map(sanitizeSourceBrand);
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, sanitizeSourceBrand(item)]));
+  }
+  return value;
+}
 
 function slugify(value) {
   return String(value)
@@ -129,7 +141,7 @@ function mapProduct(product, index, existingSlugs) {
   const productId = String(product.source_id);
   const sourceHash = sourceContentHash(product);
   const updatedAt = product.ai.generated_at || new Date().toISOString();
-  return {
+  return sanitizeSourceBrand({
     productId,
     sourceId: productId,
     locale: 'en',
@@ -166,7 +178,7 @@ function mapProduct(product, index, existingSlugs) {
         },
       },
     },
-  };
+  });
 }
 
 const temporaryFile = `${outputFile}.tmp-${process.pid}`;
@@ -182,7 +194,7 @@ try {
   const products = catalog.products.map((product, index) => mapProduct(product, index, existingSlugs));
   await writeFile(
     temporaryFile,
-    `${JSON.stringify({ schemaVersion: 2, locale: 'en', generatedAt: new Date().toISOString(), products }, null, 2)}\n`,
+    `${JSON.stringify(sanitizeSourceBrand({ schemaVersion: 2, locale: 'en', generatedAt: new Date().toISOString(), selection: catalog.selection, enrichmentSummary: catalog.enrichment_summary, products }), null, 2)}\n`,
     'utf8'
   );
   await rename(temporaryFile, outputFile);
@@ -191,3 +203,4 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
+

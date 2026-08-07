@@ -30,6 +30,18 @@ const editorialProfiles = [
 ];
 const forbiddenPhrases = /\b(elevate|perfect blend|look no further|game[- ]changer|in today'?s|whether you(?:'re| are)|meticulously crafted|testament to|unlock|seamlessly|stand out from the crowd)\b/i;
 const unsuitableFaq = /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
+const replaceSourceBrand = (value = '') => {
+  const text = String(value);
+  return /^https?:\/\//i.test(text) ? text : text.replace(/\bmecrt(?:\.com)?\b/gi, 'OUOOO');
+};
+function sanitizeSourceBrand(value) {
+  if (typeof value === 'string') return replaceSourceBrand(value);
+  if (Array.isArray(value)) return value.map(sanitizeSourceBrand);
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, sanitizeSourceBrand(item)]));
+  }
+  return value;
+}
 
 function balancedEditorialProfile(product, counts) {
   const digest = createHash('sha256').update(String(product.source_id || product.wp_id)).digest();
@@ -61,7 +73,7 @@ function similarity(left, right) {
 }
 
 function productFacts(product) {
-  return {
+  return sanitizeSourceBrand({
     source_id: product.source_id,
     sku: product.sku,
     original_title: product.title,
@@ -70,8 +82,7 @@ function productFacts(product) {
     categories: (product.categories || []).map(({ name }) => name),
     attributes: (product.attributes || []).map(({ name, values }) => ({ name, values })),
     weight: product.weight,
-    pricing: product.pricing,
-  };
+  });
 }
 
 function catholicContext(facts, knowledge) {
@@ -140,6 +151,7 @@ function structuredData(product, content) {
 }
 
 function validateContent(content, product, previousOutputs, profile, catholicKnowledge) {
+  content = sanitizeSourceBrand(content);
   if (!content || typeof content !== 'object') throw new Error('DeepSeek returned invalid JSON.');
   if (content.catholic_relevance === 'none' && content.catholic_context == null) content.catholic_context = '';
   const requiredStrings = ['product_type', 'primary_topic', 'catholic_relevance', 'title', 'meta_description', 'short_description', 'description'];
@@ -185,14 +197,14 @@ function validateContent(content, product, previousOutputs, profile, catholicKno
     const previousText = [previous.title, previous.short_description, previous.description].join(' ');
     if (similarity(combined, previousText) > 0.34) throw new Error('DeepSeek output is too similar to another product.');
   }
-  return {
+  return sanitizeSourceBrand({
     ...content,
     source_id: product.source_id,
     editorial_profile: profile[0],
     enrichment_status: 'generated',
     generated_at: new Date().toISOString(),
     model,
-  };
+  });
 }
 
 async function rewriteProduct(product, previousOutputs, profile, knowledge) {
@@ -241,7 +253,7 @@ async function rewriteProduct(product, previousOutputs, profile, knowledge) {
     }
   }
   process.stderr.write(`DeepSeek fallback for source_id ${product.source_id}: ${lastError instanceof Error ? lastError.message : 'unknown error'}\n`);
-  return sourceFallback(product, profile, lastError, catholicKnowledge);
+  return sanitizeSourceBrand(sourceFallback(product, profile, lastError, catholicKnowledge));
 }
 
 const temporaryFile = `${outputFile}.tmp-${process.pid}`;
@@ -255,7 +267,7 @@ try {
     process.stdout.write(`Rewriting product ${products.length + 1}/${catalog.products.length}...\n`);
     const profile = balancedEditorialProfile(product, profileCounts);
     const ai = await rewriteProduct(product, products.map(({ ai: previous }) => previous), profile, knowledge);
-    products.push({ ...product, ai, structured_data: structuredData(product, ai) });
+    products.push({ ...product, ai, structured_data: sanitizeSourceBrand(structuredData(product, ai)) });
   }
   const generated = products.filter(({ ai }) => ai.enrichment_status === 'generated').length;
   const result = {
@@ -272,3 +284,4 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
+

@@ -58,13 +58,12 @@ async function signedPost(route, body, payload) {
 }
 
 async function fetchIndex() {
-  const all = new Map();
+  const summaries = new Map();
   let page = 1;
   let totalPages;
   let sourceTotal;
   do {
-    const remaining = syncLimit ? syncLimit - all.size : 100;
-    const pageSize = Math.min(100, remaining);
+    const pageSize = 100;
     const modifiedAfter = '';
     const body = { page, page_size: pageSize, modified_after: modifiedAfter };
     const payload = `${page}\n${pageSize}\n${modifiedAfter}`;
@@ -73,29 +72,105 @@ async function fetchIndex() {
     totalPages = Math.max(1, Number(data.total_pages || 1));
     for (const product of data.products || []) {
       if (!product?.source_id) throw new Error(`Product on page ${page} has no source_id.`);
-      all.set(String(product.source_id), product);
-      if (syncLimit && all.size >= syncLimit) break;
+      summaries.set(String(product.source_id), product);
     }
     page += 1;
-  } while (page <= totalPages && (!syncLimit || all.size < syncLimit));
+  } while (page <= totalPages);
 
-  const products = [];
-  for (const summary of all.values()) {
+  const availableProducts = [];
+  for (const summary of summaries.values()) {
     const identifierType = 'source_id';
     const identifier = String(summary.source_id);
     const body = { identifier, identifier_type: identifierType };
     const payload = `${identifierType}\n${identifier}`;
     const data = await signedPost('/wp-json/mecrt-catalog/v1/product', body, payload);
     if (!data?.product) throw new Error(`Product detail missing for source_id ${identifier}.`);
-    products.push(data.product);
+    availableProducts.push(data.product);
+    process.stdout.write(`Catalog detail scanned: ${availableProducts.length}/${summaries.size}.\n`);
   }
+
+  const categoryKey = (category) => String(category?.slug || category?.id || category?.name || '').trim().toLowerCase();
+  const categoryNames = new Map();
+  const productCategories = new Map();
+  for (const product of availableProducts) {
+    const keys = [...new Set((product.categories || []).map(categoryKey).filter(Boolean))];
+    const effectiveKeys = keys.length ? keys : ['uncategorized'];
+    productCategories.set(String(product.source_id), effectiveKeys);
+    for (const category of product.categories || []) {
+      const key = categoryKey(category);
+      if (key) categoryNames.set(key, String(category.name || category.slug || key));
+    }
+    if (!keys.length) categoryNames.set('uncategorized', 'Uncategorized');
+  }
+
+  const targetCount = syncLimit ? Math.min(syncLimit, availableProducts.length) : availableProducts.length;
+  if (categoryNames.size > targetCount) {
+    throw new Error(`Cannot cover ${categoryNames.size} categories with a ${targetCount}-product sync limit.`);
+  }
+
+  const selected = [];
+  const selectedIds = new Set();
+  const uncovered = new Set(categoryNames.keys());
+  while (uncovered.size) {
+    let bestProduct;
+    let bestCoverage = 0;
+    for (const product of availableProducts) {
+      const id = String(product.source_id);
+      if (selectedIds.has(id)) continue;
+      const coverage = (productCategories.get(id) || []).filter((key) => uncovered.has(key)).length;
+      if (coverage > bestCoverage) {
+        bestProduct = product;
+        bestCoverage = coverage;
+      }
+    }
+    if (!bestProduct || bestCoverage === 0) break;
+    selected.push(bestProduct);
+    selectedIds.add(String(bestProduct.source_id));
+    for (const key of productCategories.get(String(bestProduct.source_id)) || []) uncovered.delete(key);
+  }
+
+  const categoryQueues = new Map(
+    [...categoryNames.keys()].map((key) => [
+      key,
+      availableProducts.filter((product) => (productCategories.get(String(product.source_id)) || []).includes(key)),
+    ])
+  );
+  while (selected.length < targetCount) {
+    let added = false;
+    for (const queue of categoryQueues.values()) {
+      const product = queue.find((candidate) => !selectedIds.has(String(candidate.source_id)));
+      if (!product) continue;
+      selected.push(product);
+      selectedIds.add(String(product.source_id));
+      added = true;
+      if (selected.length >= targetCount) break;
+    }
+    if (!added) break;
+  }
+
+  const selectedCategoryCounts = Object.fromEntries(
+    [...categoryNames.keys()].map((key) => [
+      key,
+      selected.filter((product) => (productCategories.get(String(product.source_id)) || []).includes(key)).length,
+    ])
+  );
+  const uncoveredCategories = [...categoryNames.keys()].filter((key) => selectedCategoryCounts[key] < 1);
+  if (uncoveredCategories.length) throw new Error(`Category coverage failed: ${uncoveredCategories.join(', ')}`);
+  if (selected.length !== targetCount) throw new Error(`Selected ${selected.length} products instead of ${targetCount}.`);
 
   return {
     schema_version: '1.0',
     synchronized_at: new Date().toISOString(),
     source_total: sourceTotal,
-    total: products.length,
-    products,
+    total: selected.length,
+    selection: {
+      strategy: 'all-category-coverage-then-round-robin',
+      available_product_count: availableProducts.length,
+      discovered_categories: [...categoryNames].map(([slug, name]) => ({ slug, name })),
+      selected_category_counts: selectedCategoryCounts,
+      uncovered_categories: uncoveredCategories,
+    },
+    products: selected,
   };
 }
 
@@ -111,3 +186,4 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
+

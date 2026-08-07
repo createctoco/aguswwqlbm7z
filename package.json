@@ -16,6 +16,7 @@
     "sync:catalog": "node --env-file-if-exists=.env scripts/catalog-client.mjs",
     "enrich:catalog": "node --env-file-if-exists=.env scripts/enrich-catalog.mjs",
     "prepare:catalog": "node --env-file-if-exists=.env scripts/build-site-catalog.mjs",
+    "translate:catalog": "node --env-file-if-exists=.env scripts/translate-catalog.mjs",
     "stamp:localization": "node scripts/stamp-catalog-localization.mjs",
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
@@ -78,3 +79,4 @@
     }
   }
 }
+

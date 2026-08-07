@@ -1,0 +1,228 @@
+
+---
+import wechatQr from '~/assets/images/wechat-qr.png';
+import { CONTACT_EMAIL, GENERAL_WHATSAPP_URL, WECHAT_ID, WHATSAPP_DISPLAY } from '~/config/contact';
+---
+
+<details class="contact-dock" data-contact-dock>
+  <summary aria-label="Open contact options">
+    <svg aria-hidden="true" viewBox="0 0 24 24">
+      <path d="M4 5.75A3.75 3.75 0 0 1 7.75 2h8.5A3.75 3.75 0 0 1 20 5.75v5.5A3.75 3.75 0 0 1 16.25 15H11l-4.55 3.64A.9.9 0 0 1 5 17.94V15.2a3.75 3.75 0 0 1-1-2.55v-6.9Z" />
+      <circle cx="8" cy="8.5" r="1" /><circle cx="12" cy="8.5" r="1" /><circle cx="16" cy="8.5" r="1" />
+    </svg>
+    <span>Contact us</span>
+  </summary>
+
+  <div class="contact-panel">
+    <div class="panel-heading">
+      <p>Contact OUOOO</p>
+      <span>Choose the channel that works for you.</span>
+    </div>
+
+    <a
+      class="channel-link"
+      href={GENERAL_WHATSAPP_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      data-contact-whatsapp
+    >
+      <span class="channel-icon whatsapp">WA</span>
+      <span><strong>WhatsApp</strong><small>{WHATSAPP_DISPLAY}</small></span>
+      <span aria-hidden="true">→</span>
+    </a>
+
+    <details class="wechat-channel">
+      <summary class="channel-link">
+        <span class="channel-icon wechat">微</span>
+        <span><strong>WeChat</strong><small>{WECHAT_ID}</small></span>
+        <span aria-hidden="true">⌄</span>
+      </summary>
+      <div class="wechat-qr">
+        <img src={wechatQr.src} width="200" height="200" alt={`WeChat QR code for ${WECHAT_ID}`} loading="lazy" />
+        <p>Scan the QR code or search <strong>{WECHAT_ID}</strong>.</p>
+      </div>
+    </details>
+
+    <a class="channel-link" href={`mailto:${CONTACT_EMAIL}`} data-contact-email>
+      <span class="channel-icon email">@</span>
+      <span><strong>Email</strong><small>{CONTACT_EMAIL}</small></span>
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</details>
+
+<script>
+  document.addEventListener('click', (event) => {
+    const trigger = (event.target as HTMLElement).closest<HTMLElement>('[data-contact-trigger]');
+    if (!trigger) return;
+
+    event.preventDefault();
+
+    const dock = document.querySelector<HTMLDetailsElement>('[data-contact-dock]');
+    if (!dock) return;
+
+    const whatsappLink = dock.querySelector<HTMLAnchorElement>('[data-contact-whatsapp]');
+    const emailLink = dock.querySelector<HTMLAnchorElement>('[data-contact-email]');
+
+    if (whatsappLink && trigger.dataset.whatsappUrl) whatsappLink.href = trigger.dataset.whatsappUrl;
+    if (emailLink && trigger.dataset.emailUrl) emailLink.href = trigger.dataset.emailUrl;
+
+    dock.open = true;
+    dock.querySelector<HTMLElement>('.contact-panel')?.focus({ preventScroll: true });
+  });
+</script>
+
+<style>
+  .contact-dock {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 50;
+  }
+  .contact-dock > summary {
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    align-items: center;
+    gap: 0.55rem;
+    border: 1px solid rgb(255 255 255 / 0.24);
+    border-radius: 999px;
+    background: #0f3b2f;
+    padding: 0.78rem 1rem;
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: 700;
+    box-shadow: 0 12px 30px rgb(9 42 33 / 0.24);
+    transition:
+      background 0.18s ease,
+      transform 0.18s ease;
+  }
+  .contact-dock > summary::-webkit-details-marker,
+  .wechat-channel > summary::-webkit-details-marker {
+    display: none;
+  }
+  .contact-dock > summary:hover {
+    background: #092a21;
+    transform: translateY(-2px);
+  }
+  .contact-dock > summary:focus-visible,
+  .channel-link:focus-visible {
+    outline: 3px solid rgb(178 138 82 / 0.55);
+    outline-offset: 3px;
+  }
+  .contact-dock > summary svg {
+    width: 1.35rem;
+    height: 1.35rem;
+    fill: currentColor;
+  }
+  .contact-panel {
+    position: absolute;
+    right: 0;
+    bottom: calc(100% + 0.75rem);
+    width: min(20rem, calc(100vw - 2rem));
+    overflow: hidden;
+    border: 1px solid rgb(37 42 38 / 0.1);
+    border-radius: 1.15rem;
+    background: #fff;
+    padding: 0.7rem;
+    box-shadow: 0 20px 55px rgb(9 42 33 / 0.2);
+  }
+  .panel-heading {
+    padding: 0.55rem 0.65rem 0.8rem;
+  }
+  .panel-heading p {
+    font-weight: 700;
+    color: #1d211e;
+  }
+  .panel-heading span {
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 0.75rem;
+    color: rgb(29 33 30 / 0.66);
+  }
+  .channel-link {
+    display: grid;
+    width: 100%;
+    cursor: pointer;
+    list-style: none;
+    grid-template-columns: 2.3rem minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.7rem;
+    border-radius: 0.85rem;
+    padding: 0.65rem;
+    color: #1d211e;
+    text-decoration: none;
+  }
+  .channel-link:hover {
+    background: #f6f1e8;
+  }
+  .channel-link strong,
+  .channel-link small {
+    display: block;
+  }
+  .channel-link strong {
+    font-size: 0.88rem;
+  }
+  .channel-link small {
+    margin-top: 0.1rem;
+    overflow-wrap: anywhere;
+    color: rgb(29 33 30 / 0.66);
+    font-size: 0.72rem;
+  }
+  .channel-icon {
+    display: grid;
+    width: 2.3rem;
+    height: 2.3rem;
+    place-items: center;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+  .whatsapp {
+    background: #128c4a;
+  }
+  .wechat {
+    background: #07c160;
+    font-size: 0.9rem;
+  }
+  .email {
+    background: #0f3b2f;
+    font-size: 1rem;
+  }
+  .wechat-qr {
+    margin: 0.3rem 0.65rem 0.65rem;
+    border-radius: 0.8rem;
+    background: #f6f8f5;
+    padding: 0.75rem;
+    text-align: center;
+  }
+  .wechat-qr img {
+    width: min(9rem, 100%);
+    height: auto;
+    margin-inline: auto;
+  }
+  .wechat-qr p {
+    margin-top: 0.55rem;
+    font-size: 0.72rem;
+    line-height: 1.5;
+    color: rgb(29 33 30 / 0.7);
+  }
+  @media (max-width: 520px) {
+    .contact-dock {
+      right: 1rem;
+      bottom: 1rem;
+    }
+    .contact-dock > summary {
+      padding: 0.82rem;
+    }
+    .contact-dock > summary span {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+    }
+  }
+</style>

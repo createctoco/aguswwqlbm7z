@@ -1,7 +1,9 @@
+
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import ProductGallery from '~/components/ouooo/ProductGallery.astro';
 import ProductCard from '~/components/ouooo/ProductCard.astro';
+import { CONTACT_EMAIL, getProductWhatsAppUrl } from '~/config/contact';
 import { products, type Product } from '~/data/products';
 
 export function getStaticPaths() {
@@ -16,7 +18,14 @@ const related = products
   .sort((a, b) => Number(b.categories.some(({ slug }) => categorySlugs.has(slug))) - Number(a.categories.some(({ slug }) => categorySlugs.has(slug))))
   .slice(0, 3);
 const schemas = Object.values(product.structuredData).filter(Boolean);
-const inquiryUrl = `/contact?product=${encodeURIComponent(product.sku || product.title)}`;
+const inquiryUrl = getProductWhatsAppUrl({
+  title: product.title,
+  reference: product.sku || product.sourceId,
+  url: new URL(`/products/${product.slug}`, Astro.site).toString(),
+});
+const inquiryEmailUrl = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Wholesale inquiry: ${product.title}`)}&body=${encodeURIComponent(
+  `Hello OUOOO,\n\nI am interested in ${product.title}.\nReference: ${product.sku || product.sourceId}\nLink: ${new URL(`/products/${product.slug}`, Astro.site).toString()}\n\nEstimated quantity:\nDestination country:\nCustomization or packaging requirements:`,
+)}`;
 const visibleSpecifications = product.specifications.slice(0, 8);
 const extraSpecifications = product.specifications.slice(8);
 ---
@@ -40,8 +49,16 @@ const extraSpecifications = product.specifications.slice(8);
           </button>)}
         </div>
       </div>}
-      <a href={inquiryUrl} class="btn-primary mt-8">Request a wholesale quote</a>
-      <p class="mt-4 text-xs text-muted">Tell us your quantity, target market, and product requirements. We will reply with sourcing details.</p>
+      <button
+        type="button"
+        class="btn-primary mt-8"
+        data-contact-trigger
+        data-whatsapp-url={inquiryUrl}
+        data-email-url={inquiryEmailUrl}
+      >
+        Contact us about this product
+      </button>
+      <p class="mt-4 text-xs text-muted">Choose WhatsApp, WeChat, or email. The message includes this product reference.</p>
     </div>
   </section>
 

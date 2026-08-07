@@ -1,15 +1,23 @@
 import { getPermalink } from './utils/permalinks';
+import { GENERAL_WHATSAPP_URL } from './config/contact';
 
 export const headerData = {
   links: [
     { text: 'Products', href: getPermalink('/products') },
     { text: 'Collections', href: getPermalink('/collections') },
     { text: 'Materials', href: getPermalink('/guides/choosing-rosary-materials') },
-    { text: 'Customization', href: getPermalink('/contact') },
+    { text: 'Contact', href: getPermalink('/contact') },
     { text: 'Guides', href: getPermalink('/guides') },
     { text: 'About', href: getPermalink('/about') },
   ],
-  actions: [{ text: 'Request a Quote', href: getPermalink('/contact') }],
+  actions: [
+    {
+      text: 'Chat on WhatsApp',
+      href: GENERAL_WHATSAPP_URL,
+      target: '_blank',
+      ariaLabel: 'Chat with OUOOO on WhatsApp',
+    },
+  ],
 };
 
 export const footerData = {
@@ -20,5 +28,5 @@ export const footerData = {
   ],
   secondaryLinks: [{ text: 'Terms', href: '/terms' }, { text: 'Privacy Policy', href: '/privacy' }],
   socialLinks: [],
-  footNote: `OUOOO — Curated rosaries, devotional jewelry, and custom religious gifts.`,
+  footNote: `Copyright © OUOOO.COM All rights reserved. — Catholic Gifts Wholesale`,
 };

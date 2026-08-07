@@ -1,6 +1,8 @@
+
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import ProductCard from '~/components/ouooo/ProductCard.astro';
+import { GENERAL_WHATSAPP_URL } from '~/config/contact';
 import { products } from '~/data/products';
 
 const metadata = {
@@ -24,7 +26,9 @@ const metadata = {
         </p>
         <div class="mt-9 flex flex-wrap gap-4">
           <a class="btn-primary" href="/products">Explore products</a>
-          <a class="btn-secondary" href="/contact">Start a custom project</a>
+          <a class="btn-secondary" href={GENERAL_WHATSAPP_URL} target="_blank" rel="noopener noreferrer"
+            >Start a custom project</a
+          >
         </div>
         <p class="mt-8 text-sm text-muted">Materials · Variants · Packaging · Private label</p>
       </div>

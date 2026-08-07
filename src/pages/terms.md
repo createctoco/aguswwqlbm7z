@@ -5,7 +5,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _Last updated: August 8, 2026_
 
-OUOOO is an independent English-language B2B sourcing catalog for wholesale rosaries, Catholic gifts, devotional jewelry, and custom religious products. We organize product information for global buyers who need clear specifications, practical comparisons, and a direct way to discuss sourcing requirements.
+OUOOO is an independent B2B sourcing catalog for wholesale rosaries, Catholic gifts, devotional jewelry, and custom religious products. We organize product information for global buyers who need clear specifications, practical comparisons, and a direct way to discuss sourcing requirements.
 
 ## What OUOOO provides
 

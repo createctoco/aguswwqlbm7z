@@ -40,7 +40,7 @@ export const footerData = {
     {
       title: 'Sourcing',
       links: [
-        { text: 'Spot wholesale', href: '/spot-wholesale' },
+        { text: 'Stock wholesale', href: '/stock-wholesale' },
         { text: 'Sourcing agent', href: '/sourcing-agent' },
         { text: 'Payment methods', href: '/payment' },
         { text: 'Customization', href: '/customization' },

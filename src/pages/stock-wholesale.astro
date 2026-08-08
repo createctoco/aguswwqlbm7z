@@ -3,7 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import { getWhatsAppUrl } from '~/config/contact';
 
 const metadata = {
-  title: 'Spot Wholesale — Ready-to-Ship Inventory',
+  title: 'Stock Wholesale — Ready-to-Ship Inventory',
   description: 'Over 900 SKUs in a 1,000 m² warehouse. Most styles kept in 1,000+ piece stock. Ships within 10 days.',
 };
 
@@ -35,7 +35,7 @@ const advantages = [
 
 const faqs = [
   [
-    'What is the minimum order quantity for spot wholesale?',
+    'What is the minimum order quantity for stock wholesale?',
     'There is no strict MOQ for in-stock catalog items. You can order as few as you need. For larger or mixed orders, we can provide a volume quote.',
   ],
   [
@@ -52,14 +52,14 @@ const faqs = [
   ],
 ];
 
-const whatsappUrl = getWhatsAppUrl('Hello OUOOO, I would like to ask about your spot wholesale inventory.');
+const whatsappUrl = getWhatsAppUrl('Hello OUOOO, I would like to ask about your stock wholesale inventory.');
 ---
 
 <Layout metadata={metadata}>
   <section class="bg-[#f6f1e8]">
     <div class="mx-auto max-w-6xl px-6 py-16">
       <p class="text-xs font-semibold uppercase tracking-[.16em] text-primary">Ready-to-ship</p>
-      <h1 class="mt-4 text-4xl font-semibold">Spot Wholesale from a 1,000 m² Stock Warehouse</h1>
+      <h1 class="mt-4 text-4xl font-semibold">Stock Wholesale from a 1,000 m² Warehouse</h1>
       <p class="mt-5 max-w-3xl text-lg leading-8 text-muted">
         We keep deep inventory so you do not have to wait. Over 900 SKUs of Catholic rosaries, religious gifts, and
         devotional accessories — most styles in 1,000+ piece quantities — ready to pick, pack, and ship.
@@ -82,7 +82,7 @@ const whatsappUrl = getWhatsAppUrl('Hello OUOOO, I would like to ask about your 
 
   <section class="bg-[#f4f5f2] py-16">
     <div class="mx-auto max-w-6xl px-6">
-      <h2 class="text-3xl font-semibold">Why buyers choose our spot inventory</h2>
+      <h2 class="text-3xl font-semibold">Why buyers choose our stock inventory</h2>
       <div class="mt-10 grid gap-8 md:grid-cols-2">
         {
           advantages.map(([title, body]) => (

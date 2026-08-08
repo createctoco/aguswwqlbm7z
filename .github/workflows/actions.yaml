@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: read
+  deployments: write
 
 jobs:
   check:
@@ -34,7 +35,7 @@ jobs:
         run: npm run check
 
   build:
-    name: Build
+    name: Build & Deploy
     needs: check
     runs-on: ubuntu-latest
 
@@ -57,3 +58,12 @@ jobs:
           OUOOO_SITE_URL: https://ouooo.com
           OUOOO_PUBLISHED_LOCALES: en
         run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: cloudflare/pages-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          directory: dist

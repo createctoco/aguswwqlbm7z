@@ -43,7 +43,7 @@ jobs:
         env:
           LOCALE: ${{ matrix.locale }}
         run: >-
-          node --input-type=module -e "import data from './src/data/i18n/${process.env.LOCALE}/site-catalog.json' with {type:'json'};
+          node --input-type=module -e "import data from './src/data/i18n/${LOCALE}/site-catalog.json' with {type:'json'};
           if(data.locale!==process.env.LOCALE || data.products?.length!==100 || data.products.some((p)=>!p.title || !p.localization?.translations?.[process.env.LOCALE]))
           throw new Error('Invalid localized catalog');
           console.log(process.env.LOCALE, data.translationSummary);"

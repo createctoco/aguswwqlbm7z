@@ -1,8 +1,9 @@
 
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import wechatQr from '~/assets/images/wechat-qr.png';
 import { CONTACT_EMAIL, getWhatsAppUrl, WECHAT_ID, WHATSAPP_DISPLAY } from '~/config/contact';
+
+const wechatQrSrc = 'https://rosarybase.com/customer_service/wx.jpg';
 
 const metadata = {
   title: 'Contact OUOOO',
@@ -58,7 +59,7 @@ const emailUrl = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(emailSubj
         <div class="mt-4 flex flex-col gap-5 sm:flex-row sm:items-center">
           <img
             class="h-32 w-32 rounded-xl border border-black/10"
-            src={wechatQr.src}
+            src={wechatQrSrc}
             width="200"
             height="200"
             alt={`WeChat QR code for ${WECHAT_ID}`}

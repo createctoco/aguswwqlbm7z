@@ -71,22 +71,49 @@ const wechatQrSrc = 'https://rosarybase.com/customer_service/wx.jpg';
 
 <script>
   document.addEventListener('click', (event) => {
-    const trigger = (event.target as HTMLElement).closest<HTMLElement>('[data-contact-trigger]');
-    if (!trigger) return;
-
-    event.preventDefault();
-
+    const target = event.target as HTMLElement;
     const dock = document.querySelector<HTMLDetailsElement>('[data-contact-dock]');
     if (!dock) return;
 
-    const whatsappLink = dock.querySelector<HTMLAnchorElement>('[data-contact-whatsapp]');
-    const emailLink = dock.querySelector<HTMLAnchorElement>('[data-contact-email]');
+    // Handle trigger buttons (e.g. "Contact us about this product" on product pages)
+    const trigger = target.closest<HTMLElement>('[data-contact-trigger]');
+    if (trigger) {
+      event.preventDefault();
 
-    if (whatsappLink && trigger.dataset.whatsappUrl) whatsappLink.href = trigger.dataset.whatsappUrl;
-    if (emailLink && trigger.dataset.emailUrl) emailLink.href = trigger.dataset.emailUrl;
+      const whatsappLink = dock.querySelector<HTMLAnchorElement>('[data-contact-whatsapp]');
+      const emailLink = dock.querySelector<HTMLAnchorElement>('[data-contact-email]');
 
-    dock.open = true;
-    dock.querySelector<HTMLElement>('.contact-panel')?.focus({ preventScroll: true });
+      if (whatsappLink && trigger.dataset.whatsappUrl) whatsappLink.href = trigger.dataset.whatsappUrl;
+      if (emailLink && trigger.dataset.emailUrl) emailLink.href = trigger.dataset.emailUrl;
+
+      dock.open = true;
+      dock.querySelector<HTMLElement>('.contact-panel')?.focus({ preventScroll: true });
+      return;
+    }
+
+    // Close the dock when clicking anywhere outside of it
+    if (dock.open && !target.closest('[data-contact-dock]')) {
+      dock.open = false;
+      const wechatDetails = dock.querySelector<HTMLDetailsElement>('.wechat-channel');
+      if (wechatDetails) wechatDetails.open = false;
+      return;
+    }
+
+    // Close the WeChat sub-panel when clicking outside of it (but still inside the dock)
+    const wechatDetails = dock.querySelector<HTMLDetailsElement>('.wechat-channel');
+    if (wechatDetails && wechatDetails.open && !target.closest('.wechat-channel')) {
+      wechatDetails.open = false;
+    }
+  });
+
+  // Also close on Escape key for accessibility
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    const dock = document.querySelector<HTMLDetailsElement>('[data-contact-dock]');
+    if (!dock || !dock.open) return;
+    dock.open = false;
+    const wechatDetails = dock.querySelector<HTMLDetailsElement>('.wechat-channel');
+    if (wechatDetails) wechatDetails.open = false;
   });
 </script>
 

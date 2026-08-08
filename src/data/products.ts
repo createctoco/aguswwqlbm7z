@@ -6,6 +6,14 @@ export type ProductSpecification = { name: string; value: string };
 export type ProductFaq = { question: string; answer: string };
 export type ProductCategory = { id: string; name: string; slug: string };
 
+export type ProductPricing = {
+  price: string;
+  regularPrice?: string;
+  currency: string;
+  onSale: boolean;
+  priceRange?: { min: string; max: string };
+};
+
 export type Product = {
   productId: string;
   sourceId: string;
@@ -28,6 +36,7 @@ export type Product = {
   specifications: ProductSpecification[];
   applications: string[];
   faq: ProductFaq[];
+  pricing?: ProductPricing;
   structuredData: Record<string, unknown>;
   localization: ProductLocalization;
 };

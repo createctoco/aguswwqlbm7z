@@ -96,11 +96,28 @@ function cleanEditorialText(value) {
     .join('\n\n');
 }
 
-function structuredData(product, faq) {
+function structuredData(product, faq, pricing) {
   const data = structuredClone(product.structured_data || {});
   if (data.product) {
     data.product.name = product.ai.title;
     data.product.description = product.ai.meta_description || product.ai.short_description;
+    if (pricing) {
+      const offer = {
+        '@type': 'Offer',
+        price: pricing.price,
+        priceCurrency: pricing.currency,
+        availability: 'https://schema.org/InStock',
+      };
+      if (pricing.priceRange) {
+        offer.priceSpecification = {
+          '@type': 'PriceSpecification',
+          minPrice: pricing.priceRange.min,
+          maxPrice: pricing.priceRange.max,
+          priceCurrency: pricing.currency,
+        };
+      }
+      data.product.offers = offer;
+    }
   }
   if (faq.length) {
     data.faq = {
@@ -133,6 +150,41 @@ function categoryList(product) {
     : [{ id: 'uncategorized', name: 'Other Catholic Gifts', slug: 'other-catholic-gifts' }];
 }
 
+function extractPricing(product) {
+  const rawPrice = product.price ?? product._price ?? '';
+  const price = String(rawPrice).trim();
+  if (!price || price === '0') return undefined;
+
+  const regularPrice = String(product.regular_price ?? product._regular_price ?? '').trim();
+  const salePrice = String(product.sale_price ?? product._sale_price ?? '').trim();
+  const currency = String(product.currency || 'USD')
+    .trim()
+    .toUpperCase();
+  const onSale = Boolean(salePrice && salePrice !== '0' && regularPrice && regularPrice !== price);
+
+  const variationPrices = (product.variations || [])
+    .map((v) => String(v.price ?? '').trim())
+    .filter((v) => v && v !== '0')
+    .map(Number)
+    .filter(Number.isFinite);
+
+  let priceRange;
+  if (variationPrices.length > 1) {
+    priceRange = {
+      min: Math.min(...variationPrices).toFixed(2),
+      max: Math.max(...variationPrices).toFixed(2),
+    };
+  }
+
+  return {
+    price: Number(price).toFixed(2),
+    regularPrice: regularPrice && regularPrice !== '0' ? Number(regularPrice).toFixed(2) : undefined,
+    currency,
+    onSale,
+    priceRange,
+  };
+}
+
 function mapProduct(product, index, existingSlugs) {
   const gallery = imageList(product);
   const variantImages = variantImageList(product);
@@ -141,6 +193,7 @@ function mapProduct(product, index, existingSlugs) {
   const productId = String(product.source_id);
   const sourceHash = sourceContentHash(product);
   const updatedAt = product.ai.generated_at || new Date().toISOString();
+  const pricing = extractPricing(product);
   return sanitizeSourceBrand({
     productId,
     sourceId: productId,
@@ -163,7 +216,8 @@ function mapProduct(product, index, existingSlugs) {
     specifications: (product.ai.specifications || []).map(({ name, value }) => ({ name, value })),
     applications: product.ai.applications || [],
     faq,
-    structuredData: structuredData(product, faq),
+    pricing,
+    structuredData: structuredData(product, faq, pricing),
     localization: {
       sourceLocale: 'en',
       sourceHash,

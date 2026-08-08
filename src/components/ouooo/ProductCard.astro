@@ -5,6 +5,10 @@ interface Props {
   product: Product;
 }
 const { product } = Astro.props;
+const pricing = product.pricing;
+const currencySymbol = pricing?.currency === 'EUR' ? '\u20ac' : pricing?.currency === 'CNY' ? '\u00a5' : '$';
+const formatPrice = (value: string) =>
+  `${currencySymbol}${Number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 ---
 
 <article class="group">
@@ -13,5 +17,15 @@ const { product } = Astro.props;
     <p class="mt-5 text-xs font-semibold uppercase tracking-[.14em] text-primary">{product.eyebrow}</p>
     <h3 class="mt-2 text-xl font-semibold leading-snug text-gray-900 group-hover:text-primary">{product.title}</h3>
     <p class="mt-2 text-sm leading-6 text-muted">{product.summary}</p>
+    {
+      pricing && (
+        <p class="mt-3 text-base font-bold text-gray-950">
+          {pricing.priceRange
+            ? `${formatPrice(pricing.priceRange.min)} \u2013 ${formatPrice(pricing.priceRange.max)}`
+            : formatPrice(pricing.price)}
+          <span class="ml-1 text-xs font-normal text-muted">/ unit</span>
+        </p>
+      )
+    }
   </a>
 </article>

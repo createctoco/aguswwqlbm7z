@@ -31,6 +31,10 @@ const inquiryEmailUrl = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`W
 )}`;
 const visibleSpecifications = product.specifications.slice(0, 8);
 const extraSpecifications = product.specifications.slice(8);
+const pricing = product.pricing;
+const currencySymbol = pricing?.currency === 'EUR' ? '\u20ac' : pricing?.currency === 'CNY' ? '\u00a5' : '$';
+const formatPrice = (value: string) =>
+  `${currencySymbol}${Number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 ---
 
 <Layout metadata={metadata}>
@@ -55,6 +59,23 @@ const extraSpecifications = product.specifications.slice(8);
         {product.title}
       </h1>
       <p class="mt-6 text-lg leading-8 text-muted">{product.summary}</p>
+      {
+        pricing && (
+          <div class="mt-6 flex items-baseline gap-3">
+            {pricing.priceRange ? (
+              <span class="text-2xl font-bold text-gray-950">
+                {formatPrice(pricing.priceRange.min)} {'\u2013'} {formatPrice(pricing.priceRange.max)}
+              </span>
+            ) : (
+              <span class="text-2xl font-bold text-gray-950">{formatPrice(pricing.price)}</span>
+            )}
+            {pricing.onSale && pricing.regularPrice && (
+              <span class="text-lg text-muted line-through">{formatPrice(pricing.regularPrice)}</span>
+            )}
+            <span class="text-sm text-muted">/ unit</span>
+          </div>
+        )
+      }
       {
         product.variantImages.length > 0 && (
           <div class="variant-panel">

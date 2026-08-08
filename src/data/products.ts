@@ -37,7 +37,7 @@ type CatalogModule = { default: SiteCatalog };
 
 const localizedCatalogs = import.meta.glob<CatalogModule>('./i18n/*/site-catalog.json', { eager: true });
 const localizedCatalog = localizedCatalogs[`./i18n/${BUILD_LOCALE}/site-catalog.json`]?.default;
-const selectedCatalog = BUILD_LOCALE === DEFAULT_LOCALE ? (siteCatalog as SiteCatalog) : localizedCatalog;
+const selectedCatalog = BUILD_LOCALE === DEFAULT_LOCALE ? (siteCatalog as unknown as SiteCatalog) : localizedCatalog;
 
 if (!selectedCatalog) {
   throw new Error(`No static catalog is available for locale ${BUILD_LOCALE}.`);

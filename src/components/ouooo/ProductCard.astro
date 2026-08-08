@@ -1,9 +1,12 @@
 ---
 import ProductVisual from './ProductVisual.astro';
 import type { Product } from '~/data/products';
-interface Props { product: Product }
+interface Props {
+  product: Product;
+}
 const { product } = Astro.props;
 ---
+
 <article class="group">
   <a href={`/products/${product.slug}`} aria-label={`View ${product.title}`}>
     <ProductVisual accent={product.accent} label={product.imageAlt} imageUrl={product.imageUrl} />

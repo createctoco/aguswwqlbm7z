@@ -65,4 +65,3 @@ The content resolver accepts a translated record only when its status is `ready`
 No translated catalog, language subdomain, or DeepSeek translation request is created at this stage.
 
 The event-driven generator, independent Pages deployment model, automatic product updates, retry policy, and staged rollout are specified in [`multilingual-automation-plan.md`](./multilingual-automation-plan.md).
-

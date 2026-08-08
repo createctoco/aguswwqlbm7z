@@ -8,22 +8,22 @@ The first multilingual release must not run until the English product schema, in
 
 ## Hosts and Cloudflare Pages projects
 
-| Locale | Language | Host | Direction | Pages project |
-| --- | --- | --- | --- | --- |
-| `en` | English | `ouooo.com` | LTR | `ouooo` |
-| `it` | Italiano | `it.ouooo.com` | LTR | `ouooo-it` |
-| `es` | Español | `es.ouooo.com` | LTR | `ouooo-es` |
-| `fr` | Français | `fr.ouooo.com` | LTR | `ouooo-fr` |
-| `pt` | Português | `pt.ouooo.com` | LTR | `ouooo-pt` |
-| `pl` | Polski | `pl.ouooo.com` | LTR | `ouooo-pl` |
-| `de` | Deutsch | `de.ouooo.com` | LTR | `ouooo-de` |
-| `fil` | Filipino | `fil.ouooo.com` | LTR | `ouooo-fil` |
-| `hr` | Hrvatski | `hr.ouooo.com` | LTR | `ouooo-hr` |
-| `sl` | Slovenščina | `sl.ouooo.com` | LTR | `ouooo-sl` |
-| `ro` | Română | `ro.ouooo.com` | LTR | `ouooo-ro` |
-| `ar` | العربية | `ar.ouooo.com` | RTL | `ouooo-ar` |
-| `zh-hant` | 繁體中文 | `zh-hant.ouooo.com` | LTR | `ouooo-zh-hant` |
-| `zh-hans` | 简体中文 | `zh-hans.ouooo.com` | LTR | `ouooo-zh-hans` |
+| Locale    | Language    | Host                | Direction | Pages project   |
+| --------- | ----------- | ------------------- | --------- | --------------- |
+| `en`      | English     | `ouooo.com`         | LTR       | `ouooo`         |
+| `it`      | Italiano    | `it.ouooo.com`      | LTR       | `ouooo-it`      |
+| `es`      | Español     | `es.ouooo.com`      | LTR       | `ouooo-es`      |
+| `fr`      | Français    | `fr.ouooo.com`      | LTR       | `ouooo-fr`      |
+| `pt`      | Português   | `pt.ouooo.com`      | LTR       | `ouooo-pt`      |
+| `pl`      | Polski      | `pl.ouooo.com`      | LTR       | `ouooo-pl`      |
+| `de`      | Deutsch     | `de.ouooo.com`      | LTR       | `ouooo-de`      |
+| `fil`     | Filipino    | `fil.ouooo.com`     | LTR       | `ouooo-fil`     |
+| `hr`      | Hrvatski    | `hr.ouooo.com`      | LTR       | `ouooo-hr`      |
+| `sl`      | Slovenščina | `sl.ouooo.com`      | LTR       | `ouooo-sl`      |
+| `ro`      | Română      | `ro.ouooo.com`      | LTR       | `ouooo-ro`      |
+| `ar`      | العربية     | `ar.ouooo.com`      | RTL       | `ouooo-ar`      |
+| `zh-hant` | 繁體中文    | `zh-hant.ouooo.com` | LTR       | `ouooo-zh-hant` |
+| `zh-hans` | 简体中文    | `zh-hans.ouooo.com` | LTR       | `ouooo-zh-hans` |
 
 Every subdomain must first be associated with its Pages project as a custom domain. DNS alone is not sufficient. Deployment uses prebuilt assets and Wrangler so every locale can have an independent build, rollback, deployment history, and sitemap.
 
@@ -212,4 +212,3 @@ No secret is committed to the repository or embedded in static output.
 - DeepSeek failure follows retry and fallback policy without blocking unrelated products.
 - All deployed hosts pass canonical, `hreflang`, sitemap, structured-data, responsive, and RTL checks.
 - Public files contain no source branding, secrets, customer data, order data, or price tiers.
-

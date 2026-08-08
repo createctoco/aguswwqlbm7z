@@ -42,4 +42,3 @@ Custom orders are generally not returnable for change of mind. If delivered good
 ## Start a custom project
 
 Use the [OUOOO contact page](/contact) to send your requirements through WhatsApp, WeChat, or email. Email is recommended when you need to attach artwork or specification files.
-

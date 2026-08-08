@@ -1,26 +1,74 @@
 ---
 import type { Product } from '~/data/products';
-interface Props { product: Product }
+interface Props {
+  product: Product;
+}
 const { product } = Astro.props;
 const images = product.gallery
   .map((image, index) => ({ ...image, label: index === 0 ? 'Main image' : `Product image ${index + 1}`, sku: '' }))
   .filter((image, index, all) => all.findIndex(({ url }) => url === image.url) === index);
 const initial = images[0] || { url: '', alt: product.title, label: 'Product image', sku: '' };
 ---
+
 <div class="gallery" data-product-gallery>
   <div class="main-image">
-    {initial.url ? <img data-gallery-main src={initial.url} alt={initial.alt} width="900" height="1125" decoding="async" fetchpriority="high" /> : <div class="image-fallback">Image unavailable</div>}
-    {images.length > 1 && <>
-      <button class="gallery-arrow gallery-arrow-prev" type="button" data-gallery-prev aria-label="Previous product image">←</button>
-      <button class="gallery-arrow gallery-arrow-next" type="button" data-gallery-next aria-label="Next product image">→</button>
-    </>}
+    {
+      initial.url ? (
+        <img
+          data-gallery-main
+          src={initial.url}
+          alt={initial.alt}
+          width="900"
+          height="1125"
+          decoding="async"
+          fetchpriority="high"
+        />
+      ) : (
+        <div class="image-fallback">Image unavailable</div>
+      )
+    }
+    {
+      images.length > 1 && (
+        <>
+          <button
+            class="gallery-arrow gallery-arrow-prev"
+            type="button"
+            data-gallery-prev
+            aria-label="Previous product image"
+          >
+            ←
+          </button>
+          <button
+            class="gallery-arrow gallery-arrow-next"
+            type="button"
+            data-gallery-next
+            aria-label="Next product image"
+          >
+            →
+          </button>
+        </>
+      )
+    }
   </div>
-  {images.length > 1 && <div class="thumbnails" aria-label="Product gallery">
-    {images.map((image, index) => <button type="button" class="thumbnail" aria-pressed={index === 0 ? 'true' : 'false'} data-image={image.url} data-alt={image.alt} title={image.label}>
-      <img src={image.url} alt="" width="88" height="88" loading="lazy" decoding="async" />
-      {image.sku && <span>{image.label}</span>}
-    </button>)}
-  </div>}
+  {
+    images.length > 1 && (
+      <div class="thumbnails" aria-label="Product gallery">
+        {images.map((image, index) => (
+          <button
+            type="button"
+            class="thumbnail"
+            aria-pressed={index === 0 ? 'true' : 'false'}
+            data-image={image.url}
+            data-alt={image.alt}
+            title={image.label}
+          >
+            <img src={image.url} alt="" width="88" height="88" loading="lazy" decoding="async" />
+            {image.sku && <span>{image.label}</span>}
+          </button>
+        ))}
+      </div>
+    )
+  }
 </div>
 
 <script>
@@ -44,8 +92,12 @@ const initial = images[0] || { url: '', alt: product.title, label: 'Product imag
     thumbnails.forEach((button, index) => {
       button.addEventListener('click', () => showImage(index));
     });
-    gallery.querySelector<HTMLButtonElement>('[data-gallery-prev]')?.addEventListener('click', () => showImage(activeIndex - 1));
-    gallery.querySelector<HTMLButtonElement>('[data-gallery-next]')?.addEventListener('click', () => showImage(activeIndex + 1));
+    gallery
+      .querySelector<HTMLButtonElement>('[data-gallery-prev]')
+      ?.addEventListener('click', () => showImage(activeIndex - 1));
+    gallery
+      .querySelector<HTMLButtonElement>('[data-gallery-next]')
+      ?.addEventListener('click', () => showImage(activeIndex + 1));
     variantButtons.forEach((button) => {
       button.addEventListener('click', () => {
         main.src = button.dataset.skuImage || main.src;
@@ -59,18 +111,120 @@ const initial = images[0] || { url: '', alt: product.title, label: 'Product imag
 </script>
 
 <style>
-  .gallery{display:grid;width:100%;max-width:100%;min-width:0;grid-template-columns:minmax(0,1fr);gap:1rem;overflow:hidden}
-  .main-image{position:relative;aspect-ratio:1/1;display:grid;min-width:0;place-items:center;overflow:hidden;border:1px solid rgb(37 42 38/.1);border-radius:1.25rem;background:#fff}
-  .main-image img{width:100%;height:100%;object-fit:contain}
-  .image-fallback{color:#647067;font-size:.875rem}
-  .gallery-arrow{position:absolute;top:50%;z-index:2;display:grid;width:2.5rem;height:2.5rem;place-items:center;border:1px solid rgb(37 42 38/.14);border-radius:999px;background:rgb(255 255 255/.9);color:#29322b;box-shadow:0 5px 18px rgb(30 35 31/.12);transform:translateY(-50%);transition:background .18s ease,transform .18s ease}
-  .gallery-arrow:hover{background:#fff;transform:translateY(-50%) scale(1.04)}
-  .gallery-arrow-prev{left:.75rem}.gallery-arrow-next{right:.75rem}
-  .thumbnails{display:flex;width:100%;max-width:100%;min-width:0;gap:.65rem;overflow-x:auto;overflow-y:hidden;box-sizing:border-box;padding:.1rem .1rem .45rem;scrollbar-width:thin;overscroll-behavior-inline:contain}
-  .thumbnail{flex:0 0 4.75rem;width:4.75rem;max-width:4.75rem;overflow:hidden;border:2px solid transparent;border-radius:.8rem;background:#fff;padding:.2rem;text-align:left;transition:border-color .18s ease,transform .18s ease}
-  .thumbnail:hover{transform:translateY(-1px)}
-  .thumbnail[aria-pressed='true']{border-color:#526a55}
-  .thumbnail img{aspect-ratio:1;width:100%;object-fit:contain}
-  .thumbnail span{display:block;overflow:hidden;padding:.25rem .15rem;font-size:.62rem;line-height:.8rem;color:#5e675f;text-overflow:ellipsis;white-space:nowrap}
-  @media(max-width:640px){.thumbnail{flex-basis:4.25rem;width:4.25rem;max-width:4.25rem}.gallery-arrow{width:2.25rem;height:2.25rem}}
+  .gallery {
+    display: grid;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    overflow: hidden;
+  }
+  .main-image {
+    position: relative;
+    aspect-ratio: 1/1;
+    display: grid;
+    min-width: 0;
+    place-items: center;
+    overflow: hidden;
+    border: 1px solid rgb(37 42 38/0.1);
+    border-radius: 1.25rem;
+    background: #fff;
+  }
+  .main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .image-fallback {
+    color: #647067;
+    font-size: 0.875rem;
+  }
+  .gallery-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    display: grid;
+    width: 2.5rem;
+    height: 2.5rem;
+    place-items: center;
+    border: 1px solid rgb(37 42 38/0.14);
+    border-radius: 999px;
+    background: rgb(255 255 255/0.9);
+    color: #29322b;
+    box-shadow: 0 5px 18px rgb(30 35 31/0.12);
+    transform: translateY(-50%);
+    transition:
+      background 0.18s ease,
+      transform 0.18s ease;
+  }
+  .gallery-arrow:hover {
+    background: #fff;
+    transform: translateY(-50%) scale(1.04);
+  }
+  .gallery-arrow-prev {
+    left: 0.75rem;
+  }
+  .gallery-arrow-next {
+    right: 0.75rem;
+  }
+  .thumbnails {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    gap: 0.65rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    padding: 0.1rem 0.1rem 0.45rem;
+    scrollbar-width: thin;
+    overscroll-behavior-inline: contain;
+  }
+  .thumbnail {
+    flex: 0 0 4.75rem;
+    width: 4.75rem;
+    max-width: 4.75rem;
+    overflow: hidden;
+    border: 2px solid transparent;
+    border-radius: 0.8rem;
+    background: #fff;
+    padding: 0.2rem;
+    text-align: left;
+    transition:
+      border-color 0.18s ease,
+      transform 0.18s ease;
+  }
+  .thumbnail:hover {
+    transform: translateY(-1px);
+  }
+  .thumbnail[aria-pressed='true'] {
+    border-color: #526a55;
+  }
+  .thumbnail img {
+    aspect-ratio: 1;
+    width: 100%;
+    object-fit: contain;
+  }
+  .thumbnail span {
+    display: block;
+    overflow: hidden;
+    padding: 0.25rem 0.15rem;
+    font-size: 0.62rem;
+    line-height: 0.8rem;
+    color: #5e675f;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  @media (max-width: 640px) {
+    .thumbnail {
+      flex-basis: 4.25rem;
+      width: 4.25rem;
+      max-width: 4.25rem;
+    }
+    .gallery-arrow {
+      width: 2.25rem;
+      height: 2.25rem;
+    }
+  }
 </style>

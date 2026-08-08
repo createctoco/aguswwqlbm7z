@@ -4,7 +4,9 @@ import { dirname, resolve } from 'node:path';
 
 import localeData from '../src/i18n/locales.json' with { type: 'json' };
 
-const locale = String(process.env.OUOOO_LOCALE || '').trim().toLowerCase();
+const locale = String(process.env.OUOOO_LOCALE || '')
+  .trim()
+  .toLowerCase();
 const localeDefinition = localeData.locales[locale];
 const apiKey = process.env.DEEPSEEK_API_KEY || '';
 const model = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
@@ -18,7 +20,11 @@ if (!locale || locale === localeData.defaultLocale || !localeDefinition) {
 if (!apiKey) throw new Error('DEEPSEEK_API_KEY is required.');
 
 const sleep = (milliseconds) => new Promise((resolvePromise) => setTimeout(resolvePromise, milliseconds));
-const plainText = (value = '') => String(value).replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+const plainText = (value = '') =>
+  String(value)
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 const replaceSourceBrand = (value = '') => {
   const text = String(value);
   return /^https?:\/\//i.test(text) ? text : text.replace(/\bmecrt(?:\.com)?\b/gi, 'OUOOO');
@@ -36,7 +42,10 @@ function sanitizeSourceBrand(value) {
 function stableSerialize(value) {
   if (Array.isArray(value)) return `[${value.map(stableSerialize).join(',')}]`;
   if (value && typeof value === 'object') {
-    return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${stableSerialize(value[key])}`).join(',')}}`;
+    return `{${Object.keys(value)
+      .sort()
+      .map((key) => `${JSON.stringify(key)}:${stableSerialize(value[key])}`)
+      .join(',')}}`;
   }
   return JSON.stringify(value);
 }
@@ -114,7 +123,8 @@ async function translateCategoryGlossary(products) {
   ).map(([slug, name]) => ({ slug, name }));
   const system = `Translate an OUOOO B2B Catholic-gift catalog category glossary into ${localeDefinition.label}. Return only JSON: {"categories":{"slug":"translated display name"}}. Preserve every slug exactly. Use concise, natural wholesale catalog terminology. Translate Catholic terms accurately. Never add claims or source branding.`;
   const { value } = await deepSeekJson(system, JSON.stringify({ locale, categories }), 1000);
-  if (!value?.categories || typeof value.categories !== 'object') throw new Error('Invalid translated category glossary.');
+  if (!value?.categories || typeof value.categories !== 'object')
+    throw new Error('Invalid translated category glossary.');
   for (const { slug } of categories) {
     if (typeof value.categories[slug] !== 'string' || !value.categories[slug].trim()) {
       throw new Error(`Missing translated category ${slug}.`);
@@ -133,11 +143,14 @@ function validateTranslation(content, product, categoryGlossary) {
     if (!Array.isArray(content[key])) throw new Error(`Translated field ${key} must be an array.`);
   }
   if (content.features.length !== product.features.length) throw new Error('Translated feature count changed.');
-  if (content.specifications.length !== product.specifications.length) throw new Error('Translated specification count changed.');
-  if (content.applications.length !== product.applications.length) throw new Error('Translated application count changed.');
+  if (content.specifications.length !== product.specifications.length)
+    throw new Error('Translated specification count changed.');
+  if (content.applications.length !== product.applications.length)
+    throw new Error('Translated application count changed.');
   if (content.faq.length !== product.faq.length) throw new Error('Translated FAQ count changed.');
   if (content.gallery.length !== product.gallery.length) throw new Error('Translated gallery count changed.');
-  if (content.variantImages.length !== product.variantImages.length) throw new Error('Translated variant count changed.');
+  if (content.variantImages.length !== product.variantImages.length)
+    throw new Error('Translated variant count changed.');
   const categories = product.categories.map((category) => ({ ...category, name: categoryGlossary[category.slug] }));
   return sanitizeSourceBrand({ ...content, categories });
 }
@@ -246,7 +259,9 @@ async function translateProduct(product, categoryGlossary, previousProduct) {
         },
       },
     });
-    process.stderr.write(`Translation fallback ${locale}/${product.productId}: ${fallback.localization.translations[locale].error}\n`);
+    process.stderr.write(
+      `Translation fallback ${locale}/${product.productId}: ${fallback.localization.translations[locale].error}\n`
+    );
     return { product: fallback, reused: false, fallback: true };
   }
 }
@@ -254,8 +269,11 @@ async function translateProduct(product, categoryGlossary, previousProduct) {
 const temporaryFile = `${outputFile}.tmp-${process.pid}`;
 try {
   const sourceCatalog = JSON.parse(await readFile(inputFile, 'utf8'));
-  if (!Array.isArray(sourceCatalog.products) || sourceCatalog.products.length < 1) throw new Error('English catalog is empty.');
-  const previousCatalog = await readFile(outputFile, 'utf8').then(JSON.parse).catch(() => ({ products: [] }));
+  if (!Array.isArray(sourceCatalog.products) || sourceCatalog.products.length < 1)
+    throw new Error('English catalog is empty.');
+  const previousCatalog = await readFile(outputFile, 'utf8')
+    .then(JSON.parse)
+    .catch(() => ({ products: [] }));
   const previousById = new Map((previousCatalog.products || []).map((product) => [String(product.productId), product]));
   const categoryGlossary = await translateCategoryGlossary(sourceCatalog.products);
   const products = [];
@@ -263,7 +281,11 @@ try {
   let fallback = 0;
   for (const sourceProduct of sourceCatalog.products) {
     process.stdout.write(`Translating ${locale} ${products.length + 1}/${sourceCatalog.products.length}...\n`);
-    const result = await translateProduct(sourceProduct, categoryGlossary, previousById.get(String(sourceProduct.productId)));
+    const result = await translateProduct(
+      sourceProduct,
+      categoryGlossary,
+      previousById.get(String(sourceProduct.productId))
+    );
     products.push(result.product);
     if (result.reused) reused += 1;
     if (result.fallback) fallback += 1;
@@ -272,10 +294,17 @@ try {
     schemaVersion: sourceCatalog.schemaVersion,
     locale,
     sourceLocale: localeData.defaultLocale,
-    sourceCatalogHash: contentHash(sourceCatalog.products.map(({ productId, localization }) => ({ productId, sourceHash: localization.sourceHash }))),
+    sourceCatalogHash: contentHash(
+      sourceCatalog.products.map(({ productId, localization }) => ({ productId, sourceHash: localization.sourceHash }))
+    ),
     generatedAt: new Date().toISOString(),
     categoryGlossary,
-    translationSummary: { ready: products.length - fallback, fallback, reused, generated: products.length - fallback - reused },
+    translationSummary: {
+      ready: products.length - fallback,
+      fallback,
+      reused,
+      generated: products.length - fallback - reused,
+    },
     products,
   };
   await mkdir(dirname(outputFile), { recursive: true });
@@ -286,4 +315,3 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
-

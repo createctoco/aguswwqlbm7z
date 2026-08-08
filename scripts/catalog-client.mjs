@@ -24,7 +24,9 @@ async function signedPost(route, body, payload) {
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
     const timestamp = Math.floor(Date.now() / 1000).toString();
     const nonce = randomBytes(24).toString('hex');
-    const signature = createHmac('sha256', secret).update(canonical(route, timestamp, nonce, payload)).digest('hex');
+    const signature = createHmac('sha256', secret)
+      .update(canonical(route, timestamp, nonce, payload))
+      .digest('hex');
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 30_000);
     try {
@@ -45,7 +47,8 @@ async function signedPost(route, body, payload) {
       const retryAfter = Number(data?.data?.retry_after || data?.retry_after || 0) * 1000;
       if (!retryable) throw new Error(`Catalog request rejected with HTTP ${response.status}.`);
       lastError = new Error(`Temporary catalog error HTTP ${response.status}.`);
-      if (attempt < maxAttempts) await sleep(Math.max(retryAfter, Math.min(16_000, 1000 * 2 ** (attempt - 1))) + Math.random() * 500);
+      if (attempt < maxAttempts)
+        await sleep(Math.max(retryAfter, Math.min(16_000, 1000 * 2 ** (attempt - 1))) + Math.random() * 500);
     } catch (error) {
       if (error instanceof Error && /rejected with HTTP/.test(error.message)) throw error;
       lastError = error;
@@ -89,7 +92,10 @@ async function fetchIndex() {
     process.stdout.write(`Catalog detail scanned: ${availableProducts.length}/${summaries.size}.\n`);
   }
 
-  const categoryKey = (category) => String(category?.slug || category?.id || category?.name || '').trim().toLowerCase();
+  const categoryKey = (category) =>
+    String(category?.slug || category?.id || category?.name || '')
+      .trim()
+      .toLowerCase();
   const categoryNames = new Map();
   const productCategories = new Map();
   for (const product of availableProducts) {
@@ -156,7 +162,8 @@ async function fetchIndex() {
   );
   const uncoveredCategories = [...categoryNames.keys()].filter((key) => selectedCategoryCounts[key] < 1);
   if (uncoveredCategories.length) throw new Error(`Category coverage failed: ${uncoveredCategories.join(', ')}`);
-  if (selected.length !== targetCount) throw new Error(`Selected ${selected.length} products instead of ${targetCount}.`);
+  if (selected.length !== targetCount)
+    throw new Error(`Selected ${selected.length} products instead of ${targetCount}.`);
 
   return {
     schema_version: '1.0',
@@ -186,4 +193,3 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
-

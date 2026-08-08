@@ -1,4 +1,3 @@
-
 export const WHATSAPP_NUMBER = '8615669529689';
 export const WHATSAPP_DISPLAY = '+86 156 6952 9689';
 export const WECHAT_ID = 'rosarystore';

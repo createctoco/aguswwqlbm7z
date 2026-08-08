@@ -12,24 +12,48 @@ const maxAttempts = 4;
 if (!apiKey) throw new Error('DEEPSEEK_API_KEY is required.');
 
 const sleep = (milliseconds) => new Promise((resolvePromise) => setTimeout(resolvePromise, milliseconds));
-const plainText = (value = '') => String(value).replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+const plainText = (value = '') =>
+  String(value)
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 const wordCount = (value = '') => plainText(value).split(/\s+/).filter(Boolean).length;
 const shortenTitle = (value, maximum = 65) => {
   const title = plainText(value);
   if (title.length <= maximum) return title;
-  const shortened = title.slice(0, maximum + 1).replace(/\s+\S*$/, '').replace(/[\s,;:-]+$/, '');
+  const shortened = title
+    .slice(0, maximum + 1)
+    .replace(/\s+\S*$/, '')
+    .replace(/[\s,;:-]+$/, '');
   return shortened || title.slice(0, maximum);
 };
 const editorialProfiles = [
   ['buyer-first', 'Open with the buyer decision this product helps with, then move into concrete specifications.'],
-  ['materials-first', 'Open with the verified material or visible construction, then explain practical sourcing considerations.'],
-  ['design-first', 'Open with the product’s distinctive visual details, then move from appearance to verified specifications.'],
-  ['use-context', 'Open with a grounded use or merchandising context supported by the facts, without inventing occasions or audiences.'],
-  ['specification-first', 'Open with the clearest verified specification and use compact, procurement-friendly language.'],
-  ['comparison-ready', 'Write so a buyer can compare this item with alternatives, emphasizing only factual differentiators.'],
+  [
+    'materials-first',
+    'Open with the verified material or visible construction, then explain practical sourcing considerations.',
+  ],
+  [
+    'design-first',
+    'Open with the product’s distinctive visual details, then move from appearance to verified specifications.',
+  ],
+  [
+    'use-context',
+    'Open with a grounded use or merchandising context supported by the facts, without inventing occasions or audiences.',
+  ],
+  [
+    'specification-first',
+    'Open with the clearest verified specification and use compact, procurement-friendly language.',
+  ],
+  [
+    'comparison-ready',
+    'Write so a buyer can compare this item with alternatives, emphasizing only factual differentiators.',
+  ],
 ];
-const forbiddenPhrases = /\b(elevate|perfect blend|look no further|game[- ]changer|in today'?s|whether you(?:'re| are)|meticulously crafted|testament to|unlock|seamlessly|stand out from the crowd)\b/i;
-const unsuitableFaq = /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
+const forbiddenPhrases =
+  /\b(elevate|perfect blend|look no further|game[- ]changer|in today'?s|whether you(?:'re| are)|meticulously crafted|testament to|unlock|seamlessly|stand out from the crowd)\b/i;
+const unsuitableFaq =
+  /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
 const replaceSourceBrand = (value = '') => {
   const text = String(value);
   return /^https?:\/\//i.test(text) ? text : text.replace(/\bmecrt(?:\.com)?\b/gi, 'OUOOO');
@@ -44,7 +68,9 @@ function sanitizeSourceBrand(value) {
 }
 
 function balancedEditorialProfile(product, counts) {
-  const digest = createHash('sha256').update(String(product.source_id || product.wp_id)).digest();
+  const digest = createHash('sha256')
+    .update(String(product.source_id || product.wp_id))
+    .digest();
   const minimum = Math.min(...counts);
   for (let offset = 0; offset < editorialProfiles.length; offset += 1) {
     const index = (digest[0] + offset) % editorialProfiles.length;
@@ -57,7 +83,10 @@ function balancedEditorialProfile(product, counts) {
 }
 
 function shingles(value) {
-  const words = plainText(value).toLowerCase().match(/[a-z0-9]+/g) || [];
+  const words =
+    plainText(value)
+      .toLowerCase()
+      .match(/[a-z0-9]+/g) || [];
   const result = new Set();
   for (let index = 0; index <= words.length - 4; index += 1) result.add(words.slice(index, index + 4).join(' '));
   return result;
@@ -154,12 +183,22 @@ function validateContent(content, product, previousOutputs, profile, catholicKno
   content = sanitizeSourceBrand(content);
   if (!content || typeof content !== 'object') throw new Error('DeepSeek returned invalid JSON.');
   if (content.catholic_relevance === 'none' && content.catholic_context == null) content.catholic_context = '';
-  const requiredStrings = ['product_type', 'primary_topic', 'catholic_relevance', 'title', 'meta_description', 'short_description', 'description'];
+  const requiredStrings = [
+    'product_type',
+    'primary_topic',
+    'catholic_relevance',
+    'title',
+    'meta_description',
+    'short_description',
+    'description',
+  ];
   for (const key of requiredStrings) {
     if (typeof content[key] !== 'string' || !content[key].trim()) throw new Error(`DeepSeek field ${key} is missing.`);
   }
-  if (content.title.length < 25 || content.title.length > 65) throw new Error('DeepSeek title must be 25 to 65 characters.');
-  if (content.meta_description.length < 120 || content.meta_description.length > 165) throw new Error('DeepSeek meta description must be 120 to 165 characters.');
+  if (content.title.length < 25 || content.title.length > 65)
+    throw new Error('DeepSeek title must be 25 to 65 characters.');
+  if (content.meta_description.length < 120 || content.meta_description.length > 165)
+    throw new Error('DeepSeek meta description must be 120 to 165 characters.');
   if (wordCount(content.short_description) < 30 || wordCount(content.short_description) > 70) {
     throw new Error('DeepSeek short description must be 30 to 70 words.');
   }
@@ -182,7 +221,10 @@ function validateContent(content, product, previousOutputs, profile, catholicKno
     throw new Error('DeepSeek catholic_relevance is invalid.');
   }
   if (typeof content.catholic_context !== 'string') throw new Error('DeepSeek catholic_context is invalid.');
-  if (!catholicKnowledge.applicable && (content.catholic_relevance !== 'none' || content.catholic_context.trim() !== '')) {
+  if (
+    !catholicKnowledge.applicable &&
+    (content.catholic_relevance !== 'none' || content.catholic_context.trim() !== '')
+  ) {
     throw new Error('DeepSeek added Catholic context to a non-Catholic product.');
   }
   if (catholicKnowledge.applicable && content.catholic_relevance === 'none') {
@@ -191,11 +233,18 @@ function validateContent(content, product, previousOutputs, profile, catholicKno
   if (catholicKnowledge.applicable && !content.catholic_context.trim()) {
     throw new Error('DeepSeek omitted supported Catholic context.');
   }
-  const combined = [content.title, content.meta_description, content.short_description, content.description, ...content.key_features].join(' ');
+  const combined = [
+    content.title,
+    content.meta_description,
+    content.short_description,
+    content.description,
+    ...content.key_features,
+  ].join(' ');
   if (forbiddenPhrases.test(combined)) throw new Error('DeepSeek used a formulaic AI marketing phrase.');
   for (const previous of previousOutputs) {
     const previousText = [previous.title, previous.short_description, previous.description].join(' ');
-    if (similarity(combined, previousText) > 0.34) throw new Error('DeepSeek output is too similar to another product.');
+    if (similarity(combined, previousText) > 0.34)
+      throw new Error('DeepSeek output is too similar to another product.');
   }
   return sanitizeSourceBrand({
     ...content,
@@ -222,7 +271,10 @@ async function rewriteProduct(product, previousOutputs, profile, knowledge) {
         model,
         messages: [
           { role: 'system', content: system },
-          { role: 'user', content: `Create the JSON product copy from these product facts and the controlled Catholic context. Revision attempt ${attempt}; avoid formulaic overlap with other catalog entries.\nPRODUCT FACTS:\n${JSON.stringify(facts)}\nCATHOLIC CONTEXT:\n${JSON.stringify(catholicKnowledge)}` },
+          {
+            role: 'user',
+            content: `Create the JSON product copy from these product facts and the controlled Catholic context. Revision attempt ${attempt}; avoid formulaic overlap with other catalog entries.\nPRODUCT FACTS:\n${JSON.stringify(facts)}\nCATHOLIC CONTEXT:\n${JSON.stringify(catholicKnowledge)}`,
+          },
         ],
         response_format: { type: 'json_object' },
         thinking: { type: 'disabled' },
@@ -252,7 +304,9 @@ async function rewriteProduct(product, previousOutputs, profile, knowledge) {
       clearTimeout(timer);
     }
   }
-  process.stderr.write(`DeepSeek fallback for source_id ${product.source_id}: ${lastError instanceof Error ? lastError.message : 'unknown error'}\n`);
+  process.stderr.write(
+    `DeepSeek fallback for source_id ${product.source_id}: ${lastError instanceof Error ? lastError.message : 'unknown error'}\n`
+  );
   return sanitizeSourceBrand(sourceFallback(product, profile, lastError, catholicKnowledge));
 }
 
@@ -260,13 +314,19 @@ const temporaryFile = `${outputFile}.tmp-${process.pid}`;
 try {
   const catalog = JSON.parse(await readFile(inputFile, 'utf8'));
   const knowledge = JSON.parse(await readFile(knowledgeFile, 'utf8'));
-  if (!Array.isArray(catalog.products) || catalog.products.length < 1) throw new Error('Catalog input is empty or invalid.');
+  if (!Array.isArray(catalog.products) || catalog.products.length < 1)
+    throw new Error('Catalog input is empty or invalid.');
   const products = [];
   const profileCounts = editorialProfiles.map(() => 0);
   for (const product of catalog.products) {
     process.stdout.write(`Rewriting product ${products.length + 1}/${catalog.products.length}...\n`);
     const profile = balancedEditorialProfile(product, profileCounts);
-    const ai = await rewriteProduct(product, products.map(({ ai: previous }) => previous), profile, knowledge);
+    const ai = await rewriteProduct(
+      product,
+      products.map(({ ai: previous }) => previous),
+      profile,
+      knowledge
+    );
     products.push({ ...product, ai, structured_data: sanitizeSourceBrand(structuredData(product, ai)) });
   }
   const generated = products.filter(({ ai }) => ai.enrichment_status === 'generated').length;
@@ -284,4 +344,3 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
-

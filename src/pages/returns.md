@@ -50,4 +50,3 @@ Do not return goods without written authorization and a confirmed return address
 ## Contact us
 
 Send an after-sales request to [intl@ouooo.com](mailto:intl@ouooo.com) or use the [contact page](/contact). We will confirm the information required and the next step in writing.
-

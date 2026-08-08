@@ -1,0 +1,91 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { CONTACT_EMAIL } from '~/config/contact';
+
+const metadata = {
+  title: 'Payment Methods — OUOOO',
+  description:
+    'Secure and convenient payment options for international wholesale orders. TT (Telegraphic Transfer) to our Hong Kong bank account.',
+};
+
+const accountInfo = [
+  ['Beneficiary Name', 'Mecrt (Yiwu) International Trade Co., Ltd'],
+  ['Beneficiary Account Number', '3996001374826'],
+  ['Country/Region', 'Hong Kong, China'],
+  ['Swift Code', 'CITIHKHX or CITIHKHXXXX'],
+  ['Beneficiary Address', '26/F., Tower One, Time Square, 1 Matheson Street, Causeway Bay, HK'],
+  ['Beneficiary Bank', 'CITIBANK, N.A., HONG KONG BRANCH'],
+  ['Beneficiary Bank Address', 'Champion Tower, Three Garden Road, Central, Hong Kong'],
+  ['Bank Code', '006'],
+  ['Branch Code', '391'],
+];
+
+const currencies = ['USD', 'EUR', 'GBP', 'AUD', 'CAD', 'JPY', 'HKD', 'CNY'];
+---
+
+<Layout metadata={metadata}>
+  <section class="bg-[#f6f1e8]">
+    <div class="mx-auto max-w-6xl px-6 py-16">
+      <p class="text-xs font-semibold uppercase tracking-[.16em] text-primary">Payment</p>
+      <h1 class="mt-4 text-4xl font-semibold">Payment Methods</h1>
+      <p class="mt-5 max-w-3xl text-lg leading-8 text-muted">
+        We offer secure and convenient payment options to make your ordering process as smooth as possible. Choose the
+        method that works best for you.
+      </p>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-6 py-16">
+    <div class="rounded-2xl border border-black/10 bg-white p-8">
+      <div class="flex items-center gap-3">
+        <span class="text-3xl">💳</span>
+        <h2 class="text-2xl font-semibold">TT (Telegraphic Transfer)</h2>
+      </div>
+      <p class="mt-2 text-sm font-semibold text-primary">Our Recommended Payment Method</p>
+      <p class="mt-4 leading-7 text-muted">
+        Telegraphic Transfer (TT) is our preferred payment method for international orders. It offers security,
+        reliability, and direct transfer to our Hong Kong bank account. Please ensure you fill in the correct
+        Beneficiary Account Number, as the beneficiary bank will review the account number to process the payment.
+      </p>
+
+      <div class="mt-8">
+        <h3 class="text-lg font-semibold">Account Information</h3>
+        <div class="mt-4 overflow-hidden rounded-xl border border-black/10">
+          {
+            accountInfo.map(([label, value], index) => (
+              <div class:list={['flex flex-col gap-1 p-4 sm:flex-row sm:gap-4', { 'bg-gray-50': index % 2 === 0 }]}>
+                <span class="w-56 shrink-0 text-sm font-semibold text-gray-700">{label}</span>
+                <span class="text-sm text-gray-900">{value}</span>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+
+      <div class="mt-8">
+        <h3 class="text-lg font-semibold">Supported Currencies</h3>
+        <div class="mt-4 flex flex-wrap gap-3">
+          {
+            currencies.map((currency) => (
+              <span class="rounded-full border border-black/15 px-4 py-2 text-sm font-semibold text-gray-700">
+                {currency}
+              </span>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#f6f1e8] py-16">
+    <div class="mx-auto max-w-3xl px-6 text-center">
+      <h2 class="text-3xl font-semibold">Questions about payment?</h2>
+      <p class="mt-4 text-lg text-muted">
+        We are happy to walk you through the transfer process or answer any questions before you send funds.
+      </p>
+      <a class="btn-primary mt-8 inline-block" href={`mailto:${CONTACT_EMAIL}?subject=Payment%20question`}>
+        Email Us
+      </a>
+    </div>
+  </section>
+</Layout>

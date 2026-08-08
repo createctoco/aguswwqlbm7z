@@ -1,14 +1,21 @@
 import { getPermalink } from './utils/permalinks';
 import { GENERAL_WHATSAPP_URL } from './config/contact';
+import { collections } from './data/products';
 
 export const headerData = {
   links: [
     { text: 'Products', href: getPermalink('/products') },
-    { text: 'Collections', href: getPermalink('/collections') },
-    { text: 'Materials', href: getPermalink('/guides/choosing-rosary-materials') },
-    { text: 'Contact', href: getPermalink('/contact') },
+    {
+      text: 'Collections',
+      href: getPermalink('/collections'),
+      links: collections.map(({ name, slug }) => ({
+        text: name,
+        href: getPermalink(`/collections/${slug}`),
+      })),
+    },
     { text: 'Guides', href: getPermalink('/guides') },
     { text: 'About', href: getPermalink('/about') },
+    { text: 'Contact', href: getPermalink('/contact') },
   ],
   actions: [
     {
@@ -33,8 +40,9 @@ export const footerData = {
     {
       title: 'Sourcing',
       links: [
-        { text: 'Materials guide', href: '/guides/choosing-rosary-materials' },
-        { text: 'Bead size guide', href: '/guides/8mm-vs-10mm-beads' },
+        { text: 'Spot wholesale', href: '/spot-wholesale' },
+        { text: 'Sourcing agent', href: '/sourcing-agent' },
+        { text: 'Payment methods', href: '/payment' },
         { text: 'Customization', href: '/customization' },
       ],
     },
@@ -42,8 +50,7 @@ export const footerData = {
       title: 'OUOOO',
       links: [
         { text: 'About', href: '/about' },
-        { text: 'Platform overview', href: '/terms' },
-        { text: 'Contact', href: '/contact' },
+        { text: 'Our story', href: '/our-story' },
         { text: 'Privacy', href: '/privacy' },
       ],
     },
@@ -57,10 +64,7 @@ export const footerData = {
       ],
     },
   ],
-  secondaryLinks: [
-    { text: 'Platform Overview', href: '/terms' },
-    { text: 'Privacy Policy', href: '/privacy' },
-  ],
+  secondaryLinks: [{ text: 'Privacy Policy', href: '/privacy' }],
   description:
     'An independent B2B sourcing catalog for wholesale rosaries, Catholic gifts, and custom religious products.',
   socialLinks: [],

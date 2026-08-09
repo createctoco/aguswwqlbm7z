@@ -87,4 +87,3 @@ jobs:
           git add src/data/i18n
           git diff --cached --quiet || git commit -m "Generate 13 localized product catalogs"
           git push
-

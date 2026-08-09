@@ -27,7 +27,9 @@ Copy `.env.example` to `.env`, then configure the catalog endpoint and secret lo
 npm run sync:catalog
 ```
 
-The sync client uses authenticated requests, retries with exponential backoff, and atomic output replacement.
+The first sync downloads the full catalog. Later syncs request only products modified since the last successful cursor, merge them into the existing snapshot, and preserve the last good file through atomic replacement. The client also accepts upstream `deleted_source_ids` tombstones. Set `MECRT_CATALOG_FULL_SYNC=true` for a periodic reconciliation.
+
+Price, regular-price, sale state, currency, and variation ranges flow from the source product details into the generated site catalog. Variable products without a parent price use their minimum variation price instead of losing pricing entirely.
 
 ## Deployment
 

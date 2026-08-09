@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 1.7 seconds
-Output:
 import { env } from 'cloudflare:workers';
 
 import type { Product, ProductCategory } from '~/data/products';

@@ -1,25 +1,21 @@
+Exit code: 0
+Wall time: 4.3 seconds
+Output:
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import ProductGallery from '~/components/ouooo/ProductGallery.astro';
 import ProductCard from '~/components/ouooo/ProductCard.astro';
 import { CONTACT_EMAIL, getProductWhatsAppUrl } from '~/config/contact';
-import { products, type Product } from '~/data/products';
+import { BUILD_LOCALE } from '~/i18n/config';
+import { getProductBySlug, getRelatedProducts } from '~/server/catalog';
 
-export function getStaticPaths() {
-  return products.map((product) => ({ params: { slug: product.slug }, props: { product } }));
-}
+export const prerender = false;
 
-const { product } = Astro.props as { product: Product };
+const product = await getProductBySlug(BUILD_LOCALE, Astro.params.slug || '');
+if (!product) return new Response(null, { status: 404, statusText: 'Product not found' });
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=3600, stale-while-revalidate=86400');
 const metadata = { title: product.title, description: product.summary };
-const categorySlugs = new Set(product.categories.map(({ slug }) => slug));
-const related = products
-  .filter((item) => item.slug !== product.slug)
-  .sort(
-    (a, b) =>
-      Number(b.categories.some(({ slug }) => categorySlugs.has(slug))) -
-      Number(a.categories.some(({ slug }) => categorySlugs.has(slug)))
-  )
-  .slice(0, 3);
+const related = await getRelatedProducts(product, 3);
 const schemas = Object.values(product.structuredData).filter(Boolean);
 const inquiryUrl = getProductWhatsAppUrl({
   title: product.title,
@@ -147,7 +143,7 @@ const formatPrice = (value: string) =>
             product.features.slice(0, 6).map((feature) => (
               <li class="feature-item">
                 <>
-                  <span>✓</span>
+                  <span>鉁?/span>
                   <span>{feature}</span>
                 </>
               </li>
@@ -382,3 +378,4 @@ const formatPrice = (value: string) =>
     }
   }
 </style>
+

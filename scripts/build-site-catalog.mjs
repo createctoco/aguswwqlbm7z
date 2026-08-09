@@ -191,7 +191,6 @@ function extractPricing(product) {
   return {
     price: effectivePrice.toFixed(2),
     regularPrice: regularPrice?.toFixed(2),
-    salePrice: salePrice?.toFixed(2),
     currency,
     onSale,
     priceRange,

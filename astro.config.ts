@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 4.4 seconds
+Output:
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -6,6 +9,7 @@ import { defineConfig } from 'astro/config';
 import { unified } from '@astrojs/markdown-remark';
 
 import sitemap from '@astrojs/sitemap';
+import cloudflare from '@astrojs/cloudflare';
 import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
@@ -27,6 +31,10 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 export default defineConfig({
   site: buildSiteUrl,
   output: 'static',
+  adapter: cloudflare({
+    prerenderEnvironment: 'node',
+    imageService: 'compile',
+  }),
 
   integrations: [
     sitemap(),
@@ -57,7 +65,7 @@ export default defineConfig({
     compress({
       // csso off on purpose: its parser doesn't understand the media range
       // syntax Tailwind v4 emits for breakpoints (`@media (width>=48rem)`) and
-      // silently drops every one of those blocks — the site then renders as if
+      // silently drops every one of those blocks 鈥?the site then renders as if
       // all `md:`/`lg:` classes were missing. lightningcss parses it correctly.
       CSS: { csso: false, lightningcss: { minify: true } },
       HTML: {
@@ -79,10 +87,10 @@ export default defineConfig({
   image: {
     // Astro's default Sharp service handles local images.
     //
-    // Most remote CDN images (Unsplash, Cloudinary, Imgix…) are routed by
+    // Most remote CDN images (Unsplash, Cloudinary, Imgix鈥? are routed by
     // src/components/common/Image.astro through `unpic`, which rewrites the
     // URL with CDN-side query parameters and serves it straight from the
-    // provider — Astro never downloads it, so they don't need to be listed.
+    // provider 鈥?Astro never downloads it, so they don't need to be listed.
     //
     // `domains` only matters for remote URLs that fall through to Astro's
     // native <Image /> (i.e. providers Unpic can't detect, like Pixabay).
@@ -106,3 +114,4 @@ export default defineConfig({
     },
   },
 });
+

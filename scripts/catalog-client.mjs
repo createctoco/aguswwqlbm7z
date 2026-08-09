@@ -9,9 +9,7 @@ const maxAttempts = 5;
 const requestedLimit = Number.parseInt(process.env.MECRT_CATALOG_SYNC_LIMIT || '0', 10);
 const syncLimit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : 0;
 const requestedConcurrency = Number.parseInt(process.env.MECRT_CATALOG_SYNC_CONCURRENCY || '8', 10);
-const detailConcurrency = Number.isFinite(requestedConcurrency)
-  ? Math.max(1, Math.min(20, requestedConcurrency))
-  : 8;
+const detailConcurrency = Number.isFinite(requestedConcurrency) ? Math.max(1, Math.min(20, requestedConcurrency)) : 8;
 const forceFullSync = /^(1|true|yes)$/i.test(process.env.MECRT_CATALOG_FULL_SYNC || '');
 const requestedOverlap = Number.parseInt(process.env.MECRT_CATALOG_SYNC_OVERLAP_SECONDS || '300', 10);
 const syncOverlapSeconds = Number.isFinite(requestedOverlap) && requestedOverlap >= 0 ? requestedOverlap : 300;

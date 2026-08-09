@@ -61,6 +61,13 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Start from the latest main branch
+        shell: bash
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
       - uses: actions/download-artifact@v4
         with:
           pattern: locale-*
@@ -86,4 +93,19 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/i18n
           git diff --cached --quiet || git commit -m "Generate 13 localized product catalogs"
-          git push
+
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 5 ]; then
+              echo "Unable to publish localized catalogs after $attempt attempts." >&2
+              exit 1
+            fi
+
+            echo "main advanced while publishing; rebasing before retry $((attempt + 1))/5."
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 5))
+          done

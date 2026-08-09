@@ -30,4 +30,6 @@ pnpm-lock.yaml
 src/cloudflare-env.d.ts
 src/data/catalog-index.json
 src/data/enriched-catalog.json
+src/data/i18n/*/site-copy.checkpoint.json
+src/data/site-copy.current.json
 

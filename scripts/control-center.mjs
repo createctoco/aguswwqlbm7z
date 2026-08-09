@@ -42,7 +42,7 @@ const taskDefinitions = {
     dynamic: publishEnglishData,
   },
   deploy: {
-    label: 'Build and publish Worker',
+    label: 'Build and publish all language Workers',
     dynamic: deployWorker,
   },
   full: {
@@ -242,20 +242,16 @@ async function publishEnglishData(task) {
 }
 
 async function deployWorker(task) {
-  await cloudflareContext(task);
-  await runCommand(task, { label: 'Build OUOOO Worker', command: npmCommand, args: ['run', 'build'] });
+  const database = await cloudflareContext(task);
+  const sessionNamespace = await discoverSessionNamespace();
   await runCommand(task, {
-    label: 'Deploy OUOOO Worker',
-    command: npxCommand,
-    args: [
-      'wrangler',
-      'deploy',
-      join(root, 'dist', 'server', 'entry.mjs'),
-      '--config',
-      runtimeConfig,
-      '--assets',
-      join(root, 'dist', 'client'),
-    ],
+    label: 'Translate changed page copy and deploy all language Workers',
+    command: npmCommand,
+    args: ['run', 'deploy:locales'],
+    env: {
+      OUOOO_D1_DATABASE_ID: database.uuid,
+      OUOOO_SESSION_KV_ID: sessionNamespace.id,
+    },
   });
 }
 

@@ -41,6 +41,35 @@ if (locale !== localeData.defaultLocale) {
       { cause: error }
     );
   }
+
+  const sourceCopyPath = resolve('src/data/site-copy.en.json');
+  const localizedCopyPath = resolve(`src/data/i18n/${locale}/site-copy.json`);
+  try {
+    const sourceCopy = JSON.parse(await readFile(sourceCopyPath, 'utf8'));
+    const localizedCopy = JSON.parse(await readFile(localizedCopyPath, 'utf8'));
+    const sourceEntries = Array.isArray(sourceCopy.entries) ? sourceCopy.entries : [];
+    const localizedEntries = Array.isArray(localizedCopy.entries) ? localizedCopy.entries : [];
+    const localizedById = new Map(localizedEntries.map((entry) => [entry.id, entry]));
+    const complete =
+      localizedCopy.locale === locale &&
+      localizedCopy.sourceHash === sourceCopy.sourceHash &&
+      localizedEntries.length === sourceEntries.length &&
+      sourceEntries.every((entry) => {
+        const translated = localizedById.get(entry.id);
+        return (
+          translated?.source === entry.source &&
+          typeof translated.translation === 'string' &&
+          translated.translation.trim().length > 0
+        );
+      });
+    if (!complete) throw new Error(`Localized site copy is incomplete or outdated for ${locale}.`);
+  } catch (error) {
+    if (error instanceof Error && error.message.startsWith('Localized site copy is incomplete')) throw error;
+    throw new Error(
+      `Localized site copy for ${locale} is not ready. Run the English copy extraction and ${locale} translation before deploying.`,
+      { cause: error }
+    );
+  }
 }
 
 process.stdout.write(`Locale build validated: ${locale} -> ${siteUrl}\n`);

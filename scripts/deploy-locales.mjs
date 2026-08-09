@@ -9,14 +9,12 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const stateRoot = join(root, '.ouooo-control');
 const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm';
 const npxCommand = process.platform === 'win32' ? 'npx.cmd' : 'npx';
-const databaseId = process.env.OUOOO_D1_DATABASE_ID;
-const sessionNamespaceId = process.env.OUOOO_SESSION_KV_ID;
+let databaseId = process.env.OUOOO_D1_DATABASE_ID;
+let sessionNamespaceId = process.env.OUOOO_SESSION_KV_ID;
 const requested = process.argv.slice(2);
 const localeNames = requested.length ? requested : Object.keys(localeData.locales);
 const publishedLocales = Object.keys(localeData.locales).join(',');
 
-if (!databaseId) throw new Error('OUOOO_D1_DATABASE_ID is required.');
-if (!sessionNamespaceId) throw new Error('OUOOO_SESSION_KV_ID is required.');
 for (const locale of localeNames) {
   if (!localeData.locales[locale]) throw new Error(`Unsupported locale: ${locale}`);
 }
@@ -46,7 +44,53 @@ function run(command, args, environment) {
   });
 }
 
+function capture(command, args) {
+  return new Promise((resolvePromise, rejectPromise) => {
+    const call = invocation(command, args);
+    const child = spawn(call.command, call.args, {
+      cwd: root,
+      env: { ...process.env, ASTRO_TELEMETRY_DISABLED: '1', WRANGLER_LOG_PATH: join(stateRoot, 'wrangler.log') },
+      shell: false,
+      windowsHide: true,
+    });
+    let output = '';
+    child.stdout.on('data', (chunk) => (output += chunk.toString()));
+    child.stderr.on('data', (chunk) => (output += chunk.toString()));
+    child.on('error', rejectPromise);
+    child.on('close', (code) =>
+      code === 0 ? resolvePromise(output) : rejectPromise(new Error(`${command} exited with code ${code}: ${output}`))
+    );
+  });
+}
+
 await mkdir(stateRoot, { recursive: true });
+if (!databaseId) {
+  const output = await capture(npxCommand, ['wrangler', 'd1', 'list', '--json']);
+  const databases = JSON.parse(output.slice(output.indexOf('[')));
+  databaseId = databases.find((item) => item.name === 'ouooo-catalog')?.uuid;
+}
+if (!sessionNamespaceId) {
+  const output = await capture(npxCommand, ['wrangler', 'kv', 'namespace', 'list']);
+  const namespaces = JSON.parse(output.slice(output.indexOf('[')));
+  sessionNamespaceId = namespaces.find((item) => item.title === 'ouooo-catalog-session')?.id;
+}
+if (!databaseId) throw new Error('Cloudflare D1 database "ouooo-catalog" was not found.');
+if (!sessionNamespaceId) throw new Error('Cloudflare KV namespace "ouooo-catalog-session" was not found.');
+if (localeNames.some((locale) => locale !== localeData.defaultLocale)) {
+  const english = localeData.locales[localeData.defaultLocale];
+  const environment = {
+    ASTRO_TELEMETRY_DISABLED: '1',
+    OUOOO_LOCALE: localeData.defaultLocale,
+    OUOOO_SITE_URL: `https://${english.host}`,
+    OUOOO_PUBLISHED_LOCALES: publishedLocales,
+  };
+  process.stdout.write('\n[OUOOO] Extracting the approved English page-copy scope\n');
+  await run(npmCommand, ['run', 'build'], environment);
+  await run(npmCommand, ['run', 'extract:site-copy'], environment);
+  for (const locale of localeNames.filter((item) => item !== localeData.defaultLocale)) {
+    await run(npmCommand, ['run', 'translate:site-copy'], { ...environment, OUOOO_LOCALE: locale });
+  }
+}
 for (const locale of localeNames) {
   const definition = localeData.locales[locale];
   const workerName = locale === localeData.defaultLocale ? 'ouooo-catalog' : `ouooo-${locale}`;
@@ -83,6 +127,10 @@ for (const locale of localeNames) {
   };
   process.stdout.write(`\n[OUOOO] Building ${locale} for ${definition.host}\n`);
   await run(npmCommand, ['run', 'build'], environment);
+  if (locale !== localeData.defaultLocale) {
+    await run(npmCommand, ['run', 'localize:built-html'], environment);
+    await run(npmCommand, ['run', 'verify:localized-html'], environment);
+  }
   process.stdout.write(`[OUOOO] Deploying ${locale} to ${workerName}\n`);
   await run(
     npxCommand,

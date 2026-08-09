@@ -151,34 +151,47 @@ function categoryList(product) {
 }
 
 function extractPricing(product) {
-  const rawPrice = product.price ?? product._price ?? '';
-  const price = String(rawPrice).trim();
-  if (!price || price === '0') return undefined;
+  const numericPrice = (value) => {
+    const text = String(value ?? '').trim();
+    if (!text) return undefined;
+    const number = Number(text);
+    return Number.isFinite(number) && number > 0 ? number : undefined;
+  };
 
-  const regularPrice = String(product.regular_price ?? product._regular_price ?? '').trim();
-  const salePrice = String(product.sale_price ?? product._sale_price ?? '').trim();
-  const currency = String(product.currency || 'USD')
+  const parentPrice = numericPrice(product.price ?? product._price);
+  const regularPrice = numericPrice(product.regular_price ?? product._regular_price);
+  const salePrice = numericPrice(product.sale_price ?? product._sale_price);
+  const variationPrices = (product.variations || [])
+    .map((variation) => numericPrice(variation.price ?? variation.sale_price ?? variation.regular_price))
+    .filter((price) => price !== undefined);
+
+  if (parentPrice === undefined && variationPrices.length === 0) return undefined;
+
+  const minimumVariationPrice = variationPrices.length ? Math.min(...variationPrices) : undefined;
+  const maximumVariationPrice = variationPrices.length ? Math.max(...variationPrices) : undefined;
+  const effectivePrice = parentPrice ?? minimumVariationPrice;
+  const currency = String(product.currency || product.currency_code || 'USD')
     .trim()
     .toUpperCase();
-  const onSale = Boolean(salePrice && salePrice !== '0' && regularPrice && regularPrice !== price);
+  const onSale =
+    salePrice !== undefined &&
+    regularPrice !== undefined &&
+    salePrice < regularPrice;
 
-  const variationPrices = (product.variations || [])
-    .map((v) => String(v.price ?? '').trim())
-    .filter((v) => v && v !== '0')
-    .map(Number)
-    .filter(Number.isFinite);
-
-  let priceRange;
-  if (variationPrices.length > 1) {
-    priceRange = {
-      min: Math.min(...variationPrices).toFixed(2),
-      max: Math.max(...variationPrices).toFixed(2),
-    };
-  }
+  const priceRange =
+    minimumVariationPrice !== undefined &&
+    maximumVariationPrice !== undefined &&
+    minimumVariationPrice !== maximumVariationPrice
+      ? {
+          min: minimumVariationPrice.toFixed(2),
+          max: maximumVariationPrice.toFixed(2),
+        }
+      : undefined;
 
   return {
-    price: Number(price).toFixed(2),
-    regularPrice: regularPrice && regularPrice !== '0' ? Number(regularPrice).toFixed(2) : undefined,
+    price: effectivePrice.toFixed(2),
+    regularPrice: regularPrice?.toFixed(2),
+    salePrice: salePrice?.toFixed(2),
     currency,
     onSale,
     priceRange,

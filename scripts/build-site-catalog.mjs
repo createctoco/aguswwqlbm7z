@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 1.6 seconds
+Output:
 import { createHash } from 'node:crypto';
 import { readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
@@ -173,10 +176,7 @@ function extractPricing(product) {
   const currency = String(product.currency || product.currency_code || 'USD')
     .trim()
     .toUpperCase();
-  const onSale =
-    salePrice !== undefined &&
-    regularPrice !== undefined &&
-    salePrice < regularPrice;
+  const onSale = salePrice !== undefined && regularPrice !== undefined && salePrice < regularPrice;
 
   const priceRange =
     minimumVariationPrice !== undefined &&
@@ -209,6 +209,7 @@ function mapProduct(product, index, existingSlugs) {
   return sanitizeSourceBrand({
     productId,
     sourceId: productId,
+    sourceFingerprint: product.ai.source_fingerprint || '',
     locale: 'en',
     slug: existingSlugs.get(productId) || `${slugify(product.ai.title)}-${suffix}`,
     title: product.ai.title,
@@ -260,7 +261,7 @@ try {
   const products = catalog.products.map((product, index) => mapProduct(product, index, existingSlugs));
   await writeFile(
     temporaryFile,
-    `${JSON.stringify(sanitizeSourceBrand({ schemaVersion: 2, locale: 'en', generatedAt: new Date().toISOString(), selection: catalog.selection, enrichmentSummary: catalog.enrichment_summary, products }), null, 2)}\n`,
+    `${JSON.stringify(sanitizeSourceBrand({ schemaVersion: 3, locale: 'en', generatedAt: new Date().toISOString(), selection: catalog.selection, sync: { mode: catalog.sync_mode, cursor: catalog.sync_cursor, modifiedAfter: catalog.modified_after, changedProductIds: catalog.changed_source_ids || [], deletedProductIds: catalog.deleted_source_ids || [] }, enrichmentSummary: catalog.enrichment_summary, products }), null, 2)}\n`,
     'utf8'
   );
   await rename(temporaryFile, outputFile);
@@ -269,3 +270,4 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
+

@@ -118,11 +118,14 @@ async function fetchIndex() {
     } while (page <= totalPages);
   }
 
-  const pendingSourceIds = hasPendingQueue ? savedQueue.pendingSourceIds.map(String) : [...summaries.keys()];
+  const pendingSourceIds = [
+    ...new Set(hasPendingQueue ? savedQueue.pendingSourceIds.map(String) : [...summaries.keys()]),
+  ];
+  const savedInflightSourceIds = [
+    ...new Set(Array.isArray(savedQueue?.inflightSourceIds) ? savedQueue.inflightSourceIds.map(String) : []),
+  ];
   const currentBatchIds =
-    Array.isArray(savedQueue?.inflightSourceIds) && savedQueue.inflightSourceIds.length > 0
-      ? savedQueue.inflightSourceIds.map(String)
-      : pendingSourceIds.slice(0, batchSize);
+    savedInflightSourceIds.length > 0 ? savedInflightSourceIds : pendingSourceIds.slice(0, batchSize);
   const queueWindowStartedAt = hasPendingQueue ? savedQueue.windowStartedAt : syncStartedAt;
   await mkdir(dirname(queueFile), { recursive: true });
   await writeFile(

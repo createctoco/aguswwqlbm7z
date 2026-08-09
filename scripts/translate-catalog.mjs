@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 4.3 seconds
-Output:
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';

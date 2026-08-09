@@ -55,4 +55,3 @@ the Worker.
 ## License
 
 The project retains the original AstroWind MIT license and attribution in `LICENSE.md`.
-

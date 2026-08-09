@@ -31,6 +31,25 @@ The first sync downloads the full catalog. Later syncs request only products mod
 
 Price, regular-price, sale state, currency, and variation ranges flow from the source product details into the generated site catalog. Variable products without a parent price use their minimum variation price instead of losing pricing entirely.
 
+## Local control center
+
+On Windows, double-click `OUOOO-工作台.cmd`, or run:
+
+```bash
+npm run control
+```
+
+The control center opens at `http://127.0.0.1:4173` and is available only from the local computer. It provides fixed, allowlisted actions for:
+
+- synchronizing changed MECRT products;
+- rewriting changed English content with DeepSeek;
+- preparing the validated site catalog;
+- importing the English catalog into production D1;
+- building and deploying the Cloudflare Worker;
+- running the complete English synchronization pipeline.
+
+Only one operation can run at a time. Logs are stored under the ignored `.ouooo-control/logs/` directory. The UI checks whether required local configuration exists but never displays secret values. Keep `.env` untracked and do not expose port `4173` through a firewall, reverse proxy, tunnel, or public network.
+
 ## Deployment
 
 The catalog uses Astro's mostly-static/on-demand rendering model on Cloudflare Workers:

@@ -67,4 +67,3 @@ export const collections = Array.from(
     }, new Map<string, ProductCategory & { products: Product[] }>())
     .values()
 ).sort((a, b) => a.name.localeCompare(b.name));
-

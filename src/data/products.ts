@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 1.6 seconds
+Output:
 import siteCatalog from './site-catalog.json';
 import { BUILD_LOCALE, DEFAULT_LOCALE, type SupportedLocale } from '~/i18n/config';
 import type { ProductLocalization } from '~/i18n/catalog';
@@ -17,6 +20,7 @@ export type ProductPricing = {
 export type Product = {
   productId: string;
   sourceId: string;
+  sourceFingerprint?: string;
   locale: SupportedLocale;
   slug: string;
   title: string;
@@ -66,3 +70,4 @@ export const collections = Array.from(
     }, new Map<string, ProductCategory & { products: Product[] }>())
     .values()
 ).sort((a, b) => a.name.localeCompare(b.name));
+

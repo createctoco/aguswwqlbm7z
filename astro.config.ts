@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 4.4 seconds
-Output:
 import path from 'path';
 import { fileURLToPath } from 'url';
 

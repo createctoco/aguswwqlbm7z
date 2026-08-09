@@ -26,11 +26,10 @@ const shortLabel = BUILD_LOCALE_CONFIG.hreflang.split('-')[0].toUpperCase();
         <a
           href={getLocalizedUrl(currentPath, locale)}
           lang={LOCALES[locale].hreflang}
-          dir={LOCALES[locale].direction}
           aria-current={locale === BUILD_LOCALE ? 'page' : undefined}
           role="listitem"
         >
-          <span>{LOCALES[locale].label}</span>
+          <span dir={LOCALES[locale].direction}>{LOCALES[locale].label}</span>
           {locale === BUILD_LOCALE && (
             <span class="current-mark" aria-hidden="true">
               ✓

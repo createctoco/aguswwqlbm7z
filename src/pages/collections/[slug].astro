@@ -1,16 +1,18 @@
+Exit code: 0
+Wall time: 1.8 seconds
+Output:
 ---
-import type { GetStaticPaths } from 'astro';
 import Layout from '~/layouts/PageLayout.astro';
 import ProductCard from '~/components/ouooo/ProductCard.astro';
-import { collections } from '~/data/products';
+import { BUILD_LOCALE } from '~/i18n/config';
+import { getCollection } from '~/server/catalog';
 
-export const getStaticPaths = (() =>
-  collections.map((collection) => ({
-    params: { slug: collection.slug },
-    props: { collection },
-  }))) satisfies GetStaticPaths;
+export const prerender = false;
 
-const { collection } = Astro.props;
+const requestedPage = Number.parseInt(Astro.url.searchParams.get('page') || '1', 10);
+const collection = await getCollection(BUILD_LOCALE, Astro.params.slug || '', requestedPage, 24);
+if (!collection) return new Response(null, { status: 404, statusText: 'Collection not found' });
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=1800, stale-while-revalidate=86400');
 const metadata = {
   title: `${collection.name} | Wholesale Catholic Gifts`,
   description: `Browse ${collection.name.toLowerCase()} from the OUOOO wholesale Catholic gifts catalog and request sourcing information.`,
@@ -28,7 +30,7 @@ const metadata = {
       <p class="mt-8 text-xs font-semibold uppercase tracking-[.16em] text-primary">Product series</p>
       <h1 class="mt-4 text-4xl font-semibold text-gray-950 sm:text-5xl">{collection.name}</h1>
       <p class="mt-4 text-base text-muted">
-        {collection.products.length} synchronized {collection.products.length === 1 ? 'product' : 'products'} in this collection.
+        {collection.total} synchronized {collection.total === 1 ? 'product' : 'products'} in this collection.
       </p>
     </div>
   </header>
@@ -36,5 +38,19 @@ const metadata = {
     <div class="grid gap-x-7 gap-y-14 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {collection.products.map((product) => <ProductCard product={product} />)}
     </div>
+    {
+      collection.total > collection.pageSize && (
+        <nav class="mt-12 flex justify-center gap-4" aria-label="Collection pagination">
+          {collection.page > 1 && <a href={`?page=${collection.page - 1}`}>Previous</a>}
+          <span>
+            Page {collection.page} of {Math.ceil(collection.total / collection.pageSize)}
+          </span>
+          {collection.page * collection.pageSize < collection.total && (
+            <a href={`?page=${collection.page + 1}`}>Next</a>
+          )}
+        </nav>
+      )
+    }
   </section>
 </Layout>
+

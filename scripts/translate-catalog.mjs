@@ -121,11 +121,19 @@ async function translateCategoryGlossary(products, previousCatalog) {
     }, new Map())
   ).map(([slug, name]) => ({ slug, name }));
   const glossarySourceHash = contentHash(categories);
+  const previousGlossary = previousCatalog?.categoryGlossary;
+  const previousGlossaryCoversCurrentCategories =
+    previousGlossary &&
+    categories.every(
+      ({ slug }) => typeof previousGlossary[slug] === 'string' && previousGlossary[slug].trim().length > 0
+    );
   if (
-    previousCatalog?.categoryGlossary &&
-    (!previousCatalog.categoryGlossarySourceHash || previousCatalog.categoryGlossarySourceHash === glossarySourceHash)
+    previousGlossaryCoversCurrentCategories ||
+    (previousGlossary &&
+      (!previousCatalog.categoryGlossarySourceHash ||
+        previousCatalog.categoryGlossarySourceHash === glossarySourceHash))
   ) {
-    return { glossary: previousCatalog.categoryGlossary, sourceHash: glossarySourceHash, reused: true };
+    return { glossary: previousGlossary, sourceHash: glossarySourceHash, reused: true };
   }
   const system = `Translate an OUOOO B2B Catholic-gift catalog category glossary into ${localeDefinition.label}. Return only JSON: {"categories":{"slug":"translated display name"}}. Preserve every slug exactly. Use concise, natural wholesale catalog terminology. Translate Catholic terms accurately. Never add claims or source branding.`;
   const { value } = await deepSeekJson(system, JSON.stringify({ locale, categories }), 1000);

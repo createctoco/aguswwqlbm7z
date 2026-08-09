@@ -1,9 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "locale": "zh-hans",
   "sourceLocale": "en",
-  "sourceCatalogHash": "ee7203c2b059cf26e18ec250aa19b683e66aad43469fdd06e6dc7a0f9ba6380c",
-  "generatedAt": "2026-08-09T10:41:45.954Z",
+  "sourceCatalogHash": "1dcc703dd8ce4bb7eadf74b21941beb2354916329fd45b6fa38f9a7f07080eed",
+  "generatedAt": "2026-08-09T16:10:59.392Z",
+  "sync": {
+    "mode": "incremental",
+    "cursor": "2026-08-09T15:58:16.918Z",
+    "modifiedAfter": "2026-08-09T15:53:16.918Z",
+    "changedProductIds": [
+      "AAFOTG7BAOVioqqEY6emD3Ij",
+      "AAE1TG7BAOVioqqEY6enzCwS",
+      "AAG5TG7BAOVioqqEY6enzPvH",
+      "AAEFTG7BAOVioqqEY6eecnZ7",
+      "AAEzTG7BAOVioqqEY6eiFmcQ",
+      "AAHqTG7BAOVioqqEY6emOIz8",
+      "AAH4TG7BAOVioqqEY6ehN-qy",
+      "AAHQTG7BAOVioqqEY6emNm6C",
+      "AAFtTG7BAOVioqqEY6emNnsS",
+      "AAHTTG7BAOVioqqEY6eIQpzp"
+    ],
+    "deletedProductIds": []
+  },
   "categoryGlossary": {
     "rings": "戒指",
     "ornaments": "饰品",
@@ -16,13 +34,14 @@
     "catholic-scapulars": "天主教圣衣",
     "brooch": "胸针"
   },
-  "categoryGlossarySourceHash": "bccaa5391e75fec801a236536146b4d104bb6643b792061f305413f6dcb98b22",
+  "categoryGlossarySourceHash": "86841debeb979398b3d4d81a6ed9ecb5272b427e36f9059a4c2547f03e73e8cd",
   "translationSummary": {
-    "ready": 100,
-    "fallback": 0,
-    "reused": 0,
-    "generated": 100,
-    "glossaryReused": false
+    "ready": 10,
+    "skipped": 0,
+    "skippedProductIds": [],
+    "reused": 10,
+    "generated": 0,
+    "glossaryReused": true
   },
   "products": [
     {
@@ -208,7 +227,13 @@
               "name": "品牌",
               "value": "OUOOO"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.94",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         }
       },
       "localization": {
@@ -232,6 +257,12 @@
             "model": "deepseek-v4-flash"
           }
         }
+      },
+      "pricing": {
+        "price": "1.94",
+        "regularPrice": "1.94",
+        "currency": "USD",
+        "onSale": false
       }
     },
     {
@@ -387,7 +418,19 @@
               "name": "预期用途",
               "value": "装饰品/装饰物"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "3.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.90",
+              "maxPrice": "3.20",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -440,6 +483,15 @@
             "updatedAt": "2026-08-09T10:32:47.507Z",
             "model": "deepseek-v4-flash"
           }
+        }
+      },
+      "pricing": {
+        "price": "3.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.90",
+          "max": "3.20"
         }
       }
     },
@@ -526,7 +578,13 @@
               "name": "款式",
               "value": "红绳1号，红绳2号"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.33",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         }
       },
       "localization": {
@@ -550,6 +608,11 @@
             "model": "deepseek-v4-flash"
           }
         }
+      },
+      "pricing": {
+        "price": "0.33",
+        "currency": "USD",
+        "onSale": false
       }
     },
     {
@@ -671,7 +734,19 @@
               "name": "类别",
               "value": "天主教玫瑰经念珠"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.89",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.80",
+              "maxPrice": "0.89",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -724,6 +799,15 @@
             "updatedAt": "2026-08-09T10:32:55.994Z",
             "model": "deepseek-v4-flash"
           }
+        }
+      },
+      "pricing": {
+        "price": "0.89",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.80",
+          "max": "0.89"
         }
       }
     },
@@ -2253,7 +2337,13 @@
               "name": "特点",
               "value": "可重复使用，耐用"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.42",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -2307,6 +2397,12 @@
             "model": "deepseek-v4-flash"
           }
         }
+      },
+      "pricing": {
+        "price": "0.42",
+        "regularPrice": "0.42",
+        "currency": "USD",
+        "onSale": false
       }
     },
     {
@@ -2428,7 +2524,13 @@
               "name": "颜色变体",
               "value": "橙色、绿色"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.43",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -2482,6 +2584,11 @@
             "model": "deepseek-v4-flash"
           }
         }
+      },
+      "pricing": {
+        "price": "0.43",
+        "currency": "USD",
+        "onSale": false
       }
     },
     {
@@ -4268,7 +4375,19 @@
               "name": "款式选择",
               "value": "黑胡桃木黑心；橄榄木黑心"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.45",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -4321,6 +4440,15 @@
             "updatedAt": "2026-08-09T10:34:36.694Z",
             "model": "deepseek-v4-flash"
           }
+        }
+      },
+      "pricing": {
+        "price": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.45",
+          "max": "0.65"
         }
       }
     },
@@ -4412,7 +4540,13 @@
               "name": "颜色款式",
               "value": "红色、蓝色"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.84",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         }
       },
       "localization": {
@@ -4436,6 +4570,11 @@
             "model": "deepseek-v4-flash"
           }
         }
+      },
+      "pricing": {
+        "price": "0.84",
+        "currency": "USD",
+        "onSale": false
       }
     },
     {
@@ -6194,7 +6333,19 @@
               "name": "型号",
               "value": "005"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.09",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.06",
+              "maxPrice": "0.09",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -6247,6 +6398,15 @@
             "updatedAt": "2026-08-09T10:35:26.877Z",
             "model": "deepseek-v4-flash"
           }
+        }
+      },
+      "pricing": {
+        "price": "0.09",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.06",
+          "max": "0.09"
         }
       }
     },
@@ -8229,7 +8389,19 @@
               "name": "类别",
               "value": "挂件"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.88",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.80",
+              "maxPrice": "0.88",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -8282,6 +8454,15 @@
             "updatedAt": "2026-08-09T10:36:24.998Z",
             "model": "deepseek-v4-flash"
           }
+        }
+      },
+      "pricing": {
+        "price": "0.88",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.80",
+          "max": "0.88"
         }
       }
     },

@@ -1,18 +1,17 @@
 import { getPermalink } from './utils/permalinks';
 import { GENERAL_WHATSAPP_URL } from './config/contact';
-import { collections } from './data/products';
+import navigationCollections from './data/navigation-collections.json';
+import { BUILD_LOCALE } from './i18n/config';
+
+const collectionLinks = (navigationCollections[BUILD_LOCALE] || navigationCollections.en).map(({ name, slug }) => ({
+  text: name,
+  href: getPermalink(`/collections/${slug}`),
+}));
 
 export const headerData = {
   links: [
     { text: 'Products', href: getPermalink('/products') },
-    {
-      text: 'Collections',
-      href: getPermalink('/collections'),
-      links: collections.map(({ name, slug }) => ({
-        text: name,
-        href: getPermalink(`/collections/${slug}`),
-      })),
-    },
+    { text: 'Collections', href: getPermalink('/collections'), links: collectionLinks },
     { text: 'Guides', href: getPermalink('/guides') },
     { text: 'About', href: getPermalink('/about') },
     { text: 'Contact', href: getPermalink('/contact') },

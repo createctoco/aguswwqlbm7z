@@ -1,9 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "locale": "hr",
   "sourceLocale": "en",
-  "sourceCatalogHash": "ee7203c2b059cf26e18ec250aa19b683e66aad43469fdd06e6dc7a0f9ba6380c",
-  "generatedAt": "2026-08-09T10:18:16.153Z",
+  "sourceCatalogHash": "1dcc703dd8ce4bb7eadf74b21941beb2354916329fd45b6fa38f9a7f07080eed",
+  "generatedAt": "2026-08-09T16:10:14.011Z",
+  "sync": {
+    "mode": "incremental",
+    "cursor": "2026-08-09T15:58:16.918Z",
+    "modifiedAfter": "2026-08-09T15:53:16.918Z",
+    "changedProductIds": [
+      "AAFOTG7BAOVioqqEY6emD3Ij",
+      "AAE1TG7BAOVioqqEY6enzCwS",
+      "AAG5TG7BAOVioqqEY6enzPvH",
+      "AAEFTG7BAOVioqqEY6eecnZ7",
+      "AAEzTG7BAOVioqqEY6eiFmcQ",
+      "AAHqTG7BAOVioqqEY6emOIz8",
+      "AAH4TG7BAOVioqqEY6ehN-qy",
+      "AAHQTG7BAOVioqqEY6emNm6C",
+      "AAFtTG7BAOVioqqEY6emNnsS",
+      "AAHTTG7BAOVioqqEY6eIQpzp"
+    ],
+    "deletedProductIds": []
+  },
   "categoryGlossary": {
     "rings": "Prstenje",
     "ornaments": "Ukrasi",
@@ -16,13 +34,14 @@
     "catholic-scapulars": "Katolički škapulari",
     "brooch": "Broš"
   },
-  "categoryGlossarySourceHash": "bccaa5391e75fec801a236536146b4d104bb6643b792061f305413f6dcb98b22",
+  "categoryGlossarySourceHash": "86841debeb979398b3d4d81a6ed9ecb5272b427e36f9059a4c2547f03e73e8cd",
   "translationSummary": {
-    "ready": 99,
-    "fallback": 1,
-    "reused": 0,
-    "generated": 99,
-    "glossaryReused": false
+    "ready": 10,
+    "skipped": 0,
+    "skippedProductIds": [],
+    "reused": 10,
+    "generated": 0,
+    "glossaryReused": true
   },
   "products": [
     {
@@ -208,7 +227,13 @@
               "name": "Brand Name",
               "value": "OUOOO"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.94",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         }
       },
       "localization": {
@@ -232,6 +257,12 @@
             "model": "deepseek-v4-flash"
           }
         }
+      },
+      "pricing": {
+        "price": "1.94",
+        "regularPrice": "1.94",
+        "currency": "USD",
+        "onSale": false
       }
     },
     {
@@ -387,7 +418,19 @@
               "name": "Namjena",
               "value": "Dekoracija / ukras"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "3.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.90",
+              "maxPrice": "3.20",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -440,6 +483,15 @@
             "updatedAt": "2026-08-09T10:01:07.458Z",
             "model": "deepseek-v4-flash"
           }
+        }
+      },
+      "pricing": {
+        "price": "3.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.90",
+          "max": "3.20"
         }
       }
     },
@@ -526,7 +578,13 @@
               "name": "Varijanta",
               "value": "Crvena vrpca 1 #, Crvena vrpca 2 #"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.33",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         }
       },
       "localization": {
@@ -550,6 +608,11 @@
             "model": "deepseek-v4-flash"
           }
         }
+      },
+      "pricing": {
+        "price": "0.33",
+        "currency": "USD",
+        "onSale": false
       }
     },
     {
@@ -682,7 +745,19 @@
               "name": "Kategorija",
               "value": "Katoličke krunice"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.89",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.80",
+              "maxPrice": "0.89",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -735,6 +810,15 @@
             "updatedAt": "2026-08-09T10:01:31.457Z",
             "model": "deepseek-v4-flash"
           }
+        }
+      },
+      "pricing": {
+        "price": "0.89",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.80",
+          "max": "0.89"
         }
       }
     },
@@ -2300,7 +2384,13 @@
               "name": "Značajka",
               "value": "Višekratno upotrebljiv, izdržljiv"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.42",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -2354,6 +2444,12 @@
             "model": "deepseek-v4-flash"
           }
         }
+      },
+      "pricing": {
+        "price": "0.42",
+        "regularPrice": "0.42",
+        "currency": "USD",
+        "onSale": false
       }
     },
     {
@@ -2486,7 +2582,13 @@
               "name": "Varijante boja",
               "value": "Narančasta, zelena"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.43",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -2540,6 +2642,11 @@
             "model": "deepseek-v4-flash"
           }
         }
+      },
+      "pricing": {
+        "price": "0.43",
+        "currency": "USD",
+        "onSale": false
       }
     },
     {
@@ -4347,7 +4454,19 @@
               "name": "Opcije varijanti",
               "value": "Crni orah s crnom srži; maslinovo drvo s crnom srži"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.45",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -4400,6 +4519,15 @@
             "updatedAt": "2026-08-09T10:04:32.273Z",
             "model": "deepseek-v4-flash"
           }
+        }
+      },
+      "pricing": {
+        "price": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.45",
+          "max": "0.65"
         }
       }
     },
@@ -4491,7 +4619,13 @@
               "name": "Varijanta",
               "value": "Crvena, Plava"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.84",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
         }
       },
       "localization": {
@@ -4515,6 +4649,11 @@
             "model": "deepseek-v4-flash"
           }
         }
+      },
+      "pricing": {
+        "price": "0.84",
+        "currency": "USD",
+        "onSale": false
       }
     },
     {
@@ -6321,7 +6460,19 @@
               "name": "Model",
               "value": "005"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.09",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.06",
+              "maxPrice": "0.09",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -6374,6 +6525,15 @@
             "updatedAt": "2026-08-09T10:05:56.409Z",
             "model": "deepseek-v4-flash"
           }
+        }
+      },
+      "pricing": {
+        "price": "0.09",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.06",
+          "max": "0.09"
         }
       }
     },
@@ -8383,7 +8543,19 @@
               "name": "Kategorija",
               "value": "Ukrasi"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.88",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.80",
+              "maxPrice": "0.88",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -8436,6 +8608,15 @@
             "updatedAt": "2026-08-09T10:08:22.919Z",
             "model": "deepseek-v4-flash"
           }
+        }
+      },
+      "pricing": {
+        "price": "0.88",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.80",
+          "max": "0.88"
         }
       }
     },

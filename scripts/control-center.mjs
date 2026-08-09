@@ -170,14 +170,22 @@ function commandInvocation(command, args) {
   };
 }
 
-async function writeRuntimeConfig(databaseId) {
+async function discoverSessionNamespace() {
+  const output = await captureCommand(npxCommand, ['wrangler', 'kv', 'namespace', 'list']);
+  const namespaces = JSON.parse(output.slice(output.indexOf('[')));
+  const namespace = namespaces.find((item) => item.title === 'ouooo-catalog-session');
+  if (!namespace?.id) throw new Error('Cloudflare KV namespace "ouooo-catalog-session" was not found.');
+  return namespace;
+}
+
+async function writeRuntimeConfig(databaseId, sessionNamespaceId) {
   const config = {
     $schema: '../node_modules/wrangler/config-schema.json',
     name: 'ouooo-catalog',
     main: '../dist/server/entry.mjs',
     compatibility_date: '2026-08-01',
     compatibility_flags: ['nodejs_compat'],
-    assets: { directory: '../dist/client' },
+    assets: { directory: '../dist/client', binding: 'ASSETS' },
     d1_databases: [
       {
         binding: 'DB',
@@ -186,6 +194,7 @@ async function writeRuntimeConfig(databaseId) {
         migrations_dir: '../migrations',
       },
     ],
+    kv_namespaces: [{ binding: 'SESSION', id: sessionNamespaceId }],
     observability: { enabled: true, head_sampling_rate: 0.1 },
   };
   await writeFile(runtimeConfig, `${JSON.stringify(config, null, 2)}\n`, 'utf8');
@@ -195,8 +204,10 @@ async function cloudflareContext(task) {
   task.step = 'Discover Cloudflare D1 database';
   await log(task, '\n[STEP] Discover Cloudflare D1 database\n');
   const database = await discoverD1();
-  await writeRuntimeConfig(database.uuid);
+  const sessionNamespace = await discoverSessionNamespace();
+  await writeRuntimeConfig(database.uuid, sessionNamespace.id);
   await log(task, `Using D1 database ${database.name}.\n`);
+  await log(task, `Using KV namespace ${sessionNamespace.title}.\n`);
   return database;
 }
 

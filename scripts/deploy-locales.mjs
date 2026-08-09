@@ -10,11 +10,13 @@ const stateRoot = join(root, '.ouooo-control');
 const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm';
 const npxCommand = process.platform === 'win32' ? 'npx.cmd' : 'npx';
 const databaseId = process.env.OUOOO_D1_DATABASE_ID;
+const sessionNamespaceId = process.env.OUOOO_SESSION_KV_ID;
 const requested = process.argv.slice(2);
 const localeNames = requested.length ? requested : Object.keys(localeData.locales);
 const publishedLocales = Object.keys(localeData.locales).join(',');
 
 if (!databaseId) throw new Error('OUOOO_D1_DATABASE_ID is required.');
+if (!sessionNamespaceId) throw new Error('OUOOO_SESSION_KV_ID is required.');
 for (const locale of localeNames) {
   if (!localeData.locales[locale]) throw new Error(`Unsupported locale: ${locale}`);
 }
@@ -55,8 +57,11 @@ for (const locale of localeNames) {
     main: '../dist/server/entry.mjs',
     compatibility_date: '2026-08-01',
     compatibility_flags: ['nodejs_compat'],
-    routes: [{ pattern: definition.host, custom_domain: true }],
-    assets: { directory: '../dist/client' },
+    routes:
+      locale === localeData.defaultLocale
+        ? [{ pattern: `${definition.host}/*`, zone_name: definition.host }]
+        : [{ pattern: definition.host, custom_domain: true }],
+    assets: { directory: '../dist/client', binding: 'ASSETS' },
     d1_databases: [
       {
         binding: 'DB',
@@ -65,6 +70,7 @@ for (const locale of localeNames) {
         migrations_dir: '../migrations',
       },
     ],
+    kv_namespaces: [{ binding: 'SESSION', id: sessionNamespaceId }],
     observability: { enabled: true, head_sampling_rate: 0.1 },
   };
   await writeFile(configFile, `${JSON.stringify(config, null, 2)}\n`, 'utf8');

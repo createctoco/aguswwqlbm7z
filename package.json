@@ -16,6 +16,7 @@
     "preview": "astro preview",
     "control": "node scripts/control-center.mjs --open",
     "sync:catalog": "node --env-file-if-exists=.env scripts/catalog-client.mjs",
+    "ack:catalog": "node --env-file-if-exists=.env scripts/catalog-queue-ack.mjs",
     "enrich:catalog": "node --env-file-if-exists=.env scripts/enrich-catalog.mjs",
     "prepare:catalog": "node --env-file-if-exists=.env scripts/build-site-catalog.mjs",
     "translate:catalog": "node --env-file-if-exists=.env scripts/translate-catalog.mjs",

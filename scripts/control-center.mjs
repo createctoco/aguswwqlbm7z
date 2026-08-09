@@ -6,6 +6,8 @@ import http from 'node:http';
 import { dirname, extname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import localeData from '../src/i18n/locales.json' with { type: 'json' };
+
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const uiRoot = join(root, 'tools', 'control-center');
 const stateRoot = join(root, '.ouooo-control');
@@ -44,7 +46,7 @@ const taskDefinitions = {
     dynamic: deployWorker,
   },
   full: {
-    label: 'Run complete English pipeline',
+    label: 'Process and publish next 10-product batch',
     dynamic: runFullPipeline,
   },
 };
@@ -251,6 +253,36 @@ async function runFullPipeline(task) {
     for (const step of taskDefinitions[action].steps) await runCommand(task, step);
   }
   await publishEnglishData(task);
+  for (const locale of Object.keys(localeData.locales).filter((item) => item !== localeData.defaultLocale)) {
+    const translatedFile = join(root, 'src', 'data', 'i18n', locale, 'site-catalog.json');
+    const importFile = join(root, '.d1', `import-${locale}.sql`);
+    await runCommand(task, {
+      label: `Translate changed products to ${locale}`,
+      command: npmCommand,
+      args: ['run', 'translate:catalog'],
+      env: { OUOOO_LOCALE: locale },
+    });
+    await runCommand(task, {
+      label: `Prepare ${locale} D1 import`,
+      command: npmCommand,
+      args: ['run', 'prepare:d1'],
+      env: {
+        OUOOO_LOCALE: locale,
+        OUOOO_D1_CATALOG_INPUT: translatedFile,
+        OUOOO_D1_IMPORT_OUTPUT: importFile,
+      },
+    });
+    await runCommand(task, {
+      label: `Import ${locale} catalog to D1`,
+      command: npxCommand,
+      args: ['wrangler', 'd1', 'execute', 'ouooo-catalog', '--remote', '--file', importFile, '--config', runtimeConfig],
+    });
+  }
+  await runCommand(task, {
+    label: 'Acknowledge completed product batch',
+    command: npmCommand,
+    args: ['run', 'ack:catalog'],
+  });
 }
 
 async function startTask(action) {
@@ -298,12 +330,21 @@ async function statusPayload() {
   const envValues = await readEnvValues();
   const catalog = await catalogSummary();
   const git = await captureCommand('git', ['status', '--short', '--branch']).catch(() => 'Unavailable');
+  const queue = await readFile(join(stateRoot, 'catalog-queue.json'), 'utf8')
+    .then(JSON.parse)
+    .catch(() => null);
   return {
     csrfToken,
     activeTask: taskSnapshot(activeTask),
     latestTask: taskSnapshot(latestTask),
     tail: latestTask?.tail || '',
     catalog,
+    queue: {
+      pending: queue?.pendingSourceIds?.length || 0,
+      inflight: queue?.inflightSourceIds?.length || 0,
+      processed: queue?.processed || 0,
+      sourceTotal: queue?.sourceTotal || 0,
+    },
     git: git.trim(),
     config: {
       mecrt:

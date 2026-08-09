@@ -6,10 +6,11 @@ const baseUrl = (process.env.MECRT_CATALOG_URL || '').replace(/\/$/, '');
 const secret = process.env.MECRT_CATALOG_BRIDGE_SECRET || '';
 const outputFile = resolve(process.env.MECRT_CATALOG_OUTPUT || 'src/data/catalog-index.json');
 const maxAttempts = 5;
-const requestedLimit = Number.parseInt(process.env.MECRT_CATALOG_SYNC_LIMIT || '0', 10);
-const syncLimit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : 0;
-const requestedConcurrency = Number.parseInt(process.env.MECRT_CATALOG_SYNC_CONCURRENCY || '8', 10);
-const detailConcurrency = Number.isFinite(requestedConcurrency) ? Math.max(1, Math.min(20, requestedConcurrency)) : 8;
+const requestedBatchSize = Number.parseInt(process.env.MECRT_CATALOG_BATCH_SIZE || '10', 10);
+const batchSize = Number.isFinite(requestedBatchSize) ? Math.max(1, Math.min(10, requestedBatchSize)) : 10;
+const requestedConcurrency = Number.parseInt(process.env.MECRT_CATALOG_SYNC_CONCURRENCY || '2', 10);
+const detailConcurrency = Number.isFinite(requestedConcurrency) ? Math.max(1, Math.min(4, requestedConcurrency)) : 2;
+const queueFile = resolve(process.env.MECRT_CATALOG_QUEUE_FILE || '.ouooo-control/catalog-queue.json');
 const forceFullSync = /^(1|true|yes)$/i.test(process.env.MECRT_CATALOG_FULL_SYNC || '');
 const requestedOverlap = Number.parseInt(process.env.MECRT_CATALOG_SYNC_OVERLAP_SECONDS || '300', 10);
 const syncOverlapSeconds = Number.isFinite(requestedOverlap) && requestedOverlap >= 0 ? requestedOverlap : 300;
@@ -82,7 +83,13 @@ async function fetchIndex() {
     .then(JSON.parse)
     .catch(() => ({ products: [] }));
   const previousProducts = Array.isArray(previousCatalog.products) ? previousCatalog.products : [];
-  const fullSync = forceFullSync || previousProducts.length === 0;
+  const savedQueue = forceFullSync
+    ? null
+    : await readFile(queueFile, 'utf8')
+        .then(JSON.parse)
+        .catch(() => null);
+  const hasPendingQueue = Array.isArray(savedQueue?.pendingSourceIds) && savedQueue.pendingSourceIds.length > 0;
+  const fullSync = forceFullSync || previousProducts.length === 0 || !savedQueue;
   const previousCursor = previousCatalog.sync_cursor || previousCatalog.synchronized_at || '';
   const previousCursorTime = Date.parse(previousCursor);
   const modifiedAfter =
@@ -90,30 +97,56 @@ async function fetchIndex() {
       ? new Date(Math.max(0, previousCursorTime - syncOverlapSeconds * 1000)).toISOString()
       : '';
   const summaries = new Map();
-  const deletedSourceIds = new Set();
+  const deletedSourceIds = new Set(hasPendingQueue ? savedQueue.deletedSourceIds || [] : []);
   let page = 1;
   let totalPages;
   let sourceTotal = Number(previousCatalog.source_total || previousProducts.length || 0);
-  do {
-    const pageSize = 100;
-    const body = { page, page_size: pageSize, modified_after: modifiedAfter };
-    const payload = `${page}\n${pageSize}\n${modifiedAfter}`;
-    const data = await signedPost('/wp-json/mecrt-catalog/v1/products', body, payload);
-    sourceTotal = Number(data.source_total ?? (fullSync ? data.total : sourceTotal) ?? 0);
-    totalPages = Math.max(1, Number(data.total_pages || 1));
-    for (const sourceId of data.deleted_source_ids || []) deletedSourceIds.add(String(sourceId));
-    for (const product of data.products || []) {
-      if (!product?.source_id) throw new Error(`Product on page ${page} has no source_id.`);
-      summaries.set(String(product.source_id), product);
-    }
-    page += 1;
-  } while (page <= totalPages);
+  if (!hasPendingQueue) {
+    do {
+      const pageSize = 100;
+      const body = { page, page_size: pageSize, modified_after: modifiedAfter };
+      const payload = `${page}\n${pageSize}\n${modifiedAfter}`;
+      const data = await signedPost('/wp-json/mecrt-catalog/v1/products', body, payload);
+      sourceTotal = Number(data.source_total ?? (fullSync ? data.total : sourceTotal) ?? 0);
+      totalPages = Math.max(1, Number(data.total_pages || 1));
+      for (const sourceId of data.deleted_source_ids || []) deletedSourceIds.add(String(sourceId));
+      for (const product of data.products || []) {
+        if (!product?.source_id) throw new Error(`Product on page ${page} has no source_id.`);
+        summaries.set(String(product.source_id), product);
+      }
+      page += 1;
+    } while (page <= totalPages);
+  }
 
-  const productsById = new Map(
-    (fullSync ? [] : previousProducts).map((product) => [String(product.source_id), product])
+  const pendingSourceIds = hasPendingQueue ? savedQueue.pendingSourceIds.map(String) : [...summaries.keys()];
+  const currentBatchIds =
+    Array.isArray(savedQueue?.inflightSourceIds) && savedQueue.inflightSourceIds.length > 0
+      ? savedQueue.inflightSourceIds.map(String)
+      : pendingSourceIds.slice(0, batchSize);
+  const queueWindowStartedAt = hasPendingQueue ? savedQueue.windowStartedAt : syncStartedAt;
+  await mkdir(dirname(queueFile), { recursive: true });
+  await writeFile(
+    queueFile,
+    `${JSON.stringify(
+      {
+        version: 1,
+        windowStartedAt: queueWindowStartedAt,
+        modifiedAfter: hasPendingQueue ? savedQueue.modifiedAfter : modifiedAfter || null,
+        sourceTotal: hasPendingQueue ? savedQueue.sourceTotal : sourceTotal,
+        pendingSourceIds,
+        inflightSourceIds: currentBatchIds,
+        deletedSourceIds: [...deletedSourceIds],
+        updatedAt: new Date().toISOString(),
+      },
+      null,
+      2
+    )}\n`,
+    'utf8'
   );
+
+  const productsById = new Map(previousProducts.map((product) => [String(product.source_id), product]));
   for (const sourceId of deletedSourceIds) productsById.delete(sourceId);
-  const summaryList = [...summaries.values()];
+  const summaryList = currentBatchIds.map((sourceId) => ({ source_id: sourceId }));
   let nextSummaryIndex = 0;
   let scanned = 0;
   const workerCount = Math.min(detailConcurrency, summaryList.length);
@@ -135,104 +168,46 @@ async function fetchIndex() {
       }
     })
   );
+  const remainingSourceIds = pendingSourceIds.slice(currentBatchIds.length);
   const availableProducts = [...productsById.values()];
-  if (!fullSync && summaries.size === 0 && deletedSourceIds.size === 0) {
+  if (!fullSync && pendingSourceIds.length === 0 && deletedSourceIds.size === 0) {
     process.stdout.write(`Catalog unchanged since ${modifiedAfter}; reusing ${availableProducts.length} products.\n`);
   }
 
-  const categoryKey = (category) =>
-    String(category?.slug || category?.id || category?.name || '')
-      .trim()
-      .toLowerCase();
-  const categoryNames = new Map();
-  const productCategories = new Map();
-  for (const product of availableProducts) {
-    const keys = [...new Set((product.categories || []).map(categoryKey).filter(Boolean))];
-    const effectiveKeys = keys.length ? keys : ['uncategorized'];
-    productCategories.set(String(product.source_id), effectiveKeys);
-    for (const category of product.categories || []) {
-      const key = categoryKey(category);
-      if (key) categoryNames.set(key, String(category.name || category.slug || key));
-    }
-    if (!keys.length) categoryNames.set('uncategorized', 'Uncategorized');
-  }
-
-  const targetCount = syncLimit ? Math.min(syncLimit, availableProducts.length) : availableProducts.length;
-  if (categoryNames.size > targetCount) {
-    throw new Error(`Cannot cover ${categoryNames.size} categories with a ${targetCount}-product sync limit.`);
-  }
-
-  const selected = [];
-  const selectedIds = new Set();
-  const uncovered = new Set(categoryNames.keys());
-  while (uncovered.size) {
-    let bestProduct;
-    let bestCoverage = 0;
-    for (const product of availableProducts) {
-      const id = String(product.source_id);
-      if (selectedIds.has(id)) continue;
-      const coverage = (productCategories.get(id) || []).filter((key) => uncovered.has(key)).length;
-      if (coverage > bestCoverage) {
-        bestProduct = product;
-        bestCoverage = coverage;
-      }
-    }
-    if (!bestProduct || bestCoverage === 0) break;
-    selected.push(bestProduct);
-    selectedIds.add(String(bestProduct.source_id));
-    for (const key of productCategories.get(String(bestProduct.source_id)) || []) uncovered.delete(key);
-  }
-
-  const categoryQueues = new Map(
-    [...categoryNames.keys()].map((key) => [
-      key,
-      availableProducts.filter((product) => (productCategories.get(String(product.source_id)) || []).includes(key)),
-    ])
+  await writeFile(
+    queueFile,
+    `${JSON.stringify(
+      {
+        version: 1,
+        windowStartedAt: queueWindowStartedAt,
+        modifiedAfter: hasPendingQueue ? savedQueue.modifiedAfter : modifiedAfter || null,
+        sourceTotal: hasPendingQueue ? savedQueue.sourceTotal : sourceTotal,
+        pendingSourceIds,
+        inflightSourceIds: currentBatchIds,
+        deletedSourceIds: [...deletedSourceIds],
+        processed: Number(savedQueue?.processed || 0),
+        updatedAt: new Date().toISOString(),
+      },
+      null,
+      2
+    )}\n`,
+    'utf8'
   );
-  while (selected.length < targetCount) {
-    let added = false;
-    for (const queue of categoryQueues.values()) {
-      const product = queue.find((candidate) => !selectedIds.has(String(candidate.source_id)));
-      if (!product) continue;
-      selected.push(product);
-      selectedIds.add(String(product.source_id));
-      added = true;
-      if (selected.length >= targetCount) break;
-    }
-    if (!added) break;
-  }
-
-  const selectedCategoryCounts = Object.fromEntries(
-    [...categoryNames.keys()].map((key) => [
-      key,
-      selected.filter((product) => (productCategories.get(String(product.source_id)) || []).includes(key)).length,
-    ])
-  );
-  const uncoveredCategories = [...categoryNames.keys()].filter((key) => selectedCategoryCounts[key] < 1);
-  if (uncoveredCategories.length) throw new Error(`Category coverage failed: ${uncoveredCategories.join(', ')}`);
-  if (selected.length !== targetCount)
-    throw new Error(`Selected ${selected.length} products instead of ${targetCount}.`);
 
   return {
     schema_version: '1.0',
     synchronized_at: new Date().toISOString(),
-    sync_cursor: syncStartedAt,
+    sync_cursor: previousCursor,
     sync_mode: fullSync ? 'full' : 'incremental',
     modified_after: modifiedAfter || null,
-    changed_products: summaries.size,
+    changed_products: currentBatchIds.length,
     deleted_products: deletedSourceIds.size,
-    changed_source_ids: [...summaries.keys()],
+    changed_source_ids: currentBatchIds,
     deleted_source_ids: [...deletedSourceIds],
     source_total: sourceTotal,
-    total: selected.length,
-    selection: {
-      strategy: 'all-category-coverage-then-round-robin',
-      available_product_count: availableProducts.length,
-      discovered_categories: [...categoryNames].map(([slug, name]) => ({ slug, name })),
-      selected_category_counts: selectedCategoryCounts,
-      uncovered_categories: uncoveredCategories,
-    },
-    products: selected,
+    total: availableProducts.length,
+    queue: { batchSize, processedThisRun: currentBatchIds.length, remaining: remainingSourceIds.length },
+    products: availableProducts,
   };
 }
 

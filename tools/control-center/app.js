@@ -32,6 +32,9 @@ function render(data) {
   setConfig('#deepseek-state', data.config.deepseek);
   setConfig('#cloudflare-state', data.config.cloudflare);
   $('#git-state').textContent = data.git || '工作区干净';
+  $('#queue-state').textContent = data.queue.sourceTotal
+    ? `待处理 ${data.queue.pending} · 本批 ${data.queue.inflight} · 已完成 ${data.queue.processed}/${data.queue.sourceTotal}`
+    : '尚未建立队列';
 
   const task = data.activeTask || data.latestTask;
   const running = Boolean(data.activeTask);
@@ -81,7 +84,7 @@ async function refresh() {
 
 async function run(action) {
   const labels = {
-    full: '完整英文同步',
+    full: '处理并发布下一批（最多10个）',
     sync: '产品同步',
     enrich: 'DeepSeek加工',
     prepare: '目录生成',

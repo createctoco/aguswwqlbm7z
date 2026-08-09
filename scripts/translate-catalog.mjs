@@ -12,7 +12,7 @@ const apiKey = process.env.DEEPSEEK_API_KEY || '';
 const model = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
 const inputFile = resolve(process.env.OUOOO_SOURCE_CATALOG || 'src/data/site-catalog.json');
 const outputFile = resolve(process.env.OUOOO_TRANSLATED_OUTPUT || `src/data/i18n/${locale}/site-catalog.json`);
-const maxAttempts = 4;
+const maxAttempts = 5;
 
 if (!locale || locale === localeData.defaultLocale || !localeDefinition) {
   throw new Error('OUOOO_LOCALE must be one configured non-English locale.');
@@ -105,7 +105,6 @@ async function deepSeekJson(system, user, maxTokens = 2600) {
       return { value: JSON.parse(raw), attempts: attempt };
     } catch (error) {
       lastError = error;
-      if (error instanceof Error && /rejected translation/.test(error.message)) break;
       if (attempt < maxAttempts) await sleep(Math.min(20_000, 1500 * 2 ** (attempt - 1)) + Math.random() * 500);
     } finally {
       clearTimeout(timer);
@@ -194,7 +193,7 @@ async function translateProduct(product, categoryGlossary, previousProduct) {
   const sourceHash = product.localization?.sourceHash || contentHash(sourceContent(product));
   const previousState = previousProduct?.localization?.translations?.[locale];
   if (previousProduct && previousState?.status === 'ready' && previousState.sourceHash === sourceHash) {
-    return { product: previousProduct, reused: true, fallback: false };
+    return { product: previousProduct, reused: true, skipped: false };
   }
 
   const facts = sourceContent(product);
@@ -245,31 +244,13 @@ async function translateProduct(product, categoryGlossary, previousProduct) {
       },
     };
     localized.structuredData = localizedStructuredData(product, localized);
-    return { product: sanitizeSourceBrand(localized), reused: false, fallback: false };
+    return { product: sanitizeSourceBrand(localized), reused: false, skipped: false };
   } catch (error) {
-    const fallback = sanitizeSourceBrand({
-      ...product,
-      locale,
-      localization: {
-        ...product.localization,
-        translations: {
-          ...product.localization.translations,
-          [locale]: {
-            status: 'fallback',
-            sourceHash,
-            attempts: maxAttempts,
-            updatedAt: new Date().toISOString(),
-            model,
-            fallbackLocale: localeData.defaultLocale,
-            error: error instanceof Error ? error.message.slice(0, 180) : 'Translation failed.',
-          },
-        },
-      },
-    });
+    const reason = error instanceof Error ? error.message.slice(0, 180) : 'Translation failed.';
     process.stderr.write(
-      `Translation fallback ${locale}/${product.productId}: ${fallback.localization.translations[locale].error}\n`
+      `Translation skipped ${locale}/${product.productId} after ${maxAttempts} attempts: ${reason}\n`
     );
-    return { product: fallback, reused: false, fallback: true };
+    return { product: null, reused: false, skipped: true };
   }
 }
 
@@ -284,20 +265,25 @@ try {
   const previousById = new Map((previousCatalog.products || []).map((product) => [String(product.productId), product]));
   const categoryGlossaryResult = await translateCategoryGlossary(sourceCatalog.products, previousCatalog);
   const categoryGlossary = categoryGlossaryResult.glossary;
-  const products = [];
+  const productsById = new Map((previousCatalog.products || []).map((product) => [String(product.productId), product]));
   let reused = 0;
-  let fallback = 0;
-  for (const sourceProduct of sourceCatalog.products) {
-    process.stdout.write(`Translating ${locale} ${products.length + 1}/${sourceCatalog.products.length}...\n`);
+  let skipped = 0;
+  const skippedProductIds = [];
+  for (const [index, sourceProduct] of sourceCatalog.products.entries()) {
+    process.stdout.write(`Translating ${locale} ${index + 1}/${sourceCatalog.products.length}...\n`);
     const result = await translateProduct(
       sourceProduct,
       categoryGlossary,
       previousById.get(String(sourceProduct.productId))
     );
-    products.push(result.product);
+    if (result.product) productsById.set(String(result.product.productId), result.product);
     if (result.reused) reused += 1;
-    if (result.fallback) fallback += 1;
+    if (result.skipped) {
+      skipped += 1;
+      skippedProductIds.push(String(sourceProduct.productId));
+    }
   }
+  const products = [...productsById.values()];
   const result = {
     schemaVersion: sourceCatalog.schemaVersion,
     locale,
@@ -310,10 +296,11 @@ try {
     categoryGlossary,
     categoryGlossarySourceHash: categoryGlossaryResult.sourceHash,
     translationSummary: {
-      ready: products.length - fallback,
-      fallback,
+      ready: sourceCatalog.products.length - skipped,
+      skipped,
+      skippedProductIds,
       reused,
-      generated: products.length - fallback - reused,
+      generated: sourceCatalog.products.length - skipped - reused,
       glossaryReused: categoryGlossaryResult.reused,
     },
     products,
@@ -321,7 +308,7 @@ try {
   await mkdir(dirname(outputFile), { recursive: true });
   await writeFile(temporaryFile, `${JSON.stringify(result, null, 2)}\n`, 'utf8');
   await rename(temporaryFile, outputFile);
-  process.stdout.write(`Translated ${locale}: ${products.length} products, ${fallback} fallback, ${reused} reused.\n`);
+  process.stdout.write(`Translated ${locale}: ${products.length} ready, ${skipped} skipped, ${reused} reused.\n`);
 } catch (error) {
   await rm(temporaryFile, { force: true });
   throw error;

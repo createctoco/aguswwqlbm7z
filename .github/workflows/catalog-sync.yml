@@ -99,4 +99,3 @@ jobs:
         with:
           path: src/data/catalog-index.json
           key: catalog-state-${{ github.run_id }}
-

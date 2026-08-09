@@ -1,5 +1,5 @@
 Exit code: 0
-Wall time: 4.7 seconds
+Wall time: 1.7 seconds
 Output:
 {
   "name": "ouooo-site",
@@ -14,7 +14,7 @@ Output:
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "prebuild": "node scripts/validate-locale-build.mjs",
+    "prebuild": "npm run cf:types && node scripts/validate-locale-build.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "sync:catalog": "node --env-file-if-exists=.env scripts/catalog-client.mjs",
@@ -30,6 +30,7 @@ Output:
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
     "check:astro": "astro check",
+    "precheck:astro": "npm run cf:types",
     "check:eslint": "eslint .",
     "check:prettier": "prettier --check .",
     "fix": "npm run fix:eslint && npm run fix:prettier",

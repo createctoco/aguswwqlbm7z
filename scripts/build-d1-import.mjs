@@ -43,4 +43,3 @@ await writeFile(outputFile, `${statements.join('\n')}\n`, 'utf8');
 process.stdout.write(
   `D1 import prepared for ${locale}: ${products.length} upserts, ${(catalog.sync?.deletedProductIds || []).length} deletes.\n`
 );
-

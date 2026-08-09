@@ -193,7 +193,23 @@ async function translateProduct(product, categoryGlossary, previousProduct) {
   const sourceHash = product.localization?.sourceHash || contentHash(sourceContent(product));
   const previousState = previousProduct?.localization?.translations?.[locale];
   if (previousProduct && previousState?.status === 'ready' && previousState.sourceHash === sourceHash) {
-    return { product: previousProduct, reused: true, skipped: false };
+    const productSchema = previousProduct.structuredData?.product;
+    const sourceOffers = product.structuredData?.product?.offers;
+    const structuredData = productSchema
+      ? {
+          ...previousProduct.structuredData,
+          product: sourceOffers ? { ...productSchema, offers: sourceOffers } : { ...productSchema, offers: undefined },
+        }
+      : previousProduct.structuredData;
+    return {
+      product: {
+        ...previousProduct,
+        pricing: product.pricing,
+        structuredData,
+      },
+      reused: true,
+      skipped: false,
+    };
   }
 
   const facts = sourceContent(product);

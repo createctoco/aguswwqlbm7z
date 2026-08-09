@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 1.7 seconds
+Output:
 # build output
 dist/
 .output/
@@ -22,3 +25,8 @@ pnpm-debug.log*
 pnpm-lock.yaml
 
 .astro
+.xdg/
+.wrangler/
+.wrangler-test/
+.d1/
+

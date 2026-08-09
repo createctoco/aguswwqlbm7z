@@ -27,12 +27,20 @@
 
       <section class="metrics" aria-label="系统概览">
         <article>
-          <span>英文产品</span><strong id="product-count">—</strong><small id="catalog-time">等待数据</small>
+          <span>当前批次</span><strong id="product-count">—</strong><small id="catalog-time">等待数据</small>
         </article>
-        <article><span>已准备语言</span><strong id="locale-count">—</strong><small>不含英文</small></article>
+        <article>
+          <span>本地累计产品</span><strong id="total-product-count">—</strong><small>按语言目录最大值</small>
+        </article>
+        <article><span>产品语言</span><strong id="locale-count">—</strong><small>已生成 / 13</small></article>
+        <article>
+          <span>页面语言</span><strong id="page-locale-count">—</strong><small id="page-copy-count">等待清单</small>
+        </article>
         <article><span>MECRT桥接</span><strong id="mecrt-state">—</strong><small>密钥不会显示</small></article>
         <article><span>DeepSeek</span><strong id="deepseek-state">—</strong><small>仅检测配置</small></article>
-        <article><span>Cloudflare</span><strong id="cloudflare-state">—</strong><small>本机 Wrangler</small></article>
+        <article>
+          <span>Cloudflare</span><strong id="cloudflare-state">—</strong><small id="cloudflare-detail">尚未验证</small>
+        </article>
       </section>
 
       <section class="workspace-grid">
@@ -46,7 +54,7 @@
           </div>
           <div class="primary-action">
             <button class="action action-primary" data-action="full">
-              <span>运行完整英文同步</span><small>同步 → AI加工 → 目录 → D1</small>
+              <span>同步下一批 10 个产品（全部语言）</span><small>MECRT → 英文AI加工 → 13语增量翻译 → 各语言D1</small>
             </button>
           </div>
           <div class="action-grid">
@@ -56,10 +64,16 @@
             </button>
             <button class="action" data-action="prepare"><span>生成目录</span><small>校验并生成站点数据</small></button>
             <button class="action" data-action="publishData">
-              <span>推送 D1</span><small>仅更新英文产品数据</small>
+              <span>推送英文 D1</span><small>分步调试：只更新英文产品</small>
+            </button>
+            <button class="action" data-action="retryTranslations">
+              <span>重试失败翻译</span><small>重试积压产品并补发各语言 D1</small>
             </button>
             <button class="action action-warning" data-action="deploy">
-              <span>发布网站</span><small>构建并部署 Worker</small>
+              <span>增量翻译页面并发布 14 站</span><small>新增页面、导航或分类结构变化时使用</small>
+            </button>
+            <button class="action" data-action="checkCloudflare">
+              <span>检查 Cloudflare 授权</span><small>实际连接 API，不只检查凭据文件</small>
             </button>
           </div>
           <div class="safety-note">
@@ -106,6 +120,30 @@
             <pre id="git-state">读取中…</pre>
           </div>
         </aside>
+      </section>
+
+      <section class="panel locale-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">LOCALIZATION</p>
+            <h2>多语言同步状态</h2>
+          </div>
+          <span id="translation-summary" class="hint">正在读取语言目录…</span>
+        </div>
+        <div class="table-wrap">
+          <table class="locale-table">
+            <thead>
+              <tr>
+                <th>语言</th>
+                <th>产品</th>
+                <th>页面文案</th>
+                <th>失败积压</th>
+                <th>目录更新时间</th>
+              </tr>
+            </thead>
+            <tbody id="locale-rows"></tbody>
+          </table>
+        </div>
       </section>
 
       <section class="panel log-panel">

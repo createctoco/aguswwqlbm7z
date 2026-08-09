@@ -1,7 +1,7 @@
 import { randomBytes } from 'node:crypto';
 import { spawn } from 'node:child_process';
 import { createReadStream } from 'node:fs';
-import { access, appendFile, mkdir, readFile, readdir, stat, writeFile } from 'node:fs/promises';
+import { access, appendFile, mkdir, readFile, stat, writeFile } from 'node:fs/promises';
 import http from 'node:http';
 import { dirname, extname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -21,6 +21,7 @@ const npxCommand = process.platform === 'win32' ? 'npx.cmd' : 'npx';
 
 let activeTask = null;
 let latestTask = null;
+let cloudflareAuth = { status: 'unknown', verifiedAt: '', error: '' };
 
 await mkdir(logRoot, { recursive: true });
 
@@ -40,6 +41,14 @@ const taskDefinitions = {
   publishData: {
     label: 'Publish English data to D1',
     dynamic: publishEnglishData,
+  },
+  retryTranslations: {
+    label: 'Retry failed product translations',
+    dynamic: retryProductTranslations,
+  },
+  checkCloudflare: {
+    label: 'Check Cloudflare authorization',
+    dynamic: checkCloudflareAuthorization,
   },
   deploy: {
     label: 'Build and publish all language Workers',
@@ -94,12 +103,46 @@ async function catalogSummary() {
   const data = await readFile(join(root, 'src', 'data', 'site-catalog.json'), 'utf8')
     .then(JSON.parse)
     .catch(() => null);
-  const localizedRoot = join(root, 'src', 'data', 'i18n');
-  const localeDirectories = await readdir(localizedRoot, { withFileTypes: true }).catch(() => []);
+  const sourceCopy = await readFile(join(root, 'src', 'data', 'site-copy.en.json'), 'utf8')
+    .then(JSON.parse)
+    .catch(() => null);
+  const locales = [];
+  for (const [locale, definition] of Object.entries(localeData.locales)) {
+    if (locale === localeData.defaultLocale) continue;
+    const directory = join(root, 'src', 'data', 'i18n', locale);
+    const catalog = await readFile(join(directory, 'site-catalog.json'), 'utf8')
+      .then(JSON.parse)
+      .catch(() => null);
+    const pageCopy = await readFile(join(directory, 'site-copy.json'), 'utf8')
+      .then(JSON.parse)
+      .catch(() => null);
+    const copyEntries = Array.isArray(pageCopy?.entries) ? pageCopy.entries : [];
+    const pageCopyReady = Boolean(
+      sourceCopy?.sourceHash &&
+      pageCopy?.sourceHash === sourceCopy.sourceHash &&
+      copyEntries.length === (sourceCopy.entries?.length || 0)
+    );
+    locales.push({
+      locale,
+      label: definition.label,
+      products: catalog?.products?.length || 0,
+      skipped: catalog?.translationSummary?.skipped || 0,
+      backlog: catalog?.translationBacklog?.length || 0,
+      pageCopyReady,
+      pageCopyEntries: copyEntries.length,
+      generatedAt: catalog?.generatedAt || '',
+    });
+  }
   return {
-    products: data?.products?.length || 0,
+    batchProducts: data?.products?.length || 0,
     generatedAt: data?.generatedAt || '',
-    locales: localeDirectories.filter((entry) => entry.isDirectory()).length,
+    locales,
+    totalProducts: Math.max(0, ...locales.map(({ products }) => products)),
+    readyProductLocales: locales.filter(({ products }) => products > 0).length,
+    readyPageLocales: locales.filter(({ pageCopyReady }) => pageCopyReady).length,
+    pageCopyEntries: sourceCopy?.entries?.length || 0,
+    skipped: locales.reduce((total, item) => total + item.skipped, 0),
+    backlog: locales.reduce((total, item) => total + item.backlog, 0),
   };
 }
 
@@ -201,14 +244,29 @@ async function writeRuntimeConfig(databaseId, sessionNamespaceId) {
 }
 
 async function cloudflareContext(task) {
-  task.step = 'Discover Cloudflare D1 database';
-  await log(task, '\n[STEP] Discover Cloudflare D1 database\n');
-  const database = await discoverD1();
-  const sessionNamespace = await discoverSessionNamespace();
-  await writeRuntimeConfig(database.uuid, sessionNamespace.id);
-  await log(task, `Using D1 database ${database.name}.\n`);
-  await log(task, `Using KV namespace ${sessionNamespace.title}.\n`);
-  return database;
+  try {
+    task.step = 'Verify Cloudflare authorization and resources';
+    await log(task, '\n[STEP] Verify Cloudflare authorization and resources\n');
+    const database = await discoverD1();
+    const sessionNamespace = await discoverSessionNamespace();
+    await writeRuntimeConfig(database.uuid, sessionNamespace.id);
+    cloudflareAuth = { status: 'verified', verifiedAt: new Date().toISOString(), error: '' };
+    await log(task, `Using D1 database ${database.name}.\n`);
+    await log(task, `Using KV namespace ${sessionNamespace.title}.\n`);
+    return { database, sessionNamespace };
+  } catch (error) {
+    cloudflareAuth = {
+      status: 'failed',
+      verifiedAt: new Date().toISOString(),
+      error: error instanceof Error ? error.message.slice(0, 240) : String(error).slice(0, 240),
+    };
+    throw error;
+  }
+}
+
+async function checkCloudflareAuthorization(task) {
+  await cloudflareContext(task);
+  await log(task, 'Cloudflare authorization is valid.\n');
 }
 
 async function publishEnglishData(task) {
@@ -242,8 +300,7 @@ async function publishEnglishData(task) {
 }
 
 async function deployWorker(task) {
-  const database = await cloudflareContext(task);
-  const sessionNamespace = await discoverSessionNamespace();
+  const { database, sessionNamespace } = await cloudflareContext(task);
   await runCommand(task, {
     label: 'Translate changed page copy and deploy all language Workers',
     command: npmCommand,
@@ -255,16 +312,13 @@ async function deployWorker(task) {
   });
 }
 
-async function runFullPipeline(task) {
-  for (const action of ['sync', 'enrich', 'prepare']) {
-    for (const step of taskDefinitions[action].steps) await runCommand(task, step);
-  }
-  await publishEnglishData(task);
+async function publishLocalizedData(task, { verifyCloudflare = true } = {}) {
+  if (verifyCloudflare) await cloudflareContext(task);
   for (const locale of Object.keys(localeData.locales).filter((item) => item !== localeData.defaultLocale)) {
     const translatedFile = join(root, 'src', 'data', 'i18n', locale, 'site-catalog.json');
     const importFile = join(root, '.d1', `import-${locale}.sql`);
     await runCommand(task, {
-      label: `Translate changed products to ${locale}`,
+      label: `Translate changed and retry queued products for ${locale}`,
       command: npmCommand,
       args: ['run', 'translate:catalog'],
       env: { OUOOO_LOCALE: locale },
@@ -285,6 +339,18 @@ async function runFullPipeline(task) {
       args: ['wrangler', 'd1', 'execute', 'ouooo-catalog', '--remote', '--file', importFile, '--config', runtimeConfig],
     });
   }
+}
+
+async function retryProductTranslations(task) {
+  await publishLocalizedData(task);
+}
+
+async function runFullPipeline(task) {
+  for (const action of ['sync', 'enrich', 'prepare']) {
+    for (const step of taskDefinitions[action].steps) await runCommand(task, step);
+  }
+  await publishEnglishData(task);
+  await publishLocalizedData(task, { verifyCloudflare: false });
   await runCommand(task, {
     label: 'Acknowledge completed product batch',
     command: npmCommand,
@@ -358,9 +424,12 @@ async function statusPayload() {
         /^https:\/\//i.test(envValues.get('MECRT_CATALOG_URL') || '') &&
         (envValues.get('MECRT_CATALOG_BRIDGE_SECRET') || '').length >= 32,
       deepseek: (envValues.get('DEEPSEEK_API_KEY') || '').length >= 20,
-      cloudflare: await fileExists(
-        join(process.env.APPDATA || '', 'xdg.config', '.wrangler', 'config', 'default.toml')
-      ),
+      cloudflare: {
+        credentials: await fileExists(
+          join(process.env.APPDATA || '', 'xdg.config', '.wrangler', 'config', 'default.toml')
+        ),
+        ...cloudflareAuth,
+      },
     },
   };
 }

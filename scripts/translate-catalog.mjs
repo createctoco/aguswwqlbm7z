@@ -286,15 +286,26 @@ try {
   const previousCatalog = await readFile(outputFile, 'utf8')
     .then(JSON.parse)
     .catch(() => ({ products: [] }));
+  const deletedProductIds = new Set((sourceCatalog.sync?.deletedProductIds || []).map(String));
+  const previousBacklog = (previousCatalog.translationBacklog || []).filter(
+    (product) => !deletedProductIds.has(String(product.productId))
+  );
+  const translationSourcesById = new Map(previousBacklog.map((product) => [String(product.productId), product]));
+  for (const product of sourceCatalog.products) translationSourcesById.set(String(product.productId), product);
+  const translationSources = [...translationSourcesById.values()];
   const previousById = new Map((previousCatalog.products || []).map((product) => [String(product.productId), product]));
-  const categoryGlossaryResult = await translateCategoryGlossary(sourceCatalog.products, previousCatalog);
+  const categoryGlossaryResult = await translateCategoryGlossary(translationSources, previousCatalog);
   const categoryGlossary = categoryGlossaryResult.glossary;
   const productsById = new Map((previousCatalog.products || []).map((product) => [String(product.productId), product]));
+  for (const productId of deletedProductIds) productsById.delete(productId);
   let reused = 0;
   let skipped = 0;
   const skippedProductIds = [];
-  for (const [index, sourceProduct] of sourceCatalog.products.entries()) {
-    process.stdout.write(`Translating ${locale} ${index + 1}/${sourceCatalog.products.length}...\n`);
+  const generatedProductIds = [];
+  const translationBacklog = [];
+  const backlogIds = new Set(previousBacklog.map((product) => String(product.productId)));
+  for (const [index, sourceProduct] of translationSources.entries()) {
+    process.stdout.write(`Translating ${locale} ${index + 1}/${translationSources.length}...\n`);
     const result = await translateProduct(
       sourceProduct,
       categoryGlossary,
@@ -302,9 +313,11 @@ try {
     );
     if (result.product) productsById.set(String(result.product.productId), result.product);
     if (result.reused) reused += 1;
+    if (result.product && !result.reused) generatedProductIds.push(String(result.product.productId));
     if (result.skipped) {
       skipped += 1;
       skippedProductIds.push(String(sourceProduct.productId));
+      translationBacklog.push(sourceProduct);
     }
   }
   const products = [...productsById.values()];
@@ -320,13 +333,16 @@ try {
     categoryGlossary,
     categoryGlossarySourceHash: categoryGlossaryResult.sourceHash,
     translationSummary: {
-      ready: sourceCatalog.products.length - skipped,
+      ready: translationSources.length - skipped,
       skipped,
       skippedProductIds,
       reused,
-      generated: sourceCatalog.products.length - skipped - reused,
+      generated: generatedProductIds.length,
+      generatedProductIds,
+      retriedBacklog: translationSources.filter((product) => backlogIds.has(String(product.productId))).length,
       glossaryReused: categoryGlossaryResult.reused,
     },
+    translationBacklog,
     products,
   };
   await mkdir(dirname(outputFile), { recursive: true });

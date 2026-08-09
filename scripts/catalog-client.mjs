@@ -225,4 +225,3 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
-

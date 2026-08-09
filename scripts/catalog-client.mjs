@@ -48,14 +48,25 @@ async function signedPost(route, body, payload) {
       });
       const data = await response.json().catch(() => null);
       if (response.ok && data?.success) return data;
-      const retryable = response.status === 408 || response.status === 429 || response.status >= 500;
       const retryAfter = Number(data?.data?.retry_after || data?.retry_after || 0) * 1000;
-      if (!retryable) throw new Error(`Catalog request rejected with HTTP ${response.status}.`);
-      lastError = new Error(`Temporary catalog error HTTP ${response.status}.`);
+      const applicationStatus = Number(data?.data?.status || 0);
+      const errorCode = String(data?.code || data?.error || '');
+      const retryable =
+        response.status === 408 ||
+        response.status === 429 ||
+        response.status >= 500 ||
+        applicationStatus === 408 ||
+        applicationStatus === 429 ||
+        applicationStatus >= 500 ||
+        retryAfter > 0 ||
+        /rate|temporar|timeout/i.test(errorCode);
+      const safeReason = String(data?.message || errorCode || `HTTP ${response.status}`).slice(0, 180);
+      if (!retryable) throw new Error(`Catalog request rejected: ${safeReason} (HTTP ${response.status}).`);
+      lastError = new Error(`Temporary catalog error: ${safeReason} (HTTP ${response.status}).`);
       if (attempt < maxAttempts)
         await sleep(Math.max(retryAfter, Math.min(16_000, 1000 * 2 ** (attempt - 1))) + Math.random() * 500);
     } catch (error) {
-      if (error instanceof Error && /rejected with HTTP/.test(error.message)) throw error;
+      if (error instanceof Error && /Catalog request rejected:/.test(error.message)) throw error;
       lastError = error;
       if (attempt < maxAttempts) await sleep(Math.min(16_000, 1000 * 2 ** (attempt - 1)) + Math.random() * 500);
     } finally {

@@ -112,7 +112,8 @@ async function runCommand(task, step) {
   };
 
   return new Promise((resolvePromise, rejectPromise) => {
-    const child = spawn(step.command, step.args, {
+    const invocation = commandInvocation(step.command, step.args);
+    const child = spawn(invocation.command, invocation.args, {
       cwd: step.cwd || root,
       env: environment,
       shell: false,
@@ -144,7 +145,8 @@ async function discoverD1() {
 
 async function captureCommand(command, args) {
   return new Promise((resolvePromise, rejectPromise) => {
-    const child = spawn(command, args, {
+    const invocation = commandInvocation(command, args);
+    const child = spawn(invocation.command, invocation.args, {
       cwd: root,
       env: { ...process.env, ASTRO_TELEMETRY_DISABLED: '1', WRANGLER_LOG_PATH: join(stateRoot, 'wrangler.log') },
       shell: false,
@@ -156,6 +158,14 @@ async function captureCommand(command, args) {
     child.on('error', rejectPromise);
     child.on('close', (code) => (code === 0 ? resolvePromise(output) : rejectPromise(new Error(output))));
   });
+}
+
+function commandInvocation(command, args) {
+  if (process.platform !== 'win32' || !command.toLowerCase().endsWith('.cmd')) return { command, args };
+  return {
+    command: process.env.ComSpec || 'C:\\Windows\\System32\\cmd.exe',
+    args: ['/d', '/s', '/c', command, ...args],
+  };
 }
 
 async function writeRuntimeConfig(databaseId) {
@@ -356,15 +366,27 @@ const server = http.createServer(async (request, response) => {
   }
 });
 
+function openControlCenter() {
+  const url = `http://${host}:${port}`;
+  const command = process.platform === 'win32' ? 'cmd.exe' : process.platform === 'darwin' ? 'open' : 'xdg-open';
+  const args = process.platform === 'win32' ? ['/c', 'start', '', url] : [url];
+  const opener = spawn(command, args, { detached: true, shell: false, stdio: 'ignore', windowsHide: true });
+  opener.unref();
+}
+
+server.on('error', (error) => {
+  if (error?.code === 'EADDRINUSE' && process.argv.includes('--open')) {
+    console.log(`OUOOO Control Center is already running at http://${host}:${port}`);
+    openControlCenter();
+    process.exit(0);
+  }
+  throw error;
+});
+
 server.listen(port, host, () => {
   const url = `http://${host}:${port}`;
   console.log(`OUOOO Control Center: ${url}`);
-  if (process.argv.includes('--open')) {
-    const command = process.platform === 'win32' ? 'cmd.exe' : process.platform === 'darwin' ? 'open' : 'xdg-open';
-    const args = process.platform === 'win32' ? ['/c', 'start', '', url] : [url];
-    const opener = spawn(command, args, { detached: true, shell: false, stdio: 'ignore', windowsHide: true });
-    opener.unref();
-  }
+  if (process.argv.includes('--open')) openControlCenter();
 });
 
 process.on('SIGINT', () => server.close(() => process.exit(0)));

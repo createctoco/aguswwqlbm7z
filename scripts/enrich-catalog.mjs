@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 1.6 seconds
+Output:
 import { createHash } from 'node:crypto';
 import { readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
@@ -6,6 +9,7 @@ const apiKey = process.env.DEEPSEEK_API_KEY || '';
 const model = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
 const inputFile = resolve(process.env.MECRT_CATALOG_OUTPUT || 'src/data/catalog-index.json');
 const outputFile = resolve(process.env.OUOOO_ENRICHED_OUTPUT || 'src/data/enriched-catalog.json');
+const previousSiteFile = resolve(process.env.OUOOO_SITE_CATALOG_OUTPUT || 'src/data/site-catalog.json');
 const knowledgeFile = resolve(process.env.CATHOLIC_KNOWLEDGE_FILE || 'src/data/catholic-knowledge.json');
 const maxAttempts = 4;
 
@@ -35,7 +39,7 @@ const editorialProfiles = [
   ],
   [
     'design-first',
-    'Open with the product’s distinctive visual details, then move from appearance to verified specifications.',
+    'Open with the product鈥檚 distinctive visual details, then move from appearance to verified specifications.',
   ],
   [
     'use-context',
@@ -112,6 +116,50 @@ function productFacts(product) {
     attributes: (product.attributes || []).map(({ name, values }) => ({ name, values })),
     weight: product.weight,
   });
+}
+
+function stableSerialize(value) {
+  if (Array.isArray(value)) return `[${value.map(stableSerialize).join(',')}]`;
+  if (value && typeof value === 'object') {
+    return `{${Object.keys(value)
+      .sort()
+      .map((key) => `${JSON.stringify(key)}:${stableSerialize(value[key])}`)
+      .join(',')}}`;
+  }
+  return JSON.stringify(value);
+}
+
+function sourceFingerprint(product) {
+  return createHash('sha256')
+    .update(stableSerialize(productFacts(product)))
+    .digest('hex');
+}
+
+function reusableAi(previous, fingerprint) {
+  // Existing catalogs created before source fingerprints were introduced are
+  // trusted once as a bootstrap cache. The next prepared catalog persists the
+  // fingerprint, so all later runs use strict content equality.
+  if (!previous || (previous.sourceFingerprint && previous.sourceFingerprint !== fingerprint)) return undefined;
+  return {
+    product_type: previous.eyebrow,
+    primary_topic: previous.title,
+    catholic_relevance: previous.catholicRelevance,
+    catholic_context: previous.catholicContext,
+    title: previous.title,
+    meta_description: previous.structuredData?.product?.description || previous.summary,
+    short_description: previous.summary,
+    description: previous.description,
+    key_features: previous.features || [],
+    specifications: previous.specifications || [],
+    applications: previous.applications || [],
+    faq: previous.faq || [],
+    source_id: previous.sourceId,
+    editorial_profile: 'reused',
+    enrichment_status: 'reused',
+    generated_at: previous.localization?.translations?.en?.updatedAt || new Date(0).toISOString(),
+    model: previous.localization?.translations?.en?.model || model,
+    source_fingerprint: fingerprint,
+  };
 }
 
 function catholicContext(facts, knowledge) {
@@ -260,7 +308,7 @@ async function rewriteProduct(product, previousOutputs, profile, knowledge) {
   const facts = productFacts(product);
   const catholicKnowledge = catholicContext(facts, knowledge);
   const [profileName, profileDirection] = profile;
-  const system = `You are a senior English B2B catalog editor writing for OUOOO, an independent Catholic-gift sourcing website. First identify what the product actually is from its original title, categories, attributes, and descriptions; then write the copy. Return only a valid JSON object. Write genuinely useful copy for human wholesale buyers, conventional search engines, and answer engines. Ground every product statement in the supplied product facts. The separate Catholic knowledge is context, not evidence that this particular product has a feature. Never mention Mecrt, Alibaba, the source website, copying, or rewriting. Never invent materials, dimensions, certifications, MOQ, lead time, country of origin, stock, pricing, customization, audiences, occasions, benefits, blessings, spiritual effects, Church approval, or performance claims. If a fact is absent, omit it. Do not force Catholic language onto an item whose product facts do not establish Catholic relevance.\n\nVoice: when referring to the website, sourcing service, inquiries, or buyer support, write in OUOOO's first-person plural voice using “we,” “our,” or “contact us.” Never call OUOOO “the seller,” “the supplier,” “the website,” or “the company.” Neutral product facts may use the product name directly.\n\nSEO: use a short, specific product name as the title; express one clear product topic naturally in the opening; use specific entity-attribute-value language; keep related terms natural; avoid keyword stuffing and near-duplicate boilerplate.\nGEO: put most factual content into structured fields: key_features, specifications, applications, catholic_context, and FAQ. Make answers self-contained and quotable; name the product before pronouns; preserve concrete specifications and distinctions. Include Catholic context only when relevance is explicit and the supplied knowledge supports it.\nFAQ: provide 2-4 practical buyer questions, preferably 3, about material, variants, dimensions, construction, use, ordering, or care only when supported. Never create questions about whether a product is blessed, consecrated, miraculous, spiritually protective, or Church-approved.\nHuman style and layout balance: keep short_description between 30-70 words and description between 70-150 words. Provide 3-6 key features and no more than 4 applications. Vary sentence length and paragraph rhythm; prefer plain, precise words; do not use hype, generic scene-setting, symmetrical list prose, repetitive transitions, or phrases such as “elevate,” “perfect blend,” “whether you're,” “meticulously crafted,” “testament to,” and “look no further.” Do not give every product the same opening or section order. Never invent facts merely to reach a length or item count.\n\nAssigned editorial profile: ${profileName}. ${profileDirection}\n\nThe JSON must have exactly this structure: {"product_type":"specific product identity","primary_topic":"natural primary search topic","catholic_relevance":"explicit, devotional_context, or none","catholic_context":"one concise verified contextual sentence, or empty string when none","title":"25-65 character product name, preferably 4-10 words","meta_description":"120-165 character factual summary","short_description":"one concise 30-70 word paragraph","description":"one to three varied factual paragraphs totaling 70-150 words","key_features":["3-6 specific verified facts"],"specifications":[{"name":"verified attribute","value":"verified value"}],"applications":["up to 4 verified uses"],"faq":[{"question":"2-4 real buyer questions, preferably 3","answer":"direct answer based only on supplied facts"}]}.`;
+  const system = `You are a senior English B2B catalog editor writing for OUOOO, an independent Catholic-gift sourcing website. First identify what the product actually is from its original title, categories, attributes, and descriptions; then write the copy. Return only a valid JSON object. Write genuinely useful copy for human wholesale buyers, conventional search engines, and answer engines. Ground every product statement in the supplied product facts. The separate Catholic knowledge is context, not evidence that this particular product has a feature. Never mention Mecrt, Alibaba, the source website, copying, or rewriting. Never invent materials, dimensions, certifications, MOQ, lead time, country of origin, stock, pricing, customization, audiences, occasions, benefits, blessings, spiritual effects, Church approval, or performance claims. If a fact is absent, omit it. Do not force Catholic language onto an item whose product facts do not establish Catholic relevance.\n\nVoice: when referring to the website, sourcing service, inquiries, or buyer support, write in OUOOO's first-person plural voice using 鈥渨e,鈥?鈥渙ur,鈥?or 鈥渃ontact us.鈥?Never call OUOOO 鈥渢he seller,鈥?鈥渢he supplier,鈥?鈥渢he website,鈥?or 鈥渢he company.鈥?Neutral product facts may use the product name directly.\n\nSEO: use a short, specific product name as the title; express one clear product topic naturally in the opening; use specific entity-attribute-value language; keep related terms natural; avoid keyword stuffing and near-duplicate boilerplate.\nGEO: put most factual content into structured fields: key_features, specifications, applications, catholic_context, and FAQ. Make answers self-contained and quotable; name the product before pronouns; preserve concrete specifications and distinctions. Include Catholic context only when relevance is explicit and the supplied knowledge supports it.\nFAQ: provide 2-4 practical buyer questions, preferably 3, about material, variants, dimensions, construction, use, ordering, or care only when supported. Never create questions about whether a product is blessed, consecrated, miraculous, spiritually protective, or Church-approved.\nHuman style and layout balance: keep short_description between 30-70 words and description between 70-150 words. Provide 3-6 key features and no more than 4 applications. Vary sentence length and paragraph rhythm; prefer plain, precise words; do not use hype, generic scene-setting, symmetrical list prose, repetitive transitions, or phrases such as 鈥渆levate,鈥?鈥減erfect blend,鈥?鈥渨hether you're,鈥?鈥渕eticulously crafted,鈥?鈥渢estament to,鈥?and 鈥渓ook no further.鈥?Do not give every product the same opening or section order. Never invent facts merely to reach a length or item count.\n\nAssigned editorial profile: ${profileName}. ${profileDirection}\n\nThe JSON must have exactly this structure: {"product_type":"specific product identity","primary_topic":"natural primary search topic","catholic_relevance":"explicit, devotional_context, or none","catholic_context":"one concise verified contextual sentence, or empty string when none","title":"25-65 character product name, preferably 4-10 words","meta_description":"120-165 character factual summary","short_description":"one concise 30-70 word paragraph","description":"one to three varied factual paragraphs totaling 70-150 words","key_features":["3-6 specific verified facts"],"specifications":[{"name":"verified attribute","value":"verified value"}],"applications":["up to 4 verified uses"],"faq":[{"question":"2-4 real buyer questions, preferably 3","answer":"direct answer based only on supplied facts"}]}.`;
 
   let lastError;
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
@@ -314,27 +362,43 @@ const temporaryFile = `${outputFile}.tmp-${process.pid}`;
 try {
   const catalog = JSON.parse(await readFile(inputFile, 'utf8'));
   const knowledge = JSON.parse(await readFile(knowledgeFile, 'utf8'));
+  const previousSiteCatalog = await readFile(previousSiteFile, 'utf8')
+    .then(JSON.parse)
+    .catch(() => ({ products: [] }));
+  const previousById = new Map(
+    (previousSiteCatalog.products || []).map((product) => [String(product.sourceId || product.productId), product])
+  );
   if (!Array.isArray(catalog.products) || catalog.products.length < 1)
     throw new Error('Catalog input is empty or invalid.');
   const products = [];
   const profileCounts = editorialProfiles.map(() => 0);
+  let reused = 0;
   for (const product of catalog.products) {
-    process.stdout.write(`Rewriting product ${products.length + 1}/${catalog.products.length}...\n`);
-    const profile = balancedEditorialProfile(product, profileCounts);
-    const ai = await rewriteProduct(
-      product,
-      products.map(({ ai: previous }) => previous),
-      profile,
-      knowledge
+    const fingerprint = sourceFingerprint(product);
+    const cached = reusableAi(previousById.get(String(product.source_id)), fingerprint);
+    process.stdout.write(
+      `${cached ? 'Reusing' : 'Rewriting'} product ${products.length + 1}/${catalog.products.length}...\n`
     );
+    const profile = balancedEditorialProfile(product, profileCounts);
+    const generatedAi =
+      cached ||
+      (await rewriteProduct(
+        product,
+        products.map(({ ai: previous }) => previous),
+        profile,
+        knowledge
+      ));
+    const ai = { ...generatedAi, source_fingerprint: fingerprint };
+    if (cached) reused += 1;
     products.push({ ...product, ai, structured_data: sanitizeSourceBrand(structuredData(product, ai)) });
   }
   const generated = products.filter(({ ai }) => ai.enrichment_status === 'generated').length;
+  const sourceFallback = products.filter(({ ai }) => ai.enrichment_status === 'source_fallback').length;
   const result = {
     ...catalog,
     enriched_at: new Date().toISOString(),
     enrichment_model: model,
-    enrichment_summary: { generated, source_fallback: products.length - generated },
+    enrichment_summary: { generated, reused, source_fallback: sourceFallback },
     products,
   };
   await writeFile(temporaryFile, `${JSON.stringify(result, null, 2)}\n`, 'utf8');
@@ -344,3 +408,4 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
+

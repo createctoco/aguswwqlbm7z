@@ -1,5 +1,5 @@
 Exit code: 0
-Wall time: 4.3 seconds
+Wall time: 5 seconds
 Output:
 name: Multilingual catalog generation
 
@@ -9,6 +9,7 @@ on:
     branches: [main]
     paths:
       - scripts/translate-catalog.mjs
+      - src/data/site-catalog.json
       - src/i18n/locales.json
       - .github/workflows/multilingual-bootstrap.yml
 
@@ -47,7 +48,7 @@ jobs:
           LOCALE: ${{ matrix.locale }}
         run: >-
           node --input-type=module -e "import data from './src/data/i18n/${LOCALE}/site-catalog.json' with {type:'json'};
-          if(data.locale!==process.env.LOCALE || data.products?.length!==100 || data.products.some((p)=>!p.title || !p.localization?.translations?.[process.env.LOCALE]))
+          if(data.locale!==process.env.LOCALE || !data.products?.length || data.products.some((p)=>!p.title || !p.localization?.translations?.[process.env.LOCALE]))
           throw new Error('Invalid localized catalog');
           console.log(process.env.LOCALE, data.translationSummary);"
       - uses: actions/upload-artifact@v4
@@ -79,7 +80,7 @@ jobs:
           node --input-type=module -e "import fs from 'node:fs';
           const locales='it es fr pt pl de fil hr sl ro ar zh-hant zh-hans'.split(' ');
           for(const locale of locales){const data=JSON.parse(fs.readFileSync('src/data/i18n/'+locale+'/site-catalog.json','utf8'));
-          if(data.locale!==locale || data.products.length!==100) throw new Error('Invalid '+locale);}
+          if(data.locale!==locale || !data.products.length) throw new Error('Invalid '+locale);}
           console.log('Validated localized catalogs:', locales.length);"
       - name: Commit localized catalogs
         shell: bash

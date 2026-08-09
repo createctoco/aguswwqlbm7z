@@ -8,6 +8,10 @@ const outputFile = resolve(process.env.MECRT_CATALOG_OUTPUT || 'src/data/catalog
 const maxAttempts = 5;
 const requestedLimit = Number.parseInt(process.env.MECRT_CATALOG_SYNC_LIMIT || '0', 10);
 const syncLimit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : 0;
+const requestedConcurrency = Number.parseInt(process.env.MECRT_CATALOG_SYNC_CONCURRENCY || '8', 10);
+const detailConcurrency = Number.isFinite(requestedConcurrency)
+  ? Math.max(1, Math.min(20, requestedConcurrency))
+  : 8;
 const forceFullSync = /^(1|true|yes)$/i.test(process.env.MECRT_CATALOG_FULL_SYNC || '');
 const requestedOverlap = Number.parseInt(process.env.MECRT_CATALOG_SYNC_OVERLAP_SECONDS || '300', 10);
 const syncOverlapSeconds = Number.isFinite(requestedOverlap) && requestedOverlap >= 0 ? requestedOverlap : 300;
@@ -100,18 +104,28 @@ async function fetchIndex() {
     (fullSync ? [] : previousProducts).map((product) => [String(product.source_id), product])
   );
   for (const sourceId of deletedSourceIds) productsById.delete(sourceId);
+  const summaryList = [...summaries.values()];
+  let nextSummaryIndex = 0;
   let scanned = 0;
-  for (const summary of summaries.values()) {
-    const identifierType = 'source_id';
-    const identifier = String(summary.source_id);
-    const body = { identifier, identifier_type: identifierType };
-    const payload = `${identifierType}\n${identifier}`;
-    const data = await signedPost('/wp-json/mecrt-catalog/v1/product', body, payload);
-    if (!data?.product) throw new Error(`Product detail missing for source_id ${identifier}.`);
-    productsById.set(identifier, data.product);
-    scanned += 1;
-    process.stdout.write(`Catalog detail scanned: ${scanned}/${summaries.size}.\n`);
-  }
+  const workerCount = Math.min(detailConcurrency, summaryList.length);
+  await Promise.all(
+    Array.from({ length: workerCount }, async () => {
+      while (nextSummaryIndex < summaryList.length) {
+        const summaryIndex = nextSummaryIndex;
+        nextSummaryIndex += 1;
+        const summary = summaryList[summaryIndex];
+        const identifierType = 'source_id';
+        const identifier = String(summary.source_id);
+        const body = { identifier, identifier_type: identifierType };
+        const payload = `${identifierType}\n${identifier}`;
+        const data = await signedPost('/wp-json/mecrt-catalog/v1/product', body, payload);
+        if (!data?.product) throw new Error(`Product detail missing for source_id ${identifier}.`);
+        productsById.set(identifier, data.product);
+        scanned += 1;
+        process.stdout.write(`Catalog detail scanned: ${scanned}/${summaryList.length}.\n`);
+      }
+    })
+  );
   const availableProducts = [...productsById.values()];
   if (!fullSync && summaries.size === 0 && deletedSourceIds.size === 0) {
     process.stdout.write(`Catalog unchanged since ${modifiedAfter}; reusing ${availableProducts.length} products.\n`);

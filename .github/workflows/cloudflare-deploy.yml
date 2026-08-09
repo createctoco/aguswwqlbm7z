@@ -60,4 +60,3 @@ jobs:
           done
       - name: Build and deploy Worker
         run: npm run build && npx wrangler deploy
-

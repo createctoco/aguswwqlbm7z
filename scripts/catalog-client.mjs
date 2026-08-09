@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 1.6 seconds
+Output:
 import { createHmac, randomBytes } from 'node:crypto';
 import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
@@ -198,6 +201,8 @@ async function fetchIndex() {
     modified_after: modifiedAfter || null,
     changed_products: summaries.size,
     deleted_products: deletedSourceIds.size,
+    changed_source_ids: [...summaries.keys()],
+    deleted_source_ids: [...deletedSourceIds],
     source_total: sourceTotal,
     total: selected.length,
     selection: {
@@ -223,3 +228,4 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
+

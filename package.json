@@ -26,6 +26,7 @@
     "db:migrate:local": "wrangler d1 migrations apply ouooo-catalog --local",
     "db:import:local": "npm run prepare:d1 && wrangler d1 execute ouooo-catalog --local --file .d1/import-en.sql",
     "deploy": "astro build && wrangler deploy",
+    "deploy:locales": "node --env-file-if-exists=.env scripts/deploy-locales.mjs",
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
     "check:astro": "astro check",

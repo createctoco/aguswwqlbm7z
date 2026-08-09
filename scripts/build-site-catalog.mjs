@@ -158,19 +158,27 @@ function extractPricing(product) {
     return Number.isFinite(number) && number > 0 ? number : undefined;
   };
 
-  const parentPrice = numericPrice(product.price ?? product._price);
-  const regularPrice = numericPrice(product.regular_price ?? product._regular_price);
-  const salePrice = numericPrice(product.sale_price ?? product._sale_price);
+  const sourcePricing = product.pricing && typeof product.pricing === 'object' ? product.pricing : {};
+  const parentPrice = numericPrice(sourcePricing.price ?? product.price ?? product._price);
+  const regularPrice = numericPrice(sourcePricing.regular_price ?? product.regular_price ?? product._regular_price);
+  const salePrice = numericPrice(sourcePricing.sale_price ?? product.sale_price ?? product._sale_price);
   const variationPrices = (product.variations || [])
     .map((variation) => numericPrice(variation.price ?? variation.sale_price ?? variation.regular_price))
     .filter((price) => price !== undefined);
+  const tierPrices = [
+    ...(sourcePricing.tiers || []),
+    ...(product.variations || []).flatMap((variation) => variation.price_tiers || []),
+  ]
+    .map((tier) => numericPrice(tier?.price))
+    .filter((price) => price !== undefined);
+  const availablePrices = [...variationPrices, ...tierPrices];
 
-  if (parentPrice === undefined && variationPrices.length === 0) return undefined;
+  if (parentPrice === undefined && availablePrices.length === 0) return undefined;
 
-  const minimumVariationPrice = variationPrices.length ? Math.min(...variationPrices) : undefined;
-  const maximumVariationPrice = variationPrices.length ? Math.max(...variationPrices) : undefined;
+  const minimumVariationPrice = availablePrices.length ? Math.min(...availablePrices) : undefined;
+  const maximumVariationPrice = availablePrices.length ? Math.max(...availablePrices) : undefined;
   const effectivePrice = parentPrice ?? minimumVariationPrice;
-  const currency = String(product.currency || product.currency_code || 'USD')
+  const currency = String(sourcePricing.currency || product.currency || product.currency_code || 'USD')
     .trim()
     .toUpperCase();
   const onSale = salePrice !== undefined && regularPrice !== undefined && salePrice < regularPrice;

@@ -1,0 +1,66 @@
+Exit code: 0
+Wall time: 1.8 seconds
+Output:
+name: Deploy Cloudflare hybrid catalog
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - astro.config.ts
+      - wrangler.jsonc
+      - migrations/**
+      - src/**
+      - scripts/build-d1-import.mjs
+      - package.json
+      - package-lock.json
+      - .github/workflows/cloudflare-deploy.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install --no-package-lock
+      - name: Configure production D1 database
+        env:
+          D1_DATABASE_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
+        run: >-
+          node --input-type=module -e "import fs from 'node:fs';
+          if(!process.env.D1_DATABASE_ID) throw new Error('CLOUDFLARE_D1_DATABASE_ID is required');
+          const path='wrangler.jsonc'; const value=fs.readFileSync(path,'utf8').replace('00000000-0000-0000-0000-000000000000',process.env.D1_DATABASE_ID);
+          fs.writeFileSync(path,value);"
+      - name: Apply D1 migrations
+        run: npx wrangler d1 migrations apply ouooo-catalog --remote
+      - name: Import English catalog
+        env:
+          OUOOO_LOCALE: en
+        run: npm run prepare:d1 && npx wrangler d1 execute ouooo-catalog --remote --file .d1/import-en.sql
+      - name: Import published localized catalogs
+        shell: bash
+        run: |
+          for catalog in src/data/i18n/*/site-catalog.json; do
+            [ -f "$catalog" ] || continue
+            locale="$(basename "$(dirname "$catalog")")"
+            OUOOO_LOCALE="$locale" npm run prepare:d1
+            npx wrangler d1 execute ouooo-catalog --remote --file ".d1/import-$locale.sql"
+          done
+      - name: Build and deploy Worker
+        run: npm run build && npx wrangler deploy
+

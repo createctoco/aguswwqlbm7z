@@ -1,7 +1,18 @@
+Exit code: 0
+Wall time: 1.7 seconds
+Output:
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import ProductCard from '~/components/ouooo/ProductCard.astro';
-import { collections, products } from '~/data/products';
+import { BUILD_LOCALE } from '~/i18n/config';
+import { listCollections, listProducts } from '~/server/catalog';
+export const prerender = false;
+const requestedPage = Number.parseInt(Astro.url.searchParams.get('page') || '1', 10);
+const [{ products, total, page, pageSize }, collections] = await Promise.all([
+  listProducts(BUILD_LOCALE, requestedPage, 24),
+  listCollections(BUILD_LOCALE),
+]);
+Astro.response.headers.set('Cache-Control', 'public, s-maxage=1800, stale-while-revalidate=86400');
 const metadata = {
   title: 'Wholesale Catholic Gifts & Religious Accessories',
   description:
@@ -30,14 +41,26 @@ const metadata = {
             class="rounded-full border border-black/15 px-4 py-2 text-sm font-medium text-gray-800 transition hover:border-primary hover:text-primary"
             href={`/collections/${collection.slug}`}
           >
-            {collection.name} <span class="text-muted">({collection.products.length})</span>
+            {collection.name} <span class="text-muted">({collection.productCount})</span>
           </a>
         ))
       }
     </nav>
-    <p class="mb-10 text-sm text-muted">Showing {products.length} synchronized products</p>
+    <p class="mb-10 text-sm text-muted">Showing {products.length} of {total} synchronized products</p>
     <div class="grid gap-x-7 gap-y-14 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {products.map((product) => <ProductCard product={product} />)}
     </div>
+    {
+      total > pageSize && (
+        <nav class="mt-12 flex justify-center gap-4" aria-label="Product pagination">
+          {page > 1 && <a href={`?page=${page - 1}`}>Previous</a>}
+          <span>
+            Page {page} of {Math.ceil(total / pageSize)}
+          </span>
+          {page * pageSize < total && <a href={`?page=${page + 1}`}>Next</a>}
+        </nav>
+      )
+    }
   </section>
 </Layout>
+

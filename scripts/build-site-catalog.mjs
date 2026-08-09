@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 1.6 seconds
+Output:
 import { createHash } from 'node:crypto';
 import { readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
@@ -151,34 +154,43 @@ function categoryList(product) {
 }
 
 function extractPricing(product) {
-  const rawPrice = product.price ?? product._price ?? '';
-  const price = String(rawPrice).trim();
-  if (!price || price === '0') return undefined;
+  const numericPrice = (value) => {
+    const text = String(value ?? '').trim();
+    if (!text) return undefined;
+    const number = Number(text);
+    return Number.isFinite(number) && number > 0 ? number : undefined;
+  };
 
-  const regularPrice = String(product.regular_price ?? product._regular_price ?? '').trim();
-  const salePrice = String(product.sale_price ?? product._sale_price ?? '').trim();
-  const currency = String(product.currency || 'USD')
+  const parentPrice = numericPrice(product.price ?? product._price);
+  const regularPrice = numericPrice(product.regular_price ?? product._regular_price);
+  const salePrice = numericPrice(product.sale_price ?? product._sale_price);
+  const variationPrices = (product.variations || [])
+    .map((variation) => numericPrice(variation.price ?? variation.sale_price ?? variation.regular_price))
+    .filter((price) => price !== undefined);
+
+  if (parentPrice === undefined && variationPrices.length === 0) return undefined;
+
+  const minimumVariationPrice = variationPrices.length ? Math.min(...variationPrices) : undefined;
+  const maximumVariationPrice = variationPrices.length ? Math.max(...variationPrices) : undefined;
+  const effectivePrice = parentPrice ?? minimumVariationPrice;
+  const currency = String(product.currency || product.currency_code || 'USD')
     .trim()
     .toUpperCase();
-  const onSale = Boolean(salePrice && salePrice !== '0' && regularPrice && regularPrice !== price);
+  const onSale = salePrice !== undefined && regularPrice !== undefined && salePrice < regularPrice;
 
-  const variationPrices = (product.variations || [])
-    .map((v) => String(v.price ?? '').trim())
-    .filter((v) => v && v !== '0')
-    .map(Number)
-    .filter(Number.isFinite);
-
-  let priceRange;
-  if (variationPrices.length > 1) {
-    priceRange = {
-      min: Math.min(...variationPrices).toFixed(2),
-      max: Math.max(...variationPrices).toFixed(2),
-    };
-  }
+  const priceRange =
+    minimumVariationPrice !== undefined &&
+    maximumVariationPrice !== undefined &&
+    minimumVariationPrice !== maximumVariationPrice
+      ? {
+          min: minimumVariationPrice.toFixed(2),
+          max: maximumVariationPrice.toFixed(2),
+        }
+      : undefined;
 
   return {
-    price: Number(price).toFixed(2),
-    regularPrice: regularPrice && regularPrice !== '0' ? Number(regularPrice).toFixed(2) : undefined,
+    price: effectivePrice.toFixed(2),
+    regularPrice: regularPrice?.toFixed(2),
     currency,
     onSale,
     priceRange,
@@ -197,6 +209,7 @@ function mapProduct(product, index, existingSlugs) {
   return sanitizeSourceBrand({
     productId,
     sourceId: productId,
+    sourceFingerprint: product.ai.source_fingerprint || '',
     locale: 'en',
     slug: existingSlugs.get(productId) || `${slugify(product.ai.title)}-${suffix}`,
     title: product.ai.title,
@@ -248,7 +261,7 @@ try {
   const products = catalog.products.map((product, index) => mapProduct(product, index, existingSlugs));
   await writeFile(
     temporaryFile,
-    `${JSON.stringify(sanitizeSourceBrand({ schemaVersion: 2, locale: 'en', generatedAt: new Date().toISOString(), selection: catalog.selection, enrichmentSummary: catalog.enrichment_summary, products }), null, 2)}\n`,
+    `${JSON.stringify(sanitizeSourceBrand({ schemaVersion: 3, locale: 'en', generatedAt: new Date().toISOString(), selection: catalog.selection, sync: { mode: catalog.sync_mode, cursor: catalog.sync_cursor, modifiedAfter: catalog.modified_after, changedProductIds: catalog.changed_source_ids || [], deletedProductIds: catalog.deleted_source_ids || [] }, enrichmentSummary: catalog.enrichment_summary, products }), null, 2)}\n`,
     'utf8'
   );
   await rename(temporaryFile, outputFile);
@@ -257,3 +270,4 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
+

@@ -1,5 +1,8 @@
+Exit code: 0
+Wall time: 1.6 seconds
+Output:
 import { createHmac, randomBytes } from 'node:crypto';
-import { mkdir, rename, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 
 const baseUrl = (process.env.MECRT_CATALOG_URL || '').replace(/\/$/, '');
@@ -8,6 +11,9 @@ const outputFile = resolve(process.env.MECRT_CATALOG_OUTPUT || 'src/data/catalog
 const maxAttempts = 5;
 const requestedLimit = Number.parseInt(process.env.MECRT_CATALOG_SYNC_LIMIT || '0', 10);
 const syncLimit = Number.isFinite(requestedLimit) && requestedLimit > 0 ? requestedLimit : 0;
+const forceFullSync = /^(1|true|yes)$/i.test(process.env.MECRT_CATALOG_FULL_SYNC || '');
+const requestedOverlap = Number.parseInt(process.env.MECRT_CATALOG_SYNC_OVERLAP_SECONDS || '300', 10);
+const syncOverlapSeconds = Number.isFinite(requestedOverlap) && requestedOverlap >= 0 ? requestedOverlap : 300;
 
 if (!baseUrl || secret.length < 32) {
   throw new Error('MECRT_CATALOG_URL and a 32+ character MECRT_CATALOG_BRIDGE_SECRET are required.');
@@ -61,18 +67,31 @@ async function signedPost(route, body, payload) {
 }
 
 async function fetchIndex() {
+  const syncStartedAt = new Date().toISOString();
+  const previousCatalog = await readFile(outputFile, 'utf8')
+    .then(JSON.parse)
+    .catch(() => ({ products: [] }));
+  const previousProducts = Array.isArray(previousCatalog.products) ? previousCatalog.products : [];
+  const fullSync = forceFullSync || previousProducts.length === 0;
+  const previousCursor = previousCatalog.sync_cursor || previousCatalog.synchronized_at || '';
+  const previousCursorTime = Date.parse(previousCursor);
+  const modifiedAfter =
+    !fullSync && Number.isFinite(previousCursorTime)
+      ? new Date(Math.max(0, previousCursorTime - syncOverlapSeconds * 1000)).toISOString()
+      : '';
   const summaries = new Map();
+  const deletedSourceIds = new Set();
   let page = 1;
   let totalPages;
-  let sourceTotal;
+  let sourceTotal = Number(previousCatalog.source_total || previousProducts.length || 0);
   do {
     const pageSize = 100;
-    const modifiedAfter = '';
     const body = { page, page_size: pageSize, modified_after: modifiedAfter };
     const payload = `${page}\n${pageSize}\n${modifiedAfter}`;
     const data = await signedPost('/wp-json/mecrt-catalog/v1/products', body, payload);
-    sourceTotal = Number(data.total || 0);
+    sourceTotal = Number(data.source_total ?? (fullSync ? data.total : sourceTotal) ?? 0);
     totalPages = Math.max(1, Number(data.total_pages || 1));
+    for (const sourceId of data.deleted_source_ids || []) deletedSourceIds.add(String(sourceId));
     for (const product of data.products || []) {
       if (!product?.source_id) throw new Error(`Product on page ${page} has no source_id.`);
       summaries.set(String(product.source_id), product);
@@ -80,7 +99,11 @@ async function fetchIndex() {
     page += 1;
   } while (page <= totalPages);
 
-  const availableProducts = [];
+  const productsById = new Map(
+    (fullSync ? [] : previousProducts).map((product) => [String(product.source_id), product])
+  );
+  for (const sourceId of deletedSourceIds) productsById.delete(sourceId);
+  let scanned = 0;
   for (const summary of summaries.values()) {
     const identifierType = 'source_id';
     const identifier = String(summary.source_id);
@@ -88,8 +111,13 @@ async function fetchIndex() {
     const payload = `${identifierType}\n${identifier}`;
     const data = await signedPost('/wp-json/mecrt-catalog/v1/product', body, payload);
     if (!data?.product) throw new Error(`Product detail missing for source_id ${identifier}.`);
-    availableProducts.push(data.product);
-    process.stdout.write(`Catalog detail scanned: ${availableProducts.length}/${summaries.size}.\n`);
+    productsById.set(identifier, data.product);
+    scanned += 1;
+    process.stdout.write(`Catalog detail scanned: ${scanned}/${summaries.size}.\n`);
+  }
+  const availableProducts = [...productsById.values()];
+  if (!fullSync && summaries.size === 0 && deletedSourceIds.size === 0) {
+    process.stdout.write(`Catalog unchanged since ${modifiedAfter}; reusing ${availableProducts.length} products.\n`);
   }
 
   const categoryKey = (category) =>
@@ -168,6 +196,13 @@ async function fetchIndex() {
   return {
     schema_version: '1.0',
     synchronized_at: new Date().toISOString(),
+    sync_cursor: syncStartedAt,
+    sync_mode: fullSync ? 'full' : 'incremental',
+    modified_after: modifiedAfter || null,
+    changed_products: summaries.size,
+    deleted_products: deletedSourceIds.size,
+    changed_source_ids: [...summaries.keys()],
+    deleted_source_ids: [...deletedSourceIds],
     source_total: sourceTotal,
     total: selected.length,
     selection: {
@@ -193,3 +228,4 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
+

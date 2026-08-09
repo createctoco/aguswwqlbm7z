@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 4.3 seconds
+Output:
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
@@ -114,13 +117,20 @@ async function deepSeekJson(system, user, maxTokens = 2600) {
   throw lastError || new Error('DeepSeek translation failed after retries.');
 }
 
-async function translateCategoryGlossary(products) {
+async function translateCategoryGlossary(products, previousCatalog) {
   const categories = Array.from(
     products.reduce((map, product) => {
       for (const category of product.categories || []) map.set(category.slug, category.name);
       return map;
     }, new Map())
   ).map(([slug, name]) => ({ slug, name }));
+  const glossarySourceHash = contentHash(categories);
+  if (
+    previousCatalog?.categoryGlossary &&
+    (!previousCatalog.categoryGlossarySourceHash || previousCatalog.categoryGlossarySourceHash === glossarySourceHash)
+  ) {
+    return { glossary: previousCatalog.categoryGlossary, sourceHash: glossarySourceHash, reused: true };
+  }
   const system = `Translate an OUOOO B2B Catholic-gift catalog category glossary into ${localeDefinition.label}. Return only JSON: {"categories":{"slug":"translated display name"}}. Preserve every slug exactly. Use concise, natural wholesale catalog terminology. Translate Catholic terms accurately. Never add claims or source branding.`;
   const { value } = await deepSeekJson(system, JSON.stringify({ locale, categories }), 1000);
   if (!value?.categories || typeof value.categories !== 'object')
@@ -130,7 +140,7 @@ async function translateCategoryGlossary(products) {
       throw new Error(`Missing translated category ${slug}.`);
     }
   }
-  return sanitizeSourceBrand(value.categories);
+  return { glossary: sanitizeSourceBrand(value.categories), sourceHash: glossarySourceHash, reused: false };
 }
 
 function validateTranslation(content, product, categoryGlossary) {
@@ -275,7 +285,8 @@ try {
     .then(JSON.parse)
     .catch(() => ({ products: [] }));
   const previousById = new Map((previousCatalog.products || []).map((product) => [String(product.productId), product]));
-  const categoryGlossary = await translateCategoryGlossary(sourceCatalog.products);
+  const categoryGlossaryResult = await translateCategoryGlossary(sourceCatalog.products, previousCatalog);
+  const categoryGlossary = categoryGlossaryResult.glossary;
   const products = [];
   let reused = 0;
   let fallback = 0;
@@ -298,12 +309,15 @@ try {
       sourceCatalog.products.map(({ productId, localization }) => ({ productId, sourceHash: localization.sourceHash }))
     ),
     generatedAt: new Date().toISOString(),
+    sync: sourceCatalog.sync,
     categoryGlossary,
+    categoryGlossarySourceHash: categoryGlossaryResult.sourceHash,
     translationSummary: {
       ready: products.length - fallback,
       fallback,
       reused,
       generated: products.length - fallback - reused,
+      glossaryReused: categoryGlossaryResult.reused,
     },
     products,
   };
@@ -315,3 +329,4 @@ try {
   await rm(temporaryFile, { force: true });
   throw error;
 }
+

@@ -1,10 +1,13 @@
 Exit code: 0
-Wall time: 1.6 seconds
+Wall time: 2.5 seconds
 Output:
 name: Catalog sync
 
 on:
   workflow_dispatch:
+  schedule:
+    # 10:00 Asia/Shanghai every day (GitHub cron uses UTC).
+    - cron: '0 2 * * *'
   push:
     branches: [main]
     paths:
@@ -37,17 +40,25 @@ jobs:
       - name: Install dependencies
         run: npm install --no-package-lock
 
+      - name: Restore previous catalog snapshot
+        uses: actions/cache/restore@v4
+        with:
+          path: src/data/catalog-index.json
+          key: catalog-state-${{ github.run_id }}
+          restore-keys: |
+            catalog-state-
+
       - name: Synchronize catalog index
         env:
           MECRT_CATALOG_URL: ${{ secrets.MECRT_CATALOG_URL }}
           MECRT_CATALOG_BRIDGE_SECRET: ${{ secrets.MECRT_CATALOG_BRIDGE_SECRET }}
-          MECRT_CATALOG_SYNC_LIMIT: 100
+          MECRT_CATALOG_SYNC_LIMIT: 0
         run: npm run sync:catalog
 
       - name: Validate synchronized catalog
         shell: bash
         run: |
-          node --input-type=module -e "import data from './src/data/catalog-index.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.total !== 100 || data.total !== data.products.length || data.selection?.uncovered_categories?.length) throw new Error('Invalid catalog output or incomplete category coverage'); console.log('Validated products:', data.total, 'categories:', data.selection.discovered_categories.length);"
+          node --input-type=module -e "import data from './src/data/catalog-index.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.total < 1 || data.total !== data.products.length || data.selection?.uncovered_categories?.length) throw new Error('Invalid catalog output or incomplete category coverage'); console.log('Validated products:', data.total, 'mode:', data.sync_mode, 'changed:', data.changed_products, 'categories:', data.selection.discovered_categories.length);"
 
       - name: Rewrite catalog with DeepSeek
         env:
@@ -58,14 +69,14 @@ jobs:
       - name: Validate enriched catalog
         shell: bash
         run: |
-          node --input-type=module -e "import data from './src/data/enriched-catalog.json' with { type: 'json' }; const publicCopy = data.products?.map(({ ai, structured_data }) => ({ ai, productName: structured_data?.product?.name, productDescription: structured_data?.product?.description, faq: structured_data?.faq })); if (!Array.isArray(data.products) || data.products.length !== 100 || data.products.some((item) => !item.ai?.title || !item.ai?.description || !item.structured_data?.product) || JSON.stringify(publicCopy).toLowerCase().includes('mecrt')) throw new Error('Invalid enriched catalog output or source brand leakage'); console.log('Validated products:', data.products.length, 'AI generated:', data.enrichment_summary.generated, 'source fallback:', data.enrichment_summary.source_fallback);"
+          node --input-type=module -e "import data from './src/data/enriched-catalog.json' with { type: 'json' }; const publicCopy = data.products?.map(({ ai, structured_data }) => ({ ai, productName: structured_data?.product?.name, productDescription: structured_data?.product?.description, faq: structured_data?.faq })); if (!Array.isArray(data.products) || data.products.length < 1 || data.products.some((item) => !item.ai?.title || !item.ai?.description || !item.structured_data?.product) || JSON.stringify(publicCopy).toLowerCase().includes('mecrt')) throw new Error('Invalid enriched catalog output or source brand leakage'); console.log('Validated products:', data.products.length, 'AI generated:', data.enrichment_summary.generated, 'reused:', data.enrichment_summary.reused, 'source fallback:', data.enrichment_summary.source_fallback);"
 
       - name: Prepare minimal static-site catalog
         run: npm run prepare:catalog
 
       - name: Validate and build static site
         run: |
-          node --input-type=module -e "import data from './src/data/site-catalog.json' with { type: 'json' }; const publicCopy = data.products?.map(({ title, eyebrow, summary, description, catholicContext, categories, features, specifications, applications, faq, structuredData }) => ({ title, eyebrow, summary, description, catholicContext, categories, features, specifications, applications, faq, productName: structuredData?.product?.name, productDescription: structuredData?.product?.description })); if (data.products?.length !== 100 || data.selection?.uncovered_categories?.length || JSON.stringify(publicCopy).toLowerCase().includes('mecrt')) throw new Error('Invalid public catalog, incomplete categories, or source brand leakage');"
+          node --input-type=module -e "import data from './src/data/site-catalog.json' with { type: 'json' }; const publicCopy = data.products?.map(({ title, eyebrow, summary, description, catholicContext, categories, features, specifications, applications, faq, structuredData }) => ({ title, eyebrow, summary, description, catholicContext, categories, features, specifications, applications, faq, productName: structuredData?.product?.name, productDescription: structuredData?.product?.description })); if (!data.products?.length || data.selection?.uncovered_categories?.length || JSON.stringify(publicCopy).toLowerCase().includes('mecrt')) throw new Error('Invalid public catalog, incomplete categories, or source brand leakage');"
           npm run build
 
       - name: Publish public catalog to repository
@@ -84,4 +95,11 @@ jobs:
           path: src/data/site-catalog.json
           if-no-files-found: error
           retention-days: 7
+
+      - name: Save catalog snapshot for tomorrow's incremental sync
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: src/data/catalog-index.json
+          key: catalog-state-${{ github.run_id }}
 

@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 1.6 seconds
-Output:
 CREATE TABLE IF NOT EXISTS products (
   product_id TEXT NOT NULL,
   locale TEXT NOT NULL,

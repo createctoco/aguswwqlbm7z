@@ -107,4 +107,3 @@ export async function getRelatedProducts(product: Product, limit = 3): Promise<P
     .all<ProductRow>();
   return result.results.map((row) => JSON.parse(row.content_json) as Product);
 }
-

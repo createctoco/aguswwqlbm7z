@@ -1,0 +1,26 @@
+Exit code: 0
+Wall time: 4.3 seconds
+Output:
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "ouooo-catalog",
+  "main": "@astrojs/cloudflare/entrypoints/server",
+  "compatibility_date": "2026-08-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./dist",
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ouooo-catalog",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "./migrations",
+    },
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1,
+  },
+}
+

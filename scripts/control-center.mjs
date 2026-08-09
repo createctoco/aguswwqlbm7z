@@ -76,14 +76,16 @@ async function fileExists(path) {
   );
 }
 
-async function readEnvKeys() {
+async function readEnvValues() {
   const content = await readFile(join(root, '.env'), 'utf8').catch(() => '');
-  return new Set(
-    content
-      .split(/\r?\n/)
-      .map((line) => line.match(/^\s*([A-Z0-9_]+)\s*=/)?.[1])
-      .filter(Boolean)
-  );
+  const values = new Map();
+  for (const line of content.split(/\r?\n/)) {
+    const match = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
+    if (!match) continue;
+    const value = match[2].replace(/^(['"])(.*)\1$/, '$2').trim();
+    values.set(match[1], value);
+  }
+  return values;
 }
 
 async function catalogSummary() {
@@ -283,7 +285,7 @@ async function startTask(action) {
 }
 
 async function statusPayload() {
-  const envKeys = await readEnvKeys();
+  const envValues = await readEnvValues();
   const catalog = await catalogSummary();
   const git = await captureCommand('git', ['status', '--short', '--branch']).catch(() => 'Unavailable');
   return {
@@ -294,8 +296,10 @@ async function statusPayload() {
     catalog,
     git: git.trim(),
     config: {
-      mecrt: envKeys.has('MECRT_CATALOG_URL') && envKeys.has('MECRT_CATALOG_BRIDGE_SECRET'),
-      deepseek: envKeys.has('DEEPSEEK_API_KEY'),
+      mecrt:
+        /^https:\/\//i.test(envValues.get('MECRT_CATALOG_URL') || '') &&
+        (envValues.get('MECRT_CATALOG_BRIDGE_SECRET') || '').length >= 32,
+      deepseek: (envValues.get('DEEPSEEK_API_KEY') || '').length >= 20,
       cloudflare: await fileExists(
         join(process.env.APPDATA || '', 'xdg.config', '.wrangler', 'config', 'default.toml')
       ),

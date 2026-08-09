@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 1.6 seconds
-Output:
 # OUOOO
 
 Pure-static English B2B product catalog and inquiry website for `ouooo.com`.

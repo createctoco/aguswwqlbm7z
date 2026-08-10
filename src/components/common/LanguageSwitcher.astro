@@ -29,7 +29,7 @@ const shortLabel = BUILD_LOCALE_CONFIG.hreflang.split('-')[0].toUpperCase();
           aria-current={locale === BUILD_LOCALE ? 'page' : undefined}
           role="listitem"
         >
-          <span dir={LOCALES[locale].direction}>{LOCALES[locale].label}</span>
+          <span>{LOCALES[locale].label}</span>
           {locale === BUILD_LOCALE && (
             <span class="current-mark" aria-hidden="true">
               ✓

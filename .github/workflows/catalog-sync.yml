@@ -49,7 +49,7 @@ jobs:
         env:
           MECRT_CATALOG_URL: ${{ secrets.MECRT_CATALOG_URL }}
           MECRT_CATALOG_BRIDGE_SECRET: ${{ secrets.MECRT_CATALOG_BRIDGE_SECRET }}
-          MECRT_CATALOG_SYNC_LIMIT: 0
+          MECRT_CATALOG_SYNC_LIMIT: 10
         run: npm run sync:catalog
 
       - name: Validate synchronized catalog

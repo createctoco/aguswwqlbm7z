@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-10T16:52:41.069Z",
+  "generatedAt": "2026-08-10T17:59:40.500Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": "2026-08-09T15:53:16.918Z",
     "changedProductIds": [
-      "AAEQTG7BAOVioqqEY6eg0yhx",
-      "AAENTG7BAOVioqqEY6emTVm9",
-      "AAHoTG7BAOVioqqEY6eDAcUb",
-      "AAEMTG7BAOVioqqEY6eeHL0R",
-      "AAGvTG7BAOVioqqEY6e51g8N",
-      "AAFmTG7BAOVioqqEY6emt5F0",
-      "AAGSTG7BAOVioqqEY6e0jsgE",
-      "AAFXTG7BAOVioqqEY6eihzpw",
-      "AAGgTG7BAOVioqqEY6ef767g",
-      "AAH-TG7BAOVioqqEY6eBTJSZ"
+      "AAFQTG7BAOVioqqEY6e4TmTi",
+      "AAEFTG7BAOVioqqEY6ejcxzP",
+      "AAFITG7BAOVioqqEY6eBRoJ7",
+      "AAGZTG7BAOVioqqEY6e52VCz",
+      "AAGSTG7BAOVioqqEY6ey4Ea2",
+      "AAFrTG7BAOVioqqEY6ee9m9k",
+      "AAHQTG7BAOVioqqEY6ePwemT",
+      "AAHpTG7BAOVioqqEY6ejch2z",
+      "AAEoTG7BAOVioqqEY6ejcizj",
+      "AAHzTG7BAOVioqqEY6ehPu6i"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 7,
-    "reused": 30,
-    "source_fallback": 3
+    "generated": 8,
+    "reused": 40,
+    "source_fallback": 2
   },
   "products": [
     {
@@ -7665,12 +7665,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "6508c06bebb472572d54e789dcbd9b7ec59d11bf377a8dd2f2f608d5c264b202",
+        "sourceHash": "75b6a722ab8bc424720cb45b79d8a0c30ad5f187e915488b65e849d6aeb611c7",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "6508c06bebb472572d54e789dcbd9b7ec59d11bf377a8dd2f2f608d5c264b202",
-            "contentHash": "6508c06bebb472572d54e789dcbd9b7ec59d11bf377a8dd2f2f608d5c264b202",
+            "sourceHash": "75b6a722ab8bc424720cb45b79d8a0c30ad5f187e915488b65e849d6aeb611c7",
+            "contentHash": "75b6a722ab8bc424720cb45b79d8a0c30ad5f187e915488b65e849d6aeb611c7",
             "attempts": 0,
             "updatedAt": "2026-08-10T16:51:30.116Z",
             "model": "deepseek-v4-flash"
@@ -8032,6 +8032,2047 @@
             "contentHash": "c54dcd42f8e5421af3663abb21ef6f0390960e2211550d7784603e93c9df5e35",
             "attempts": 0,
             "updatedAt": "2026-08-10T16:52:40.836Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFQTG7BAOVioqqEY6e4TmTi",
+      "sourceId": "AAFQTG7BAOVioqqEY6e4TmTi",
+      "sourceFingerprint": "75aeb1af7c1df3cdaf79b222cef181df4d88c05eff50b854f460ba0e07d61968",
+      "locale": "en",
+      "slug": "zinc-alloy-religious-triangle-rosary-connector-pendant-e4tmti",
+      "title": "Zinc Alloy Religious Triangle Rosary Connector Pendant",
+      "eyebrow": "zinc alloy religious triangle pendant connector",
+      "summary": "These zinc alloy pendants feature a triangle design with a bamboo-style chain, serving as connectors for rosaries and religious jewelry. Available in 14 variants with weights from 2g to 63g, they suit various DIY assembly needs. Ideal for wholesalers and crafters.",
+      "description": "Our zinc alloy religious triangle rosary connectors come in a range of weights and styles, from lightweight 2g pieces to substantial 63g components. The bamboo chain texture adds a natural, tactile element to rosary assembly. Each variant is labeled with a specific weight, allowing precise matching for consistent jewelry production. These connectors are practical for replacing worn parts or creating new rosaries. For wholesale inquiries about bulk quantities and variant availability, contact us.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H3d1397ea09314363a14df7ffb45c4af3F.webp",
+      "imageAlt": "Zinc Alloy Religious Triangle Rosary Connector Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3d1397ea09314363a14df7ffb45c4af3F.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H07955871268746e4af6bcc551fe1907fh.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5957a0a74b0a461c8a435d28c042a8abG.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7851506a90914c57a5245852d397dfb5X.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfa423c4f4eb1461d919fbc39c4820b42D.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H754f535e21ae4a9aaa15c1d0230c60fbA.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He9c172ca4d8a4ac881182248d6ee5699V.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-12-zinc-alloy-15g-1619",
+          "label": "st1-12-zinc-alloy-15g-1619",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7ecc3f68376c4af098f1a7971fab27f8c.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-3-zinc-alloy-17g-1224",
+          "label": "st1-3-zinc-alloy-17g-1224",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc3c2aada824944a7aae02a2ef3f5c621G.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-13-zinc-alloy-12g-1523",
+          "label": "st1-13-zinc-alloy-12g-1523",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2ed4190fcf8842f39c3ee5805e0831850.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-14-zinc-alloy-14g-1518",
+          "label": "st1-14-zinc-alloy-14g-1518",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6076a8e85eff4a4aa56b919a3109f180z.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-4-zinc-alloy-17g-1727",
+          "label": "st1-4-zinc-alloy-17g-1727",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H56ad5da87c3348e1a8fc8e92d6f1a607e.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-8-zinc-alloy-07g-1312",
+          "label": "st1-8-zinc-alloy-07g-1312",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdd598a4d342f434ebbdcc2647d025c91O.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-7-zinc-alloy-37g-1229",
+          "label": "st1-7-zinc-alloy-37g-1229",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0eac0cf6453c4bd99d5fe1c5947d349fP.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-6-zinc-alloy-2g-1722",
+          "label": "st1-6-zinc-alloy-2g-1722",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8bc0f27f80e14e48ac9cc8c6cc40fc24A.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-10-zinc-alloy-12g-1418",
+          "label": "st1-10-zinc-alloy-12g-1418",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3cdfbbbe07a94efabc3bada0c5f35baem.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-1-zinc-alloy-63g-3343",
+          "label": "st1-1-zinc-alloy-63g-3343",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hebd32dc88284470e9e86a2730405cc0c9.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-11-zinc-alloy-11g-1616",
+          "label": "st1-11-zinc-alloy-11g-1616",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8fb24aef7cee48cdae26abde92d39540e.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-2-zinc-alloy-23g-1522",
+          "label": "st1-2-zinc-alloy-23g-1522",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8ce726a79180476698bb58a859b172b6X.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-5-zinc-alloy-18g-2121",
+          "label": "st1-5-zinc-alloy-18g-2121",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H750fbeadc6e04f11b01348d86686eb58j.webp",
+          "alt": "Zinc Alloy Religious Triangle Rosary Connector Pendant - st1-9-zinc-alloy-18g-152",
+          "label": "st1-9-zinc-alloy-18g-152",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi-V--12"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Zinc alloy construction",
+        "Triangle shape",
+        "Bamboo-style chain texture",
+        "14 weight variants from 2g to 63g",
+        "Designed as rosary connector pendant"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc alloy"
+        },
+        {
+          "name": "Design",
+          "value": "Triangle with bamboo chain"
+        },
+        {
+          "name": "Variants",
+          "value": "14 (St1-1 to St1-14)"
+        },
+        {
+          "name": "Weight range",
+          "value": "2g–63g per variant"
+        }
+      ],
+      "applications": [
+        "DIY rosary making",
+        "Rosary repair and part replacement",
+        "Religious jewelry assembly",
+        "Bulk crafting projects"
+      ],
+      "faq": [
+        {
+          "question": "What materials are these rosary connectors made of?",
+          "answer": "These connectors are made of zinc alloy, as stated in the product facts."
+        },
+        {
+          "question": "How many weight variants are available?",
+          "answer": "There are 14 variants, with weights ranging from 2g to 63g, such as St1-6 at 2g and St1-1 at 63g."
+        },
+        {
+          "question": "Can these be used for rosary repair?",
+          "answer": "Yes, the triangle design and connector function make them suitable for repairing or assembling rosaries, though specific use depends on your design."
+        }
+      ],
+      "pricing": {
+        "price": "0.01",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.01",
+          "max": "0.07"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Zinc Alloy Religious Triangle Rosary Connector Pendant",
+          "description": "Wholesale zinc alloy religious triangle rosary connector pendants in 14 weight variants. Ideal for DIY rosary making and jewelry assembly.",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6e4TmTi",
+          "image": [
+            "https://sc04.alicdn.com/kf/H3d1397ea09314363a14df7ffb45c4af3F.png",
+            "https://sc04.alicdn.com/kf/H07955871268746e4af6bcc551fe1907fh.png",
+            "https://sc04.alicdn.com/kf/H5957a0a74b0a461c8a435d28c042a8abG.png",
+            "https://sc04.alicdn.com/kf/H7851506a90914c57a5245852d397dfb5X.png",
+            "https://sc04.alicdn.com/kf/Hfa423c4f4eb1461d919fbc39c4820b42D.png",
+            "https://sc04.alicdn.com/kf/H754f535e21ae4a9aaa15c1d0230c60fbA.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Triangle with bamboo chain"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "14 (St1-1 to St1-14)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Weight range",
+              "value": "2g–63g per variant"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.01",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.01",
+              "maxPrice": "0.07",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are these rosary connectors made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "These connectors are made of zinc alloy, as stated in the product facts."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How many weight variants are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There are 14 variants, with weights ranging from 2g to 63g, such as St1-6 at 2g and St1-1 at 63g."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can these be used for rosary repair?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the triangle design and connector function make them suitable for repairing or assembling rosaries, though specific use depends on your design."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "ea0f743aa6b7552a26ec48e5c585872f4810929efe1fbc278a1de31a3c59235c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "ea0f743aa6b7552a26ec48e5c585872f4810929efe1fbc278a1de31a3c59235c",
+            "contentHash": "ea0f743aa6b7552a26ec48e5c585872f4810929efe1fbc278a1de31a3c59235c",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T17:56:43.234Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEFTG7BAOVioqqEY6ejcxzP",
+      "sourceId": "AAEFTG7BAOVioqqEY6ejcxzP",
+      "sourceFingerprint": "cf277d0af98dbd36d3774ea793d48f713ae7c52d0b3c90ad9e22f18499cd4f7c",
+      "locale": "en",
+      "slug": "square-pp-plastic-storage-box-for-rosary-and-small-parts-ejcxzp",
+      "title": "Square PP Plastic Storage Box for Rosary and Small Parts",
+      "eyebrow": "square PP plastic storage box",
+      "summary": "This square PP plastic storage box offers a simple, practical solution for organizing small items. Its compact size and lightweight build suit rosary bead storage, jewelry packaging, and small parts organization.",
+      "description": "This square PP plastic storage box is designed for practical storage needs. Made of polypropylene (PP), it is lightweight and durable, ideal for keeping small items safe and tidy. The simple square design fits neatly on shelves or in drawers.\n\nUse it to store rosary beads, jewelry, or small craft parts. Its versatility makes it a handy addition to any home, office, or retail setting. The closure type is described as 'other,' offering a secure yet accessible lid.\n\nWhether for personal use or retail packaging, this box provides a clean, straightforward way to organize. Its neutral style complements various settings without drawing attention away from the contents.",
+      "catholicContext": "The Rosary is a Catholic prayer tradition centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary; this box is suited for storing rosary beads.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "122",
+          "name": "Jewelry Packaging",
+          "slug": "jewelry-packaging"
+        }
+      ],
+      "sku": "ALI-AAEFTG7BAOVioqqEY6ejcxzP",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd153e06fa4f047ffa2be0ffd3a5d9812a.webp",
+      "imageAlt": "Square PP Plastic Storage Box for Rosary and Small Parts",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd153e06fa4f047ffa2be0ffd3a5d9812a.webp",
+          "alt": "Square PP Plastic Storage Box for Rosary and Small Parts"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha5a064ff1eb2405a8fd84dc7f0f98b81N.webp",
+          "alt": "Square PP Plastic Storage Box for Rosary and Small Parts"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8d849b8625234311851b0ab4cb603d04Z.webp",
+          "alt": "Square PP Plastic Storage Box for Rosary and Small Parts"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8cf8bff1993e41c599d34c2dece321ccW.webp",
+          "alt": "Square PP Plastic Storage Box for Rosary and Small Parts"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H850f1ae7f86a4a4798e50d4e9363dc3fx.webp",
+          "alt": "Square PP Plastic Storage Box for Rosary and Small Parts"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Made from polypropylene (PP) plastic for durability",
+        "Square shape with simple design",
+        "Closure type: other (not specified)",
+        "Suitable for storage and organization",
+        "Compact and lightweight for easy handling"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Polypropylene (PP)"
+        },
+        {
+          "name": "Shape",
+          "value": "Square"
+        },
+        {
+          "name": "Pattern",
+          "value": "Square"
+        },
+        {
+          "name": "Style",
+          "value": "Simple"
+        },
+        {
+          "name": "Closure Type",
+          "value": "Other"
+        }
+      ],
+      "applications": [
+        "Storing rosary beads",
+        "Organizing small jewelry items",
+        "Holding small craft parts",
+        "Packaging for retail products"
+      ],
+      "faq": [
+        {
+          "question": "What material is this storage box made of?",
+          "answer": "This storage box is made of polypropylene (PP) plastic, which is lightweight and durable."
+        },
+        {
+          "question": "What are the dimensions of this square PP plastic storage box?",
+          "answer": "The product facts do not specify dimensions. We recommend contacting us for detailed measurements before ordering."
+        },
+        {
+          "question": "Can this box be used for storing rosary beads?",
+          "answer": "Yes, the square PP plastic storage box is suitable for storing rosary beads and other small items, providing organized and protected storage."
+        }
+      ],
+      "pricing": {
+        "price": "0.06",
+        "regularPrice": "0.06",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.01",
+          "max": "0.10"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Square PP Plastic Storage Box for Rosary and Small Parts",
+          "description": "Square PP plastic storage box with simple style, suitable for organizing rosary beads and small parts. Compact, lightweight, and versatile for jewelry packaging.",
+          "sku": "ALI-AAEFTG7BAOVioqqEY6ejcxzP",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd153e06fa4f047ffa2be0ffd3a5d9812a.png",
+            "https://sc04.alicdn.com/kf/Ha5a064ff1eb2405a8fd84dc7f0f98b81N.png",
+            "https://sc04.alicdn.com/kf/H8d849b8625234311851b0ab4cb603d04Z.png",
+            "https://sc04.alicdn.com/kf/H8cf8bff1993e41c599d34c2dece321ccW.png",
+            "https://sc04.alicdn.com/kf/H850f1ae7f86a4a4798e50d4e9363dc3fx.png"
+          ],
+          "category": "Jewelry Packaging",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Polypropylene (PP)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Square"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pattern",
+              "value": "Square"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Simple"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Closure Type",
+              "value": "Other"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.06",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.01",
+              "maxPrice": "0.10",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this storage box made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This storage box is made of polypropylene (PP) plastic, which is lightweight and durable."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the dimensions of this square PP plastic storage box?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product facts do not specify dimensions. We recommend contacting us for detailed measurements before ordering."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this box be used for storing rosary beads?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the square PP plastic storage box is suitable for storing rosary beads and other small items, providing organized and protected storage."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "edc7d042bcf242ad5b26e2bbfa1c0b1deca2e0749a7d5d139911d14f6d1ee845",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "edc7d042bcf242ad5b26e2bbfa1c0b1deca2e0749a7d5d139911d14f6d1ee845",
+            "contentHash": "edc7d042bcf242ad5b26e2bbfa1c0b1deca2e0749a7d5d139911d14f6d1ee845",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T17:57:06.741Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFITG7BAOVioqqEY6eBRoJ7",
+      "sourceId": "AAFITG7BAOVioqqEY6eBRoJ7",
+      "sourceFingerprint": "f8cda0f3744ae5b74b8f74c4a45b4f648dedb34db66a723014401b7419f8e4fe",
+      "locale": "en",
+      "slug": "rose-bead-rosary-bracelet-for-prayer-ebroj7",
+      "title": "Rose Bead Rosary Bracelet for Prayer",
+      "eyebrow": "Rosary bracelet",
+      "summary": "A rosary bracelet with rose beads and imitation pearls, made from zinc alloy with a princess-cut accent. Designed for prayer and everyday wear, this unisex charm bracelet combines a religious motif with a fashion-forward look.",
+      "description": "This rosary bracelet features rose-colored beads paired with imitation pearls, creating a soft, feminine look. The zinc alloy construction and princess-cut accent add a touch of sparkle, while the channel setting ensures a smooth finish. As a charm bracelet, it is easy to slip on and off, making it suitable for daily prayer or as a reminder of one's faith. Its unisex design broadens its appeal, though the rose tones lean toward a delicate aesthetic. This piece is a practical choice for those seeking a wearable devotional item that does not compromise on style.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAFITG7BAOVioqqEY6eBRoJ7",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H59d0953610c94ea2aed270ba1d96fc2b7.webp",
+      "imageAlt": "Rose Bead Rosary Bracelet for Prayer",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H59d0953610c94ea2aed270ba1d96fc2b7.webp",
+          "alt": "Rose Bead Rosary Bracelet for Prayer"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H891c1a52fcfd4bb2ab3eddc1ec726c0az.webp",
+          "alt": "Rose Bead Rosary Bracelet for Prayer"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H70558224a39141c0b5fcc5b7529248caK.webp",
+          "alt": "Rose Bead Rosary Bracelet for Prayer"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb5b124f492c045318af954232aef3d36z.webp",
+          "alt": "Rose Bead Rosary Bracelet for Prayer"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Rose beads paired with imitation pearls",
+        "Made from zinc alloy with a princess-cut accent",
+        "Channel setting for a smooth, secure fit",
+        "Unisex charm bracelet style",
+        "Religious motif with Catholic inspiration"
+      ],
+      "specifications": [
+        {
+          "name": "Main material",
+          "value": "Zinc alloy"
+        },
+        {
+          "name": "Pearl type",
+          "value": "Imitation pearl"
+        },
+        {
+          "name": "Setting",
+          "value": "Channel setting"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        }
+      ],
+      "applications": [
+        "Personal prayer and devotional use",
+        "Everyday wear as a faith-inspired accessory",
+        "Gift for Catholic friends or family",
+        "Religious events or gatherings"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this rosary bracelet made of?",
+          "answer": "The bracelet is primarily made of zinc alloy, with imitation pearls and a princess-cut accent. The specific composition of the alloy is not detailed."
+        },
+        {
+          "question": "Is this bracelet designed for both men and women?",
+          "answer": "Yes, the product is listed as unisex, though the rose-colored beads may have a more traditional feminine appeal."
+        },
+        {
+          "question": "How is the bracelet constructed?",
+          "answer": "The bracelet uses a channel setting, which holds stones or beads in a metal channel, providing a smooth surface and secure fit."
+        }
+      ],
+      "pricing": {
+        "price": "0.58",
+        "regularPrice": "0.58",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.28",
+          "max": "0.58"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Rose Bead Rosary Bracelet for Prayer",
+          "description": "Zinc alloy rosary bracelet with rose-colored imitation pearl beads, princess cut accents, and channel setting. Unisex charm bracelet for prayer.",
+          "sku": "ALI-AAFITG7BAOVioqqEY6eBRoJ7",
+          "image": [
+            "https://sc04.alicdn.com/kf/H59d0953610c94ea2aed270ba1d96fc2b7.jpg",
+            "https://sc04.alicdn.com/kf/H891c1a52fcfd4bb2ab3eddc1ec726c0az.jpg",
+            "https://sc04.alicdn.com/kf/H70558224a39141c0b5fcc5b7529248caK.jpg",
+            "https://sc04.alicdn.com/kf/Hb5b124f492c045318af954232aef3d36z.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main material",
+              "value": "Zinc alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pearl type",
+              "value": "Imitation pearl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Setting",
+              "value": "Channel setting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.58",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.28",
+              "maxPrice": "0.58",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this rosary bracelet made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet is primarily made of zinc alloy, with imitation pearls and a princess-cut accent. The specific composition of the alloy is not detailed."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet designed for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product is listed as unisex, though the rose-colored beads may have a more traditional feminine appeal."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is the bracelet constructed?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet uses a channel setting, which holds stones or beads in a metal channel, providing a smooth surface and secure fit."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "5ea4a0df25935e354e465d0d8c0404d01134e6206afa7f7323b983feb6bb9411",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "5ea4a0df25935e354e465d0d8c0404d01134e6206afa7f7323b983feb6bb9411",
+            "contentHash": "5ea4a0df25935e354e465d0d8c0404d01134e6206afa7f7323b983feb6bb9411",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T17:57:12.964Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGZTG7BAOVioqqEY6e52VCz",
+      "sourceId": "AAGZTG7BAOVioqqEY6e52VCz",
+      "sourceFingerprint": "aafa9835d9a9a0eb77d4103a6b54f28dee610b452a049d271632d10342ddb7cd",
+      "locale": "en",
+      "slug": "blessing-god-bless-you-first-communion-square-jewelry-display-e52vcz",
+      "title": "Blessing God Bless You First Communion Square Jewelry Display",
+      "eyebrow": "Jewelry Packaging",
+      "summary": "Blessing God Bless You First Communion Square Jewelry Display Board Cardboard Packaging",
+      "description": "",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "122",
+          "name": "Jewelry Packaging",
+          "slug": "jewelry-packaging"
+        }
+      ],
+      "sku": "ALI-AAGZTG7BAOVioqqEY6e52VCz",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Ha25b39f950664afc9a9123b992f9af1ea.webp",
+      "imageAlt": "Blessing God Bless You First Communion Square Jewelry Display",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha25b39f950664afc9a9123b992f9af1ea.webp",
+          "alt": "Blessing God Bless You First Communion Square Jewelry Display"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H638f70896bf0490bbd4f840c04d754363.webp",
+          "alt": "Blessing God Bless You First Communion Square Jewelry Display"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H30e0cb23a23445098e4c84282572ab3cp.webp",
+          "alt": "Blessing God Bless You First Communion Square Jewelry Display"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0be5de6794d42da9cab5838ddfcdff9E.webp",
+          "alt": "Blessing God Bless You First Communion Square Jewelry Display"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H26c1481f70d5444382f415d6663a7777K.webp",
+          "alt": "Blessing God Bless You First Communion Square Jewelry Display"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9860703886f942588faec10327b75cc39.webp",
+          "alt": "Blessing God Bless You First Communion Square Jewelry Display - brown-god-bless-you",
+          "label": "brown-god-bless-you",
+          "sku": "ALI-AAGZTG7BAOVioqqEY6e52VCz-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5584983c8f447ab9c224e13b883131bU.webp",
+          "alt": "Blessing God Bless You First Communion Square Jewelry Display - brown-first-communion",
+          "label": "brown-first-communion",
+          "sku": "ALI-AAGZTG7BAOVioqqEY6e52VCz-V--1"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Variant: Brown-First Communion, Brown-God Bless You",
+        "Main Material: Paper"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Brown-First Communion, Brown-God Bless You"
+        },
+        {
+          "name": "Main Material",
+          "value": "Paper"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.06",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.04",
+          "max": "0.06"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Blessing God Bless You First Communion Square Jewelry Display",
+          "description": "Blessing God Bless You First Communion Square Jewelry Display Board Cardboard Packaging",
+          "sku": "ALI-AAGZTG7BAOVioqqEY6e52VCz",
+          "image": [
+            "https://sc04.alicdn.com/kf/Ha25b39f950664afc9a9123b992f9af1ea.png",
+            "https://sc04.alicdn.com/kf/H638f70896bf0490bbd4f840c04d754363.png",
+            "https://sc04.alicdn.com/kf/H30e0cb23a23445098e4c84282572ab3cp.png",
+            "https://sc04.alicdn.com/kf/Hc0be5de6794d42da9cab5838ddfcdff9E.png",
+            "https://sc04.alicdn.com/kf/H26c1481f70d5444382f415d6663a7777K.png"
+          ],
+          "category": "Jewelry Packaging",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Brown-First Communion, Brown-God Bless You"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Paper"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.06",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.04",
+              "maxPrice": "0.06",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "6917a5f3ba3a52765777d1b522a02144501bd2453e7e3c6c7cf9c20d87255373",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "6917a5f3ba3a52765777d1b522a02144501bd2453e7e3c6c7cf9c20d87255373",
+            "contentHash": "6917a5f3ba3a52765777d1b522a02144501bd2453e7e3c6c7cf9c20d87255373",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T17:57:48.707Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGSTG7BAOVioqqEY6ey4Ea2",
+      "sourceId": "AAGSTG7BAOVioqqEY6ey4Ea2",
+      "sourceFingerprint": "ad57693625e366e63aa05f1795a7a3169d133155be45db06cba881a49129d850",
+      "locale": "en",
+      "slug": "crystal-cross-keychain-pendant-with-gold-finish-ey4ea2",
+      "title": "Crystal Cross Keychain Pendant with Gold Finish",
+      "eyebrow": "Cross keychain pendant",
+      "summary": "A zinc alloy cross-shaped keychain pendant set with crystal and rhinestone accents and a gold-color plating. This charm pendant suits children's accessories and can attach to bags, backpacks, or car keys. Available wholesale for bulk orders.",
+      "description": "This cross keychain pendant is made from zinc alloy with a gold-color plating and features crystal and rhinestone accents set by claw setting. The main stone is zircon, adding a subtle sparkle. Its compact size and pendant style make it suitable for children's accessories or everyday carry.\n\nThe cross shape aligns with Catholic symbolism, serving as a visual reminder of faith for personal use. While it may appeal to Catholic buyers, it is not a crucifix, as no corpus is specified. It functions as a charm pendant, ideal for attaching to bags, backpacks, or car keys.\n\nWe offer this product for wholesale, with mould making and sample making services available upon request. Contact us for more details on bulk ordering.",
+      "catholicContext": "The cross is a central symbol of the Catholic faith, representing the sacrifice of Christ, though this product is not a crucifix as no corpus is mentioned.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "83",
+          "name": "Keychains",
+          "slug": "keychains"
+        }
+      ],
+      "sku": "ALI-AAGSTG7BAOVioqqEY6ey4Ea2",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H2a3666811cb747e983156b7b19974d6eu.webp",
+      "imageAlt": "Crystal Cross Keychain Pendant with Gold Finish",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2a3666811cb747e983156b7b19974d6eu.webp",
+          "alt": "Crystal Cross Keychain Pendant with Gold Finish"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2da16cd8cde941bd938415a62d44a00bt.webp",
+          "alt": "Crystal Cross Keychain Pendant with Gold Finish"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfe7a434bb88a40b18d0255b86b6dab267.webp",
+          "alt": "Crystal Cross Keychain Pendant with Gold Finish"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H05ce315fd041458f8e4bda299b4260c4d.webp",
+          "alt": "Crystal Cross Keychain Pendant with Gold Finish"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f7ccd63112f4543acec57ccaa53be2dF.webp",
+          "alt": "Crystal Cross Keychain Pendant with Gold Finish"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H71d8853d7ffc49b9b0e941bfc7871ee9w.webp",
+          "alt": "Crystal Cross Keychain Pendant with Gold Finish"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#9a6b63",
+      "features": [
+        "Zinc alloy construction for durability",
+        "Crystal and rhinestone accents with claw setting",
+        "Gold-color plating",
+        "Main stone: zircon",
+        "Cross shape with religious style",
+        "Mould making and sample making services available"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Plating",
+          "value": "Gold-color"
+        },
+        {
+          "name": "Main Stone",
+          "value": "Zircon"
+        },
+        {
+          "name": "Inlay Technology",
+          "value": "Claw Setting"
+        },
+        {
+          "name": "Shape/Pattern",
+          "value": "Cross"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Religious Type",
+          "value": "Catholicism"
+        }
+      ],
+      "applications": [
+        "Keychain for keys",
+        "Backpack charm",
+        "Car pendant",
+        "Bag accessory"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this cross keychain made of?",
+          "answer": "The cross keychain is made of zinc alloy with a gold-color plating, and features crystal and rhinestone accents with a zircon main stone."
+        },
+        {
+          "question": "Is this a crucifix or a plain cross?",
+          "answer": "It is a plain cross; no corpus (body of Christ) is mentioned in the product details."
+        },
+        {
+          "question": "Can I request custom mould making or samples?",
+          "answer": "Yes, the product details indicate that mould making and sample making services are available. Contact us for more information."
+        }
+      ],
+      "pricing": {
+        "price": "0.45",
+        "regularPrice": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.37",
+          "max": "0.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Crystal Cross Keychain Pendant with Gold Finish",
+          "description": "Zinc alloy cross keychain pendant with crystal and rhinestone accents, gold-color plating, claw setting, for bags, backpacks, or car. Wholesale available.",
+          "sku": "ALI-AAGSTG7BAOVioqqEY6ey4Ea2",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2a3666811cb747e983156b7b19974d6eu.png",
+            "https://sc04.alicdn.com/kf/H2da16cd8cde941bd938415a62d44a00bt.png",
+            "https://sc04.alicdn.com/kf/Hfe7a434bb88a40b18d0255b86b6dab267.png",
+            "https://sc04.alicdn.com/kf/H05ce315fd041458f8e4bda299b4260c4d.png",
+            "https://sc04.alicdn.com/kf/H8f7ccd63112f4543acec57ccaa53be2dF.png",
+            "https://sc04.alicdn.com/kf/H71d8853d7ffc49b9b0e941bfc7871ee9w.png"
+          ],
+          "category": "Keychains",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Gold-color"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "Zircon"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Inlay Technology",
+              "value": "Claw Setting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape/Pattern",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Religious Type",
+              "value": "Catholicism"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.37",
+              "maxPrice": "0.45",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this cross keychain made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cross keychain is made of zinc alloy with a gold-color plating, and features crystal and rhinestone accents with a zircon main stone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this a crucifix or a plain cross?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is a plain cross; no corpus (body of Christ) is mentioned in the product details."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I request custom mould making or samples?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product details indicate that mould making and sample making services are available. Contact us for more information."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "99484ef4a7fa9928ea33262e5f0dab7d245c5b929957d8580e544c5421fdc4b6",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "99484ef4a7fa9928ea33262e5f0dab7d245c5b929957d8580e544c5421fdc4b6",
+            "contentHash": "99484ef4a7fa9928ea33262e5f0dab7d245c5b929957d8580e544c5421fdc4b6",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T17:58:04.946Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFrTG7BAOVioqqEY6ee9m9k",
+      "sourceId": "AAFrTG7BAOVioqqEY6ee9m9k",
+      "sourceFingerprint": "a7c96f51142a393e0044f0446cfbf2c4cc5be439232e6ba00e2daf96ae017844",
+      "locale": "en",
+      "slug": "metal-cross-keychain-pendant-necklace-ee9m9k",
+      "title": "Metal Cross Keychain Pendant Necklace",
+      "eyebrow": "Metal Cross Keychain",
+      "summary": "This metal cross keychain doubles as a bag charm or pendant, offered in blue and red finishes. Its compact size and sturdy build make it a practical accessory for everyday use.",
+      "description": "A clean-lined metal cross forms the base of this versatile keychain, which also works as a bag pendant or necklace charm. The surface carries a smooth, uniform finish in either blue or red, giving the piece a subtle color accent without overpowering its simple silhouette.\n\nDesigned for routine handling, the keyring attachment keeps keys secure while the cross shape remains visible. The lightweight build reduces bulk in pockets or bags. Available in four variants—Blue-1, Red-1, Red, and Blue—this item suits buyers looking for a straightforward Christian symbol in small quantities.",
+      "catholicContext": "A plain cross is a recognized Christian symbol, though not a crucifix unless it includes the corpus of Christ.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "83",
+          "name": "Keychains",
+          "slug": "keychains"
+        }
+      ],
+      "sku": "ALI-AAFrTG7BAOVioqqEY6ee9m9k",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H8f2864a1cef240559df4ccfd9fe34559b.webp",
+      "imageAlt": "Metal Cross Keychain Pendant Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f2864a1cef240559df4ccfd9fe34559b.webp",
+          "alt": "Metal Cross Keychain Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H83b31a862bba4dccbb573d14aa050e25H.webp",
+          "alt": "Metal Cross Keychain Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbfc4efefbf214a1aa55b51f291f3a181T.webp",
+          "alt": "Metal Cross Keychain Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H60fb7c343e4b4215920de59cea20014eG.webp",
+          "alt": "Metal Cross Keychain Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha1aa53dc04bd40e5aafb8de4ea1f7ae2f.webp",
+          "alt": "Metal Cross Keychain Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1fd2a48e27804ee6b8c7f903da3e233bQ.webp",
+          "alt": "Metal Cross Keychain Pendant Necklace"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f2864a1cef240559df4ccfd9fe34559b.webp",
+          "alt": "Metal Cross Keychain Pendant Necklace - blue",
+          "label": "blue",
+          "sku": "ALI-AAFrTG7BAOVioqqEY6ee9m9k-V-123085"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1fd2a48e27804ee6b8c7f903da3e233bQ.webp",
+          "alt": "Metal Cross Keychain Pendant Necklace - red",
+          "label": "red",
+          "sku": "ALI-AAFrTG7BAOVioqqEY6ee9m9k-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha19666ed554b47288d66a2728fd82e63k.webp",
+          "alt": "Metal Cross Keychain Pendant Necklace - blue-1",
+          "label": "blue-1",
+          "sku": "ALI-AAFrTG7BAOVioqqEY6ee9m9k-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7bc9e807542248f7b9b5107a1e758e9dR.webp",
+          "alt": "Metal Cross Keychain Pendant Necklace - red-1",
+          "label": "red-1",
+          "sku": "ALI-AAFrTG7BAOVioqqEY6ee9m9k-V--2"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Metal construction for durability",
+        "Available in blue and red color variants",
+        "Functions as keychain, bag pendant, or necklace charm",
+        "Compact size for portability"
+      ],
+      "specifications": [
+        {
+          "name": "Primary material",
+          "value": "Metal"
+        },
+        {
+          "name": "Color variants",
+          "value": "Blue-1, Red-1, Red, Blue"
+        },
+        {
+          "name": "Primary function",
+          "value": "Keychain"
+        }
+      ],
+      "applications": [
+        "Attach to keys for daily carry",
+        "Use as a bag charm or pendant",
+        "Wear as a necklace with a suitable chain (not included)",
+        "Offer as a small gift or souvenir"
+      ],
+      "faq": [
+        {
+          "question": "What color variants are available for this cross keychain?",
+          "answer": "The keychain is offered in four variants: Blue-1, Red-1, Red, and Blue."
+        },
+        {
+          "question": "Can this item be used as a necklace pendant?",
+          "answer": "Yes, the cross design includes a ring that can accommodate a chain, though the chain is not included."
+        },
+        {
+          "question": "What material is the keychain made of?",
+          "answer": "It is made of metal, which provides a sturdy feel for daily use."
+        }
+      ],
+      "pricing": {
+        "price": "0.34",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.34",
+          "max": "0.39"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Metal Cross Keychain Pendant Necklace",
+          "description": "Metal cross keychain pendant with blue or red variants, suitable for keys or bags. Durable and lightweight, ideal for wholesale orders.",
+          "sku": "ALI-AAFrTG7BAOVioqqEY6ee9m9k",
+          "image": [
+            "https://sc04.alicdn.com/kf/H8f2864a1cef240559df4ccfd9fe34559b.jpg",
+            "https://sc04.alicdn.com/kf/H83b31a862bba4dccbb573d14aa050e25H.jpg",
+            "https://sc04.alicdn.com/kf/Hbfc4efefbf214a1aa55b51f291f3a181T.jpg",
+            "https://sc04.alicdn.com/kf/H60fb7c343e4b4215920de59cea20014eG.jpg",
+            "https://sc04.alicdn.com/kf/Ha1aa53dc04bd40e5aafb8de4ea1f7ae2f.jpg",
+            "https://sc04.alicdn.com/kf/H1fd2a48e27804ee6b8c7f903da3e233bQ.jpg"
+          ],
+          "category": "Keychains",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Primary material",
+              "value": "Metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Blue-1, Red-1, Red, Blue"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Primary function",
+              "value": "Keychain"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.34",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.34",
+              "maxPrice": "0.39",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What color variants are available for this cross keychain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The keychain is offered in four variants: Blue-1, Red-1, Red, and Blue."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this item be used as a necklace pendant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the cross design includes a ring that can accommodate a chain, though the chain is not included."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material is the keychain made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is made of metal, which provides a sturdy feel for daily use."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f51c3b3bd4bd00ebb165b2de63721572086d7683af3986004f20fdcc0ea9104c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f51c3b3bd4bd00ebb165b2de63721572086d7683af3986004f20fdcc0ea9104c",
+            "contentHash": "f51c3b3bd4bd00ebb165b2de63721572086d7683af3986004f20fdcc0ea9104c",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T17:58:39.801Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHQTG7BAOVioqqEY6ePwemT",
+      "sourceId": "AAHQTG7BAOVioqqEY6ePwemT",
+      "sourceFingerprint": "e0af2c688209eaa6fe13cdb20d7737828da2ffc57d9a2829ffd903f7d292076e",
+      "locale": "en",
+      "slug": "catholic-religious-jewelry-gift-making-supplies-8-10mm-wooden-epwemt",
+      "title": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden",
+      "eyebrow": "Catholic Rosaries",
+      "summary": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden Beads Rosary Necklace Cross Jesus Fashion Beaded Antique Bronze",
+      "description": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden Beads Rosary Necklace Cross Jesus Fashion Beaded Antique Bronze",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHQTG7BAOVioqqEY6ePwemT",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc82a9725fbf94a338206bd57155843c5U.webp",
+      "imageAlt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc82a9725fbf94a338206bd57155843c5U.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3966304f0f9b4bbf910f2e23b32d5084m.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H17b73ad1d22a4c56a2d2af606a8ae170m.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7b0c8a26978249c3a6622f4cc38fdfd5a.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4b107e3d7f794b78ab43e2e3d1763a15a.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H83e7e07e9422437c9f158fb40b59ba6bq.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden - 1",
+          "label": "1",
+          "sku": "ALI-AAHQTG7BAOVioqqEY6ePwemT-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H040f5f99e45b46d6af6b107c27175aa28.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden - 6",
+          "label": "6",
+          "sku": "ALI-AAHQTG7BAOVioqqEY6ePwemT-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8d1336b7ce014f868e9d9e68e35d45b4N.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden - 5",
+          "label": "5",
+          "sku": "ALI-AAHQTG7BAOVioqqEY6ePwemT-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H923b157f94034ab899245e0e81ffcd24N.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden - 4",
+          "label": "4",
+          "sku": "ALI-AAHQTG7BAOVioqqEY6ePwemT-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc50558701084c84a77b9801e56e5669n.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden - 3",
+          "label": "3",
+          "sku": "ALI-AAHQTG7BAOVioqqEY6ePwemT-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0567aa6585a415dad2b609b78c13fa0S.webp",
+          "alt": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden - 2",
+          "label": "2",
+          "sku": "ALI-AAHQTG7BAOVioqqEY6ePwemT-V--2"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Variant: 1, 2, 3, 4, 5, 6"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "1, 2, 3, 4, 5, 6"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.60",
+          "max": "0.65"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden",
+          "description": "Catholic Religious Jewelry Gift Making Supplies 8*10mm Wooden Beads Rosary Necklace Cross Jesus Fashion Beaded Antique Bronze",
+          "sku": "ALI-AAHQTG7BAOVioqqEY6ePwemT",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc82a9725fbf94a338206bd57155843c5U.jpg",
+            "https://sc04.alicdn.com/kf/H3966304f0f9b4bbf910f2e23b32d5084m.jpg",
+            "https://sc04.alicdn.com/kf/H17b73ad1d22a4c56a2d2af606a8ae170m.jpg",
+            "https://sc04.alicdn.com/kf/H7b0c8a26978249c3a6622f4cc38fdfd5a.jpg",
+            "https://sc04.alicdn.com/kf/H4b107e3d7f794b78ab43e2e3d1763a15a.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "1, 2, 3, 4, 5, 6"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.60",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "364f8cb03399d23f90f81a94f48f54c0b475d1b4a85676afe60b41d1ca74c078",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "364f8cb03399d23f90f81a94f48f54c0b475d1b4a85676afe60b41d1ca74c078",
+            "contentHash": "364f8cb03399d23f90f81a94f48f54c0b475d1b4a85676afe60b41d1ca74c078",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T17:59:13.587Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHpTG7BAOVioqqEY6ejch2z",
+      "sourceId": "AAHpTG7BAOVioqqEY6ejch2z",
+      "sourceFingerprint": "ed70b52fd08ae694a295236f9cf0fe1fa3add857f020aa00e94b4c8a850a1826",
+      "locale": "en",
+      "slug": "rose-rosary-bracelet-with-cross-natural-stone-beads-ejch2z",
+      "title": "Rose Rosary Bracelet with Cross & Natural Stone Beads",
+      "eyebrow": "rosary bracelet",
+      "summary": "A rose-themed rosary bracelet with a cross charm. Features plastic beads with natural stone accents and electroplated details. Unisex beaded design, suitable for everyday wear or as a devotional reminder.",
+      "description": "This rosary bracelet presents a rose-colored theme with a cross pendant, crafted from plastic beads with natural stone accents. The beads are strung in a flexible bracelet form, making it easy to wear. Electroplated detailing adds a subtle luster. The unisex design suits a variety of tastes, and the religious style aligns with Christian symbolism. As a beaded bracelet, it offers a compact way to carry a devotional item. The cross serves as a visual reminder of faith, and the bracelet can be used for private prayer or as an accessory. Its anniversary occasion tag suggests it may be given as a meaningful gift.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAHpTG7BAOVioqqEY6ejch2z",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hcb9efb7fb96943d4b6cc5911093843ebi.webp",
+      "imageAlt": "Rose Rosary Bracelet with Cross & Natural Stone Beads",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcb9efb7fb96943d4b6cc5911093843ebi.webp",
+          "alt": "Rose Rosary Bracelet with Cross & Natural Stone Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hea2ffd915fcd4b6588cd0f155b618924e.webp",
+          "alt": "Rose Rosary Bracelet with Cross & Natural Stone Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb8958ec5ca6341e5b90318c6c45ad96bd.webp",
+          "alt": "Rose Rosary Bracelet with Cross & Natural Stone Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5784dc346d2f455e94875feb4e027990b.webp",
+          "alt": "Rose Rosary Bracelet with Cross & Natural Stone Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0ab576ea30dc48ab9feed52b42c91fb0D.webp",
+          "alt": "Rose Rosary Bracelet with Cross & Natural Stone Beads"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Plastic beads with natural stone accents",
+        "Cross charm",
+        "Electroplated finish",
+        "Beaded bracelet type",
+        "Unisex religious style",
+        "Model number S-SZ-002"
+      ],
+      "specifications": [
+        {
+          "name": "Main material",
+          "value": "Plastic"
+        },
+        {
+          "name": "Bracelet type",
+          "value": "Beaded"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Plating",
+          "value": "Electroplating"
+        },
+        {
+          "name": "Model number",
+          "value": "S-SZ-002"
+        }
+      ],
+      "applications": [
+        "As a prayer aid for the Rosary",
+        "As a faith-based accessory for daily wear",
+        "As a gift for anniversaries or religious occasions",
+        "For personal devotional use"
+      ],
+      "faq": [
+        {
+          "question": "Is the bracelet made entirely of natural stone?",
+          "answer": "No, the bracelet features plastic beads with natural stone accents, so the primary material is plastic."
+        },
+        {
+          "question": "Is the cross on this bracelet a crucifix?",
+          "answer": "The product is described as having a cross, but there is no indication of a corpus, so it is best considered a plain cross."
+        },
+        {
+          "question": "Can this bracelet be used for praying the Rosary?",
+          "answer": "Yes, it is categorized as a rosary bracelet and has a cross, but the bead count is not specified, so it may not follow the traditional 59-bead pattern."
+        }
+      ],
+      "pricing": {
+        "price": "0.25",
+        "regularPrice": "0.25",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.20",
+          "max": "0.25"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Rose Rosary Bracelet with Cross & Natural Stone Beads",
+          "description": "Rose-themed rosary bracelet with cross charm. Plastic beads with natural stone accents. Electroplated details. Unisex beaded style for anniversary or devotional use.",
+          "sku": "ALI-AAHpTG7BAOVioqqEY6ejch2z",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hcb9efb7fb96943d4b6cc5911093843ebi.png",
+            "https://sc04.alicdn.com/kf/Hea2ffd915fcd4b6588cd0f155b618924e.jpg",
+            "https://sc04.alicdn.com/kf/Hb8958ec5ca6341e5b90318c6c45ad96bd.jpg",
+            "https://sc04.alicdn.com/kf/H5784dc346d2f455e94875feb4e027990b.jpg",
+            "https://sc04.alicdn.com/kf/H0ab576ea30dc48ab9feed52b42c91fb0D.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main material",
+              "value": "Plastic"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bracelet type",
+              "value": "Beaded"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Electroplating"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Model number",
+              "value": "S-SZ-002"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.20",
+              "maxPrice": "0.25",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is the bracelet made entirely of natural stone?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, the bracelet features plastic beads with natural stone accents, so the primary material is plastic."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the cross on this bracelet a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product is described as having a cross, but there is no indication of a corpus, so it is best considered a plain cross."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this bracelet be used for praying the Rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is categorized as a rosary bracelet and has a cross, but the bead count is not specified, so it may not follow the traditional 59-bead pattern."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "fb53dbaf0dd6b5a3a9aa134d3ca5131dc7ff1e1f7c3d9949dbe8417d385502b5",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "fb53dbaf0dd6b5a3a9aa134d3ca5131dc7ff1e1f7c3d9949dbe8417d385502b5",
+            "contentHash": "fb53dbaf0dd6b5a3a9aa134d3ca5131dc7ff1e1f7c3d9949dbe8417d385502b5",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T17:59:27.314Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEoTG7BAOVioqqEY6ejcizj",
+      "sourceId": "AAEoTG7BAOVioqqEY6ejcizj",
+      "sourceFingerprint": "5a9c0270cbac9c255eff54e0d3f085dcd6dbc96cca9bfc58e73b15788dba82a7",
+      "locale": "en",
+      "slug": "handy-wooden-pocket-prayer-cross-pair-ejcizj",
+      "title": "Handy Wooden Pocket Prayer Cross Pair",
+      "eyebrow": "wooden pocket prayer cross",
+      "summary": "These compact wooden prayer crosses come as a pair, sized for a pocket or small bag. The plain cross design keeps them simple and versatile for personal prayer or gifting. Model number AL9714136262229.",
+      "description": "Carry a reminder of faith wherever you go. This pair of wooden prayer crosses is sized to fit in a pocket or purse, making them easy to have on hand during the day. The plain cross style suits those who prefer a simple, traditional design without additional imagery. As a pair, they work well for sharing with a family member, friend, or someone in need of encouragement. Each cross is lightweight and durable enough for everyday handling, whether kept in a pocket, placed on a nightstand, or tucked into a travel bag. The natural wood finish offers a warm, understated look that complements any setting. For Catholic buyers, this cross serves as a devotional aid, reminding the user of Christ's sacrifice and the call to prayer.",
+      "catholicContext": "A cross is a central symbol of the Christian faith, distinct from a crucifix which includes the corpus of Christ.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAEoTG7BAOVioqqEY6ejcizj",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hbd55b731204446958d7eebc44669339cE.webp",
+      "imageAlt": "Handy Wooden Pocket Prayer Cross Pair",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbd55b731204446958d7eebc44669339cE.webp",
+          "alt": "Handy Wooden Pocket Prayer Cross Pair"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1ab4563887134c0b9159829154460748f.webp",
+          "alt": "Handy Wooden Pocket Prayer Cross Pair"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hda9e89b77fc34d939ec799d6e3232000L.webp",
+          "alt": "Handy Wooden Pocket Prayer Cross Pair"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2523bba1d54e4f6f9326a161fb131ff7U.webp",
+          "alt": "Handy Wooden Pocket Prayer Cross Pair"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H35ae063b05354500a6ec71aa76b61188n.webp",
+          "alt": "Handy Wooden Pocket Prayer Cross Pair"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Compact size for pocket or purse",
+        "Sold as a pair",
+        "Plain cross design (no corpus)",
+        "Natural wood material (inferred from title)",
+        "Lightweight and portable",
+        "Model number AL9714136262229"
+      ],
+      "specifications": [
+        {
+          "name": "Product type",
+          "value": "Prayer cross"
+        },
+        {
+          "name": "Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Model number",
+          "value": "AL9714136262229"
+        }
+      ],
+      "applications": [
+        "Personal prayer and devotional use",
+        "Gift for a family member or friend",
+        "Carrying in a pocket or bag during travel",
+        "Placing on a desk or nightstand as a reminder of faith"
+      ],
+      "faq": [
+        {
+          "question": "What material is this prayer cross made of?",
+          "answer": "The product title indicates a wooden construction, so these crosses are made of wood."
+        },
+        {
+          "question": "Does this cross come as a single item or a pair?",
+          "answer": "It comes as a pair, so you receive two crosses in one purchase."
+        },
+        {
+          "question": "Is this a crucifix or a plain cross?",
+          "answer": "The product type is listed as 'prayer cross' and there is no mention of a corpus, so it is a plain cross without the figure of Christ."
+        }
+      ],
+      "pricing": {
+        "price": "1.80",
+        "regularPrice": "1.80",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.76",
+          "max": "1.80"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Handy Wooden Pocket Prayer Cross Pair",
+          "description": "Compact wooden prayer cross pair, handy for travel. Plain cross design, model AL9714136262229. Suitable for personal devotion or gift.",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6ejcizj",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hbd55b731204446958d7eebc44669339cE.png",
+            "https://sc04.alicdn.com/kf/H1ab4563887134c0b9159829154460748f.jpg",
+            "https://sc04.alicdn.com/kf/Hda9e89b77fc34d939ec799d6e3232000L.jpg",
+            "https://sc04.alicdn.com/kf/H2523bba1d54e4f6f9326a161fb131ff7U.jpg",
+            "https://sc04.alicdn.com/kf/H35ae063b05354500a6ec71aa76b61188n.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Product type",
+              "value": "Prayer cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Model number",
+              "value": "AL9714136262229"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.80",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.76",
+              "maxPrice": "1.80",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this prayer cross made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product title indicates a wooden construction, so these crosses are made of wood."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this cross come as a single item or a pair?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It comes as a pair, so you receive two crosses in one purchase."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this a crucifix or a plain cross?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product type is listed as 'prayer cross' and there is no mention of a corpus, so it is a plain cross without the figure of Christ."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e56790853637cedaedc4f3662e0a7470affd18f1ba76876e05b6cd61c26c9623",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e56790853637cedaedc4f3662e0a7470affd18f1ba76876e05b6cd61c26c9623",
+            "contentHash": "e56790853637cedaedc4f3662e0a7470affd18f1ba76876e05b6cd61c26c9623",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T17:59:34.344Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHzTG7BAOVioqqEY6ehPu6i",
+      "sourceId": "AAHzTG7BAOVioqqEY6ehPu6i",
+      "sourceFingerprint": "d60848e832264ab762c219828bc5947eb3a4aaa91fc659fa7a86e0109d0c44c7",
+      "locale": "en",
+      "slug": "handmade-knotted-cord-rosary-with-st-michael-medal-ehpu6i",
+      "title": "Handmade Knotted Cord Rosary with St. Michael Medal",
+      "eyebrow": "Handmade Knotted Cord Catholic Rosary with St. Michael Medal and Jesus Crucifix",
+      "summary": "A handmade knotted cord rosary featuring a St. Michael medal and Jesus crucifix. Constructed with wood beads and zinc alloy findings, this piece is suitable for personal devotion or as a religious gift.",
+      "description": "Crafted from wood and zinc alloy, this rosary presents a knotted cord design with a St. Michael medal and a Jesus crucifix. The inclusion of the St. Michael medal distinguishes it from standard rosaries, offering a specific devotional focus. The wood beads provide a natural texture, while the zinc alloy components ensure durability. As a handmade item, each rosary may exhibit slight variations, adding to its unique character. This rosary is appropriate for Catholic prayer practices, including the recitation of the Rosary mysteries, and can serve as a meaningful gift for religious occasions.",
+      "catholicContext": "The Rosary is a traditional Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHzTG7BAOVioqqEY6ehPu6i",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H29c680cf722448f4bb4e68e752f7efc8p.webp",
+      "imageAlt": "Handmade Knotted Cord Rosary with St. Michael Medal",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H29c680cf722448f4bb4e68e752f7efc8p.webp",
+          "alt": "Handmade Knotted Cord Rosary with St. Michael Medal"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He9c5e35ef65843ccabc2915c12231ader.webp",
+          "alt": "Handmade Knotted Cord Rosary with St. Michael Medal"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H16e531fce4e64e61ba02c9972d772b8aj.webp",
+          "alt": "Handmade Knotted Cord Rosary with St. Michael Medal"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H59874d55b18548098df0e9418ccefd4f2.webp",
+          "alt": "Handmade Knotted Cord Rosary with St. Michael Medal"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He37a9bdfc5594322b46f06a7e58890fcw.webp",
+          "alt": "Handmade Knotted Cord Rosary with St. Michael Medal"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H748079a82cb446e2b5d5ad7e84e0c21ci.webp",
+          "alt": "Handmade Knotted Cord Rosary with St. Michael Medal"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Handmade knotted cord construction",
+        "St. Michael medal pendant",
+        "Jesus crucifix",
+        "Wood main material",
+        "Zinc alloy findings",
+        "Religious style"
+      ],
+      "specifications": [
+        {
+          "name": "Jewelry Main Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Material Type",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Pendants or Charms Type",
+          "value": "St. Michael Medal"
+        },
+        {
+          "name": "Shape/Pattern",
+          "value": "Cross"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        }
+      ],
+      "applications": [
+        "Personal prayer and devotion",
+        "Religious gift for confirmations or baptisms",
+        "Wholesale for Catholic gift shops",
+        "Use in catechism classes"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this rosary?",
+          "answer": "The rosary features wood beads (main jewelry material) and zinc alloy components for the medal and crucifix."
+        },
+        {
+          "question": "Does this rosary include a St. Michael medal?",
+          "answer": "Yes, the rosary comes with a St. Michael medal pendant, as specified in the product attributes."
+        },
+        {
+          "question": "Is this rosary suitable for wholesale orders?",
+          "answer": "Yes, it is designed for wholesale purposes, making it suitable for Catholic gift shops and distributors."
+        }
+      ],
+      "pricing": {
+        "price": "0.60",
+        "regularPrice": "0.60",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.60"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Handmade Knotted Cord Rosary with St. Michael Medal",
+          "description": "Handmade knotted cord rosary with St. Michael medal and Jesus crucifix. Wood and zinc alloy construction. Ideal for religious gifts and wholesale orders.",
+          "sku": "ALI-AAHzTG7BAOVioqqEY6ehPu6i",
+          "image": [
+            "https://sc04.alicdn.com/kf/H29c680cf722448f4bb4e68e752f7efc8p.jpg",
+            "https://sc04.alicdn.com/kf/He9c5e35ef65843ccabc2915c12231ader.jpg",
+            "https://sc04.alicdn.com/kf/H16e531fce4e64e61ba02c9972d772b8aj.jpg",
+            "https://sc04.alicdn.com/kf/H59874d55b18548098df0e9418ccefd4f2.jpg",
+            "https://sc04.alicdn.com/kf/He37a9bdfc5594322b46f06a7e58890fcw.jpg",
+            "https://sc04.alicdn.com/kf/H748079a82cb446e2b5d5ad7e84e0c21ci.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Main Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material Type",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendants or Charms Type",
+              "value": "St. Michael Medal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape/Pattern",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.60",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.60",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary features wood beads (main jewelry material) and zinc alloy components for the medal and crucifix."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this rosary include a St. Michael medal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the rosary comes with a St. Michael medal pendant, as specified in the product attributes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary suitable for wholesale orders?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed for wholesale purposes, making it suitable for Catholic gift shops and distributors."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b5ccb406199ef80b8c8f089c48b37a7fd07456552764c9b59e295c126a14f242",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b5ccb406199ef80b8c8f089c48b37a7fd07456552764c9b59e295c126a14f242",
+            "contentHash": "b5ccb406199ef80b8c8f089c48b37a7fd07456552764c9b59e295c126a14f242",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T17:59:40.312Z",
             "model": "deepseek-v4-flash"
           }
         }

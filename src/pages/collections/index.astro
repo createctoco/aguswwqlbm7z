@@ -5,8 +5,29 @@ import { BUILD_LOCALE } from '~/i18n/config';
 import { ui } from '~/i18n/ui';
 import { listCollections } from '~/server/catalog';
 import type { Product } from '~/data/products';
+import navigationCollections from '~/data/navigation-collections.json';
+
+type CuratedCollection = { slug: string; name: string };
+type CollectionSummary = { slug: string; productCount: number; featuredProductJson: string };
+
 export const prerender = false;
-const collections = await listCollections(BUILD_LOCALE);
+// The collections page is driven by the curated navigation list so links and
+// display names can be filled in manually per language, instead of being
+// auto-generated from the product catalog.
+const catalogCollections = await listCollections(BUILD_LOCALE);
+const bySlug = new Map<string, CollectionSummary>(catalogCollections.map((c) => [c.slug, c]));
+const curatedEntries =
+  (navigationCollections as Record<string, CuratedCollection[]>)[BUILD_LOCALE] ||
+  (navigationCollections as Record<string, CuratedCollection[]>).en ||
+  [];
+const collections = curatedEntries
+  .map((entry) => {
+    const summary = bySlug.get(entry.slug);
+    return summary
+      ? { ...entry, productCount: summary.productCount, featuredProductJson: summary.featuredProductJson }
+      : null;
+  })
+  .filter((entry): entry is CuratedCollection & CollectionSummary => entry !== null);
 Astro.response.headers.set('Cache-Control', 'public, s-maxage=1800, stale-while-revalidate=86400');
 
 const metadata = {

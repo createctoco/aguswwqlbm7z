@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import ProductCard from '~/components/ouooo/ProductCard.astro';
 import { BUILD_LOCALE } from '~/i18n/config';
+import { ui } from '~/i18n/ui';
 import { getCollection } from '~/server/catalog';
 
 export const prerender = false;
@@ -11,8 +12,8 @@ const collection = await getCollection(BUILD_LOCALE, Astro.params.slug || '', re
 if (!collection) return new Response(null, { status: 404, statusText: 'Collection not found' });
 Astro.response.headers.set('Cache-Control', 'public, s-maxage=1800, stale-while-revalidate=86400');
 const metadata = {
-  title: `${collection.name} | Wholesale Catholic Gifts`,
-  description: `Browse ${collection.name.toLowerCase()} from the OUOOO wholesale Catholic gifts catalog and request sourcing information.`,
+  title: ui('collectionMetaTitle', { name: collection.name }),
+  description: ui('collectionMetaDescription', { name: collection.name.toLowerCase() }),
 };
 ---
 
@@ -20,14 +21,19 @@ const metadata = {
   <header class="bg-[#f6f1e8]">
     <div class="mx-auto max-w-7xl px-6 py-14 sm:py-16">
       <nav class="text-sm text-muted" aria-label="Breadcrumb">
-        <a class="hover:text-primary" href="/collections">Collections</a><span aria-hidden="true"> / </span><span
-          >{collection.name}</span
-        >
+        <a class="hover:text-primary" href="/collections">{ui('collections')}</a><span aria-hidden="true">
+          /
+        </span><span>{collection.name}</span>
       </nav>
-      <p class="mt-8 text-xs font-semibold uppercase tracking-[.16em] text-primary">Product series</p>
+      <p class="mt-8 text-xs font-semibold uppercase tracking-[.16em] text-primary">{ui('productSeries')}</p>
       <h1 class="mt-4 text-4xl font-semibold text-gray-950 sm:text-5xl">{collection.name}</h1>
       <p class="mt-4 text-base text-muted">
-        {collection.total} synchronized {collection.total === 1 ? 'product' : 'products'} in this collection.
+        {
+          ui('synchronizedInCollection', {
+            count: collection.total,
+            items: ui(collection.total === 1 ? 'product' : 'products'),
+          })
+        }
       </p>
     </div>
   </header>
@@ -38,12 +44,12 @@ const metadata = {
     {
       collection.total > collection.pageSize && (
         <nav class="mt-12 flex justify-center gap-4" aria-label="Collection pagination">
-          {collection.page > 1 && <a href={`?page=${collection.page - 1}`}>Previous</a>}
+          {collection.page > 1 && <a href={`?page=${collection.page - 1}`}>{ui('previous')}</a>}
           <span>
-            Page {collection.page} of {Math.ceil(collection.total / collection.pageSize)}
+            {ui('pageOf', { page: collection.page, pages: Math.ceil(collection.total / collection.pageSize) })}
           </span>
           {collection.page * collection.pageSize < collection.total && (
-            <a href={`?page=${collection.page + 1}`}>Next</a>
+            <a href={`?page=${collection.page + 1}`}>{ui('next')}</a>
           )}
         </nav>
       )

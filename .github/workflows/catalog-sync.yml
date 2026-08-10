@@ -9,6 +9,7 @@ on:
     branches: [main]
     paths:
       - scripts/catalog-client.mjs
+      - scripts/catalog-queue-ack.mjs
       - scripts/enrich-catalog.mjs
       - scripts/build-site-catalog.mjs
       - .github/workflows/catalog-sync.yml
@@ -37,25 +38,18 @@ jobs:
       - name: Install dependencies
         run: npm install --no-package-lock
 
-      - name: Restore previous catalog snapshot
-        uses: actions/cache/restore@v4
-        with:
-          path: src/data/catalog-index.json
-          key: catalog-state-${{ github.run_id }}
-          restore-keys: |
-            catalog-state-
-
       - name: Synchronize catalog index
         env:
           MECRT_CATALOG_URL: ${{ secrets.MECRT_CATALOG_URL }}
           MECRT_CATALOG_BRIDGE_SECRET: ${{ secrets.MECRT_CATALOG_BRIDGE_SECRET }}
-          MECRT_CATALOG_SYNC_LIMIT: 10
+          MECRT_CATALOG_BATCH_SIZE: 10
+          MECRT_CATALOG_QUEUE_FILE: src/data/catalog-queue.json
         run: npm run sync:catalog
 
       - name: Validate synchronized catalog
         shell: bash
         run: |
-          node --input-type=module -e "import data from './src/data/catalog-index.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.total < 1 || data.total !== data.products.length) throw new Error('Invalid catalog output'); console.log('Validated products:', data.total, 'mode:', data.sync_mode, 'changed:', data.changed_products);"
+          node --input-type=module -e "import data from './src/data/catalog-index.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.total < 1 || data.total !== data.products.length) throw new Error('Invalid catalog output'); console.log('Validated products:', data.total, 'mode:', data.sync_mode, 'changed:', data.changed_products, 'queue remaining:', data.queue?.remaining);"
 
       - name: Rewrite catalog with DeepSeek
         env:
@@ -76,14 +70,34 @@ jobs:
           node --input-type=module -e "import data from './src/data/site-catalog.json' with { type: 'json' }; const publicCopy = data.products?.map(({ title, eyebrow, summary, description, catholicContext, categories, features, specifications, applications, faq, structuredData }) => ({ title, eyebrow, summary, description, catholicContext, categories, features, specifications, applications, faq, productName: structuredData?.product?.name, productDescription: structuredData?.product?.description })); if (!data.products?.length || data.selection?.uncovered_categories?.length || JSON.stringify(publicCopy).toLowerCase().includes('mecrt')) throw new Error('Invalid public catalog, incomplete categories, or source brand leakage');"
           npm run build
 
-      - name: Publish public catalog to repository
+      - name: Acknowledge synchronized product batch
+        env:
+          MECRT_CATALOG_QUEUE_FILE: src/data/catalog-queue.json
+        run: npm run ack:catalog
+
+      - name: Publish catalog state to repository
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/site-catalog.json
+          git add src/data/catalog-index.json src/data/catalog-queue.json src/data/site-catalog.json
           git diff --cached --quiet || git commit -m "Sync catalog incrementally"
-          git push
+
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 5 ]; then
+              echo "Unable to publish catalog state after $attempt attempts." >&2
+              exit 1
+            fi
+
+            echo "main advanced while publishing; rebasing before retry $((attempt + 1))/5."
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 5))
+          done
 
       - name: Upload catalog artifact
         uses: actions/upload-artifact@v4
@@ -92,10 +106,3 @@ jobs:
           path: src/data/site-catalog.json
           if-no-files-found: error
           retention-days: 7
-
-      - name: Save catalog snapshot for tomorrow's incremental sync
-        if: success()
-        uses: actions/cache/save@v4
-        with:
-          path: src/data/catalog-index.json
-          key: catalog-state-${{ github.run_id }}

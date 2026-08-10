@@ -64,5 +64,5 @@ jobs:
           DEEPSEEK_MODEL: deepseek-v4-flash
           OUOOO_D1_DATABASE_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
           OUOOO_SESSION_KV_ID: ${{ secrets.CLOUDFLARE_SESSION_KV_ID }}
-          OUOOO_MANAGE_ENGLISH_ROUTE: '0'
+          OUOOO_MANAGE_ROUTES: '0'
         run: npm run deploy:locales

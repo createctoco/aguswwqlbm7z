@@ -2,8 +2,11 @@ import { createHash } from 'node:crypto';
 
 const protectedExact = new Set(['OUOOO', 'WhatsApp', 'WeChat', 'Facebook', 'DeepSeek']);
 const structuredTextKeys = new Set(['name', 'description', 'text', 'headline', 'alternativeHeadline', 'caption']);
-const protectedBlockPattern =
-  /(?:<(script|style|svg|code|pre)\b[^>]*>[\s\S]*?<\/\1\s*>|<article\s+class="group"[^>]*>[\s\S]*?<\/article\s*>)/gi;
+const protectedBlockPatterns = [
+  /<(script|style|svg|code|pre)\b[^>]*>[\s\S]*?<\/\1\s*>/gi,
+  /<([a-z][\w:-]*)\b[^>]*\bdata-ouooo-no-translate(?:=(?:"[^"]*"|'[^']*'|[^\s>]+))?[^>]*>[\s\S]*?<\/\1\s*>/gi,
+  /<article\s+class="group"[^>]*>[\s\S]*?<\/article\s*>/gi,
+];
 
 export const normalizeCopy = (value) =>
   String(value || '')
@@ -32,11 +35,14 @@ export function isTranslatableCopy(value) {
 
 function withProtectedBlocks(html, transform) {
   const blocks = [];
-  const masked = html.replace(protectedBlockPattern, (block) => {
-    const token = `___OUOOO_PROTECTED_BLOCK_${blocks.length}___`;
-    blocks.push(block);
-    return token;
-  });
+  let masked = html;
+  for (const pattern of protectedBlockPatterns) {
+    masked = masked.replace(pattern, (block) => {
+      const token = `___OUOOO_PROTECTED_BLOCK_${blocks.length}___`;
+      blocks.push(block);
+      return token;
+    });
+  }
   const transformed = transform(masked);
   return transformed.replace(/___OUOOO_PROTECTED_BLOCK_(\d+)___/g, (_, index) => blocks[Number(index)] || '');
 }

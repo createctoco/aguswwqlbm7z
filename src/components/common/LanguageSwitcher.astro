@@ -17,7 +17,9 @@ const shortLabel = BUILD_LOCALE_CONFIG.hreflang.split('-')[0].toUpperCase();
       <path d="M3 12h18M12 3c2.4 2.45 3.6 5.45 3.6 9S14.4 18.55 12 21M12 3C9.6 5.45 8.4 8.45 8.4 12S9.6 18.55 12 21"
       ></path>
     </svg>
-    <span>{compact ? shortLabel : BUILD_LOCALE_CONFIG.label}</span>
+    <span class="language-name" lang={BUILD_LOCALE_CONFIG.hreflang} dir="auto" translate="no" data-ouooo-no-translate
+      >{compact ? shortLabel : BUILD_LOCALE_CONFIG.label}</span
+    >
     <svg class="chevron" aria-hidden="true" viewBox="0 0 12 12"><path d="m2.5 4.25 3.5 3.5 3.5-3.5"></path></svg>
   </summary>
   <div class="language-menu" role="list" aria-label="Available languages">
@@ -29,10 +31,14 @@ const shortLabel = BUILD_LOCALE_CONFIG.hreflang.split('-')[0].toUpperCase();
           aria-current={locale === BUILD_LOCALE ? 'page' : undefined}
           role="listitem"
         >
-          <span>{LOCALES[locale].label}</span>
+          <span class="language-name" lang={LOCALES[locale].hreflang} dir="auto" translate="no" data-ouooo-no-translate>
+            {LOCALES[locale].label}
+          </span>
           {locale === BUILD_LOCALE && (
             <span class="current-mark" aria-hidden="true">
-              ✓
+              <svg viewBox="0 0 12 12">
+                <path d="m1.5 6 3 3 6-6" />
+              </svg>
             </span>
           )}
         </a>
@@ -147,6 +153,10 @@ const shortLabel = BUILD_LOCALE_CONFIG.hreflang.split('-')[0].toUpperCase();
     text-decoration: none;
   }
 
+  .language-name {
+    unicode-bidi: plaintext;
+  }
+
   .language-menu a:hover {
     background: #f1f5f2;
     color: #0f3b2f;
@@ -159,7 +169,18 @@ const shortLabel = BUILD_LOCALE_CONFIG.hreflang.split('-')[0].toUpperCase();
   }
 
   .current-mark {
+    display: inline-flex;
     color: #0f3b2f;
+  }
+
+  .current-mark svg {
+    width: 0.8rem;
+    height: 0.8rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
   }
 
   @media (max-width: 767px) {

@@ -19,7 +19,6 @@ const checkpointFile = resolve(`src/data/i18n/${locale}/site-copy.checkpoint.jso
 
 if (!definition || locale === localeData.defaultLocale)
   throw new Error('OUOOO_LOCALE must be a configured non-English locale.');
-if (!apiKey) throw new Error('DEEPSEEK_API_KEY is required.');
 
 const hash = (value) => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const delay = (milliseconds) => new Promise((resolvePromise) => setTimeout(resolvePromise, milliseconds));
@@ -107,6 +106,8 @@ for (const entry of source.entries || []) {
     ready.set(entry.id, cached);
   else pending.push(entry);
 }
+
+if (pending.length && !apiKey) throw new Error('DEEPSEEK_API_KEY is required for new or changed page copy.');
 
 async function translateChunk(entries) {
   const system = `Translate OUOOO website copy from English into ${definition.label} (${locale}). Return only valid JSON in exactly this shape: {"translations":{"id":"translation"}}. Preserve every supplied id exactly and return every id. Translate naturally for a professional B2B Catholic-gifts website. Preserve OUOOO, WhatsApp, WeChat, email addresses, URLs, product identifiers, numbers, currencies, placeholders in braces, and factual meaning. Translate Catholic terminology accurately. Do not add claims, explanations, markdown, HTML, or source branding. Keep interface labels concise. For Arabic use natural RTL Arabic; for Chinese use the requested script.`;

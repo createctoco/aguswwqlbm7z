@@ -58,5 +58,10 @@ jobs:
             OUOOO_LOCALE="$locale" npm run prepare:d1
             npx wrangler d1 execute ouooo-catalog --remote --file ".d1/import-$locale.sql"
           done
-      - name: Build and deploy Worker
-        run: npm run build && npx wrangler deploy
+      - name: Build and deploy English plus 13 language Workers
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: deepseek-v4-flash
+          OUOOO_D1_DATABASE_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
+          OUOOO_SESSION_KV_ID: ${{ secrets.CLOUDFLARE_SESSION_KV_ID }}
+        run: npm run deploy:locales

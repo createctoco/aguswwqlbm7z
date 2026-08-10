@@ -1,10 +1,10 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-10T10:01:24.812Z",
+  "generatedAt": "2026-08-10T15:33:08.871Z",
   "sync": {
     "mode": "full",
-    "cursor": "",
+    "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
       "AAFOTG7BAOVioqqEY6emD3Ij",
@@ -21,9 +21,9 @@
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 0,
+    "generated": 7,
     "reused": 10,
-    "source_fallback": 0
+    "source_fallback": 3
   },
   "products": [
     {
@@ -1693,126 +1693,6 @@
       }
     },
     {
-      "productId": "AAFtTG7BAOVioqqEY6emNnsS",
-      "sourceId": "AAFtTG7BAOVioqqEY6emNnsS",
-      "sourceFingerprint": "ce434ad43112c80f816c02df92ccc831f5fe14d92733601cc539a5e39928a46f",
-      "locale": "en",
-      "slug": "rice-bead-beaded-friendship-bracelet-with-colored-flowers-emnnss",
-      "title": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
-      "eyebrow": "Rosary bracelets",
-      "summary": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
-      "description": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
-      "catholicContext": "",
-      "catholicRelevance": "devotional_context",
-      "categories": [
-        {
-          "id": "20",
-          "name": "Rosary bracelets",
-          "slug": "rosary-bracelets"
-        }
-      ],
-      "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS",
-      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.webp",
-      "imageAlt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
-      "gallery": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31c8655ab6fb4a979f07a3689fa2a584B.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbb58d030cebf4e3796de2ce5556be2efl.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/H13a3ec3c3ade461cb8023c02531a724bq.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hca71038ad2624aadafda3669458729e3e.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
-        }
-      ],
-      "variantImages": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf90485749c644c3f92c48ab365906627W.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade - blue",
-          "label": "blue",
-          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS-V--2"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfce604a47ec04b56aa8f935b24787d36b.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade - red",
-          "label": "red",
-          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS-V--1"
-        }
-      ],
-      "accent": "#9a6b63",
-      "features": [
-        "Variant: Red, Blue"
-      ],
-      "specifications": [
-        {
-          "name": "Variant",
-          "value": "Red, Blue"
-        }
-      ],
-      "applications": [],
-      "faq": [],
-      "pricing": {
-        "price": "0.84",
-        "currency": "USD",
-        "onSale": false
-      },
-      "structuredData": {
-        "product": {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
-          "description": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
-          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS",
-          "image": [
-            "https://sc04.alicdn.com/kf/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.jpg",
-            "https://sc04.alicdn.com/kf/H31c8655ab6fb4a979f07a3689fa2a584B.jpg",
-            "https://sc04.alicdn.com/kf/Hbb58d030cebf4e3796de2ce5556be2efl.jpg",
-            "https://sc04.alicdn.com/kf/H13a3ec3c3ade461cb8023c02531a724bq.jpg",
-            "https://sc04.alicdn.com/kf/Hca71038ad2624aadafda3669458729e3e.jpg"
-          ],
-          "category": "Rosary bracelets",
-          "additionalProperty": [
-            {
-              "@type": "PropertyValue",
-              "name": "Variant",
-              "value": "Red, Blue"
-            }
-          ],
-          "offers": {
-            "@type": "Offer",
-            "price": "0.84",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          }
-        }
-      },
-      "localization": {
-        "sourceLocale": "en",
-        "sourceHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
-        "translations": {
-          "en": {
-            "status": "source",
-            "sourceHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
-            "contentHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
-            "attempts": 0,
-            "updatedAt": "2026-08-08T10:21:09.257Z",
-            "model": "deepseek-v4-flash"
-          }
-        }
-      }
-    },
-    {
       "productId": "AAHTTG7BAOVioqqEY6eIQpzp",
       "sourceId": "AAHTTG7BAOVioqqEY6eIQpzp",
       "sourceFingerprint": "d9ab97da1746f578eca10e5c8c511721e695770afed57dee5cd2a53bf0e8caa1",
@@ -1882,7 +1762,7 @@
           "sku": "ALI-AAHTTG7BAOVioqqEY6eIQpzp-V--6"
         }
       ],
-      "accent": "#7a6d92",
+      "accent": "#9a6b63",
       "features": [
         "Colorful plastic construction",
         "Available in four designs: Angel, Guadalupe, Jesus, and Our Lady",
@@ -2019,6 +1899,2087 @@
             "contentHash": "50bf2d91cd1e505c8cef8a87ae5434070bfe9fda1651e4d50058b4b257c5bc79",
             "attempts": 0,
             "updatedAt": "2026-08-08T10:25:57.724Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFtTG7BAOVioqqEY6emNnsS",
+      "sourceId": "AAFtTG7BAOVioqqEY6emNnsS",
+      "sourceFingerprint": "ce434ad43112c80f816c02df92ccc831f5fe14d92733601cc539a5e39928a46f",
+      "locale": "en",
+      "slug": "rice-bead-beaded-friendship-bracelet-with-colored-flowers-emnnss",
+      "title": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
+      "eyebrow": "Rosary bracelets",
+      "summary": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
+      "description": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.webp",
+      "imageAlt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31c8655ab6fb4a979f07a3689fa2a584B.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbb58d030cebf4e3796de2ce5556be2efl.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H13a3ec3c3ade461cb8023c02531a724bq.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hca71038ad2624aadafda3669458729e3e.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf90485749c644c3f92c48ab365906627W.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade - blue",
+          "label": "blue",
+          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfce604a47ec04b56aa8f935b24787d36b.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade - red",
+          "label": "red",
+          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS-V--1"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Variant: Red, Blue"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Red, Blue"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.84",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
+          "description": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
+          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.jpg",
+            "https://sc04.alicdn.com/kf/H31c8655ab6fb4a979f07a3689fa2a584B.jpg",
+            "https://sc04.alicdn.com/kf/Hbb58d030cebf4e3796de2ce5556be2efl.jpg",
+            "https://sc04.alicdn.com/kf/H13a3ec3c3ade461cb8023c02531a724bq.jpg",
+            "https://sc04.alicdn.com/kf/Hca71038ad2624aadafda3669458729e3e.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Red, Blue"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.84",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
+            "contentHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
+            "attempts": 0,
+            "updatedAt": "2026-08-08T10:21:09.257Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEnTG7BAOVioqqEY6eykXfp",
+      "sourceId": "AAEnTG7BAOVioqqEY6eykXfp",
+      "sourceFingerprint": "73763c429d062351b2c32f9f7e529ff98acdfc12ab59a1361d4af7038a556e41",
+      "locale": "en",
+      "slug": "i-love-jesus-metal-keychain-pendant-eykxfp",
+      "title": "I Love Jesus Metal Keychain Pendant",
+      "eyebrow": "metal keychain pendant",
+      "summary": "This metal keychain pendant features the text 'I Love Jesus' and comes in black, white, and blue variants. In-stock supply makes it a practical choice for retailers and gift shops. A simple accessory for everyday use.",
+      "description": "This metal keychain pendant carries the text 'I Love Jesus' on one side. It is offered in three color variants: black, white, and blue. The pendant design allows it to be attached to keys, bags, or other items. As an in-stock item, it is ready for immediate ordering in bulk quantities. The keychain serves as a straightforward accessory for personal use or as a small gift. Its compact size and durable metal construction make it suitable for daily handling. Wholesale buyers can request samples or further details through our contact page.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "83",
+          "name": "Keychains",
+          "slug": "keychains"
+        }
+      ],
+      "sku": "ALI-AAEnTG7BAOVioqqEY6eykXfp",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H5790bf8ab8db4816a3ed0533e9ace524S.webp",
+      "imageAlt": "I Love Jesus Metal Keychain Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5790bf8ab8db4816a3ed0533e9ace524S.webp",
+          "alt": "I Love Jesus Metal Keychain Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd3283f7989c04afa85b0fd25170547e2L.webp",
+          "alt": "I Love Jesus Metal Keychain Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He7614fd6c02b44a2ac1005187f8a21a7D.webp",
+          "alt": "I Love Jesus Metal Keychain Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3bbf97b0e7f943c2b8360f5a058d2507w.webp",
+          "alt": "I Love Jesus Metal Keychain Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8d09b9c781434261ad00bed9c6fb884aH.webp",
+          "alt": "I Love Jesus Metal Keychain Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf192d47f8fc545ce921249ff65ee71b6o.webp",
+          "alt": "I Love Jesus Metal Keychain Pendant"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H53471e0a350646518de541b1106d44dfZ.webp",
+          "alt": "I Love Jesus Metal Keychain Pendant - white",
+          "label": "white",
+          "sku": "ALI-AAEnTG7BAOVioqqEY6eykXfp-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0030bc7e873d4d068ae4540b491788065.webp",
+          "alt": "I Love Jesus Metal Keychain Pendant - black",
+          "label": "black",
+          "sku": "ALI-AAEnTG7BAOVioqqEY6eykXfp-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H09ab046072b64555887c95ea67f0dd1aV.webp",
+          "alt": "I Love Jesus Metal Keychain Pendant - blue",
+          "label": "blue",
+          "sku": "ALI-AAEnTG7BAOVioqqEY6eykXfp-V-123085"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Metal construction",
+        "Text reads 'I Love Jesus'",
+        "Available in black, white, and blue variants",
+        "In-stock supply for prompt ordering"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Metal"
+        },
+        {
+          "name": "Variants",
+          "value": "Black, White, Blue"
+        }
+      ],
+      "applications": [
+        "Attach to keys for daily use",
+        "Add to bags or backpacks as a charm",
+        "Use as a small gift for friends or family",
+        "Sell in retail or gift shop settings"
+      ],
+      "faq": [
+        {
+          "question": "What colors are available for this keychain?",
+          "answer": "This metal keychain pendant comes in three color variants: black, white, and blue."
+        },
+        {
+          "question": "Is this keychain in stock?",
+          "answer": "Yes, the product is listed as in-stock supply, meaning it is ready for ordering."
+        },
+        {
+          "question": "Can I request a sample before placing a bulk order?",
+          "answer": "For sample requests or bulk ordering details, please contact us through our website."
+        }
+      ],
+      "pricing": {
+        "price": "0.38",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.30",
+          "max": "0.38"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "I Love Jesus Metal Keychain Pendant",
+          "description": "Metal keychain pendant with 'I Love Jesus' text. Available in black, white, and blue variants. In-stock supply for retailers and gift shops.",
+          "sku": "ALI-AAEnTG7BAOVioqqEY6eykXfp",
+          "image": [
+            "https://sc04.alicdn.com/kf/H5790bf8ab8db4816a3ed0533e9ace524S.png",
+            "https://sc04.alicdn.com/kf/Hd3283f7989c04afa85b0fd25170547e2L.png",
+            "https://sc04.alicdn.com/kf/He7614fd6c02b44a2ac1005187f8a21a7D.png",
+            "https://sc04.alicdn.com/kf/H3bbf97b0e7f943c2b8360f5a058d2507w.png",
+            "https://sc04.alicdn.com/kf/H8d09b9c781434261ad00bed9c6fb884aH.png",
+            "https://sc04.alicdn.com/kf/Hf192d47f8fc545ce921249ff65ee71b6o.png"
+          ],
+          "category": "Keychains",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "Black, White, Blue"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.38",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.30",
+              "maxPrice": "0.38",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What colors are available for this keychain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This metal keychain pendant comes in three color variants: black, white, and blue."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this keychain in stock?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product is listed as in-stock supply, meaning it is ready for ordering."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I request a sample before placing a bulk order?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For sample requests or bulk ordering details, please contact us through our website."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "c2c7927f6b04ccee4878901fbdab7a9051e95d6a17a52df289808e741639e966",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "c2c7927f6b04ccee4878901fbdab7a9051e95d6a17a52df289808e741639e966",
+            "contentHash": "c2c7927f6b04ccee4878901fbdab7a9051e95d6a17a52df289808e741639e966",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:30:08.961Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH0TG7BAOVioqqEY6emXpfV",
+      "sourceId": "AAH0TG7BAOVioqqEY6emXpfV",
+      "sourceFingerprint": "131951e3dc8a7ad6586315fc9d0ec4ea63911a6c3943dc2d4c95ea246fd3faa8",
+      "locale": "en",
+      "slug": "solid-wood-cross-ornament-minimalist-home-decor-emxpfv",
+      "title": "Solid Wood Cross Ornament, Minimalist Home Decor",
+      "eyebrow": "wood cross ornament",
+      "summary": "A solid wood cross ornament with a modern minimalist design. Offered in several sizes and finishes, it works as a Christmas decoration or a permanent display piece for home or office.",
+      "description": "This solid wood cross ornament emphasizes clean lines and natural material. It comes in multiple variants: burgundy-large, light wood color-large, log color-small, natural wood color-large, and red-small, allowing you to match your decor or season. The minimalist form makes it a versatile piece that can hang on a tree, sit on a shelf, or accent a wall. Because it is a plain cross without a corpus, it serves as a general Christian symbol rather than a crucifix.",
+      "catholicContext": "A plain cross, without a corpus, is a Christian symbol but not a crucifix.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAH0TG7BAOVioqqEY6emXpfV",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H03b54c94a13548968fc3b7f6863a999cJ.webp",
+      "imageAlt": "Solid Wood Cross Ornament, Minimalist Home Decor",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H03b54c94a13548968fc3b7f6863a999cJ.webp",
+          "alt": "Solid Wood Cross Ornament, Minimalist Home Decor"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6bc8c471c2dc4f709bca0c68c4ad1719B.webp",
+          "alt": "Solid Wood Cross Ornament, Minimalist Home Decor"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf5b29a8533944e8fb776c4c630b4b695Q.webp",
+          "alt": "Solid Wood Cross Ornament, Minimalist Home Decor"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He8dd89e75d3e4e6cbe4a35a82ddbeda4T.webp",
+          "alt": "Solid Wood Cross Ornament, Minimalist Home Decor"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H974340498ec34b158f44b29db2dbf93an.webp",
+          "alt": "Solid Wood Cross Ornament, Minimalist Home Decor"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H469485ac08e04554ae28a39ea6b844bby.webp",
+          "alt": "Solid Wood Cross Ornament, Minimalist Home Decor - light-wood-color-large-size",
+          "label": "light-wood-color-large-size",
+          "sku": "ALI-AAH0TG7BAOVioqqEY6emXpfV-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hed5f478ef12e4680975003e1c914d578e.webp",
+          "alt": "Solid Wood Cross Ornament, Minimalist Home Decor - natural-wood-color-large-size",
+          "label": "natural-wood-color-large-size",
+          "sku": "ALI-AAH0TG7BAOVioqqEY6emXpfV-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8d1292bd29cd4c7bbf2d4a8c0aa55c18l.webp",
+          "alt": "Solid Wood Cross Ornament, Minimalist Home Decor - red-small",
+          "label": "red-small",
+          "sku": "ALI-AAH0TG7BAOVioqqEY6emXpfV-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbdd24debfad2422cbdb2fade949109b4p.webp",
+          "alt": "Solid Wood Cross Ornament, Minimalist Home Decor - log-color-small",
+          "label": "log-color-small",
+          "sku": "ALI-AAH0TG7BAOVioqqEY6emXpfV-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha7b3d254789d49d1a5716841e07d7b8a7.webp",
+          "alt": "Solid Wood Cross Ornament, Minimalist Home Decor - burgundy-large",
+          "label": "burgundy-large",
+          "sku": "ALI-AAH0TG7BAOVioqqEY6emXpfV-V--5"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Solid wood construction",
+        "Modern minimalist design",
+        "Multiple size and color variants",
+        "Suitable for Christmas decor or year-round display",
+        "Plain cross (no corpus)"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Solid wood"
+        },
+        {
+          "name": "Style",
+          "value": "Modern minimalist"
+        },
+        {
+          "name": "Variants",
+          "value": "Burgundy-large, light wood color-large, log color-small, natural wood color-large, red-small"
+        }
+      ],
+      "applications": [
+        "Christmas tree ornament",
+        "Shelf or tabletop display",
+        "Wall hanging",
+        "Home or office decor"
+      ],
+      "faq": [
+        {
+          "question": "What wood is used for this cross ornament?",
+          "answer": "The product facts specify solid wood but do not identify the exact wood species."
+        },
+        {
+          "question": "Does this cross include a figure of Christ?",
+          "answer": "No, it is a plain cross without a corpus, so it is not a crucifix."
+        },
+        {
+          "question": "What size and color options are available?",
+          "answer": "The cross comes in five variants: burgundy-large, light wood color-large, log color-small, natural wood color-large, and red-small."
+        }
+      ],
+      "pricing": {
+        "price": "2.80",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.80",
+          "max": "3.80"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Solid Wood Cross Ornament, Minimalist Home Decor",
+          "description": "Solid wood cross ornament in modern minimalist style. Available in multiple sizes and wood tones, suitable for Christmas decor and year-round display.",
+          "sku": "ALI-AAH0TG7BAOVioqqEY6emXpfV",
+          "image": [
+            "https://sc04.alicdn.com/kf/H03b54c94a13548968fc3b7f6863a999cJ.jpg",
+            "https://sc04.alicdn.com/kf/H6bc8c471c2dc4f709bca0c68c4ad1719B.jpg",
+            "https://sc04.alicdn.com/kf/Hf5b29a8533944e8fb776c4c630b4b695Q.jpg",
+            "https://sc04.alicdn.com/kf/He8dd89e75d3e4e6cbe4a35a82ddbeda4T.jpg",
+            "https://sc04.alicdn.com/kf/H974340498ec34b158f44b29db2dbf93an.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Solid wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Modern minimalist"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "Burgundy-large, light wood color-large, log color-small, natural wood color-large, red-small"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.80",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.80",
+              "maxPrice": "3.80",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What wood is used for this cross ornament?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product facts specify solid wood but do not identify the exact wood species."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this cross include a figure of Christ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, it is a plain cross without a corpus, so it is not a crucifix."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What size and color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cross comes in five variants: burgundy-large, light wood color-large, log color-small, natural wood color-large, and red-small."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "30cb5303f9b86c604c1227e360a4a47636689224658ac6a4abb18861f4a6f253",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "30cb5303f9b86c604c1227e360a4a47636689224658ac6a4abb18861f4a6f253",
+            "contentHash": "30cb5303f9b86c604c1227e360a4a47636689224658ac6a4abb18861f4a6f253",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:30:21.492Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHwTG7BAOVioqqEY6emD_w7",
+      "sourceId": "AAHwTG7BAOVioqqEY6emD_w7",
+      "sourceFingerprint": "27529eed079443217f4f520ac4b8c4aa486c3eee574b5f6b68aef903c9b94b5b",
+      "locale": "en",
+      "slug": "explosive-devil-s-eye-bracelet-turkish-blue-eye-bracelet-emd_w7",
+      "title": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet",
+      "eyebrow": "Rosary bracelets",
+      "summary": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet Adjustable Red Rope Braided Devil's Eye Bracelet",
+      "description": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet Adjustable Red Rope Braided Devil's Eye Bracelet",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAHwTG7BAOVioqqEY6emD_w7",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H50d6e52637cf4e03ba233f60d4b59b41j.webp",
+      "imageAlt": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H50d6e52637cf4e03ba233f60d4b59b41j.webp",
+          "alt": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdc15d0788b194b189ce9c679dd72a0c4a.webp",
+          "alt": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H85010ff2527f4757bfb9228642c6bfdbX.webp",
+          "alt": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H07270ba9f3c74ed59ecbcd65edc02904t.webp",
+          "alt": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H36f2b970a37a44a3858d21d41ab15d6ah.webp",
+          "alt": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H981f84eb11144ca98d5a930198dd1742S.webp",
+          "alt": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet - red",
+          "label": "red",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6emD_w7-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H104855f2471c450981efe7a2fa3a0d80A.webp",
+          "alt": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet - blue",
+          "label": "blue",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6emD_w7-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H70d34fc6808c4710889f66778a5a0d8dj.webp",
+          "alt": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet - black",
+          "label": "black",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6emD_w7-V--2"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Variant: Black, Red, Blue"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Black, Red, Blue"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.16",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.16",
+          "max": "0.22"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet",
+          "description": "Explosive Devil's Eye Bracelet Turkish Blue Eye Bracelet Adjustable Red Rope Braided Devil's Eye Bracelet",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6emD_w7",
+          "image": [
+            "https://sc04.alicdn.com/kf/H50d6e52637cf4e03ba233f60d4b59b41j.jpg",
+            "https://sc04.alicdn.com/kf/Hdc15d0788b194b189ce9c679dd72a0c4a.jpg",
+            "https://sc04.alicdn.com/kf/H85010ff2527f4757bfb9228642c6bfdbX.jpg",
+            "https://sc04.alicdn.com/kf/H07270ba9f3c74ed59ecbcd65edc02904t.jpg",
+            "https://sc04.alicdn.com/kf/H36f2b970a37a44a3858d21d41ab15d6ah.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Black, Red, Blue"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.16",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.16",
+              "maxPrice": "0.22",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "21ea7d0c0cef6adc997bceee47704a3bb06c9f854b14b1944c0b04fe10e8c6d7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "21ea7d0c0cef6adc997bceee47704a3bb06c9f854b14b1944c0b04fe10e8c6d7",
+            "contentHash": "21ea7d0c0cef6adc997bceee47704a3bb06c9f854b14b1944c0b04fe10e8c6d7",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:30:53.266Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH3TG7BAOVioqqEY6emD6kV",
+      "sourceId": "AAH3TG7BAOVioqqEY6emD6kV",
+      "sourceFingerprint": "20837b57ddd92cf54a5ab53d68ec287dba036039d8004a479ff58b5ed2a6836b",
+      "locale": "en",
+      "slug": "new-cross-soft-pottery-bracelet-bohemian-style-hand-woven-emd6kv",
+      "title": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven",
+      "eyebrow": "Rosary bracelets",
+      "summary": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven Adjustable Soft Pottery Bracelet Spot",
+      "description": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven Adjustable Soft Pottery Bracelet Spot",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAH3TG7BAOVioqqEY6emD6kV",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H508371fb608f4376a2639bc2064f1956v.webp",
+      "imageAlt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H508371fb608f4376a2639bc2064f1956v.webp",
+          "alt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1996ec4298524d07ad474bd8cb551e762.webp",
+          "alt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H605a6c9545ec480f9be9f92200e3ff72r.webp",
+          "alt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H44023fb240264dedb5bb224f6bc3c1bfb.webp",
+          "alt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H07c46538bfae4812a7579bcdd46609367.webp",
+          "alt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H08a78a09e74b43a190e1c58752a1b291K.webp",
+          "alt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven - blue",
+          "label": "blue",
+          "sku": "ALI-AAH3TG7BAOVioqqEY6emD6kV-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7989d732af5148ef9abd265d2a777038U.webp",
+          "alt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven - grey",
+          "label": "grey",
+          "sku": "ALI-AAH3TG7BAOVioqqEY6emD6kV-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H913f8fff775e45848e3c5971b2f7076fk.webp",
+          "alt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven - red-02",
+          "label": "red-02",
+          "sku": "ALI-AAH3TG7BAOVioqqEY6emD6kV-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb096c18ff99947fcbbbb2ef7ee2b689bV.webp",
+          "alt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven - green",
+          "label": "green",
+          "sku": "ALI-AAH3TG7BAOVioqqEY6emD6kV-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haf96a159038246d2bc9300ec9cd46179t.webp",
+          "alt": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven - red-01",
+          "label": "red-01",
+          "sku": "ALI-AAH3TG7BAOVioqqEY6emD6kV-V--1"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Variant: grey, Red 01 #, Red 02 #, Blue, Green"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "grey, Red 01 #, Red 02 #, Blue, Green"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.27",
+          "max": "0.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven",
+          "description": "New Cross Soft Pottery Bracelet Bohemian Style Hand-woven Adjustable Soft Pottery Bracelet Spot",
+          "sku": "ALI-AAH3TG7BAOVioqqEY6emD6kV",
+          "image": [
+            "https://sc04.alicdn.com/kf/H508371fb608f4376a2639bc2064f1956v.jpg",
+            "https://sc04.alicdn.com/kf/H1996ec4298524d07ad474bd8cb551e762.jpg",
+            "https://sc04.alicdn.com/kf/H605a6c9545ec480f9be9f92200e3ff72r.jpg",
+            "https://sc04.alicdn.com/kf/H44023fb240264dedb5bb224f6bc3c1bfb.jpg",
+            "https://sc04.alicdn.com/kf/H07c46538bfae4812a7579bcdd46609367.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "grey, Red 01 #, Red 02 #, Blue, Green"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.27",
+              "maxPrice": "0.30",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "06a5f96187d7952fe4a3e981e76214b9cfcf6456d93a5534da9dc247f8addee0",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "06a5f96187d7952fe4a3e981e76214b9cfcf6456d93a5534da9dc247f8addee0",
+            "contentHash": "06a5f96187d7952fe4a3e981e76214b9cfcf6456d93a5534da9dc247f8addee0",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:31:27.377Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFHTG7BAOVioqqEY6emD2Is",
+      "sourceId": "AAFHTG7BAOVioqqEY6emD2Is",
+      "sourceFingerprint": "54f36f2c60bf18a9d9c58eee92a08c196b1e4dd2a29440decead4146c768dc72",
+      "locale": "en",
+      "slug": "woven-adjustment-bracelet-fashionable-natural-stone-beaded-woven-emd2is",
+      "title": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven",
+      "eyebrow": "Rosary bracelets",
+      "summary": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven Turquoise Bracelet Wholesale",
+      "description": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven Turquoise Bracelet Wholesale",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAFHTG7BAOVioqqEY6emD2Is",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb2f9f3d689b0413fa5ea473bc9bdd13aw.webp",
+      "imageAlt": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb2f9f3d689b0413fa5ea473bc9bdd13aw.webp",
+          "alt": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb827181fe2c44fe59b7815d235d40703O.webp",
+          "alt": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hac95b75b988d44908de87e113e820511E.webp",
+          "alt": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2fa0494c676e4e0292a293838642ad06G.webp",
+          "alt": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd2529bd9dc144436a50089a80433fb1bx.webp",
+          "alt": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5bb219d9fd534a09851def6fd858a5b4h.webp",
+          "alt": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven - white",
+          "label": "white",
+          "sku": "ALI-AAFHTG7BAOVioqqEY6emD2Is-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd85bf5d8b488496fa864643c80acb2ebk.webp",
+          "alt": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven - black",
+          "label": "black",
+          "sku": "ALI-AAFHTG7BAOVioqqEY6emD2Is-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha8228b1f540b407181bf1360374e4d34Y.webp",
+          "alt": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven - red",
+          "label": "red",
+          "sku": "ALI-AAFHTG7BAOVioqqEY6emD2Is-V-3331260"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Variant: Black, Red, White"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Black, Red, White"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.39",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.32",
+          "max": "0.39"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven",
+          "description": "Woven Adjustment Bracelet Fashionable Natural Stone Beaded Woven Turquoise Bracelet Wholesale",
+          "sku": "ALI-AAFHTG7BAOVioqqEY6emD2Is",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hb2f9f3d689b0413fa5ea473bc9bdd13aw.jpg",
+            "https://sc04.alicdn.com/kf/Hb827181fe2c44fe59b7815d235d40703O.jpg",
+            "https://sc04.alicdn.com/kf/Hac95b75b988d44908de87e113e820511E.jpg",
+            "https://sc04.alicdn.com/kf/H2fa0494c676e4e0292a293838642ad06G.jpg",
+            "https://sc04.alicdn.com/kf/Hd2529bd9dc144436a50089a80433fb1bx.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Black, Red, White"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.32",
+              "maxPrice": "0.39",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "a33910a8a094a7a34abeb1ea959b4dad53657f089b472ba43884a829fcfd95d7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "a33910a8a094a7a34abeb1ea959b4dad53657f089b472ba43884a829fcfd95d7",
+            "contentHash": "a33910a8a094a7a34abeb1ea959b4dad53657f089b472ba43884a829fcfd95d7",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:31:57.741Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHJTG7BAOVioqqEY6emDoEQ",
+      "sourceId": "AAHJTG7BAOVioqqEY6emDoEQ",
+      "sourceFingerprint": "68673a0bf2e7eccb3bf8a6e2195f2f26d83b7ef438c1cea9c0ace6867f9b390e",
+      "locale": "en",
+      "slug": "catholic-notre-dame-hollow-ring-in-copper-with-gold-plating-emdoeq",
+      "title": "Catholic Notre Dame Hollow Ring in Copper with Gold Plating",
+      "eyebrow": "Hollow Notre Dame Ring",
+      "summary": "A hollow Notre Dame ring in copper with gold plating, offered in a European style that suits women, men, or unisex wear. The openwork design draws on Catholic-inspired imagery without serving as an official devotional article.",
+      "description": "This ring is a hollow copper band with a gold-plated finish, sized as a wedding-band style piece. Its openwork pattern references the Notre Dame theme, giving it a heritage look for everyday wear.\n\nThe ring is listed for unisex appeal, though categories note both women's and men's variants. It arrives without a certificate or main stone, making it a straightforward fashion accessory. Copper construction offers a warm tone under the gold plating, while the hollow build keeps the piece lighter than solid metal.\n\nFor sourcing questions, contact us directly.",
+      "catholicContext": "The Notre Dame name evokes the Cathedral of Notre-Dame de Paris, a landmark of Catholic heritage, though the product itself is a jewelry item without liturgical standing.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Rings",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAHJTG7BAOVioqqEY6emDoEQ",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H5561fd1a54e84683a9b277d699c734a4h.webp",
+      "imageAlt": "Catholic Notre Dame Hollow Ring in Copper with Gold Plating",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5561fd1a54e84683a9b277d699c734a4h.webp",
+          "alt": "Catholic Notre Dame Hollow Ring in Copper with Gold Plating"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc739212771234aeeba95e92b105d5391N.webp",
+          "alt": "Catholic Notre Dame Hollow Ring in Copper with Gold Plating"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He155cfd4570e476bb773f83905e8da41q.webp",
+          "alt": "Catholic Notre Dame Hollow Ring in Copper with Gold Plating"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hba0e7227911d4f7ab5fc6c853299f00fj.webp",
+          "alt": "Catholic Notre Dame Hollow Ring in Copper with Gold Plating"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hefbc691d41fb45288dd744c7b2ed9c2eV.webp",
+          "alt": "Catholic Notre Dame Hollow Ring in Copper with Gold Plating"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#7a6d92",
+      "features": [
+        "Crafted from copper with a gold-plated finish",
+        "Hollow construction for a lighter feel",
+        "Openwork (hollow) design on the band",
+        "European style silhouette",
+        "No main stone or certificate included",
+        "Listed as unisex, with women's and men's variants"
+      ],
+      "specifications": [
+        {
+          "name": "Main material",
+          "value": "Copper"
+        },
+        {
+          "name": "Plating",
+          "value": "Gold plated"
+        },
+        {
+          "name": "Ring type",
+          "value": "Wedding band style"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex, Women's, Men's"
+        },
+        {
+          "name": "Stone setting",
+          "value": "None"
+        },
+        {
+          "name": "Certificate",
+          "value": "None"
+        }
+      ],
+      "applications": [
+        "Everyday jewelry for personal wear",
+        "Gift for those interested in Notre Dame-themed items",
+        "Fashion accessory with a European cultural touch",
+        "Stacking alongside other rings"
+      ],
+      "faq": [
+        {
+          "question": "What is the main material of this Notre Dame ring?",
+          "answer": "The ring is made of copper with a gold-plated finish. The hollow design reduces weight while maintaining a solid appearance."
+        },
+        {
+          "question": "Is this ring suitable for both men and women?",
+          "answer": "Yes, the ring is listed as unisex, and the product attributes also include women's and men's variants, so it can suit a range of wearers."
+        },
+        {
+          "question": "Does the ring come with a gemstone or certificate?",
+          "answer": "No, the ring is set without a main stone and does not include a certificate. It is a simple metal band."
+        }
+      ],
+      "pricing": {
+        "price": "1.87",
+        "regularPrice": "1.87",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Catholic Notre Dame Hollow Ring in Copper with Gold Plating",
+          "description": "Hollow Notre Dame ring in copper with gold plating, European style, unisex. A distinctive Catholic-inspired fashion ring for everyday wear.",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6emDoEQ",
+          "image": [
+            "https://sc04.alicdn.com/kf/H5561fd1a54e84683a9b277d699c734a4h.jpg",
+            "https://sc04.alicdn.com/kf/Hc739212771234aeeba95e92b105d5391N.jpg",
+            "https://sc04.alicdn.com/kf/He155cfd4570e476bb773f83905e8da41q.jpg",
+            "https://sc04.alicdn.com/kf/Hba0e7227911d4f7ab5fc6c853299f00fj.jpg",
+            "https://sc04.alicdn.com/kf/Hefbc691d41fb45288dd744c7b2ed9c2eV.jpg"
+          ],
+          "category": "Rings",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main material",
+              "value": "Copper"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Gold plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Ring type",
+              "value": "Wedding band style"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex, Women's, Men's"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stone setting",
+              "value": "None"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Certificate",
+              "value": "None"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.87",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the main material of this Notre Dame ring?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ring is made of copper with a gold-plated finish. The hollow design reduces weight while maintaining a solid appearance."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this ring suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the ring is listed as unisex, and the product attributes also include women's and men's variants, so it can suit a range of wearers."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the ring come with a gemstone or certificate?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, the ring is set without a main stone and does not include a certificate. It is a simple metal band."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "c17fe36628133a7e038d1d0e8b0699258d502c752bcab7e6fd987baaf190445b",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "c17fe36628133a7e038d1d0e8b0699258d502c752bcab7e6fd987baaf190445b",
+            "contentHash": "c17fe36628133a7e038d1d0e8b0699258d502c752bcab7e6fd987baaf190445b",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:32:12.356Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHoTG7BAOVioqqEY6emDvg4",
+      "sourceId": "AAHoTG7BAOVioqqEY6emDvg4",
+      "sourceFingerprint": "35a906e2ea23769a6a86146eac84a2dc43d7557f3b6577d123eea4ceac1e9233",
+      "locale": "en",
+      "slug": "gold-round-cross-pendant-zinc-alloy-4-sizes-emdvg4",
+      "title": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes",
+      "eyebrow": "gold-tone zinc alloy cross pendant",
+      "summary": "This gold-tone round cross pendant is made of zinc alloy and comes in four size options. Its polished finish and cross pattern suit devotional jewelry or everyday accessories. Choose the variant that fits your design, from compact 2.8x3.2 cm to larger 4.2x5.9 cm.",
+      "description": "A round pendant with a cross pattern in a gold-tone finish, cast from zinc alloy. Four size variants are available, letting you match the pendant to your necklace style: 2.8x3.2 cm, 3x4.3 cm, 3.1x3.7 cm, and 4.2x5.9 cm. The listing neckline suggests it is meant to be strung on a chain or cord. Use it as a standalone piece or as part of a layered jewelry arrangement.",
+      "catholicContext": "The cross is a central symbol of the Christian faith, recalling the crucifixion of Jesus Christ.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHoTG7BAOVioqqEY6emDvg4",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hcf3237a406134ec4ab1daf373de78ebaI.webp",
+      "imageAlt": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcf3237a406134ec4ab1daf373de78ebaI.webp",
+          "alt": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3ed9559f44ed41fd8df332757bcbfc5aL.webp",
+          "alt": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2ee4879ed28b4709b84b4ac291233f29Y.webp",
+          "alt": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6f2b1d199ae449518bc215773c253b2cp.webp",
+          "alt": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H82493e396dc9414f9a56c4d7b09577f5l.webp",
+          "alt": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H62febc7b76254c53b86f7ed7f02c78a8H.webp",
+          "alt": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes - gold-3-4-3",
+          "label": "gold-3-4-3",
+          "sku": "ALI-AAHoTG7BAOVioqqEY6emDvg4-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He9fe69cf458044038ce35ed2ffe6b916d.webp",
+          "alt": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes - gold-2-8-3-2",
+          "label": "gold-2-8-3-2",
+          "sku": "ALI-AAHoTG7BAOVioqqEY6emDvg4-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H57127daed268405c924df8b58da11b59z.webp",
+          "alt": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes - gold-3-1-3-7",
+          "label": "gold-3-1-3-7",
+          "sku": "ALI-AAHoTG7BAOVioqqEY6emDvg4-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1e05d4df8f2a4882854acfc2a3e1327c1.webp",
+          "alt": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes - gold-4-2-5-9",
+          "label": "gold-4-2-5-9",
+          "sku": "ALI-AAHoTG7BAOVioqqEY6emDvg4-V--4"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Made from zinc alloy for durability",
+        "Gold-tone finish with a round silhouette",
+        "Cross pattern centered on the pendant",
+        "Four size variants: 2.8x3.2 cm, 3x4.3 cm, 3.1x3.7 cm, 4.2x5.9 cm",
+        "Listing style suited for necklace assembly"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc alloy"
+        },
+        {
+          "name": "Finish",
+          "value": "Gold-tone"
+        },
+        {
+          "name": "Shape",
+          "value": "Round"
+        },
+        {
+          "name": "Size variants",
+          "value": "2.8x3.2 cm, 3x4.3 cm, 3.1x3.7 cm, 4.2x5.9 cm"
+        }
+      ],
+      "applications": [
+        "DIY necklace assembly",
+        "Jewelry making",
+        "Devotional jewelry",
+        "Everyday accessory"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this pendant made of?",
+          "answer": "This pendant is made from zinc alloy with a gold-tone finish."
+        },
+        {
+          "question": "What size options are available?",
+          "answer": "Four size variants are offered: 2.8x3.2 cm, 3x4.3 cm, 3.1x3.7 cm, and 4.2x5.9 cm."
+        },
+        {
+          "question": "Can this pendant be used for a necklace?",
+          "answer": "Yes, the listing style pendant is designed to be attached to a neck chain or cord for necklace assembly."
+        }
+      ],
+      "pricing": {
+        "price": "0.17",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.17",
+          "max": "1.38"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gold Round Cross Pendant, Zinc Alloy, 4 Sizes",
+          "description": "Gold-tone round cross pendant in zinc alloy. Four size variants from 2.8x3.2 cm to 4.2x5.9 cm. Ideal for DIY necklace assembly or jewelry making.",
+          "sku": "ALI-AAHoTG7BAOVioqqEY6emDvg4",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hcf3237a406134ec4ab1daf373de78ebaI.jpg",
+            "https://sc04.alicdn.com/kf/H3ed9559f44ed41fd8df332757bcbfc5aL.jpg",
+            "https://sc04.alicdn.com/kf/H2ee4879ed28b4709b84b4ac291233f29Y.jpg",
+            "https://sc04.alicdn.com/kf/H6f2b1d199ae449518bc215773c253b2cp.jpg",
+            "https://sc04.alicdn.com/kf/H82493e396dc9414f9a56c4d7b09577f5l.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Finish",
+              "value": "Gold-tone"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Round"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Size variants",
+              "value": "2.8x3.2 cm, 3x4.3 cm, 3.1x3.7 cm, 4.2x5.9 cm"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.17",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.17",
+              "maxPrice": "1.38",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This pendant is made from zinc alloy with a gold-tone finish."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What size options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Four size variants are offered: 2.8x3.2 cm, 3x4.3 cm, 3.1x3.7 cm, and 4.2x5.9 cm."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this pendant be used for a necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the listing style pendant is designed to be attached to a neck chain or cord for necklace assembly."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "afc58035383779bb382a300a570efe209c31f182b93dca7aa3e2045d7f59f9b0",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "afc58035383779bb382a300a570efe209c31f182b93dca7aa3e2045d7f59f9b0",
+            "contentHash": "afc58035383779bb382a300a570efe209c31f182b93dca7aa3e2045d7f59f9b0",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:32:18.448Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHHTG7BAOVioqqEY6e_xHjI",
+      "sourceId": "AAHHTG7BAOVioqqEY6e_xHjI",
+      "sourceFingerprint": "1d8e8a9d84272054664cbccb99a45793c25e41090d88d4ccbb71078ce62850be",
+      "locale": "en",
+      "slug": "pink-glass-pearl-rosary-necklace-with-angel-wings-e_xhji",
+      "title": "Pink Glass Pearl Rosary Necklace with Angel Wings",
+      "eyebrow": "glass pearl rosary necklace with angel wing centerpiece",
+      "summary": "A 6mm pink glass pearl rosary necklace with a detailed angel wing centerpiece and gold-tone metal accents. Available in pink or blue variants, suitable for devotional use or gift-giving. Wholesale pricing for Catholic gift shops.",
+      "description": "This rosary necklace is crafted with smooth glass pearls in a soft pink tone, each bead measuring 6mm. The gold-tone metal components include an angel wing centerpiece, adding a distinctive visual element. The rosary is available in two color variants: pink and blue, allowing flexibility for different preferences.\n\nDesigned as a wearable devotional item, it can also serve as a fashion accessory. The chain-style construction makes it easy to wear daily. We supply this item for wholesale, supporting Catholic retailers and gift shops.\n\nWhether used for prayer or as a meaningful gift, this rosary combines traditional form with a contemporary aesthetic. The angel wing centerpiece offers a unique touch not found on standard rosaries.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHHTG7BAOVioqqEY6e_xHjI",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H09b096ee6c2e4c97b37265d70730b87aN.webp",
+      "imageAlt": "Pink Glass Pearl Rosary Necklace with Angel Wings",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H09b096ee6c2e4c97b37265d70730b87aN.webp",
+          "alt": "Pink Glass Pearl Rosary Necklace with Angel Wings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd2e13840936e4a5c9582eb65429c54c1R.webp",
+          "alt": "Pink Glass Pearl Rosary Necklace with Angel Wings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0e9d81022cf140c298bbc231d47ae980j.webp",
+          "alt": "Pink Glass Pearl Rosary Necklace with Angel Wings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63fa854f86624de887b03479b339bbadW.webp",
+          "alt": "Pink Glass Pearl Rosary Necklace with Angel Wings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H79de0444b29743f5ae0a679719c419199.webp",
+          "alt": "Pink Glass Pearl Rosary Necklace with Angel Wings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He9b3caba9d344bfe9cbd7693b04d3809q.webp",
+          "alt": "Pink Glass Pearl Rosary Necklace with Angel Wings"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4cb057bfdf444ad4add76e5e02151a50w.webp",
+          "alt": "Pink Glass Pearl Rosary Necklace with Angel Wings - pink",
+          "label": "pink",
+          "sku": "ALI-AAHHTG7BAOVioqqEY6e_xHjI-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H14feb09318a9408e81fd5839a817e09bZ.webp",
+          "alt": "Pink Glass Pearl Rosary Necklace with Angel Wings - blue",
+          "label": "blue",
+          "sku": "ALI-AAHHTG7BAOVioqqEY6e_xHjI-V--1"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "6mm glass pearl beads",
+        "Angel wing centerpiece",
+        "Gold-tone metal accents",
+        "Available in pink and blue",
+        "Necklace style rosary",
+        "Wholesale pricing"
+      ],
+      "specifications": [
+        {
+          "name": "Bead material",
+          "value": "Glass pearl"
+        },
+        {
+          "name": "Bead size",
+          "value": "6mm"
+        },
+        {
+          "name": "Color variants",
+          "value": "Pink, Blue"
+        },
+        {
+          "name": "Centerpiece",
+          "value": "Angel wings"
+        },
+        {
+          "name": "Metal finish",
+          "value": "Gold-tone"
+        }
+      ],
+      "applications": [
+        "Daily prayer",
+        "Gift-giving for Catholic occasions",
+        "Catholic gift shop inventory",
+        "Fashion accessory"
+      ],
+      "faq": [
+        {
+          "question": "What are the available color variants for this rosary necklace?",
+          "answer": "This rosary necklace is available in two color variants: pink and blue. The pearl beads are glass, and the metal accents are gold-tone."
+        },
+        {
+          "question": "What is the bead size of this rosary?",
+          "answer": "The glass pearl beads measure 6mm in diameter, providing a balanced size for a necklace-style rosary."
+        },
+        {
+          "question": "Does this rosary include a crucifix?",
+          "answer": "No, the product facts do not indicate a crucifix. The centerpiece is described as angel wings, and no corpus is mentioned."
+        }
+      ],
+      "pricing": {
+        "price": "0.55",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.47",
+          "max": "0.55"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Pink Glass Pearl Rosary Necklace with Angel Wings",
+          "description": "6mm pink glass pearl rosary necklace with angel wing centerpiece, 17-inch length, gold-tone metal, available in pink and blue. Wholesale Catholic jewelry.",
+          "sku": "ALI-AAHHTG7BAOVioqqEY6e_xHjI",
+          "image": [
+            "https://sc04.alicdn.com/kf/H09b096ee6c2e4c97b37265d70730b87aN.png",
+            "https://sc04.alicdn.com/kf/Hd2e13840936e4a5c9582eb65429c54c1R.png",
+            "https://sc04.alicdn.com/kf/H0e9d81022cf140c298bbc231d47ae980j.png",
+            "https://sc04.alicdn.com/kf/H63fa854f86624de887b03479b339bbadW.png",
+            "https://sc04.alicdn.com/kf/H79de0444b29743f5ae0a679719c419199.png",
+            "https://sc04.alicdn.com/kf/He9b3caba9d344bfe9cbd7693b04d3809q.png"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Bead material",
+              "value": "Glass pearl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bead size",
+              "value": "6mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Pink, Blue"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Centerpiece",
+              "value": "Angel wings"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Metal finish",
+              "value": "Gold-tone"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.55",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.47",
+              "maxPrice": "0.55",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the available color variants for this rosary necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This rosary necklace is available in two color variants: pink and blue. The pearl beads are glass, and the metal accents are gold-tone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the bead size of this rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The glass pearl beads measure 6mm in diameter, providing a balanced size for a necklace-style rosary."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this rosary include a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, the product facts do not indicate a crucifix. The centerpiece is described as angel wings, and no corpus is mentioned."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "80da43bb7408ae0352756bff4a306dce3eaab2b61adb194d5bd0f8fc40f2adec",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "80da43bb7408ae0352756bff4a306dce3eaab2b61adb194d5bd0f8fc40f2adec",
+            "contentHash": "80da43bb7408ae0352756bff4a306dce3eaab2b61adb194d5bd0f8fc40f2adec",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:32:30.587Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEETG7BAOVioqqEY6e_xaVX",
+      "sourceId": "AAEETG7BAOVioqqEY6e_xaVX",
+      "sourceFingerprint": "52617f4c4bec2718613cfa84ae2e26c873a50d18b83ec82c04fbf056adb69c25",
+      "locale": "en",
+      "slug": "white-pearl-glass-rosary-necklace-with-chalice-center-e_xavx",
+      "title": "White Pearl Glass Rosary Necklace with Chalice Center",
+      "eyebrow": "Beaded glass rosary necklace with chalice center",
+      "summary": "This white rosary necklace pairs glass imitation-pearl beads with a chalice centerpiece and zinc alloy details. A clean, bright choice for first communion gifts or parish gift shops, available through our wholesale catalog.",
+      "description": "The design leads with a soft white imitation-pearl finish across glass beads, giving the rosary a luminous, uniform look. The chalice-shaped center serves as the visual focal point, reinforced by zinc alloy fittings that secure the chain of beads. The necklace is listed as unisex, so it suits both boys and girls preparing for first communion or other devotional occasions. Because the beads are glass and the accents are zinc alloy, the piece carries a modest weight typical of beaded religious jewelry. For sourcing, this model is part of our wholesale catalog under the religious necklaces category, identified as model N102.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAEETG7BAOVioqqEY6e_xaVX",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd91556342f674a5390abbcd777ab4757N.webp",
+      "imageAlt": "White Pearl Glass Rosary Necklace with Chalice Center",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd91556342f674a5390abbcd777ab4757N.webp",
+          "alt": "White Pearl Glass Rosary Necklace with Chalice Center"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hedf7a9a586604592b8d2a44117449d9c1.webp",
+          "alt": "White Pearl Glass Rosary Necklace with Chalice Center"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H05001cf82bc24c86a24fb0e32cc0dbe6I.webp",
+          "alt": "White Pearl Glass Rosary Necklace with Chalice Center"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd0acc37c287f46999aadc91d51ce830dY.webp",
+          "alt": "White Pearl Glass Rosary Necklace with Chalice Center"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H23934fe26ef142daab8f6d7900344684t.webp",
+          "alt": "White Pearl Glass Rosary Necklace with Chalice Center"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "White imitation-pearl glass beads",
+        "Chalice-shaped centerpiece",
+        "Zinc alloy material details",
+        "Unisex design",
+        "Categorized as a beaded necklace",
+        "Religious style with Catholic designation"
+      ],
+      "specifications": [
+        {
+          "name": "Main Material",
+          "value": "Glass"
+        },
+        {
+          "name": "Material Type",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Main Stone",
+          "value": "Pearl (imitation)"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Necklaces"
+        },
+        {
+          "name": "Necklace Type",
+          "value": "Beaded Necklaces"
+        },
+        {
+          "name": "Chain Type",
+          "value": "Beads"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Religious Type",
+          "value": "Catholicism"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Model Number",
+          "value": "N102"
+        }
+      ],
+      "applications": [
+        "First communion gift for children",
+        "Parish gift shop inventory",
+        "Catholic sacramental preparation memento",
+        "Devotional necklace for personal prayer"
+      ],
+      "faq": [
+        {
+          "question": "What material are the beads made of?",
+          "answer": "The beads are glass with an imitation pearl finish, as listed in the product attributes."
+        },
+        {
+          "question": "Is this rosary necklace suitable for both boys and girls?",
+          "answer": "Yes, the product is marked as unisex, so it can be worn by anyone."
+        },
+        {
+          "question": "What is the centerpiece design?",
+          "answer": "The centerpiece is a chalice shape, as described in the product title and sourcing notes."
+        }
+      ],
+      "pricing": {
+        "price": "0.55",
+        "regularPrice": "0.55",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.47",
+          "max": "0.55"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "White Pearl Glass Rosary Necklace with Chalice Center",
+          "description": "Wholesale white glass beaded rosary necklace with imitation pearl finish and chalice center, zinc alloy details, unisex first communion devotional jewelry.",
+          "sku": "ALI-AAEETG7BAOVioqqEY6e_xaVX",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd91556342f674a5390abbcd777ab4757N.png",
+            "https://sc04.alicdn.com/kf/Hedf7a9a586604592b8d2a44117449d9c1.png",
+            "https://sc04.alicdn.com/kf/H05001cf82bc24c86a24fb0e32cc0dbe6I.png",
+            "https://sc04.alicdn.com/kf/Hd0acc37c287f46999aadc91d51ce830dY.png",
+            "https://sc04.alicdn.com/kf/H23934fe26ef142daab8f6d7900344684t.png"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Glass"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material Type",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "Pearl (imitation)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Necklaces"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Necklace Type",
+              "value": "Beaded Necklaces"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain Type",
+              "value": "Beads"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Religious Type",
+              "value": "Catholicism"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Model Number",
+              "value": "N102"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.55",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.47",
+              "maxPrice": "0.55",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material are the beads made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are glass with an imitation pearl finish, as listed in the product attributes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary necklace suitable for both boys and girls?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product is marked as unisex, so it can be worn by anyone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the centerpiece design?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The centerpiece is a chalice shape, as described in the product title and sourcing notes."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "5bc1a9499c3d9880b2eccf3b7f56ca67a97100bf6a3120a913c4aacdb126a103",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "5bc1a9499c3d9880b2eccf3b7f56ca67a97100bf6a3120a913c4aacdb126a103",
+            "contentHash": "5bc1a9499c3d9880b2eccf3b7f56ca67a97100bf6a3120a913c4aacdb126a103",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:32:36.716Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHHTG7BAOVioqqEY6eBSrLG",
+      "sourceId": "AAHHTG7BAOVioqqEY6eBSrLG",
+      "sourceFingerprint": "5273c5955a465bea793794c17ac721383acd750243aad471a941da827bda9c1e",
+      "locale": "en",
+      "slug": "marian-sacred-heart-resin-ornament-ebsrlg",
+      "title": "Marian Sacred Heart Resin Ornament",
+      "eyebrow": "Marian devotional resin ornament",
+      "summary": "This decorative resin ornament depicts the Virgin Mary and the Sacred Heart, making it a thoughtful piece for Catholic homes or as a church supply. With six variants to choose from, it offers flexibility for different display preferences.",
+      "description": "This resin ornament presents the Virgin Mary and the Sacred Heart, a design that appeals to those seeking Catholic-inspired decor. The craft-style decoration measures [dimensions not specified] and is available in six variants, allowing for variety in display or gifting. As a creative resin craft, it can serve as a focal point in a home prayer corner or as part of church supplies. Its precise styling and material—resin—make it durable and easy to place on shelves or tables. The ornament's Marian imagery helps create a devotional atmosphere for personal reflection.",
+      "catholicContext": "The Virgin Mary, also known as Our Lady, is a central figure in Catholic devotion, often honored with images in homes and churches.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHHTG7BAOVioqqEY6eBSrLG",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb9b4633208c048ce8cbeebe24668b00f2.webp",
+      "imageAlt": "Marian Sacred Heart Resin Ornament",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb9b4633208c048ce8cbeebe24668b00f2.webp",
+          "alt": "Marian Sacred Heart Resin Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5cadd8c8b3264602b3891578451bac84C.webp",
+          "alt": "Marian Sacred Heart Resin Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5bcf3ae0c5bd43a4a32326ac60d724d7l.webp",
+          "alt": "Marian Sacred Heart Resin Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfdb4bd0e1f9c4da8bc08d8569f8f7ad8l.webp",
+          "alt": "Marian Sacred Heart Resin Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4683050282ae46a5b6ee0414dca44c8ek.webp",
+          "alt": "Marian Sacred Heart Resin Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H02ccdc81fcce4c31be4b66490a0543a6u.webp",
+          "alt": "Marian Sacred Heart Resin Ornament"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H557db65ae02c47dab6718236f6c2a7ddQ.webp",
+          "alt": "Marian Sacred Heart Resin Ornament - 2",
+          "label": "2",
+          "sku": "ALI-AAHHTG7BAOVioqqEY6eBSrLG-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd9e5530e49834d189fcfafa0cbe1e320K.webp",
+          "alt": "Marian Sacred Heart Resin Ornament - 1",
+          "label": "1",
+          "sku": "ALI-AAHHTG7BAOVioqqEY6eBSrLG-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2af12fc2c64f4bbbb7535dc843f432827.webp",
+          "alt": "Marian Sacred Heart Resin Ornament - 4",
+          "label": "4",
+          "sku": "ALI-AAHHTG7BAOVioqqEY6eBSrLG-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H421cd1b7a5c04557ade167d17e37b184H.webp",
+          "alt": "Marian Sacred Heart Resin Ornament - 3",
+          "label": "3",
+          "sku": "ALI-AAHHTG7BAOVioqqEY6eBSrLG-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H436803cdc42541d4a1122760d70e9888I.webp",
+          "alt": "Marian Sacred Heart Resin Ornament - 6",
+          "label": "6",
+          "sku": "ALI-AAHHTG7BAOVioqqEY6eBSrLG-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H954cffdcc9774410a754a0a251cafb7dB.webp",
+          "alt": "Marian Sacred Heart Resin Ornament - 5",
+          "label": "5",
+          "sku": "ALI-AAHHTG7BAOVioqqEY6eBSrLG-V--6"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Depicts the Virgin Mary and the Sacred Heart",
+        "Made from resin",
+        "Six variants to choose from",
+        "Suitable as church supply or decorative ornament"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Resin"
+        },
+        {
+          "name": "Variants",
+          "value": "6"
+        }
+      ],
+      "applications": [
+        "Home devotional display",
+        "Church supply decoration",
+        "Baptism keepsake",
+        "Religious gift"
+      ],
+      "faq": [
+        {
+          "question": "What material is this Marian ornament made from?",
+          "answer": "The ornament is made from resin, a durable material that can hold fine detail."
+        },
+        {
+          "question": "How many variants are available for this ornament?",
+          "answer": "There are six variants of this Marian and Sacred Heart ornament, offering different design options."
+        },
+        {
+          "question": "Is this ornament suitable for use in a church setting?",
+          "answer": "As a decor item referencing the Virgin Mary, it can be used as a church supply or in a home devotional setting, though specific liturgical use is not defined."
+        }
+      ],
+      "pricing": {
+        "price": "4.34",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.82",
+          "max": "4.34"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Marian Sacred Heart Resin Ornament",
+          "description": "Decorative resin ornament featuring the Virgin Mary and the Sacred Heart. Available in six variants, this craft ornament is suitable for baptism or church supplies.",
+          "sku": "ALI-AAHHTG7BAOVioqqEY6eBSrLG",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hb9b4633208c048ce8cbeebe24668b00f2.jpg",
+            "https://sc04.alicdn.com/kf/H5cadd8c8b3264602b3891578451bac84C.jpg",
+            "https://sc04.alicdn.com/kf/H5bcf3ae0c5bd43a4a32326ac60d724d7l.jpg",
+            "https://sc04.alicdn.com/kf/Hfdb4bd0e1f9c4da8bc08d8569f8f7ad8l.jpg",
+            "https://sc04.alicdn.com/kf/H4683050282ae46a5b6ee0414dca44c8ek.jpg",
+            "https://sc04.alicdn.com/kf/H02ccdc81fcce4c31be4b66490a0543a6u.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Resin"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "6"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "4.34",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.82",
+              "maxPrice": "4.34",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this Marian ornament made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ornament is made from resin, a durable material that can hold fine detail."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How many variants are available for this ornament?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There are six variants of this Marian and Sacred Heart ornament, offering different design options."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this ornament suitable for use in a church setting?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As a decor item referencing the Virgin Mary, it can be used as a church supply or in a home devotional setting, though specific liturgical use is not defined."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "ce94fcd666dbc9024b65ae922218c7d1ee98cf3d714e9eadf5c80982c0bee773",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "ce94fcd666dbc9024b65ae922218c7d1ee98cf3d714e9eadf5c80982c0bee773",
+            "contentHash": "ce94fcd666dbc9024b65ae922218c7d1ee98cf3d714e9eadf5c80982c0bee773",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:33:08.660Z",
             "model": "deepseek-v4-flash"
           }
         }

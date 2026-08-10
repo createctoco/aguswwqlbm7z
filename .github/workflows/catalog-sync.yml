@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: catalog-sync
@@ -109,3 +110,22 @@ jobs:
           path: src/data/site-catalog.json
           if-no-files-found: error
           retention-days: 7
+      - name: Trigger production deployment
+        # Bot commits use GITHUB_TOKEN, which does not trigger other workflows,
+        # so dispatch the deploy explicitly after the catalog state is published.
+        # Retry the dispatch so a transient GitHub API error does not skip a day.
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in 1 2 3; do
+            if gh workflow run "Deploy Cloudflare hybrid catalog" --repo "${{ github.repository }}" --ref main; then
+              echo "Production deployment dispatched on attempt $attempt."
+              exit 0
+            fi
+            echo "Deploy dispatch attempt $attempt failed; retrying in $((attempt * 10))s."
+            sleep $((attempt * 10))
+          done
+          echo "Unable to dispatch production deployment after 3 attempts." >&2
+          exit 1
+

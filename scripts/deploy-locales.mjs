@@ -45,6 +45,28 @@ function run(command, args, environment) {
   });
 }
 
+function runWithRetry(command, args, environment, { label, attempts = 3, baseDelayMs = 5_000 } = {}) {
+  return new Promise((resolvePromise, rejectPromise) => {
+    const attemptStep = async (attempt) => {
+      try {
+        await run(command, args, environment);
+        resolvePromise();
+      } catch (error) {
+        if (attempt >= attempts) {
+          rejectPromise(error);
+          return;
+        }
+        const delay = baseDelayMs * 2 ** (attempt - 1) + Math.random() * 500;
+        process.stdout.write(
+          `[OUOOO] ${label} attempt ${attempt}/${attempts} failed; retrying in ${Math.round(delay / 1000)}s.\n`
+        );
+        setTimeout(() => attemptStep(attempt + 1), delay);
+      }
+    };
+    attemptStep(1);
+  });
+}
+
 function capture(command, args) {
   return new Promise((resolvePromise, rejectPromise) => {
     const call = invocation(command, args);
@@ -137,7 +159,7 @@ for (const locale of localeNames) {
     await run(npmCommand, ['run', 'verify:localized-html'], environment);
   }
   process.stdout.write(`[OUOOO] Deploying ${locale} to ${workerName}\n`);
-  await run(
+  await runWithRetry(
     npxCommand,
     [
       'wrangler',
@@ -148,7 +170,8 @@ for (const locale of localeNames) {
       '--assets',
       join(root, 'dist', 'client'),
     ],
-    environment
+    environment,
+    { label: `Deploying ${workerName}` }
   );
   process.stdout.write(`[OUOOO] Deployed https://${definition.host}\n`);
 }

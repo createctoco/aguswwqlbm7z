@@ -28,7 +28,9 @@ export async function listProducts(
   const offset = (safePage - 1) * safePageSize;
   const [rows, total] = await database().batch([
     database()
-      .prepare('SELECT content_json FROM products WHERE locale = ? ORDER BY product_id DESC LIMIT ? OFFSET ?')
+      .prepare(
+        'SELECT content_json FROM products WHERE locale = ? ORDER BY updated_at DESC, product_id DESC LIMIT ? OFFSET ?'
+      )
       .bind(locale, safePageSize, offset),
     database().prepare('SELECT COUNT(*) AS count FROM products WHERE locale = ?').bind(locale),
   ]);
@@ -71,7 +73,7 @@ export async function getCollection(
         `SELECT p.content_json FROM product_categories pc
          JOIN products p ON p.product_id = pc.product_id AND p.locale = pc.locale
          WHERE pc.locale = ? AND pc.category_slug = ?
-         ORDER BY p.product_id DESC LIMIT ? OFFSET ?`
+         ORDER BY p.updated_at DESC, p.product_id DESC LIMIT ? OFFSET ?`
       )
       .bind(locale, slug, safePageSize, offset),
     database()

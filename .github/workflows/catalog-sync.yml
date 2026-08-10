@@ -2,6 +2,11 @@ name: Catalog sync
 
 on:
   workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of products to synchronize in this run (default 10)'
+        type: number
+        default: 10
   schedule:
     # 10:00 Asia/Shanghai every day (GitHub cron uses UTC).
     - cron: '0 2 * * *'
@@ -43,7 +48,7 @@ jobs:
         env:
           MECRT_CATALOG_URL: ${{ secrets.MECRT_CATALOG_URL }}
           MECRT_CATALOG_BRIDGE_SECRET: ${{ secrets.MECRT_CATALOG_BRIDGE_SECRET }}
-          MECRT_CATALOG_BATCH_SIZE: 10
+          MECRT_CATALOG_BATCH_SIZE: ${{ inputs.batch_size || 10 }}
           MECRT_CATALOG_QUEUE_FILE: src/data/catalog-queue.json
         run: npm run sync:catalog
 

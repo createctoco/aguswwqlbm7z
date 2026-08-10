@@ -47,7 +47,13 @@ async function signedPost(route, body, payload) {
         body: JSON.stringify(body),
         signal: controller.signal,
       });
-      const data = await response.json().catch(() => null);
+      const raw = await response.text();
+      let data = null;
+      try {
+        data = JSON.parse(raw);
+      } catch {
+        data = null;
+      }
       if (response.ok && data?.success) return data;
       const retryAfter = Number(data?.data?.retry_after || data?.retry_after || 0) * 1000;
       const applicationStatus = Number(data?.data?.status || 0);
@@ -61,7 +67,9 @@ async function signedPost(route, body, payload) {
         applicationStatus >= 500 ||
         retryAfter > 0 ||
         /rate|temporar|timeout/i.test(errorCode);
-      const safeReason = String(data?.message || errorCode || `HTTP ${response.status}`).slice(0, 180);
+      const safeReason = String(
+        data?.message || errorCode || (raw && raw.trim() ? 'non-JSON response' : 'empty response')
+      ).slice(0, 180);
       if (!retryable) throw new Error(`Catalog request rejected: ${safeReason} (HTTP ${response.status}).`);
       lastError = new Error(`Temporary catalog error: ${safeReason} (HTTP ${response.status}).`);
       if (attempt < maxAttempts)
@@ -150,6 +158,7 @@ async function fetchIndex() {
   const productsById = new Map(previousProducts.map((product) => [String(product.source_id), product]));
   for (const sourceId of deletedSourceIds) productsById.delete(sourceId);
   const summaryList = currentBatchIds.map((sourceId) => ({ source_id: sourceId }));
+  const missingSourceIds = new Set();
   let nextSummaryIndex = 0;
   let scanned = 0;
   const workerCount = Math.min(detailConcurrency, summaryList.length);
@@ -163,15 +172,31 @@ async function fetchIndex() {
         const identifier = String(summary.source_id);
         const body = { identifier, identifier_type: identifierType };
         const payload = `${identifierType}\n${identifier}`;
-        const data = await signedPost('/wp-json/mecrt-catalog/v1/product', body, payload);
-        if (!data?.product) throw new Error(`Product detail missing for source_id ${identifier}.`);
-        productsById.set(identifier, data.product);
+        try {
+          const data = await signedPost('/wp-json/mecrt-catalog/v1/product', body, payload);
+          if (!data?.product) throw new Error(`Product detail missing for source_id ${identifier}.`);
+          productsById.set(identifier, data.product);
+        } catch (error) {
+          const reason = error instanceof Error ? error.message : String(error);
+          const productUnavailable =
+            /not found|could not be loaded|non-JSON response/i.test(reason) &&
+            !/HTTP (5\d\d|429|408)\)/.test(reason);
+          if (productUnavailable) {
+            missingSourceIds.add(identifier);
+            productsById.delete(identifier);
+            process.stdout.write(`Product unavailable, skipping: ${identifier}.\n`);
+            continue;
+          }
+          throw error;
+        }
         scanned += 1;
         process.stdout.write(`Catalog detail scanned: ${scanned}/${summaryList.length}.\n`);
       }
     })
   );
-  const remainingSourceIds = pendingSourceIds.slice(currentBatchIds.length);
+  for (const sourceId of missingSourceIds) deletedSourceIds.add(sourceId);
+  const effectivePendingSourceIds = pendingSourceIds.filter((sourceId) => !missingSourceIds.has(sourceId));
+  const remainingSourceIds = effectivePendingSourceIds.slice(currentBatchIds.length);
   const availableProducts = [...productsById.values()];
   if (!fullSync && pendingSourceIds.length === 0 && deletedSourceIds.size === 0) {
     process.stdout.write(`Catalog unchanged since ${modifiedAfter}; reusing ${availableProducts.length} products.\n`);
@@ -185,7 +210,7 @@ async function fetchIndex() {
         windowStartedAt: queueWindowStartedAt,
         modifiedAfter: hasPendingQueue ? savedQueue.modifiedAfter : modifiedAfter || null,
         sourceTotal: hasPendingQueue ? savedQueue.sourceTotal : sourceTotal,
-        pendingSourceIds,
+        pendingSourceIds: effectivePendingSourceIds,
         inflightSourceIds: currentBatchIds,
         deletedSourceIds: [...deletedSourceIds],
         processed: Number(savedQueue?.processed || 0),

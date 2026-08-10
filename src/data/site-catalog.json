@@ -1,11 +1,11 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-09T16:08:41.572Z",
+  "generatedAt": "2026-08-10T10:01:24.812Z",
   "sync": {
-    "mode": "incremental",
-    "cursor": "2026-08-09T15:58:16.918Z",
-    "modifiedAfter": "2026-08-09T15:53:16.918Z",
+    "mode": "full",
+    "cursor": "",
+    "modifiedAfter": null,
     "changedProductIds": [
       "AAFOTG7BAOVioqqEY6emD3Ij",
       "AAE1TG7BAOVioqqEY6enzCwS",
@@ -1242,7 +1242,9 @@
         }
       ],
       "accent": "#6d7887",
-      "features": ["Variant: Red rope 1 #, Red rope 2 #"],
+      "features": [
+        "Variant: Red rope 1 #, Red rope 2 #"
+      ],
       "specifications": [
         {
           "name": "Variant",
@@ -1691,6 +1693,126 @@
       }
     },
     {
+      "productId": "AAFtTG7BAOVioqqEY6emNnsS",
+      "sourceId": "AAFtTG7BAOVioqqEY6emNnsS",
+      "sourceFingerprint": "ce434ad43112c80f816c02df92ccc831f5fe14d92733601cc539a5e39928a46f",
+      "locale": "en",
+      "slug": "rice-bead-beaded-friendship-bracelet-with-colored-flowers-emnnss",
+      "title": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
+      "eyebrow": "Rosary bracelets",
+      "summary": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
+      "description": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.webp",
+      "imageAlt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31c8655ab6fb4a979f07a3689fa2a584B.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbb58d030cebf4e3796de2ce5556be2efl.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H13a3ec3c3ade461cb8023c02531a724bq.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hca71038ad2624aadafda3669458729e3e.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf90485749c644c3f92c48ab365906627W.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade - blue",
+          "label": "blue",
+          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfce604a47ec04b56aa8f935b24787d36b.webp",
+          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade - red",
+          "label": "red",
+          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS-V--1"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Variant: Red, Blue"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Red, Blue"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.84",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
+          "description": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
+          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.jpg",
+            "https://sc04.alicdn.com/kf/H31c8655ab6fb4a979f07a3689fa2a584B.jpg",
+            "https://sc04.alicdn.com/kf/Hbb58d030cebf4e3796de2ce5556be2efl.jpg",
+            "https://sc04.alicdn.com/kf/H13a3ec3c3ade461cb8023c02531a724bq.jpg",
+            "https://sc04.alicdn.com/kf/Hca71038ad2624aadafda3669458729e3e.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Red, Blue"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.84",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
+            "contentHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
+            "attempts": 0,
+            "updatedAt": "2026-08-08T10:21:09.257Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
       "productId": "AAHTTG7BAOVioqqEY6eIQpzp",
       "sourceId": "AAHTTG7BAOVioqqEY6eIQpzp",
       "sourceFingerprint": "d9ab97da1746f578eca10e5c8c511721e695770afed57dee5cd2a53bf0e8caa1",
@@ -1760,7 +1882,7 @@
           "sku": "ALI-AAHTTG7BAOVioqqEY6eIQpzp-V--6"
         }
       ],
-      "accent": "#9a6b63",
+      "accent": "#7a6d92",
       "features": [
         "Colorful plastic construction",
         "Available in four designs: Angel, Guadalupe, Jesus, and Our Lady",
@@ -1897,124 +2019,6 @@
             "contentHash": "50bf2d91cd1e505c8cef8a87ae5434070bfe9fda1651e4d50058b4b257c5bc79",
             "attempts": 0,
             "updatedAt": "2026-08-08T10:25:57.724Z",
-            "model": "deepseek-v4-flash"
-          }
-        }
-      }
-    },
-    {
-      "productId": "AAFtTG7BAOVioqqEY6emNnsS",
-      "sourceId": "AAFtTG7BAOVioqqEY6emNnsS",
-      "sourceFingerprint": "ce434ad43112c80f816c02df92ccc831f5fe14d92733601cc539a5e39928a46f",
-      "locale": "en",
-      "slug": "rice-bead-beaded-friendship-bracelet-with-colored-flowers-emnnss",
-      "title": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
-      "eyebrow": "Rosary bracelets",
-      "summary": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
-      "description": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
-      "catholicContext": "",
-      "catholicRelevance": "devotional_context",
-      "categories": [
-        {
-          "id": "20",
-          "name": "Rosary bracelets",
-          "slug": "rosary-bracelets"
-        }
-      ],
-      "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS",
-      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.webp",
-      "imageAlt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
-      "gallery": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31c8655ab6fb4a979f07a3689fa2a584B.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbb58d030cebf4e3796de2ce5556be2efl.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/H13a3ec3c3ade461cb8023c02531a724bq.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hca71038ad2624aadafda3669458729e3e.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade"
-        }
-      ],
-      "variantImages": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf90485749c644c3f92c48ab365906627W.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade - blue",
-          "label": "blue",
-          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS-V--2"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfce604a47ec04b56aa8f935b24787d36b.webp",
-          "alt": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade - red",
-          "label": "red",
-          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS-V--1"
-        }
-      ],
-      "accent": "#7a6d92",
-      "features": ["Variant: Red, Blue"],
-      "specifications": [
-        {
-          "name": "Variant",
-          "value": "Red, Blue"
-        }
-      ],
-      "applications": [],
-      "faq": [],
-      "pricing": {
-        "price": "0.84",
-        "currency": "USD",
-        "onSale": false
-      },
-      "structuredData": {
-        "product": {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade",
-          "description": "Colored Flowers Rice Beads Beaded Friendship Couple Eye Handmade Bracelet Bohemian Ins Bracelet",
-          "sku": "ALI-AAFtTG7BAOVioqqEY6emNnsS",
-          "image": [
-            "https://sc04.alicdn.com/kf/Hdbcbd45a8c254fbca3b9ccd5f47ae1ffJ.jpg",
-            "https://sc04.alicdn.com/kf/H31c8655ab6fb4a979f07a3689fa2a584B.jpg",
-            "https://sc04.alicdn.com/kf/Hbb58d030cebf4e3796de2ce5556be2efl.jpg",
-            "https://sc04.alicdn.com/kf/H13a3ec3c3ade461cb8023c02531a724bq.jpg",
-            "https://sc04.alicdn.com/kf/Hca71038ad2624aadafda3669458729e3e.jpg"
-          ],
-          "category": "Rosary bracelets",
-          "additionalProperty": [
-            {
-              "@type": "PropertyValue",
-              "name": "Variant",
-              "value": "Red, Blue"
-            }
-          ],
-          "offers": {
-            "@type": "Offer",
-            "price": "0.84",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          }
-        }
-      },
-      "localization": {
-        "sourceLocale": "en",
-        "sourceHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
-        "translations": {
-          "en": {
-            "status": "source",
-            "sourceHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
-            "contentHash": "f533c9734aab06a132d204865ecc0598ed49204e0d3127d98bcc141f1c7338d8",
-            "attempts": 0,
-            "updatedAt": "2026-08-08T10:21:09.257Z",
             "model": "deepseek-v4-flash"
           }
         }

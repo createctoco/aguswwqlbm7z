@@ -12,7 +12,7 @@ const collectionLinks = (navigationCollections[BUILD_LOCALE] || navigationCollec
 export const headerData = {
   links: [
     { text: 'Products', href: getPermalink('/products') },
-    { text: ui('selectCategory'), href: getPermalink('/collections'), links: collectionLinks },
+    { text: ui('category'), href: getPermalink('/collections'), links: collectionLinks },
     { text: 'Guides', href: getPermalink('/guides') },
     { text: 'About', href: getPermalink('/about') },
     { text: 'Contact', href: getPermalink('/contact') },
@@ -33,7 +33,7 @@ export const footerData = {
       title: 'Discover',
       links: [
         { text: 'All products', href: '/products' },
-        { text: ui('selectCategory'), href: '/collections' },
+        { text: ui('category'), href: '/collections' },
         { text: 'Sourcing guides', href: '/guides' },
       ],
     },

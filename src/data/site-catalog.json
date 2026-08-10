@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-10T15:39:16.092Z",
+  "generatedAt": "2026-08-10T16:07:19.630Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": "2026-08-09T15:53:16.918Z",
     "changedProductIds": [
-      "AAH0TG7BAOVioqqEY6emXpfV",
-      "AAEnTG7BAOVioqqEY6eykXfp",
-      "AAHwTG7BAOVioqqEY6emD_w7",
-      "AAH3TG7BAOVioqqEY6emD6kV",
-      "AAHoTG7BAOVioqqEY6emDvg4",
-      "AAFHTG7BAOVioqqEY6emD2Is",
-      "AAHJTG7BAOVioqqEY6emDoEQ",
-      "AAEETG7BAOVioqqEY6e_xaVX",
-      "AAHHTG7BAOVioqqEY6e_xHjI",
-      "AAHHTG7BAOVioqqEY6eBSrLG"
+      "AAFnTG7BAOVioqqEY6eeHbB4",
+      "AAGvTG7BAOVioqqEY6ez5-on",
+      "AAFITG7BAOVioqqEY6emXOxW",
+      "AAGpTG7BAOVioqqEY6empc0N",
+      "AAESTG7BAOVioqqEY6ejdWIU",
+      "AAGbTG7BAOVioqqEY6empNT5",
+      "AAEtTG7BAOVioqqEY6eBTEsR",
+      "AAGHTG7BAOVioqqEY6eP_WGW",
+      "AAGLTG7BAOVioqqEY6eyk4-z",
+      "AAG2TG7BAOVioqqEY6ejcpEM"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 0,
+    "generated": 7,
     "reused": 20,
-    "source_fallback": 0
+    "source_fallback": 3
   },
   "products": [
     {
@@ -3980,6 +3980,2012 @@
             "contentHash": "ce94fcd666dbc9024b65ae922218c7d1ee98cf3d714e9eadf5c80982c0bee773",
             "attempts": 0,
             "updatedAt": "2026-08-10T15:33:08.660Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFnTG7BAOVioqqEY6eeHbB4",
+      "sourceId": "AAFnTG7BAOVioqqEY6eeHbB4",
+      "sourceFingerprint": "8f4e292c0e1f915bc6efbe47c5182a6d87a0e72cd56df81f6dd53d6d9c9dd618",
+      "locale": "en",
+      "slug": "wooden-catholic-rosary-necklace-with-crucifix-pendant-eehbb4",
+      "title": "Wooden Catholic Rosary Necklace with Crucifix Pendant",
+      "eyebrow": "Wooden Catholic Rosary Necklace",
+      "summary": "This unisex necklace combines wooden prayer beads with a zinc alloy crucifix pendant, designed for Catholic devotional use. Its strand chain and religious cross shape make it suitable as a gift or church souvenir. Available with aperture setting construction.",
+      "description": "This wooden rosary necklace offers a practical choice for Catholic prayer and reflection. The beads are made of wood, while the crucifix pendant is crafted from zinc alloy with an aperture setting, providing a distinct visual contrast. The strand chain design allows for comfortable wear, and the unisex style suits both men and women. Whether used as a personal devotional aid or given as a gift, this piece serves as a tangible reminder of the Rosary tradition. Its religious cross shape clearly identifies it as a Christian accessory.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary, often prayed with beads.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAFnTG7BAOVioqqEY6eeHbB4",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H3915afb41cd7469e84d5c2c7ddcebceeg.webp",
+      "imageAlt": "Wooden Catholic Rosary Necklace with Crucifix Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3915afb41cd7469e84d5c2c7ddcebceeg.webp",
+          "alt": "Wooden Catholic Rosary Necklace with Crucifix Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H441adc1e45e947309f69c522ec12b69cx.webp",
+          "alt": "Wooden Catholic Rosary Necklace with Crucifix Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Habdde0e11f794f7eabb18c3e7b129246v.webp",
+          "alt": "Wooden Catholic Rosary Necklace with Crucifix Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H38bb833f15864e7bba8a68182247517d3.webp",
+          "alt": "Wooden Catholic Rosary Necklace with Crucifix Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf96ebff5ae2d4236baf919eea82dfab5S.webp",
+          "alt": "Wooden Catholic Rosary Necklace with Crucifix Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ba84f22b6514bc48c323faa60660050J.webp",
+          "alt": "Wooden Catholic Rosary Necklace with Crucifix Pendant"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#9a6b63",
+      "features": [
+        "Wooden beads on a strand chain",
+        "Zinc alloy crucifix pendant with aperture setting",
+        "Unisex design suitable for all genders",
+        "Cross-shaped pendant",
+        "Religious style for Catholic or Christian use"
+      ],
+      "specifications": [
+        {
+          "name": "Main Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Pendant Material",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Pendant Necklace"
+        },
+        {
+          "name": "Chain Type",
+          "value": "Strand"
+        },
+        {
+          "name": "Shape/Pattern",
+          "value": "Cross"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        }
+      ],
+      "applications": [
+        "Daily prayer and meditation",
+        "Gift for Catholic sacraments or holidays",
+        "Church souvenir or donation item",
+        "Personal devotional accessory"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this rosary necklace?",
+          "answer": "The beads are made of wood, and the crucifix pendant is made of zinc alloy with an aperture setting."
+        },
+        {
+          "question": "Is this rosary necklace suitable for both men and women?",
+          "answer": "Yes, it is designed as a unisex accessory, making it suitable for anyone."
+        },
+        {
+          "question": "What type of chain does this rosary necklace have?",
+          "answer": "It features a strand chain, which is typical for rosary beads, providing a flexible and classic look."
+        }
+      ],
+      "pricing": {
+        "price": "0.85",
+        "regularPrice": "0.85",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.70",
+          "max": "0.85"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wooden Catholic Rosary Necklace with Crucifix Pendant",
+          "description": "Unisex wooden rosary necklace with zinc alloy crucifix pendant, designed for Catholic prayer and gift giving. Strand chain, religious cross shape, aperture setting.",
+          "sku": "ALI-AAFnTG7BAOVioqqEY6eeHbB4",
+          "image": [
+            "https://sc04.alicdn.com/kf/H3915afb41cd7469e84d5c2c7ddcebceeg.jpg",
+            "https://sc04.alicdn.com/kf/H441adc1e45e947309f69c522ec12b69cx.jpg",
+            "https://sc04.alicdn.com/kf/Habdde0e11f794f7eabb18c3e7b129246v.jpg",
+            "https://sc04.alicdn.com/kf/H38bb833f15864e7bba8a68182247517d3.jpg",
+            "https://sc04.alicdn.com/kf/Hf96ebff5ae2d4236baf919eea82dfab5S.jpg",
+            "https://sc04.alicdn.com/kf/H6ba84f22b6514bc48c323faa60660050J.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendant Material",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Pendant Necklace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain Type",
+              "value": "Strand"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape/Pattern",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.85",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.70",
+              "maxPrice": "0.85",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this rosary necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are made of wood, and the crucifix pendant is made of zinc alloy with an aperture setting."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary necklace suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed as a unisex accessory, making it suitable for anyone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What type of chain does this rosary necklace have?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It features a strand chain, which is typical for rosary beads, providing a flexible and classic look."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b6d4db89fde4b5beeaaf90ec36dfd674ee2d9db71935edd257e40e20744b904f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b6d4db89fde4b5beeaaf90ec36dfd674ee2d9db71935edd257e40e20744b904f",
+            "contentHash": "b6d4db89fde4b5beeaaf90ec36dfd674ee2d9db71935edd257e40e20744b904f",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:58:19.040Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGvTG7BAOVioqqEY6ez5-on",
+      "sourceId": "AAGvTG7BAOVioqqEY6ez5-on",
+      "sourceFingerprint": "378b64b9ca0ae686587dee3c1607c65887d2b231a6984b1dcc7ab4174c7acdf7",
+      "locale": "en",
+      "slug": "manufacturer-wholesaler-retro-style-cross-border-gold-and-silver-ez5-on",
+      "title": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver",
+      "eyebrow": "Jewelry Packaging",
+      "summary": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver Metal Jewelry Box Square Patterned Alloy Gift Box",
+      "description": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver Metal Jewelry Box Square Patterned Alloy Gift Box",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "122",
+          "name": "Jewelry Packaging",
+          "slug": "jewelry-packaging"
+        }
+      ],
+      "sku": "ALI-AAGvTG7BAOVioqqEY6ez5-on",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc4ba1c7bbc9b4cc0a0926b7e191b1c72e.webp",
+      "imageAlt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc4ba1c7bbc9b4cc0a0926b7e191b1c72e.webp",
+          "alt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7451df5c18d04a1f824b0ece98869cc8a.webp",
+          "alt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc633db1701574d4fba55cf42105218def.webp",
+          "alt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Habd23485acd045148171a405418629065.webp",
+          "alt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hec6b226b9fbb4dd88bc96ca8bbc463feR.webp",
+          "alt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H66b42ab3614f46d2b1a8abe970c3fed4o.webp",
+          "alt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0070e3ef59cc40829d1e80c6de8f8056m.webp",
+          "alt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver - gun-black",
+          "label": "gun-black",
+          "sku": "ALI-AAGvTG7BAOVioqqEY6ez5-on-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3b442e9d323f441a9d6c35c4a7a46433X.webp",
+          "alt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver - antique-green-brushed",
+          "label": "antique-green-brushed",
+          "sku": "ALI-AAGvTG7BAOVioqqEY6ez5-on-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9d9d74631d8b4828bc02ba82779aebe8x.webp",
+          "alt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver - silver",
+          "label": "silver",
+          "sku": "ALI-AAGvTG7BAOVioqqEY6ez5-on-V-3460547"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf70fb8ac0beb4ec9a26c81c832f3b9aeT.webp",
+          "alt": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver - gold",
+          "label": "gold",
+          "sku": "ALI-AAGvTG7BAOVioqqEY6ez5-on-V-3331116"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Variant: Antique green brushed, Gun black, Gold, Silver",
+        "Exterior Material: Metal"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Antique green brushed, Gun black, Gold, Silver"
+        },
+        {
+          "name": "Exterior Material",
+          "value": "Metal"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.90",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.80",
+          "max": "0.90"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver",
+          "description": "Manufacturer Wholesaler Retro Style Cross-Border Gold and Silver Metal Jewelry Box Square Patterned Alloy Gift Box",
+          "sku": "ALI-AAGvTG7BAOVioqqEY6ez5-on",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc4ba1c7bbc9b4cc0a0926b7e191b1c72e.png",
+            "https://sc04.alicdn.com/kf/H7451df5c18d04a1f824b0ece98869cc8a.png",
+            "https://sc04.alicdn.com/kf/Hc633db1701574d4fba55cf42105218def.png",
+            "https://sc04.alicdn.com/kf/Habd23485acd045148171a405418629065.png",
+            "https://sc04.alicdn.com/kf/Hec6b226b9fbb4dd88bc96ca8bbc463feR.png",
+            "https://sc04.alicdn.com/kf/H66b42ab3614f46d2b1a8abe970c3fed4o.png"
+          ],
+          "category": "Jewelry Packaging",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Antique green brushed, Gun black, Gold, Silver"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Exterior Material",
+              "value": "Metal"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.90",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.80",
+              "maxPrice": "0.90",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "7d24562932692ad0940f97f1c9694b88f06f18623db1f82a15a3acd51b58c9e3",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "7d24562932692ad0940f97f1c9694b88f06f18623db1f82a15a3acd51b58c9e3",
+            "contentHash": "7d24562932692ad0940f97f1c9694b88f06f18623db1f82a15a3acd51b58c9e3",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:58:50.642Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGpTG7BAOVioqqEY6empc0N",
+      "sourceId": "AAGpTG7BAOVioqqEY6empc0N",
+      "sourceFingerprint": "3ad2c224f8b6f999334d7aa90c5b25661bd37cb449e508f0f5995939fa0081f3",
+      "locale": "en",
+      "slug": "copper-micro-inlaid-fashion-ring-for-women-empc0n",
+      "title": "Copper Micro-Inlaid Fashion Ring for Women",
+      "eyebrow": "women's copper micro-inlaid fashion ring",
+      "summary": "This women's ring features a micro-inlaid copper band with a niche, retro-inspired design. Available in four color variants: gold with white diamonds, golden diamond, silver with colored diamonds, and silver white diamond. A distinctive fashion accessory for everyday wear.",
+      "description": "Constructed from copper, this ring showcases a micro-inlaid technique that creates a textured, dimensional surface. Its retro styling appeals to buyers seeking unique, high-end fashion jewelry. The ring is offered in four variants, allowing customers to choose between gold or silver tones and diamond color accents. Ideal for boutiques and fashion retailers looking to expand their accessory offerings. We source this item from vetted suppliers and can assist with bulk inquiries.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Rings",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAGpTG7BAOVioqqEY6empc0N",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H3e836ef6eeb344a692db23e06ebb5b70W.webp",
+      "imageAlt": "Copper Micro-Inlaid Fashion Ring for Women",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3e836ef6eeb344a692db23e06ebb5b70W.webp",
+          "alt": "Copper Micro-Inlaid Fashion Ring for Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H218e7970ad81411facafbf02aca73204p.webp",
+          "alt": "Copper Micro-Inlaid Fashion Ring for Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hae2ff188b4134df8af83344328d8e6abD.webp",
+          "alt": "Copper Micro-Inlaid Fashion Ring for Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3be7db12d87d4fa1bc7af21422bbe34fU.webp",
+          "alt": "Copper Micro-Inlaid Fashion Ring for Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbf23423ae01442339d46bea98ca75086X.webp",
+          "alt": "Copper Micro-Inlaid Fashion Ring for Women"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H75569882b8184d24a9c90d6b4d5deb3cV.webp",
+          "alt": "Copper Micro-Inlaid Fashion Ring for Women - silver-colored-diamonds",
+          "label": "silver-colored-diamonds",
+          "sku": "ALI-AAGpTG7BAOVioqqEY6empc0N-V--2"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Copper construction for durability and weight",
+        "Micro-inlaid surface detail for a distinct texture",
+        "Retro, niche design style",
+        "Four color variants: Gold and white diamonds, Golden Diamond, Silver colored diamonds, Silver White Diamond",
+        "Categorized as fashion jewelry for women"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Copper"
+        },
+        {
+          "name": "Style",
+          "value": "Retro, niche design"
+        },
+        {
+          "name": "Variants",
+          "value": "Gold and white diamonds, Golden Diamond, Silver colored diamonds, Silver White Diamond"
+        }
+      ],
+      "applications": [
+        "Everyday fashion accessory",
+        "Boutique jewelry inventory",
+        "Gift for jewelry enthusiasts",
+        "Stacking with other rings"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this ring made of?",
+          "answer": "The ring is made of copper, which provides a sturdy and weighty feel."
+        },
+        {
+          "question": "What color variants are available for this ring?",
+          "answer": "The ring comes in four variants: Gold and white diamonds, Golden Diamond, Silver colored diamonds, and Silver White Diamond."
+        },
+        {
+          "question": "Can I order bulk quantities of this ring for my store?",
+          "answer": "Yes, we support bulk sourcing. Contact us with your desired quantity and variant preferences for further assistance."
+        }
+      ],
+      "pricing": {
+        "price": "1.44",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Copper Micro-Inlaid Fashion Ring for Women",
+          "description": "Retro-style copper micro-inlaid ring for women, available in gold and silver diamond color variants. Niche design for fashion-forward jewelry buyers.",
+          "sku": "ALI-AAGpTG7BAOVioqqEY6empc0N",
+          "image": [
+            "https://sc04.alicdn.com/kf/H3e836ef6eeb344a692db23e06ebb5b70W.jpg",
+            "https://sc04.alicdn.com/kf/H218e7970ad81411facafbf02aca73204p.jpg",
+            "https://sc04.alicdn.com/kf/Hae2ff188b4134df8af83344328d8e6abD.jpg",
+            "https://sc04.alicdn.com/kf/H3be7db12d87d4fa1bc7af21422bbe34fU.jpg",
+            "https://sc04.alicdn.com/kf/Hbf23423ae01442339d46bea98ca75086X.jpg"
+          ],
+          "category": "Rings",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Copper"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Retro, niche design"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "Gold and white diamonds, Golden Diamond, Silver colored diamonds, Silver White Diamond"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.44",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this ring made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ring is made of copper, which provides a sturdy and weighty feel."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color variants are available for this ring?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ring comes in four variants: Gold and white diamonds, Golden Diamond, Silver colored diamonds, and Silver White Diamond."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I order bulk quantities of this ring for my store?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, we support bulk sourcing. Contact us with your desired quantity and variant preferences for further assistance."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "767b87be830b515ddd4425339aad8652685bb14be295d2969c54497ec226fbda",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "767b87be830b515ddd4425339aad8652685bb14be295d2969c54497ec226fbda",
+            "contentHash": "767b87be830b515ddd4425339aad8652685bb14be295d2969c54497ec226fbda",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:59:11.476Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFITG7BAOVioqqEY6emXOxW",
+      "sourceId": "AAFITG7BAOVioqqEY6emXOxW",
+      "sourceFingerprint": "1726802e7ec35a51bce2708eb3110c031c93dfe9997944b324d55b2c7994557f",
+      "locale": "en",
+      "slug": "religious-catholic-priest-round-alloy-pendant-necklace-and-emxoxw",
+      "title": "Religious Catholic Priest Round Alloy Pendant Necklace and",
+      "eyebrow": "Accessories",
+      "summary": "Religious Catholic Priest Round Alloy Pendant Necklace and Bracelet DIY Charms",
+      "description": "Religious Catholic Priest Round Alloy Pendant Necklace and Bracelet DIY Charms",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H7331228cb9094beba1037d529e95acdeG.webp",
+      "imageAlt": "Religious Catholic Priest Round Alloy Pendant Necklace and",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7331228cb9094beba1037d529e95acdeG.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3e882cbe40c246f58b944f9dd36d6da0G.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdbdd5c797cb64f29a18634994665ce73Z.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4f6241715fbe4da3b25c72f95b466681t.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd3da5b988919486bbdb45160c26da907n.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H507e9bd2fbf9487d8979cd34844aaca79.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and - silver-a08958-gy",
+          "label": "silver-a08958-gy",
+          "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdfbbcc37e71f4782a8243117a74fe9aaL.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and - silver-a30015-gy",
+          "label": "silver-a30015-gy",
+          "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H305bcc6b33c54d70b5fb9fbeae39bf08h.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and - silver-a09423-gy",
+          "label": "silver-a09423-gy",
+          "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H939e9421c93940caba412ac6a982747eL.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and - silver-a08962-gy",
+          "label": "silver-a08962-gy",
+          "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3188fad59edc49d6a659226c1a1888eax.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and - silver-a9289-gy",
+          "label": "silver-a9289-gy",
+          "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H69c934611bb34a53b850ce3904eef177C.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and - silver-a09288-gy",
+          "label": "silver-a09288-gy",
+          "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd2aad9621c714a45ae332a0b21cfee0dT.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and - silver-a08956-gy",
+          "label": "silver-a08956-gy",
+          "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H139efccb5ff24fbaae152db5567ec12cO.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and - silver-a08960-gy",
+          "label": "silver-a08960-gy",
+          "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He9e008b6677c471e8bec369b93581cc0B.webp",
+          "alt": "Religious Catholic Priest Round Alloy Pendant Necklace and - silver-a08955-gy",
+          "label": "silver-a08955-gy",
+          "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW-V--5"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Variant: Silver-A08955-gy, Silver-A08956-gy, Silver-A08958-gy, Silver-A08960-gy, Silver-A08962-gy, Silver-A09288-gy, Silver-A09423-gy, Silver-A30015-gy, Silver-A9289-gy"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Silver-A08955-gy, Silver-A08956-gy, Silver-A08958-gy, Silver-A08960-gy, Silver-A08962-gy, Silver-A09288-gy, Silver-A09423-gy, Silver-A30015-gy, Silver-A9289-gy"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.08",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.08",
+          "max": "0.12"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Religious Catholic Priest Round Alloy Pendant Necklace and",
+          "description": "Religious Catholic Priest Round Alloy Pendant Necklace and Bracelet DIY Charms",
+          "sku": "ALI-AAFITG7BAOVioqqEY6emXOxW",
+          "image": [
+            "https://sc04.alicdn.com/kf/H7331228cb9094beba1037d529e95acdeG.jpg",
+            "https://sc04.alicdn.com/kf/H3e882cbe40c246f58b944f9dd36d6da0G.jpg",
+            "https://sc04.alicdn.com/kf/Hdbdd5c797cb64f29a18634994665ce73Z.jpg",
+            "https://sc04.alicdn.com/kf/H4f6241715fbe4da3b25c72f95b466681t.jpg",
+            "https://sc04.alicdn.com/kf/Hd3da5b988919486bbdb45160c26da907n.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Silver-A08955-gy, Silver-A08956-gy, Silver-A08958-gy, Silver-A08960-gy, Silver-A08962-gy, Silver-A09288-gy, Silver-A09423-gy, Silver-A30015-gy, Silver-A9289-gy"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.08",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.08",
+              "maxPrice": "0.12",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b1ab21fae46401298f12ba81efef791203d0e46b970ef69b1a7b5ee4a089c9c1",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b1ab21fae46401298f12ba81efef791203d0e46b970ef69b1a7b5ee4a089c9c1",
+            "contentHash": "b1ab21fae46401298f12ba81efef791203d0e46b970ef69b1a7b5ee4a089c9c1",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:59:46.621Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAESTG7BAOVioqqEY6ejdWIU",
+      "sourceId": "AAESTG7BAOVioqqEY6ejdWIU",
+      "sourceFingerprint": "63859df8043df3c826c05dcf733bd872a9da03b6fc92cafac06dc8d128f60458",
+      "locale": "en",
+      "slug": "blank-wooden-cross-ornaments-for-painting-ejdwiu",
+      "title": "Blank Wooden Cross Ornaments for Painting",
+      "eyebrow": "Blank wooden cross ornament for painting",
+      "summary": "These are blank wooden cross shapes for DIY painting and decorating. Choose from a solid cross chip or pre-punched pieces. They are hanging ornaments, ready for children's art projects and craft time.",
+      "description": "This product offers blank wooden cross ornaments, available in two variants: a solid cross chip and pre-punched cross pieces. Both are designed for hanging and are ideal for children's painting and graffiti art. The surface is raw wood, ready for personalization with paints, markers, or other craft supplies. These ornaments can be used in educational settings, religious classes, or as a creative family activity. They are a simple, unadorned cross shape, suitable for various craft projects.",
+      "catholicContext": "A plain cross is a Christian symbol but is distinct from a crucifix, which depicts Christ on the cross.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAESTG7BAOVioqqEY6ejdWIU",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hfaad11538471449fa19a617a36c4ec97w.webp",
+      "imageAlt": "Blank Wooden Cross Ornaments for Painting",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfaad11538471449fa19a617a36c4ec97w.webp",
+          "alt": "Blank Wooden Cross Ornaments for Painting"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha909fb593a344011a06a74772bf0760eV.webp",
+          "alt": "Blank Wooden Cross Ornaments for Painting"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc4979c2d14d24b6cb32d60e475bcd492g.webp",
+          "alt": "Blank Wooden Cross Ornaments for Painting"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd6cdffbbc8934cd49579abaa45c6e131l.webp",
+          "alt": "Blank Wooden Cross Ornaments for Painting"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H65c66c6a73014402b90e04a18dda155dd.webp",
+          "alt": "Blank Wooden Cross Ornaments for Painting"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H811be8589f644bd0b305ad9fc694d7bbG.webp",
+          "alt": "Blank Wooden Cross Ornaments for Painting - cross-blank-wood-pieces-punched",
+          "label": "cross-blank-wood-pieces-punched",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ejdWIU-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hee7afc38707e4143ae097fe3d4e9a894I.webp",
+          "alt": "Blank Wooden Cross Ornaments for Painting - cross-blank-wood-chip",
+          "label": "cross-blank-wood-chip",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ejdWIU-V--1"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Blank wooden cross shape for DIY painting",
+        "Two variants: solid cross chip and pre-punched cross pieces",
+        "Designed as hanging ornaments",
+        "Suitable for children's painting and graffiti",
+        "Raw wood surface ready for customization"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Cross blank wood chip / Cross blank wood pieces punched"
+        },
+        {
+          "name": "Category",
+          "value": "Ornaments"
+        }
+      ],
+      "applications": [
+        "Children's painting and craft projects",
+        "Sunday school or religious education activities",
+        "Holiday ornament decoration",
+        "Personalized gift making for family and friends"
+      ],
+      "faq": [
+        {
+          "question": "What are the two variants of this wooden cross ornament?",
+          "answer": "The two variants are a solid cross blank wood chip and cross blank wood pieces that are punched (pre-punched for hanging)."
+        },
+        {
+          "question": "Can these wooden crosses be painted with any type of paint?",
+          "answer": "As they are blank raw wood, they can be painted with most craft paints, such as acrylic or tempera, suitable for children."
+        },
+        {
+          "question": "Are these crosses suitable for hanging?",
+          "answer": "Yes, they are designed as hanging ornaments; the punched variant likely has holes for string or ribbon, while the chip variant may need a small nail or adhesive hook."
+        }
+      ],
+      "pricing": {
+        "price": "0.09",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.07",
+          "max": "0.09"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Blank Wooden Cross Ornaments for Painting",
+          "description": "DIY blank wooden cross ornaments for children's painting. Two variants: solid chip and pre-punched pieces. Ideal for crafts and religious education.",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ejdWIU",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hfaad11538471449fa19a617a36c4ec97w.jpg",
+            "https://sc04.alicdn.com/kf/Ha909fb593a344011a06a74772bf0760eV.png",
+            "https://sc04.alicdn.com/kf/Hc4979c2d14d24b6cb32d60e475bcd492g.jpg",
+            "https://sc04.alicdn.com/kf/Hd6cdffbbc8934cd49579abaa45c6e131l.jpg",
+            "https://sc04.alicdn.com/kf/H65c66c6a73014402b90e04a18dda155dd.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Cross blank wood chip / Cross blank wood pieces punched"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Ornaments"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.09",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.07",
+              "maxPrice": "0.09",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the two variants of this wooden cross ornament?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The two variants are a solid cross blank wood chip and cross blank wood pieces that are punched (pre-punched for hanging)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can these wooden crosses be painted with any type of paint?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As they are blank raw wood, they can be painted with most craft paints, such as acrylic or tempera, suitable for children."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are these crosses suitable for hanging?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, they are designed as hanging ornaments; the punched variant likely has holes for string or ribbon, while the chip variant may need a small nail or adhesive hook."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "70bb85e964473f5c2af567f47cc3838ed3120662e0486c80bb4fa0c52af22b96",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "70bb85e964473f5c2af567f47cc3838ed3120662e0486c80bb4fa0c52af22b96",
+            "contentHash": "70bb85e964473f5c2af567f47cc3838ed3120662e0486c80bb4fa0c52af22b96",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T15:59:52.158Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGbTG7BAOVioqqEY6empNT5",
+      "sourceId": "AAGbTG7BAOVioqqEY6empNT5",
+      "sourceFingerprint": "211b30596d8dfb6561150b45bb5a1d47ca0000c32bf41b947417bc0d186ad5e5",
+      "locale": "en",
+      "slug": "copper-micro-set-luxury-virgin-of-guadalupe-vintage-jewelry-gold-empnt5",
+      "title": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold",
+      "eyebrow": "Rings",
+      "summary": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold hollowed-out high-end design time ring",
+      "description": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold hollowed-out high-end design time ring",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Rings",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAGbTG7BAOVioqqEY6empNT5",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H191a94b2503b466da670bfc07d43d6209.webp",
+      "imageAlt": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H191a94b2503b466da670bfc07d43d6209.webp",
+          "alt": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf3d6d7a4f72d4c09b824aa8c78d7ff574.webp",
+          "alt": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6d6e0ccfd64a42d7ad82b26ab0ed9788o.webp",
+          "alt": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1544bc25223a4fd091da15a6e6d0b3654.webp",
+          "alt": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5578dea78ba1441db29ff718b2c67144X.webp",
+          "alt": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Jewelry Main Material: Alloy",
+        "Gender: Women's, Men's, Unisex",
+        "Main Stone: None",
+        "Jewelry Type: Rings",
+        "Occasion: Baptism, Bachelor Party, bar and bat mitzvah, First Communion, Wedding, Anniversary, Party, Birthday, Gift, Engagement",
+        "Rings Type: Wedding Bands or Rings",
+        "Shape\\pattern: Cross",
+        "Style: Religious"
+      ],
+      "specifications": [
+        {
+          "name": "Jewelry Main Material",
+          "value": "Alloy"
+        },
+        {
+          "name": "Gender",
+          "value": "Women's, Men's, Unisex"
+        },
+        {
+          "name": "Main Stone",
+          "value": "None"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Rings"
+        },
+        {
+          "name": "Occasion",
+          "value": "Baptism, Bachelor Party, bar and bat mitzvah, First Communion, Wedding, Anniversary, Party, Birthday, Gift, Engagement"
+        },
+        {
+          "name": "Rings Type",
+          "value": "Wedding Bands or Rings"
+        },
+        {
+          "name": "Shape\\pattern",
+          "value": "Cross"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Religious Type",
+          "value": "Catholicism"
+        },
+        {
+          "name": "Application",
+          "value": "Jewelry"
+        },
+        {
+          "name": "Place of Origin",
+          "value": "CN;ZHE"
+        },
+        {
+          "name": "Brand Name",
+          "value": "OUOOO"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.77",
+        "regularPrice": "1.77",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold",
+          "description": "Copper micro-set luxury Virgin of Guadalupe vintage jewelry gold hollowed-out high-end design time ring",
+          "sku": "ALI-AAGbTG7BAOVioqqEY6empNT5",
+          "image": [
+            "https://sc04.alicdn.com/kf/H191a94b2503b466da670bfc07d43d6209.jpg",
+            "https://sc04.alicdn.com/kf/Hf3d6d7a4f72d4c09b824aa8c78d7ff574.jpg",
+            "https://sc04.alicdn.com/kf/H6d6e0ccfd64a42d7ad82b26ab0ed9788o.jpg",
+            "https://sc04.alicdn.com/kf/H1544bc25223a4fd091da15a6e6d0b3654.jpg",
+            "https://sc04.alicdn.com/kf/H5578dea78ba1441db29ff718b2c67144X.jpg"
+          ],
+          "category": "Rings",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Main Material",
+              "value": "Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Women's, Men's, Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "None"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Rings"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Occasion",
+              "value": "Baptism, Bachelor Party, bar and bat mitzvah, First Communion, Wedding, Anniversary, Party, Birthday, Gift, Engagement"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Rings Type",
+              "value": "Wedding Bands or Rings"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape\\pattern",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Religious Type",
+              "value": "Catholicism"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Application",
+              "value": "Jewelry"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Place of Origin",
+              "value": "CN;ZHE"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Brand Name",
+              "value": "OUOOO"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.77",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b32792432b6bc139888a1ac1bc77a23f5469adea1dac36ebd7d438883dc8c643",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b32792432b6bc139888a1ac1bc77a23f5469adea1dac36ebd7d438883dc8c643",
+            "contentHash": "b32792432b6bc139888a1ac1bc77a23f5469adea1dac36ebd7d438883dc8c643",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T16:03:13.860Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEtTG7BAOVioqqEY6eBTEsR",
+      "sourceId": "AAEtTG7BAOVioqqEY6eBTEsR",
+      "sourceFingerprint": "472e7701698f6ad9bad6392eb859bbdd95a572c4c59062474cb9fd6b604bef6d",
+      "locale": "en",
+      "slug": "archangel-michael-metal-statue-table-ornament-ebtesr",
+      "title": "Archangel Michael Metal Statue Table Ornament",
+      "eyebrow": "Archangel Michael metal statue table ornament",
+      "summary": "This vintage-style Archangel Michael statue is a cast alloy table ornament. It weighs 688g and serves as a decorative piece for home, office, or garden. Its religious and angelic style makes it a distinctive gift for holidays, weddings, and special occasions.",
+      "description": "Add a vintage accent to your space with this Archangel Michael metal statue. Cast in a 3D shape, the figurine weighs 688g, giving it a solid presence on a desk, shelf, or tabletop. The finish and style evoke an antique feel that suits both religious and angel-themed decor.\n\nMade from metal alloy, this ornament is intended for table or shelf display. Its design works well in home interiors, offices, gardens, and even as a wedding or holiday gift. The casting technique provides detailed, three-dimensional features that stand out in a room.\n\nFor sourcing or bulk orders, contact us with the model number MCDW230157 to discuss availability and options.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAEtTG7BAOVioqqEY6eBTEsR",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H0e4af808452d42f5b3a6640fd7f981abh.webp",
+      "imageAlt": "Archangel Michael Metal Statue Table Ornament",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0e4af808452d42f5b3a6640fd7f981abh.webp",
+          "alt": "Archangel Michael Metal Statue Table Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5fdcba99cd1e4188ad746a44f21ddfe49.webp",
+          "alt": "Archangel Michael Metal Statue Table Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0d72db75e888491da23079cfeac4fe43G.webp",
+          "alt": "Archangel Michael Metal Statue Table Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H47f354659622461480ac7c8e9813fe8bv.webp",
+          "alt": "Archangel Michael Metal Statue Table Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f947ec7543b4378a2f914b5331e422aR.webp",
+          "alt": "Archangel Michael Metal Statue Table Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5dd92e2170364a43ba5bd41e828c6ef3F.webp",
+          "alt": "Archangel Michael Metal Statue Table Ornament"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#9a6b63",
+      "features": [
+        "Made of metal alloy",
+        "Casting technique for detailed 3D appearance",
+        "Vintage style with religious and angel motif",
+        "Weight: 688g",
+        "Intended for tabletop or shelf display"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Metal alloy"
+        },
+        {
+          "name": "Weight",
+          "value": "688g"
+        },
+        {
+          "name": "Style",
+          "value": "Religious, Angel"
+        },
+        {
+          "name": "Technique",
+          "value": "Casting"
+        },
+        {
+          "name": "Shape",
+          "value": "3D"
+        },
+        {
+          "name": "Model Number",
+          "value": "MCDW230157"
+        }
+      ],
+      "applications": [
+        "Home decoration",
+        "Office desk ornament",
+        "Garden display",
+        "Souvenir or collectible gift"
+      ],
+      "faq": [
+        {
+          "question": "What material is the Archangel Michael metal statue made of?",
+          "answer": "The statue is made of metal alloy, using a casting technique to create its three-dimensional shape."
+        },
+        {
+          "question": "How much does this table ornament weigh?",
+          "value": "The weight is 688g, giving it a sturdy feel suitable for tabletop or shelf display."
+        },
+        {
+          "question": "Can this statue be used as a gift for special occasions?",
+          "answer": "It is listed as suitable for holiday decoration and gifts, including Christmas, Easter, weddings, and other events, based on the product's application details."
+        }
+      ],
+      "pricing": {
+        "price": "8.00",
+        "regularPrice": "8.00",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "6.50",
+          "max": "8.00"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Archangel Michael Metal Statue Table Ornament",
+          "description": "A vintage-style Archangel Michael metal statue table ornament, weighing 688g. This cast alloy figurine suits home decoration, office display, or as a gift.",
+          "sku": "ALI-AAEtTG7BAOVioqqEY6eBTEsR",
+          "image": [
+            "https://sc04.alicdn.com/kf/H0e4af808452d42f5b3a6640fd7f981abh.jpg",
+            "https://sc04.alicdn.com/kf/H5fdcba99cd1e4188ad746a44f21ddfe49.jpg",
+            "https://sc04.alicdn.com/kf/H0d72db75e888491da23079cfeac4fe43G.jpg",
+            "https://sc04.alicdn.com/kf/H47f354659622461480ac7c8e9813fe8bv.jpg",
+            "https://sc04.alicdn.com/kf/H8f947ec7543b4378a2f914b5331e422aR.jpg",
+            "https://sc04.alicdn.com/kf/H5dd92e2170364a43ba5bd41e828c6ef3F.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Metal alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Weight",
+              "value": "688g"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious, Angel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Technique",
+              "value": "Casting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "3D"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Model Number",
+              "value": "MCDW230157"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "8.00",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "6.50",
+              "maxPrice": "8.00",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is the Archangel Michael metal statue made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The statue is made of metal alloy, using a casting technique to create its three-dimensional shape."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much does this table ornament weigh?",
+              "acceptedAnswer": {
+                "@type": "Answer"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this statue be used as a gift for special occasions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is listed as suitable for holiday decoration and gifts, including Christmas, Easter, weddings, and other events, based on the product's application details."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "bc274bdc108f82f428b7ab5d20451c1a375e73b4175efd3c45ecc05cbc2dc1c3",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "bc274bdc108f82f428b7ab5d20451c1a375e73b4175efd3c45ecc05cbc2dc1c3",
+            "contentHash": "bc274bdc108f82f428b7ab5d20451c1a375e73b4175efd3c45ecc05cbc2dc1c3",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T16:06:36.271Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGHTG7BAOVioqqEY6eP_WGW",
+      "sourceId": "AAGHTG7BAOVioqqEY6eP_WGW",
+      "sourceFingerprint": "ca000a4516aa3fc2f53830add461c0a643e2c79a47681732a7978b87f747e0d8",
+      "locale": "en",
+      "slug": "natural-wood-round-beads-for-diy-jewelry-ep_wgw",
+      "title": "Natural Wood Round Beads for DIY Jewelry",
+      "eyebrow": "Natural wooden round beads",
+      "summary": "These natural wooden round beads come in a warm brown finish, perfect for DIY jewelry and craft projects. Loose beads in bulk, packed in an opp bag for convenient storage and wholesale distribution.",
+      "description": "Crafted from natural wood, these round beads offer a classic, organic look for your jewelry designs. The brown color and smooth surface make them versatile for various styles, from rustic to modern. Each bead is loose, allowing you to string them in any pattern for necklaces, bracelets, or other accessories. Packed in a convenient opp bag, they are easy to store and transport, making them ideal for bulk purchasing and craft production.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGHTG7BAOVioqqEY6eP_WGW",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc99d780f3e3540d7875876a99e71511bn.webp",
+      "imageAlt": "Natural Wood Round Beads for DIY Jewelry",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc99d780f3e3540d7875876a99e71511bn.webp",
+          "alt": "Natural Wood Round Beads for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd049cfa4c75a4165a4ef8ad0f6528f0aC.webp",
+          "alt": "Natural Wood Round Beads for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ba559d29d104ee58fe1c3441d4b78baR.webp",
+          "alt": "Natural Wood Round Beads for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfb8cc46d3b4646c3b61a73b2947194cfH.webp",
+          "alt": "Natural Wood Round Beads for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc7cc566dd9c5448e81cf04eaad7d58c7M.webp",
+          "alt": "Natural Wood Round Beads for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H10309772f2934a5dad315e36e12010f3L.webp",
+          "alt": "Natural Wood Round Beads for DIY Jewelry"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#7a6d92",
+      "features": [
+        "Natural wood material",
+        "Round shape",
+        "Brown color",
+        "Loose beads for DIY projects",
+        "Packed in opp bag",
+        "Wholesale quantity available"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Shape",
+          "value": "Round"
+        },
+        {
+          "name": "Color",
+          "value": "Brown"
+        },
+        {
+          "name": "Packing",
+          "value": "Opp Bag"
+        }
+      ],
+      "applications": [
+        "DIY jewelry making",
+        "Necklace and bracelet assembly",
+        "Craft projects",
+        "Bulk resale"
+      ],
+      "faq": [
+        {
+          "question": "What material are these beads made from?",
+          "answer": "These beads are made from natural wood, as stated in the product specifications."
+        },
+        {
+          "question": "Are the beads loose or pre-strung?",
+          "answer": "The beads are loose, not pre-strung, so you can use them for your own DIY jewelry creations."
+        },
+        {
+          "question": "How are the beads packed for wholesale?",
+          "answer": "The beads come in an opp bag, which is a common plastic packaging for bulk quantities, suitable for storage and distribution."
+        }
+      ],
+      "pricing": {
+        "price": "8.00",
+        "regularPrice": "8.00",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Natural Wood Round Beads for DIY Jewelry",
+          "description": "Natural wooden round beads in brown, loose and ready for DIY jewelry making. Wholesale bulk pack in opp bag. Ideal for necklaces, bracelets, and crafts.",
+          "sku": "ALI-AAGHTG7BAOVioqqEY6eP_WGW",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc99d780f3e3540d7875876a99e71511bn.png",
+            "https://sc04.alicdn.com/kf/Hd049cfa4c75a4165a4ef8ad0f6528f0aC.png",
+            "https://sc04.alicdn.com/kf/H6ba559d29d104ee58fe1c3441d4b78baR.png",
+            "https://sc04.alicdn.com/kf/Hfb8cc46d3b4646c3b61a73b2947194cfH.png",
+            "https://sc04.alicdn.com/kf/Hc7cc566dd9c5448e81cf04eaad7d58c7M.png",
+            "https://sc04.alicdn.com/kf/H10309772f2934a5dad315e36e12010f3L.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Round"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color",
+              "value": "Brown"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Packing",
+              "value": "Opp Bag"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "8.00",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material are these beads made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "These beads are made from natural wood, as stated in the product specifications."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are the beads loose or pre-strung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are loose, not pre-strung, so you can use them for your own DIY jewelry creations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How are the beads packed for wholesale?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads come in an opp bag, which is a common plastic packaging for bulk quantities, suitable for storage and distribution."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "83dcf1f805a3631c531b8d2c7df1f5a4f6e5a0c1b1c4cf4905e19f89d12c6c6f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "83dcf1f805a3631c531b8d2c7df1f5a4f6e5a0c1b1c4cf4905e19f89d12c6c6f",
+            "contentHash": "83dcf1f805a3631c531b8d2c7df1f5a4f6e5a0c1b1c4cf4905e19f89d12c6c6f",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T16:06:41.091Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAG2TG7BAOVioqqEY6ejcpEM",
+      "sourceId": "AAG2TG7BAOVioqqEY6ejcpEM",
+      "sourceFingerprint": "2c8d231014d3969d1a14db05ca31438246a20d594817de764c97a183b2012f1e",
+      "locale": "en",
+      "slug": "vintage-black-resin-rosary-cross-necklace-ejcpem",
+      "title": "Vintage Black Resin Rosary Cross Necklace",
+      "eyebrow": "vintage beaded rosary cross necklace",
+      "summary": "This vintage-style necklace features a black resin cross pendant and a long woolen beaded chain in an alloy setting. The electroplated finish adds a subtle shine, making it a suitable gift for those who appreciate religious jewelry.",
+      "description": "When you need a necklace that carries religious symbolism without being overly ornate, this black resin cross necklace fits. The pendant is made of resin, while the beads and clasp are alloy with an electroplated finish. The long beaded woolen-style chain gives it a vintage look that works for everyday wear or as a gift.\n\nThe design is simple: a cross-shaped resin centerpiece on a beaded chain. Since it is described as a rosary-style necklace, it can serve as a reminder of the Rosary prayer, though it is not a traditional five-decade rosary. The vintage aesthetic and dark color make it versatile for casual outfits.\n\nWe source this necklace for wholesale buyers looking for religious-themed accessories. Its lightweight construction and unisex design appeal to a broad audience. Contact us to discuss bulk orders or catalog placement.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAG2TG7BAOVioqqEY6ejcpEM",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H900846dc729a41d4924137f41ea4831c5.webp",
+      "imageAlt": "Vintage Black Resin Rosary Cross Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H900846dc729a41d4924137f41ea4831c5.webp",
+          "alt": "Vintage Black Resin Rosary Cross Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H79a8e107f8cf425d999e412667b12ebdK.webp",
+          "alt": "Vintage Black Resin Rosary Cross Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H64e78b4b0dea40aeb954bc5a185eb29a9.webp",
+          "alt": "Vintage Black Resin Rosary Cross Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbfc1991fe16845e38d0c76808dc5ef43y.webp",
+          "alt": "Vintage Black Resin Rosary Cross Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4b69c5cef2f04af4b334bb24f3869f002.webp",
+          "alt": "Vintage Black Resin Rosary Cross Necklace"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Black resin cross pendant with alloy beaded chain",
+        "Long woolen-style beaded chain for a vintage look",
+        "Electroplated finish on alloy parts",
+        "Religious cross shape for devotional use",
+        "Suitable as a gift item"
+      ],
+      "specifications": [
+        {
+          "name": "Primary Material",
+          "value": "Alloy"
+        },
+        {
+          "name": "Main Stone",
+          "value": "Resin"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Necklace"
+        },
+        {
+          "name": "Necklace Style",
+          "value": "Beaded"
+        },
+        {
+          "name": "Chain Type",
+          "value": "Beads"
+        },
+        {
+          "name": "Plating",
+          "value": "Electroplating"
+        },
+        {
+          "name": "Style",
+          "value": "Vintage"
+        },
+        {
+          "name": "Religious Type",
+          "value": "Christianity"
+        }
+      ],
+      "applications": [
+        "As a religious gift item",
+        "Everyday wear for those who prefer symbolic jewelry",
+        "For vintage-style accessory collections",
+        "For Catholic gift shops or religious goods stores"
+      ],
+      "faq": [
+        {
+          "question": "What is the necklace made of?",
+          "answer": "The chain and clasp are made of alloy with an electroplated finish, and the main cross pendant is made of resin."
+        },
+        {
+          "question": "Is this a traditional rosary?",
+          "answer": "No, it is a beaded necklace with a cross pendant, not a traditional five-decade rosary. It may be worn as a devotional reminder."
+        },
+        {
+          "question": "What style is this necklace?",
+          "answer": "It has a vintage style with a long woolen beaded chain, suitable for those who prefer retro or religious-themed accessories."
+        }
+      ],
+      "pricing": {
+        "price": "0.51",
+        "regularPrice": "0.51",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.46",
+          "max": "0.51"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Vintage Black Resin Rosary Cross Necklace",
+          "description": "Vintage black resin and alloy rosary cross necklace with a long beaded chain. Electroplated finish, beaded style. Ideal as a religious gift.",
+          "sku": "ALI-AAG2TG7BAOVioqqEY6ejcpEM",
+          "image": [
+            "https://sc04.alicdn.com/kf/H900846dc729a41d4924137f41ea4831c5.png",
+            "https://sc04.alicdn.com/kf/H79a8e107f8cf425d999e412667b12ebdK.jpg",
+            "https://sc04.alicdn.com/kf/H64e78b4b0dea40aeb954bc5a185eb29a9.jpg",
+            "https://sc04.alicdn.com/kf/Hbfc1991fe16845e38d0c76808dc5ef43y.jpg",
+            "https://sc04.alicdn.com/kf/H4b69c5cef2f04af4b334bb24f3869f002.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Primary Material",
+              "value": "Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "Resin"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Necklace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Necklace Style",
+              "value": "Beaded"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain Type",
+              "value": "Beads"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Electroplating"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Vintage"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Religious Type",
+              "value": "Christianity"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.51",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.46",
+              "maxPrice": "0.51",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The chain and clasp are made of alloy with an electroplated finish, and the main cross pendant is made of resin."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this a traditional rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, it is a beaded necklace with a cross pendant, not a traditional five-decade rosary. It may be worn as a devotional reminder."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What style is this necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It has a vintage style with a long woolen beaded chain, suitable for those who prefer retro or religious-themed accessories."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "86707bc9cef71121e8d46f9101528185bee21f2d1242d9509097a43457d73505",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "86707bc9cef71121e8d46f9101528185bee21f2d1242d9509097a43457d73505",
+            "contentHash": "86707bc9cef71121e8d46f9101528185bee21f2d1242d9509097a43457d73505",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T16:06:47.551Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGLTG7BAOVioqqEY6eyk4-z",
+      "sourceId": "AAGLTG7BAOVioqqEY6eyk4-z",
+      "sourceFingerprint": "caadc19c738c422920de9c1caf16f67daef52684e4588906e4dfcd1b87503ae4",
+      "locale": "en",
+      "slug": "alloy-oval-metal-pendant-for-rosary-diy-eyk4-z",
+      "title": "Alloy Oval Metal Pendant for Rosary DIY",
+      "eyebrow": "alloy oval metal pendant",
+      "summary": "This alloy oval metal pendant suits rosary-making and necklace assembly. Available in matte antique silver or matte gold, the piece works as a centerpiece or accent for devotional projects. We provide wholesale sourcing for consistent supply.",
+      "description": "This oval pendant is made of alloy, available in matte antique silver or matte gold. Its metal construction gives a durable feel for repeated handling during rosary assembly. The oval shape can complement a centerpiece or serve as a decorative accent on a necklace.\n\nBecause it is sold as a loose component, you can integrate it into custom rosaries or jewelry lines. We source this pendant for retailers and crafters, supporting bulk orders. Contact us for details on current availability and packaging options.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGLTG7BAOVioqqEY6eyk4-z",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H618b0e22f5bf49079f044bd9271c7690T.webp",
+      "imageAlt": "Alloy Oval Metal Pendant for Rosary DIY",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H618b0e22f5bf49079f044bd9271c7690T.webp",
+          "alt": "Alloy Oval Metal Pendant for Rosary DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H66b6b51193034766941d945b6fbe358cb.webp",
+          "alt": "Alloy Oval Metal Pendant for Rosary DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc532c13d6b714e0eb23003baa1b714e3n.webp",
+          "alt": "Alloy Oval Metal Pendant for Rosary DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3231d0a1e399499c87b29a73d10aae2ec.webp",
+          "alt": "Alloy Oval Metal Pendant for Rosary DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfe7f66a2fb1f4254895b64fb8f276aa9b.webp",
+          "alt": "Alloy Oval Metal Pendant for Rosary DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hced2adcdd9d14b1c8686e303817b30c8B.webp",
+          "alt": "Alloy Oval Metal Pendant for Rosary DIY"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb2382dc48d8241cd9fbeccea513855b96.webp",
+          "alt": "Alloy Oval Metal Pendant for Rosary DIY - matte-gold",
+          "label": "matte-gold",
+          "sku": "ALI-AAGLTG7BAOVioqqEY6eyk4-z-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1351384e1f2473c898fc0cecfa86c09c.webp",
+          "alt": "Alloy Oval Metal Pendant for Rosary DIY - matte-antique-silver",
+          "label": "matte-antique-silver",
+          "sku": "ALI-AAGLTG7BAOVioqqEY6eyk4-z-V--2"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Made of alloy metal for durability",
+        "Oval silhouette for varied design use",
+        "Matte antique silver and matte gold finishes",
+        "Suitable for DIY rosary and necklace assembly",
+        "Designed as a hanging pendant decoration"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Alloy"
+        },
+        {
+          "name": "Shape",
+          "value": "Oval"
+        },
+        {
+          "name": "Finish",
+          "value": "Matte antique silver or matte gold"
+        },
+        {
+          "name": "Use",
+          "value": "Pendant for necklace or rosary"
+        }
+      ],
+      "applications": [
+        "Rosary centerpiece or accent",
+        "Necklace pendant",
+        "DIY jewelry making",
+        "Religious craft projects"
+      ],
+      "faq": [
+        {
+          "question": "What materials are available for this oval pendant?",
+          "answer": "The pendant is made of alloy and comes in two finishes: matte antique silver and matte gold."
+        },
+        {
+          "question": "Can this pendant be used for rosary making?",
+          "answer": "Yes, it is designed as a hanging decoration and can be incorporated into rosary assemblies as a centerpiece or accent."
+        },
+        {
+          "question": "Is this product suitable for wholesale orders?",
+          "answer": "We source this pendant for wholesale retail and cross-border distribution. Contact us for ordering details and quantity options."
+        }
+      ],
+      "pricing": {
+        "price": "0.68",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.58",
+          "max": "0.68"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Alloy Oval Metal Pendant for Rosary DIY",
+          "description": "Alloy oval metal pendant in matte antique silver or matte gold, designed for rosary making and necklace crafts. Wholesale sourcing available.",
+          "sku": "ALI-AAGLTG7BAOVioqqEY6eyk4-z",
+          "image": [
+            "https://sc04.alicdn.com/kf/H618b0e22f5bf49079f044bd9271c7690T.png",
+            "https://sc04.alicdn.com/kf/H66b6b51193034766941d945b6fbe358cb.png",
+            "https://sc04.alicdn.com/kf/Hc532c13d6b714e0eb23003baa1b714e3n.png",
+            "https://sc04.alicdn.com/kf/H3231d0a1e399499c87b29a73d10aae2ec.png",
+            "https://sc04.alicdn.com/kf/Hfe7f66a2fb1f4254895b64fb8f276aa9b.png",
+            "https://sc04.alicdn.com/kf/Hced2adcdd9d14b1c8686e303817b30c8B.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Oval"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Finish",
+              "value": "Matte antique silver or matte gold"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Use",
+              "value": "Pendant for necklace or rosary"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.68",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.58",
+              "maxPrice": "0.68",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are available for this oval pendant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is made of alloy and comes in two finishes: matte antique silver and matte gold."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this pendant be used for rosary making?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed as a hanging decoration and can be incorporated into rosary assemblies as a centerpiece or accent."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this product suitable for wholesale orders?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We source this pendant for wholesale retail and cross-border distribution. Contact us for ordering details and quantity options."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "03c6a814a46c9ca76ff20ce3f41d9e8d3aa08ccd24ce67c5e75cf9b2cb684a45",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "03c6a814a46c9ca76ff20ce3f41d9e8d3aa08ccd24ce67c5e75cf9b2cb684a45",
+            "contentHash": "03c6a814a46c9ca76ff20ce3f41d9e8d3aa08ccd24ce67c5e75cf9b2cb684a45",
+            "attempts": 0,
+            "updatedAt": "2026-08-10T16:07:19.411Z",
             "model": "deepseek-v4-flash"
           }
         }

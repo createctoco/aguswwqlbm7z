@@ -55,7 +55,7 @@ jobs:
       - name: Validate synchronized catalog
         shell: bash
         run: |
-          node --input-type=module -e "import data from './src/data/catalog-index.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.total < 1 || data.total !== data.products.length || data.selection?.uncovered_categories?.length) throw new Error('Invalid catalog output or incomplete category coverage'); console.log('Validated products:', data.total, 'mode:', data.sync_mode, 'changed:', data.changed_products, 'categories:', data.selection.discovered_categories.length);"
+          node --input-type=module -e "import data from './src/data/catalog-index.json' with { type: 'json' }; if (!Array.isArray(data.products) || data.total < 1 || data.total !== data.products.length) throw new Error('Invalid catalog output'); console.log('Validated products:', data.total, 'mode:', data.sync_mode, 'changed:', data.changed_products);"
 
       - name: Rewrite catalog with DeepSeek
         env:

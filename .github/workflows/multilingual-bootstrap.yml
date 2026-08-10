@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm install --no-package-lock
+      - run: npm ci
       - name: Generate or refresh localized catalog
         env:
           OUOOO_LOCALE: ${{ matrix.locale }}

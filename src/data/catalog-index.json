@@ -1,22 +1,22 @@
 {
   "schema_version": "1.0",
-  "synchronized_at": "2026-08-10T15:29:37.715Z",
+  "synchronized_at": "2026-08-10T15:39:15.630Z",
   "sync_cursor": "2026-08-09T15:58:16.918Z",
-  "sync_mode": "full",
-  "modified_after": null,
+  "sync_mode": "incremental",
+  "modified_after": "2026-08-09T15:53:16.918Z",
   "changed_products": 10,
   "deleted_products": 0,
   "changed_source_ids": [
-    "AAFOTG7BAOVioqqEY6emD3Ij",
-    "AAE1TG7BAOVioqqEY6enzCwS",
-    "AAG5TG7BAOVioqqEY6enzPvH",
-    "AAEFTG7BAOVioqqEY6eecnZ7",
-    "AAEzTG7BAOVioqqEY6eiFmcQ",
-    "AAHqTG7BAOVioqqEY6emOIz8",
-    "AAH4TG7BAOVioqqEY6ehN-qy",
-    "AAHQTG7BAOVioqqEY6emNm6C",
-    "AAFtTG7BAOVioqqEY6emNnsS",
-    "AAHTTG7BAOVioqqEY6eIQpzp"
+    "AAH0TG7BAOVioqqEY6emXpfV",
+    "AAEnTG7BAOVioqqEY6eykXfp",
+    "AAHwTG7BAOVioqqEY6emD_w7",
+    "AAH3TG7BAOVioqqEY6emD6kV",
+    "AAHoTG7BAOVioqqEY6emDvg4",
+    "AAFHTG7BAOVioqqEY6emD2Is",
+    "AAHJTG7BAOVioqqEY6emDoEQ",
+    "AAEETG7BAOVioqqEY6e_xaVX",
+    "AAHHTG7BAOVioqqEY6e_xHjI",
+    "AAHHTG7BAOVioqqEY6eBSrLG"
   ],
   "deleted_source_ids": [],
   "source_total": 908,
@@ -24,7 +24,7 @@
   "queue": {
     "batchSize": 10,
     "processedThisRun": 10,
-    "remaining": 898
+    "remaining": 888
   },
   "products": [
     {

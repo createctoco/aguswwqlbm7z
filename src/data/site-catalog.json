@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-10T15:33:08.871Z",
+  "generatedAt": "2026-08-10T15:39:16.092Z",
   "sync": {
-    "mode": "full",
+    "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
-    "modifiedAfter": null,
+    "modifiedAfter": "2026-08-09T15:53:16.918Z",
     "changedProductIds": [
-      "AAFOTG7BAOVioqqEY6emD3Ij",
-      "AAE1TG7BAOVioqqEY6enzCwS",
-      "AAG5TG7BAOVioqqEY6enzPvH",
-      "AAEFTG7BAOVioqqEY6eecnZ7",
-      "AAEzTG7BAOVioqqEY6eiFmcQ",
-      "AAHqTG7BAOVioqqEY6emOIz8",
-      "AAH4TG7BAOVioqqEY6ehN-qy",
-      "AAHQTG7BAOVioqqEY6emNm6C",
-      "AAFtTG7BAOVioqqEY6emNnsS",
-      "AAHTTG7BAOVioqqEY6eIQpzp"
+      "AAH0TG7BAOVioqqEY6emXpfV",
+      "AAEnTG7BAOVioqqEY6eykXfp",
+      "AAHwTG7BAOVioqqEY6emD_w7",
+      "AAH3TG7BAOVioqqEY6emD6kV",
+      "AAHoTG7BAOVioqqEY6emDvg4",
+      "AAFHTG7BAOVioqqEY6emD2Is",
+      "AAHJTG7BAOVioqqEY6emDoEQ",
+      "AAEETG7BAOVioqqEY6e_xaVX",
+      "AAHHTG7BAOVioqqEY6e_xHjI",
+      "AAHHTG7BAOVioqqEY6eBSrLG"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 7,
-    "reused": 10,
-    "source_fallback": 3
+    "generated": 0,
+    "reused": 20,
+    "source_fallback": 0
   },
   "products": [
     {
@@ -3056,12 +3056,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "c17fe36628133a7e038d1d0e8b0699258d502c752bcab7e6fd987baaf190445b",
+        "sourceHash": "725bc2f0b290135e450bed22fad01ebde7578e3c322f67253142605d68c11d81",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "c17fe36628133a7e038d1d0e8b0699258d502c752bcab7e6fd987baaf190445b",
-            "contentHash": "c17fe36628133a7e038d1d0e8b0699258d502c752bcab7e6fd987baaf190445b",
+            "sourceHash": "725bc2f0b290135e450bed22fad01ebde7578e3c322f67253142605d68c11d81",
+            "contentHash": "725bc2f0b290135e450bed22fad01ebde7578e3c322f67253142605d68c11d81",
             "attempts": 0,
             "updatedAt": "2026-08-10T15:32:12.356Z",
             "model": "deepseek-v4-flash"
@@ -3277,12 +3277,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "afc58035383779bb382a300a570efe209c31f182b93dca7aa3e2045d7f59f9b0",
+        "sourceHash": "48c4334aac7ba7b143cd9ac079e3e26fbb8f2721ca6707be2cd0d5722ff18813",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "afc58035383779bb382a300a570efe209c31f182b93dca7aa3e2045d7f59f9b0",
-            "contentHash": "afc58035383779bb382a300a570efe209c31f182b93dca7aa3e2045d7f59f9b0",
+            "sourceHash": "48c4334aac7ba7b143cd9ac079e3e26fbb8f2721ca6707be2cd0d5722ff18813",
+            "contentHash": "48c4334aac7ba7b143cd9ac079e3e26fbb8f2721ca6707be2cd0d5722ff18813",
             "attempts": 0,
             "updatedAt": "2026-08-10T15:32:18.448Z",
             "model": "deepseek-v4-flash"

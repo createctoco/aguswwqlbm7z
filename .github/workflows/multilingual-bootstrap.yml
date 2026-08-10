@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: multilingual-catalog-generation
@@ -109,3 +110,10 @@ jobs:
             git rebase origin/main
             sleep $((attempt * 5))
           done
+      - name: Trigger production deployment
+        # Bot commits do not trigger other workflows, so dispatch the deploy
+        # explicitly so the freshly translated localized catalogs go live.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run "Deploy Cloudflare hybrid catalog" --repo "${{ github.repository }}" --ref main
+

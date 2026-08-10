@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: catalog-sync
@@ -109,3 +110,10 @@ jobs:
           path: src/data/site-catalog.json
           if-no-files-found: error
           retention-days: 7
+      - name: Trigger production deployment
+        # Bot commits use GITHUB_TOKEN, which does not trigger other workflows,
+        # so dispatch the deploy explicitly after the catalog state is published.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run "Deploy Cloudflare hybrid catalog" --repo "${{ github.repository }}" --ref main
+

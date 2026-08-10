@@ -53,38 +53,28 @@
         {
           "name": "Jewelry Main Material",
           "slug": "jewelry-main-material",
-          "values": [
-            "Alloy"
-          ],
+          "values": ["Alloy"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Gender",
           "slug": "gender",
-          "values": [
-            "Women's",
-            "Men's",
-            "Unisex"
-          ],
+          "values": ["Women's", "Men's", "Unisex"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Main Stone",
           "slug": "main-stone",
-          "values": [
-            "None"
-          ],
+          "values": ["None"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Jewelry Type",
           "slug": "jewelry-type",
-          "values": [
-            "Rings"
-          ],
+          "values": ["Rings"],
           "variation": false,
           "visible": true
         },
@@ -109,63 +99,49 @@
         {
           "name": "Rings Type",
           "slug": "rings-type",
-          "values": [
-            "Wedding Bands or Rings"
-          ],
+          "values": ["Wedding Bands or Rings"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Shape\\pattern",
           "slug": "shapepattern",
-          "values": [
-            "Cross"
-          ],
+          "values": ["Cross"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Style",
           "slug": "style",
-          "values": [
-            "Religious"
-          ],
+          "values": ["Religious"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Religious Type",
           "slug": "religious-type",
-          "values": [
-            "Catholicism"
-          ],
+          "values": ["Catholicism"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Application",
           "slug": "application",
-          "values": [
-            "Jewelry"
-          ],
+          "values": ["Jewelry"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Place of Origin",
           "slug": "place-of-origin",
-          "values": [
-            "CN;ZHE"
-          ],
+          "values": ["CN;ZHE"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Brand Name",
           "slug": "brand-name",
-          "values": [
-            "Mecrt"
-          ],
+          "values": ["Mecrt"],
           "variation": false,
           "visible": true
         }
@@ -277,13 +253,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "01",
-            "02",
-            "03",
-            "04",
-            "05"
-          ],
+          "values": ["01", "02", "03", "04", "05"],
           "variation": true,
           "visible": true
         }
@@ -593,46 +563,35 @@
         {
           "name": "Style",
           "slug": "style",
-          "values": [
-            "Classic"
-          ],
+          "values": ["Classic"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Material",
           "slug": "material",
-          "values": [
-            "Wood"
-          ],
+          "values": ["Wood"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Feature",
           "slug": "feature",
-          "values": [
-            "Reusable",
-            "Durable"
-          ],
+          "values": ["Reusable", "Durable"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Shape",
           "slug": "shape",
-          "values": [
-            "Round"
-          ],
+          "values": ["Round"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Pattern",
           "slug": "pattern",
-          "values": [
-            "Circle"
-          ],
+          "values": ["Circle"],
           "variation": false,
           "visible": true
         },
@@ -661,45 +620,35 @@
         {
           "name": "Place of Origin",
           "slug": "place-of-origin",
-          "values": [
-            "CN;ZHE"
-          ],
+          "values": ["CN;ZHE"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Brand Name",
           "slug": "brand-name",
-          "values": [
-            "Mecrt"
-          ],
+          "values": ["Mecrt"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Technique",
           "slug": "technique",
-          "values": [
-            "Hemp rope"
-          ],
+          "values": ["Hemp rope"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Metal Type",
           "slug": "metal-type",
-          "values": [
-            "none"
-          ],
+          "values": ["none"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Printing",
           "slug": "printing",
-          "values": [
-            "none"
-          ],
+          "values": ["none"],
           "variation": false,
           "visible": true
         }
@@ -811,10 +760,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Black walnut with black heart",
-            "Olive wood black heart"
-          ],
+          "values": ["Black walnut with black heart", "Olive wood black heart"],
           "variation": true,
           "visible": true
         }
@@ -1981,10 +1927,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Red rope 1 #",
-            "Red rope 2 #"
-          ],
+          "values": ["Red rope 1 #", "Red rope 2 #"],
           "variation": true,
           "visible": true
         }
@@ -2141,19 +2084,14 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Gold",
-            "Silver"
-          ],
+          "values": ["Gold", "Silver"],
           "variation": true,
           "visible": true
         },
         {
           "name": "Design",
           "slug": "design",
-          "values": [
-            "religious"
-          ],
+          "values": ["religious"],
           "variation": false,
           "visible": true
         }
@@ -2335,10 +2273,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Orange",
-            "Green"
-          ],
+          "values": ["Orange", "Green"],
           "variation": true,
           "visible": true
         }
@@ -2502,12 +2437,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Angel",
-            "Guadalupe",
-            "Jesus",
-            "Our Lady"
-          ],
+          "values": ["Angel", "Guadalupe", "Jesus", "Our Lady"],
           "variation": true,
           "visible": true
         }
@@ -2800,10 +2730,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Red",
-            "Blue"
-          ],
+          "values": ["Red", "Blue"],
           "variation": true,
           "visible": true
         }
@@ -2966,11 +2893,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Black",
-            "White",
-            "Blue"
-          ],
+          "values": ["Black", "White", "Blue"],
           "variation": true,
           "visible": true
         }
@@ -3503,11 +3426,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Black",
-            "Red",
-            "Blue"
-          ],
+          "values": ["Black", "Red", "Blue"],
           "variation": true,
           "visible": true
         }
@@ -3698,13 +3617,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "grey",
-            "Red 01 #",
-            "Red 02 #",
-            "Blue",
-            "Green"
-          ],
+          "values": ["grey", "Red 01 #", "Red 02 #", "Blue", "Green"],
           "variation": true,
           "visible": true
         }
@@ -4001,11 +3914,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Black",
-            "Red",
-            "White"
-          ],
+          "values": ["Black", "Red", "White"],
           "variation": true,
           "visible": true
         }
@@ -4225,65 +4134,49 @@
         {
           "name": "Jewelry Main Material",
           "slug": "jewelry-main-material",
-          "values": [
-            "Copper"
-          ],
+          "values": ["Copper"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Gender",
           "slug": "gender",
-          "values": [
-            "Unisex",
-            "Women's",
-            "Men's"
-          ],
+          "values": ["Unisex", "Women's", "Men's"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Main Stone",
           "slug": "main-stone",
-          "values": [
-            "None"
-          ],
+          "values": ["None"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Rings Type",
           "slug": "rings-type",
-          "values": [
-            "Wedding Bands or Rings"
-          ],
+          "values": ["Wedding Bands or Rings"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Certificate Type",
           "slug": "certificate-type",
-          "values": [
-            "None"
-          ],
+          "values": ["None"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Style",
           "slug": "style",
-          "values": [
-            "European"
-          ],
+          "values": ["European"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Place of Origin",
           "slug": "place-of-origin",
-          "values": [
-            "CN;ZHE"
-          ],
+          "values": ["CN;ZHE"],
           "variation": false,
           "visible": true
         }
@@ -4393,12 +4286,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Gold -2.8 * 3.2",
-            "Gold -3 * 4.3",
-            "Gold -3.1 * 3.7",
-            "Gold -4.2 * 5.9"
-          ],
+          "values": ["Gold -2.8 * 3.2", "Gold -3 * 4.3", "Gold -3.1 * 3.7", "Gold -4.2 * 5.9"],
           "variation": true,
           "visible": true
         }
@@ -4620,10 +4508,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "Pink",
-            "Blue"
-          ],
+          "values": ["Pink", "Blue"],
           "variation": true,
           "visible": true
         }
@@ -4840,108 +4725,84 @@
         {
           "name": "Jewelry Main Material",
           "slug": "jewelry-main-material",
-          "values": [
-            "Glass"
-          ],
+          "values": ["Glass"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Material Type",
           "slug": "material-type",
-          "values": [
-            "Zinc Alloy"
-          ],
+          "values": ["Zinc Alloy"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Gender",
           "slug": "gender",
-          "values": [
-            "Unisex"
-          ],
+          "values": ["Unisex"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Main Stone",
           "slug": "main-stone",
-          "values": [
-            "Pearl"
-          ],
+          "values": ["Pearl"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Jewelry Type",
           "slug": "jewelry-type",
-          "values": [
-            "Necklaces"
-          ],
+          "values": ["Necklaces"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Necklaces Type",
           "slug": "necklaces-type",
-          "values": [
-            "Beaded Necklaces"
-          ],
+          "values": ["Beaded Necklaces"],
           "variation": false,
           "visible": true
         },
         {
           "name": "chain type",
           "slug": "chain-type",
-          "values": [
-            "Beads"
-          ],
+          "values": ["Beads"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Style",
           "slug": "style",
-          "values": [
-            "Religious"
-          ],
+          "values": ["Religious"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Religious Type",
           "slug": "religious-type",
-          "values": [
-            "Catholicism"
-          ],
+          "values": ["Catholicism"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Place of Origin",
           "slug": "place-of-origin",
-          "values": [
-            "None"
-          ],
+          "values": ["None"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Brand Name",
           "slug": "brand-name",
-          "values": [
-            "Mecrt"
-          ],
+          "values": ["Mecrt"],
           "variation": false,
           "visible": true
         },
         {
           "name": "Model Number",
           "slug": "model-number",
-          "values": [
-            "N102"
-          ],
+          "values": ["N102"],
           "variation": false,
           "visible": true
         }
@@ -5064,14 +4925,7 @@
         {
           "name": "Variant",
           "slug": "pa_variant",
-          "values": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"
-          ],
+          "values": ["1", "2", "3", "4", "5", "6"],
           "variation": true,
           "visible": true
         }

@@ -59,13 +59,27 @@ const replaceSourceBrand = (value = '') => {
   const text = String(value);
   return /^https?:\/\//i.test(text) ? text : text.replace(/\bmecrt(?:\.com)?\b/gi, 'OUOOO');
 };
-function sanitizeSourceBrand(value) {
-  if (typeof value === 'string') return replaceSourceBrand(value);
-  if (Array.isArray(value)) return value.map(sanitizeSourceBrand);
+
+// Public copy fields (ai content) must never expose source branding, even inside
+// URLs, because source descriptions can embed mecrt.com links. Image CDN URLs
+// live on the raw product (not in ai content), so they are unaffected.
+const replaceSourceBrandInContent = (value = '') => String(value).replace(/\bmecrt(?:\.com)?\b/gi, 'OUOOO');
+
+function sanitizeWith(value, replace) {
+  if (typeof value === 'string') return replace(value);
+  if (Array.isArray(value)) return value.map((item) => sanitizeWith(item, replace));
   if (value && typeof value === 'object') {
-    return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, sanitizeSourceBrand(item)]));
+    return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, sanitizeWith(item, replace)]));
   }
   return value;
+}
+
+function sanitizeSourceBrand(value) {
+  return sanitizeWith(value, replaceSourceBrand);
+}
+
+function sanitizeContentBrand(value) {
+  return sanitizeWith(value, replaceSourceBrandInContent);
 }
 
 function balancedEditorialProfile(product, counts) {
@@ -225,7 +239,7 @@ function structuredData(product, content) {
 }
 
 function validateContent(content, product, previousOutputs, profile, catholicKnowledge) {
-  content = sanitizeSourceBrand(content);
+  content = sanitizeContentBrand(content);
   if (!content || typeof content !== 'object') throw new Error('DeepSeek returned invalid JSON.');
   if (content.catholic_relevance === 'none' && content.catholic_context == null) content.catholic_context = '';
   const requiredStrings = [
@@ -291,7 +305,7 @@ function validateContent(content, product, previousOutputs, profile, catholicKno
     if (similarity(combined, previousText) > 0.34)
       throw new Error('DeepSeek output is too similar to another product.');
   }
-  return sanitizeSourceBrand({
+  return sanitizeContentBrand({
     ...content,
     source_id: product.source_id,
     editorial_profile: profile[0],
@@ -352,7 +366,7 @@ async function rewriteProduct(product, previousOutputs, profile, knowledge) {
   process.stderr.write(
     `DeepSeek fallback for source_id ${product.source_id}: ${lastError instanceof Error ? lastError.message : 'unknown error'}\n`
   );
-  return sanitizeSourceBrand(sourceFallback(product, profile, lastError, catholicKnowledge));
+  return sanitizeContentBrand(sourceFallback(product, profile, lastError, catholicKnowledge));
 }
 
 const temporaryFile = `${outputFile}.tmp-${process.pid}`;

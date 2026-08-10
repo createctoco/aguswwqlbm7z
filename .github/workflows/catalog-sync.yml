@@ -75,6 +75,9 @@ jobs:
           MECRT_CATALOG_QUEUE_FILE: src/data/catalog-queue.json
         run: npm run ack:catalog
 
+      - name: Format catalog state files
+        run: npx prettier --write src/data/catalog-index.json src/data/catalog-queue.json src/data/site-catalog.json
+
       - name: Publish catalog state to repository
         shell: bash
         run: |

@@ -179,8 +179,7 @@ async function fetchIndex() {
         } catch (error) {
           const reason = error instanceof Error ? error.message : String(error);
           const productUnavailable =
-            /not found|could not be loaded|non-JSON response/i.test(reason) &&
-            !/HTTP (5\d\d|429|408)\)/.test(reason);
+            /not found|could not be loaded|non-JSON response/i.test(reason) && !/HTTP (5\d\d|429|408)\)/.test(reason);
           if (productUnavailable) {
             missingSourceIds.add(identifier);
             productsById.delete(identifier);

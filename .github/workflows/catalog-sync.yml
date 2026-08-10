@@ -110,6 +110,24 @@ jobs:
           path: src/data/site-catalog.json
           if-no-files-found: error
           retention-days: 7
+      - name: Trigger multilingual catalog generation
+        # Translate the newly synchronized English products into all locales.
+        # Bot commits do not trigger other workflows, so dispatch it explicitly.
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in 1 2 3; do
+            if gh workflow run "Multilingual catalog generation" --repo "${{ github.repository }}" --ref main; then
+              echo "Multilingual catalog generation dispatched on attempt $attempt."
+              exit 0
+            fi
+            echo "Multilingual dispatch attempt $attempt failed; retrying in $((attempt * 10))s."
+            sleep $((attempt * 10))
+          done
+          echo "Unable to dispatch multilingual generation after 3 attempts." >&2
+          exit 1
+
       - name: Trigger production deployment
         # Bot commits use GITHUB_TOKEN, which does not trigger other workflows,
         # so dispatch the deploy explicitly after the catalog state is published.

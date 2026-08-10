@@ -14,6 +14,7 @@ let sessionNamespaceId = process.env.OUOOO_SESSION_KV_ID;
 const requested = process.argv.slice(2);
 const localeNames = requested.length ? requested : Object.keys(localeData.locales);
 const publishedLocales = Object.keys(localeData.locales).join(',');
+const manageEnglishRoute = process.env.OUOOO_MANAGE_ENGLISH_ROUTE !== '0';
 
 for (const locale of localeNames) {
   if (!localeData.locales[locale]) throw new Error(`Unsupported locale: ${locale}`);
@@ -101,10 +102,11 @@ for (const locale of localeNames) {
     main: '../dist/server/entry.mjs',
     compatibility_date: '2026-08-01',
     compatibility_flags: ['nodejs_compat'],
-    routes:
-      locale === localeData.defaultLocale
-        ? [{ pattern: `${definition.host}/*`, zone_name: definition.host }]
-        : [{ pattern: definition.host, custom_domain: true }],
+    ...(locale === localeData.defaultLocale
+      ? manageEnglishRoute
+        ? { routes: [{ pattern: `${definition.host}/*`, zone_name: definition.host }] }
+        : {}
+      : { routes: [{ pattern: definition.host, custom_domain: true }] }),
     assets: { directory: '../dist/client', binding: 'ASSETS' },
     d1_databases: [
       {

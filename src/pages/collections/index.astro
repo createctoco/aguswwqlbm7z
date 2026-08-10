@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import ProductVisual from '~/components/ouooo/ProductVisual.astro';
 import { BUILD_LOCALE } from '~/i18n/config';
+import { ui } from '~/i18n/ui';
 import { listCollections } from '~/server/catalog';
 import type { Product } from '~/data/products';
 export const prerender = false;
@@ -9,18 +10,18 @@ const collections = await listCollections(BUILD_LOCALE);
 Astro.response.headers.set('Cache-Control', 'public, s-maxage=1800, stale-while-revalidate=86400');
 
 const metadata = {
-  title: 'Catholic Gift Collections',
-  description: 'Browse OUOOO wholesale Catholic gifts and religious accessories by synchronized product collection.',
+  title: ui('collectionsMetaTitle'),
+  description: ui('collectionsMetaDescription'),
 };
 ---
 
 <Layout metadata={metadata}>
   <header class="bg-[#f6f1e8]">
     <div class="mx-auto max-w-7xl px-6 py-16 sm:py-20">
-      <p class="text-xs font-semibold uppercase tracking-[.16em] text-primary">Browse by series</p>
-      <h1 class="mt-4 max-w-4xl text-4xl font-semibold text-gray-950 sm:text-5xl">Catholic gift collections</h1>
+      <p class="text-xs font-semibold uppercase tracking-[.16em] text-primary">{ui('browseBySeries')}</p>
+      <h1 class="mt-4 max-w-4xl text-4xl font-semibold text-gray-950 sm:text-5xl">{ui('collectionsHeading')}</h1>
       <p class="mt-5 max-w-2xl text-base leading-7 text-muted sm:text-lg sm:leading-8">
-        Collections are synchronized from our product catalog, so new product categories appear here automatically.
+        {ui('collectionsIntro')}
       </p>
     </div>
   </header>
@@ -37,7 +38,7 @@ const metadata = {
               <ProductVisual accent={featured.accent} label={collection.name} imageUrl={featured.imageUrl} />
               <div class="px-2 pb-3 pt-5">
                 <p class="text-xs font-semibold uppercase tracking-[.14em] text-primary">
-                  {collection.productCount} {collection.productCount === 1 ? 'product' : 'products'}
+                  {collection.productCount} {ui(collection.productCount === 1 ? 'product' : 'products')}
                 </p>
                 <h2 class="mt-2 text-2xl font-semibold text-gray-950 group-hover:text-primary">{collection.name}</h2>
               </div>

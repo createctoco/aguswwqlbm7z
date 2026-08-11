@@ -1,119 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-10T19:13:47.410Z",
+  "generatedAt": "2026-08-11T03:52:20.083Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": "2026-08-09T15:53:16.918Z",
     "changedProductIds": [
-      "AAGFTG7BAOVioqqEY6eBSu3J",
-      "AAEpTG7BAOVioqqEY6eBSoFZ",
-      "AAFgTG7BAOVioqqEY6eiiUhp",
-      "AAFATG7BAOVioqqEY6eBuUk5",
-      "AAHbTG7BAOVioqqEY6eBTajh",
-      "AAG3TG7BAOVioqqEY6eBtXGM",
-      "AAFwTG7BAOVioqqEY6eeWvd9",
-      "AAHmTG7BAOVioqqEY6eBuSYC",
-      "AAFrTG7BAOVioqqEY6ehRwN8",
-      "AAG8TG7BAOVioqqEY6eh_0zM",
-      "AAFNTG7BAOVioqqEY6eBSWId",
-      "AAEETG7BAOVioqqEY6eft1_L",
-      "AAHbTG7BAOVioqqEY6eekwGl",
-      "AAEWTG7BAOVioqqEY6eBTGBl",
-      "AAG0TG7BAOVioqqEY6eBTbSu",
-      "AAEJTG7BAOVioqqEY6eBT0H0",
-      "AAH4TG7BAOVioqqEY6e-zzot",
-      "AAGgTG7BAOVioqqEY6e-zpz0",
-      "AAEtTG7BAOVioqqEY6e9ODX_",
-      "AAGsTG7BAOVioqqEY6eh_EjD",
-      "AAH2TG7BAOVioqqEY6eBREbn",
-      "AAGxTG7BAOVioqqEY6e7uzWC",
-      "AAHCTG7BAOVioqqEY6eBTOqH",
-      "AAFHTG7BAOVioqqEY6eGeB8m",
-      "AAGITG7BAOVioqqEY6ee512i",
-      "AAEaTG7BAOVioqqEY6eBSzAa",
-      "AAHaTG7BAOVioqqEY6ejcrgJ",
-      "AAEzTG7BAOVioqqEY6ejcp19",
-      "AAHQTG7BAOVioqqEY6ejdXPB",
-      "AAH-TG7BAOVioqqEY6eChS_E",
-      "AAHVTG7BAOVioqqEY6eDHXK_",
-      "AAGdTG7BAOVioqqEY6ecNC6b",
-      "AAEATG7BAOVioqqEY6eBTTD-",
-      "AAHFTG7BAOVioqqEY6eBS7u6",
-      "AAHxTG7BAOVioqqEY6eBTeq1",
-      "AAEFTG7BAOVioqqEY6ee7J1a",
-      "AAHSTG7BAOVioqqEY6eehpaU",
-      "AAEATG7BAOVioqqEY6eBTN5R",
-      "AAENTG7BAOVioqqEY6eDHZlQ",
-      "AAGuTG7BAOVioqqEY6ey4IiQ",
-      "AAGkTG7BAOVioqqEY6eBS6Sw",
-      "AAFSTG7BAOVioqqEY6eeANNd",
-      "AAH_TG7BAOVioqqEY6eBTSwB",
-      "AAH_TG7BAOVioqqEY6eBSj3z",
-      "AAEDTG7BAOVioqqEY6eBS0nq",
-      "AAGsTG7BAOVioqqEY6eBSs-O",
-      "AAEdTG7BAOVioqqEY6eErD8q",
-      "AAH5TG7BAOVioqqEY6eBUBqK",
-      "AAHtTG7BAOVioqqEY6ez1_Lt",
-      "AAH8TG7BAOVioqqEY6eBSJ0S",
-      "AAEHTG7BAOVioqqEY6eNuoQ4",
-      "AAHaTG7BAOVioqqEY6ee-j6A",
-      "AAGgTG7BAOVioqqEY6ee8wuA",
-      "AAFhTG7BAOVioqqEY6eBTiZo",
-      "AAFmTG7BAOVioqqEY6e0cUvy",
-      "AAHATG7BAOVioqqEY6eBTZzS",
-      "AAHETG7BAOVioqqEY6eBTS3F",
-      "AAH6TG7BAOVioqqEY6ee97Ax",
-      "AAH4TG7BAOVioqqEY6eBtbuD",
-      "AAGcTG7BAOVioqqEY6eBSo--",
-      "AAGKTG7BAOVioqqEY6eglpO9",
-      "AAG_TG7BAOVioqqEY6eBTy-8",
-      "AAFpTG7BAOVioqqEY6eBTF07",
-      "AAEjTG7BAOVioqqEY6eeYVDQ",
-      "AAGtTG7BAOVioqqEY6eh_xP2",
-      "AAGLTG7BAOVioqqEY6eeb5ji",
-      "AAE2TG7BAOVioqqEY6e8uWxR",
-      "AAH7TG7BAOVioqqEY6eFNwyv",
-      "AAGkTG7BAOVioqqEY6ezCLyp",
-      "AAEiTG7BAOVioqqEY6e3pcl5",
-      "AAHwTG7BAOVioqqEY6eBSxmH",
-      "AAGjTG7BAOVioqqEY6eBS8KR",
-      "AAG-TG7BAOVioqqEY6e30vU8",
-      "AAHsTG7BAOVioqqEY6eejvFL",
-      "AAHPTG7BAOVioqqEY6ee9wSy",
-      "AAEMTG7BAOVioqqEY6e0cTir",
-      "AAEATG7BAOVioqqEY6ee0dI7",
-      "AAERTG7BAOVioqqEY6eg-6pI",
-      "AAH6TG7BAOVioqqEY6e314fh",
-      "AAEsTG7BAOVioqqEY6egmVkW",
-      "AAGPTG7BAOVioqqEY6eBQKuf",
-      "AAFjTG7BAOVioqqEY6eGVHMS",
-      "AAHuTG7BAOVioqqEY6eL9SLI",
-      "AAGuTG7BAOVioqqEY6eYGyzL",
-      "AAHSTG7BAOVioqqEY6eDVzq6",
-      "AAHVTG7BAOVioqqEY6eO_vtK",
-      "AAHSTG7BAOVioqqEY6e7AniZ",
-      "AAGPTG7BAOVioqqEY6eykcCI",
-      "AAFaTG7BAOVioqqEY6ez6dZk",
-      "AAGETG7BAOVioqqEY6eBSK-I",
-      "AAG5TG7BAOVioqqEY6eFERgH",
-      "AAGjTG7BAOVioqqEY6eBTJi6",
-      "AAFBTG7BAOVioqqEY6eejXwW",
-      "AAHDTG7BAOVioqqEY6eykIvy",
-      "AAGhTG7BAOVioqqEY6eMtNwB",
-      "AAG6TG7BAOVioqqEY6eMIGmh",
-      "AAHzTG7BAOVioqqEY6ezqRb9",
-      "AAHGTG7BAOVioqqEY6ejcsvi",
-      "AAEGTG7BAOVioqqEY6eBSnZB",
-      "AAHwTG7BAOVioqqEY6eBTcHd"
+      "AAG1TG7BAOVioqqEY6eBSZTT",
+      "AAErTG7BAOVioqqEY6e1pONr",
+      "AAHeTG7BAOVioqqEY6eBS5T6",
+      "AAFfTG7BAOVioqqEY6eEg3lb",
+      "AAEgTG7BAOVioqqEY6eMhsZE",
+      "AAH3TG7BAOVioqqEY6eBTrdt",
+      "AAFBTG7BAOVioqqEY6eBRKNV",
+      "AAEQTG7BAOVioqqEY6eBSJ4l",
+      "AAEATG7BAOVioqqEY6eBSoGw",
+      "AAExTG7BAOVioqqEY6eBSkkZ"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 89,
-    "reused": 50,
-    "source_fallback": 11
+    "generated": 8,
+    "reused": 150,
+    "source_fallback": 2
   },
   "products": [
     {
@@ -11665,12 +11575,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "e296ac105c4ce3f651b651ae5657b0a7f46f7f7f01bb9d3a25b898128f9460aa",
+        "sourceHash": "fc1e723171dc741ebe69719d3542e2014f1892c57ee1de9d0373239d4ae7461f",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "e296ac105c4ce3f651b651ae5657b0a7f46f7f7f01bb9d3a25b898128f9460aa",
-            "contentHash": "e296ac105c4ce3f651b651ae5657b0a7f46f7f7f01bb9d3a25b898128f9460aa",
+            "sourceHash": "fc1e723171dc741ebe69719d3542e2014f1892c57ee1de9d0373239d4ae7461f",
+            "contentHash": "fc1e723171dc741ebe69719d3542e2014f1892c57ee1de9d0373239d4ae7461f",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:50:29.088Z",
             "model": "deepseek-v4-flash"
@@ -12508,12 +12418,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "4346aa6bbbeef6afa12980f66e51fe9535ce07143ba7820bdaca65c82644f8c0",
+        "sourceHash": "25349d440ebbd6f74c6506867783b9fdc172150d365736918335c72f1a2772be",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "4346aa6bbbeef6afa12980f66e51fe9535ce07143ba7820bdaca65c82644f8c0",
-            "contentHash": "4346aa6bbbeef6afa12980f66e51fe9535ce07143ba7820bdaca65c82644f8c0",
+            "sourceHash": "25349d440ebbd6f74c6506867783b9fdc172150d365736918335c72f1a2772be",
+            "contentHash": "25349d440ebbd6f74c6506867783b9fdc172150d365736918335c72f1a2772be",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:51:19.922Z",
             "model": "deepseek-v4-flash"
@@ -13373,12 +13283,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "869fc479d0c423cf37c810309c8da6c8745c6f903469a67ebb067c4c4da8c712",
+        "sourceHash": "88df86d80453cc3223b03be901f128758133601f51261c40c18e529370f90dbf",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "869fc479d0c423cf37c810309c8da6c8745c6f903469a67ebb067c4c4da8c712",
-            "contentHash": "869fc479d0c423cf37c810309c8da6c8745c6f903469a67ebb067c4c4da8c712",
+            "sourceHash": "88df86d80453cc3223b03be901f128758133601f51261c40c18e529370f90dbf",
+            "contentHash": "88df86d80453cc3223b03be901f128758133601f51261c40c18e529370f90dbf",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:52:57.960Z",
             "model": "deepseek-v4-flash"
@@ -14919,12 +14829,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "1cce91d07e1a1dd3254a72e6b1a0fd14c4e2a60c0610b80672cc98058a28dc54",
+        "sourceHash": "3134c96ea9017461e469e6fd99b31b1ba64e9deb3ab7437caed8d02cbb8629df",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "1cce91d07e1a1dd3254a72e6b1a0fd14c4e2a60c0610b80672cc98058a28dc54",
-            "contentHash": "1cce91d07e1a1dd3254a72e6b1a0fd14c4e2a60c0610b80672cc98058a28dc54",
+            "sourceHash": "3134c96ea9017461e469e6fd99b31b1ba64e9deb3ab7437caed8d02cbb8629df",
+            "contentHash": "3134c96ea9017461e469e6fd99b31b1ba64e9deb3ab7437caed8d02cbb8629df",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:54:50.029Z",
             "model": "deepseek-v4-flash"
@@ -16135,12 +16045,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "6f28b92db768cca5293380fda8c66a64333d39c70f1416b26aa462039c628ef7",
+        "sourceHash": "a39e6cae34de5ca4f94089ee05ce8b7b01c3d667a7d561931e2407f456204a0a",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "6f28b92db768cca5293380fda8c66a64333d39c70f1416b26aa462039c628ef7",
-            "contentHash": "6f28b92db768cca5293380fda8c66a64333d39c70f1416b26aa462039c628ef7",
+            "sourceHash": "a39e6cae34de5ca4f94089ee05ce8b7b01c3d667a7d561931e2407f456204a0a",
+            "contentHash": "a39e6cae34de5ca4f94089ee05ce8b7b01c3d667a7d561931e2407f456204a0a",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:55:32.100Z",
             "model": "deepseek-v4-flash"
@@ -18297,12 +18207,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "aab51b42219df0b2211eba7ce608dd11d2beff5404655175416f8b38dfe33aec",
+        "sourceHash": "789b3e119d2f066697f506abf347f8f00b8401e5ece801646bd6d9ec3d40fb26",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "aab51b42219df0b2211eba7ce608dd11d2beff5404655175416f8b38dfe33aec",
-            "contentHash": "aab51b42219df0b2211eba7ce608dd11d2beff5404655175416f8b38dfe33aec",
+            "sourceHash": "789b3e119d2f066697f506abf347f8f00b8401e5ece801646bd6d9ec3d40fb26",
+            "contentHash": "789b3e119d2f066697f506abf347f8f00b8401e5ece801646bd6d9ec3d40fb26",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:58:09.606Z",
             "model": "deepseek-v4-flash"
@@ -20623,12 +20533,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "f6f63f9f33c4b2987503d2c8aeb780038403f3de664381a551020fd852a793de",
+        "sourceHash": "a1505182d9897c3902c409474dfb24e1a3fe4f9b35e958a5f10dbd646966b563",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "f6f63f9f33c4b2987503d2c8aeb780038403f3de664381a551020fd852a793de",
-            "contentHash": "f6f63f9f33c4b2987503d2c8aeb780038403f3de664381a551020fd852a793de",
+            "sourceHash": "a1505182d9897c3902c409474dfb24e1a3fe4f9b35e958a5f10dbd646966b563",
+            "contentHash": "a1505182d9897c3902c409474dfb24e1a3fe4f9b35e958a5f10dbd646966b563",
             "attempts": 0,
             "updatedAt": "2026-08-10T19:00:23.722Z",
             "model": "deepseek-v4-flash"
@@ -22231,12 +22141,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "161b2ab49162d1e1d64b12dcd549ffaec00b37e0b22727b601afe3be8c740668",
+        "sourceHash": "d930ffc73830ae0608a5ad2628315853019151a61099f3cdfdc8295696e78a40",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "161b2ab49162d1e1d64b12dcd549ffaec00b37e0b22727b601afe3be8c740668",
-            "contentHash": "161b2ab49162d1e1d64b12dcd549ffaec00b37e0b22727b601afe3be8c740668",
+            "sourceHash": "d930ffc73830ae0608a5ad2628315853019151a61099f3cdfdc8295696e78a40",
+            "contentHash": "d930ffc73830ae0608a5ad2628315853019151a61099f3cdfdc8295696e78a40",
             "attempts": 0,
             "updatedAt": "2026-08-10T19:02:38.007Z",
             "model": "deepseek-v4-flash"
@@ -25476,12 +25386,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "18ddfb145e21a48bb130c0f65f35a24dae8f25c1ee90c9280548dbcdec974009",
+        "sourceHash": "5a2754af9c41ad409aed9d0b7eb49021de737cd0863e1a63177c74aa5cbebcee",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "18ddfb145e21a48bb130c0f65f35a24dae8f25c1ee90c9280548dbcdec974009",
-            "contentHash": "18ddfb145e21a48bb130c0f65f35a24dae8f25c1ee90c9280548dbcdec974009",
+            "sourceHash": "5a2754af9c41ad409aed9d0b7eb49021de737cd0863e1a63177c74aa5cbebcee",
+            "contentHash": "5a2754af9c41ad409aed9d0b7eb49021de737cd0863e1a63177c74aa5cbebcee",
             "attempts": 0,
             "updatedAt": "2026-08-10T19:07:07.743Z",
             "model": "deepseek-v4-flash"
@@ -25889,12 +25799,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "9067ae1fe0f28abfa517292b24dcbbcb228c12a414dbfe1973139cd3052f2a1f",
+        "sourceHash": "ebaf48076c5e49d695f4f9e5dac19e586d7cbdad7dfe1e0f2ca63bc0dd6e5153",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "9067ae1fe0f28abfa517292b24dcbbcb228c12a414dbfe1973139cd3052f2a1f",
-            "contentHash": "9067ae1fe0f28abfa517292b24dcbbcb228c12a414dbfe1973139cd3052f2a1f",
+            "sourceHash": "ebaf48076c5e49d695f4f9e5dac19e586d7cbdad7dfe1e0f2ca63bc0dd6e5153",
+            "contentHash": "ebaf48076c5e49d695f4f9e5dac19e586d7cbdad7dfe1e0f2ca63bc0dd6e5153",
             "attempts": 0,
             "updatedAt": "2026-08-10T19:07:36.973Z",
             "model": "deepseek-v4-flash"
@@ -29958,12 +29868,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "8d8183a407612ae322dcb3f2d6ed44c408fde246a06a662e1b992e4ab00c09c7",
+        "sourceHash": "101570ed82d913d223b1b13c3ce43a4697b593e0bb039b8473ab6f16b28ddd9e",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "8d8183a407612ae322dcb3f2d6ed44c408fde246a06a662e1b992e4ab00c09c7",
-            "contentHash": "8d8183a407612ae322dcb3f2d6ed44c408fde246a06a662e1b992e4ab00c09c7",
+            "sourceHash": "101570ed82d913d223b1b13c3ce43a4697b593e0bb039b8473ab6f16b28ddd9e",
+            "contentHash": "101570ed82d913d223b1b13c3ce43a4697b593e0bb039b8473ab6f16b28ddd9e",
             "attempts": 0,
             "updatedAt": "2026-08-10T19:11:25.135Z",
             "model": "deepseek-v4-flash"
@@ -32404,6 +32314,2116 @@
             "contentHash": "cee4405dd2e24abb0935da6322bf213ae0e092766b81a489458f9170858c2f3c",
             "attempts": 0,
             "updatedAt": "2026-08-10T19:13:47.089Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAG1TG7BAOVioqqEY6eBSZTT",
+      "sourceId": "AAG1TG7BAOVioqqEY6eBSZTT",
+      "sourceFingerprint": "2241861ffa44500c1dfea9bb461bb876d43d7b3627823d7a38f8c4bb0081ad1d",
+      "locale": "en",
+      "slug": "black-glass-bead-rosary-bracelet-with-alloy-cross-ebsztt",
+      "title": "Black Glass Bead Rosary Bracelet with Alloy Cross",
+      "eyebrow": "black glass bead rosary bracelet with alloy cross",
+      "summary": "A unisex black glass bead rosary bracelet featuring an alloy cross and channel-set stones. Designed in a religious style for Catholic jewelry buyers. Sourced from Zhejiang, China, this beaded bracelet offers a subtle, everyday devotional option.",
+      "description": "This black glass bead rosary bracelet presents a modern take on traditional prayer beads. The alloy cross serves as a focal point, while the channel-set stones add a subtle sparkle. Its unisex design suits both men and women.\n\nCrafted as a beaded bracelet in a religious style, it is identified as Catholic in origin. The bracelet falls into the category of rosary bracelets, making it a portable choice for prayer. Available wholesale for retailers and distributors.",
+      "catholicContext": "The Rosary is a traditional Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAG1TG7BAOVioqqEY6eBSZTT",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H2bdb30e961e14c378d0db9d13cc57800T.webp",
+      "imageAlt": "Black Glass Bead Rosary Bracelet with Alloy Cross",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2bdb30e961e14c378d0db9d13cc57800T.webp",
+          "alt": "Black Glass Bead Rosary Bracelet with Alloy Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1e9dba4ea1ae4a2aa4e988e9b49fd34b5.webp",
+          "alt": "Black Glass Bead Rosary Bracelet with Alloy Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf8d4931310ba4c8591ecb1f60962a70aI.webp",
+          "alt": "Black Glass Bead Rosary Bracelet with Alloy Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H18e44679ddc44c4193797d842099fd9dv.webp",
+          "alt": "Black Glass Bead Rosary Bracelet with Alloy Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He6247b7f1a9e4e82ae1a052c0bd55b2ax.webp",
+          "alt": "Black Glass Bead Rosary Bracelet with Alloy Cross"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Black glass beads in a beaded bracelet format",
+        "Alloy cross accent",
+        "Channel-set stone inlay",
+        "Unisex design",
+        "Religious style, Catholic type",
+        "Sourced from Zhejiang, China"
+      ],
+      "specifications": [
+        {
+          "name": "Primary material",
+          "value": "Glass beads; alloy cross"
+        },
+        {
+          "name": "Bracelet type",
+          "value": "Beaded bracelet"
+        },
+        {
+          "name": "Stone shape",
+          "value": "Princess cut"
+        },
+        {
+          "name": "Inlay technique",
+          "value": "Channel setting"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Place of origin",
+          "value": "Zhejiang, China"
+        }
+      ],
+      "applications": [
+        "Personal prayer or devotional use",
+        "Everyday religious jewelry",
+        "Gift item for Catholic occasions",
+        "Wholesale retail inventory"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this rosary bracelet?",
+          "answer": "The bracelet features black glass beads and an alloy cross, with channel-set stones (princess cut) as accents."
+        },
+        {
+          "question": "Is this bracelet designed for both men and women?",
+          "answer": "Yes, the bracelet is marked as unisex, making it suitable for any wearer."
+        },
+        {
+          "question": "Can I order this rosary bracelet in bulk for my store?",
+          "answer": "Yes, this product is available for wholesale. Contact us for ordering details and pricing."
+        }
+      ],
+      "pricing": {
+        "price": "0.45",
+        "regularPrice": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.28",
+          "max": "0.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Black Glass Bead Rosary Bracelet with Alloy Cross",
+          "description": "Wholesale black glass bead rosary bracelet with alloy cross and channel-set stones. Unisex beaded bracelet in religious style, sourced from Zhejiang, China.",
+          "sku": "ALI-AAG1TG7BAOVioqqEY6eBSZTT",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2bdb30e961e14c378d0db9d13cc57800T.jpg",
+            "https://sc04.alicdn.com/kf/H1e9dba4ea1ae4a2aa4e988e9b49fd34b5.jpg",
+            "https://sc04.alicdn.com/kf/Hf8d4931310ba4c8591ecb1f60962a70aI.jpg",
+            "https://sc04.alicdn.com/kf/H18e44679ddc44c4193797d842099fd9dv.jpg",
+            "https://sc04.alicdn.com/kf/He6247b7f1a9e4e82ae1a052c0bd55b2ax.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Primary material",
+              "value": "Glass beads; alloy cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bracelet type",
+              "value": "Beaded bracelet"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stone shape",
+              "value": "Princess cut"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Inlay technique",
+              "value": "Channel setting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Place of origin",
+              "value": "Zhejiang, China"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.28",
+              "maxPrice": "0.45",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this rosary bracelet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet features black glass beads and an alloy cross, with channel-set stones (princess cut) as accents."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet designed for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the bracelet is marked as unisex, making it suitable for any wearer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I order this rosary bracelet in bulk for my store?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, this product is available for wholesale. Contact us for ordering details and pricing."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "202c58c535af9be6d0073b0d3aa3ae431ca8801d5130454872dfd6175b8abe71",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "202c58c535af9be6d0073b0d3aa3ae431ca8801d5130454872dfd6175b8abe71",
+            "contentHash": "202c58c535af9be6d0073b0d3aa3ae431ca8801d5130454872dfd6175b8abe71",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T03:49:14.091Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAErTG7BAOVioqqEY6e1pONr",
+      "sourceId": "AAErTG7BAOVioqqEY6e1pONr",
+      "sourceFingerprint": "8938114ccbf92b2e1aef951fdfd5521e46ecd255982076a5fc9244338a291e4f",
+      "locale": "en",
+      "slug": "saint-michael-cross-pendant-necklace-zinc-alloy-e1ponr",
+      "title": "Saint Michael Cross Pendant Necklace Zinc Alloy",
+      "eyebrow": "Archangel Saint Michael cross pendant necklace with chain",
+      "summary": "This Saint Michael cross pendant necklace pairs a detailed archangel medallion with a matching link chain. Made from zinc alloy, it comes in silver, gold, and brown finishes. A practical choice for Catholic gift sourcing and retail.",
+      "description": "The pendant centers on a cross featuring Saint Michael, a design that stands out for its engraved detailing and tactile relief. The attached link chain gives it a ready-to-wear finish, and the zinc alloy construction keeps it lightweight for everyday use.\n\nAvailable in three finish families—silver, gold, and brown—across multiple sizes (noted by numbers in variant labels), this piece suits buyers who want options for different retail tiers. Finish and size choices should be confirmed at order time.\n\nWe source this necklace for wholesalers and Catholic gift shops. Contact us for current variant availability and bulk inquiries.",
+      "catholicContext": "Saint Michael the Archangel is honored in Catholic tradition as a defender against evil, and devotional medals and pendants are common expressions of popular piety.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hf60825949ed1416d9f64c10d2c665974a.webp",
+      "imageAlt": "Saint Michael Cross Pendant Necklace Zinc Alloy",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf60825949ed1416d9f64c10d2c665974a.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha2d0813273a942eea023a40c69990915O.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc15fb9ebbd34f1fa18c53fc52234353m.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4611c81c180b4bcc9d3f0ba03c7fead7i.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hccc8f385f2174a0b813aae203bc2a92da.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc17ab1a0660043d292b2c1acc5a3b86b9.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He593ec722e564426af07656337b67721A.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - brown12",
+          "label": "brown12",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H110f22e64b20438d80c155635ed4cedfi.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - gold8",
+          "label": "gold8",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hffc275dbc7004d48b4479edbae569fc6t.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - gold14",
+          "label": "gold14",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb2d7114019c544d0ad707248cfbb1397v.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - silver13",
+          "label": "silver13",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfcd0dae24f7546e396231ec8bfa3e55aA.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - gold11",
+          "label": "gold11",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H003e3ff2dbeb4d36a5a4f3e288bec5e1F.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - silver7",
+          "label": "silver7",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H139fee2c5f154613a859d95ab4a9fe72a.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - brown6",
+          "label": "brown6",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0897df805524c7d9a862bfe55e6f03av.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - silver10",
+          "label": "silver10",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H07d633e3f0a24c4094c04f2c6f5f3339X.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - brown9",
+          "label": "brown9",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--16"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H342aa7d278dc4e329701d7123796a689H.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - brown3",
+          "label": "brown3",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H534549a8d6fa433fa91fc6e5ff9216a7w.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - gold2",
+          "label": "gold2",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H939a9ab5a92f4b11b0d73d8b72970460s.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - gold5",
+          "label": "gold5",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha804378190a64400a87f586aef31509dF.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - silver4",
+          "label": "silver4",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf6b24acc198c450d995b224eab879b8aD.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - silver16",
+          "label": "silver16",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1b3ab91c3c4b42668b95b876126c04476.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - brown15",
+          "label": "brown15",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31b259a3058a4b32bbec708a11607e1aQ.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - silver1",
+          "label": "silver1",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4a71b3f300434172b71aabf99e1d36fdQ.webp",
+          "alt": "Saint Michael Cross Pendant Necklace Zinc Alloy - gold17",
+          "label": "gold17",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr-V--7"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Zinc alloy construction",
+        "Saint Michael cross pendant design",
+        "Attached link chain",
+        "Available in silver, gold, and brown finishes",
+        "Multiple size variants (e.g., Brown12, Gold5, Silver16)"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc alloy"
+        },
+        {
+          "name": "Pendant design",
+          "value": "Cross with Archangel Saint Michael"
+        },
+        {
+          "name": "Chain",
+          "value": "Link chain included"
+        },
+        {
+          "name": "Finish options",
+          "value": "Silver, gold, brown"
+        },
+        {
+          "name": "Variant naming",
+          "value": "Color plus number (e.g., Brown12, Gold5, Silver16) indicates size"
+        }
+      ],
+      "applications": [
+        "Catholic gift shop retail",
+        "Religious jewelry displays",
+        "Bulk wholesale orders for church shops",
+        "Personal devotional use"
+      ],
+      "faq": [
+        {
+          "question": "What material is this necklace made from?",
+          "answer": "The Saint Michael cross pendant necklace is made from zinc alloy, which is a lightweight and affordable metal commonly used for fashion and religious jewelry."
+        },
+        {
+          "question": "What finishes and sizes are available?",
+          "answer": "The necklace comes in three finish options: silver, gold, and brown. Multiple variants exist under each color (e.g., Brown12, Gold5, Silver16), with the number likely indicating a size or length option. Contact us for the full variant list."
+        },
+        {
+          "question": "Does the necklace come with a chain?",
+          "answer": "Yes, the necklace includes a link chain, so it is ready to wear or display upon receipt."
+        }
+      ],
+      "pricing": {
+        "price": "0.55",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.55"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Saint Michael Cross Pendant Necklace Zinc Alloy",
+          "description": "Saint Michael cross pendant necklace in zinc alloy with link chain. Available in silver, gold, and brown variants. A devotional accessory for Catholic gift buyers.",
+          "sku": "ALI-AAErTG7BAOVioqqEY6e1pONr",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf60825949ed1416d9f64c10d2c665974a.png",
+            "https://sc04.alicdn.com/kf/Ha2d0813273a942eea023a40c69990915O.png",
+            "https://sc04.alicdn.com/kf/Hbc15fb9ebbd34f1fa18c53fc52234353m.png",
+            "https://sc04.alicdn.com/kf/H4611c81c180b4bcc9d3f0ba03c7fead7i.png",
+            "https://sc04.alicdn.com/kf/Hccc8f385f2174a0b813aae203bc2a92da.png",
+            "https://sc04.alicdn.com/kf/Hc17ab1a0660043d292b2c1acc5a3b86b9.png"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendant design",
+              "value": "Cross with Archangel Saint Michael"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain",
+              "value": "Link chain included"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Finish options",
+              "value": "Silver, gold, brown"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant naming",
+              "value": "Color plus number (e.g., Brown12, Gold5, Silver16) indicates size"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.55",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.55",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this necklace made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Saint Michael cross pendant necklace is made from zinc alloy, which is a lightweight and affordable metal commonly used for fashion and religious jewelry."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What finishes and sizes are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace comes in three finish options: silver, gold, and brown. Multiple variants exist under each color (e.g., Brown12, Gold5, Silver16), with the number likely indicating a size or length option. Contact us for the full variant list."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the necklace come with a chain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the necklace includes a link chain, so it is ready to wear or display upon receipt."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "090ad1e9a0bcf9c711a782eabace935e6e62187476a5fa2e6523883ee9398b4e",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "090ad1e9a0bcf9c711a782eabace935e6e62187476a5fa2e6523883ee9398b4e",
+            "contentHash": "090ad1e9a0bcf9c711a782eabace935e6e62187476a5fa2e6523883ee9398b4e",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T03:49:36.654Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHeTG7BAOVioqqEY6eBS5T6",
+      "sourceId": "AAHeTG7BAOVioqqEY6eBS5T6",
+      "sourceFingerprint": "35f899391108421d71ae938bebf376716b50f2201f86eab6c02a2508f66a212b",
+      "locale": "en",
+      "slug": "stainless-steel-cross-fidget-spinner-ring-ebs5t6",
+      "title": "Stainless Steel Cross Fidget Spinner Ring",
+      "eyebrow": "religious cross fidget spinner ring",
+      "summary": "This stainless steel ring combines a cross design with a functional fidget spinner band, offering a subtle way to manage stress while expressing personal style. Available in black or gold, it suits everyday wear for men and women.",
+      "description": "This ring features a cross motif on a stainless steel band, with a rotating outer ring that provides a tactile outlet for restless hands. Made from durable alloy, it is designed for daily wear as a casual accessory or a personal reminder of faith.\n\nAvailable in black and gold finishes, the ring offers a simple yet meaningful aesthetic that pairs well with both casual and semi-formal attire. Its unisex sizing makes it a versatile option for anyone seeking a functional and symbolic piece of jewelry.",
+      "catholicContext": "A cross is a central symbol of the Christian faith, often worn as an expression of personal devotion.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Rings",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAHeTG7BAOVioqqEY6eBS5T6",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hcf39bfeab98e4a239ecaa1032de06720c.webp",
+      "imageAlt": "Stainless Steel Cross Fidget Spinner Ring",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcf39bfeab98e4a239ecaa1032de06720c.webp",
+          "alt": "Stainless Steel Cross Fidget Spinner Ring"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H196b084dc9bd43db890406bbae0649e4h.webp",
+          "alt": "Stainless Steel Cross Fidget Spinner Ring"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd32688fc17e247e093fe4c114785b2c77.webp",
+          "alt": "Stainless Steel Cross Fidget Spinner Ring"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1a399048c95743bd8fbe4347124ecd0bw.webp",
+          "alt": "Stainless Steel Cross Fidget Spinner Ring"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H73a6cb26a75246869a90cf4f3116c54bC.webp",
+          "alt": "Stainless Steel Cross Fidget Spinner Ring - black",
+          "label": "black",
+          "sku": "ALI-AAHeTG7BAOVioqqEY6eBS5T6-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9a9a724e7a1f49a4b82734b3d66cbcf0T.webp",
+          "alt": "Stainless Steel Cross Fidget Spinner Ring - gold",
+          "label": "gold",
+          "sku": "ALI-AAHeTG7BAOVioqqEY6eBS5T6-V-3331116"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Stainless steel construction",
+        "Cross design",
+        "Fidget spinner band for anxiety relief",
+        "Available in black and gold",
+        "Suitable for both women and men"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Stainless steel and alloy"
+        },
+        {
+          "name": "Design",
+          "value": "Religious cross"
+        },
+        {
+          "name": "Variant",
+          "value": "Black, Gold"
+        }
+      ],
+      "applications": [
+        "Daily stress relief",
+        "Personal accessory for faith expression",
+        "Casual wear for men and women",
+        "Conversation starter about faith"
+      ],
+      "faq": [
+        {
+          "question": "What materials is the ring made of?",
+          "answer": "The ring is made from stainless steel and alloy, ensuring durability for everyday use."
+        },
+        {
+          "question": "Is the ring available in different colors?",
+          "answer": "Yes, the ring comes in two variants: black and gold."
+        },
+        {
+          "question": "Can both men and women wear this ring?",
+          "answer": "The ring is designed for both women and men, offering a unisex appeal."
+        }
+      ],
+      "pricing": {
+        "price": "1.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.89",
+          "max": "1.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Stainless Steel Cross Fidget Spinner Ring",
+          "description": "A stainless steel cross ring with a spinning outer band, available in black and gold, designed for anxiety relief and suitable for both men and women.",
+          "sku": "ALI-AAHeTG7BAOVioqqEY6eBS5T6",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hcf39bfeab98e4a239ecaa1032de06720c.jpg",
+            "https://sc04.alicdn.com/kf/H196b084dc9bd43db890406bbae0649e4h.jpg",
+            "https://sc04.alicdn.com/kf/Hd32688fc17e247e093fe4c114785b2c77.jpg",
+            "https://sc04.alicdn.com/kf/H1a399048c95743bd8fbe4347124ecd0bw.jpg"
+          ],
+          "category": "Rings",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Stainless steel and alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Religious cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Black, Gold"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.89",
+              "maxPrice": "1.45",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is the ring made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ring is made from stainless steel and alloy, ensuring durability for everyday use."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the ring available in different colors?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the ring comes in two variants: black and gold."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can both men and women wear this ring?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ring is designed for both women and men, offering a unisex appeal."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "6ef4d3d054a78230419b3dafef398803fbce32804f2b7799156ce784e56c87e4",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "6ef4d3d054a78230419b3dafef398803fbce32804f2b7799156ce784e56c87e4",
+            "contentHash": "6ef4d3d054a78230419b3dafef398803fbce32804f2b7799156ce784e56c87e4",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T03:49:58.010Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFfTG7BAOVioqqEY6eEg3lb",
+      "sourceId": "AAFfTG7BAOVioqqEY6eEg3lb",
+      "sourceFingerprint": "126fb082acb61cc0a27f289d39d0987e48da21cc1381ad3cb2fa3a087a9343ac",
+      "locale": "en",
+      "slug": "embroidered-catholic-scapular-necklace-eeg3lb",
+      "title": "Embroidered Catholic Scapular Necklace",
+      "eyebrow": "Catholic scapular necklace",
+      "summary": "This Catholic scapular necklace is made of polyester with an embroidered JESUS motif, designed as a pendant-style accessory. Suitable for men, women, and children, it serves as a religious gift for weddings, anniversaries, parties, and other occasions.",
+      "description": "Crafted from polyester, this scapular necklace features an embroidered JESUS pattern, offering a visible expression of faith. The pendant-style design is lightweight and suitable for daily wear, appealing to a unisex audience including children. As a religious-themed accessory, it can be given as a gift for weddings, anniversaries, or other special moments. The material is durable and easy to maintain, making it a practical choice for those seeking a devotional item.",
+      "catholicContext": "Scapulars are a form of popular devotion in the Catholic tradition, worn as a sign of faith and commitment, though this retail item is not described as blessed or a sacramental.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "39",
+          "name": "Catholic Scapulars",
+          "slug": "catholic-scapulars"
+        }
+      ],
+      "sku": "ALI-AAFfTG7BAOVioqqEY6eEg3lb",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H4be890139912425d9295573a014ba86c9.webp",
+      "imageAlt": "Embroidered Catholic Scapular Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4be890139912425d9295573a014ba86c9.webp",
+          "alt": "Embroidered Catholic Scapular Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H21acd1f376734a7b9d3255e9ebde684cD.webp",
+          "alt": "Embroidered Catholic Scapular Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7b323e917b3647a182f67e8ec2456563c.webp",
+          "alt": "Embroidered Catholic Scapular Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3f71062ec6c34856943153bc23a60b38S.webp",
+          "alt": "Embroidered Catholic Scapular Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdcf3791379e943e6b8f14093f4f65adfp.webp",
+          "alt": "Embroidered Catholic Scapular Necklace"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#7a6d92",
+      "features": [
+        "Made of polyester for durability and easy care",
+        "Embroidered JESUS motif on the scapular",
+        "Pendant-style design suitable as a necklace",
+        "Unisex design fits men, women, and children",
+        "Religious theme intended for Catholic devotion"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Polyester"
+        },
+        {
+          "name": "Type",
+          "value": "Pendant or charm"
+        },
+        {
+          "name": "Pattern",
+          "value": "JESUS"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex (men, women, children)"
+        }
+      ],
+      "applications": [
+        "Worn as a personal devotional necklace",
+        "Given as a religious gift for weddings, anniversaries, or parties",
+        "Used in church gift shops or religious goods stores",
+        "Suitable as a faith-based accessory for daily wear"
+      ],
+      "faq": [
+        {
+          "question": "What material is the scapular necklace made of?",
+          "answer": "The scapular necklace is made of polyester, which is durable and easy to care for."
+        },
+        {
+          "question": "Is this scapular suitable for children?",
+          "answer": "Yes, the design is unisex and suitable for men, women, and children, based on the product specifications."
+        },
+        {
+          "question": "What design does the scapular feature?",
+          "answer": "The scapular features an embroidered 'JESUS' motif, as indicated by the product attributes."
+        }
+      ],
+      "pricing": {
+        "price": "0.65",
+        "regularPrice": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.52",
+          "max": "0.65"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Embroidered Catholic Scapular Necklace",
+          "description": "Polyester Catholic scapular necklace with embroidered JESUS motif, unisex pendant-style design for men, women, and children. Religious gift for occasions.",
+          "sku": "ALI-AAFfTG7BAOVioqqEY6eEg3lb",
+          "image": [
+            "https://sc04.alicdn.com/kf/H4be890139912425d9295573a014ba86c9.jpg",
+            "https://sc04.alicdn.com/kf/H21acd1f376734a7b9d3255e9ebde684cD.jpg",
+            "https://sc04.alicdn.com/kf/H7b323e917b3647a182f67e8ec2456563c.jpg",
+            "https://sc04.alicdn.com/kf/H3f71062ec6c34856943153bc23a60b38S.jpg",
+            "https://sc04.alicdn.com/kf/Hdcf3791379e943e6b8f14093f4f65adfp.jpg"
+          ],
+          "category": "Catholic Scapulars",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Polyester"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Type",
+              "value": "Pendant or charm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pattern",
+              "value": "JESUS"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex (men, women, children)"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.52",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is the scapular necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The scapular necklace is made of polyester, which is durable and easy to care for."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this scapular suitable for children?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the design is unisex and suitable for men, women, and children, based on the product specifications."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What design does the scapular feature?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The scapular features an embroidered 'JESUS' motif, as indicated by the product attributes."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f6e86ff246115b653cf4ae44e033b0f49da71097e5c042974aa1789e7b041b66",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f6e86ff246115b653cf4ae44e033b0f49da71097e5c042974aa1789e7b041b66",
+            "contentHash": "f6e86ff246115b653cf4ae44e033b0f49da71097e5c042974aa1789e7b041b66",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T03:50:33.067Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEgTG7BAOVioqqEY6eMhsZE",
+      "sourceId": "AAEgTG7BAOVioqqEY6eMhsZE",
+      "sourceFingerprint": "ef582d3ce6bcd5034db950d0cbd733b50ee90426b584e88f7dc773f06f2696e2",
+      "locale": "en",
+      "slug": "teal-blue-glass-beaded-cross-necklace-earring-set-emhsze",
+      "title": "Teal Blue Glass Beaded Cross Necklace & Earring Set",
+      "eyebrow": "Teal Blue Glass Beaded Cross Jewelry Set",
+      "summary": "This teal blue glass beaded cross necklace and earring set combines a stainless steel link chain with gold heart accents and pearl details. Designed as a women's religious jewelry set, it includes a cross-shaped pendant and matching earrings. Suitable for gift-giving and special occasions.",
+      "description": "This jewelry set features a teal blue glass beaded cross pendant on a stainless steel link chain, accented with gold heart-shaped details and pearl elements. The set also includes matching earrings, making it a coordinated option for those seeking religious-themed accessories. The cross pattern is consistent with Catholic devotional style, though the item is primarily a fashion accessory. Materials include alloy and glass, with channel setting inlay technology. The set is categorized as unisex and suitable for women.",
+      "catholicContext": "A cross is a recognized Christian symbol; this set is categorized under religious style with Catholicism as the religious type.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAEgTG7BAOVioqqEY6eMhsZE",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hbb32dc010fed47baa6a4e1189e344551r.webp",
+      "imageAlt": "Teal Blue Glass Beaded Cross Necklace & Earring Set",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbb32dc010fed47baa6a4e1189e344551r.webp",
+          "alt": "Teal Blue Glass Beaded Cross Necklace & Earring Set"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfa17b123d82c49e5b07072dc46734868P.webp",
+          "alt": "Teal Blue Glass Beaded Cross Necklace & Earring Set"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H70749013911c48b89f40dc8e254dcea1B.webp",
+          "alt": "Teal Blue Glass Beaded Cross Necklace & Earring Set"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4c2ddc7a4a544af3841e595c95993499U.webp",
+          "alt": "Teal Blue Glass Beaded Cross Necklace & Earring Set"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H88ef3ffb1d1448af855f48c2ad7e8752d.webp",
+          "alt": "Teal Blue Glass Beaded Cross Necklace & Earring Set"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfff379928c6a4e6da989b2996044796cd.webp",
+          "alt": "Teal Blue Glass Beaded Cross Necklace & Earring Set"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Teal blue glass beaded cross pendant with gold heart accents",
+        "Stainless steel link chain for durability",
+        "Includes matching earrings in a jewelry set",
+        "Cross pattern with religious style, categorized under Catholicism",
+        "Channel setting inlay technology for stones",
+        "Suitable for unisex wear"
+      ],
+      "specifications": [
+        {
+          "name": "Jewelry Sets Type",
+          "value": "Necklace/Earrings/Ring"
+        },
+        {
+          "name": "Main Material",
+          "value": "Alloy"
+        },
+        {
+          "name": "Chain Material",
+          "value": "Stainless Steel"
+        },
+        {
+          "name": "Main Stone",
+          "value": "Glass"
+        },
+        {
+          "name": "Inlay Technology",
+          "value": "Channel Setting"
+        },
+        {
+          "name": "Gender",
+          "value": "Women's, Unisex"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Occasion",
+          "value": "Anniversary, Engagement, Gift, Party, Wedding"
+        }
+      ],
+      "applications": [
+        "Wear as a religious-themed accessory for daily outfits",
+        "Use as a coordinated jewelry set for parties or weddings",
+        "Give as a gift for anniversary or engagement",
+        "Pair with casual or formal attire"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this cross jewelry set?",
+          "answer": "The set is primarily made of alloy with a stainless steel link chain. The main stone is glass, and it features pearl and gold heart accents. The inlay technology is channel setting."
+        },
+        {
+          "question": "Does this set include a ring?",
+          "answer": "According to the product attributes, the set type is listed as Necklace/Earrings/Ring, but the title only mentions necklace and earrings. We recommend contacting us for confirmation on whether a ring is included."
+        },
+        {
+          "question": "Is this jewelry set suitable for men?",
+          "answer": "The gender attribute lists both Women's and Unisex, so it may be suitable for anyone, though the design may appeal more to women."
+        }
+      ],
+      "pricing": {
+        "price": "3.20",
+        "regularPrice": "3.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.75",
+          "max": "3.20"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Teal Blue Glass Beaded Cross Necklace & Earring Set",
+          "description": "Teal blue glass beaded cross necklace and earring set with stainless steel link chain, gold heart accents, and pearl details. Women's religious fashion jewelry set.",
+          "sku": "ALI-AAEgTG7BAOVioqqEY6eMhsZE",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hbb32dc010fed47baa6a4e1189e344551r.png",
+            "https://sc04.alicdn.com/kf/Hfa17b123d82c49e5b07072dc46734868P.png",
+            "https://sc04.alicdn.com/kf/H70749013911c48b89f40dc8e254dcea1B.png",
+            "https://sc04.alicdn.com/kf/H4c2ddc7a4a544af3841e595c95993499U.png",
+            "https://sc04.alicdn.com/kf/H88ef3ffb1d1448af855f48c2ad7e8752d.png",
+            "https://sc04.alicdn.com/kf/Hfff379928c6a4e6da989b2996044796cd.png"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Sets Type",
+              "value": "Necklace/Earrings/Ring"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain Material",
+              "value": "Stainless Steel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "Glass"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Inlay Technology",
+              "value": "Channel Setting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Women's, Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Occasion",
+              "value": "Anniversary, Engagement, Gift, Party, Wedding"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "3.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.75",
+              "maxPrice": "3.20",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this cross jewelry set?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The set is primarily made of alloy with a stainless steel link chain. The main stone is glass, and it features pearl and gold heart accents. The inlay technology is channel setting."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this set include a ring?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "According to the product attributes, the set type is listed as Necklace/Earrings/Ring, but the title only mentions necklace and earrings. We recommend contacting us for confirmation on whether a ring is included."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this jewelry set suitable for men?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The gender attribute lists both Women's and Unisex, so it may be suitable for anyone, though the design may appeal more to women."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "7b3a6c4e918a49ea78fb90ba56e7c028aac88f251275daaa1787514d70789aff",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "7b3a6c4e918a49ea78fb90ba56e7c028aac88f251275daaa1787514d70789aff",
+            "contentHash": "7b3a6c4e918a49ea78fb90ba56e7c028aac88f251275daaa1787514d70789aff",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T03:50:47.398Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH3TG7BAOVioqqEY6eBTrdt",
+      "sourceId": "AAH3TG7BAOVioqqEY6eBTrdt",
+      "sourceFingerprint": "738f2ed424c34cb78e0d385c7b6a84e8b9af63d1a27945d624b84494519bf96c",
+      "locale": "en",
+      "slug": "saint-benedict-pendant-necklace-in-stainless-steel-ebtrdt",
+      "title": "Saint Benedict Pendant Necklace in Stainless Steel",
+      "eyebrow": "Saint Benedict pendant necklace",
+      "summary": "This stainless steel pendant necklace features the image of Saint Benedict. Offered in Black, Gold, or Silver finishes, it is a durable choice for everyday wear. Suitable for both women and men.",
+      "description": "Crafted from stainless steel, this pendant necklace presents a clear depiction of Saint Benedict. The metal construction resists tarnishing, making it a practical option for regular use.\n\nAvailable in three finishes—Black, Gold, and Silver—it can match different personal styles. The unisex design fits both women and men.\n\nAs a representation of a beloved saint, this necklace can serve as a visual reminder of one's faith.",
+      "catholicContext": "The Medal of Saint Benedict is a popular devotional object in Catholic tradition, often used as an expression of faith.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAH3TG7BAOVioqqEY6eBTrdt",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H3db68adb6d3344e88b494358ce201637L.webp",
+      "imageAlt": "Saint Benedict Pendant Necklace in Stainless Steel",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3db68adb6d3344e88b494358ce201637L.webp",
+          "alt": "Saint Benedict Pendant Necklace in Stainless Steel"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He9d364dfcb3b49bbb72d5d21b0b07b4b3.webp",
+          "alt": "Saint Benedict Pendant Necklace in Stainless Steel"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H158f0d91ebdd4c5686a2054dc2424f75u.webp",
+          "alt": "Saint Benedict Pendant Necklace in Stainless Steel"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6df550e12e02446bb822802b209ccd08l.webp",
+          "alt": "Saint Benedict Pendant Necklace in Stainless Steel"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2facb04cd28f44abad205d7a0b2461ecN.webp",
+          "alt": "Saint Benedict Pendant Necklace in Stainless Steel"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd744fe6282b846f3ae91a9596d7f3de6s.webp",
+          "alt": "Saint Benedict Pendant Necklace in Stainless Steel - black",
+          "label": "black",
+          "sku": "ALI-AAH3TG7BAOVioqqEY6eBTrdt-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf1260a6b41a44e2cbcf774bfa355a7a09.webp",
+          "alt": "Saint Benedict Pendant Necklace in Stainless Steel - silver",
+          "label": "silver",
+          "sku": "ALI-AAH3TG7BAOVioqqEY6eBTrdt-V-3460547"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H34d9ad74f9034eddb521f9be53e6c03dM.webp",
+          "alt": "Saint Benedict Pendant Necklace in Stainless Steel - gold",
+          "label": "gold",
+          "sku": "ALI-AAH3TG7BAOVioqqEY6eBTrdt-V-3331116"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Stainless steel construction",
+        "Depicts Saint Benedict",
+        "Available in Black, Gold, and Silver finishes",
+        "Unisex design",
+        "Durable for everyday wear"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Stainless steel"
+        },
+        {
+          "name": "Variant",
+          "value": "Black, Gold, Silver"
+        },
+        {
+          "name": "Category",
+          "value": "Fashion Necklace"
+        }
+      ],
+      "applications": [
+        "Daily wear as a devotional accessory",
+        "Gift for someone honoring Saint Benedict",
+        "Personal expression of faith",
+        "Layering with other necklaces"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this Saint Benedict pendant necklace made of?",
+          "answer": "The necklace is made of stainless steel, which is known for its durability and resistance to tarnishing."
+        },
+        {
+          "question": "What color options are available for this necklace?",
+          "answer": "The Saint Benedict pendant necklace is available in three finishes: Black, Gold, and Silver."
+        },
+        {
+          "question": "Is this necklace suitable for both men and women?",
+          "answer": "Yes, the design is unisex, making it suitable for both women and men."
+        }
+      ],
+      "pricing": {
+        "price": "1.72",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.58",
+          "max": "1.72"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Saint Benedict Pendant Necklace in Stainless Steel",
+          "description": "Saint Benedict pendant necklace in stainless steel, available in Black, Gold, and Silver. A durable religious accessory for daily wear.",
+          "sku": "ALI-AAH3TG7BAOVioqqEY6eBTrdt",
+          "image": [
+            "https://sc04.alicdn.com/kf/H3db68adb6d3344e88b494358ce201637L.jpg",
+            "https://sc04.alicdn.com/kf/He9d364dfcb3b49bbb72d5d21b0b07b4b3.jpg",
+            "https://sc04.alicdn.com/kf/H158f0d91ebdd4c5686a2054dc2424f75u.jpg",
+            "https://sc04.alicdn.com/kf/H6df550e12e02446bb822802b209ccd08l.jpg",
+            "https://sc04.alicdn.com/kf/H2facb04cd28f44abad205d7a0b2461ecN.jpg"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Stainless steel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Black, Gold, Silver"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Fashion Necklace"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.72",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.58",
+              "maxPrice": "1.72",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this Saint Benedict pendant necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace is made of stainless steel, which is known for its durability and resistance to tarnishing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available for this necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Saint Benedict pendant necklace is available in three finishes: Black, Gold, and Silver."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this necklace suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the design is unisex, making it suitable for both women and men."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "a8d20704609fc26c84b9cad0f205b00335afd8f837e2022b7b9230a19530e346",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "a8d20704609fc26c84b9cad0f205b00335afd8f837e2022b7b9230a19530e346",
+            "contentHash": "a8d20704609fc26c84b9cad0f205b00335afd8f837e2022b7b9230a19530e346",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T03:51:00.208Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEQTG7BAOVioqqEY6eBSJ4l",
+      "sourceId": "AAEQTG7BAOVioqqEY6eBSJ4l",
+      "sourceFingerprint": "0bea787c0bc0f66064baa3d6981c749edfc5e8c3b717c6fe8513df80315867e7",
+      "locale": "en",
+      "slug": "saint-benedict-stainless-steel-beaded-bracelet-ebsj4l",
+      "title": "Saint Benedict Stainless Steel Beaded Bracelet",
+      "eyebrow": "Stainless steel beaded bracelet with Saint Benedict motif",
+      "summary": "This Saint Benedict bracelet features round stainless steel beads with a 14K gold-plated finish. It uses an elastic rope for easy wear and is designed for unisex appeal, suitable as a gift.",
+      "description": "The bracelet presents a clean, circular bead profile, with each round stainless steel bead catching light through its gold-plated surface. The 14K gold plating gives a warm tone, while the elastic construction allows it to slip on and off without a clasp. As a piece of Catholic-themed accessories, it offers a subtle way to express faith. We source this as a ready-to-order item; contact us for wholesale details.",
+      "catholicContext": "Saint Benedict is a revered Christian saint, and his medal and cross are traditional devotional objects within Catholic popular piety, though this bracelet itself is not described as a sacramental.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAEQTG7BAOVioqqEY6eBSJ4l",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hec88a7ff83fa43da95e5248da4d127acB.webp",
+      "imageAlt": "Saint Benedict Stainless Steel Beaded Bracelet",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hec88a7ff83fa43da95e5248da4d127acB.webp",
+          "alt": "Saint Benedict Stainless Steel Beaded Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H87c097885fd2429c9e1594329deb45a99.webp",
+          "alt": "Saint Benedict Stainless Steel Beaded Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4623f49a4e5f460da972e49793205e1eD.webp",
+          "alt": "Saint Benedict Stainless Steel Beaded Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H85a5dd54f4fb44a5b37ed68f8eddb13bu.webp",
+          "alt": "Saint Benedict Stainless Steel Beaded Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H84fb69249bf9480389a3cdbf31520688i.webp",
+          "alt": "Saint Benedict Stainless Steel Beaded Bracelet"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Made of stainless steel for durability",
+        "Round beads with 14K gold plating",
+        "Elastic rope design, no clasp needed",
+        "Unisex style suitable for all genders",
+        "Categorized under religious bracelets"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Stainless Steel"
+        },
+        {
+          "name": "Plating",
+          "value": "14K Gold Plated"
+        },
+        {
+          "name": "Bracelet Type",
+          "value": "Beaded Bracelet"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Occasion",
+          "value": "Gift"
+        }
+      ],
+      "applications": [
+        "Wear as a daily faith accessory",
+        "Give as a religious gift",
+        "Use in Catholic gift shops",
+        "Pair with casual or formal attire"
+      ],
+      "faq": [
+        {
+          "question": "What material is this Saint Benedict bracelet made of?",
+          "answer": "The bracelet is made of stainless steel beads with a 14K gold-plated finish, providing a durable and tarnish-resistant surface."
+        },
+        {
+          "question": "Does this bracelet have a clasp?",
+          "answer": "No, it uses an elastic rope, allowing the bracelet to stretch over the hand without a clasp."
+        },
+        {
+          "question": "Is this bracelet suitable for men and women?",
+          "answer": "Yes, it is designed as a unisex piece, so it can be worn by anyone."
+        }
+      ],
+      "pricing": {
+        "price": "2.35",
+        "regularPrice": "2.35",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.00",
+          "max": "2.35"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Saint Benedict Stainless Steel Beaded Bracelet",
+          "description": "Saint Benedict bracelet in stainless steel with round beads and 14K gold plating. Unisex, elastic rope, gift-ready. Explore our Catholic jewelry sourcing.",
+          "sku": "ALI-AAEQTG7BAOVioqqEY6eBSJ4l",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hec88a7ff83fa43da95e5248da4d127acB.jpg",
+            "https://sc04.alicdn.com/kf/H87c097885fd2429c9e1594329deb45a99.jpg",
+            "https://sc04.alicdn.com/kf/H4623f49a4e5f460da972e49793205e1eD.jpg",
+            "https://sc04.alicdn.com/kf/H85a5dd54f4fb44a5b37ed68f8eddb13bu.jpg",
+            "https://sc04.alicdn.com/kf/H84fb69249bf9480389a3cdbf31520688i.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Stainless Steel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "14K Gold Plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bracelet Type",
+              "value": "Beaded Bracelet"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Occasion",
+              "value": "Gift"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.35",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.00",
+              "maxPrice": "2.35",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this Saint Benedict bracelet made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet is made of stainless steel beads with a 14K gold-plated finish, providing a durable and tarnish-resistant surface."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this bracelet have a clasp?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, it uses an elastic rope, allowing the bracelet to stretch over the hand without a clasp."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet suitable for men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed as a unisex piece, so it can be worn by anyone."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "dc0f7ed2044ef494816ac9ec24a054309c17a1631534c240cef623ee0754ab1c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "dc0f7ed2044ef494816ac9ec24a054309c17a1631534c240cef623ee0754ab1c",
+            "contentHash": "dc0f7ed2044ef494816ac9ec24a054309c17a1631534c240cef623ee0754ab1c",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T03:51:06.045Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFBTG7BAOVioqqEY6eBRKNV",
+      "sourceId": "AAFBTG7BAOVioqqEY6eBRKNV",
+      "sourceFingerprint": "1deae9b61d4525a9e3e9b63b0414a5b2bd291ae063b97860df92300aa1e491c2",
+      "locale": "en",
+      "slug": "catholic-rosary-bracelet-jesus-christ-prayer-religious-cross-ebrknv",
+      "title": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross",
+      "eyebrow": "Rosary bracelets",
+      "summary": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross Jewelry Saint Benedict Pendants Stainless Steel Bead Chain",
+      "description": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross Jewelry Saint Benedict Pendants Stainless Steel Bead Chain",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAFBTG7BAOVioqqEY6eBRKNV",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H6aa3751ff50646ffa62f9646b2643fe6r.webp",
+      "imageAlt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6aa3751ff50646ffa62f9646b2643fe6r.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H02cede99eee14dd0ba5305c52345b92bm.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9c5486b2e1d34d39ac30fc58998c7ecdI.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha55e89ab1cf74ccdbca5a5768022792eM.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha7678ee74a28428a9f9269e1824f8a07d.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3a46929821484edbbf93554697bb571aG.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hec9cd9a8092e4a8e862e21bf09e5edcdz.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross - gold-zg107",
+          "label": "gold-zg107",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBRKNV-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H53fe20c2cd5c4d47b36b606ba72c31d1r.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross - gold-zg106",
+          "label": "gold-zg106",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBRKNV-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd6f3ef7cdb0542e1aed7fb86013dce33h.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross - gold-zg110",
+          "label": "gold-zg110",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBRKNV-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H23f2882d8e284f38a5705b65a218213cF.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross - gold-zg109",
+          "label": "gold-zg109",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBRKNV-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H911181bea9f44d74b366c23199d548acK.webp",
+          "alt": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross - gold-zg108",
+          "label": "gold-zg108",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBRKNV-V--3"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Variant: Gold-ZG106, Gold-ZG107, Gold-ZG108, Gold-ZG109, Gold-ZG110"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Gold-ZG106, Gold-ZG107, Gold-ZG108, Gold-ZG109, Gold-ZG110"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.45",
+          "max": "1.65"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross",
+          "description": "Catholic Rosary Bracelet Jesus Christ Prayer Religious Cross Jewelry Saint Benedict Pendants Stainless Steel Bead Chain",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBRKNV",
+          "image": [
+            "https://sc04.alicdn.com/kf/H6aa3751ff50646ffa62f9646b2643fe6r.jpg",
+            "https://sc04.alicdn.com/kf/H02cede99eee14dd0ba5305c52345b92bm.jpg",
+            "https://sc04.alicdn.com/kf/H9c5486b2e1d34d39ac30fc58998c7ecdI.jpg",
+            "https://sc04.alicdn.com/kf/Ha55e89ab1cf74ccdbca5a5768022792eM.jpg",
+            "https://sc04.alicdn.com/kf/Ha7678ee74a28428a9f9269e1824f8a07d.jpg",
+            "https://sc04.alicdn.com/kf/H3a46929821484edbbf93554697bb571aG.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Gold-ZG106, Gold-ZG107, Gold-ZG108, Gold-ZG109, Gold-ZG110"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.45",
+              "maxPrice": "1.65",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "d5c265fa91640c7d21084ded968287e993ae3133a92e76398bcaab4e867d5a75",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "d5c265fa91640c7d21084ded968287e993ae3133a92e76398bcaab4e867d5a75",
+            "contentHash": "d5c265fa91640c7d21084ded968287e993ae3133a92e76398bcaab4e867d5a75",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T03:51:41.500Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAExTG7BAOVioqqEY6eBSkkZ",
+      "sourceId": "AAExTG7BAOVioqqEY6eBSkkZ",
+      "sourceFingerprint": "f67205f4da076332de9fc5d494107c51c567d921397a001798a9828dae1685bc",
+      "locale": "en",
+      "slug": "7-5x5cm-catholic-wall-cross-pendant-church-decoration-ebskkz",
+      "title": "7.5x5cm Catholic Wall Cross Pendant Church Decoration",
+      "eyebrow": "Wall Cross Pendant",
+      "summary": "This 7.5x5cm wall cross pendant is a Catholic religious decoration for church settings. It comes in four variants, offering flexibility for different display needs. Suitable for wall mounting, it serves as a visible symbol of faith in homes or prayer areas.",
+      "description": "This wall cross pendant measures 7.5 by 5 centimeters, a compact size suitable for wall displays in churches or personal devotion spaces. It is categorized as an accessory, designed for decoration rather than liturgical use. The product is available in four variants, allowing buyers to choose according to their preference or interior design needs. As a cross (not a crucifix), it features no corpus, making it a plain cross pendant. For wholesale sourcing, contact us for availability and ordering details.",
+      "catholicContext": "A cross is a traditional Christian symbol, and while this item is a decorative pendant, it is not automatically a sacramental unless blessed by the Church.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAExTG7BAOVioqqEY6eBSkkZ",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hcab89adea1e44efeae35d8bfb7eaf6c8H.webp",
+      "imageAlt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcab89adea1e44efeae35d8bfb7eaf6c8H.webp",
+          "alt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2e157dc168524bae98ea62da47e807a9c.webp",
+          "alt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd4e54782aca14c01a0a9487182aad1705.webp",
+          "alt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H19e82ae643f243eead4ea2c9a07b01d4X.webp",
+          "alt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf3c3f75975bd428d9bfdcff0bf1773f9O.webp",
+          "alt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H16147150ae14430bb8308d46cf10a6dfI.webp",
+          "alt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9395140b067047438c7362ebd326f8cae.webp",
+          "alt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration - 1",
+          "label": "1",
+          "sku": "ALI-AAExTG7BAOVioqqEY6eBSkkZ-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb1d445cc51d44f8a85154bbeb4ebf6ech.webp",
+          "alt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration - 2",
+          "label": "2",
+          "sku": "ALI-AAExTG7BAOVioqqEY6eBSkkZ-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbd6d20ee9fd94799b279d1e1f1109919M.webp",
+          "alt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration - 3",
+          "label": "3",
+          "sku": "ALI-AAExTG7BAOVioqqEY6eBSkkZ-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5f36e451ac44856bf92ccb496e87bf9l.webp",
+          "alt": "7.5x5cm Catholic Wall Cross Pendant Church Decoration - 4",
+          "label": "4",
+          "sku": "ALI-AAExTG7BAOVioqqEY6eBSkkZ-V--3"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Dimensions: 7.5x5cm",
+        "Catholic religious decoration",
+        "Wall cross pendant style",
+        "Available in 4 variants",
+        "Suitable for church or home display"
+      ],
+      "specifications": [
+        {
+          "name": "Size",
+          "value": "7.5 x 5 cm"
+        },
+        {
+          "name": "Type",
+          "value": "Wall cross pendant"
+        },
+        {
+          "name": "Category",
+          "value": "Accessories"
+        },
+        {
+          "name": "Variants",
+          "value": "4"
+        }
+      ],
+      "applications": [
+        "Wall decoration in church interiors",
+        "Display in home prayer corners",
+        "Gift for religious occasions",
+        "Decoration for Catholic events"
+      ],
+      "faq": [
+        {
+          "question": "What are the dimensions of this wall cross pendant?",
+          "answer": "The pendant measures 7.5 cm by 5 cm, making it a compact wall decoration."
+        },
+        {
+          "question": "How many variants are available?",
+          "answer": "There are four variants to choose from, allowing for different visual styles or preferences."
+        },
+        {
+          "question": "Is this a cross or a crucifix?",
+          "answer": "It is described as a cross, not a crucifix, meaning it does not include the corpus of Christ."
+        }
+      ],
+      "pricing": {
+        "price": "0.50",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.26",
+          "max": "0.50"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "7.5x5cm Catholic Wall Cross Pendant Church Decoration",
+          "description": "7.5x5cm Catholic wall cross pendant for church decoration. Available in 4 variants. Ideal for religious displays and gifts. Contact us for wholesale orders.",
+          "sku": "ALI-AAExTG7BAOVioqqEY6eBSkkZ",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hcab89adea1e44efeae35d8bfb7eaf6c8H.jpg",
+            "https://sc04.alicdn.com/kf/H2e157dc168524bae98ea62da47e807a9c.jpg",
+            "https://sc04.alicdn.com/kf/Hd4e54782aca14c01a0a9487182aad1705.jpg",
+            "https://sc04.alicdn.com/kf/H19e82ae643f243eead4ea2c9a07b01d4X.jpg",
+            "https://sc04.alicdn.com/kf/Hf3c3f75975bd428d9bfdcff0bf1773f9O.jpg",
+            "https://sc04.alicdn.com/kf/H16147150ae14430bb8308d46cf10a6dfI.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Size",
+              "value": "7.5 x 5 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Type",
+              "value": "Wall cross pendant"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Accessories"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "4"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.50",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.26",
+              "maxPrice": "0.50",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the dimensions of this wall cross pendant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant measures 7.5 cm by 5 cm, making it a compact wall decoration."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How many variants are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There are four variants to choose from, allowing for different visual styles or preferences."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this a cross or a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is described as a cross, not a crucifix, meaning it does not include the corpus of Christ."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "bb13614555e7a6d198bd3a1f25cca3cc84b26b7888e5a25f8f107fc757f692e3",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "bb13614555e7a6d198bd3a1f25cca3cc84b26b7888e5a25f8f107fc757f692e3",
+            "contentHash": "bb13614555e7a6d198bd3a1f25cca3cc84b26b7888e5a25f8f107fc757f692e3",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T03:51:47.395Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEATG7BAOVioqqEY6eBSoGw",
+      "sourceId": "AAEATG7BAOVioqqEY6eBSoGw",
+      "sourceFingerprint": "07fc9616abe66cff9b95f50addcf4bae647f031e8cdc1e6f35d8ecbacd20260e",
+      "locale": "en",
+      "slug": "wholesale-custom-cross-charm-wooden-beads-frosted-stones-gemston-ebsogw",
+      "title": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone",
+      "eyebrow": "Rosary bracelets",
+      "summary": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone Men's Bracelet Healing Energy Natural Stones Bracelets for Men",
+      "description": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone Men's Bracelet Healing Energy Natural Stones Bracelets for Men",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAEATG7BAOVioqqEY6eBSoGw",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Heef42ca985564df5ae3de892b8683927C.webp",
+      "imageAlt": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Heef42ca985564df5ae3de892b8683927C.webp",
+          "alt": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f012b5db41f450eab47da2f36ef0067t.webp",
+          "alt": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcea566cb3e5147eda45f0b34cb035284L.webp",
+          "alt": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6e085e4364784a5388e39175498b9e415.webp",
+          "alt": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf053f0ba84254767b82f128702467c16d.webp",
+          "alt": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf4cc6a5a7c364a62a39a0399ff1b448fU.webp",
+          "alt": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H954610231ced4c678aba9e3d5c81130aj.webp",
+          "alt": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone - blackbrown",
+          "label": "blackbrown",
+          "sku": "ALI-AAEATG7BAOVioqqEY6eBSoGw-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3b202f33e3f34c5988f63e913819fd87i.webp",
+          "alt": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone - black",
+          "label": "black",
+          "sku": "ALI-AAEATG7BAOVioqqEY6eBSoGw-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H73788342c20d4447b1f233639bf670cfg.webp",
+          "alt": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone - brown",
+          "label": "brown",
+          "sku": "ALI-AAEATG7BAOVioqqEY6eBSoGw-V-3399503"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Variant: Black+Brown, Brown, Black"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Black+Brown, Brown, Black"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.52",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.47",
+          "max": "0.52"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone",
+          "description": "Wholesale Custom Cross Charm Wooden Beads Frosted Stones Gemstone Men's Bracelet Healing Energy Natural Stones Bracelets for Men",
+          "sku": "ALI-AAEATG7BAOVioqqEY6eBSoGw",
+          "image": [
+            "https://sc04.alicdn.com/kf/Heef42ca985564df5ae3de892b8683927C.jpg",
+            "https://sc04.alicdn.com/kf/H8f012b5db41f450eab47da2f36ef0067t.jpg",
+            "https://sc04.alicdn.com/kf/Hcea566cb3e5147eda45f0b34cb035284L.jpg",
+            "https://sc04.alicdn.com/kf/H6e085e4364784a5388e39175498b9e415.jpg",
+            "https://sc04.alicdn.com/kf/Hf053f0ba84254767b82f128702467c16d.jpg",
+            "https://sc04.alicdn.com/kf/Hf4cc6a5a7c364a62a39a0399ff1b448fU.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Black+Brown, Brown, Black"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.52",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.47",
+              "maxPrice": "0.52",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "1b7d064468541c92182e2bc209fc60a680bc8d2054ff05d3b2201b86c58c82b8",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "1b7d064468541c92182e2bc209fc60a680bc8d2054ff05d3b2201b86c58c82b8",
+            "contentHash": "1b7d064468541c92182e2bc209fc60a680bc8d2054ff05d3b2201b86c58c82b8",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T03:52:19.769Z",
             "model": "deepseek-v4-flash"
           }
         }

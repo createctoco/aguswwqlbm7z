@@ -14,16 +14,12 @@ const quote = (value) => `'${String(value ?? '').replaceAll("'", "''")}'`;
 const catalog = JSON.parse(await readFile(inputFile, 'utf8'));
 if (!Array.isArray(catalog.products)) throw new Error(`Invalid catalog: ${inputFile}`);
 
-const changedIds = new Set((catalog.sync?.changedProductIds || []).map(String));
-const generatedIds = new Set((catalog.translationSummary?.generatedProductIds || []).map(String));
-const upsertIds = new Set([...changedIds, ...generatedIds]);
+// Always import the full catalog (minus translation-skipped products) so D1
+// can never drift from the committed catalog: every product and its category
+// rows are upserted on every deploy. Deploy race conditions or partial batches
+// therefore cannot leave products/categories missing.
 const skippedIds = new Set((catalog.translationSummary?.skippedProductIds || []).map(String));
-const isIncremental = catalog.sync?.mode === 'incremental' && upsertIds.size > 0;
-const products = isIncremental
-  ? catalog.products.filter(
-      (product) => upsertIds.has(String(product.productId)) && !skippedIds.has(String(product.productId))
-    )
-  : catalog.products.filter((product) => !skippedIds.has(String(product.productId)));
+const products = catalog.products.filter((product) => !skippedIds.has(String(product.productId)));
 const productsById = new Map();
 const productIdsBySlug = new Map();
 let duplicateProductIds = 0;

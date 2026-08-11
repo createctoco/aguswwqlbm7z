@@ -10,6 +10,7 @@ on:
       - migrations/**
       - src/**
       - scripts/build-d1-import.mjs
+      - scripts/deploy-locales.mjs
       - package.json
       - package-lock.json
       - .github/workflows/cloudflare-deploy.yml

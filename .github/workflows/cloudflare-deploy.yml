@@ -66,3 +66,9 @@ jobs:
           OUOOO_SESSION_KV_ID: ${{ secrets.CLOUDFLARE_SESSION_KV_ID }}
           OUOOO_MANAGE_ROUTES: '0'
         run: npm run deploy:locales
+      - name: Purge Cloudflare cache
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: node scripts/purge-cloudflare-cache.mjs
+

@@ -12,6 +12,7 @@ const requestedConcurrency = Number.parseInt(process.env.MECRT_CATALOG_SYNC_CONC
 const detailConcurrency = Number.isFinite(requestedConcurrency) ? Math.max(1, Math.min(4, requestedConcurrency)) : 2;
 const queueFile = resolve(process.env.MECRT_CATALOG_QUEUE_FILE || '.ouooo-control/catalog-queue.json');
 const forceFullSync = /^(1|true|yes)$/i.test(process.env.MECRT_CATALOG_FULL_SYNC || '');
+const reconcile = /^(1|true|yes)$/i.test(process.env.MECRT_CATALOG_RECONCILE || '');
 const requestedOverlap = Number.parseInt(process.env.MECRT_CATALOG_SYNC_OVERLAP_SECONDS || '300', 10);
 const syncOverlapSeconds = Number.isFinite(requestedOverlap) && requestedOverlap >= 0 ? requestedOverlap : 300;
 
@@ -100,16 +101,17 @@ async function fetchIndex() {
   const fullSync = forceFullSync || previousProducts.length === 0 || !savedQueue;
   const previousCursor = previousCatalog.sync_cursor || previousCatalog.synchronized_at || '';
   const previousCursorTime = Date.parse(previousCursor);
-  const modifiedAfter =
+  const incrementalModifiedAfter =
     !fullSync && Number.isFinite(previousCursorTime)
       ? new Date(Math.max(0, previousCursorTime - syncOverlapSeconds * 1000)).toISOString()
       : '';
+  const modifiedAfter = reconcile ? '' : incrementalModifiedAfter;
   const summaries = new Map();
   const deletedSourceIds = new Set(hasPendingQueue ? savedQueue.deletedSourceIds || [] : []);
   let page = 1;
   let totalPages;
   let sourceTotal = Number(previousCatalog.source_total || previousProducts.length || 0);
-  if (!hasPendingQueue) {
+  if (reconcile || !hasPendingQueue) {
     do {
       const pageSize = 100;
       const body = { page, page_size: pageSize, modified_after: modifiedAfter };
@@ -126,9 +128,23 @@ async function fetchIndex() {
     } while (page <= totalPages);
   }
 
-  const pendingSourceIds = [
-    ...new Set(hasPendingQueue ? savedQueue.pendingSourceIds.map(String) : [...summaries.keys()]),
-  ];
+  const currentIds = new Set(summaries.keys());
+
+  // Reconciliation: detect deleted products, prepend newly published products
+  // to the queue, and backfill missing pricing from fresh bridge details.
+  let pendingSourceIds;
+  if (reconcile && summaries.size > 0) {
+    for (const product of previousProducts) {
+      if (!currentIds.has(String(product.source_id))) deletedSourceIds.add(String(product.source_id));
+    }
+    const queuePendingIds = hasPendingQueue ? savedQueue.pendingSourceIds.map(String) : [];
+    const knownIds = new Set([...previousProducts.map((product) => String(product.source_id)), ...queuePendingIds]);
+    const newIds = [...summaries.keys()].filter((sourceId) => !knownIds.has(sourceId));
+    if (newIds.length) process.stdout.write(`Reconciliation: ${newIds.length} newly published products queued.\n`);
+    pendingSourceIds = [...new Set([...newIds, ...queuePendingIds])];
+  } else {
+    pendingSourceIds = [...new Set(hasPendingQueue ? savedQueue.pendingSourceIds.map(String) : [...summaries.keys()])];
+  }
   const savedInflightSourceIds = [
     ...new Set(Array.isArray(savedQueue?.inflightSourceIds) ? savedQueue.inflightSourceIds.map(String) : []),
   ];
@@ -157,6 +173,38 @@ async function fetchIndex() {
 
   const productsById = new Map(previousProducts.map((product) => [String(product.source_id), product]));
   for (const sourceId of deletedSourceIds) productsById.delete(sourceId);
+
+  // Reconciliation: backfill pricing for catalog products that have none.
+  if (reconcile && summaries.size > 0) {
+    const missingPricing = previousProducts.filter(
+      (product) => !product.pricing || (product.pricing.price === undefined && !product.pricing.priceRange)
+    );
+    if (missingPricing.length) {
+      process.stdout.write(`Reconciliation: backfilling pricing for ${missingPricing.length} catalog products.\n`);
+      let backfilled = 0;
+      for (const product of missingPricing) {
+        const identifier = String(product.source_id);
+        if (!currentIds.has(identifier)) continue;
+        try {
+          const data = await signedPost(
+            '/wp-json/mecrt-catalog/v1/product',
+            { identifier, identifier_type: 'source_id' },
+            `source_id\n${identifier}`
+          );
+          if (data?.product) {
+            productsById.set(identifier, data.product);
+            backfilled += 1;
+          }
+        } catch (error) {
+          const reason = error instanceof Error ? error.message : String(error);
+          if (!/not found|could not be loaded|non-JSON response/i.test(reason)) {
+            process.stdout.write(`Reconciliation: price backfill failed for ${identifier}: ${reason.slice(0, 120)}\n`);
+          }
+        }
+      }
+      if (backfilled) process.stdout.write(`Reconciliation: pricing backfilled for ${backfilled} products.\n`);
+    }
+  }
   const summaryList = currentBatchIds.map((sourceId) => ({ source_id: sourceId }));
   const missingSourceIds = new Set();
   let nextSummaryIndex = 0;

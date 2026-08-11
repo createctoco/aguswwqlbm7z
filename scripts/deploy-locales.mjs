@@ -1,5 +1,5 @@
 import { spawn } from 'node:child_process';
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -158,6 +158,24 @@ for (const locale of localeNames) {
     await run(npmCommand, ['run', 'localize:built-html'], environment);
     await run(npmCommand, ['run', 'verify:localized-html'], environment);
   }
+
+  // Point this locale's robots.txt at its own sitemap so search engines
+  // discover the per-host sitemap (the shared public robots.txt is EN-only).
+  const robotsFile = join(root, 'dist', 'client', 'robots.txt');
+  try {
+    const robots = await readFile(robotsFile, 'utf8');
+    const sitemapUrl = `https://${definition.host}/sitemap.xml`;
+    const nextRobots = /^Sitemap:.*$/m.test(robots)
+      ? robots.replace(/^Sitemap:.*$/m, `Sitemap: ${sitemapUrl}`)
+      : `${robots.replace(/\s*$/, '\n')}\nSitemap: ${sitemapUrl}\n`;
+    await writeFile(robotsFile, nextRobots, 'utf8');
+    process.stdout.write(`[OUOOO] robots.txt sitemap -> ${sitemapUrl}\n`);
+  } catch (error) {
+    process.stdout.write(
+      `[OUOOO] robots.txt update skipped: ${error instanceof Error ? error.message : String(error)}\n`
+    );
+  }
+
   process.stdout.write(`[OUOOO] Deploying ${locale} to ${workerName}\n`);
   await runWithRetry(
     npxCommand,

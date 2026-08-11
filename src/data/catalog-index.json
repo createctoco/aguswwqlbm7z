@@ -1,30 +1,30 @@
 {
   "schema_version": "1.0",
-  "synchronized_at": "2026-08-11T14:57:17.797Z",
+  "synchronized_at": "2026-08-11T18:06:39.218Z",
   "sync_cursor": "2026-08-09T15:58:16.918Z",
   "sync_mode": "incremental",
   "modified_after": null,
   "changed_products": 10,
   "deleted_products": 0,
   "changed_source_ids": [
-    "AAHITG7BAOVioqqEY6erCyDu",
-    "AAHtTG7BAOVioqqEY6erC0Pw",
-    "AAH_TG7BAOVioqqEY6erC-Lj",
-    "AAEzTG7BAOVioqqEY6eBRvxs",
-    "AAGWTG7BAOVioqqEY6e5QJaD",
-    "AAFYTG7BAOVioqqEY6eeQlcd",
-    "AAHhTG7BAOVioqqEY6eErU7e",
-    "AAHoTG7BAOVioqqEY6eBRTbo",
-    "AAE1TG7BAOVioqqEY6eErA10",
-    "AAERTG7BAOVioqqEY6eBT4E8"
+    "AAGxTG7BAOVioqqEY6exyN7W",
+    "AAERTG7BAOVioqqEY6eebEi7",
+    "AAHOTG7BAOVioqqEY6eAPoIK",
+    "AAEWTG7BAOVioqqEY6eOpJ5C",
+    "AAH4TG7BAOVioqqEY6eYEWvg",
+    "AAGITG7BAOVioqqEY6eYWarp",
+    "AAHlTG7BAOVioqqEY6eE7ZRc",
+    "AAEqTG7BAOVioqqEY6eCTY5J",
+    "AAFOTG7BAOVioqqEY6eYVmJ6",
+    "AAE3TG7BAOVioqqEY6eYVEl-"
   ],
   "deleted_source_ids": [],
   "source_total": 908,
-  "total": 170,
+  "total": 180,
   "queue": {
     "batchSize": 10,
     "processedThisRun": 10,
-    "remaining": 741
+    "remaining": 731
   },
   "products": [
     {
@@ -51756,6 +51756,2963 @@
         "detail_image_urls": []
       },
       "variations": []
+    },
+    {
+      "wp_id": 3920,
+      "source_id": "AAGxTG7BAOVioqqEY6exyN7W",
+      "source_plain_id": "",
+      "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W",
+      "slug": "square-velvet-metal-snap-jewelry-container-small-gift-bag-jewelry-packaging-accessories-storage-catholic-rosary-pouch",
+      "title": "Square Velvet Metal Snap Jewelry Container Small Gift Bag Jewelry Packaging Accessories Storage Catholic Rosary Pouch",
+      "status": "publish",
+      "product_type": "variable",
+      "url": "https://mecrt.com/product/square-velvet-metal-snap-jewelry-container-small-gift-bag-jewelry-packaging-accessories-storage-catholic-rosary-pouch/",
+      "modified_at": "2026-06-24T15:08:20+00:00",
+      "source_modified_at": "2026-05-27 12:35:16",
+      "description_html": "",
+      "short_description_html": "",
+      "categories": [
+        {
+          "id": 122,
+          "name": "Jewelry Packaging",
+          "slug": "jewelry-packaging"
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "name": "Variant",
+          "slug": "pa_variant",
+          "values": ["Army Green", "Gray", "Beige", "Black", "Red", "White", "Pink", "Blue", "Green"],
+          "variation": true,
+          "visible": true
+        }
+      ],
+      "weight": {
+        "value": "",
+        "unit": "kg",
+        "kg": ""
+      },
+      "pricing": {
+        "currency": "USD",
+        "regular_price": "",
+        "price": "0.21",
+        "tiers": [
+          {
+            "start_quantity": "-1",
+            "price": "0.23",
+            "source_sku_id": "107427505396"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.23",
+            "source_sku_id": "107427505397"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.23",
+            "source_sku_id": "107427505398"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.23",
+            "source_sku_id": "107427505399"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.23",
+            "source_sku_id": "107427505392"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.23",
+            "source_sku_id": "107427505393"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.23",
+            "source_sku_id": "107427505394"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.23",
+            "source_sku_id": "107427505395"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.33",
+            "source_sku_id": "107427505404"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.33",
+            "source_sku_id": "107427505405"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.33",
+            "source_sku_id": "107427505406"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.33",
+            "source_sku_id": "107427505407"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.33",
+            "source_sku_id": "107427505400"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.33",
+            "source_sku_id": "107427505401"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.33",
+            "source_sku_id": "107427505402"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.33",
+            "source_sku_id": "107427505403"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.21",
+            "source_sku_id": "107427505382"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.21",
+            "source_sku_id": "107427505383"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.21",
+            "source_sku_id": "107427505388"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.21",
+            "source_sku_id": "107427505389"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.21",
+            "source_sku_id": "107427505390"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.23",
+            "source_sku_id": "107427505391"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.21",
+            "source_sku_id": "107427505384"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.21",
+            "source_sku_id": "107427505385"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.21",
+            "source_sku_id": "107427505386"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.21",
+            "source_sku_id": "107427505387"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.37",
+            "source_sku_id": "107427505424"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.37",
+            "source_sku_id": "107427505425"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.37",
+            "source_sku_id": "107427505426"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.34",
+            "source_sku_id": "107427505412"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.34",
+            "source_sku_id": "107427505413"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.34",
+            "source_sku_id": "107427505414"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.34",
+            "source_sku_id": "107427505415"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.33",
+            "source_sku_id": "107427505408"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.34",
+            "source_sku_id": "107427505409"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.34",
+            "source_sku_id": "107427505410"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.34",
+            "source_sku_id": "107427505411"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.37",
+            "source_sku_id": "107427505420"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.37",
+            "source_sku_id": "107427505421"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.37",
+            "source_sku_id": "107427505422"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.37",
+            "source_sku_id": "107427505423"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.34",
+            "source_sku_id": "107427505416"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.34",
+            "source_sku_id": "107427505417"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.37",
+            "source_sku_id": "107427505418"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "0.37",
+            "source_sku_id": "107427505419"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 3939,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H39e93c8e1d954599b23d58073dcc0c0bo.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H39e93c8e1d954599b23d58073dcc0c0bo.png",
+          "alt": "",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 3940,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8584755ca05d494db8b576e3769c4239X.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H8584755ca05d494db8b576e3769c4239X.png",
+          "alt": "",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 3941,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H761390b9e6b346e7826a2023246603497.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H761390b9e6b346e7826a2023246603497.png",
+          "alt": "",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 3942,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5d990aca41f146b595912d43c22ee5c0b.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H5d990aca41f146b595912d43c22ee5c0b.png",
+          "alt": "",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 3943,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3f4d7dd3049a4fcfa06bd9966e057f6cQ.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H3f4d7dd3049a4fcfa06bd9966e057f6cQ.png",
+          "alt": "",
+          "width": 900,
+          "height": 900
+        },
+        {
+          "id": 3944,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdbd542959b774fccb6103980968d8845b.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hdbd542959b774fccb6103980968d8845b.png",
+          "alt": "",
+          "width": 900,
+          "height": 900
+        }
+      ],
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Square-Velvet-Metal-Snap-Jewelry-Container_1601536904712.html",
+        "group_id": "955305673",
+        "category_id": "201774905",
+        "main_image_urls": [
+          "https://sc04.alicdn.com/kf/H39e93c8e1d954599b23d58073dcc0c0bo.png",
+          "https://sc04.alicdn.com/kf/H8584755ca05d494db8b576e3769c4239X.png",
+          "https://sc04.alicdn.com/kf/H761390b9e6b346e7826a2023246603497.png",
+          "https://sc04.alicdn.com/kf/H5d990aca41f146b595912d43c22ee5c0b.png",
+          "https://sc04.alicdn.com/kf/H3f4d7dd3049a4fcfa06bd9966e057f6cQ.png",
+          "https://sc04.alicdn.com/kf/Hdbd542959b774fccb6103980968d8845b.png"
+        ],
+        "detail_image_urls": []
+      },
+      "variations": [
+        {
+          "wp_id": 3930,
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-5715155",
+          "source_sku_id": "107427505396",
+          "source_variant_value_id": "5715155",
+          "attributes": {
+            "pa_variant": "beige"
+          },
+          "regular_price": "0.21",
+          "price": "0.21",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "0.21",
+              "source_sku_id": "107427505387"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbcda89c3377f417f9584511bee57cc46x.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Hbcda89c3377f417f9584511bee57cc46x.jpeg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3931,
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-146576294",
+          "source_sku_id": "107427505397",
+          "source_variant_value_id": "146576294",
+          "attributes": {
+            "pa_variant": "army-green"
+          },
+          "regular_price": "0.21",
+          "price": "0.21",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "0.21",
+              "source_sku_id": "107427505388"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H6e27ce29108e4027bcb7cb56f1ebb424Y.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H6e27ce29108e4027bcb7cb56f1ebb424Y.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3932,
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-5412614",
+          "source_sku_id": "107427505398",
+          "source_variant_value_id": "5412614",
+          "attributes": {
+            "pa_variant": "gray"
+          },
+          "regular_price": "0.21",
+          "price": "0.21",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "0.21",
+              "source_sku_id": "107427505389"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd0933f4c09e44e22ac7b6fd878cbc626D.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Hd0933f4c09e44e22ac7b6fd878cbc626D.jpeg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3933,
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-3327837",
+          "source_sku_id": "107427505399",
+          "source_variant_value_id": "3327837",
+          "attributes": {
+            "pa_variant": "black"
+          },
+          "regular_price": "0.21",
+          "price": "0.21",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "0.21",
+              "source_sku_id": "107427505390"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H2174a09733b941ac99a044c63a2aa9fck.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H2174a09733b941ac99a044c63a2aa9fck.jpeg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3934,
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-123085",
+          "source_sku_id": "107427505392",
+          "source_variant_value_id": "123085",
+          "attributes": {
+            "pa_variant": "blue"
+          },
+          "regular_price": "0.21",
+          "price": "0.21",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "0.21",
+              "source_sku_id": "107427505383"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H2898920768724aa79a683a76d22bb240y.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H2898920768724aa79a683a76d22bb240y.jpeg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3935,
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-216016296",
+          "source_sku_id": "107427505393",
+          "source_variant_value_id": "216016296",
+          "attributes": {
+            "pa_variant": "green"
+          },
+          "regular_price": "0.21",
+          "price": "0.21",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "0.21",
+              "source_sku_id": "107427505384"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H9d685c160de04089961f9ea6bdaaf0fbZ.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H9d685c160de04089961f9ea6bdaaf0fbZ.jpeg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3936,
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-3328925",
+          "source_sku_id": "107427505394",
+          "source_variant_value_id": "3328925",
+          "attributes": {
+            "pa_variant": "pink"
+          },
+          "regular_price": "0.21",
+          "price": "0.21",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "0.21",
+              "source_sku_id": "107427505385"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H95bd9867a6ef408488b145a0398a3ef5U.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H95bd9867a6ef408488b145a0398a3ef5U.jpeg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3937,
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-3331185",
+          "source_sku_id": "107427505395",
+          "source_variant_value_id": "3331185",
+          "attributes": {
+            "pa_variant": "white"
+          },
+          "regular_price": "0.21",
+          "price": "0.21",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "0.21",
+              "source_sku_id": "107427505386"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd2d91f5fe7fb42e8a09ed3ce91297fd0K.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Hd2d91f5fe7fb42e8a09ed3ce91297fd0K.jpeg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3938,
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-3331260",
+          "source_sku_id": "107427505400",
+          "source_variant_value_id": "3331260",
+          "attributes": {
+            "pa_variant": "red"
+          },
+          "regular_price": "0.21",
+          "price": "0.21",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "0.21",
+              "source_sku_id": "107427505382"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Hed411093e4684aa38003448830b1c1e2N.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Hed411093e4684aa38003448830b1c1e2N.jpeg",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "wp_id": 3945,
+      "source_id": "AAERTG7BAOVioqqEY6eebEi7",
+      "source_plain_id": "",
+      "sku": "ALI-AAERTG7BAOVioqqEY6eebEi7",
+      "slug": "hot-selling-4mm-stainless-steel-necklace-bead-tri-color-cross-madonna-necklace-ladies-fashion-popular-accessories",
+      "title": "Hot Selling 4mm Stainless Steel Necklace Bead Tri-color Cross Madonna Necklace Ladies Fashion Popular Accessories",
+      "status": "publish",
+      "product_type": "variable",
+      "url": "https://mecrt.com/product/hot-selling-4mm-stainless-steel-necklace-bead-tri-color-cross-madonna-necklace-ladies-fashion-popular-accessories/",
+      "modified_at": "2026-06-24T01:07:47+00:00",
+      "source_modified_at": "2026-05-27 12:33:18",
+      "description_html": "",
+      "short_description_html": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "name": "Variant",
+          "slug": "pa_variant",
+          "values": ["Gold and Silver", "Gold", "Silver"],
+          "variation": true,
+          "visible": true
+        }
+      ],
+      "weight": {
+        "value": "",
+        "unit": "kg",
+        "kg": ""
+      },
+      "pricing": {
+        "currency": "USD",
+        "regular_price": "",
+        "price": "1.28",
+        "tiers": [
+          {
+            "start_quantity": "-1",
+            "price": "1.5",
+            "source_sku_id": "108317082126"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "1.28",
+            "source_sku_id": "108317082127"
+          },
+          {
+            "start_quantity": "-1",
+            "price": "1.78",
+            "source_sku_id": "108317082125"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 3952,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H00e5a52e4ec3422195471d9636b033cfC.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H00e5a52e4ec3422195471d9636b033cfC.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3953,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf4e9ba2a071c4aa7bc176a9c9a8634beu.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hf4e9ba2a071c4aa7bc176a9c9a8634beu.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3954,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H943d5096c9b14f22b2ab99d43f878a0aA.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H943d5096c9b14f22b2ab99d43f878a0aA.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3955,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H59a1b02cf25842e0a3640f8017bae426d.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H59a1b02cf25842e0a3640f8017bae426d.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3956,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H46f9589b2aef4480b6e5968d3732750aj.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H46f9589b2aef4480b6e5968d3732750aj.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3957,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H758d0d85d76b4c70bce54a9dcc31c2a7K.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H758d0d85d76b4c70bce54a9dcc31c2a7K.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Hot-Selling-4mm-Stainless-Steel-Necklace_1601161746533.html",
+        "group_id": "940080769",
+        "category_id": "202119602",
+        "main_image_urls": [
+          "https://sc04.alicdn.com/kf/H00e5a52e4ec3422195471d9636b033cfC.jpg",
+          "https://sc04.alicdn.com/kf/Hf4e9ba2a071c4aa7bc176a9c9a8634beu.jpg",
+          "https://sc04.alicdn.com/kf/H943d5096c9b14f22b2ab99d43f878a0aA.jpg",
+          "https://sc04.alicdn.com/kf/H59a1b02cf25842e0a3640f8017bae426d.jpg",
+          "https://sc04.alicdn.com/kf/H46f9589b2aef4480b6e5968d3732750aj.jpg",
+          "https://sc04.alicdn.com/kf/H758d0d85d76b4c70bce54a9dcc31c2a7K.jpg"
+        ],
+        "detail_image_urls": []
+      },
+      "variations": [
+        {
+          "wp_id": 3949,
+          "sku": "ALI-AAERTG7BAOVioqqEY6eebEi7-V--1",
+          "source_sku_id": "108317082126",
+          "source_variant_value_id": "-1",
+          "attributes": {
+            "pa_variant": "gold-and-silver"
+          },
+          "regular_price": "1.5",
+          "price": "1.5",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "1.5",
+              "source_sku_id": "108317082126"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H05b88292f12840fe91579ecb6648f06cf.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H05b88292f12840fe91579ecb6648f06cf.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3950,
+          "sku": "ALI-AAERTG7BAOVioqqEY6eebEi7-V-3460547",
+          "source_sku_id": "108317082127",
+          "source_variant_value_id": "3460547",
+          "attributes": {
+            "pa_variant": "silver"
+          },
+          "regular_price": "1.28",
+          "price": "1.28",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "1.28",
+              "source_sku_id": "108317082127"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf743de4412294ca8b9e7b2e53a9802a7z.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Hf743de4412294ca8b9e7b2e53a9802a7z.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3951,
+          "sku": "ALI-AAERTG7BAOVioqqEY6eebEi7-V-3331116",
+          "source_sku_id": "108317082125",
+          "source_variant_value_id": "3331116",
+          "attributes": {
+            "pa_variant": "gold"
+          },
+          "regular_price": "1.78",
+          "price": "1.78",
+          "price_tiers": [
+            {
+              "start_quantity": "-1",
+              "price": "1.78",
+              "source_sku_id": "108317082125"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb882bd84fb93476f92c57731c031a2d2W.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Hb882bd84fb93476f92c57731c031a2d2W.jpg",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "wp_id": 3958,
+      "source_id": "AAHOTG7BAOVioqqEY6eAPoIK",
+      "source_plain_id": "",
+      "sku": "ALI-AAHOTG7BAOVioqqEY6eAPoIK",
+      "slug": "catholic-wooden-fashion-virgin-mary-zinc-alloy-pendant-with-charm-rosary-necklace-rosaries-jewelry-wholesale",
+      "title": "Catholic Wooden Fashion Virgin Mary Zinc Alloy Pendant with Charm Rosary Necklace Rosaries Jewelry Wholesale",
+      "status": "publish",
+      "product_type": "variable",
+      "url": "https://mecrt.com/product/catholic-wooden-fashion-virgin-mary-zinc-alloy-pendant-with-charm-rosary-necklace-rosaries-jewelry-wholesale/",
+      "modified_at": "2026-06-24T01:07:46+00:00",
+      "source_modified_at": "2026-05-27 12:31:14",
+      "description_html": "",
+      "short_description_html": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "name": "Variant",
+          "slug": "pa_variant",
+          "values": ["coffee color", "Light brown"],
+          "variation": true,
+          "visible": true
+        }
+      ],
+      "weight": {
+        "value": "",
+        "unit": "kg",
+        "kg": ""
+      },
+      "pricing": {
+        "currency": "USD",
+        "regular_price": "",
+        "price": "0.6",
+        "tiers": [
+          {
+            "start_quantity": "24",
+            "price": "0.6",
+            "source_sku_id": "108317022538"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.52",
+            "source_sku_id": "108317022538"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.5",
+            "source_sku_id": "108317022538"
+          },
+          {
+            "start_quantity": "4800",
+            "price": "0.48",
+            "source_sku_id": "108317022538"
+          },
+          {
+            "start_quantity": "24",
+            "price": "0.6",
+            "source_sku_id": "108317022537"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.52",
+            "source_sku_id": "108317022537"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.5",
+            "source_sku_id": "108317022537"
+          },
+          {
+            "start_quantity": "4800",
+            "price": "0.48",
+            "source_sku_id": "108317022537"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 3963,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc972711b60dd43ada9faca0881ea7b09o.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hc972711b60dd43ada9faca0881ea7b09o.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3964,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2876fe8a6308485ab7e98c4c232bf7f4L.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H2876fe8a6308485ab7e98c4c232bf7f4L.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3965,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha6ac9e4f19a246cea9f71c7d5491dbb8B.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Ha6ac9e4f19a246cea9f71c7d5491dbb8B.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3966,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a532b4f7cc94366ad9eb1436bfc3068I.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H8a532b4f7cc94366ad9eb1436bfc3068I.jpg",
+          "alt": "",
+          "width": 1500,
+          "height": 1500
+        },
+        {
+          "id": 3967,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbe3edb8c39804c3a9719caf4ec6425c36.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hbe3edb8c39804c3a9719caf4ec6425c36.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3968,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3ef4c93e299f429b9c68095e15313d41f.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H3ef4c93e299f429b9c68095e15313d41f.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Catholic-Wooden-Fashion-Virgin-Mary-Zinc_1601267798740.html",
+        "group_id": "940080769",
+        "category_id": "201642003",
+        "main_image_urls": [
+          "https://sc04.alicdn.com/kf/Hc972711b60dd43ada9faca0881ea7b09o.jpg",
+          "https://sc04.alicdn.com/kf/H2876fe8a6308485ab7e98c4c232bf7f4L.jpg",
+          "https://sc04.alicdn.com/kf/Ha6ac9e4f19a246cea9f71c7d5491dbb8B.jpg",
+          "https://sc04.alicdn.com/kf/H8a532b4f7cc94366ad9eb1436bfc3068I.jpg",
+          "https://sc04.alicdn.com/kf/Hbe3edb8c39804c3a9719caf4ec6425c36.jpg",
+          "https://sc04.alicdn.com/kf/H3ef4c93e299f429b9c68095e15313d41f.jpg"
+        ],
+        "detail_image_urls": []
+      },
+      "variations": [
+        {
+          "wp_id": 3961,
+          "sku": "ALI-AAHOTG7BAOVioqqEY6eAPoIK-V--2",
+          "source_sku_id": "108317022538",
+          "source_variant_value_id": "-2",
+          "attributes": {
+            "pa_variant": "light-brown"
+          },
+          "regular_price": "0.6",
+          "price": "0.6",
+          "price_tiers": [
+            {
+              "start_quantity": "24",
+              "price": "0.6",
+              "source_sku_id": "108317022538"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.52",
+              "source_sku_id": "108317022538"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.5",
+              "source_sku_id": "108317022538"
+            },
+            {
+              "start_quantity": "4800",
+              "price": "0.48",
+              "source_sku_id": "108317022538"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfbddf41bae8145cbbd3806b019bc8bdcp.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Hfbddf41bae8145cbbd3806b019bc8bdcp.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3962,
+          "sku": "ALI-AAHOTG7BAOVioqqEY6eAPoIK-V--1",
+          "source_sku_id": "108317022537",
+          "source_variant_value_id": "-1",
+          "attributes": {
+            "pa_variant": "coffee-color"
+          },
+          "regular_price": "0.6",
+          "price": "0.6",
+          "price_tiers": [
+            {
+              "start_quantity": "24",
+              "price": "0.6",
+              "source_sku_id": "108317022537"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.52",
+              "source_sku_id": "108317022537"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.5",
+              "source_sku_id": "108317022537"
+            },
+            {
+              "start_quantity": "4800",
+              "price": "0.48",
+              "source_sku_id": "108317022537"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H549d26f36b9245a08c41c9ea7fda92b6d.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H549d26f36b9245a08c41c9ea7fda92b6d.jpg",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "wp_id": 3969,
+      "source_id": "AAEWTG7BAOVioqqEY6eOpJ5C",
+      "source_plain_id": "",
+      "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C",
+      "slug": "wooden-rosary-crucifix-catholicism-gifts-religious-rosaries-prayer-beads-christian-catholic-cross-jesus-christ-jewelry",
+      "title": "Wooden Rosary Crucifix Catholicism Gifts Religious Rosaries Prayer Beads Christian Catholic Cross Jesus Christ Jewelry",
+      "status": "publish",
+      "product_type": "variable",
+      "url": "https://mecrt.com/product/wooden-rosary-crucifix-catholicism-gifts-religious-rosaries-prayer-beads-christian-catholic-cross-jesus-christ-jewelry/",
+      "modified_at": "2026-06-24T01:07:46+00:00",
+      "source_modified_at": "2026-05-27 12:24:38",
+      "description_html": "",
+      "short_description_html": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "name": "Variant",
+          "slug": "pa_variant",
+          "values": ["Brown1", "Brown2", "Brown3", "Brown4", "Brown", "Beige", "Black"],
+          "variation": true,
+          "visible": true
+        }
+      ],
+      "weight": {
+        "value": "",
+        "unit": "kg",
+        "kg": ""
+      },
+      "pricing": {
+        "currency": "USD",
+        "regular_price": "",
+        "price": "0.52",
+        "tiers": [
+          {
+            "start_quantity": "10",
+            "price": "0.52",
+            "source_sku_id": "106846114398"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.5",
+            "source_sku_id": "106846114398"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.48",
+            "source_sku_id": "106846114398"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.43",
+            "source_sku_id": "106846114398"
+          },
+          {
+            "start_quantity": "10",
+            "price": "0.52",
+            "source_sku_id": "106846114396"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.5",
+            "source_sku_id": "106846114396"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.48",
+            "source_sku_id": "106846114396"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.43",
+            "source_sku_id": "106846114396"
+          },
+          {
+            "start_quantity": "10",
+            "price": "0.52",
+            "source_sku_id": "106846114397"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.5",
+            "source_sku_id": "106846114397"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.48",
+            "source_sku_id": "106846114397"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.43",
+            "source_sku_id": "106846114397"
+          },
+          {
+            "start_quantity": "10",
+            "price": "0.52",
+            "source_sku_id": "106846114394"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.5",
+            "source_sku_id": "106846114394"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.48",
+            "source_sku_id": "106846114394"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.43",
+            "source_sku_id": "106846114394"
+          },
+          {
+            "start_quantity": "10",
+            "price": "0.52",
+            "source_sku_id": "106846114395"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.5",
+            "source_sku_id": "106846114395"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.48",
+            "source_sku_id": "106846114395"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.43",
+            "source_sku_id": "106846114395"
+          },
+          {
+            "start_quantity": "10",
+            "price": "0.52",
+            "source_sku_id": "106846114392"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.5",
+            "source_sku_id": "106846114392"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.48",
+            "source_sku_id": "106846114392"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.43",
+            "source_sku_id": "106846114392"
+          },
+          {
+            "start_quantity": "10",
+            "price": "0.52",
+            "source_sku_id": "106846114393"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.5",
+            "source_sku_id": "106846114393"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.48",
+            "source_sku_id": "106846114393"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.43",
+            "source_sku_id": "106846114393"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 3984,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbbecc02bf804488681cb072b6bece611X.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hbbecc02bf804488681cb072b6bece611X.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3985,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a7a3a524a8f4e3fbb36490ab534ade0A.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H8a7a3a524a8f4e3fbb36490ab534ade0A.jpg",
+          "alt": "",
+          "width": 1920,
+          "height": 1920
+        },
+        {
+          "id": 3986,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6716bc175b404db9ad37e1dad4f5b057Y.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H6716bc175b404db9ad37e1dad4f5b057Y.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3987,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H94c9901dc4f345318c771391c0081b59a.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H94c9901dc4f345318c771391c0081b59a.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3988,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H059c4d21ce6246fabb7981948f7cb6a0J.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H059c4d21ce6246fabb7981948f7cb6a0J.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3989,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf8a63cb4cfd54c8ea23fe227670b12dba.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hf8a63cb4cfd54c8ea23fe227670b12dba.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Wooden-Rosary-Crucifix-Catholicism-Gifts-Religious_1601425477276.html",
+        "group_id": "940080769",
+        "category_id": "202121701",
+        "main_image_urls": [
+          "https://sc04.alicdn.com/kf/Hbbecc02bf804488681cb072b6bece611X.jpg",
+          "https://sc04.alicdn.com/kf/H8a7a3a524a8f4e3fbb36490ab534ade0A.jpg",
+          "https://sc04.alicdn.com/kf/H6716bc175b404db9ad37e1dad4f5b057Y.jpg",
+          "https://sc04.alicdn.com/kf/H94c9901dc4f345318c771391c0081b59a.jpg",
+          "https://sc04.alicdn.com/kf/H059c4d21ce6246fabb7981948f7cb6a0J.jpg",
+          "https://sc04.alicdn.com/kf/Hf8a63cb4cfd54c8ea23fe227670b12dba.jpg"
+        ],
+        "detail_image_urls": []
+      },
+      "variations": [
+        {
+          "wp_id": 3977,
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V--4",
+          "source_sku_id": "106846114398",
+          "source_variant_value_id": "-4",
+          "attributes": {
+            "pa_variant": "brown4"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "10",
+              "price": "0.52",
+              "source_sku_id": "106846114398"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.5",
+              "source_sku_id": "106846114398"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.48",
+              "source_sku_id": "106846114398"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.43",
+              "source_sku_id": "106846114398"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Had14f22e831b49489b8a8d855f9f7703T.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Had14f22e831b49489b8a8d855f9f7703T.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3978,
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V--2",
+          "source_sku_id": "106846114396",
+          "source_variant_value_id": "-2",
+          "attributes": {
+            "pa_variant": "brown2"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "10",
+              "price": "0.52",
+              "source_sku_id": "106846114396"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.5",
+              "source_sku_id": "106846114396"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.48",
+              "source_sku_id": "106846114396"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.43",
+              "source_sku_id": "106846114396"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha134b02592164b67b00dfd6cd3d7f1b6O.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Ha134b02592164b67b00dfd6cd3d7f1b6O.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3979,
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V--3",
+          "source_sku_id": "106846114397",
+          "source_variant_value_id": "-3",
+          "attributes": {
+            "pa_variant": "brown3"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "10",
+              "price": "0.52",
+              "source_sku_id": "106846114397"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.5",
+              "source_sku_id": "106846114397"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.48",
+              "source_sku_id": "106846114397"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.43",
+              "source_sku_id": "106846114397"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Had9f892431ad49c4a068aeca3f4633d83.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Had9f892431ad49c4a068aeca3f4633d83.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3980,
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V-5715155",
+          "source_sku_id": "106846114394",
+          "source_variant_value_id": "5715155",
+          "attributes": {
+            "pa_variant": "beige"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "10",
+              "price": "0.52",
+              "source_sku_id": "106846114394"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.5",
+              "source_sku_id": "106846114394"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.48",
+              "source_sku_id": "106846114394"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.43",
+              "source_sku_id": "106846114394"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H7db5c27df6554935bc0cb30627462985U.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H7db5c27df6554935bc0cb30627462985U.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3981,
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V--1",
+          "source_sku_id": "106846114395",
+          "source_variant_value_id": "-1",
+          "attributes": {
+            "pa_variant": "brown1"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "10",
+              "price": "0.52",
+              "source_sku_id": "106846114395"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.5",
+              "source_sku_id": "106846114395"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.48",
+              "source_sku_id": "106846114395"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.43",
+              "source_sku_id": "106846114395"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H0e7db9d20fd640219c7ffb66cc0a88b2W.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H0e7db9d20fd640219c7ffb66cc0a88b2W.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3982,
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V-3399503",
+          "source_sku_id": "106846114392",
+          "source_variant_value_id": "3399503",
+          "attributes": {
+            "pa_variant": "brown"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "10",
+              "price": "0.52",
+              "source_sku_id": "106846114392"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.5",
+              "source_sku_id": "106846114392"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.48",
+              "source_sku_id": "106846114392"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.43",
+              "source_sku_id": "106846114392"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb78bf5cb42b34a849118c826bd0d8a90g.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Hb78bf5cb42b34a849118c826bd0d8a90g.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 3983,
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V-3327837",
+          "source_sku_id": "106846114393",
+          "source_variant_value_id": "3327837",
+          "attributes": {
+            "pa_variant": "black"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "10",
+              "price": "0.52",
+              "source_sku_id": "106846114393"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.5",
+              "source_sku_id": "106846114393"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.48",
+              "source_sku_id": "106846114393"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.43",
+              "source_sku_id": "106846114393"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf81f5563b2624b789d3d7b94a684552fj.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Hf81f5563b2624b789d3d7b94a684552fj.jpg",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "wp_id": 3990,
+      "source_id": "AAH4TG7BAOVioqqEY6eYEWvg",
+      "source_plain_id": "",
+      "sku": "ALI-AAH4TG7BAOVioqqEY6eYEWvg",
+      "slug": "religious-catholic-rosaries-rosary-charm-colorful-necklace-flower-plastic-10mm-bead-esus-christian-prayer-beads-for-catholicism",
+      "title": "Religious Catholic Rosaries Rosary Charm Colorful Necklace Flower Plastic 10mm Bead Esus Christian Prayer Beads for Catholicism",
+      "status": "publish",
+      "product_type": "simple",
+      "url": "https://mecrt.com/product/religious-catholic-rosaries-rosary-charm-colorful-necklace-flower-plastic-10mm-bead-esus-christian-prayer-beads-for-catholicism/",
+      "modified_at": "2026-07-29T03:30:29+00:00",
+      "source_modified_at": "2026-05-26 22:46:43",
+      "description_html": "",
+      "short_description_html": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "name": "Jewelry Main Material",
+          "slug": "jewelry-main-material",
+          "values": ["Plastic"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Material Type",
+          "slug": "material-type",
+          "values": ["Zinc Alloy"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Diamond shape",
+          "slug": "diamond-shape",
+          "values": ["Other"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Pearl Type",
+          "slug": "pearl-type",
+          "values": ["Other"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Gender",
+          "slug": "gender",
+          "values": ["Children's"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Main Stone",
+          "slug": "main-stone",
+          "values": ["Other"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Necklaces Type",
+          "slug": "necklaces-type",
+          "values": ["Beaded Necklaces"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Occasion",
+          "slug": "occasion",
+          "values": ["Engagement"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "chain type",
+          "slug": "chain-type",
+          "values": ["Beads"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Shape\\pattern",
+          "slug": "shapepattern",
+          "values": ["Cross"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Style",
+          "slug": "style",
+          "values": ["Religious"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Religious Type",
+          "slug": "religious-type",
+          "values": ["Catholicism"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Inlay technology",
+          "slug": "inlay-technology",
+          "values": ["Aperture setting"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Place of Origin",
+          "slug": "place-of-origin",
+          "values": ["CN;ZHE"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Model Number",
+          "slug": "model-number",
+          "values": ["N14"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Jewelry Type",
+          "slug": "jewelry-type",
+          "values": ["other"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Plating",
+          "slug": "plating",
+          "values": ["Other"],
+          "variation": false,
+          "visible": true
+        }
+      ],
+      "weight": {
+        "value": "",
+        "unit": "kg",
+        "kg": ""
+      },
+      "pricing": {
+        "currency": "USD",
+        "regular_price": "0.6",
+        "price": "0.6",
+        "tiers": [
+          {
+            "start_quantity": "12",
+            "price": "0.6",
+            "source_sku_id": "108313072046"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.58",
+            "source_sku_id": "108313072046"
+          },
+          {
+            "start_quantity": "2400",
+            "price": "0.53",
+            "source_sku_id": "108313072046"
+          },
+          {
+            "start_quantity": "6000",
+            "price": "0.5",
+            "source_sku_id": "108313072046"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 3991,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc8943bf7687b41a18caf58fcc7aea6f9Y.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hc8943bf7687b41a18caf58fcc7aea6f9Y.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3992,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He423324072bc4df0ba3f7ee25a927929l.webp",
+          "source_url": "https://sc04.alicdn.com/kf/He423324072bc4df0ba3f7ee25a927929l.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3993,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4335694c4ca436abec3b9dcdd941977G.webp",
+          "source_url": "https://sc04.alicdn.com/kf/He4335694c4ca436abec3b9dcdd941977G.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3994,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hed2a33a39e5f43b9a15d53f445f6450ce.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hed2a33a39e5f43b9a15d53f445f6450ce.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3995,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hff1131e8a94347dd9fe7731ec4ab677dh.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hff1131e8a94347dd9fe7731ec4ab677dh.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 3996,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ee880c727654cf285d8f254079af6ec6.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H4ee880c727654cf285d8f254079af6ec6.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Religious-Catholic-Rosaries-Rosary-Charm-Colorful_1601130494782.html",
+        "group_id": "940080769",
+        "category_id": "202121701",
+        "main_image_urls": [
+          "https://sc04.alicdn.com/kf/Hc8943bf7687b41a18caf58fcc7aea6f9Y.jpg",
+          "https://sc04.alicdn.com/kf/He423324072bc4df0ba3f7ee25a927929l.jpg",
+          "https://sc04.alicdn.com/kf/He4335694c4ca436abec3b9dcdd941977G.jpg",
+          "https://sc04.alicdn.com/kf/Hed2a33a39e5f43b9a15d53f445f6450ce.jpg",
+          "https://sc04.alicdn.com/kf/Hff1131e8a94347dd9fe7731ec4ab677dh.jpg",
+          "https://sc04.alicdn.com/kf/H4ee880c727654cf285d8f254079af6ec6.jpg"
+        ],
+        "detail_image_urls": [
+          "https://sc04.alicdn.com/kf/H75add418e58349ac96dd5d7259566e08D.jpg",
+          "https://sc04.alicdn.com/kf/H7360eb1bc7964e18989db7a1aabdc41eL.jpg",
+          "https://sc04.alicdn.com/kf/He2f0ae6f10be41fe95ddfbd24696b67e9.jpg",
+          "https://sc04.alicdn.com/kf/Hd4483e25d68e49368d1aea4fcdecb60dr.jpg",
+          "https://sc04.alicdn.com/kf/H59fef9d09be7414e81fd08fd8bfcc0eac.jpg",
+          "https://sc04.alicdn.com/kf/H4a7facc93af54afa9db89ae0f4a26ea7Z.jpg",
+          "https://sc04.alicdn.com/kf/H8e56b4f6e8ff4ae0ac1d05b52b399e6eB.jpg",
+          "https://sc04.alicdn.com/kf/H2a61691484174e5cb3137df39f2b5c902.jpg"
+        ]
+      },
+      "variations": []
+    },
+    {
+      "wp_id": 3997,
+      "source_id": "AAGITG7BAOVioqqEY6eYWarp",
+      "source_plain_id": "",
+      "sku": "ALI-AAGITG7BAOVioqqEY6eYWarp",
+      "slug": "rosary-for-kids-children-necklace-christian-catholic-jesus-christ-rosaries-holy-communion-baptism-prayer-jewelry-church-gift",
+      "title": "Rosary for Kids Children Necklace Christian Catholic Jesus Christ Rosaries Holy Communion Baptism Prayer Jewelry Church Gift",
+      "status": "publish",
+      "product_type": "variable",
+      "url": "https://mecrt.com/product/rosary-for-kids-children-necklace-christian-catholic-jesus-christ-rosaries-holy-communion-baptism-prayer-jewelry-church-gift/",
+      "modified_at": "2026-07-29T03:30:55+00:00",
+      "source_modified_at": "2026-05-26 22:39:25",
+      "description_html": "",
+      "short_description_html": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "name": "Variant",
+          "slug": "pa_variant",
+          "values": ["Red", "Blue"],
+          "variation": true,
+          "visible": true
+        }
+      ],
+      "weight": {
+        "value": "",
+        "unit": "kg",
+        "kg": ""
+      },
+      "pricing": {
+        "currency": "USD",
+        "regular_price": "",
+        "price": "0.55",
+        "tiers": [
+          {
+            "start_quantity": "10",
+            "price": "0.55",
+            "source_sku_id": "108312934641"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.52",
+            "source_sku_id": "108312934641"
+          },
+          {
+            "start_quantity": "1080",
+            "price": "0.5",
+            "source_sku_id": "108312934641"
+          },
+          {
+            "start_quantity": "10",
+            "price": "0.55",
+            "source_sku_id": "108312934642"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.52",
+            "source_sku_id": "108312934642"
+          },
+          {
+            "start_quantity": "1080",
+            "price": "0.5",
+            "source_sku_id": "108312934642"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 4002,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2e9ff4ada7744caf805987d3ce60a36cO.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H2e9ff4ada7744caf805987d3ce60a36cO.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4003,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0fcd7e9a6f8144a48c4837294c1fa5a0H.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H0fcd7e9a6f8144a48c4837294c1fa5a0H.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4004,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8ad0e6f6b3664c3f8e40abeb3af4ced9D.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H8ad0e6f6b3664c3f8e40abeb3af4ced9D.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4005,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H12e15327b9124561b57e060b4aea5f26p.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H12e15327b9124561b57e060b4aea5f26p.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4006,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H427f3bf7986d4c6989e079dc4b571f0b0.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H427f3bf7986d4c6989e079dc4b571f0b0.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4007,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H616ce797ecf449b3bc9c103dfed8ef66Z.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H616ce797ecf449b3bc9c103dfed8ef66Z.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Rosary-for-Kids-Children-Necklace-Christian_1601126840887.html",
+        "group_id": "940080769",
+        "category_id": "202121701",
+        "main_image_urls": [
+          "https://sc04.alicdn.com/kf/H2e9ff4ada7744caf805987d3ce60a36cO.jpg",
+          "https://sc04.alicdn.com/kf/H0fcd7e9a6f8144a48c4837294c1fa5a0H.jpg",
+          "https://sc04.alicdn.com/kf/H8ad0e6f6b3664c3f8e40abeb3af4ced9D.jpg",
+          "https://sc04.alicdn.com/kf/H12e15327b9124561b57e060b4aea5f26p.jpg",
+          "https://sc04.alicdn.com/kf/H427f3bf7986d4c6989e079dc4b571f0b0.jpg",
+          "https://sc04.alicdn.com/kf/H616ce797ecf449b3bc9c103dfed8ef66Z.jpg"
+        ],
+        "detail_image_urls": [
+          "https://sc04.alicdn.com/kf/Hd3e40d28735c44b5aa32045bccff7279E.jpg",
+          "https://sc04.alicdn.com/kf/He699530979be4ab4a3097b0ff8117affu.jpg",
+          "https://sc04.alicdn.com/kf/H4912a7b5d3bf40fca995051e3ae49ea0Y.jpg",
+          "https://sc04.alicdn.com/kf/H9b331e49769f44c68af0427bd4ba93fev.jpg",
+          "https://sc04.alicdn.com/kf/Hc265e34009f74dee81723face5a9bc4eN.jpg",
+          "https://sc04.alicdn.com/kf/H6dd6794ad9c942068a22a3d8a60addf53.jpg",
+          "https://sc04.alicdn.com/kf/H7d899adee8794367939933744d525c5eY.jpg",
+          "https://sc04.alicdn.com/kf/H49f7bc21cfa14fa1a72993401c36aafdX.jpg",
+          "https://sc04.alicdn.com/kf/H4ba92c90088740a2aa5044a26f8d4bf3i.jpg",
+          "https://sc04.alicdn.com/kf/Ha57d39b37a554572a352fee5a5be33c4f.jpg"
+        ]
+      },
+      "variations": [
+        {
+          "wp_id": 4000,
+          "sku": "ALI-AAGITG7BAOVioqqEY6eYWarp-V-3331260",
+          "source_sku_id": "108312934641",
+          "source_variant_value_id": "3331260",
+          "attributes": {
+            "pa_variant": "red"
+          },
+          "regular_price": "0.55",
+          "price": "0.55",
+          "price_tiers": [
+            {
+              "start_quantity": "10",
+              "price": "0.55",
+              "source_sku_id": "108312934641"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.52",
+              "source_sku_id": "108312934641"
+            },
+            {
+              "start_quantity": "1080",
+              "price": "0.5",
+              "source_sku_id": "108312934641"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H3aa908e2e1e7401a99d629e3e201c260x.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H3aa908e2e1e7401a99d629e3e201c260x.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 4001,
+          "sku": "ALI-AAGITG7BAOVioqqEY6eYWarp-V-123085",
+          "source_sku_id": "108312934642",
+          "source_variant_value_id": "123085",
+          "attributes": {
+            "pa_variant": "blue"
+          },
+          "regular_price": "0.55",
+          "price": "0.55",
+          "price_tiers": [
+            {
+              "start_quantity": "10",
+              "price": "0.55",
+              "source_sku_id": "108312934642"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.52",
+              "source_sku_id": "108312934642"
+            },
+            {
+              "start_quantity": "1080",
+              "price": "0.5",
+              "source_sku_id": "108312934642"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H7d899adee8794367939933744d525c5eY.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H7d899adee8794367939933744d525c5eY.jpg",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "wp_id": 4008,
+      "source_id": "AAHlTG7BAOVioqqEY6eE7ZRc",
+      "source_plain_id": "",
+      "sku": "ALI-AAHlTG7BAOVioqqEY6eE7ZRc",
+      "slug": "catholic-scapulars-worship-embroidery-liturgical-stole-religious-amulet-carmelite-gifts-hand-made-pendants-jewelry",
+      "title": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious Amulet Carmelite Gifts Hand - Made Pendants Jewelry",
+      "status": "publish",
+      "product_type": "simple",
+      "url": "https://mecrt.com/product/catholic-scapulars-worship-embroidery-liturgical-stole-religious-amulet-carmelite-gifts-hand-made-pendants-jewelry/",
+      "modified_at": "2026-06-24T01:07:47+00:00",
+      "source_modified_at": "2026-05-26 21:30:49",
+      "description_html": "",
+      "short_description_html": "",
+      "categories": [
+        {
+          "id": 39,
+          "name": "Catholic Scapulars",
+          "slug": "catholic-scapulars"
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "name": "Jewelry Main Material",
+          "slug": "jewelry-main-material",
+          "values": ["cloth"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Pendants or Charms Type",
+          "slug": "pendants-or-charms-type",
+          "values": ["Themed Pendants"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Gender",
+          "slug": "gender",
+          "values": ["Women's", "Children's", "Men's", "Unisex"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Main Stone",
+          "slug": "main-stone",
+          "values": ["None"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Jewelry Type",
+          "slug": "jewelry-type",
+          "values": ["Pendants or Charms"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Occasion",
+          "slug": "occasion",
+          "values": ["Engagement", "Gift", "Wedding", "Anniversary", "Party"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Plating",
+          "slug": "plating",
+          "values": ["Other"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Shape\\pattern",
+          "slug": "shapepattern",
+          "values": ["Geometric"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Style",
+          "slug": "style",
+          "values": ["Religious"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Religious Type",
+          "slug": "religious-type",
+          "values": ["Catholicism"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Place of Origin",
+          "slug": "place-of-origin",
+          "values": ["CN;ZHE"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Brand Name",
+          "slug": "brand-name",
+          "values": ["Mecrt"],
+          "variation": false,
+          "visible": true
+        },
+        {
+          "name": "Material Type",
+          "slug": "material-type",
+          "values": ["Other"],
+          "variation": false,
+          "visible": true
+        }
+      ],
+      "weight": {
+        "value": "",
+        "unit": "kg",
+        "kg": ""
+      },
+      "pricing": {
+        "currency": "USD",
+        "regular_price": "0.45",
+        "price": "0.45",
+        "tiers": [
+          {
+            "start_quantity": "12",
+            "price": "0.45",
+            "source_sku_id": "107162346448"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.42",
+            "source_sku_id": "107162346448"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.35",
+            "source_sku_id": "107162346448"
+          },
+          {
+            "start_quantity": "4800",
+            "price": "0.33",
+            "source_sku_id": "107162346448"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 4009,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H898cdda524e941b088f2f858faa01f41l.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H898cdda524e941b088f2f858faa01f41l.jpg",
+          "alt": "",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "id": 4010,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2a6dd315bb6645e2ab23d5776a0ed26dL.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H2a6dd315bb6645e2ab23d5776a0ed26dL.jpg",
+          "alt": "",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "id": 4011,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1f4da6b4ff79421b8466903355a231334.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H1f4da6b4ff79421b8466903355a231334.jpg",
+          "alt": "",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "id": 4012,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H14305609ab8d49f7899025281f39abcc3.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H14305609ab8d49f7899025281f39abcc3.jpg",
+          "alt": "",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "id": 4013,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8fc85b9323764075bd3123c7554769eea.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H8fc85b9323764075bd3123c7554769eea.jpg",
+          "alt": "",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Catholic-Scapulars-Worship-Embroidery-Liturgical-Stole_1601321075842.html",
+        "group_id": "948787535",
+        "category_id": "201642003",
+        "main_image_urls": [
+          "https://sc04.alicdn.com/kf/H898cdda524e941b088f2f858faa01f41l.jpg",
+          "https://sc04.alicdn.com/kf/H2a6dd315bb6645e2ab23d5776a0ed26dL.jpg",
+          "https://sc04.alicdn.com/kf/H1f4da6b4ff79421b8466903355a231334.jpg",
+          "https://sc04.alicdn.com/kf/H14305609ab8d49f7899025281f39abcc3.jpg",
+          "https://sc04.alicdn.com/kf/H8fc85b9323764075bd3123c7554769eea.jpg"
+        ],
+        "detail_image_urls": [
+          "https://sc04.alicdn.com/kf/H2e9cfcf0493341f6a93a1892b9d32c04v.jpg",
+          "https://sc04.alicdn.com/kf/He234ace72bbb488083413ff6c1893055r.jpg",
+          "https://sc04.alicdn.com/kf/H62b1bb69d9f2412fab0cd159a41f80ddX.jpg",
+          "https://sc04.alicdn.com/kf/H70bd7e63eef44a82945813ee021b9989Q.jpg"
+        ]
+      },
+      "variations": []
+    },
+    {
+      "wp_id": 4014,
+      "source_id": "AAEqTG7BAOVioqqEY6eCTY5J",
+      "source_plain_id": "",
+      "sku": "ALI-AAEqTG7BAOVioqqEY6eCTY5J",
+      "slug": "catholic-sublimation-rosaries-gothic-chaplet-religious-crucifix-for-rosary-10mm-pine-beads-order-rosaries-from-china-wholesale",
+      "title": "Catholic Sublimation Rosaries Gothic Chaplet Religious Crucifix for Rosary 10mm Pine Beads Order Rosaries From China Wholesale",
+      "status": "publish",
+      "product_type": "variable",
+      "url": "https://mecrt.com/product/catholic-sublimation-rosaries-gothic-chaplet-religious-crucifix-for-rosary-10mm-pine-beads-order-rosaries-from-china-wholesale/",
+      "modified_at": "2026-07-29T03:30:46+00:00",
+      "source_modified_at": "2026-05-26 21:25:01",
+      "description_html": "",
+      "short_description_html": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "name": "Variant",
+          "slug": "pa_variant",
+          "values": ["Brown", "Beige"],
+          "variation": true,
+          "visible": true
+        }
+      ],
+      "weight": {
+        "value": "",
+        "unit": "kg",
+        "kg": ""
+      },
+      "pricing": {
+        "currency": "USD",
+        "regular_price": "",
+        "price": "0.47",
+        "tiers": [
+          {
+            "start_quantity": "12",
+            "price": "0.47",
+            "source_sku_id": "108301203057"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.45",
+            "source_sku_id": "108301203057"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.42",
+            "source_sku_id": "108301203057"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.4",
+            "source_sku_id": "108301203057"
+          },
+          {
+            "start_quantity": "12",
+            "price": "0.47",
+            "source_sku_id": "108301203058"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.45",
+            "source_sku_id": "108301203058"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.42",
+            "source_sku_id": "108301203058"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.4",
+            "source_sku_id": "108301203058"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 4019,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H11d4f16987b0443b9bf7d0fbde523114b.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H11d4f16987b0443b9bf7d0fbde523114b.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4020,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H18bbd82307d041d78ddb2a335ee7b349E.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H18bbd82307d041d78ddb2a335ee7b349E.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4021,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5cdc702f642441ec91abf2b94db9aed4u.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H5cdc702f642441ec91abf2b94db9aed4u.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4022,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He490e656f3b14f288e6aac588e98cf5al.webp",
+          "source_url": "https://sc04.alicdn.com/kf/He490e656f3b14f288e6aac588e98cf5al.jpg",
+          "alt": "",
+          "width": 1300,
+          "height": 1300
+        },
+        {
+          "id": 4023,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5881b3d1cc1b4e7db65591519cd17066B.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H5881b3d1cc1b4e7db65591519cd17066B.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4024,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5384bd01d8dc438a977d356ba6cbe494d.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H5384bd01d8dc438a977d356ba6cbe494d.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Catholic-Sublimation-Rosaries-Gothic-Chaplet-Religious_1601226710679.html",
+        "group_id": "940080769",
+        "category_id": "201642003",
+        "main_image_urls": [
+          "https://sc04.alicdn.com/kf/H11d4f16987b0443b9bf7d0fbde523114b.jpg",
+          "https://sc04.alicdn.com/kf/H18bbd82307d041d78ddb2a335ee7b349E.jpg",
+          "https://sc04.alicdn.com/kf/H5cdc702f642441ec91abf2b94db9aed4u.jpg",
+          "https://sc04.alicdn.com/kf/He490e656f3b14f288e6aac588e98cf5al.jpg",
+          "https://sc04.alicdn.com/kf/H5881b3d1cc1b4e7db65591519cd17066B.jpg",
+          "https://sc04.alicdn.com/kf/H5384bd01d8dc438a977d356ba6cbe494d.jpg"
+        ],
+        "detail_image_urls": []
+      },
+      "variations": [
+        {
+          "wp_id": 4017,
+          "sku": "ALI-AAEqTG7BAOVioqqEY6eCTY5J-V-3399503",
+          "source_sku_id": "108301203057",
+          "source_variant_value_id": "3399503",
+          "attributes": {
+            "pa_variant": "brown"
+          },
+          "regular_price": "0.47",
+          "price": "0.47",
+          "price_tiers": [
+            {
+              "start_quantity": "12",
+              "price": "0.47",
+              "source_sku_id": "108301203057"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.45",
+              "source_sku_id": "108301203057"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.42",
+              "source_sku_id": "108301203057"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.4",
+              "source_sku_id": "108301203057"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H67cae66c3cd3444aaae86d7b68ff6e9bX.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H67cae66c3cd3444aaae86d7b68ff6e9bX.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 4018,
+          "sku": "ALI-AAEqTG7BAOVioqqEY6eCTY5J-V-5715155",
+          "source_sku_id": "108301203058",
+          "source_variant_value_id": "5715155",
+          "attributes": {
+            "pa_variant": "beige"
+          },
+          "regular_price": "0.47",
+          "price": "0.47",
+          "price_tiers": [
+            {
+              "start_quantity": "12",
+              "price": "0.47",
+              "source_sku_id": "108301203058"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.45",
+              "source_sku_id": "108301203058"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.42",
+              "source_sku_id": "108301203058"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.4",
+              "source_sku_id": "108301203058"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H9877ddce92dc461db42641bbc02e6657b.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H9877ddce92dc461db42641bbc02e6657b.jpg",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "wp_id": 4025,
+      "source_id": "AAFOTG7BAOVioqqEY6eYVmJ6",
+      "source_plain_id": "",
+      "sku": "ALI-AAFOTG7BAOVioqqEY6eYVmJ6",
+      "slug": "religious-catholic-rosary-wood-beads-virgin-mary-decade-crucifix-devotional-gift-cross-handmade-jesus-pendant-rosaries-jewelry",
+      "title": "Religious Catholic Rosary Wood Beads Virgin Mary Decade Crucifix Devotional Gift Cross Handmade Jesus Pendant Rosaries Jewelry",
+      "status": "publish",
+      "product_type": "variable",
+      "url": "https://mecrt.com/product/religious-catholic-rosary-wood-beads-virgin-mary-decade-crucifix-devotional-gift-cross-handmade-jesus-pendant-rosaries-jewelry/",
+      "modified_at": "2026-06-24T01:07:46+00:00",
+      "source_modified_at": "2026-05-26 19:35:37",
+      "description_html": "",
+      "short_description_html": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "name": "Variant",
+          "slug": "pa_variant",
+          "values": ["Coffee", "Beige", "Black"],
+          "variation": true,
+          "visible": true
+        }
+      ],
+      "weight": {
+        "value": "",
+        "unit": "kg",
+        "kg": ""
+      },
+      "pricing": {
+        "currency": "USD",
+        "regular_price": "",
+        "price": "0.52",
+        "tiers": [
+          {
+            "start_quantity": "12",
+            "price": "0.52",
+            "source_sku_id": "106840627672"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.5",
+            "source_sku_id": "106840627672"
+          },
+          {
+            "start_quantity": "4800",
+            "price": "0.48",
+            "source_sku_id": "106840627672"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.43",
+            "source_sku_id": "106840627672"
+          },
+          {
+            "start_quantity": "12",
+            "price": "0.52",
+            "source_sku_id": "106840627670"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.5",
+            "source_sku_id": "106840627670"
+          },
+          {
+            "start_quantity": "4800",
+            "price": "0.48",
+            "source_sku_id": "106840627670"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.43",
+            "source_sku_id": "106840627670"
+          },
+          {
+            "start_quantity": "12",
+            "price": "0.52",
+            "source_sku_id": "106840627671"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.5",
+            "source_sku_id": "106840627671"
+          },
+          {
+            "start_quantity": "4800",
+            "price": "0.48",
+            "source_sku_id": "106840627671"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.43",
+            "source_sku_id": "106840627671"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 4032,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H17fcd781ccb44812b0a6501bb3c4e91bs.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H17fcd781ccb44812b0a6501bb3c4e91bs.jpg",
+          "alt": "",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "id": 4033,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf6f5a551d3e24680a82ba28be4a1caa0a.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hf6f5a551d3e24680a82ba28be4a1caa0a.jpg",
+          "alt": "",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "id": 4034,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H87ddb40c1fc34b31bbafb539e68943f2W.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H87ddb40c1fc34b31bbafb539e68943f2W.jpg",
+          "alt": "",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "id": 4035,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8c8c6a7a47cf4464a741db14f885cbe7g.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H8c8c6a7a47cf4464a741db14f885cbe7g.jpg",
+          "alt": "",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "id": 4036,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5ed05913847489eb33aa76505d4dbe3X.webp",
+          "source_url": "https://sc04.alicdn.com/kf/He5ed05913847489eb33aa76505d4dbe3X.jpg",
+          "alt": "",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "id": 4037,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbee532dbadfa45d9b1b62a7c7834d7d5H.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hbee532dbadfa45d9b1b62a7c7834d7d5H.jpg",
+          "alt": "",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Religious-Catholic-Rosary-Wood-Beads-Virgin_1601126757028.html",
+        "group_id": "940080769",
+        "category_id": "201642003",
+        "main_image_urls": [
+          "https://sc04.alicdn.com/kf/H17fcd781ccb44812b0a6501bb3c4e91bs.jpg",
+          "https://sc04.alicdn.com/kf/Hf6f5a551d3e24680a82ba28be4a1caa0a.jpg",
+          "https://sc04.alicdn.com/kf/H87ddb40c1fc34b31bbafb539e68943f2W.jpg",
+          "https://sc04.alicdn.com/kf/H8c8c6a7a47cf4464a741db14f885cbe7g.jpg",
+          "https://sc04.alicdn.com/kf/He5ed05913847489eb33aa76505d4dbe3X.jpg",
+          "https://sc04.alicdn.com/kf/Hbee532dbadfa45d9b1b62a7c7834d7d5H.jpg"
+        ],
+        "detail_image_urls": []
+      },
+      "variations": [
+        {
+          "wp_id": 4029,
+          "sku": "ALI-AAFOTG7BAOVioqqEY6eYVmJ6-V-3327837",
+          "source_sku_id": "106840627672",
+          "source_variant_value_id": "3327837",
+          "attributes": {
+            "pa_variant": "black"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "12",
+              "price": "0.52",
+              "source_sku_id": "106840627672"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.5",
+              "source_sku_id": "106840627672"
+            },
+            {
+              "start_quantity": "4800",
+              "price": "0.48",
+              "source_sku_id": "106840627672"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.43",
+              "source_sku_id": "106840627672"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H82d89e987f424118a4a8231c3f873ea3F.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H82d89e987f424118a4a8231c3f873ea3F.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 4030,
+          "sku": "ALI-AAFOTG7BAOVioqqEY6eYVmJ6-V-3778969",
+          "source_sku_id": "106840627670",
+          "source_variant_value_id": "3778969",
+          "attributes": {
+            "pa_variant": "coffee"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "12",
+              "price": "0.52",
+              "source_sku_id": "106840627670"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.5",
+              "source_sku_id": "106840627670"
+            },
+            {
+              "start_quantity": "4800",
+              "price": "0.48",
+              "source_sku_id": "106840627670"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.43",
+              "source_sku_id": "106840627670"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H66ff38b795434e7ca6a22cff7b0f84ecT.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H66ff38b795434e7ca6a22cff7b0f84ecT.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 4031,
+          "sku": "ALI-AAFOTG7BAOVioqqEY6eYVmJ6-V-5715155",
+          "source_sku_id": "106840627671",
+          "source_variant_value_id": "5715155",
+          "attributes": {
+            "pa_variant": "beige"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "12",
+              "price": "0.52",
+              "source_sku_id": "106840627671"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.5",
+              "source_sku_id": "106840627671"
+            },
+            {
+              "start_quantity": "4800",
+              "price": "0.48",
+              "source_sku_id": "106840627671"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.43",
+              "source_sku_id": "106840627671"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H157f23ad838345199965225c7488ddc7K.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H157f23ad838345199965225c7488ddc7K.jpg",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "wp_id": 4038,
+      "source_id": "AAE3TG7BAOVioqqEY6eYVEl-",
+      "source_plain_id": "",
+      "sku": "ALI-AAE3TG7BAOVioqqEY6eYVEl-",
+      "slug": "catholic-rosary-crucifix-religious-jewelry-saint-benedict-charm-cross-pendant-jesus-10mm-wood-beads-handmade-rosaries-wholesale",
+      "title": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm Cross Pendant Jesus 10mm Wood Beads Handmade Rosaries Wholesale",
+      "status": "publish",
+      "product_type": "variable",
+      "url": "https://mecrt.com/product/catholic-rosary-crucifix-religious-jewelry-saint-benedict-charm-cross-pendant-jesus-10mm-wood-beads-handmade-rosaries-wholesale/",
+      "modified_at": "2026-07-11T17:19:13+00:00",
+      "source_modified_at": "2026-05-26 18:20:45",
+      "description_html": "",
+      "short_description_html": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "tags": [],
+      "attributes": [
+        {
+          "name": "Variant",
+          "slug": "pa_variant",
+          "values": ["Coffee", "Beige", "Black"],
+          "variation": true,
+          "visible": true
+        }
+      ],
+      "weight": {
+        "value": "",
+        "unit": "kg",
+        "kg": ""
+      },
+      "pricing": {
+        "currency": "USD",
+        "regular_price": "",
+        "price": "0.52",
+        "tiers": [
+          {
+            "start_quantity": "12",
+            "price": "0.52",
+            "source_sku_id": "106840724105"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.48",
+            "source_sku_id": "106840724105"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.46",
+            "source_sku_id": "106840724105"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.42",
+            "source_sku_id": "106840724105"
+          },
+          {
+            "start_quantity": "12",
+            "price": "0.52",
+            "source_sku_id": "106840724106"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.48",
+            "source_sku_id": "106840724106"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.46",
+            "source_sku_id": "106840724106"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.42",
+            "source_sku_id": "106840724106"
+          },
+          {
+            "start_quantity": "12",
+            "price": "0.52",
+            "source_sku_id": "106840724107"
+          },
+          {
+            "start_quantity": "600",
+            "price": "0.48",
+            "source_sku_id": "106840724107"
+          },
+          {
+            "start_quantity": "1200",
+            "price": "0.46",
+            "source_sku_id": "106840724107"
+          },
+          {
+            "start_quantity": "12000",
+            "price": "0.42",
+            "source_sku_id": "106840724107"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 4045,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd34e8cb321104b95b47421a9c28c5411p.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hd34e8cb321104b95b47421a9c28c5411p.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4046,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H61322125fec0471293782215802b4c01a.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H61322125fec0471293782215802b4c01a.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4047,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H78352d94ab044e8d88e481e0f2830e50T.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H78352d94ab044e8d88e481e0f2830e50T.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4048,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H16df4f9c49454732b6c43d19e6e0a8347.webp",
+          "source_url": "https://sc04.alicdn.com/kf/H16df4f9c49454732b6c43d19e6e0a8347.jpg",
+          "alt": "",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 4049,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hece3cfaa103740159e58309f966fcbc9D.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hece3cfaa103740159e58309f966fcbc9D.jpg",
+          "alt": "",
+          "width": 1300,
+          "height": 1300
+        },
+        {
+          "id": 4050,
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd8f3653309d04282a0aa9b0223e83d0ab.webp",
+          "source_url": "https://sc04.alicdn.com/kf/Hd8f3653309d04282a0aa9b0223e83d0ab.jpg",
+          "alt": "",
+          "width": 1300,
+          "height": 1300
+        }
+      ],
+      "source": {
+        "url": "https://www.alibaba.com/product-detail/Catholic-Rosary-Crucifix-Religious-Jewelry-Saint_1601126619552.html",
+        "group_id": "940080769",
+        "category_id": "201642003",
+        "main_image_urls": [
+          "https://sc04.alicdn.com/kf/Hd34e8cb321104b95b47421a9c28c5411p.jpg",
+          "https://sc04.alicdn.com/kf/H61322125fec0471293782215802b4c01a.jpg",
+          "https://sc04.alicdn.com/kf/H78352d94ab044e8d88e481e0f2830e50T.jpg",
+          "https://sc04.alicdn.com/kf/H16df4f9c49454732b6c43d19e6e0a8347.jpg",
+          "https://sc04.alicdn.com/kf/Hece3cfaa103740159e58309f966fcbc9D.jpg",
+          "https://sc04.alicdn.com/kf/Hd8f3653309d04282a0aa9b0223e83d0ab.jpg"
+        ],
+        "detail_image_urls": [
+          "https://sc04.alicdn.com/kf/H841ca41c84d24fe6a48226ae6129b3f9v.jpg",
+          "https://sc04.alicdn.com/kf/H24a0f9eb2686461181cfe1b4f994754aM.jpg",
+          "https://sc04.alicdn.com/kf/H6f459302807e431d93aef218fa31cec1d.jpg",
+          "https://sc04.alicdn.com/kf/H56e3fbb2e4df495e8a3eb67eee3c30f6x.jpg",
+          "https://sc04.alicdn.com/kf/H4dde5f6ce1364d7690ccb56a8776badeW.jpg",
+          "https://sc04.alicdn.com/kf/H2b1282465b104c04ad34eeaabeded3c9F.jpg",
+          "https://sc04.alicdn.com/kf/H3f09fb4ff201402da2f5d0f353ab0f6eu.jpg",
+          "https://sc04.alicdn.com/kf/Hb4fbf0ed148d4d0c9e7d660c10932369h.jpg"
+        ]
+      },
+      "variations": [
+        {
+          "wp_id": 4042,
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eYVEl--V-3778969",
+          "source_sku_id": "106840724105",
+          "source_variant_value_id": "3778969",
+          "attributes": {
+            "pa_variant": "coffee"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "12",
+              "price": "0.52",
+              "source_sku_id": "106840724105"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.48",
+              "source_sku_id": "106840724105"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.46",
+              "source_sku_id": "106840724105"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.42",
+              "source_sku_id": "106840724105"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/H75aa768887c844378900d243a44281903.webp",
+            "source_url": "https://sc04.alicdn.com/kf/H75aa768887c844378900d243a44281903.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 4043,
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eYVEl--V-5715155",
+          "source_sku_id": "106840724106",
+          "source_variant_value_id": "5715155",
+          "attributes": {
+            "pa_variant": "beige"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "12",
+              "price": "0.52",
+              "source_sku_id": "106840724106"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.48",
+              "source_sku_id": "106840724106"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.46",
+              "source_sku_id": "106840724106"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.42",
+              "source_sku_id": "106840724106"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc018c8a870af415c9faf901b35d72870a.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Hc018c8a870af415c9faf901b35d72870a.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "wp_id": 4044,
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eYVEl--V-3327837",
+          "source_sku_id": "106840724107",
+          "source_variant_value_id": "3327837",
+          "attributes": {
+            "pa_variant": "black"
+          },
+          "regular_price": "0.52",
+          "price": "0.52",
+          "price_tiers": [
+            {
+              "start_quantity": "12",
+              "price": "0.52",
+              "source_sku_id": "106840724107"
+            },
+            {
+              "start_quantity": "600",
+              "price": "0.48",
+              "source_sku_id": "106840724107"
+            },
+            {
+              "start_quantity": "1200",
+              "price": "0.46",
+              "source_sku_id": "106840724107"
+            },
+            {
+              "start_quantity": "12000",
+              "price": "0.42",
+              "source_sku_id": "106840724107"
+            }
+          ],
+          "image": {
+            "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha2c115cfa6794670ac6cb35124c0e37fR.webp",
+            "source_url": "https://sc04.alicdn.com/kf/Ha2c115cfa6794670ac6cb35124c0e37fR.jpg",
+            "alt": ""
+          }
+        }
+      ]
     }
   ]
 }

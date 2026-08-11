@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-11T14:58:00.903Z",
+  "generatedAt": "2026-08-11T18:07:38.382Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAHITG7BAOVioqqEY6erCyDu",
-      "AAHtTG7BAOVioqqEY6erC0Pw",
-      "AAH_TG7BAOVioqqEY6erC-Lj",
-      "AAEzTG7BAOVioqqEY6eBRvxs",
-      "AAGWTG7BAOVioqqEY6e5QJaD",
-      "AAFYTG7BAOVioqqEY6eeQlcd",
-      "AAHhTG7BAOVioqqEY6eErU7e",
-      "AAHoTG7BAOVioqqEY6eBRTbo",
-      "AAE1TG7BAOVioqqEY6eErA10",
-      "AAERTG7BAOVioqqEY6eBT4E8"
+      "AAGxTG7BAOVioqqEY6exyN7W",
+      "AAERTG7BAOVioqqEY6eebEi7",
+      "AAHOTG7BAOVioqqEY6eAPoIK",
+      "AAEWTG7BAOVioqqEY6eOpJ5C",
+      "AAH4TG7BAOVioqqEY6eYEWvg",
+      "AAGITG7BAOVioqqEY6eYWarp",
+      "AAHlTG7BAOVioqqEY6eE7ZRc",
+      "AAEqTG7BAOVioqqEY6eCTY5J",
+      "AAFOTG7BAOVioqqEY6eYVmJ6",
+      "AAE3TG7BAOVioqqEY6eYVEl-"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 9,
-    "reused": 160,
-    "source_fallback": 1
+    "generated": 8,
+    "reused": 170,
+    "source_fallback": 2
   },
   "products": [
     {
@@ -35063,12 +35063,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "7e08b587f6d5997a74da75f0149ffff08bab6acb7eca65cb73da2f3656fb0481",
+        "sourceHash": "95918ac2eef47f0da3b95a4a89ebff276c8b18a714d60d8671df0bfcf2f476d6",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "7e08b587f6d5997a74da75f0149ffff08bab6acb7eca65cb73da2f3656fb0481",
-            "contentHash": "7e08b587f6d5997a74da75f0149ffff08bab6acb7eca65cb73da2f3656fb0481",
+            "sourceHash": "95918ac2eef47f0da3b95a4a89ebff276c8b18a714d60d8671df0bfcf2f476d6",
+            "contentHash": "95918ac2eef47f0da3b95a4a89ebff276c8b18a714d60d8671df0bfcf2f476d6",
             "attempts": 0,
             "updatedAt": "2026-08-11T14:57:51.764Z",
             "model": "deepseek-v4-flash"
@@ -35271,12 +35271,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "2cfff62caf7999e81f0930fadfa819d7f0e69d1bd64a42b06e0b3e1632294de7",
+        "sourceHash": "fd6a179ff44a395f21c257aa3a079f0b0c9c44483599a88e305cab8d0e0e66c0",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "2cfff62caf7999e81f0930fadfa819d7f0e69d1bd64a42b06e0b3e1632294de7",
-            "contentHash": "2cfff62caf7999e81f0930fadfa819d7f0e69d1bd64a42b06e0b3e1632294de7",
+            "sourceHash": "fd6a179ff44a395f21c257aa3a079f0b0c9c44483599a88e305cab8d0e0e66c0",
+            "contentHash": "fd6a179ff44a395f21c257aa3a079f0b0c9c44483599a88e305cab8d0e0e66c0",
             "attempts": 0,
             "updatedAt": "2026-08-11T14:57:23.514Z",
             "model": "deepseek-v4-flash"
@@ -36504,6 +36504,2135 @@
             "contentHash": "65debd5d1da2ba138af148dc4abb9304da4c8a03475a938c002459bdc01d8b7c",
             "attempts": 0,
             "updatedAt": "2026-08-11T14:57:43.215Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGxTG7BAOVioqqEY6exyN7W",
+      "sourceId": "AAGxTG7BAOVioqqEY6exyN7W",
+      "sourceFingerprint": "bc6620a351d0eb27a081d2ee473277926aea6881f33ea5f8f1a2066460acb22c",
+      "locale": "en",
+      "slug": "square-velvet-jewelry-pouch-with-metal-snap-exyn7w",
+      "title": "Square Velvet Jewelry Pouch with Metal Snap",
+      "eyebrow": "velvet jewelry pouch",
+      "summary": "A square velvet pouch with a secure metal snap closure, offered in nine colors. Sized for small jewelry items like rings, earrings, and rosaries. The soft interior helps protect contents from scratches and dust.",
+      "description": "This square velvet pouch provides a simple, protective storage option for small jewelry pieces. Its metal snap closure keeps contents secure, while the plush velvet exterior adds a touch of elegance. Available in a range of nine colors, it suits various retail displays or personal organization. The compact size makes it easy to slip into a pocket or gift bag. Whether used for a rosary, a pair of earrings, or a pendant, this pouch offers practical storage without extra bulk. For wholesale buyers, it serves as an economical packaging choice for small accessories.",
+      "catholicContext": "This pouch is suitable for storing a rosary, which is a traditional Catholic prayer aid.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "122",
+          "name": "Jewelry Packaging",
+          "slug": "jewelry-packaging"
+        }
+      ],
+      "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H39e93c8e1d954599b23d58073dcc0c0bo.webp",
+      "imageAlt": "Square Velvet Jewelry Pouch with Metal Snap",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H39e93c8e1d954599b23d58073dcc0c0bo.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8584755ca05d494db8b576e3769c4239X.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H761390b9e6b346e7826a2023246603497.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5d990aca41f146b595912d43c22ee5c0b.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3f4d7dd3049a4fcfa06bd9966e057f6cQ.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdbd542959b774fccb6103980968d8845b.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbcda89c3377f417f9584511bee57cc46x.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap - beige",
+          "label": "beige",
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6e27ce29108e4027bcb7cb56f1ebb424Y.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap - army-green",
+          "label": "army-green",
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-146576294"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd0933f4c09e44e22ac7b6fd878cbc626D.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap - gray",
+          "label": "gray",
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-5412614"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2174a09733b941ac99a044c63a2aa9fck.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap - black",
+          "label": "black",
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2898920768724aa79a683a76d22bb240y.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap - blue",
+          "label": "blue",
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-123085"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9d685c160de04089961f9ea6bdaaf0fbZ.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap - green",
+          "label": "green",
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-216016296"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H95bd9867a6ef408488b145a0398a3ef5U.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap - pink",
+          "label": "pink",
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd2d91f5fe7fb42e8a09ed3ce91297fd0K.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap - white",
+          "label": "white",
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hed411093e4684aa38003448830b1c1e2N.webp",
+          "alt": "Square Velvet Jewelry Pouch with Metal Snap - red",
+          "label": "red",
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W-V-3331260"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Square shape with soft velvet exterior",
+        "Metal snap closure for secure fastening",
+        "Available in nine colors: Army Green, Gray, Beige, Black, Red, White, Pink, Blue, Green",
+        "Suitable for small jewelry items like rings, earrings, and rosaries",
+        "Compact size for easy storage or gifting"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Velvet (exterior), metal snap"
+        },
+        {
+          "name": "Closure",
+          "value": "Metal snap"
+        },
+        {
+          "name": "Shape",
+          "value": "Square"
+        },
+        {
+          "name": "Color options",
+          "value": "Army Green, Gray, Beige, Black, Red, White, Pink, Blue, Green"
+        }
+      ],
+      "applications": [
+        "Storing rosaries during travel or daily use",
+        "Organizing small jewelry pieces in retail displays",
+        "Packaging for purchased jewelry in shops",
+        "Gift giving for small accessories"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this pouch made of?",
+          "answer": "The pouch has a velvet exterior and a metal snap closure. The interior is not specified, but the velvet is suitable for protecting delicate items."
+        },
+        {
+          "question": "What are the available color options?",
+          "answer": "The pouch comes in nine colors: Army Green, Gray, Beige, Black, Red, White, Pink, Blue, and Green."
+        },
+        {
+          "question": "Is this pouch suitable for storing a rosary?",
+          "answer": "Yes, the compact size is appropriate for a standard rosary, and the soft velvet helps prevent tangling or scratching."
+        }
+      ],
+      "pricing": {
+        "price": "0.21",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.21",
+          "max": "0.37"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Square Velvet Jewelry Pouch with Metal Snap",
+          "description": "Square velvet jewelry pouch with metal snap closure, available in 9 colors. Ideal for storing rosaries or small jewelry pieces. Compact and gift-ready.",
+          "sku": "ALI-AAGxTG7BAOVioqqEY6exyN7W",
+          "image": [
+            "https://sc04.alicdn.com/kf/H39e93c8e1d954599b23d58073dcc0c0bo.png",
+            "https://sc04.alicdn.com/kf/H8584755ca05d494db8b576e3769c4239X.png",
+            "https://sc04.alicdn.com/kf/H761390b9e6b346e7826a2023246603497.png",
+            "https://sc04.alicdn.com/kf/H5d990aca41f146b595912d43c22ee5c0b.png",
+            "https://sc04.alicdn.com/kf/H3f4d7dd3049a4fcfa06bd9966e057f6cQ.png",
+            "https://sc04.alicdn.com/kf/Hdbd542959b774fccb6103980968d8845b.png"
+          ],
+          "category": "Jewelry Packaging",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Velvet (exterior), metal snap"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Closure",
+              "value": "Metal snap"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Square"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color options",
+              "value": "Army Green, Gray, Beige, Black, Red, White, Pink, Blue, Green"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.21",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.21",
+              "maxPrice": "0.37",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this pouch made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pouch has a velvet exterior and a metal snap closure. The interior is not specified, but the velvet is suitable for protecting delicate items."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the available color options?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pouch comes in nine colors: Army Green, Gray, Beige, Black, Red, White, Pink, Blue, and Green."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this pouch suitable for storing a rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the compact size is appropriate for a standard rosary, and the soft velvet helps prevent tangling or scratching."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "efb8e0d66fd0baf53ec8ca1902c31008c2bfa3894e7fce93e6ff43e267df1a8a",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "efb8e0d66fd0baf53ec8ca1902c31008c2bfa3894e7fce93e6ff43e267df1a8a",
+            "contentHash": "efb8e0d66fd0baf53ec8ca1902c31008c2bfa3894e7fce93e6ff43e267df1a8a",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:06:46.730Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAERTG7BAOVioqqEY6eebEi7",
+      "sourceId": "AAERTG7BAOVioqqEY6eebEi7",
+      "sourceFingerprint": "e51964af86485088c347afc979fccce6441a11bed60568b11d1a33da85e33a35",
+      "locale": "en",
+      "slug": "stainless-steel-tri-color-cross-and-madonna-necklace-eebei7",
+      "title": "Stainless Steel Tri-Color Cross and Madonna Necklace",
+      "eyebrow": "tri-color cross and Madonna pendant necklace",
+      "summary": "This 4mm stainless steel necklace features a tri-color cross and Madonna pendant. Offered in gold, silver, or a two-tone combination, it suits everyday wear or devotional use. Available for wholesale sourcing through us.",
+      "description": "This necklace combines a cross and a Madonna pendant on a 4mm stainless steel chain, with a tri-color finish that adds visual distinction. Choose from all-gold, all-silver, or a gold-and-silver mix to match inventory needs. The stainless steel construction supports durability for regular wearing. We can assist wholesale buyers in sourcing this design in bulk.",
+      "catholicContext": "The Madonna and cross are traditional Marian and Christian symbols, and the Rosary is a form of popular piety in Catholic tradition.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAERTG7BAOVioqqEY6eebEi7",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H00e5a52e4ec3422195471d9636b033cfC.webp",
+      "imageAlt": "Stainless Steel Tri-Color Cross and Madonna Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H00e5a52e4ec3422195471d9636b033cfC.webp",
+          "alt": "Stainless Steel Tri-Color Cross and Madonna Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf4e9ba2a071c4aa7bc176a9c9a8634beu.webp",
+          "alt": "Stainless Steel Tri-Color Cross and Madonna Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H943d5096c9b14f22b2ab99d43f878a0aA.webp",
+          "alt": "Stainless Steel Tri-Color Cross and Madonna Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H59a1b02cf25842e0a3640f8017bae426d.webp",
+          "alt": "Stainless Steel Tri-Color Cross and Madonna Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H46f9589b2aef4480b6e5968d3732750aj.webp",
+          "alt": "Stainless Steel Tri-Color Cross and Madonna Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H758d0d85d76b4c70bce54a9dcc31c2a7K.webp",
+          "alt": "Stainless Steel Tri-Color Cross and Madonna Necklace"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H05b88292f12840fe91579ecb6648f06cf.webp",
+          "alt": "Stainless Steel Tri-Color Cross and Madonna Necklace - gold-and-silver",
+          "label": "gold-and-silver",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eebEi7-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf743de4412294ca8b9e7b2e53a9802a7z.webp",
+          "alt": "Stainless Steel Tri-Color Cross and Madonna Necklace - silver",
+          "label": "silver",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eebEi7-V-3460547"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb882bd84fb93476f92c57731c031a2d2W.webp",
+          "alt": "Stainless Steel Tri-Color Cross and Madonna Necklace - gold",
+          "label": "gold",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eebEi7-V-3331116"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "4mm stainless steel chain",
+        "Cross and Madonna pendant design",
+        "Tri-color finish available",
+        "Color variants: gold, silver, and gold-silver mix",
+        "Fashion accessory suitable for everyday wear"
+      ],
+      "specifications": [
+        {
+          "name": "Chain width",
+          "value": "4mm"
+        },
+        {
+          "name": "Material",
+          "value": "Stainless steel"
+        },
+        {
+          "name": "Available variants",
+          "value": "Gold, Silver, Gold and Silver"
+        },
+        {
+          "name": "Category",
+          "value": "Catholic Rosaries"
+        }
+      ],
+      "applications": [
+        "Religious jewelry retail",
+        "Everyday devotional wear",
+        "Fashion accessory",
+        "Wholesale inventory for gift shops"
+      ],
+      "faq": [
+        {
+          "question": "What color options are available for this necklace?",
+          "answer": "The necklace comes in three variants: gold, silver, and a gold-silver combination."
+        },
+        {
+          "question": "What is the chain width of this necklace?",
+          "answer": "The chain width is 4mm."
+        },
+        {
+          "question": "Is this necklace made of stainless steel?",
+          "answer": "Yes, the necklace is made of stainless steel."
+        }
+      ],
+      "pricing": {
+        "price": "1.28",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.28",
+          "max": "1.78"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Stainless Steel Tri-Color Cross and Madonna Necklace",
+          "description": "4mm stainless steel necklace with tri-color cross and Madonna pendant. Available in gold, silver, or gold-silver mix. Find wholesale options for religious jewelry.",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eebEi7",
+          "image": [
+            "https://sc04.alicdn.com/kf/H00e5a52e4ec3422195471d9636b033cfC.jpg",
+            "https://sc04.alicdn.com/kf/Hf4e9ba2a071c4aa7bc176a9c9a8634beu.jpg",
+            "https://sc04.alicdn.com/kf/H943d5096c9b14f22b2ab99d43f878a0aA.jpg",
+            "https://sc04.alicdn.com/kf/H59a1b02cf25842e0a3640f8017bae426d.jpg",
+            "https://sc04.alicdn.com/kf/H46f9589b2aef4480b6e5968d3732750aj.jpg",
+            "https://sc04.alicdn.com/kf/H758d0d85d76b4c70bce54a9dcc31c2a7K.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Chain width",
+              "value": "4mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Stainless steel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Available variants",
+              "value": "Gold, Silver, Gold and Silver"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Catholic Rosaries"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.28",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.28",
+              "maxPrice": "1.78",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What color options are available for this necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace comes in three variants: gold, silver, and a gold-silver combination."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the chain width of this necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The chain width is 4mm."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this necklace made of stainless steel?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the necklace is made of stainless steel."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b2e163acc616f41a0112975fdc4912070def4abee0d3fd0bbd8fd8e9f9a57d7b",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b2e163acc616f41a0112975fdc4912070def4abee0d3fd0bbd8fd8e9f9a57d7b",
+            "contentHash": "b2e163acc616f41a0112975fdc4912070def4abee0d3fd0bbd8fd8e9f9a57d7b",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:06:45.334Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHOTG7BAOVioqqEY6eAPoIK",
+      "sourceId": "AAHOTG7BAOVioqqEY6eAPoIK",
+      "sourceFingerprint": "a9042a8da217220d1f7d4aacb0584105b6f2bb928fee953275c99fc963af7c73",
+      "locale": "en",
+      "slug": "catholic-wooden-rosary-necklace-with-mary-pendant-eapoik",
+      "title": "Catholic Wooden Rosary Necklace with Mary Pendant",
+      "eyebrow": "Marian rosary necklace with zinc alloy pendant",
+      "summary": "This Catholic rosary necklace combines a wooden bead chain with a zinc alloy Virgin Mary pendant and charm. Offered in coffee and light brown finishes, it suits personal devotion or wholesale distribution. We can discuss bulk ordering options on request.",
+      "description": "Choosing a rosary often comes down to material, size, and portability. This version pairs wooden beads with a zinc alloy Marian pendant, giving it a natural look that still reads as a deliberate devotional piece. The two-tone effect comes from the wood's grain against the metal centerpiece.\n\nThe necklace is available in coffee and light brown variants, so you can match it to retail preferences or regional tastes. Because it is designed as a necklace, it is easy to wear or carry, which can be a practical advantage for everyday use. For wholesale buyers, the simple construction and unisex styling broaden its appeal across demographics.\n\nWe source this as part of our Catholic rosary range. If you are evaluating it for a store or ministry, we can answer questions about packaging, quantities, or sample availability.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHOTG7BAOVioqqEY6eAPoIK",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc972711b60dd43ada9faca0881ea7b09o.webp",
+      "imageAlt": "Catholic Wooden Rosary Necklace with Mary Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc972711b60dd43ada9faca0881ea7b09o.webp",
+          "alt": "Catholic Wooden Rosary Necklace with Mary Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2876fe8a6308485ab7e98c4c232bf7f4L.webp",
+          "alt": "Catholic Wooden Rosary Necklace with Mary Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha6ac9e4f19a246cea9f71c7d5491dbb8B.webp",
+          "alt": "Catholic Wooden Rosary Necklace with Mary Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a532b4f7cc94366ad9eb1436bfc3068I.webp",
+          "alt": "Catholic Wooden Rosary Necklace with Mary Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbe3edb8c39804c3a9719caf4ec6425c36.webp",
+          "alt": "Catholic Wooden Rosary Necklace with Mary Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3ef4c93e299f429b9c68095e15313d41f.webp",
+          "alt": "Catholic Wooden Rosary Necklace with Mary Pendant"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfbddf41bae8145cbbd3806b019bc8bdcp.webp",
+          "alt": "Catholic Wooden Rosary Necklace with Mary Pendant - light-brown",
+          "label": "light-brown",
+          "sku": "ALI-AAHOTG7BAOVioqqEY6eAPoIK-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H549d26f36b9245a08c41c9ea7fda92b6d.webp",
+          "alt": "Catholic Wooden Rosary Necklace with Mary Pendant - coffee-color",
+          "label": "coffee-color",
+          "sku": "ALI-AAHOTG7BAOVioqqEY6eAPoIK-V--1"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Wooden bead construction with zinc alloy pendant",
+        "Marian pendant design featuring the Virgin Mary",
+        "Available in coffee and light brown color variants",
+        "Designed as a necklace for easy wear or carry",
+        "Categorized as a Catholic rosary item"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Wood and zinc alloy"
+        },
+        {
+          "name": "Design",
+          "value": "Marian pendant with charm"
+        },
+        {
+          "name": "Color variants",
+          "value": "Coffee, light brown"
+        },
+        {
+          "name": "Product type",
+          "value": "Necklace-style rosary"
+        }
+      ],
+      "applications": [
+        "Personal devotional use",
+        "Retail stocking for Catholic gift shops",
+        "Bulk distribution for church groups",
+        "Everyday carry as a reminder of faith"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this rosary necklace?",
+          "answer": "The rosary features wooden beads and a zinc alloy pendant, combining a natural bead texture with a metal centerpiece."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "The rosary comes in two variants: coffee and light brown, offering a choice between deeper and lighter wood tones."
+        },
+        {
+          "question": "Is this item suitable for wholesale orders?",
+          "answer": "Yes, this is listed as a wholesale product. Contact us for details on bulk quantities, packaging, and shipping arrangements."
+        }
+      ],
+      "pricing": {
+        "price": "0.60",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.48",
+          "max": "0.60"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Catholic Wooden Rosary Necklace with Mary Pendant",
+          "description": "Catholic wooden rosary necklace featuring a Marian pendant and charm, available in coffee and light brown. Ideal for devotional use and wholesale sourcing.",
+          "sku": "ALI-AAHOTG7BAOVioqqEY6eAPoIK",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc972711b60dd43ada9faca0881ea7b09o.jpg",
+            "https://sc04.alicdn.com/kf/H2876fe8a6308485ab7e98c4c232bf7f4L.jpg",
+            "https://sc04.alicdn.com/kf/Ha6ac9e4f19a246cea9f71c7d5491dbb8B.jpg",
+            "https://sc04.alicdn.com/kf/H8a532b4f7cc94366ad9eb1436bfc3068I.jpg",
+            "https://sc04.alicdn.com/kf/Hbe3edb8c39804c3a9719caf4ec6425c36.jpg",
+            "https://sc04.alicdn.com/kf/H3ef4c93e299f429b9c68095e15313d41f.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Wood and zinc alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Marian pendant with charm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Coffee, light brown"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Product type",
+              "value": "Necklace-style rosary"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.60",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.48",
+              "maxPrice": "0.60",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this rosary necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary features wooden beads and a zinc alloy pendant, combining a natural bead texture with a metal centerpiece."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary comes in two variants: coffee and light brown, offering a choice between deeper and lighter wood tones."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this item suitable for wholesale orders?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, this is listed as a wholesale product. Contact us for details on bulk quantities, packaging, and shipping arrangements."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "8491a60a27e8c60a9ef0b114bda5e09c8fd2032385cb19b0cb14b0d9b68f2f91",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "8491a60a27e8c60a9ef0b114bda5e09c8fd2032385cb19b0cb14b0d9b68f2f91",
+            "contentHash": "8491a60a27e8c60a9ef0b114bda5e09c8fd2032385cb19b0cb14b0d9b68f2f91",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:07:17.503Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEWTG7BAOVioqqEY6eOpJ5C",
+      "sourceId": "AAEWTG7BAOVioqqEY6eOpJ5C",
+      "sourceFingerprint": "44977b662b389fdd6911ee994ebbf64a52942bff18653d31f4c3162d2d39ac60",
+      "locale": "en",
+      "slug": "wooden-rosary-with-crucifix-in-multiple-finishes-eopj5c",
+      "title": "Wooden Rosary with Crucifix in Multiple Finishes",
+      "eyebrow": "wooden rosary with crucifix",
+      "summary": "A wooden rosary featuring a crucifix, offered in seven color variants from deep brown to beige and black. The natural wood finish gives each bead a distinct texture, suitable for personal prayer or religious goods retail.",
+      "description": "This wooden rosary pairs a classic crucifix with round wood beads, available in seven color options: Brown1, Brown2, Brown3, Brown4, Brown, Beige, and Black. The natural material provides a warm, tactile feel during use.\n\nEach variant shares the same construction, so the choice is purely aesthetic. Whether you prefer the darker browns or a lighter beige, the wooden beads offer a simple, durable design.\n\nAs a devotional article, it supports the traditional Rosary prayer, which focuses on the mysteries of Christ and the Virgin Mary.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hbbecc02bf804488681cb072b6bece611X.webp",
+      "imageAlt": "Wooden Rosary with Crucifix in Multiple Finishes",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbbecc02bf804488681cb072b6bece611X.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a7a3a524a8f4e3fbb36490ab534ade0A.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6716bc175b404db9ad37e1dad4f5b057Y.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H94c9901dc4f345318c771391c0081b59a.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H059c4d21ce6246fabb7981948f7cb6a0J.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf8a63cb4cfd54c8ea23fe227670b12dba.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Had14f22e831b49489b8a8d855f9f7703T.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes - brown4",
+          "label": "brown4",
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha134b02592164b67b00dfd6cd3d7f1b6O.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes - brown2",
+          "label": "brown2",
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Had9f892431ad49c4a068aeca3f4633d83.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes - brown3",
+          "label": "brown3",
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7db5c27df6554935bc0cb30627462985U.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes - beige",
+          "label": "beige",
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0e7db9d20fd640219c7ffb66cc0a88b2W.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes - brown1",
+          "label": "brown1",
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb78bf5cb42b34a849118c826bd0d8a90g.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes - brown",
+          "label": "brown",
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf81f5563b2624b789d3d7b94a684552fj.webp",
+          "alt": "Wooden Rosary with Crucifix in Multiple Finishes - black",
+          "label": "black",
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C-V-3327837"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Material: wood",
+        "Includes a crucifix",
+        "Seven color variants: Brown1, Brown2, Brown3, Brown4, Brown, Beige, Black",
+        "Category: Catholic Rosaries"
+      ],
+      "specifications": [
+        {
+          "name": "Primary material",
+          "value": "Wood"
+        },
+        {
+          "name": "Color variants",
+          "value": "Brown1, Brown2, Brown3, Brown4, Brown, Beige, Black"
+        },
+        {
+          "name": "Included elements",
+          "value": "Crucifix"
+        }
+      ],
+      "applications": [
+        "Personal Rosary prayer",
+        "Religious goods retail",
+        "Gift for Catholic faithful",
+        "Display in church gift shops"
+      ],
+      "faq": [
+        {
+          "question": "What color options are available for this wooden rosary?",
+          "answer": "The rosary comes in seven color variants: Brown1, Brown2, Brown3, Brown4, Brown, Beige, and Black."
+        },
+        {
+          "question": "Is the crucifix included on this rosary?",
+          "answer": "Yes, the product title and category indicate that a crucifix is included."
+        },
+        {
+          "question": "What material is the rosary made from?",
+          "answer": "The rosary is made from wood, as stated in the product title."
+        }
+      ],
+      "pricing": {
+        "price": "0.52",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.43",
+          "max": "0.52"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wooden Rosary with Crucifix in Multiple Finishes",
+          "description": "Wooden rosary beads with crucifix, available in Brown1, Brown2, Brown3, Brown4, Brown, Beige, and Black finishes. A tactile devotional aid for prayer.",
+          "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hbbecc02bf804488681cb072b6bece611X.jpg",
+            "https://sc04.alicdn.com/kf/H8a7a3a524a8f4e3fbb36490ab534ade0A.jpg",
+            "https://sc04.alicdn.com/kf/H6716bc175b404db9ad37e1dad4f5b057Y.jpg",
+            "https://sc04.alicdn.com/kf/H94c9901dc4f345318c771391c0081b59a.jpg",
+            "https://sc04.alicdn.com/kf/H059c4d21ce6246fabb7981948f7cb6a0J.jpg",
+            "https://sc04.alicdn.com/kf/Hf8a63cb4cfd54c8ea23fe227670b12dba.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Primary material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Brown1, Brown2, Brown3, Brown4, Brown, Beige, Black"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Included elements",
+              "value": "Crucifix"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.52",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.43",
+              "maxPrice": "0.52",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What color options are available for this wooden rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary comes in seven color variants: Brown1, Brown2, Brown3, Brown4, Brown, Beige, and Black."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the crucifix included on this rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product title and category indicate that a crucifix is included."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material is the rosary made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary is made from wood, as stated in the product title."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "1f0c2bffdc6842e4c04251ee495342588b954034cd6455d7182a625d9a3d4ba7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "1f0c2bffdc6842e4c04251ee495342588b954034cd6455d7182a625d9a3d4ba7",
+            "contentHash": "1f0c2bffdc6842e4c04251ee495342588b954034cd6455d7182a625d9a3d4ba7",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:06:53.639Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH4TG7BAOVioqqEY6eYEWvg",
+      "sourceId": "AAH4TG7BAOVioqqEY6eYEWvg",
+      "sourceFingerprint": "9d049721938677ee091606ac7259a50f762c495ea11305d75d1bbe7c54dd61da",
+      "locale": "en",
+      "slug": "plastic-rosary-necklace-for-kids-with-cross-charm-eyewvg",
+      "title": "Plastic Rosary Necklace for Kids with Cross Charm",
+      "eyebrow": "plastic rosary necklace",
+      "summary": "A 10mm plastic bead rosary necklace featuring a zinc alloy cross charm. Designed for children, this lightweight and colorful beaded necklace offers a practical option for Catholic prayer and faith-based accessories.",
+      "description": "This rosary necklace is made with 10mm plastic beads and a zinc alloy cross charm, giving it a light, colorful look suited for younger wearers. The beaded chain and aperture setting suggest a simple construction intended for everyday handling rather than formal display. For wholesale buyers, the plastic and zinc alloy materials keep costs low while offering a bright, child-friendly aesthetic.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAH4TG7BAOVioqqEY6eYEWvg",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc8943bf7687b41a18caf58fcc7aea6f9Y.webp",
+      "imageAlt": "Plastic Rosary Necklace for Kids with Cross Charm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc8943bf7687b41a18caf58fcc7aea6f9Y.webp",
+          "alt": "Plastic Rosary Necklace for Kids with Cross Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He423324072bc4df0ba3f7ee25a927929l.webp",
+          "alt": "Plastic Rosary Necklace for Kids with Cross Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4335694c4ca436abec3b9dcdd941977G.webp",
+          "alt": "Plastic Rosary Necklace for Kids with Cross Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hed2a33a39e5f43b9a15d53f445f6450ce.webp",
+          "alt": "Plastic Rosary Necklace for Kids with Cross Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hff1131e8a94347dd9fe7731ec4ab677dh.webp",
+          "alt": "Plastic Rosary Necklace for Kids with Cross Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ee880c727654cf285d8f254079af6ec6.webp",
+          "alt": "Plastic Rosary Necklace for Kids with Cross Charm"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "10mm plastic beads",
+        "Zinc alloy cross charm",
+        "Beaded chain necklace",
+        "Aperture setting for charm",
+        "Colorful design suitable for children",
+        "Religious style with Catholic theme"
+      ],
+      "specifications": [
+        {
+          "name": "Main Material",
+          "value": "Plastic"
+        },
+        {
+          "name": "Charm Material",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Bead Size",
+          "value": "10mm"
+        },
+        {
+          "name": "Gender",
+          "value": "Children's"
+        },
+        {
+          "name": "Necklace Type",
+          "value": "Beaded Necklaces"
+        },
+        {
+          "name": "Shape/Pattern",
+          "value": "Cross"
+        }
+      ],
+      "applications": [
+        "Children's communion or First Communion gifts",
+        "Catholic religious education classrooms",
+        "Everyday devotional prayer at home",
+        "Colorful accessories for church events"
+      ],
+      "faq": [
+        {
+          "question": "What is the bead size and material?",
+          "answer": "The beads are 10mm in diameter and made of plastic, making the necklace lightweight for children."
+        },
+        {
+          "question": "What metal is used for the cross charm?",
+          "answer": "The cross charm is made of zinc alloy, a durable and affordable metal commonly used in costume jewelry."
+        },
+        {
+          "question": "Is this rosary necklace suitable for a child?",
+          "answer": "Yes, the product is categorized for children, with smaller proportions and colorful plastic beads designed for younger users."
+        }
+      ],
+      "pricing": {
+        "price": "0.60",
+        "regularPrice": "0.60",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.60"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Plastic Rosary Necklace for Kids with Cross Charm",
+          "description": "A 10mm plastic bead rosary necklace with zinc alloy cross charm, designed for children. Lightweight and colorful for Catholic prayer.",
+          "sku": "ALI-AAH4TG7BAOVioqqEY6eYEWvg",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc8943bf7687b41a18caf58fcc7aea6f9Y.jpg",
+            "https://sc04.alicdn.com/kf/He423324072bc4df0ba3f7ee25a927929l.jpg",
+            "https://sc04.alicdn.com/kf/He4335694c4ca436abec3b9dcdd941977G.jpg",
+            "https://sc04.alicdn.com/kf/Hed2a33a39e5f43b9a15d53f445f6450ce.jpg",
+            "https://sc04.alicdn.com/kf/Hff1131e8a94347dd9fe7731ec4ab677dh.jpg",
+            "https://sc04.alicdn.com/kf/H4ee880c727654cf285d8f254079af6ec6.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Plastic"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Charm Material",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bead Size",
+              "value": "10mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Children's"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Necklace Type",
+              "value": "Beaded Necklaces"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape/Pattern",
+              "value": "Cross"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.60",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.60",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the bead size and material?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are 10mm in diameter and made of plastic, making the necklace lightweight for children."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What metal is used for the cross charm?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cross charm is made of zinc alloy, a durable and affordable metal commonly used in costume jewelry."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary necklace suitable for a child?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product is categorized for children, with smaller proportions and colorful plastic beads designed for younger users."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "328f90d4b2f8effc4877f8bcdba676ce6a94cacb4b76041a123d3eb40fcfb0cf",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "328f90d4b2f8effc4877f8bcdba676ce6a94cacb4b76041a123d3eb40fcfb0cf",
+            "contentHash": "328f90d4b2f8effc4877f8bcdba676ce6a94cacb4b76041a123d3eb40fcfb0cf",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:06:59.686Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGITG7BAOVioqqEY6eYWarp",
+      "sourceId": "AAGITG7BAOVioqqEY6eYWarp",
+      "sourceFingerprint": "7a00341c6afdc936cfb3fa150021cde0c4925650a8dac318c2ceb9177567ca71",
+      "locale": "en",
+      "slug": "children-s-rosary-necklace-for-first-communion-red-blue-eywarp",
+      "title": "Children's Rosary Necklace for First Communion (Red/Blue)",
+      "eyebrow": "Children's Rosary Necklace",
+      "summary": "A child-sized rosary necklace in red or blue, made for everyday prayer and special sacraments. Lightweight and easy for small hands, it's a thoughtful gift for First Communion or Baptism.",
+      "description": "Looking for a rosary that fits a child? This children's rosary necklace is sized for young users, making it easier to hold and pray. It comes in red or blue, so you can choose a color that suits the child or the occasion. The necklace design lets kids wear it comfortably, and it doubles as a reminder of their faith. Common uses include First Communion, Baptism, and regular family prayer. Because it's made for children, it's more durable than delicate adult rosaries, though it still requires gentle handling. If you have questions about sizing or care, contact us—we're happy to help.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAGITG7BAOVioqqEY6eYWarp",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H2e9ff4ada7744caf805987d3ce60a36cO.webp",
+      "imageAlt": "Children's Rosary Necklace for First Communion (Red/Blue)",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2e9ff4ada7744caf805987d3ce60a36cO.webp",
+          "alt": "Children's Rosary Necklace for First Communion (Red/Blue)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0fcd7e9a6f8144a48c4837294c1fa5a0H.webp",
+          "alt": "Children's Rosary Necklace for First Communion (Red/Blue)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8ad0e6f6b3664c3f8e40abeb3af4ced9D.webp",
+          "alt": "Children's Rosary Necklace for First Communion (Red/Blue)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H12e15327b9124561b57e060b4aea5f26p.webp",
+          "alt": "Children's Rosary Necklace for First Communion (Red/Blue)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H427f3bf7986d4c6989e079dc4b571f0b0.webp",
+          "alt": "Children's Rosary Necklace for First Communion (Red/Blue)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H616ce797ecf449b3bc9c103dfed8ef66Z.webp",
+          "alt": "Children's Rosary Necklace for First Communion (Red/Blue)"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3aa908e2e1e7401a99d629e3e201c260x.webp",
+          "alt": "Children's Rosary Necklace for First Communion (Red/Blue) - red",
+          "label": "red",
+          "sku": "ALI-AAGITG7BAOVioqqEY6eYWarp-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7d899adee8794367939933744d525c5eY.webp",
+          "alt": "Children's Rosary Necklace for First Communion (Red/Blue) - blue",
+          "label": "blue",
+          "sku": "ALI-AAGITG7BAOVioqqEY6eYWarp-V-123085"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Child-sized design for easier handling",
+        "Available in red or blue",
+        "Necklace style for wearing",
+        "Suitable for prayer and sacramental occasions"
+      ],
+      "specifications": [
+        {
+          "name": "Color",
+          "value": "Red / Blue"
+        },
+        {
+          "name": "Style",
+          "value": "Necklace"
+        },
+        {
+          "name": "Target audience",
+          "value": "Children"
+        }
+      ],
+      "applications": [
+        "First Communion gift",
+        "Baptism gift",
+        "Daily prayer for children",
+        "Religious education classes"
+      ],
+      "faq": [
+        {
+          "question": "What colors are available for this children's rosary?",
+          "answer": "This rosary necklace comes in red and blue."
+        },
+        {
+          "question": "Is this rosary suitable for a First Communion gift?",
+          "answer": "Yes, it is commonly given as a First Communion gift, as it is sized for children and comes in celebratory colors."
+        },
+        {
+          "question": "Is this rosary worn as a necklace?",
+          "answer": "Yes, it is designed as a necklace so children can wear it comfortably."
+        }
+      ],
+      "pricing": {
+        "price": "0.55",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.55"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Children's Rosary Necklace for First Communion (Red/Blue)",
+          "description": "A child-sized rosary necklace in red or blue, designed for prayer, First Communion, and Baptism gifts. Lightweight and easy for young hands to hold.",
+          "sku": "ALI-AAGITG7BAOVioqqEY6eYWarp",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2e9ff4ada7744caf805987d3ce60a36cO.jpg",
+            "https://sc04.alicdn.com/kf/H0fcd7e9a6f8144a48c4837294c1fa5a0H.jpg",
+            "https://sc04.alicdn.com/kf/H8ad0e6f6b3664c3f8e40abeb3af4ced9D.jpg",
+            "https://sc04.alicdn.com/kf/H12e15327b9124561b57e060b4aea5f26p.jpg",
+            "https://sc04.alicdn.com/kf/H427f3bf7986d4c6989e079dc4b571f0b0.jpg",
+            "https://sc04.alicdn.com/kf/H616ce797ecf449b3bc9c103dfed8ef66Z.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Color",
+              "value": "Red / Blue"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Necklace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Target audience",
+              "value": "Children"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.55",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.55",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What colors are available for this children's rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This rosary necklace comes in red and blue."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary suitable for a First Communion gift?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is commonly given as a First Communion gift, as it is sized for children and comes in celebratory colors."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary worn as a necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed as a necklace so children can wear it comfortably."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "12a87472eb1cd0c80cb6466f0cfa7c39f770e805881a22db1c1b4be209abb8e8",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "12a87472eb1cd0c80cb6466f0cfa7c39f770e805881a22db1c1b4be209abb8e8",
+            "contentHash": "12a87472eb1cd0c80cb6466f0cfa7c39f770e805881a22db1c1b4be209abb8e8",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:07:00.063Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHlTG7BAOVioqqEY6eE7ZRc",
+      "sourceId": "AAHlTG7BAOVioqqEY6eE7ZRc",
+      "sourceFingerprint": "8da5ea8aa1ad5ae135c952bcf24b410b257b5c7e33145858a1cff06306d77f0c",
+      "locale": "en",
+      "slug": "catholic-scapulars-worship-embroidery-liturgical-stole-religious-ee7zrc",
+      "title": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious",
+      "eyebrow": "Catholic Scapulars",
+      "summary": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious Amulet Carmelite Gifts Hand - Made Pendants Jewelry",
+      "description": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious Amulet Carmelite Gifts Hand - Made Pendants Jewelry",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "39",
+          "name": "Catholic Scapulars",
+          "slug": "catholic-scapulars"
+        }
+      ],
+      "sku": "ALI-AAHlTG7BAOVioqqEY6eE7ZRc",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H898cdda524e941b088f2f858faa01f41l.webp",
+      "imageAlt": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H898cdda524e941b088f2f858faa01f41l.webp",
+          "alt": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2a6dd315bb6645e2ab23d5776a0ed26dL.webp",
+          "alt": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1f4da6b4ff79421b8466903355a231334.webp",
+          "alt": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H14305609ab8d49f7899025281f39abcc3.webp",
+          "alt": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8fc85b9323764075bd3123c7554769eea.webp",
+          "alt": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#9a6b63",
+      "features": [
+        "Jewelry Main Material: cloth",
+        "Pendants or Charms Type: Themed Pendants",
+        "Gender: Women's, Children's, Men's, Unisex",
+        "Main Stone: None",
+        "Jewelry Type: Pendants or Charms",
+        "Occasion: Engagement, Gift, Wedding, Anniversary, Party",
+        "Plating: Other",
+        "Shape\\pattern: Geometric"
+      ],
+      "specifications": [
+        {
+          "name": "Jewelry Main Material",
+          "value": "cloth"
+        },
+        {
+          "name": "Pendants or Charms Type",
+          "value": "Themed Pendants"
+        },
+        {
+          "name": "Gender",
+          "value": "Women's, Children's, Men's, Unisex"
+        },
+        {
+          "name": "Main Stone",
+          "value": "None"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Pendants or Charms"
+        },
+        {
+          "name": "Occasion",
+          "value": "Engagement, Gift, Wedding, Anniversary, Party"
+        },
+        {
+          "name": "Plating",
+          "value": "Other"
+        },
+        {
+          "name": "Shape\\pattern",
+          "value": "Geometric"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Religious Type",
+          "value": "Catholicism"
+        },
+        {
+          "name": "Place of Origin",
+          "value": "CN;ZHE"
+        },
+        {
+          "name": "Brand Name",
+          "value": "OUOOO"
+        },
+        {
+          "name": "Material Type",
+          "value": "Other"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.45",
+        "regularPrice": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.33",
+          "max": "0.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious",
+          "description": "Catholic Scapulars Worship Embroidery Liturgical Stole Religious Amulet Carmelite Gifts Hand - Made Pendants Jewelry",
+          "sku": "ALI-AAHlTG7BAOVioqqEY6eE7ZRc",
+          "image": [
+            "https://sc04.alicdn.com/kf/H898cdda524e941b088f2f858faa01f41l.jpg",
+            "https://sc04.alicdn.com/kf/H2a6dd315bb6645e2ab23d5776a0ed26dL.jpg",
+            "https://sc04.alicdn.com/kf/H1f4da6b4ff79421b8466903355a231334.jpg",
+            "https://sc04.alicdn.com/kf/H14305609ab8d49f7899025281f39abcc3.jpg",
+            "https://sc04.alicdn.com/kf/H8fc85b9323764075bd3123c7554769eea.jpg"
+          ],
+          "category": "Catholic Scapulars",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Main Material",
+              "value": "cloth"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendants or Charms Type",
+              "value": "Themed Pendants"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Women's, Children's, Men's, Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "None"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Pendants or Charms"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Occasion",
+              "value": "Engagement, Gift, Wedding, Anniversary, Party"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Other"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape\\pattern",
+              "value": "Geometric"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Religious Type",
+              "value": "Catholicism"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Place of Origin",
+              "value": "CN;ZHE"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Brand Name",
+              "value": "OUOOO"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material Type",
+              "value": "Other"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.33",
+              "maxPrice": "0.45",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "646bfe8f90512f77a35a303115c21e865afd7c8ad5f9c3e516a64ce11b061066",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "646bfe8f90512f77a35a303115c21e865afd7c8ad5f9c3e516a64ce11b061066",
+            "contentHash": "646bfe8f90512f77a35a303115c21e865afd7c8ad5f9c3e516a64ce11b061066",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:07:32.299Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEqTG7BAOVioqqEY6eCTY5J",
+      "sourceId": "AAEqTG7BAOVioqqEY6eCTY5J",
+      "sourceFingerprint": "61395948b33943d0ce2bfc8202e71b6a96b017824c70ca52ec5c7e724800bff8",
+      "locale": "en",
+      "slug": "10mm-pine-bead-rosary-with-gothic-crucifix-ecty5j",
+      "title": "10mm Pine Bead Rosary with Gothic Crucifix",
+      "eyebrow": "Catholic rosary with crucifix",
+      "summary": "This rosary features 10mm pine wood beads and a gothic-style crucifix, available in brown or beige. Deeply carved details and a sturdy cord make it a practical choice for daily prayer.",
+      "description": "With its dark brown or beige pine beads and gothic-style crucifix, this rosary makes a strong visual statement. The 10mm beads are sized for a comfortable grip during prayer, while the detailed corpus and cross design give it a traditional, solemn character. Each strand is strung on a durable cord, built to withstand regular handling.\n\nThe gothic style is particularly suited for those who appreciate medieval aesthetics or prefer a more dramatic devotional object. As a Catholic rosary, it supports the traditional sequence of prayers, but it also serves as a thoughtful gift for confirmations, first communions, or other religious occasions.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAEqTG7BAOVioqqEY6eCTY5J",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H11d4f16987b0443b9bf7d0fbde523114b.webp",
+      "imageAlt": "10mm Pine Bead Rosary with Gothic Crucifix",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H11d4f16987b0443b9bf7d0fbde523114b.webp",
+          "alt": "10mm Pine Bead Rosary with Gothic Crucifix"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H18bbd82307d041d78ddb2a335ee7b349E.webp",
+          "alt": "10mm Pine Bead Rosary with Gothic Crucifix"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5cdc702f642441ec91abf2b94db9aed4u.webp",
+          "alt": "10mm Pine Bead Rosary with Gothic Crucifix"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He490e656f3b14f288e6aac588e98cf5al.webp",
+          "alt": "10mm Pine Bead Rosary with Gothic Crucifix"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5881b3d1cc1b4e7db65591519cd17066B.webp",
+          "alt": "10mm Pine Bead Rosary with Gothic Crucifix"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5384bd01d8dc438a977d356ba6cbe494d.webp",
+          "alt": "10mm Pine Bead Rosary with Gothic Crucifix"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H67cae66c3cd3444aaae86d7b68ff6e9bX.webp",
+          "alt": "10mm Pine Bead Rosary with Gothic Crucifix - brown",
+          "label": "brown",
+          "sku": "ALI-AAEqTG7BAOVioqqEY6eCTY5J-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9877ddce92dc461db42641bbc02e6657b.webp",
+          "alt": "10mm Pine Bead Rosary with Gothic Crucifix - beige",
+          "label": "beige",
+          "sku": "ALI-AAEqTG7BAOVioqqEY6eCTY5J-V-5715155"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "10mm pine wood beads",
+        "Gothic-style crucifix with corpus",
+        "Available in brown and beige variants",
+        "Sturdy cord construction"
+      ],
+      "specifications": [
+        {
+          "name": "Bead size",
+          "value": "10mm"
+        },
+        {
+          "name": "Material",
+          "value": "Pine wood beads"
+        },
+        {
+          "name": "Variant",
+          "value": "Brown / Beige"
+        },
+        {
+          "name": "Includes",
+          "value": "Gothic-style crucifix"
+        }
+      ],
+      "applications": [
+        "Personal daily rosary prayer",
+        "Gift for Catholic sacraments",
+        "Devotional use in home",
+        "Religious education settings"
+      ],
+      "faq": [
+        {
+          "question": "What material are the beads made of?",
+          "answer": "The beads are made of pine wood, with a diameter of 10mm each."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "This rosary comes in brown and beige variants."
+        },
+        {
+          "question": "Does it include a crucifix?",
+          "answer": "Yes, it includes a gothic-style crucifix with a corpus."
+        }
+      ],
+      "pricing": {
+        "price": "0.47",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.47"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "10mm Pine Bead Rosary with Gothic Crucifix",
+          "description": "10mm pine wood bead rosary with gothic crucifix, available in brown and beige. A durable devotional for personal prayer.",
+          "sku": "ALI-AAEqTG7BAOVioqqEY6eCTY5J",
+          "image": [
+            "https://sc04.alicdn.com/kf/H11d4f16987b0443b9bf7d0fbde523114b.jpg",
+            "https://sc04.alicdn.com/kf/H18bbd82307d041d78ddb2a335ee7b349E.jpg",
+            "https://sc04.alicdn.com/kf/H5cdc702f642441ec91abf2b94db9aed4u.jpg",
+            "https://sc04.alicdn.com/kf/He490e656f3b14f288e6aac588e98cf5al.jpg",
+            "https://sc04.alicdn.com/kf/H5881b3d1cc1b4e7db65591519cd17066B.jpg",
+            "https://sc04.alicdn.com/kf/H5384bd01d8dc438a977d356ba6cbe494d.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Bead size",
+              "value": "10mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Pine wood beads"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Brown / Beige"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Includes",
+              "value": "Gothic-style crucifix"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.47",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.47",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material are the beads made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are made of pine wood, with a diameter of 10mm each."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This rosary comes in brown and beige variants."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does it include a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it includes a gothic-style crucifix with a corpus."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "3d81857de8816673396f06f75f39afa88285def62e794b440d2567cdd7553d3d",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "3d81857de8816673396f06f75f39afa88285def62e794b440d2567cdd7553d3d",
+            "contentHash": "3d81857de8816673396f06f75f39afa88285def62e794b440d2567cdd7553d3d",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:07:05.631Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFOTG7BAOVioqqEY6eYVmJ6",
+      "sourceId": "AAFOTG7BAOVioqqEY6eYVmJ6",
+      "sourceFingerprint": "683abf519a2e83e8eacd9794bfa5d363fc533f576b4cc4eb9d91df049f817532",
+      "locale": "en",
+      "slug": "handmade-wooden-rosary-with-marian-crucifix-pendant-eyvmj6",
+      "title": "Handmade Wooden Rosary with Marian Crucifix Pendant",
+      "eyebrow": "Catholic rosary with wooden beads and Marian crucifix pendant",
+      "summary": "This handmade wooden rosary features decade beads and a Marian crucifix pendant. Offered in Coffee, Beige, and Black color variants. A practical choice for personal prayer or as a devotional gift.",
+      "description": "This rosary brings together simple wooden beads and a Marian crucifix pendant, making it easy to identify as a Catholic prayer aid. The decade layout follows the traditional Rosary structure, while the pendant adds a visual focal point. We offer this rosary in three color variants—Coffee, Beige, and Black—so you can select the finish that suits your inventory or customer preference. Because it is handmade, each piece may show slight variations in grain and tone, which is typical for wood bead products. The compact size and lightweight build make it convenient for travel or everyday carry.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAFOTG7BAOVioqqEY6eYVmJ6",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H17fcd781ccb44812b0a6501bb3c4e91bs.webp",
+      "imageAlt": "Handmade Wooden Rosary with Marian Crucifix Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H17fcd781ccb44812b0a6501bb3c4e91bs.webp",
+          "alt": "Handmade Wooden Rosary with Marian Crucifix Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf6f5a551d3e24680a82ba28be4a1caa0a.webp",
+          "alt": "Handmade Wooden Rosary with Marian Crucifix Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H87ddb40c1fc34b31bbafb539e68943f2W.webp",
+          "alt": "Handmade Wooden Rosary with Marian Crucifix Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8c8c6a7a47cf4464a741db14f885cbe7g.webp",
+          "alt": "Handmade Wooden Rosary with Marian Crucifix Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5ed05913847489eb33aa76505d4dbe3X.webp",
+          "alt": "Handmade Wooden Rosary with Marian Crucifix Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbee532dbadfa45d9b1b62a7c7834d7d5H.webp",
+          "alt": "Handmade Wooden Rosary with Marian Crucifix Pendant"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H82d89e987f424118a4a8231c3f873ea3F.webp",
+          "alt": "Handmade Wooden Rosary with Marian Crucifix Pendant - black",
+          "label": "black",
+          "sku": "ALI-AAFOTG7BAOVioqqEY6eYVmJ6-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H66ff38b795434e7ca6a22cff7b0f84ecT.webp",
+          "alt": "Handmade Wooden Rosary with Marian Crucifix Pendant - coffee",
+          "label": "coffee",
+          "sku": "ALI-AAFOTG7BAOVioqqEY6eYVmJ6-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H157f23ad838345199965225c7488ddc7K.webp",
+          "alt": "Handmade Wooden Rosary with Marian Crucifix Pendant - beige",
+          "label": "beige",
+          "sku": "ALI-AAFOTG7BAOVioqqEY6eYVmJ6-V-5715155"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Handmade wooden beads",
+        "Decade configuration",
+        "Marian crucifix pendant",
+        "Available in Coffee, Beige, Black",
+        "Lightweight and portable"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Coffee, Beige, Black"
+        }
+      ],
+      "applications": [
+        "Personal prayer and meditation",
+        "Catholic gift giving",
+        "Church supply retail",
+        "Travel prayer aid"
+      ],
+      "faq": [
+        {
+          "question": "What color variants are available?",
+          "answer": "This rosary is offered in Coffee, Beige, and Black variants, so you can choose the tone that best fits your customers' needs."
+        },
+        {
+          "question": "Is the pendant a crucifix or a plain cross?",
+          "answer": "The product title specifies a crucifix, indicating it includes a depiction of Christ on the cross, along with a Marian element."
+        },
+        {
+          "question": "What is the bead arrangement?",
+          "answer": "The rosary is described as having decade beads, which typically means it follows the standard five-decade structure, but the exact bead count is not specified in the product information."
+        }
+      ],
+      "pricing": {
+        "price": "0.52",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.43",
+          "max": "0.52"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Handmade Wooden Rosary with Marian Crucifix Pendant",
+          "description": "Handmade wooden rosary with decade beads, Marian crucifix pendant, and cross. Available in Coffee, Beige, Black. A devotional gift.",
+          "sku": "ALI-AAFOTG7BAOVioqqEY6eYVmJ6",
+          "image": [
+            "https://sc04.alicdn.com/kf/H17fcd781ccb44812b0a6501bb3c4e91bs.jpg",
+            "https://sc04.alicdn.com/kf/Hf6f5a551d3e24680a82ba28be4a1caa0a.jpg",
+            "https://sc04.alicdn.com/kf/H87ddb40c1fc34b31bbafb539e68943f2W.jpg",
+            "https://sc04.alicdn.com/kf/H8c8c6a7a47cf4464a741db14f885cbe7g.jpg",
+            "https://sc04.alicdn.com/kf/He5ed05913847489eb33aa76505d4dbe3X.jpg",
+            "https://sc04.alicdn.com/kf/Hbee532dbadfa45d9b1b62a7c7834d7d5H.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Coffee, Beige, Black"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.52",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.43",
+              "maxPrice": "0.52",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What color variants are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This rosary is offered in Coffee, Beige, and Black variants, so you can choose the tone that best fits your customers' needs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the pendant a crucifix or a plain cross?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product title specifies a crucifix, indicating it includes a depiction of Christ on the cross, along with a Marian element."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the bead arrangement?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary is described as having decade beads, which typically means it follows the standard five-decade structure, but the exact bead count is not specified in the product information."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "8f120d30100d9ccdcafd48b4cbbc02dc5165667c9a6b2c0ef4f81db40b13b750",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "8f120d30100d9ccdcafd48b4cbbc02dc5165667c9a6b2c0ef4f81db40b13b750",
+            "contentHash": "8f120d30100d9ccdcafd48b4cbbc02dc5165667c9a6b2c0ef4f81db40b13b750",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:07:06.320Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE3TG7BAOVioqqEY6eYVEl-",
+      "sourceId": "AAE3TG7BAOVioqqEY6eYVEl-",
+      "sourceFingerprint": "9a9c6c9569638a0e92172e28081ac09dc1d2e316b7191bdea431ca31cec28d66",
+      "locale": "en",
+      "slug": "catholic-rosary-crucifix-religious-jewelry-saint-benedict-charm-eyvel-",
+      "title": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm",
+      "eyebrow": "Catholic Rosaries",
+      "summary": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm Cross Pendant Jesus 10mm Wood Beads Handmade Rosaries Wholesale",
+      "description": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm Cross Pendant Jesus 10mm Wood Beads Handmade Rosaries Wholesale",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAE3TG7BAOVioqqEY6eYVEl-",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd34e8cb321104b95b47421a9c28c5411p.webp",
+      "imageAlt": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd34e8cb321104b95b47421a9c28c5411p.webp",
+          "alt": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H61322125fec0471293782215802b4c01a.webp",
+          "alt": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H78352d94ab044e8d88e481e0f2830e50T.webp",
+          "alt": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H16df4f9c49454732b6c43d19e6e0a8347.webp",
+          "alt": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hece3cfaa103740159e58309f966fcbc9D.webp",
+          "alt": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd8f3653309d04282a0aa9b0223e83d0ab.webp",
+          "alt": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H75aa768887c844378900d243a44281903.webp",
+          "alt": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm - coffee",
+          "label": "coffee",
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eYVEl--V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc018c8a870af415c9faf901b35d72870a.webp",
+          "alt": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm - beige",
+          "label": "beige",
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eYVEl--V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha2c115cfa6794670ac6cb35124c0e37fR.webp",
+          "alt": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm - black",
+          "label": "black",
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eYVEl--V-3327837"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Variant: Coffee, Beige, Black"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Coffee, Beige, Black"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.52",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.42",
+          "max": "0.52"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm",
+          "description": "Catholic Rosary Crucifix Religious Jewelry Saint Benedict Charm Cross Pendant Jesus 10mm Wood Beads Handmade Rosaries Wholesale",
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eYVEl-",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd34e8cb321104b95b47421a9c28c5411p.jpg",
+            "https://sc04.alicdn.com/kf/H61322125fec0471293782215802b4c01a.jpg",
+            "https://sc04.alicdn.com/kf/H78352d94ab044e8d88e481e0f2830e50T.jpg",
+            "https://sc04.alicdn.com/kf/H16df4f9c49454732b6c43d19e6e0a8347.jpg",
+            "https://sc04.alicdn.com/kf/Hece3cfaa103740159e58309f966fcbc9D.jpg",
+            "https://sc04.alicdn.com/kf/Hd8f3653309d04282a0aa9b0223e83d0ab.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Coffee, Beige, Black"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.52",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.42",
+              "maxPrice": "0.52",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "014c062acf9eec1214439a963f4f23f6dd060c529ef1dc062f0fe8090fb922eb",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "014c062acf9eec1214439a963f4f23f6dd060c529ef1dc062f0fe8090fb922eb",
+            "contentHash": "014c062acf9eec1214439a963f4f23f6dd060c529ef1dc062f0fe8090fb922eb",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:07:38.052Z",
             "model": "deepseek-v4-flash"
           }
         }

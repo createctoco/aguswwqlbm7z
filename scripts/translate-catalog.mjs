@@ -323,11 +323,26 @@ try {
   // Only keep products that still exist in the English source catalog so the
   // localized catalogs never accumulate stale products the main site no longer
   // publishes (sub-sites must not show more products than the English site).
+  // Removed products are also folded into sync.deletedProductIds so the D1
+  // import actually deletes their rows (imports never delete without a tombstone).
   const sourceCatalogIds = new Set(sourceCatalog.products.map((product) => String(product.productId)));
+  const prunedProductIds = [];
   for (const productId of [...productsById.keys()]) {
-    if (!sourceCatalogIds.has(productId)) productsById.delete(productId);
+    if (!sourceCatalogIds.has(productId)) {
+      prunedProductIds.push(productId);
+      productsById.delete(productId);
+    }
   }
   const products = [...productsById.values()];
+  const prunedSync = {
+    ...sourceCatalog.sync,
+    deletedProductIds: [
+      ...new Set([
+        ...(sourceCatalog.sync?.deletedProductIds || []).map(String),
+        ...prunedProductIds,
+      ]),
+    ],
+  };
   const result = {
     schemaVersion: sourceCatalog.schemaVersion,
     locale,
@@ -336,7 +351,7 @@ try {
       sourceCatalog.products.map(({ productId, localization }) => ({ productId, sourceHash: localization.sourceHash }))
     ),
     generatedAt: new Date().toISOString(),
-    sync: sourceCatalog.sync,
+    sync: prunedSync,
     categoryGlossary,
     categoryGlossarySourceHash: categoryGlossaryResult.sourceHash,
     translationSummary: {

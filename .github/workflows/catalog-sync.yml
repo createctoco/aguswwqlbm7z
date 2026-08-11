@@ -93,9 +93,11 @@ jobs:
           git add src/data/catalog-index.json src/data/catalog-queue.json src/data/site-catalog.json
           git diff --cached --quiet || git commit -m "Sync catalog incrementally"
 
+          pushed=0
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
-              exit 0
+              pushed=1
+              break
             fi
 
             if [ "$attempt" -eq 5 ]; then
@@ -108,6 +110,15 @@ jobs:
             git rebase origin/main
             sleep $((attempt * 5))
           done
+          if [ "$pushed" -ne 1 ]; then
+            echo "Unable to publish catalog state." >&2
+            exit 1
+          fi
+
+          # Point a moving tag at the exact commit we pushed so the deploy
+          # dispatch can reference it without a ref-propagation race.
+          git tag -f deploy-latest HEAD
+          git push -f origin deploy-latest
 
       - name: Upload catalog artifact
         uses: actions/upload-artifact@v4
@@ -124,7 +135,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           for attempt in 1 2 3; do
-            if gh workflow run "Multilingual catalog generation" --repo "${{ github.repository }}" --ref main; then
+            if gh workflow run "Multilingual catalog generation" --repo "${{ github.repository }}" --ref deploy-latest; then
               echo "Multilingual catalog generation dispatched on attempt $attempt."
               exit 0
             fi
@@ -142,13 +153,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # Dispatch against the exact commit we just pushed, not the "main" ref,
-          # to avoid a race where the ref has not propagated yet and the deploy
-          # would build the previous commit.
-          SHA="$(git rev-parse HEAD)"
+          # Dispatch against the deploy-latest tag (updated to the exact commit
+          # we pushed) so the deploy builds the fresh catalog without a
+          # ref-propagation race.
           for attempt in 1 2 3; do
-            if gh workflow run "Deploy Cloudflare hybrid catalog" --repo "${{ github.repository }}" --ref "$SHA"; then
-              echo "Production deployment dispatched for $SHA on attempt $attempt."
+            if gh workflow run "Deploy Cloudflare hybrid catalog" --repo "${{ github.repository }}" --ref deploy-latest; then
+              echo "Production deployment dispatched on attempt $attempt."
               exit 0
             fi
             echo "Deploy dispatch attempt $attempt failed; retrying in $((attempt * 10))s."

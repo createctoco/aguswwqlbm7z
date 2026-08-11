@@ -289,7 +289,12 @@ async function fetchIndex() {
 const temporaryFile = `${outputFile}.tmp-${process.pid}`;
 try {
   const catalog = await fetchIndex();
-  if (catalog.total < 1) throw new Error('Catalog returned zero products; preserving the last successful catalog.');
+  if (catalog.total < 1) {
+    // mecrt returned no products (data exhausted or a transient empty reply):
+    // keep the last successful catalog without failing the run or wiping D1.
+    process.stdout.write('Catalog returned zero products; keeping the last successful catalog (no update).\n');
+    process.exit(0);
+  }
   await mkdir(dirname(outputFile), { recursive: true });
   await writeFile(temporaryFile, `${JSON.stringify(catalog, null, 2)}\n`, 'utf8');
   await rename(temporaryFile, outputFile);

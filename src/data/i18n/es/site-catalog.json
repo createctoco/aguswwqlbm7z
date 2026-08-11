@@ -2,23 +2,23 @@
   "schemaVersion": 3,
   "locale": "es",
   "sourceLocale": "en",
-  "sourceCatalogHash": "54c896d85937b7ee97dc5ff31e2a7774d6bd9104aced7be18c5bda78a73be140",
-  "generatedAt": "2026-08-11T18:55:35.909Z",
+  "sourceCatalogHash": "8178f4d03cec6a285f3e7acfce76bdea3eef030e72c5bd09d250237fdfd68dbd",
+  "generatedAt": "2026-08-11T19:06:23.486Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAGxTG7BAOVioqqEY6exyN7W",
-      "AAERTG7BAOVioqqEY6eebEi7",
-      "AAHOTG7BAOVioqqEY6eAPoIK",
-      "AAEWTG7BAOVioqqEY6eOpJ5C",
-      "AAH4TG7BAOVioqqEY6eYEWvg",
-      "AAGITG7BAOVioqqEY6eYWarp",
-      "AAHlTG7BAOVioqqEY6eE7ZRc",
-      "AAEqTG7BAOVioqqEY6eCTY5J",
-      "AAFOTG7BAOVioqqEY6eYVmJ6",
-      "AAE3TG7BAOVioqqEY6eYVEl-"
+      "AAELTG7BAOVioqqEY6eyZx_P",
+      "AAFQTG7BAOVioqqEY6eYaM99",
+      "AAEeTG7BAOVioqqEY6ePw0_5",
+      "AAHwTG7BAOVioqqEY6ed-hk8",
+      "AAERTG7BAOVioqqEY6eGI37m",
+      "AAH7TG7BAOVioqqEY6eYbTDC",
+      "AAEoTG7BAOVioqqEY6eCTZ43",
+      "AAGbTG7BAOVioqqEY6eegS_J",
+      "AAHqTG7BAOVioqqEY6eFBvXm",
+      "AAGNTG7BAOVioqqEY6e286DA"
     ],
     "deletedProductIds": []
   },
@@ -36,14 +36,28 @@
   },
   "categoryGlossarySourceHash": "fbac66204ed2143d0eb559de90b360cba332f2af95f5eb37f458536910f477f2",
   "translationSummary": {
-    "ready": 179,
+    "ready": 189,
     "skipped": 1,
     "skippedProductIds": [
       "AAGxTG7BAOVioqqEY6e7uzWC"
     ],
-    "reused": 179,
-    "generated": 0,
-    "generatedProductIds": [],
+    "reused": 176,
+    "generated": 13,
+    "generatedProductIds": [
+      "AAERTG7BAOVioqqEY6eebEi7",
+      "AAEWTG7BAOVioqqEY6eOpJ5C",
+      "AAH4TG7BAOVioqqEY6eYEWvg",
+      "AAELTG7BAOVioqqEY6eyZx_P",
+      "AAFQTG7BAOVioqqEY6eYaM99",
+      "AAEeTG7BAOVioqqEY6ePw0_5",
+      "AAHwTG7BAOVioqqEY6ed-hk8",
+      "AAERTG7BAOVioqqEY6eGI37m",
+      "AAH7TG7BAOVioqqEY6eYbTDC",
+      "AAEoTG7BAOVioqqEY6eCTZ43",
+      "AAGbTG7BAOVioqqEY6eegS_J",
+      "AAHqTG7BAOVioqqEY6eFBvXm",
+      "AAGNTG7BAOVioqqEY6e286DA"
+    ],
     "retriedBacklog": 1,
     "glossaryReused": true
   },
@@ -42685,9 +42699,9 @@
       "locale": "es",
       "slug": "stainless-steel-tri-color-cross-and-madonna-necklace-eebei7",
       "title": "Collar de Acero Inoxidable de Tres Colores con Cruz y Virgen",
-      "eyebrow": "collar colgante de cruz y Virgen de tres colores",
-      "summary": "Este collar de acero inoxidable de 4 mm presenta un colgante de cruz y Virgen de tres colores. Ofrecido en oro, plata o una combinación de dos tonos, es adecuado para uso diario o devocional. Disponible para abastecimiento al por mayor a través de nosotros.",
-      "description": "Este collar combina una cruz y un colgante de la Virgen en una cadena de acero inoxidable de 4 mm, con un acabado de tres colores que añade distinción visual. Elija entre todo oro, todo plata o una mezcla de oro y plata para satisfacer las necesidades de inventario. La construcción de acero inoxidable garantiza durabilidad para el uso regular. Podemos ayudar a los compradores al por mayor a obtener este diseño en grandes cantidades.",
+      "eyebrow": "Collar colgante de cruz y Virgen de tres colores",
+      "summary": "Este collar de acero inoxidable de 4 mm presenta un colgante de cruz y Virgen de tres colores. Disponible en oro, plata o una combinación de dos tonos, es adecuado para uso diario o devocional. Disponible para abastecimiento al por mayor a través de nosotros.",
+      "description": "Este collar combina una cruz y un colgante de la Virgen en una cadena de acero inoxidable de 4 mm, con un acabado de tres colores que añade distinción visual. Elija entre todo oro, toda plata o una mezcla de oro y plata para satisfacer las necesidades de inventario. La construcción de acero inoxidable asegura durabilidad para uso regular. Podemos ayudar a los compradores al por mayor a obtener este diseño en grandes cantidades.",
       "catholicContext": "La Virgen y la cruz son símbolos marianos y cristianos tradicionales, y el Rosario es una forma de piedad popular en la tradición católica.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -42788,7 +42802,7 @@
           "answer": "El ancho de la cadena es de 4 mm."
         },
         {
-          "question": "¿Este collar está hecho de acero inoxidable?",
+          "question": "¿Está hecho este collar de acero inoxidable?",
           "answer": "Sí, el collar está hecho de acero inoxidable."
         }
       ],
@@ -42806,7 +42820,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Collar de Acero Inoxidable de Tres Colores con Cruz y Virgen",
-          "description": "Este collar de acero inoxidable de 4 mm presenta un colgante de cruz y Virgen de tres colores. Ofrecido en oro, plata o una combinación de dos tonos, es adecuado para uso diario o devocional. Disponible para abastecimiento al por mayor a través de nosotros.",
+          "description": "Este collar de acero inoxidable de 4 mm presenta un colgante de cruz y Virgen de tres colores. Disponible en oro, plata o una combinación de dos tonos, es adecuado para uso diario o devocional. Disponible para abastecimiento al por mayor a través de nosotros.",
           "sku": "ALI-AAERTG7BAOVioqqEY6eebEi7",
           "image": [
             "https://sc04.alicdn.com/kf/H00e5a52e4ec3422195471d9636b033cfC.jpg",
@@ -42874,7 +42888,7 @@
             },
             {
               "@type": "Question",
-              "name": "¿Este collar está hecho de acero inoxidable?",
+              "name": "¿Está hecho este collar de acero inoxidable?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Sí, el collar está hecho de acero inoxidable."
@@ -42885,22 +42899,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "b2e163acc616f41a0112975fdc4912070def4abee0d3fd0bbd8fd8e9f9a57d7b",
+        "sourceHash": "dd59282dc82a11a3906de99c52d15643a82c4f9709511f9264d60be1b5988b9e",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "b2e163acc616f41a0112975fdc4912070def4abee0d3fd0bbd8fd8e9f9a57d7b",
-            "contentHash": "b2e163acc616f41a0112975fdc4912070def4abee0d3fd0bbd8fd8e9f9a57d7b",
+            "sourceHash": "dd59282dc82a11a3906de99c52d15643a82c4f9709511f9264d60be1b5988b9e",
+            "contentHash": "dd59282dc82a11a3906de99c52d15643a82c4f9709511f9264d60be1b5988b9e",
             "attempts": 0,
             "updatedAt": "2026-08-11T18:06:45.334Z",
             "model": "deepseek-v4-flash"
           },
           "es": {
             "status": "ready",
-            "sourceHash": "b2e163acc616f41a0112975fdc4912070def4abee0d3fd0bbd8fd8e9f9a57d7b",
-            "contentHash": "ff138d62a1829463206f96ddaa781962f517cb4080260e97a33714a9bc47d47e",
+            "sourceHash": "dd59282dc82a11a3906de99c52d15643a82c4f9709511f9264d60be1b5988b9e",
+            "contentHash": "3a5cd554c7e184a900ebe2841c41fd025b6ca67033127dcf541cd402f564e5ab",
             "attempts": 1,
-            "updatedAt": "2026-08-11T18:10:18.271Z",
+            "updatedAt": "2026-08-11T19:05:07.057Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -43136,9 +43150,9 @@
       "slug": "wooden-rosary-with-crucifix-in-multiple-finishes-eopj5c",
       "title": "Rosario de Madera con Crucifijo en Múltiples Acabados",
       "eyebrow": "rosario de madera con crucifijo",
-      "summary": "Un rosario de madera con crucifijo, disponible en siete variantes de color, desde marrón oscuro hasta beige y negro. El acabado natural de la madera da a cada cuenta una textura distintiva, adecuado para la oración personal o la venta al por menor de artículos religiosos.",
-      "description": "Este rosario de madera combina un crucifijo clásico con cuentas de madera redondas, disponible en siete opciones de color: Marrón1, Marrón2, Marrón3, Marrón4, Marrón, Beige y Negro. El material natural proporciona una sensación cálida y táctil durante su uso.\n\nCada variante comparte la misma construcción, por lo que la elección es puramente estética. Ya sea que prefiera los marrones más oscuros o un beige más claro, las cuentas de madera ofrecen un diseño simple y duradero.\n\nComo artículo devocional, apoya la oración tradicional del Rosario, que se centra en los misterios de Cristo y la Virgen María.",
-      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los acontecimientos de la vida de Jesucristo y la Virgen María.",
+      "summary": "Un rosario de madera con crucifijo, ofrecido en siete variantes de color, desde marrón oscuro hasta beige y negro. El acabado de madera natural le da a cada cuenta una textura distintiva, adecuado para la oración personal o la venta al por menor de artículos religiosos.",
+      "description": "Este rosario de madera combina un crucifijo clásico con cuentas redondas de madera, disponibles en siete opciones de color: Marrón1, Marrón2, Marrón3, Marrón4, Marrón, Beige y Negro. El material natural proporciona una sensación cálida y táctil durante su uso.\n\nCada variante comparte la misma construcción, por lo que la elección es puramente estética. Ya sea que prefiera los marrones más oscuros o un beige más claro, las cuentas de madera ofrecen un diseño simple y duradero.\n\nComo artículo devocional, apoya la oración tradicional del Rosario, que se centra en los misterios de Cristo y la Virgen María.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los eventos de la vida de Jesucristo y la Virgen María.",
       "catholicRelevance": "devotional_context",
       "categories": [
         {
@@ -43275,7 +43289,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Rosario de Madera con Crucifijo en Múltiples Acabados",
-          "description": "Un rosario de madera con crucifijo, disponible en siete variantes de color, desde marrón oscuro hasta beige y negro. El acabado natural de la madera da a cada cuenta una textura distintiva, adecuado para la oración personal o la venta al por menor de artículos religiosos.",
+          "description": "Un rosario de madera con crucifijo, ofrecido en siete variantes de color, desde marrón oscuro hasta beige y negro. El acabado de madera natural le da a cada cuenta una textura distintiva, adecuado para la oración personal o la venta al por menor de artículos religiosos.",
           "sku": "ALI-AAEWTG7BAOVioqqEY6eOpJ5C",
           "image": [
             "https://sc04.alicdn.com/kf/Hbbecc02bf804488681cb072b6bece611X.jpg",
@@ -43349,22 +43363,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "1f0c2bffdc6842e4c04251ee495342588b954034cd6455d7182a625d9a3d4ba7",
+        "sourceHash": "da6a512a7bfd70c692914c3f9b0fa27c6bf79e12995db4ad040eea9d3d80a2fd",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "1f0c2bffdc6842e4c04251ee495342588b954034cd6455d7182a625d9a3d4ba7",
-            "contentHash": "1f0c2bffdc6842e4c04251ee495342588b954034cd6455d7182a625d9a3d4ba7",
+            "sourceHash": "da6a512a7bfd70c692914c3f9b0fa27c6bf79e12995db4ad040eea9d3d80a2fd",
+            "contentHash": "da6a512a7bfd70c692914c3f9b0fa27c6bf79e12995db4ad040eea9d3d80a2fd",
             "attempts": 0,
             "updatedAt": "2026-08-11T18:06:53.639Z",
             "model": "deepseek-v4-flash"
           },
           "es": {
             "status": "ready",
-            "sourceHash": "1f0c2bffdc6842e4c04251ee495342588b954034cd6455d7182a625d9a3d4ba7",
-            "contentHash": "587bab7082c5adba69364cb8bfb8b91ef235bb5c09ea59d0c82b031d19406804",
+            "sourceHash": "da6a512a7bfd70c692914c3f9b0fa27c6bf79e12995db4ad040eea9d3d80a2fd",
+            "contentHash": "92f81a387ccb0861cc47dd821eca623a068e1680515885dd76d47eb38c98e0f5",
             "attempts": 1,
-            "updatedAt": "2026-08-11T18:10:32.078Z",
+            "updatedAt": "2026-08-11T19:05:13.962Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -43376,11 +43390,11 @@
       "sourceFingerprint": "9d049721938677ee091606ac7259a50f762c495ea11305d75d1bbe7c54dd61da",
       "locale": "es",
       "slug": "plastic-rosary-necklace-for-kids-with-cross-charm-eyewvg",
-      "title": "Collar de Rosario de Plástico para Niños con Dije de Cruz",
+      "title": "Collar de Rosario de Plástico para Niños con Crucifijo",
       "eyebrow": "collar de rosario de plástico",
-      "summary": "Un collar de rosario de cuentas de plástico de 10 mm con dije de cruz de aleación de zinc. Diseñado para niños, este collar de cuentas ligero y colorido ofrece una opción práctica para la oración católica y accesorios de fe.",
-      "description": "Este collar de rosario está hecho con cuentas de plástico de 10 mm y un dije de cruz de aleación de zinc, dándole un aspecto ligero y colorido adecuado para los más jóvenes. La cadena de cuentas y el engaste de la abertura sugieren una construcción simple destinada al manejo diario más que a la exhibición formal. Para compradores mayoristas, los materiales de plástico y aleación de zinc mantienen los costos bajos mientras ofrecen una estética brillante y amigable para los niños.",
-      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los eventos de la vida de Jesucristo y la Virgen María.",
+      "summary": "Un collar de rosario de cuentas de plástico de 10 mm con un crucifijo de aleación de zinc. Diseñado para niños, este collar de cuentas ligero y colorido ofrece una opción práctica para la oración católica y accesorios de fe.",
+      "description": "Este collar de rosario está hecho con cuentas de plástico de 10 mm y un crucifijo de aleación de zinc, lo que le da un aspecto ligero y colorido adecuado para los más jóvenes. La cadena de cuentas y el engaste sugieren una construcción sencilla destinada al uso diario más que a la exhibición formal. Para compradores mayoristas, los materiales de plástico y aleación de zinc mantienen los costos bajos al tiempo que ofrecen una estética brillante y amigable para los niños.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los acontecimientos de la vida de Jesucristo y la Virgen María.",
       "catholicRelevance": "devotional_context",
       "categories": [
         {
@@ -43391,40 +43405,40 @@
       ],
       "sku": "ALI-AAH4TG7BAOVioqqEY6eYEWvg",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc8943bf7687b41a18caf58fcc7aea6f9Y.webp",
-      "imageAlt": "Collar de Rosario de Plástico para Niños con Dije de Cruz",
+      "imageAlt": "Collar de Rosario de Plástico para Niños con Crucifijo",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc8943bf7687b41a18caf58fcc7aea6f9Y.webp",
-          "alt": "Collar de Rosario de Plástico para Niños con Dije de Cruz"
+          "alt": "Collar de Rosario de Plástico para Niños con Crucifijo"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/He423324072bc4df0ba3f7ee25a927929l.webp",
-          "alt": "Collar de Rosario de Plástico para Niños con Dije de Cruz"
+          "alt": "Collar de Rosario de Plástico para Niños con Crucifijo"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/He4335694c4ca436abec3b9dcdd941977G.webp",
-          "alt": "Collar de Rosario de Plástico para Niños con Dije de Cruz"
+          "alt": "Collar de Rosario de Plástico para Niños con Crucifijo"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hed2a33a39e5f43b9a15d53f445f6450ce.webp",
-          "alt": "Collar de Rosario de Plástico para Niños con Dije de Cruz"
+          "alt": "Collar de Rosario de Plástico para Niños con Crucifijo"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hff1131e8a94347dd9fe7731ec4ab677dh.webp",
-          "alt": "Collar de Rosario de Plástico para Niños con Dije de Cruz"
+          "alt": "Collar de Rosario de Plástico para Niños con Crucifijo"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ee880c727654cf285d8f254079af6ec6.webp",
-          "alt": "Collar de Rosario de Plástico para Niños con Dije de Cruz"
+          "alt": "Collar de Rosario de Plástico para Niños con Crucifijo"
         }
       ],
       "variantImages": [],
       "accent": "#8b6b4a",
       "features": [
         "Cuentas de plástico de 10 mm",
-        "Dije de cruz de aleación de zinc",
+        "Crucifijo de aleación de zinc",
         "Collar de cadena de cuentas",
-        "Engaste de abertura para dije",
+        "Engaste para el crucifijo",
         "Diseño colorido adecuado para niños",
         "Estilo religioso con temática católica"
       ],
@@ -43434,7 +43448,7 @@
           "value": "Plástico"
         },
         {
-          "name": "Material del dije",
+          "name": "Material del crucifijo",
           "value": "Aleación de zinc"
         },
         {
@@ -43457,20 +43471,20 @@
       "applications": [
         "Regalos de comunión o primera comunión para niños",
         "Aulas de educación religiosa católica",
-        "Oración devocional diaria en casa",
+        "Oración devocional diaria en el hogar",
         "Accesorios coloridos para eventos de la iglesia"
       ],
       "faq": [
         {
           "question": "¿Cuál es el tamaño y material de las cuentas?",
-          "answer": "Las cuentas tienen un diámetro de 10 mm y están hechas de plástico, lo que hace que el collar sea ligero para los niños."
+          "answer": "Las cuentas tienen 10 mm de diámetro y están hechas de plástico, lo que hace que el collar sea ligero para los niños."
         },
         {
-          "question": "¿Qué metal se usa para el dije de cruz?",
-          "answer": "El dije de cruz está hecho de aleación de zinc, un metal duradero y económico comúnmente utilizado en bisutería."
+          "question": "¿Qué metal se utiliza para el crucifijo?",
+          "answer": "El crucifijo está hecho de aleación de zinc, un metal duradero y asequible comúnmente usado en bisutería."
         },
         {
-          "question": "¿Este collar de rosario es adecuado para un niño?",
+          "question": "¿Es adecuado este collar de rosario para un niño?",
           "answer": "Sí, el producto está categorizado para niños, con proporciones más pequeñas y cuentas de plástico coloridas diseñadas para usuarios más jóvenes."
         }
       ],
@@ -43488,8 +43502,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Collar de Rosario de Plástico para Niños con Dije de Cruz",
-          "description": "Un collar de rosario de cuentas de plástico de 10 mm con dije de cruz de aleación de zinc. Diseñado para niños, este collar de cuentas ligero y colorido ofrece una opción práctica para la oración católica y accesorios de fe.",
+          "name": "Collar de Rosario de Plástico para Niños con Crucifijo",
+          "description": "Un collar de rosario de cuentas de plástico de 10 mm con un crucifijo de aleación de zinc. Diseñado para niños, este collar de cuentas ligero y colorido ofrece una opción práctica para la oración católica y accesorios de fe.",
           "sku": "ALI-AAH4TG7BAOVioqqEY6eYEWvg",
           "image": [
             "https://sc04.alicdn.com/kf/Hc8943bf7687b41a18caf58fcc7aea6f9Y.jpg",
@@ -43508,7 +43522,7 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Material del dije",
+              "name": "Material del crucifijo",
               "value": "Aleación de zinc"
             },
             {
@@ -43554,20 +43568,20 @@
               "name": "¿Cuál es el tamaño y material de las cuentas?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Las cuentas tienen un diámetro de 10 mm y están hechas de plástico, lo que hace que el collar sea ligero para los niños."
+                "text": "Las cuentas tienen 10 mm de diámetro y están hechas de plástico, lo que hace que el collar sea ligero para los niños."
               }
             },
             {
               "@type": "Question",
-              "name": "¿Qué metal se usa para el dije de cruz?",
+              "name": "¿Qué metal se utiliza para el crucifijo?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "El dije de cruz está hecho de aleación de zinc, un metal duradero y económico comúnmente utilizado en bisutería."
+                "text": "El crucifijo está hecho de aleación de zinc, un metal duradero y asequible comúnmente usado en bisutería."
               }
             },
             {
               "@type": "Question",
-              "name": "¿Este collar de rosario es adecuado para un niño?",
+              "name": "¿Es adecuado este collar de rosario para un niño?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Sí, el producto está categorizado para niños, con proporciones más pequeñas y cuentas de plástico coloridas diseñadas para usuarios más jóvenes."
@@ -43578,22 +43592,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "328f90d4b2f8effc4877f8bcdba676ce6a94cacb4b76041a123d3eb40fcfb0cf",
+        "sourceHash": "a1c71cdc978d0ba6f381459a217d3166bea121eb4a03fd7e3535d7911915673d",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "328f90d4b2f8effc4877f8bcdba676ce6a94cacb4b76041a123d3eb40fcfb0cf",
-            "contentHash": "328f90d4b2f8effc4877f8bcdba676ce6a94cacb4b76041a123d3eb40fcfb0cf",
+            "sourceHash": "a1c71cdc978d0ba6f381459a217d3166bea121eb4a03fd7e3535d7911915673d",
+            "contentHash": "a1c71cdc978d0ba6f381459a217d3166bea121eb4a03fd7e3535d7911915673d",
             "attempts": 0,
             "updatedAt": "2026-08-11T18:06:59.686Z",
             "model": "deepseek-v4-flash"
           },
           "es": {
             "status": "ready",
-            "sourceHash": "328f90d4b2f8effc4877f8bcdba676ce6a94cacb4b76041a123d3eb40fcfb0cf",
-            "contentHash": "449df166763963981f66daf6ca3ca19530f5a9e1a2ad7dc379b46deb24be0c5b",
+            "sourceHash": "a1c71cdc978d0ba6f381459a217d3166bea121eb4a03fd7e3535d7911915673d",
+            "contentHash": "49a8b16d137b1a3cc237156bd76427bb3136ac6b8ea028dbc88a1b04b92ddb15",
             "attempts": 1,
-            "updatedAt": "2026-08-11T18:10:38.211Z",
+            "updatedAt": "2026-08-11T19:05:19.859Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -44377,6 +44391,2280 @@
             "contentHash": "9c568e4149b3dc4e471daa89ec300bacf937257bdffc2245336b3dea19f5664a",
             "attempts": 1,
             "updatedAt": "2026-08-11T18:11:04.747Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAELTG7BAOVioqqEY6eyZx_P",
+      "sourceId": "AAELTG7BAOVioqqEY6eyZx_P",
+      "sourceFingerprint": "45cf746ab25e66e0172e77812b2ede28f32a424c7656fd174c8fcbf5558aec62",
+      "locale": "es",
+      "slug": "red-rose-scented-wooden-rosary-necklace-eyzx_p",
+      "title": "Collar de Rosario de Madera con Aroma a Rosa Roja",
+      "eyebrow": "collar de rosario de madera",
+      "summary": "Un collar de rosario de madera con aroma a rosa roja y acentos de metal chapado grabados a mano. La cadena de cuentas y la cruz lo convierten en un regalo católico para la oración. Contáctenos para pedidos al por mayor.",
+      "description": "Este collar de rosario está hecho de madera con aroma a rosa roja, ofreciendo una fragancia sutil. Los detalles de metal chapado grabados a mano añaden un toque distintivo. Como collar de cuentas con una cruz, sirve como ayuda devocional para la oración católica. El material de madera proporciona una sensación natural, mientras que el chapado se describe como 'Otro', indicando un acabado no estándar. Esta pieza se clasifica en Rosarios Católicos y Collares Religiosos, alineándose con las expresiones de fe cristiana. Está diseñado como artículo de regalo, adecuado para quienes aprecian el simbolismo religioso. El tipo de cadena de cuentas asegura una estructura de rosario clásica y flexible. Para consultas de abastecimiento, en OUOOO estamos listos para ayudarle.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los eventos de la vida de Jesucristo y la Virgen María.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Rosarios Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAELTG7BAOVioqqEY6eyZx_P",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H7a1e99ebff804bda8c5cd2f05927d0b2m.webp",
+      "imageAlt": "Collar de Rosario de Madera con Aroma a Rosa Roja",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7a1e99ebff804bda8c5cd2f05927d0b2m.webp",
+          "alt": "Collar de Rosario de Madera con Aroma a Rosa Roja"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H03c2d105498e44618aac5a8b1894fa93r.webp",
+          "alt": "Collar de Rosario de Madera con Aroma a Rosa Roja"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H30577e6c310144fe9c795ae526bc3d7bx.webp",
+          "alt": "Collar de Rosario de Madera con Aroma a Rosa Roja"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4d87b68842c74ed4bf311368fdbdc221H.webp",
+          "alt": "Collar de Rosario de Madera con Aroma a Rosa Roja"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H80e30007dd74492aa48a7938ecb1cce04.webp",
+          "alt": "Collar de Rosario de Madera con Aroma a Rosa Roja"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H930ad80686704f3e99c8439304d2f172m.webp",
+          "alt": "Collar de Rosario de Madera con Aroma a Rosa Roja"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Cuentas de madera con aroma a rosa roja",
+        "Acentos de metal chapado grabados a mano",
+        "Tipo de cadena de cuentas",
+        "Diseño de cruz para simbolismo religioso",
+        "Categorizado como Rosario Católico y estilo Religioso",
+        "Marca: OUOOO"
+      ],
+      "specifications": [
+        {
+          "name": "Material principal",
+          "value": "Madera"
+        },
+        {
+          "name": "Tipo de joyería",
+          "value": "Collar, Collar de cuentas"
+        },
+        {
+          "name": "Chapado",
+          "value": "Otro"
+        },
+        {
+          "name": "Estilo",
+          "value": "Religioso"
+        },
+        {
+          "name": "Tipo religioso",
+          "value": "Cristianismo"
+        },
+        {
+          "name": "Ocasión",
+          "value": "Regalo"
+        },
+        {
+          "name": "Lugar de origen",
+          "value": "CN;ZHE"
+        }
+      ],
+      "applications": [
+        "Oración y devoción católica",
+        "Entrega de regalos religiosos",
+        "Uso como joyería religiosa",
+        "Uso para meditación personal"
+      ],
+      "faq": [
+        {
+          "question": "¿De qué material está hecho el collar de rosario?",
+          "answer": "Las cuentas del rosario son de madera, y las partes de metal están chapadas con un acabado descrito como 'Otro'."
+        },
+        {
+          "question": "¿El collar de rosario incluye una cruz?",
+          "answer": "El título del producto menciona una cruz de madera, por lo que el collar incluye una cruz como parte de su diseño."
+        },
+        {
+          "question": "¿Está destinado este rosario como artículo de regalo?",
+          "answer": "Sí, el atributo de ocasión está listado como 'Regalo', y cae dentro de la categoría de Rosarios Católicos."
+        }
+      ],
+      "pricing": {
+        "price": "0.55",
+        "regularPrice": "0.55",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.35",
+          "max": "0.55"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collar de Rosario de Madera con Aroma a Rosa Roja",
+          "description": "Un collar de rosario de madera con aroma a rosa roja y acentos de metal chapado grabados a mano. La cadena de cuentas y la cruz lo convierten en un regalo católico para la oración. Contáctenos para pedidos al por mayor.",
+          "sku": "ALI-AAELTG7BAOVioqqEY6eyZx_P",
+          "image": [
+            "https://sc04.alicdn.com/kf/H7a1e99ebff804bda8c5cd2f05927d0b2m.jpg",
+            "https://sc04.alicdn.com/kf/H03c2d105498e44618aac5a8b1894fa93r.png",
+            "https://sc04.alicdn.com/kf/H30577e6c310144fe9c795ae526bc3d7bx.png",
+            "https://sc04.alicdn.com/kf/H4d87b68842c74ed4bf311368fdbdc221H.png",
+            "https://sc04.alicdn.com/kf/H80e30007dd74492aa48a7938ecb1cce04.png",
+            "https://sc04.alicdn.com/kf/H930ad80686704f3e99c8439304d2f172m.png"
+          ],
+          "category": "Rosarios Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material principal",
+              "value": "Madera"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de joyería",
+              "value": "Collar, Collar de cuentas"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chapado",
+              "value": "Otro"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Religioso"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo religioso",
+              "value": "Cristianismo"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Ocasión",
+              "value": "Regalo"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Lugar de origen",
+              "value": "CN;ZHE"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.55",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.35",
+              "maxPrice": "0.55",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿De qué material está hecho el collar de rosario?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Las cuentas del rosario son de madera, y las partes de metal están chapadas con un acabado descrito como 'Otro'."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿El collar de rosario incluye una cruz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El título del producto menciona una cruz de madera, por lo que el collar incluye una cruz como parte de su diseño."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Está destinado este rosario como artículo de regalo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, el atributo de ocasión está listado como 'Regalo', y cae dentro de la categoría de Rosarios Católicos."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "fdfad2f904a8e58f0f4fdb3983506fe775e29f883e04b976c8fdaf95edf300d6",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "fdfad2f904a8e58f0f4fdb3983506fe775e29f883e04b976c8fdaf95edf300d6",
+            "contentHash": "fdfad2f904a8e58f0f4fdb3983506fe775e29f883e04b976c8fdaf95edf300d6",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:29.926Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "fdfad2f904a8e58f0f4fdb3983506fe775e29f883e04b976c8fdaf95edf300d6",
+            "contentHash": "030ec6e32484162ed478ee7afa52ae14d01e6e784a39d85585fb863ffe383cdd",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:05:26.539Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFQTG7BAOVioqqEY6eYaM99",
+      "sourceId": "AAFQTG7BAOVioqqEY6eYaM99",
+      "sourceFingerprint": "b7653930ae70d2c2b9065a7342469dc5f4c012014414dd861bc29e31eb3b245b",
+      "locale": "es",
+      "slug": "wooden-bead-rosary-necklace-with-cross-pendant-eyam99",
+      "title": "Collar de Rosario con Cuentas de Madera y Dije de Cruz",
+      "eyebrow": "Collar de Rosario Católico con Cuentas de Madera y Dije de Cruz",
+      "summary": "Un collar de rosario hecho con cuentas de madera natural y un dije de cruz, disponible en cinco opciones de color. Adecuado como ayuda personal para la oración o como regalo para ocasiones católicas.",
+      "description": "Este collar de rosario combina cuentas de madera natural con un dije de cruz, dando a la ayuda de oración un aspecto cálido y orgánico. El diseño es sencillo y práctico, adecuado para el uso diario. Ofrecemos cinco tonos de cuentas: café, marrón, beige, negro y rojo, para que pueda elegir según preferencia u ocasión. Su formato de collar permite usarlo o llevarlo fácilmente, y puede servir como recordatorio táctil de los misterios del Rosario durante la oración personal.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los eventos de la vida de Jesucristo y la Virgen María.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Rosarios Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H2fa1d3631b1e40e596795dec33f2f106c.webp",
+      "imageAlt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2fa1d3631b1e40e596795dec33f2f106c.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5f15347bacac44b988375c7ac2a25d31D.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1a145fbd63fd4fe39dcb945e558fb175O.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H81169ac35373402cb0a8bf3998f8684a3.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf5e4a0c8a0e64fb59d9c40372a17bec0p.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H90d69ef4388c4c58a8f0245a3e94b373P.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H413c39c357e244ee97f6628fed61d4017.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz - café",
+          "label": "café",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf8d93518806d413e9ab7aca7f83ea5d7i.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz - rojo",
+          "label": "rojo",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc78d28895fce48309dda88bed572c210y.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz - marrón",
+          "label": "marrón",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcdf405d7f17d4b47adaf0cde150e16b23.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz - beige",
+          "label": "beige",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99-V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1d65b660f00240799e3ab98e6bca280e8.webp",
+          "alt": "Collar de Rosario con Cuentas de Madera y Dije de Cruz - negro",
+          "label": "negro",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99-V-3327837"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Cuentas de madera natural",
+        "Incluye dije de cruz",
+        "Cinco variantes de color: café, marrón, beige, negro, rojo",
+        "Estilo collar para fácil uso",
+        "Categorizado como rosario católico"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Madera"
+        },
+        {
+          "name": "Dije",
+          "value": "Cruz"
+        },
+        {
+          "name": "Estilo",
+          "value": "Collar"
+        },
+        {
+          "name": "Variantes de color",
+          "value": "Café, Marrón, Beige, Negro, Rojo"
+        }
+      ],
+      "applications": [
+        "Oración y meditación personal",
+        "Regalo para ocasiones católicas",
+        "Uso devocional diario",
+        "Ayudas para la educación religiosa"
+      ],
+      "faq": [
+        {
+          "question": "¿De qué material está hecho este collar de rosario?",
+          "answer": "Las cuentas son de madera natural y el dije es una cruz. El tipo exacto de madera no está especificado."
+        },
+        {
+          "question": "¿Qué opciones de color están disponibles?",
+          "answer": "El collar de rosario viene en cinco variantes: café, marrón, beige, negro y rojo."
+        },
+        {
+          "question": "¿Es un crucifijo o un dije de cruz simple?",
+          "answer": "El producto se describe como un dije de cruz. No hay indicación de un corpus (cuerpo de Cristo), por lo que es una cruz simple, no un crucifijo."
+        }
+      ],
+      "pricing": {
+        "price": "0.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.23",
+          "max": "0.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collar de Rosario con Cuentas de Madera y Dije de Cruz",
+          "description": "Un collar de rosario hecho con cuentas de madera natural y un dije de cruz, disponible en cinco opciones de color. Adecuado como ayuda personal para la oración o como regalo para ocasiones católicas.",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2fa1d3631b1e40e596795dec33f2f106c.jpg",
+            "https://sc04.alicdn.com/kf/H5f15347bacac44b988375c7ac2a25d31D.jpg",
+            "https://sc04.alicdn.com/kf/H1a145fbd63fd4fe39dcb945e558fb175O.jpg",
+            "https://sc04.alicdn.com/kf/H81169ac35373402cb0a8bf3998f8684a3.jpg",
+            "https://sc04.alicdn.com/kf/Hf5e4a0c8a0e64fb59d9c40372a17bec0p.jpg",
+            "https://sc04.alicdn.com/kf/H90d69ef4388c4c58a8f0245a3e94b373P.jpg"
+          ],
+          "category": "Rosarios Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Madera"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Dije",
+              "value": "Cruz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Collar"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variantes de color",
+              "value": "Café, Marrón, Beige, Negro, Rojo"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.23",
+              "maxPrice": "0.30",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿De qué material está hecho este collar de rosario?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Las cuentas son de madera natural y el dije es una cruz. El tipo exacto de madera no está especificado."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué opciones de color están disponibles?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El collar de rosario viene en cinco variantes: café, marrón, beige, negro y rojo."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Es un crucifijo o un dije de cruz simple?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El producto se describe como un dije de cruz. No hay indicación de un corpus (cuerpo de Cristo), por lo que es una cruz simple, no un crucifijo."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "9fbf564041e0e90406db0eed017c479450eb3a6d7cb01cc3c41d23f4f4f0c40b",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "9fbf564041e0e90406db0eed017c479450eb3a6d7cb01cc3c41d23f4f4f0c40b",
+            "contentHash": "9fbf564041e0e90406db0eed017c479450eb3a6d7cb01cc3c41d23f4f4f0c40b",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:28.729Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "9fbf564041e0e90406db0eed017c479450eb3a6d7cb01cc3c41d23f4f4f0c40b",
+            "contentHash": "621c1efa66db1ea3e76a36670bc35ef904b6cb1b98d9c594c05cab084fff0448",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:05:33.123Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEeTG7BAOVioqqEY6ePw0_5",
+      "sourceId": "AAEeTG7BAOVioqqEY6ePw0_5",
+      "sourceFingerprint": "6ec5f13875d58b5ba53f17de78ddb5880d3136495609c7ea83f78f37f58e1a44",
+      "locale": "es",
+      "slug": "vintage-rosary-necklace-with-imitation-pearl-8mm-beads-epw0_5",
+      "title": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm",
+      "eyebrow": "Collar rosario católico vintage",
+      "summary": "Este collar rosario vintage presenta cuentas de perla imitación de 8mm y un colgante de cruz, ofrecido en nueve opciones de color, incluyendo gris, rojo ciruela y negro. Una pieza práctica y ornamental para la oración personal o como regalo.",
+      "description": "El carácter vintage del rosario se refleja en sus cuentas de perla imitación con aspecto de vidrio, cada una de 8mm, combinadas con una cruz tradicional. La gama de colores—desde gris apagado hasta rojo ciruela y marrón—permite a los compradores elegir según preferencia u ocasión. El formato de collar facilita llevarlo o usarlo. Como artículo devocional católico, puede utilizarse para rezar el Rosario, la oración centrada en la contemplación de los misterios de la vida de Jesús y María.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los misterios de la vida de Jesucristo y la Virgen María.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Rosarios Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb16697eadf5c4f7c91e462dcdd997839y.webp",
+      "imageAlt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb16697eadf5c4f7c91e462dcdd997839y.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf6a4eb5678e245a9b181dda419359eafG.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc478650843a45778f56dd7797eacf64g.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7b5d31078bc1445d985743cd9d44db9es.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31de8cabd2b04472843172159bf69c5e9.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H561b51a045704799a1bcf06e9884e67aT.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha139393831a0470fb50c078cff62d24eA.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm - rojo",
+          "label": "rojo",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H508c1e0d702a46e3b496f7ea6c2ae3efB.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm - blanco",
+          "label": "blanco",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5a814bb87e3c4e5b8e672218ec233155B.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm - púrpura",
+          "label": "púrpura",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3851110"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd33a27ac315844b59fd25bd652110216o.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm - marrón",
+          "label": "marrón",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H115f2ccfa70f4d18a86fb2f34456f41d2.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm - gris",
+          "label": "gris",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-5412614"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2d4bbbc52ebb4898a2dfe0aa09e37baeq.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm - rojo ciruela",
+          "label": "rojo ciruela",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H822812737a474597bca62fd4ed6df75fW.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm - azul",
+          "label": "azul",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-123085"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb361b4c87e8a47579dd9d084c1db6c20J.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm - rosa",
+          "label": "rosa",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd2c81f5f64c347f985a2f67106179d6bP.webp",
+          "alt": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm - negro",
+          "label": "negro",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3327837"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Cuentas de perla imitación de 8mm con acabado similar al vidrio",
+        "Colgante de cruz adjunto al rosario",
+        "Disponible en nueve variantes de color: gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul y púrpura",
+        "Diseño de estilo vintage adecuado para uso devocional",
+        "Formato de collar para llevarlo cómodamente"
+      ],
+      "specifications": [
+        {
+          "name": "Tamaño de las cuentas",
+          "value": "8mm"
+        },
+        {
+          "name": "Material de las cuentas",
+          "value": "Perla imitación"
+        },
+        {
+          "name": "Estilo",
+          "value": "Vintage"
+        },
+        {
+          "name": "Variantes de color",
+          "value": "Gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul y púrpura"
+        }
+      ],
+      "applications": [
+        "Oración personal del Rosario",
+        "Regalo religioso católico para Pascua u otras ocasiones",
+        "Joyería devocional de uso diario",
+        "Obsequios para grupos de iglesia o ministerios"
+      ],
+      "faq": [
+        {
+          "question": "¿De qué están hechas las cuentas?",
+          "answer": "Las cuentas son de perla imitación, cada una de 8mm de diámetro."
+        },
+        {
+          "question": "¿Es un crucifijo o una cruz?",
+          "answer": "La descripción del producto menciona una cruz, no un crucifijo. No tenemos detalles sobre un corpus."
+        },
+        {
+          "question": "¿Qué opciones de color están disponibles?",
+          "answer": "El rosario está disponible en gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul y púrpura."
+        }
+      ],
+      "pricing": {
+        "price": "0.58",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.58"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collar Rosario Vintage con Cuentas de Perla Imitación de 8mm",
+          "description": "Este collar rosario vintage presenta cuentas de perla imitación de 8mm y un colgante de cruz, ofrecido en nueve opciones de color, incluyendo gris, rojo ciruela y negro. Una pieza práctica y ornamental para la oración personal o como regalo.",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hb16697eadf5c4f7c91e462dcdd997839y.jpg",
+            "https://sc04.alicdn.com/kf/Hf6a4eb5678e245a9b181dda419359eafG.jpg",
+            "https://sc04.alicdn.com/kf/Hcc478650843a45778f56dd7797eacf64g.jpg",
+            "https://sc04.alicdn.com/kf/H7b5d31078bc1445d985743cd9d44db9es.jpg",
+            "https://sc04.alicdn.com/kf/H31de8cabd2b04472843172159bf69c5e9.jpg",
+            "https://sc04.alicdn.com/kf/H561b51a045704799a1bcf06e9884e67aT.jpg"
+          ],
+          "category": "Rosarios Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Tamaño de las cuentas",
+              "value": "8mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material de las cuentas",
+              "value": "Perla imitación"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Vintage"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variantes de color",
+              "value": "Gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul y púrpura"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.58",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.58",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿De qué están hechas las cuentas?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Las cuentas son de perla imitación, cada una de 8mm de diámetro."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Es un crucifijo o una cruz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La descripción del producto menciona una cruz, no un crucifijo. No tenemos detalles sobre un corpus."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué opciones de color están disponibles?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El rosario está disponible en gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul y púrpura."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "ccb50362984bfc343df0fa48be76dd93350ae76a6ea7e7feb3eeae569db01175",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "ccb50362984bfc343df0fa48be76dd93350ae76a6ea7e7feb3eeae569db01175",
+            "contentHash": "ccb50362984bfc343df0fa48be76dd93350ae76a6ea7e7feb3eeae569db01175",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:37.464Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "ccb50362984bfc343df0fa48be76dd93350ae76a6ea7e7feb3eeae569db01175",
+            "contentHash": "de887e07692e16fb69b266f14cc34508cf1b6a99fd94f11114f22e10d3c91025",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:05:40.989Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHwTG7BAOVioqqEY6ed-hk8",
+      "sourceId": "AAHwTG7BAOVioqqEY6ed-hk8",
+      "sourceFingerprint": "b5b0b4cdbd4e63f6ded591501dcb475f83193072d59115c63c132451e3a0d5b7",
+      "locale": "es",
+      "slug": "8mm-imitation-pearl-rosary-necklace-ed-hk8",
+      "title": "Collar de Rosario de Perlas de Imitación de 8 mm",
+      "eyebrow": "collar de rosario",
+      "summary": "Un collar de rosario de perlas de imitación de 8 mm con una cruz, ofrecido en nueve variantes de color, incluyendo gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul y púrpura. Elaborado para la oración católica y uso devocional, adecuado para tiendas de regalos de iglesias y minoristas de artículos religiosos.",
+      "description": "Este collar de rosario presenta cuentas de perlas de imitación de 8 mm y una cruz, lo que lo convierte en una ayuda reconocible para el Rosario, una oración católica tradicional. Las cuentas están dimensionadas para un manejo cómodo durante la oración, y el estilo de collar permite usarlo o llevarlo fácilmente. Elija entre nueve opciones de color para adaptarse a las preferencias personales o a los tiempos litúrgicos.\n\nComo artículo devocional, este rosario es adecuado para la oración personal, la catequesis o como regalo para ocasiones sacramentales. Para compras al por mayor, contáctenos para precios y disponibilidad.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los eventos de la vida de Jesucristo y la Virgen María.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Rosarios Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hf4330f25a41c44d0978f286aadfb8199X.webp",
+      "imageAlt": "Collar de Rosario de Perlas de Imitación de 8 mm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf4330f25a41c44d0978f286aadfb8199X.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7f0c723aea724075b5b50e1a640a77d5g.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb7716f2ec1f84022b67c24613c243371O.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc3d241ad98724ee68c2ee5f3d1604ac4P.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H751ad1dcbfaa46d9a79c9912db6985a6O.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfc3b1b3974e641bc9a88ddba82ea5e4ed.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hceaecaf1363a4eb1bdca882176ff055bY.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm - azul",
+          "label": "azul",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-123085"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7020fc830371408b8a62be8f9006042d1.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm - negro",
+          "label": "negro",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He27644754c8e454bb54e918cdc0b27fcd.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm - rosa",
+          "label": "rosa",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc1c422c722184222a20d11f5f098cbc9J.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm - blanco",
+          "label": "blanco",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1485b0335d64c229d774e43d0bc46f7B.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm - rojo",
+          "label": "rojo",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdfc65fbb97284f15b0d24f2bf93c8954i.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm - marrón",
+          "label": "marrón",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf13b721f3ddd4004b2aa5ed323164c2bv.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm - púrpura",
+          "label": "púrpura",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3851110"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H02b53579052944ba850e7972177cca549.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm - rojo ciruela",
+          "label": "rojo ciruela",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H203402098f5242238826af4727d399abn.webp",
+          "alt": "Collar de Rosario de Perlas de Imitación de 8 mm - gris",
+          "label": "gris",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-5412614"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Cuentas de perlas de imitación de 8 mm",
+        "Incluye una cruz",
+        "Disponible en nueve variantes de color: gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul, púrpura",
+        "Estilo collar para usar o llevar",
+        "Categorizado bajo Rosarios Católicos"
+      ],
+      "specifications": [
+        {
+          "name": "Tamaño de la cuenta",
+          "value": "8 mm"
+        },
+        {
+          "name": "Material",
+          "value": "Perla de imitación"
+        },
+        {
+          "name": "Opciones de color principales",
+          "value": "Gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul, púrpura"
+        }
+      ],
+      "applications": [
+        "Oración personal del Rosario",
+        "Regalo para bautismo, primera comunión o confirmación",
+        "Inventario para tiendas de regalos de iglesias",
+        "Uso catequético en educación religiosa"
+      ],
+      "faq": [
+        {
+          "question": "¿De qué material están hechas las cuentas?",
+          "answer": "Las cuentas están hechas de perla de imitación, con un tamaño de 8 mm cada una."
+        },
+        {
+          "question": "¿Qué opciones de color están disponibles?",
+          "answer": "El collar de rosario viene en nueve variantes de color: gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul y púrpura."
+        },
+        {
+          "question": "¿La cruz es un crucifijo?",
+          "answer": "El producto se describe como con una cruz; no se especifica si es un crucifijo con la imagen del cuerpo de Cristo."
+        }
+      ],
+      "pricing": {
+        "price": "0.58",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.58"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collar de Rosario de Perlas de Imitación de 8 mm",
+          "description": "Un collar de rosario de perlas de imitación de 8 mm con una cruz, ofrecido en nueve variantes de color, incluyendo gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul y púrpura. Elaborado para la oración católica y uso devocional, adecuado para tiendas de regalos de iglesias y minoristas de artículos religiosos.",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf4330f25a41c44d0978f286aadfb8199X.jpg",
+            "https://sc04.alicdn.com/kf/H7f0c723aea724075b5b50e1a640a77d5g.jpg",
+            "https://sc04.alicdn.com/kf/Hb7716f2ec1f84022b67c24613c243371O.jpg",
+            "https://sc04.alicdn.com/kf/Hc3d241ad98724ee68c2ee5f3d1604ac4P.jpg",
+            "https://sc04.alicdn.com/kf/H751ad1dcbfaa46d9a79c9912db6985a6O.jpg",
+            "https://sc04.alicdn.com/kf/Hfc3b1b3974e641bc9a88ddba82ea5e4ed.jpg"
+          ],
+          "category": "Rosarios Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Tamaño de la cuenta",
+              "value": "8 mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Perla de imitación"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Opciones de color principales",
+              "value": "Gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul, púrpura"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.58",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.58",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿De qué material están hechas las cuentas?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Las cuentas están hechas de perla de imitación, con un tamaño de 8 mm cada una."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué opciones de color están disponibles?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El collar de rosario viene en nueve variantes de color: gris, rojo ciruela, marrón, negro, rojo, blanco, rosa, azul y púrpura."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿La cruz es un crucifijo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El producto se describe como con una cruz; no se especifica si es un crucifijo con la imagen del cuerpo de Cristo."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "fa8cccfecb4fb12bdf3d953a6d2f81d616979a462a28376259817b2a8d8d3e0c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "fa8cccfecb4fb12bdf3d953a6d2f81d616979a462a28376259817b2a8d8d3e0c",
+            "contentHash": "fa8cccfecb4fb12bdf3d953a6d2f81d616979a462a28376259817b2a8d8d3e0c",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:29.069Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "fa8cccfecb4fb12bdf3d953a6d2f81d616979a462a28376259817b2a8d8d3e0c",
+            "contentHash": "ea71ed2cfbc442ffb39c484657f8cfeed0436425b49858bd03faae90a6810bd6",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:05:48.513Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAERTG7BAOVioqqEY6eGI37m",
+      "sourceId": "AAERTG7BAOVioqqEY6eGI37m",
+      "sourceFingerprint": "c0f67c1fa08c395391dc95f5db148e6c45966d4da6042c8e5e06b2c7d76caeb8",
+      "locale": "es",
+      "slug": "wooden-rosary-necklace-with-cross-and-jesus-pendant-egi37m",
+      "title": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús",
+      "eyebrow": "Collar de rosario de madera",
+      "summary": "Este collar de rosario de madera presenta un crucifijo y un pendant de Jesús, ofrecido en cuatro opciones de color: Café, Marrón, Beige y Negro. Diseñado como rosario, sirve como accesorio devocional para uso personal o distribución al por mayor.",
+      "description": "Este collar de rosario de madera combina un crucifijo y un pendant de Jesús en una sola pieza, disponible en Café, Marrón, Beige y Negro. El diseño está categorizado como rosario, lo que lo hace adecuado para quienes buscan una ayuda para la oración o un accesorio religioso.\n\nElaborado en madera, este collar ofrece una estética natural que puede atraer a personas que buscan una alternativa ecológica a los rosarios de metal o plástico. Sus tonos neutros permiten que combine con varios estilos.\n\nOfrecemos este artículo al por mayor, y puede contactarnos para detalles de pedido. La selección de variantes incluye cuatro colores, lo que le permite elegir lo que mejor se ajuste a sus necesidades de inventario.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los misterios de la vida de Jesucristo y la Virgen María.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Rosarios Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H7269ab568b6f4bbc8c63f7485b307773R.webp",
+      "imageAlt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7269ab568b6f4bbc8c63f7485b307773R.webp",
+          "alt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1e7fbdad27624e459c1a6555ab4f6d4dL.webp",
+          "alt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0a24f6b717df4a69a351aa72716ce5d23.webp",
+          "alt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H68a4c02e2c7d4af3bde8d3184c06da2bJ.webp",
+          "alt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8e049b99d2e2495c80f49c5b37479eedO.webp",
+          "alt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7083e069ba4f47d5b8d297eb4ed56ffaU.webp",
+          "alt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc78d28895fce48309dda88bed572c210y.webp",
+          "alt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús - marrón",
+          "label": "marrón",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H413c39c357e244ee97f6628fed61d4017.webp",
+          "alt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús - café",
+          "label": "café",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcdf405d7f17d4b47adaf0cde150e16b23.webp",
+          "alt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús - beige",
+          "label": "beige",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m-V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1d65b660f00240799e3ab98e6bca280e8.webp",
+          "alt": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús - negro",
+          "label": "negro",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m-V-3327837"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Hecho de madera",
+        "Incluye un crucifijo y un pendant de Jesús",
+        "Disponible en variantes de color: Café, Marrón, Beige y Negro",
+        "Categoría de diseño: Rosario",
+        "Adecuado para pedidos al por mayor"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Madera"
+        },
+        {
+          "name": "Diseño",
+          "value": "Rosario"
+        },
+        {
+          "name": "Variantes de color",
+          "value": "Café, Marrón, Beige, Negro"
+        }
+      ],
+      "applications": [
+        "Uso personal para oración y devoción",
+        "Artículos de regalo religiosos",
+        "Suministro para iglesias o ministerios",
+        "Inventario para tiendas de artículos religiosos"
+      ],
+      "faq": [
+        {
+          "question": "¿Qué materiales se utilizan en este collar de rosario?",
+          "answer": "Este collar de rosario está hecho de madera, como se indica en la descripción del producto."
+        },
+        {
+          "question": "¿Qué opciones de color están disponibles para este collar de rosario de madera?",
+          "answer": "El collar está disponible en cuatro variantes de color: Café, Marrón, Beige y Negro."
+        },
+        {
+          "question": "¿Es este producto adecuado para compras al por mayor?",
+          "answer": "Sí, este producto está listado bajo joyería religiosa al por mayor, y apoyamos pedidos al por mayor. Contáctenos para más detalles."
+        }
+      ],
+      "pricing": {
+        "price": "0.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.23",
+          "max": "0.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collar de Rosario de Madera con Crucifijo y Pendant de Jesús",
+          "description": "Este collar de rosario de madera presenta un crucifijo y un pendant de Jesús, ofrecido en cuatro opciones de color: Café, Marrón, Beige y Negro. Diseñado como rosario, sirve como accesorio devocional para uso personal o distribución al por mayor.",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m",
+          "image": [
+            "https://sc04.alicdn.com/kf/H7269ab568b6f4bbc8c63f7485b307773R.jpg",
+            "https://sc04.alicdn.com/kf/H1e7fbdad27624e459c1a6555ab4f6d4dL.jpg",
+            "https://sc04.alicdn.com/kf/H0a24f6b717df4a69a351aa72716ce5d23.jpg",
+            "https://sc04.alicdn.com/kf/H68a4c02e2c7d4af3bde8d3184c06da2bJ.jpg",
+            "https://sc04.alicdn.com/kf/H8e049b99d2e2495c80f49c5b37479eedO.jpg",
+            "https://sc04.alicdn.com/kf/H7083e069ba4f47d5b8d297eb4ed56ffaU.jpg"
+          ],
+          "category": "Rosarios Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Madera"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Diseño",
+              "value": "Rosario"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variantes de color",
+              "value": "Café, Marrón, Beige, Negro"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.23",
+              "maxPrice": "0.30",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Qué materiales se utilizan en este collar de rosario?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Este collar de rosario está hecho de madera, como se indica en la descripción del producto."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué opciones de color están disponibles para este collar de rosario de madera?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El collar está disponible en cuatro variantes de color: Café, Marrón, Beige y Negro."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Es este producto adecuado para compras al por mayor?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, este producto está listado bajo joyería religiosa al por mayor, y apoyamos pedidos al por mayor. Contáctenos para más detalles."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "d2a4aa51fb211b7f3f16133b0c9adaa30fd87a730679022ef6c08bd2dd85afa2",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "d2a4aa51fb211b7f3f16133b0c9adaa30fd87a730679022ef6c08bd2dd85afa2",
+            "contentHash": "d2a4aa51fb211b7f3f16133b0c9adaa30fd87a730679022ef6c08bd2dd85afa2",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:35.238Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "d2a4aa51fb211b7f3f16133b0c9adaa30fd87a730679022ef6c08bd2dd85afa2",
+            "contentHash": "e7d94d8f945506c3ab249a428b3c675f84f4722d74975910c7fa3bfc4bb8c5a7",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:05:54.790Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH7TG7BAOVioqqEY6eYbTDC",
+      "sourceId": "AAH7TG7BAOVioqqEY6eYbTDC",
+      "sourceFingerprint": "163fc9b99223041bac9fd7cf4b8d3245cf4503d4e5dd0c1c07ecd8945961bad8",
+      "locale": "es",
+      "slug": "wood-grain-rosary-with-wooden-beads-and-cross-eybtdc",
+      "title": "Rosario de Veta de Madera con Cuentas de Madera y Cruz",
+      "eyebrow": "rosario de veta de madera",
+      "summary": "Un rosario de veta de madera con cuentas de madera y una cruz de Jesús, disponible en marrón o beige. Adecuado para uso devocional católico y pedidos al por mayor, este rosario ofrece una opción natural y táctil para la oración.",
+      "description": "Este rosario está elaborado con cuentas de madera y un acabado de veta de madera, presentando una estética natural. Incluye una cruz de Jesús, distinguiéndolo como un artículo devocional católico. Disponible en variantes de color marrón y beige. La construcción de madera ofrece una sensación cálida y tradicional. Para compradores al por mayor, este rosario sirve como una opción práctica para parroquias, tiendas de regalos o distribuidores de artículos religiosos. Su diseño simple se centra en los elementos esenciales del Rosario, lo que lo convierte en una adición sencilla a cualquier inventario católico.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los eventos de la vida de Jesucristo y la Virgen María.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Rosarios Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAH7TG7BAOVioqqEY6eYbTDC",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hfa27545d5c414d179d896e4ce29e0e0ac.webp",
+      "imageAlt": "Rosario de Veta de Madera con Cuentas de Madera y Cruz",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfa27545d5c414d179d896e4ce29e0e0ac.webp",
+          "alt": "Rosario de Veta de Madera con Cuentas de Madera y Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hee2ad901e46748c896d694d8b7c456fdB.webp",
+          "alt": "Rosario de Veta de Madera con Cuentas de Madera y Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha2360043af7d4cebb75de0dee2ebc897h.webp",
+          "alt": "Rosario de Veta de Madera con Cuentas de Madera y Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H86d65dfa10924be6a8ea18f3c6b15d574.webp",
+          "alt": "Rosario de Veta de Madera con Cuentas de Madera y Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H36a06f814db149f49a22fdb131b9956ba.webp",
+          "alt": "Rosario de Veta de Madera con Cuentas de Madera y Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdbf3b749dcd34cfd9d109f0eaf368d2ce.webp",
+          "alt": "Rosario de Veta de Madera con Cuentas de Madera y Cruz"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5dd2bf792d4d4ba2b0ac714a73052f48K.webp",
+          "alt": "Rosario de Veta de Madera con Cuentas de Madera y Cruz - marrón",
+          "label": "marrón",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eYbTDC-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H89bc2c190ba14fd69d74d1b84869d4d9y.webp",
+          "alt": "Rosario de Veta de Madera con Cuentas de Madera y Cruz - beige",
+          "label": "beige",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eYbTDC-V-5715155"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Acabado de veta de madera",
+        "Cuentas de madera",
+        "Cruz de Jesús",
+        "Disponible en marrón o beige",
+        "Diseño de rosario católico"
+      ],
+      "specifications": [
+        {
+          "name": "Variante",
+          "value": "Marrón, Beige"
+        }
+      ],
+      "applications": [
+        "Oración católica personal",
+        "Inventario de tienda de regalos parroquial",
+        "Materiales de educación religiosa",
+        "Distribución al por mayor"
+      ],
+      "faq": [
+        {
+          "question": "¿Qué materiales se utilizan en este rosario?",
+          "answer": "El rosario presenta cuentas de madera y un acabado de veta de madera, e incluye una cruz de Jesús."
+        },
+        {
+          "question": "¿Qué variantes de color están disponibles?",
+          "answer": "El rosario se ofrece en marrón y beige."
+        },
+        {
+          "question": "¿Es este rosario adecuado para pedidos al por mayor?",
+          "answer": "Sí, este rosario está disponible para abastecimiento al por mayor, lo que lo hace adecuado para compras en volumen."
+        }
+      ],
+      "pricing": {
+        "price": "0.48",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.48"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Rosario de Veta de Madera con Cuentas de Madera y Cruz",
+          "description": "Un rosario de veta de madera con cuentas de madera y una cruz de Jesús, disponible en marrón o beige. Adecuado para uso devocional católico y pedidos al por mayor, este rosario ofrece una opción natural y táctil para la oración.",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eYbTDC",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hfa27545d5c414d179d896e4ce29e0e0ac.jpg",
+            "https://sc04.alicdn.com/kf/Hee2ad901e46748c896d694d8b7c456fdB.jpg",
+            "https://sc04.alicdn.com/kf/Ha2360043af7d4cebb75de0dee2ebc897h.jpg",
+            "https://sc04.alicdn.com/kf/H86d65dfa10924be6a8ea18f3c6b15d574.jpg",
+            "https://sc04.alicdn.com/kf/H36a06f814db149f49a22fdb131b9956ba.jpg",
+            "https://sc04.alicdn.com/kf/Hdbf3b749dcd34cfd9d109f0eaf368d2ce.jpg"
+          ],
+          "category": "Rosarios Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Marrón, Beige"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.48",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.48",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Qué materiales se utilizan en este rosario?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El rosario presenta cuentas de madera y un acabado de veta de madera, e incluye una cruz de Jesús."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué variantes de color están disponibles?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El rosario se ofrece en marrón y beige."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Es este rosario adecuado para pedidos al por mayor?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, este rosario está disponible para abastecimiento al por mayor, lo que lo hace adecuado para compras en volumen."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "59bfad3399483d0e17f0364421af320ebb89e796f0174f8cf9c9f24ba7f9fbd3",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "59bfad3399483d0e17f0364421af320ebb89e796f0174f8cf9c9f24ba7f9fbd3",
+            "contentHash": "59bfad3399483d0e17f0364421af320ebb89e796f0174f8cf9c9f24ba7f9fbd3",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:41.867Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "59bfad3399483d0e17f0364421af320ebb89e796f0174f8cf9c9f24ba7f9fbd3",
+            "contentHash": "60679f4afc6958ff0f01db68d7741cd4ef81809f8d3fa4f3ac46112c72cd5ecc",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:06:00.167Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEoTG7BAOVioqqEY6eCTZ43",
+      "sourceId": "AAEoTG7BAOVioqqEY6eCTZ43",
+      "sourceFingerprint": "402d0ad35e1bf2f0d473963a503fc06186a34c47bc6e3a467d4e8d8ef55c75c6",
+      "locale": "es",
+      "slug": "8mm-wooden-rosary-beads-catholic-prayer-ectz43",
+      "title": "Rosario Católico de Madera de 8mm para Oración",
+      "eyebrow": "rosario de madera",
+      "summary": "Rosario de madera de 8mm con diseño de sarta y estilo religioso cristiano. Hecho de madera, estas cuentas sirven como ayuda para la oración y son adecuadas como regalo para ocasiones religiosas.",
+      "description": "Este rosario presenta cuentas de madera de 8mm dispuestas en forma de sarta, un estilo común para cuentas de oración. El material de madera ofrece una sensación natural y táctil al manipularlo. Elaborado en el estilo religioso asociado con el cristianismo, el rosario puede usarse para devoción personal o como artículo de regalo. Su diseño se alinea con la práctica católica tradicional de rezar el Rosario, que implica la meditación sobre los misterios de la vida de Jesús y María. Las cuentas se presentan como un collar de cuentas, lo que facilita llevarlo o usarlo. Adecuado para diversas ocasiones religiosas y de regalo, este rosario sirve como ayuda tangible para la oración.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los eventos de la vida de Jesucristo y la Virgen María.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Rosarios Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAEoTG7BAOVioqqEY6eCTZ43",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H5525737a49154b8a9195d7257bddeaedr.webp",
+      "imageAlt": "Rosario Católico de Madera de 8mm para Oración",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5525737a49154b8a9195d7257bddeaedr.webp",
+          "alt": "Rosario Católico de Madera de 8mm para Oración"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0f0cb2c487f41e7af12c1aad25e179bj.webp",
+          "alt": "Rosario Católico de Madera de 8mm para Oración"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7064a15168924ab9a6e205f1bbe1eafeN.webp",
+          "alt": "Rosario Católico de Madera de 8mm para Oración"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He215dfc2828a47798ea697f7715bc57e0.webp",
+          "alt": "Rosario Católico de Madera de 8mm para Oración"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Heb9b670544d241d69d044b3f21afb344H.webp",
+          "alt": "Rosario Católico de Madera de 8mm para Oración"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2d4e22e894d8438b81f6418e88fca51eK.webp",
+          "alt": "Rosario Católico de Madera de 8mm para Oración"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Cuentas de madera de 8mm",
+        "Tipo de cadena: sarta",
+        "Estilo religioso",
+        "Tipo religioso: cristianismo",
+        "Adecuado como regalo"
+      ],
+      "specifications": [
+        {
+          "name": "Material principal",
+          "value": "Madera"
+        },
+        {
+          "name": "Tamaño de la cuenta",
+          "value": "8mm"
+        },
+        {
+          "name": "Tipo de cadena",
+          "value": "Sarta"
+        },
+        {
+          "name": "Tipo de joyería",
+          "value": "Collar de cuentas"
+        },
+        {
+          "name": "Estilo",
+          "value": "Religioso"
+        }
+      ],
+      "applications": [
+        "Oración y devoción personal",
+        "Regalo para ocasiones religiosas",
+        "Uso en iglesias católicas",
+        "Educación religiosa"
+      ],
+      "faq": [
+        {
+          "question": "¿De qué material está hecho este rosario?",
+          "answer": "El rosario está hecho de madera, con cuentas de 8mm."
+        },
+        {
+          "question": "¿Es adecuado este rosario para la oración diaria?",
+          "answer": "Sí, las cuentas de madera son duraderas y el diseño de sarta facilita su manejo durante la oración."
+        },
+        {
+          "question": "¿Se puede usar este rosario como regalo?",
+          "answer": "Sí, está diseñado para ocasiones de regalo y es adecuado para eventos religiosos como Navidad o Pascua."
+        }
+      ],
+      "pricing": {
+        "price": "0.58",
+        "regularPrice": "0.58",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.58"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Rosario Católico de Madera de 8mm para Oración",
+          "description": "Rosario de madera de 8mm con diseño de sarta y estilo religioso cristiano. Hecho de madera, estas cuentas sirven como ayuda para la oración y son adecuadas como regalo para ocasiones religiosas.",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6eCTZ43",
+          "image": [
+            "https://sc04.alicdn.com/kf/H5525737a49154b8a9195d7257bddeaedr.jpg",
+            "https://sc04.alicdn.com/kf/Hc0f0cb2c487f41e7af12c1aad25e179bj.jpg",
+            "https://sc04.alicdn.com/kf/H7064a15168924ab9a6e205f1bbe1eafeN.jpg",
+            "https://sc04.alicdn.com/kf/He215dfc2828a47798ea697f7715bc57e0.jpg",
+            "https://sc04.alicdn.com/kf/Heb9b670544d241d69d044b3f21afb344H.jpg",
+            "https://sc04.alicdn.com/kf/H2d4e22e894d8438b81f6418e88fca51eK.jpg"
+          ],
+          "category": "Rosarios Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material principal",
+              "value": "Madera"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tamaño de la cuenta",
+              "value": "8mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de cadena",
+              "value": "Sarta"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de joyería",
+              "value": "Collar de cuentas"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Religioso"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.58",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.58",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿De qué material está hecho este rosario?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El rosario está hecho de madera, con cuentas de 8mm."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Es adecuado este rosario para la oración diaria?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, las cuentas de madera son duraderas y el diseño de sarta facilita su manejo durante la oración."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Se puede usar este rosario como regalo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, está diseñado para ocasiones de regalo y es adecuado para eventos religiosos como Navidad o Pascua."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b25d883d4d866d0d627bfc082caac7c84957e1550b7d8a85f4a6ff91387480ed",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b25d883d4d866d0d627bfc082caac7c84957e1550b7d8a85f4a6ff91387480ed",
+            "contentHash": "b25d883d4d866d0d627bfc082caac7c84957e1550b7d8a85f4a6ff91387480ed",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:35.361Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "b25d883d4d866d0d627bfc082caac7c84957e1550b7d8a85f4a6ff91387480ed",
+            "contentHash": "f44d304629c4ff648e5abfd9a0aac7f790e48fb6ff975ef2f6f10e3df9688253",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:06:05.882Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGbTG7BAOVioqqEY6eegS_J",
+      "sourceId": "AAGbTG7BAOVioqqEY6eegS_J",
+      "sourceFingerprint": "b46c02c88ef5e8ef594ea3c2222e3278aadc62f56da3b6c6e7d2c86f9ed42ca1",
+      "locale": "es",
+      "slug": "natural-wooden-rosary-cross-pendant-necklace-eegs_j",
+      "title": "Collar de Rosario de Madera Natural con Colgante de Cruz",
+      "eyebrow": "Collar de rosario de madera con colgante",
+      "summary": "Este collar de rosario de madera natural es unisex y presenta cuentas de madera natural y un diseño en forma de cruz, con un estilo religioso. La cadena de cuentas ofrece un aspecto clásico de rosario, siendo adecuado para la oración y el uso diario. Elaborado en madera, sirve como una ayuda tangible para la devoción católica.",
+      "description": "Un collar colgante de rosario de madera natural con cuentas en forma de cruz en una cadena de cuentas. El material de madera le da una sensación cálida y terrosa, mientras que la forma de cruz y el estilo religioso se adaptan a las prácticas devocionales católicas. Ya sea para la oración personal o como un recordatorio de la fe, este collar combina simplicidad con significado espiritual. Su diseño unisex lo hace versátil para hombres y mujeres. El tipo de cadena de cuentas refleja la estructura tradicional del rosario, apoyando la recitación de oraciones.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los eventos de la vida de Jesucristo y la Virgen María.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Rosarios Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAGbTG7BAOVioqqEY6eegS_J",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H635506da3e79420d89114e9251ff1765y.webp",
+      "imageAlt": "Collar de Rosario de Madera Natural con Colgante de Cruz",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H635506da3e79420d89114e9251ff1765y.webp",
+          "alt": "Collar de Rosario de Madera Natural con Colgante de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbae0d20387134eb59b3bd30408950ee2e.webp",
+          "alt": "Collar de Rosario de Madera Natural con Colgante de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H74a845de660d43daae398d463845cb12y.webp",
+          "alt": "Collar de Rosario de Madera Natural con Colgante de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H06a8fbc5bef44f7ea0c0c53219a6e479t.webp",
+          "alt": "Collar de Rosario de Madera Natural con Colgante de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H543cd256d60e49048c573d89af9b5126D.webp",
+          "alt": "Collar de Rosario de Madera Natural con Colgante de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H077978c6afc24861b9b80ad65893bff67.webp",
+          "alt": "Collar de Rosario de Madera Natural con Colgante de Cruz"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Elaborado con madera natural",
+        "Patrón en forma de cruz en las cuentas",
+        "Tipo de cadena de cuentas para un aspecto clásico de rosario",
+        "Diseño unisex",
+        "Estilo religioso"
+      ],
+      "specifications": [
+        {
+          "name": "Material principal",
+          "value": "Madera"
+        },
+        {
+          "name": "Tipo de collar",
+          "value": "Collar con colgante"
+        },
+        {
+          "name": "Tipo de cadena",
+          "value": "Cuentas"
+        },
+        {
+          "name": "Forma/Patrón",
+          "value": "Cruz"
+        },
+        {
+          "name": "Estilo",
+          "value": "Religioso"
+        }
+      ],
+      "applications": [
+        "Oración devocional diaria",
+        "Joyería religiosa para uso personal",
+        "Regalo para fieles católicos",
+        "Ayuda para la meditación"
+      ],
+      "faq": [
+        {
+          "question": "¿De qué material está hecho este collar de rosario?",
+          "answer": "El collar de rosario está hecho de madera natural, como se indica en las especificaciones del producto."
+        },
+        {
+          "question": "¿Es adecuado este collar tanto para hombres como para mujeres?",
+          "answer": "Sí, el collar está diseñado como unisex, por lo que es adecuado para cualquier persona, independientemente del género."
+        },
+        {
+          "question": "¿El collar tiene forma de cruz?",
+          "answer": "La forma/patrón del collar se describe como cruz, lo que indica un motivo de cruz en las cuentas."
+        }
+      ],
+      "pricing": {
+        "price": "0.50",
+        "regularPrice": "0.50",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.50"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collar de Rosario de Madera Natural con Colgante de Cruz",
+          "description": "Este collar de rosario de madera natural es unisex y presenta cuentas de madera natural y un diseño en forma de cruz, con un estilo religioso. La cadena de cuentas ofrece un aspecto clásico de rosario, siendo adecuado para la oración y el uso diario. Elaborado en madera, sirve como una ayuda tangible para la devoción católica.",
+          "sku": "ALI-AAGbTG7BAOVioqqEY6eegS_J",
+          "image": [
+            "https://sc04.alicdn.com/kf/H635506da3e79420d89114e9251ff1765y.jpg",
+            "https://sc04.alicdn.com/kf/Hbae0d20387134eb59b3bd30408950ee2e.jpg",
+            "https://sc04.alicdn.com/kf/H74a845de660d43daae398d463845cb12y.jpg",
+            "https://sc04.alicdn.com/kf/H06a8fbc5bef44f7ea0c0c53219a6e479t.jpg",
+            "https://sc04.alicdn.com/kf/H543cd256d60e49048c573d89af9b5126D.jpg",
+            "https://sc04.alicdn.com/kf/H077978c6afc24861b9b80ad65893bff67.jpg"
+          ],
+          "category": "Rosarios Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material principal",
+              "value": "Madera"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de collar",
+              "value": "Collar con colgante"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de cadena",
+              "value": "Cuentas"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Forma/Patrón",
+              "value": "Cruz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Religioso"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.50",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.50",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿De qué material está hecho este collar de rosario?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El collar de rosario está hecho de madera natural, como se indica en las especificaciones del producto."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Es adecuado este collar tanto para hombres como para mujeres?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, el collar está diseñado como unisex, por lo que es adecuado para cualquier persona, independientemente del género."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿El collar tiene forma de cruz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La forma/patrón del collar se describe como cruz, lo que indica un motivo de cruz en las cuentas."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "45efb2972207798be8b3083a3ef3f78e1c1f711c727c25f3ba7ac07fc453dee2",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "45efb2972207798be8b3083a3ef3f78e1c1f711c727c25f3ba7ac07fc453dee2",
+            "contentHash": "45efb2972207798be8b3083a3ef3f78e1c1f711c727c25f3ba7ac07fc453dee2",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:41.085Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "45efb2972207798be8b3083a3ef3f78e1c1f711c727c25f3ba7ac07fc453dee2",
+            "contentHash": "ffa505746b766b4af541dfa6d166bf72f8deb1212e6881dfc819ade7b17efc2d",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:06:12.027Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHqTG7BAOVioqqEY6eFBvXm",
+      "sourceId": "AAHqTG7BAOVioqqEY6eFBvXm",
+      "sourceFingerprint": "d4248a2b5237dc7500d392067f60fe29a5240faa1c0f713ae27f4d192fef4c6e",
+      "locale": "es",
+      "slug": "handmade-wooden-rosary-with-cross-catholic-jewelry-efbvxm",
+      "title": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica",
+      "eyebrow": "rosario de madera hecho a mano",
+      "summary": "Este rosario de madera hecho a mano presenta una cruz y cuentas de colores en ocho tonos terrosos y vibrantes. Una opción práctica para la oración católica o como regalo de bautismo o comunión. Ideal para compradores mayoristas que buscan variedad de colores.",
+      "description": "Este rosario de madera hecho a mano viene con una cruz y se ofrece en ocho variantes de color: beige, café, marrón, negro, rojo y colorido. El material de madera natural le da a cada pieza un aspecto distintivo, y la gama de colores le permite combinar con diferentes gustos u ocasiones.\n\nYa sea que sus clientes busquen una ayuda personal para la oración o un regalo para un bautismo o Primera Comunión, este rosario presenta una opción sencilla y tradicional. Las múltiples variantes de color son prácticas para exhibiciones en tiendas o para ofrecer opciones a clientes individuales.\n\nComo artículo al por mayor, este rosario es adecuado para tiendas de regalos de iglesias, librerías católicas o organizadores de eventos. Contáctenos para obtener detalles sobre pedidos al por mayor.",
+      "catholicContext": "El Rosario es una oración católica centrada en la contemplación de los misterios de la vida de Jesucristo y la Virgen María.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Rosarios Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H8a0aa6ea79dc481f9bf6a5938e03b510R.webp",
+      "imageAlt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a0aa6ea79dc481f9bf6a5938e03b510R.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0a3dbc7e23424d89a7236dd8f8c87215A.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He40b9df2377c4d47a8074c45537c1c03q.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc94ecfce1022443985a246abeac50404P.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H376b988243304d298eeaf73a72d3c7cao.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc13f60f54244e18b3d80ee5009e8cd9h.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f43a47f88ea4694b24d0b7ef2e972a8A.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica - café-2",
+          "label": "café-2",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haa6b2833141243ecbf09ebfba436cb7af.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica - rojo",
+          "label": "rojo",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1e8683548a64a3b85d8276f25effdb6X.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica - beige-2",
+          "label": "beige-2",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hba36e1b8e8dc49a8a9ab55b89fe89ce9t.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica - café",
+          "label": "café",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1a99f147d2f84ad3b3279d93543f01e2t.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica - colorido",
+          "label": "colorido",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2235564179c94ab9a12996a1bb2fec91C.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica - negro",
+          "label": "negro",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H916a4f1aa4d243e58708cad9aaf95678l.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica - beige",
+          "label": "beige",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdf756f2e17a94a82b60f7ed790657be4z.webp",
+          "alt": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica - marrón",
+          "label": "marrón",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V-3399503"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Construcción hecha a mano en madera",
+        "Incluye un colgante de cruz",
+        "Disponible en ocho variantes de color: Beige, Café, Marrón, Negro, Rojo, Colorido y dos tonos adicionales",
+        "Adecuado para usar como cuentas de oración o como regalo religioso",
+        "Cantidad al por mayor disponible"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Madera"
+        },
+        {
+          "name": "Variantes de color",
+          "value": "Beige-2, Café-2, Café, Marrón, Beige, Negro, Rojo, Colorido"
+        },
+        {
+          "name": "Incluye",
+          "value": "Cruz"
+        },
+        {
+          "name": "Estilo",
+          "value": "Hecho a mano"
+        }
+      ],
+      "applications": [
+        "Uso personal para oración",
+        "Regalos de bautismo",
+        "Regalos de Primera Comunión",
+        "Inventario de tienda de regalos de iglesia"
+      ],
+      "faq": [
+        {
+          "question": "¿Qué colores están disponibles para este rosario de madera?",
+          "answer": "Este rosario viene en ocho variantes de color: Beige-2, Café-2, Café, Marrón, Beige, Negro, Rojo y Colorido."
+        },
+        {
+          "question": "¿Este rosario incluye una cruz?",
+          "answer": "Sí, el producto incluye una cruz, como se indica en el título y la información del producto."
+        },
+        {
+          "question": "¿Este rosario es hecho a mano?",
+          "answer": "Sí, el rosario se describe como hecho a mano, lo que indica una elaboración individual en lugar de uniformidad producida en masa."
+        }
+      ],
+      "pricing": {
+        "price": "0.32",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.25",
+          "max": "0.32"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Rosario de Madera Hecho a Mano con Cruz – Joyería Católica",
+          "description": "Este rosario de madera hecho a mano presenta una cruz y cuentas de colores en ocho tonos terrosos y vibrantes. Una opción práctica para la oración católica o como regalo de bautismo o comunión. Ideal para compradores mayoristas que buscan variedad de colores.",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm",
+          "image": [
+            "https://sc04.alicdn.com/kf/H8a0aa6ea79dc481f9bf6a5938e03b510R.jpg",
+            "https://sc04.alicdn.com/kf/H0a3dbc7e23424d89a7236dd8f8c87215A.jpg",
+            "https://sc04.alicdn.com/kf/He40b9df2377c4d47a8074c45537c1c03q.jpg",
+            "https://sc04.alicdn.com/kf/Hc94ecfce1022443985a246abeac50404P.jpg",
+            "https://sc04.alicdn.com/kf/H376b988243304d298eeaf73a72d3c7cao.jpg",
+            "https://sc04.alicdn.com/kf/Hbc13f60f54244e18b3d80ee5009e8cd9h.jpg"
+          ],
+          "category": "Rosarios Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Madera"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variantes de color",
+              "value": "Beige-2, Café-2, Café, Marrón, Beige, Negro, Rojo, Colorido"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Incluye",
+              "value": "Cruz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Hecho a mano"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.32",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.25",
+              "maxPrice": "0.32",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Qué colores están disponibles para este rosario de madera?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Este rosario viene en ocho variantes de color: Beige-2, Café-2, Café, Marrón, Beige, Negro, Rojo y Colorido."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Este rosario incluye una cruz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, el producto incluye una cruz, como se indica en el título y la información del producto."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Este rosario es hecho a mano?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, el rosario se describe como hecho a mano, lo que indica una elaboración individual en lugar de uniformidad producida en masa."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "89fd81d25b5ab1c0dc957351b57b0268cf3f5e4c48d340a0f27d4f7e60071092",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "89fd81d25b5ab1c0dc957351b57b0268cf3f5e4c48d340a0f27d4f7e60071092",
+            "contentHash": "89fd81d25b5ab1c0dc957351b57b0268cf3f5e4c48d340a0f27d4f7e60071092",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:41.946Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "89fd81d25b5ab1c0dc957351b57b0268cf3f5e4c48d340a0f27d4f7e60071092",
+            "contentHash": "8092bcbbd3f6bcec0e044a4c6d8ca5ca18241b0c1b1a0425bddfad1bf8e542df",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:06:19.642Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGNTG7BAOVioqqEY6e286DA",
+      "sourceId": "AAGNTG7BAOVioqqEY6e286DA",
+      "sourceFingerprint": "a3f5fb638f9953f32cbf9858256aaac6b0c84064bb936bcbf11a5cbc1f4352ce",
+      "locale": "es",
+      "slug": "hot-selling-home-display-metal-saint-benedict-figurine-e286da",
+      "title": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta",
+      "eyebrow": "Accesorios",
+      "summary": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta, Tallado a Mano y Grabado, Regalo de Religión Benedictina",
+      "description": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta, Tallado a Mano y Grabado, Regalo de Religión Benedictina",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accesorios de Joyería",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb6508abb99ed414ca582aaa57c69e4b2V.webp",
+      "imageAlt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb6508abb99ed414ca582aaa57c69e4b2V.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0f22d8623834d7cab4f0ce3d6706bc57.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc9caf9ef579f4f319d0309e858d2a58du.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He9fdf9327429452e907ec53ff203d445P.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H466e748dd4dd4bcba2fae8cd398e9cc4b.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha533f2187a8d4d06bd419074eae68cf3i.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H455ce41eca724381a0fdd21e336e0352F.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta - plata antiguo",
+          "label": "plata antiguo",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf6e9dbb2b967494b9d9024c00f1a7e09d.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta - dorado",
+          "label": "dorado",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9bfb292577c442908b64ac2e4ec61220p.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta - rojo antiguo",
+          "label": "rojo antiguo",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1b13afb293b64378ab6e0b610e183e305.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta - verde antiguo",
+          "label": "verde antiguo",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H11b8567616c74ea289a7ded029185cc5N.webp",
+          "alt": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta - negro pistola",
+          "label": "negro pistola",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA-V--4"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Variante: Verde antiguo, Rojo antiguo, Plata antiguo, Negro pistola, Dorado"
+      ],
+      "specifications": [
+        {
+          "name": "Variante",
+          "value": "Verde antiguo, Rojo antiguo, Plata antiguo, Negro pistola, Dorado"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.15",
+          "max": "1.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta",
+          "description": "Figurilla de Metal de San Benito para Exhibición en el Hogar, de Gran Venta, Tallado a Mano y Grabado, Regalo de Religión Benedictina",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hb6508abb99ed414ca582aaa57c69e4b2V.png",
+            "https://sc04.alicdn.com/kf/Hb0f22d8623834d7cab4f0ce3d6706bc57.png",
+            "https://sc04.alicdn.com/kf/Hc9caf9ef579f4f319d0309e858d2a58du.png",
+            "https://sc04.alicdn.com/kf/He9fdf9327429452e907ec53ff203d445P.png",
+            "https://sc04.alicdn.com/kf/H466e748dd4dd4bcba2fae8cd398e9cc4b.png",
+            "https://sc04.alicdn.com/kf/Ha533f2187a8d4d06bd419074eae68cf3i.png"
+          ],
+          "category": "Accesorios de Joyería",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Verde antiguo, Rojo antiguo, Plata antiguo, Negro pistola, Dorado"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.15",
+              "maxPrice": "1.30",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "523537999410424b13a76292e564493c3b81998ff5b0e5f8480a045ed3fc6021",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "523537999410424b13a76292e564493c3b81998ff5b0e5f8480a045ed3fc6021",
+            "contentHash": "523537999410424b13a76292e564493c3b81998ff5b0e5f8480a045ed3fc6021",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:55:14.583Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "523537999410424b13a76292e564493c3b81998ff5b0e5f8480a045ed3fc6021",
+            "contentHash": "976b6cca007b302986bf4db3eb898468c840eb4f067e13edaa2e78fa33f83935",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:06:23.486Z",
             "model": "deepseek-v4-flash"
           }
         }

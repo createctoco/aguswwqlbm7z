@@ -2,23 +2,23 @@
   "schemaVersion": 3,
   "locale": "de",
   "sourceLocale": "en",
-  "sourceCatalogHash": "e671946880a2f07410c5beafde7aec66dcaf43b55431b565f7aaec0f0546c755",
-  "generatedAt": "2026-08-11T04:01:32.365Z",
+  "sourceCatalogHash": "2eac171501a571d352901c1f8e09df12ae81d99bc21020aa0a61b8bf3d3ce8a0",
+  "generatedAt": "2026-08-11T15:05:06.687Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
-    "modifiedAfter": "2026-08-09T15:53:16.918Z",
+    "modifiedAfter": null,
     "changedProductIds": [
-      "AAG1TG7BAOVioqqEY6eBSZTT",
-      "AAErTG7BAOVioqqEY6e1pONr",
-      "AAHeTG7BAOVioqqEY6eBS5T6",
-      "AAFfTG7BAOVioqqEY6eEg3lb",
-      "AAEgTG7BAOVioqqEY6eMhsZE",
-      "AAH3TG7BAOVioqqEY6eBTrdt",
-      "AAFBTG7BAOVioqqEY6eBRKNV",
-      "AAEQTG7BAOVioqqEY6eBSJ4l",
-      "AAEATG7BAOVioqqEY6eBSoGw",
-      "AAExTG7BAOVioqqEY6eBSkkZ"
+      "AAHITG7BAOVioqqEY6erCyDu",
+      "AAHtTG7BAOVioqqEY6erC0Pw",
+      "AAH_TG7BAOVioqqEY6erC-Lj",
+      "AAEzTG7BAOVioqqEY6eBRvxs",
+      "AAGWTG7BAOVioqqEY6e5QJaD",
+      "AAFYTG7BAOVioqqEY6eeQlcd",
+      "AAHhTG7BAOVioqqEY6eErU7e",
+      "AAHoTG7BAOVioqqEY6eBRTbo",
+      "AAE1TG7BAOVioqqEY6eErA10",
+      "AAERTG7BAOVioqqEY6eBT4E8"
     ],
     "deletedProductIds": []
   },
@@ -34,41 +34,32 @@
     "catholic-scapulars": "Katholische Skapuliere",
     "brooch": "Brosche"
   },
-  "categoryGlossarySourceHash": "fc4b62990340b344f357e7d7d04989e24221cda8766b0ff8b5d686fc55d3e17a",
+  "categoryGlossarySourceHash": "fbac66204ed2143d0eb559de90b360cba332f2af95f5eb37f458536910f477f2",
   "translationSummary": {
-    "ready": 159,
+    "ready": 169,
     "skipped": 1,
     "skippedProductIds": [
       "AAGxTG7BAOVioqqEY6e7uzWC"
     ],
-    "reused": 136,
-    "generated": 23,
+    "reused": 155,
+    "generated": 14,
     "generatedProductIds": [
-      "AAEtTG7BAOVioqqEY6e9ODX_",
-      "AAERTG7BAOVioqqEY6eg-6pI",
-      "AAFwTG7BAOVioqqEY6eeWvd9",
-      "AAG8TG7BAOVioqqEY6eh_0zM",
-      "AAEWTG7BAOVioqqEY6eBTGBl",
-      "AAH2TG7BAOVioqqEY6eBREbn",
-      "AAGITG7BAOVioqqEY6ee512i",
-      "AAHxTG7BAOVioqqEY6eBTeq1",
-      "AAEDTG7BAOVioqqEY6eBS0nq",
-      "AAFhTG7BAOVioqqEY6eBTiZo",
-      "AAGkTG7BAOVioqqEY6ezCLyp",
-      "AAHwTG7BAOVioqqEY6eBSxmH",
-      "AAFaTG7BAOVioqqEY6ez6dZk",
       "AAG1TG7BAOVioqqEY6eBSZTT",
-      "AAErTG7BAOVioqqEY6e1pONr",
-      "AAHeTG7BAOVioqqEY6eBS5T6",
       "AAFfTG7BAOVioqqEY6eEg3lb",
-      "AAEgTG7BAOVioqqEY6eMhsZE",
       "AAH3TG7BAOVioqqEY6eBTrdt",
       "AAEQTG7BAOVioqqEY6eBSJ4l",
-      "AAFBTG7BAOVioqqEY6eBRKNV",
-      "AAExTG7BAOVioqqEY6eBSkkZ",
-      "AAEATG7BAOVioqqEY6eBSoGw"
+      "AAHITG7BAOVioqqEY6erCyDu",
+      "AAHtTG7BAOVioqqEY6erC0Pw",
+      "AAH_TG7BAOVioqqEY6erC-Lj",
+      "AAEzTG7BAOVioqqEY6eBRvxs",
+      "AAGWTG7BAOVioqqEY6e5QJaD",
+      "AAFYTG7BAOVioqqEY6eeQlcd",
+      "AAHhTG7BAOVioqqEY6eErU7e",
+      "AAHoTG7BAOVioqqEY6eBRTbo",
+      "AAE1TG7BAOVioqqEY6eErA10",
+      "AAERTG7BAOVioqqEY6eBT4E8"
     ],
-    "retriedBacklog": 3,
+    "retriedBacklog": 1,
     "glossaryReused": true
   },
   "translationBacklog": [
@@ -8883,11 +8874,11 @@
       "sourceFingerprint": "126fb082acb61cc0a27f289d39d0987e48da21cc1381ad3cb2fa3a087a9343ac",
       "locale": "de",
       "slug": "embroidered-catholic-scapular-necklace-eeg3lb",
-      "title": "Besticktes Katholisches Skapulier-Halskette",
-      "eyebrow": "Katholisches Skapulier-Halskette",
-      "summary": "Diese katholische Skapulier-Halskette besteht aus Polyester mit einem bestickten JESUS-Motiv und ist als Anhänger gestaltet. Geeignet für Männer, Frauen und Kinder, dient sie als religiöses Geschenk für Hochzeiten, Jubiläen, Partys und andere Anlässe.",
-      "description": "Gefertigt aus Polyester, zeigt diese Skapulier-Halskette ein besticktes JESUS-Muster und bietet einen sichtbaren Ausdruck des Glaubens. Das Anhänger-Design ist leichtgewichtig und für den täglichen Gebrauch geeignet. Es spricht ein unisex Publikum an, einschließlich Kinder. Als religiös thematisiertes Accessoire kann es als Geschenk für Hochzeiten, Jubiläen oder andere besondere Anlässe gegeben werden. Das Material ist langlebig und pflegeleicht, was es zu einer praktischen Wahl für alle macht, die einen religiösen Gegenstand suchen.",
-      "catholicContext": "Skapuliere sind eine Form der Volksfrömmigkeit in der katholischen Tradition, die als Zeichen des Glaubens und der Hingabe getragen werden, obwohl dieses Einzelhandelsprodukt nicht als gesegnet oder Sakramentale beschrieben wird.",
+      "title": "Bestickte katholische Skapulier-Halskette",
+      "eyebrow": "Katholische Skapulier-Halskette",
+      "summary": "Diese katholische Skapulier-Halskette besteht aus Polyester mit einem bestickten JESUS-Motiv und ist als Anhänger im Accessoire-Stil gestaltet. Sie ist für Männer, Frauen und Kinder geeignet und dient als religiöses Geschenk für Hochzeiten, Jubiläen, Partys und andere Anlässe.",
+      "description": "Diese Skapulier-Halskette aus Polyester zeigt ein besticktes JESUS-Muster und bietet einen sichtbaren Ausdruck des Glaubens. Das Anhänger-Design ist leicht und für den täglichen Gebrauch geeignet, ansprechend für ein Unisex-Publikum, einschließlich Kindern. Als religiös thematisiertes Accessoire kann es als Geschenk für Hochzeiten, Jubiläen oder andere besondere Anlässe verwendet werden. Das Material ist langlebig und pflegeleicht, was es zu einer praktischen Wahl für alle macht, die ein Andachtsstück suchen.",
+      "catholicContext": "Skapuliere sind eine Form der Volksfrömmigkeit in der katholischen Tradition und werden als Zeichen des Glaubens und der Hingabe getragen, obwohl dieses Einzelhandelsprodukt nicht als gesegnet oder als Sakramentale beschrieben wird.",
       "catholicRelevance": "explicit",
       "categories": [
         {
@@ -8898,27 +8889,27 @@
       ],
       "sku": "ALI-AAFfTG7BAOVioqqEY6eEg3lb",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H4be890139912425d9295573a014ba86c9.webp",
-      "imageAlt": "Besticktes Katholisches Skapulier-Halskette",
+      "imageAlt": "Bestickte katholische Skapulier-Halskette",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H4be890139912425d9295573a014ba86c9.webp",
-          "alt": "Besticktes Katholisches Skapulier-Halskette"
+          "alt": "Bestickte katholische Skapulier-Halskette"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H21acd1f376734a7b9d3255e9ebde684cD.webp",
-          "alt": "Besticktes Katholisches Skapulier-Halskette"
+          "alt": "Bestickte katholische Skapulier-Halskette"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H7b323e917b3647a182f67e8ec2456563c.webp",
-          "alt": "Besticktes Katholisches Skapulier-Halskette"
+          "alt": "Bestickte katholische Skapulier-Halskette"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H3f71062ec6c34856943153bc23a60b38S.webp",
-          "alt": "Besticktes Katholisches Skapulier-Halskette"
+          "alt": "Bestickte katholische Skapulier-Halskette"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdcf3791379e943e6b8f14093f4f65adfp.webp",
-          "alt": "Besticktes Katholisches Skapulier-Halskette"
+          "alt": "Bestickte katholische Skapulier-Halskette"
         }
       ],
       "variantImages": [],
@@ -8927,8 +8918,8 @@
         "Hergestellt aus Polyester für Langlebigkeit und einfache Pflege",
         "Besticktes JESUS-Motiv auf dem Skapulier",
         "Anhänger-Design, geeignet als Halskette",
-        "Unisex-Design passend für Männer, Frauen und Kinder",
-        "Religiöses Thema für die katholische Andacht"
+        "Unisex-Design für Männer, Frauen und Kinder",
+        "Religiöses Thema, bestimmt für die katholische Andacht"
       ],
       "specifications": [
         {
@@ -8949,9 +8940,9 @@
         }
       ],
       "applications": [
-        "Getragen als persönliche Andachtskette",
+        "Als persönliche Andachtskette getragen",
         "Als religiöses Geschenk für Hochzeiten, Jubiläen oder Partys",
-        "In kirchlichen Geschenkartikelläden oder Geschäften für religiöse Artikel",
+        "In kirchlichen Geschenkartikelläden oder Geschäften für religiöse Artikel verwendet",
         "Geeignet als glaubensbasiertes Accessoire für den täglichen Gebrauch"
       ],
       "faq": [
@@ -8961,11 +8952,11 @@
         },
         {
           "question": "Ist dieses Skapulier für Kinder geeignet?",
-          "answer": "Ja, das Design ist unisex und gemäß den Produktspezifikationen für Männer, Frauen und Kinder geeignet."
+          "answer": "Ja, das Design ist Unisex und basierend auf den Produktspezifikationen für Männer, Frauen und Kinder geeignet."
         },
         {
           "question": "Welches Design hat das Skapulier?",
-          "answer": "Das Skapulier zeigt ein besticktes 'JESUS'-Motiv, wie in den Produkteigenschaften angegeben."
+          "answer": "Das Skapulier weist ein besticktes 'JESUS'-Motiv auf, wie in den Produktattributen angegeben."
         }
       ],
       "pricing": {
@@ -8982,8 +8973,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Besticktes Katholisches Skapulier-Halskette",
-          "description": "Diese katholische Skapulier-Halskette besteht aus Polyester mit einem bestickten JESUS-Motiv und ist als Anhänger gestaltet. Geeignet für Männer, Frauen und Kinder, dient sie als religiöses Geschenk für Hochzeiten, Jubiläen, Partys und andere Anlässe.",
+          "name": "Bestickte katholische Skapulier-Halskette",
+          "description": "Diese katholische Skapulier-Halskette besteht aus Polyester mit einem bestickten JESUS-Motiv und ist als Anhänger im Accessoire-Stil gestaltet. Sie ist für Männer, Frauen und Kinder geeignet und dient als religiöses Geschenk für Hochzeiten, Jubiläen, Partys und andere Anlässe.",
           "sku": "ALI-AAFfTG7BAOVioqqEY6eEg3lb",
           "image": [
             "https://sc04.alicdn.com/kf/H4be890139912425d9295573a014ba86c9.jpg",
@@ -9045,7 +9036,7 @@
               "name": "Ist dieses Skapulier für Kinder geeignet?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, das Design ist unisex und gemäß den Produktspezifikationen für Männer, Frauen und Kinder geeignet."
+                "text": "Ja, das Design ist Unisex und basierend auf den Produktspezifikationen für Männer, Frauen und Kinder geeignet."
               }
             },
             {
@@ -9053,7 +9044,7 @@
               "name": "Welches Design hat das Skapulier?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Das Skapulier zeigt ein besticktes 'JESUS'-Motiv, wie in den Produkteigenschaften angegeben."
+                "text": "Das Skapulier weist ein besticktes 'JESUS'-Motiv auf, wie in den Produktattributen angegeben."
               }
             }
           ]
@@ -9061,22 +9052,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "f6e86ff246115b653cf4ae44e033b0f49da71097e5c042974aa1789e7b041b66",
+        "sourceHash": "da90d486ee7edfbfffcbb1bb61c6e4cc1b2d5c8f67a04bfbb822be182de69987",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "f6e86ff246115b653cf4ae44e033b0f49da71097e5c042974aa1789e7b041b66",
-            "contentHash": "f6e86ff246115b653cf4ae44e033b0f49da71097e5c042974aa1789e7b041b66",
+            "sourceHash": "da90d486ee7edfbfffcbb1bb61c6e4cc1b2d5c8f67a04bfbb822be182de69987",
+            "contentHash": "da90d486ee7edfbfffcbb1bb61c6e4cc1b2d5c8f67a04bfbb822be182de69987",
             "attempts": 0,
             "updatedAt": "2026-08-11T03:50:33.067Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "f6e86ff246115b653cf4ae44e033b0f49da71097e5c042974aa1789e7b041b66",
-            "contentHash": "490946aacc89500bf57cd19fac6e110a25205c91a2fde00d9f9e2c9c454bd61f",
+            "sourceHash": "da90d486ee7edfbfffcbb1bb61c6e4cc1b2d5c8f67a04bfbb822be182de69987",
+            "contentHash": "ce731907e8dd6e4ae3843c968cf91c27b048f0597ebe9cc18893fb1f4b240b9b",
             "attempts": 1,
-            "updatedAt": "2026-08-11T04:00:55.422Z",
+            "updatedAt": "2026-08-11T15:03:46.443Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -10928,13 +10919,14 @@
     {
       "productId": "AAHhTG7BAOVioqqEY6eErU7e",
       "sourceId": "AAHhTG7BAOVioqqEY6eErU7e",
+      "sourceFingerprint": "2626c111255e6711a032dccc71c282369dba251faec4b1e7b16da502270f9d92",
       "locale": "de",
       "slug": "our-lady-of-mount-carmel-scapular-pendant-eeru7e",
-      "title": "Unserer Lieben Frau vom Berge Karmel Skapulier-Halskette",
-      "eyebrow": "Marianischer Andachts-Skapulier-Anhänger",
-      "summary": "Diese Skapulier-Halskette aus Polyester hat einen thematischen marianischen Anhänger, der die Hingabe an Unsere Liebe Frau vom Berge Karmel widerspiegelt. Mit geometrischer Form und religiösem Stil eignet sie sich für Unisex-Tragen und ist ein durchdachtes katholisches Geschenk.",
-      "description": "Diese Skapulier-Halskette kombiniert eine Polyester-Schnur mit einem marianischen Anhänger, dessen geometrische Form einem traditionellen Andachtsgegenstand ein klares, modernes Aussehen verleiht. Das Design konzentriert sich auf den Titel Unserer Lieben Frau vom Berge Karmel, eine vertraute Figur in der katholischen Marienfrömmigkeit.\n\nHergestellt aus leichtem Polyester, ist das Stück für den täglichen Gebrauch geeignet. Sein Unisex-Design passt für Männer, Frauen und Kinder. Der Anhängertyp fällt unter thematische Anhänger, ohne Edelsteinbesatz, sodass der Fokus auf dem religiösen Motiv liegt.",
-      "catholicContext": "Das Skapulier Unserer Lieben Frau vom Berge Karmel ist eine traditionelle marianische Andacht, die mit dem Karmelitenorden verbunden ist.",
+      "title": "Unserer Lieben Frau vom Berge Karmel Skapulier-Anhänger",
+      "eyebrow": "Katholischer Skapulier-Anhänger",
+      "summary": "Dieser Skapulier-Anhänger zeigt eine geometrische Darstellung Unserer Lieben Frau vom Berge Karmel aus Polyester. Ein religiös gestaltetes Accessoire für Männer, Frauen und Kinder, das modernen Look mit traditioneller Marienfrömmigkeit verbindet.",
+      "description": "Das geometrische Muster des Anhängers verleiht einem klassischen Andachtsbild Unserer Lieben Frau vom Berge Karmel eine zeitgenössische Note. Hergestellt aus Polyester ist er leicht und für den täglichen Gebrauch geeignet. Das Design ist unisex und somit eine vielseitige Ergänzung für jede Schmuckkollektion. Als religiös gestalteter Schmuck kann er als sichtbares Zeichen des Glaubens dienen. Wir bieten dieses Stück als Teil unseres Katalogs für katholische Geschenkartikel an; kontaktieren Sie uns für Bestelldetails.",
+      "catholicContext": "Marianisch bezieht sich auf die Jungfrau Maria im christlichen und katholischen Kontext; Unsere Liebe Frau vom Berge Karmel ist eine traditionelle marianische Andacht.",
       "catholicRelevance": "explicit",
       "categories": [
         {
@@ -10945,87 +10937,96 @@
       ],
       "sku": "ALI-AAHhTG7BAOVioqqEY6eErU7e",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H4b75d8a8a019464e8246dc2c06bf5263B.webp",
-      "imageAlt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Halskette",
+      "imageAlt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Anhänger",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H4b75d8a8a019464e8246dc2c06bf5263B.webp",
-          "alt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Halskette"
+          "alt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Anhänger"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H6d70360ddaa245909c5fa6ce615ea90bZ.webp",
-          "alt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Halskette"
+          "alt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Anhänger"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H1600753cd6374980a53b0f538ccf13feo.webp",
-          "alt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Halskette"
+          "alt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Anhänger"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha4f62f37313149218b8e35993e137f2dk.webp",
-          "alt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Halskette"
+          "alt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Anhänger"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H7cfcacf8a8bf4059bc572d0af17dfce06.webp",
-          "alt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Halskette"
+          "alt": "Unserer Lieben Frau vom Berge Karmel Skapulier-Anhänger"
         }
       ],
       "variantImages": [],
-      "accent": "#8b6b4a",
+      "accent": "#8a7b55",
       "features": [
-        "Hauptmaterial Polyester",
-        "Marianischer Themenanhänger",
-        "Religiöser Stil",
-        "Geometrisches Formmuster",
+        "Hergestellt aus Polyester",
+        "Geometrisches Muster Unserer Lieben Frau vom Berge Karmel",
+        "Religiös gestalteter katholischer Anhänger",
         "Unisex-Design für Männer, Frauen und Kinder",
-        "Kein Hauptstein"
+        "Geeignet als Geschenk für Anlässe wie Weihnachten"
       ],
       "specifications": [
         {
-          "name": "Hauptmaterial Schmuck",
+          "name": "Hauptmaterial",
           "value": "Polyester"
         },
         {
-          "name": "Anhängertyp",
-          "value": "Themenanhänger"
+          "name": "Schmuckart",
+          "value": "Anhänger oder Charm"
         },
         {
-          "name": "Form/Muster",
-          "value": "Geometrisch"
+          "name": "Geschlecht",
+          "value": "Unisex"
         },
         {
           "name": "Stil",
           "value": "Religiös"
         },
         {
-          "name": "Geschlecht",
-          "value": "Unisex"
+          "name": "Form/Muster",
+          "value": "Geometrisch"
         }
       ],
       "applications": [
-        "Katholisches Geschenk für besondere Anlässe",
-        "Marianische Andachtskleidung",
-        "Religiöses Accessoire für den täglichen Gebrauch",
-        "Erinnerungsgeschenk"
+        "Religiöser Schmuck für den persönlichen Gebrauch",
+        "Geschenk für katholische Anlässe wie Weihnachten",
+        "Hochzeits- oder Jubiläumsgeschenk",
+        "Andachtsaccessoire für den täglichen Gebrauch"
       ],
       "faq": [
         {
-          "question": "Aus welchem Material besteht diese Skapulier-Halskette?",
-          "answer": "Das Hauptmaterial ist Polyester, wie in den Produktattributen angegeben."
+          "question": "Aus welchem Material besteht dieser Skapulier-Anhänger?",
+          "answer": "Dieser Skapulier-Anhänger ist aus Polyester gefertigt."
         },
         {
-          "question": "Ist diese Halskette für Männer und Frauen geeignet?",
-          "answer": "Ja, das Produkt ist als Unisex gelistet und wird auch für Kinder erwähnt."
+          "question": "Ist dieser Anhänger für Männer und Frauen geeignet?",
+          "answer": "Ja, der Anhänger ist als Unisex-Design konzipiert und für Männer, Frauen und Kinder geeignet."
         },
         {
-          "question": "Trägt der Anhänger einen bestimmten marianischen Titel?",
-          "answer": "Der Produkttitel verweist auf Unsere Liebe Frau vom Berge Karmel, was ein marianisches Thema anzeigt, obwohl die genaue visuelle Darstellung nicht beschrieben ist."
+          "question": "Welches Design hat dieser Anhänger?",
+          "answer": "Der Anhänger zeigt ein geometrisches Muster, das Unsere Liebe Frau vom Berge Karmel darstellt, ein traditionelles Marienbild."
         }
       ],
+      "pricing": {
+        "price": "0.65",
+        "regularPrice": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.35",
+          "max": "0.65"
+        }
+      },
       "structuredData": {
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Unserer Lieben Frau vom Berge Karmel Skapulier-Halskette",
-          "description": "Diese Skapulier-Halskette aus Polyester hat einen thematischen marianischen Anhänger, der die Hingabe an Unsere Liebe Frau vom Berge Karmel widerspiegelt. Mit geometrischer Form und religiösem Stil eignet sie sich für Unisex-Tragen und ist ein durchdachtes katholisches Geschenk.",
+          "name": "Unserer Lieben Frau vom Berge Karmel Skapulier-Anhänger",
+          "description": "Dieser Skapulier-Anhänger zeigt eine geometrische Darstellung Unserer Lieben Frau vom Berge Karmel aus Polyester. Ein religiös gestaltetes Accessoire für Männer, Frauen und Kinder, das modernen Look mit traditioneller Marienfrömmigkeit verbindet.",
           "sku": "ALI-AAHhTG7BAOVioqqEY6eErU7e",
           "image": [
             "https://sc04.alicdn.com/kf/H4b75d8a8a019464e8246dc2c06bf5263B.jpg",
@@ -11038,18 +11039,18 @@
           "additionalProperty": [
             {
               "@type": "PropertyValue",
-              "name": "Hauptmaterial Schmuck",
+              "name": "Hauptmaterial",
               "value": "Polyester"
             },
             {
               "@type": "PropertyValue",
-              "name": "Anhängertyp",
-              "value": "Themenanhänger"
+              "name": "Schmuckart",
+              "value": "Anhänger oder Charm"
             },
             {
               "@type": "PropertyValue",
-              "name": "Form/Muster",
-              "value": "Geometrisch"
+              "name": "Geschlecht",
+              "value": "Unisex"
             },
             {
               "@type": "PropertyValue",
@@ -11058,10 +11059,22 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Geschlecht",
-              "value": "Unisex"
+              "name": "Form/Muster",
+              "value": "Geometrisch"
             }
-          ]
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.35",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
         },
         "faq": {
           "@context": "https://schema.org",
@@ -11069,26 +11082,26 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Aus welchem Material besteht diese Skapulier-Halskette?",
+              "name": "Aus welchem Material besteht dieser Skapulier-Anhänger?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Das Hauptmaterial ist Polyester, wie in den Produktattributen angegeben."
+                "text": "Dieser Skapulier-Anhänger ist aus Polyester gefertigt."
               }
             },
             {
               "@type": "Question",
-              "name": "Ist diese Halskette für Männer und Frauen geeignet?",
+              "name": "Ist dieser Anhänger für Männer und Frauen geeignet?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, das Produkt ist als Unisex gelistet und wird auch für Kinder erwähnt."
+                "text": "Ja, der Anhänger ist als Unisex-Design konzipiert und für Männer, Frauen und Kinder geeignet."
               }
             },
             {
               "@type": "Question",
-              "name": "Trägt der Anhänger einen bestimmten marianischen Titel?",
+              "name": "Welches Design hat dieser Anhänger?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Der Produkttitel verweist auf Unsere Liebe Frau vom Berge Karmel, was ein marianisches Thema anzeigt, obwohl die genaue visuelle Darstellung nicht beschrieben ist."
+                "text": "Der Anhänger zeigt ein geometrisches Muster, das Unsere Liebe Frau vom Berge Karmel darstellt, ein traditionelles Marienbild."
               }
             }
           ]
@@ -11096,22 +11109,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "4d38cf7fbc5e0a022dfce6bd14ab5c9fc88dd5218288c028fc33305a935fa751",
+        "sourceHash": "7d642c4b2380ac56ab4e0a06a95594015a3ff0c477fc3d3fe23261c6db0e3962",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "4d38cf7fbc5e0a022dfce6bd14ab5c9fc88dd5218288c028fc33305a935fa751",
-            "contentHash": "4d38cf7fbc5e0a022dfce6bd14ab5c9fc88dd5218288c028fc33305a935fa751",
+            "sourceHash": "7d642c4b2380ac56ab4e0a06a95594015a3ff0c477fc3d3fe23261c6db0e3962",
+            "contentHash": "7d642c4b2380ac56ab4e0a06a95594015a3ff0c477fc3d3fe23261c6db0e3962",
             "attempts": 0,
-            "updatedAt": "2026-08-08T10:27:41.670Z",
+            "updatedAt": "2026-08-11T14:57:29.042Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "4d38cf7fbc5e0a022dfce6bd14ab5c9fc88dd5218288c028fc33305a935fa751",
-            "contentHash": "9a7f2953f5021b452f4724f9817d471a3e095bbea43a74063cbd2ebcba852b1e",
+            "sourceHash": "7d642c4b2380ac56ab4e0a06a95594015a3ff0c477fc3d3fe23261c6db0e3962",
+            "contentHash": "d5b91e3e7c21c5d6127ce0b4fb6bf4e5a82eae543f82044113ec84a1828f1d0c",
             "attempts": 1,
-            "updatedAt": "2026-08-09T10:04:50.318Z",
+            "updatedAt": "2026-08-11T15:04:47.529Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -12972,13 +12985,14 @@
     {
       "productId": "AAE1TG7BAOVioqqEY6eErA10",
       "sourceId": "AAE1TG7BAOVioqqEY6eErA10",
+      "sourceFingerprint": "1ae928ffbf43303b5cfaa4d20c684343b1a241174f7639b556885b330544d3c9",
       "locale": "de",
-      "slug": "children-s-catholic-scapular-necklace-eera10",
-      "title": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel",
-      "eyebrow": "Katholischer Skapulier-Schmuck für Kinder",
-      "summary": "Dieser Skapulier-Schmuck für Kinder zeigt das Motiv Unserer Lieben Frau vom Berge Karmel. Handgefertigt aus Polyester, ist er in den Farbvarianten Schwarz, Rot und Grün erhältlich. Ein durchdachtes Geschenk für katholische Familien.",
-      "description": "Diese handgefertigte Skapulier-Halskette für Kinder besteht aus Polyester und bietet eine leichte Option für den täglichen Gebrauch. Das Design konzentriert sich auf Unsere Liebe Frau vom Berge Karmel, ein vertrautes Bild in der katholischen Frömmigkeit. Erhältlich in drei Farbvarianten – Schwarz, Rot und Grün –, die eine persönliche Präferenz ermöglichen. Geeignet als Geschenk für Kinder in katholischen Familien oder als Lehrmittel für die Glaubensbildung. Seine einfache Konstruktion macht ihn für Kinder leicht zu tragen. Ob zur Erstkommunion oder zum Geburtstag, dieser Skapulier-Schmuck dient als fromme Erinnerung.",
-      "catholicContext": "Die Marienverehrung umfasst das Braune Skapulier Unserer Lieben Frau vom Berge Karmel, ein beliebtes katholisches Andachtsobjekt.",
+      "slug": "ouooo-handcrafted-children-s-catholic-scapular-jewelry-religious-eera10",
+      "title": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös",
+      "eyebrow": "Katholische Skapuliere",
+      "summary": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiöser Talisman, Polyester, Unserer Lieben Frau vom Berge Karmel, Geschenk",
+      "description": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiöser Talisman, Polyester, Unserer Lieben Frau vom Berge Karmel, Geschenk",
+      "catholicContext": "",
       "catholicRelevance": "devotional_context",
       "categories": [
         {
@@ -12989,106 +13003,80 @@
       ],
       "sku": "ALI-AAE1TG7BAOVioqqEY6eErA10",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Ha18f4d39a827453690f8e528b37136fef.webp",
-      "imageAlt": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel",
+      "imageAlt": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha18f4d39a827453690f8e528b37136fef.webp",
-          "alt": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel"
+          "alt": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H33891616bae440d5a05e2f71913b6b54t.webp",
-          "alt": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel"
+          "alt": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H96ac52f8d84f4b50875bbdca1d789e0cP.webp",
-          "alt": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel"
+          "alt": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha654c8f804634b77aac8cc3c9982cfefU.webp",
-          "alt": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel"
+          "alt": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc48fd8cbb6548ca850df02f8640834eE.webp",
-          "alt": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel"
+          "alt": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb2e60c71b61a4fdabf18eb2ea8851ea6D.webp",
-          "alt": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel"
+          "alt": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös"
         }
       ],
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H2f74d00a6d324e4f9dc8be74f54f900aS.webp",
-          "alt": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel – grün",
+          "alt": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös - grün",
           "label": "grün",
           "sku": "ALI-AAE1TG7BAOVioqqEY6eErA10-V--1"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1d378b0d14a4e6394f498ca6b7eb8bf1.webp",
-          "alt": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel – rot",
+          "alt": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös - rot",
           "label": "rot",
           "sku": "ALI-AAE1TG7BAOVioqqEY6eErA10-V--2"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ddb6cbae666426aaead1e9368ef299dy.webp",
-          "alt": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel – schwarz",
+          "alt": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös - schwarz",
           "label": "schwarz",
           "sku": "ALI-AAE1TG7BAOVioqqEY6eErA10-V--3"
         }
       ],
-      "accent": "#8a7b55",
+      "accent": "#8b6b4a",
       "features": [
-        "Handgefertigte Konstruktion",
-        "Polyestermaterial",
-        "Design Unserer Lieben Frau vom Berge Karmel",
-        "Drei Farbvarianten: Schwarz, Rot, Grün",
-        "Für Kinder entwickelt",
-        "Leicht für den täglichen Gebrauch"
+        "Variante: Schwarz, Rot, Grün"
       ],
       "specifications": [
         {
-          "name": "Material",
-          "value": "Polyester"
-        },
-        {
-          "name": "Farbvarianten",
+          "name": "Variante",
           "value": "Schwarz, Rot, Grün"
-        },
-        {
-          "name": "Design",
-          "value": "Unsere Liebe Frau vom Berge Karmel"
-        },
-        {
-          "name": "Zielgruppe",
-          "value": "Kinder"
         }
       ],
-      "applications": [
-        "Geschenk zur Erstkommunion oder zum Taufjubiläum eines Kindes",
-        "Katholischer Glaubensunterricht",
-        "Tägliche Andacht für Kinder",
-        "Hilfsmittel im Religionsunterricht"
-      ],
-      "faq": [
-        {
-          "question": "Aus welchem Material besteht dieser Skapulier-Schmuck?",
-          "answer": "Dieser Skapulier-Schmuck besteht aus Polyester, das leicht und langlebig für Kinder ist."
-        },
-        {
-          "question": "Welche Farboptionen sind verfügbar?",
-          "answer": "Dieser Skapulier-Schmuck ist in drei Farbvarianten erhältlich: Schwarz, Rot und Grün."
-        },
-        {
-          "question": "Ist dieser Skapulier-Schmuck für den täglichen Gebrauch durch Kinder geeignet?",
-          "answer": "Ja, das Polyestermaterial und das leichte Design machen ihn für den täglichen Gebrauch geeignet. Wie bei jedem Schmuck wird jedoch für sehr junge Kinder eine Aufsicht durch Erwachsene empfohlen."
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.35",
+          "max": "0.65"
         }
-      ],
+      },
       "structuredData": {
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Katholischer Skapulier-Schmuck für Kinder – Unsere Liebe Frau vom Berge Karmel",
-          "description": "Dieser Skapulier-Schmuck für Kinder zeigt das Motiv Unserer Lieben Frau vom Berge Karmel. Handgefertigt aus Polyester, ist er in den Farbvarianten Schwarz, Rot und Grün erhältlich. Ein durchdachtes Geschenk für katholische Familien.",
+          "name": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiös",
+          "description": "OUOOO Handgefertigter Katholischer Skapulier-Schmuck für Kinder, Religiöser Talisman, Polyester, Unserer Lieben Frau vom Berge Karmel, Geschenk",
           "sku": "ALI-AAE1TG7BAOVioqqEY6eErA10",
           "image": [
             "https://sc04.alicdn.com/kf/Ha18f4d39a827453690f8e528b37136fef.jpg",
@@ -13102,75 +13090,42 @@
           "additionalProperty": [
             {
               "@type": "PropertyValue",
-              "name": "Material",
-              "value": "Polyester"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Farbvarianten",
+              "name": "Variante",
               "value": "Schwarz, Rot, Grün"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Design",
-              "value": "Unsere Liebe Frau vom Berge Karmel"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Zielgruppe",
-              "value": "Kinder"
             }
-          ]
-        },
-        "faq": {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Aus welchem Material besteht dieser Skapulier-Schmuck?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Dieser Skapulier-Schmuck besteht aus Polyester, das leicht und langlebig für Kinder ist."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Welche Farboptionen sind verfügbar?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Dieser Skapulier-Schmuck ist in drei Farbvarianten erhältlich: Schwarz, Rot und Grün."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Ist dieser Skapulier-Schmuck für den täglichen Gebrauch durch Kinder geeignet?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, das Polyestermaterial und das leichte Design machen ihn für den täglichen Gebrauch geeignet. Wie bei jedem Schmuck wird jedoch für sehr junge Kinder eine Aufsicht durch Erwachsene empfohlen."
-              }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.35",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
             }
-          ]
+          }
         }
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "d3113f5f5a0bbba3bbecaecd5201c6bde2eaae6736878f963c4bf920a6bb37a1",
+        "sourceHash": "bf2d22b9c2598c357cf91ebd27a884524c856cb1146af03cf3892a7c18647028",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "d3113f5f5a0bbba3bbecaecd5201c6bde2eaae6736878f963c4bf920a6bb37a1",
-            "contentHash": "d3113f5f5a0bbba3bbecaecd5201c6bde2eaae6736878f963c4bf920a6bb37a1",
+            "sourceHash": "bf2d22b9c2598c357cf91ebd27a884524c856cb1146af03cf3892a7c18647028",
+            "contentHash": "bf2d22b9c2598c357cf91ebd27a884524c856cb1146af03cf3892a7c18647028",
             "attempts": 0,
-            "updatedAt": "2026-08-08T10:32:01.771Z",
+            "updatedAt": "2026-08-11T14:58:00.571Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "d3113f5f5a0bbba3bbecaecd5201c6bde2eaae6736878f963c4bf920a6bb37a1",
-            "contentHash": "c3799bac6ea7c706b1a8a9c6a8d830ac6164997419535207881d56fa3a0bed1c",
+            "sourceHash": "bf2d22b9c2598c357cf91ebd27a884524c856cb1146af03cf3892a7c18647028",
+            "contentHash": "91954ae8521e58b5f50071d9a58c603560bf7bfd6eafc46979be39f0592d2c67",
             "attempts": 1,
-            "updatedAt": "2026-08-09T10:05:54.956Z",
+            "updatedAt": "2026-08-11T15:04:59.202Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -39699,8 +39654,8 @@
       "slug": "black-glass-bead-rosary-bracelet-with-alloy-cross-ebsztt",
       "title": "Schwarzes Glasperlen-Rosenkranz-Armband mit Legierungskreuz",
       "eyebrow": "Schwarzes Glasperlen-Rosenkranz-Armband mit Legierungskreuz",
-      "summary": "Ein Unisex-Rosenkranz-Armband aus schwarzen Glasperlen mit einem Legierungskreuz und kanalgefassten Steinen. Entworfen im religiösen Stil für katholische Schmuckkäufer. Hergestellt in Zhejiang, China, bietet dieses Perlenarmband eine dezente Option für den täglichen Gebrauch.",
-      "description": "Dieses Rosenkranz-Armband aus schwarzen Glasperlen bietet eine moderne Interpretation traditioneller Gebetsperlen. Das Legierungskreuz dient als Blickfang, während die kanalgefassten Steine einen dezenten Glanz verleihen. Das Unisex-Design passt sowohl für Männer als auch für Frauen.\n\nAls Perlenarmband im religiösen Stil gefertigt, ist es katholischen Ursprungs. Das Armband fällt in die Kategorie der Rosenkranz-Armbänder und ist somit eine tragbare Wahl für das Gebet. Im Großhandel für Einzelhändler und Distributoren erhältlich.",
+      "summary": "Ein Unisex-Rosenkranz-Armband aus schwarzen Glasperlen mit einem Kreuz aus Legierung und versetzt eingefassten Steinen. Im religiösen Stil für katholische Schmuckkäufer entworfen. Hergestellt in Zhejiang, China, bietet dieses Perlenarmband eine dezente, alltägliche Andachtsmöglichkeit.",
+      "description": "Dieses Rosenkranz-Armband aus schwarzen Glasperlen präsentiert eine moderne Interpretation traditioneller Gebetsperlen. Das Kreuz aus Legierung dient als Blickfang, während die versetzt eingefassten Steine einen dezenten Glanz verleihen. Das Unisex-Design passt sowohl für Männer als auch für Frauen.\n\nAls Perlenarmband im religiösen Stil gefertigt, wird es als katholisch identifiziert. Das Armband fällt in die Kategorie der Rosenkranz-Armbänder und ist somit eine tragbare Wahl für das Gebet. Im Großhandel für Einzelhändler und Distributoren erhältlich.",
       "catholicContext": "Der Rosenkranz ist ein traditionelles katholisches Gebet, das sich auf die Betrachtung der Ereignisse im Leben Jesu Christi und der Jungfrau Maria konzentriert.",
       "catholicRelevance": "devotional_context",
       "categories": [
@@ -39740,9 +39695,9 @@
       "features": [
         "Schwarze Glasperlen in einem Perlenarmband-Format",
         "Legierungskreuz als Akzent",
-        "Kanalgefasste Steineinlagen",
+        "Versetzt eingefasste Steineinlage",
         "Unisex-Design",
-        "Religiöser Stil, katholischer Typ",
+        "Religiöser Stil, katholische Art",
         "Hergestellt in Zhejiang, China"
       ],
       "specifications": [
@@ -39759,7 +39714,7 @@
           "value": "Prinzessschliff"
         },
         {
-          "name": "Fassungstechnik",
+          "name": "Einfasstechnik",
           "value": "Kanalfassung"
         },
         {
@@ -39771,24 +39726,24 @@
           "value": "Unisex"
         },
         {
-          "name": "Ursprungsort",
+          "name": "Herkunftsort",
           "value": "Zhejiang, China"
         }
       ],
       "applications": [
         "Persönliches Gebet oder Andacht",
         "Alltäglicher religiöser Schmuck",
-        "Geschenk für katholische Anlässe",
-        "Großhandelsbestand für Einzelhändler"
+        "Geschenkartikel für katholische Anlässe",
+        "Großhandelslager für Einzelhandel"
       ],
       "faq": [
         {
           "question": "Welche Materialien werden für dieses Rosenkranz-Armband verwendet?",
-          "answer": "Das Armband besteht aus schwarzen Glasperlen und einem Legierungskreuz, mit kanalgefassten Steinen (Prinzessschliff) als Akzenten."
+          "answer": "Das Armband besteht aus schwarzen Glasperlen und einem Kreuz aus Legierung, mit versetzt eingefassten Steinen (Prinzessschliff) als Akzenten."
         },
         {
           "question": "Ist dieses Armband für Männer und Frauen geeignet?",
-          "answer": "Ja, das Armband ist als Unisex gekennzeichnet und somit für jeden Träger geeignet."
+          "answer": "Ja, das Armband ist als Unisex gekennzeichnet und für jeden Träger geeignet."
         },
         {
           "question": "Kann ich dieses Rosenkranz-Armband in großen Mengen für mein Geschäft bestellen?",
@@ -39810,7 +39765,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Schwarzes Glasperlen-Rosenkranz-Armband mit Legierungskreuz",
-          "description": "Ein Unisex-Rosenkranz-Armband aus schwarzen Glasperlen mit einem Legierungskreuz und kanalgefassten Steinen. Entworfen im religiösen Stil für katholische Schmuckkäufer. Hergestellt in Zhejiang, China, bietet dieses Perlenarmband eine dezente Option für den täglichen Gebrauch.",
+          "description": "Ein Unisex-Rosenkranz-Armband aus schwarzen Glasperlen mit einem Kreuz aus Legierung und versetzt eingefassten Steinen. Im religiösen Stil für katholische Schmuckkäufer entworfen. Hergestellt in Zhejiang, China, bietet dieses Perlenarmband eine dezente, alltägliche Andachtsmöglichkeit.",
           "sku": "ALI-AAG1TG7BAOVioqqEY6eBSZTT",
           "image": [
             "https://sc04.alicdn.com/kf/H2bdb30e961e14c378d0db9d13cc57800T.jpg",
@@ -39838,7 +39793,7 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Fassungstechnik",
+              "name": "Einfasstechnik",
               "value": "Kanalfassung"
             },
             {
@@ -39853,7 +39808,7 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Ursprungsort",
+              "name": "Herkunftsort",
               "value": "Zhejiang, China"
             }
           ],
@@ -39879,7 +39834,7 @@
               "name": "Welche Materialien werden für dieses Rosenkranz-Armband verwendet?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Das Armband besteht aus schwarzen Glasperlen und einem Legierungskreuz, mit kanalgefassten Steinen (Prinzessschliff) als Akzenten."
+                "text": "Das Armband besteht aus schwarzen Glasperlen und einem Kreuz aus Legierung, mit versetzt eingefassten Steinen (Prinzessschliff) als Akzenten."
               }
             },
             {
@@ -39887,7 +39842,7 @@
               "name": "Ist dieses Armband für Männer und Frauen geeignet?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, das Armband ist als Unisex gekennzeichnet und somit für jeden Träger geeignet."
+                "text": "Ja, das Armband ist als Unisex gekennzeichnet und für jeden Träger geeignet."
               }
             },
             {
@@ -39903,22 +39858,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "202c58c535af9be6d0073b0d3aa3ae431ca8801d5130454872dfd6175b8abe71",
+        "sourceHash": "d92a6c45a26a41237278923e56d9c80829a46d118934d465b9c8cfdb160fc8ca",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "202c58c535af9be6d0073b0d3aa3ae431ca8801d5130454872dfd6175b8abe71",
-            "contentHash": "202c58c535af9be6d0073b0d3aa3ae431ca8801d5130454872dfd6175b8abe71",
+            "sourceHash": "d92a6c45a26a41237278923e56d9c80829a46d118934d465b9c8cfdb160fc8ca",
+            "contentHash": "d92a6c45a26a41237278923e56d9c80829a46d118934d465b9c8cfdb160fc8ca",
             "attempts": 0,
             "updatedAt": "2026-08-11T03:49:14.091Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "202c58c535af9be6d0073b0d3aa3ae431ca8801d5130454872dfd6175b8abe71",
-            "contentHash": "dc2629b47c128948e63c3c97697ff184886ef79c95cea4d1baecb90cbcf7405e",
+            "sourceHash": "d92a6c45a26a41237278923e56d9c80829a46d118934d465b9c8cfdb160fc8ca",
+            "contentHash": "a630872a1fb10c6405e6d0ab177fcf7636c23554b69080eaf1a73fd531af6fe0",
             "attempts": 1,
-            "updatedAt": "2026-08-11T04:00:32.494Z",
+            "updatedAt": "2026-08-11T15:03:39.842Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -39930,11 +39885,11 @@
       "sourceFingerprint": "738f2ed424c34cb78e0d385c7b6a84e8b9af63d1a27945d624b84494519bf96c",
       "locale": "de",
       "slug": "saint-benedict-pendant-necklace-in-stainless-steel-ebtrdt",
-      "title": "St. Benedikt Anhänger-Halskette aus Edelstahl",
-      "eyebrow": "St. Benedikt Anhänger-Halskette",
-      "summary": "Diese Halskette mit Anhänger aus Edelstahl zeigt das Bild des Heiligen Benedikt. Erhältlich in Schwarz, Gold oder Silber, ist sie eine langlebige Wahl für den täglichen Gebrauch. Geeignet für Damen und Herren.",
-      "description": "Diese Anhänger-Halskette aus Edelstahl zeigt eine klare Darstellung des Heiligen Benedikt. Die Metallkonstruktion ist anlaufgeschützt und somit eine praktische Option für den regelmäßigen Gebrauch.\n\nIn drei Ausführungen erhältlich – Schwarz, Gold und Silber – passt sie zu verschiedenen persönlichen Stilen. Das Unisex-Design passt sowohl für Damen als auch für Herren.\n\nAls Darstellung eines beliebten Heiligen kann diese Halskette als visuelle Erinnerung an den eigenen Glauben dienen.",
-      "catholicContext": "Die Medaille des Heiligen Benedikt ist ein beliebtes Andachtsobjekt in der katholischen Tradition und wird oft als Ausdruck des Glaubens verwendet.",
+      "title": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl",
+      "eyebrow": "Halskette mit Anhänger des Heiligen Benedikt",
+      "summary": "Diese Halskette mit Anhänger aus Edelstahl zeigt das Bild des Heiligen Benedikt. Erhältlich in Schwarz, Gold oder Silber, ist sie eine langlebige Wahl für den täglichen Gebrauch. Geeignet für Frauen und Männer.",
+      "description": "Diese Halskette mit Anhänger aus Edelstahl zeigt eine klare Darstellung des Heiligen Benedikt. Die Metallkonstruktion ist anlaufbeständig und somit eine praktische Option für den regelmäßigen Gebrauch.\n\nErhältlich in drei Ausführungen – Schwarz, Gold und Silber – passt sie zu verschiedenen persönlichen Stilen. Das Unisex-Design passt sowohl Frauen als auch Männern.\n\nAls Darstellung eines beliebten Heiligen kann diese Halskette als visuelle Erinnerung an den eigenen Glauben dienen.",
+      "catholicContext": "Die Benediktusmedaille ist ein beliebter Andachtsgegenstand in der katholischen Tradition und wird oft als Ausdruck des Glaubens verwendet.",
       "catholicRelevance": "explicit",
       "categories": [
         {
@@ -39945,45 +39900,45 @@
       ],
       "sku": "ALI-AAH3TG7BAOVioqqEY6eBTrdt",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H3db68adb6d3344e88b494358ce201637L.webp",
-      "imageAlt": "St. Benedikt Anhänger-Halskette aus Edelstahl",
+      "imageAlt": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H3db68adb6d3344e88b494358ce201637L.webp",
-          "alt": "St. Benedikt Anhänger-Halskette aus Edelstahl"
+          "alt": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/He9d364dfcb3b49bbb72d5d21b0b07b4b3.webp",
-          "alt": "St. Benedikt Anhänger-Halskette aus Edelstahl"
+          "alt": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H158f0d91ebdd4c5686a2054dc2424f75u.webp",
-          "alt": "St. Benedikt Anhänger-Halskette aus Edelstahl"
+          "alt": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H6df550e12e02446bb822802b209ccd08l.webp",
-          "alt": "St. Benedikt Anhänger-Halskette aus Edelstahl"
+          "alt": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H2facb04cd28f44abad205d7a0b2461ecN.webp",
-          "alt": "St. Benedikt Anhänger-Halskette aus Edelstahl"
+          "alt": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl"
         }
       ],
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd744fe6282b846f3ae91a9596d7f3de6s.webp",
-          "alt": "St. Benedikt Anhänger-Halskette aus Edelstahl - schwarz",
+          "alt": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl - schwarz",
           "label": "schwarz",
           "sku": "ALI-AAH3TG7BAOVioqqEY6eBTrdt-V-3327837"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf1260a6b41a44e2cbcf774bfa355a7a09.webp",
-          "alt": "St. Benedikt Anhänger-Halskette aus Edelstahl - silber",
+          "alt": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl - silber",
           "label": "silber",
           "sku": "ALI-AAH3TG7BAOVioqqEY6eBTrdt-V-3460547"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H34d9ad74f9034eddb521f9be53e6c03dM.webp",
-          "alt": "St. Benedikt Anhänger-Halskette aus Edelstahl - gold",
+          "alt": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl - gold",
           "label": "gold",
           "sku": "ALI-AAH3TG7BAOVioqqEY6eBTrdt-V-3331116"
         }
@@ -39991,7 +39946,7 @@
       "accent": "#6d7887",
       "features": [
         "Edelstahlkonstruktion",
-        "Zeigt den Heiligen Benedikt",
+        "Darstellung des Heiligen Benedikt",
         "Erhältlich in Schwarz, Gold und Silber",
         "Unisex-Design",
         "Langlebig für den täglichen Gebrauch"
@@ -40018,16 +39973,16 @@
       ],
       "faq": [
         {
-          "question": "Aus welchem Material besteht diese St. Benedikt Anhänger-Halskette?",
+          "question": "Aus welchen Materialien besteht diese Halskette mit Anhänger des Heiligen Benedikt?",
           "answer": "Die Halskette besteht aus Edelstahl, der für seine Langlebigkeit und Anlaufbeständigkeit bekannt ist."
         },
         {
           "question": "Welche Farboptionen sind für diese Halskette verfügbar?",
-          "answer": "Die St. Benedikt Anhänger-Halskette ist in drei Ausführungen erhältlich: Schwarz, Gold und Silber."
+          "answer": "Die Halskette mit Anhänger des Heiligen Benedikt ist in drei Ausführungen erhältlich: Schwarz, Gold und Silber."
         },
         {
           "question": "Ist diese Halskette für Männer und Frauen geeignet?",
-          "answer": "Ja, das Design ist Unisex und somit für Damen und Herren geeignet."
+          "answer": "Ja, das Design ist Unisex und somit für Frauen und Männer geeignet."
         }
       ],
       "pricing": {
@@ -40043,8 +39998,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "St. Benedikt Anhänger-Halskette aus Edelstahl",
-          "description": "Diese Halskette mit Anhänger aus Edelstahl zeigt das Bild des Heiligen Benedikt. Erhältlich in Schwarz, Gold oder Silber, ist sie eine langlebige Wahl für den täglichen Gebrauch. Geeignet für Damen und Herren.",
+          "name": "Halskette mit Anhänger des Heiligen Benedikt aus Edelstahl",
+          "description": "Diese Halskette mit Anhänger aus Edelstahl zeigt das Bild des Heiligen Benedikt. Erhältlich in Schwarz, Gold oder Silber, ist sie eine langlebige Wahl für den täglichen Gebrauch. Geeignet für Frauen und Männer.",
           "sku": "ALI-AAH3TG7BAOVioqqEY6eBTrdt",
           "image": [
             "https://sc04.alicdn.com/kf/H3db68adb6d3344e88b494358ce201637L.jpg",
@@ -40090,7 +40045,7 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Aus welchem Material besteht diese St. Benedikt Anhänger-Halskette?",
+              "name": "Aus welchen Materialien besteht diese Halskette mit Anhänger des Heiligen Benedikt?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Die Halskette besteht aus Edelstahl, der für seine Langlebigkeit und Anlaufbeständigkeit bekannt ist."
@@ -40101,7 +40056,7 @@
               "name": "Welche Farboptionen sind für diese Halskette verfügbar?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Die St. Benedikt Anhänger-Halskette ist in drei Ausführungen erhältlich: Schwarz, Gold und Silber."
+                "text": "Die Halskette mit Anhänger des Heiligen Benedikt ist in drei Ausführungen erhältlich: Schwarz, Gold und Silber."
               }
             },
             {
@@ -40109,7 +40064,7 @@
               "name": "Ist diese Halskette für Männer und Frauen geeignet?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, das Design ist Unisex und somit für Damen und Herren geeignet."
+                "text": "Ja, das Design ist Unisex und somit für Frauen und Männer geeignet."
               }
             }
           ]
@@ -40117,22 +40072,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "a8d20704609fc26c84b9cad0f205b00335afd8f837e2022b7b9230a19530e346",
+        "sourceHash": "494875e7aa311ae73582e35ef6899d47e990fc996c63ef186585d3f97aca5158",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "a8d20704609fc26c84b9cad0f205b00335afd8f837e2022b7b9230a19530e346",
-            "contentHash": "a8d20704609fc26c84b9cad0f205b00335afd8f837e2022b7b9230a19530e346",
+            "sourceHash": "494875e7aa311ae73582e35ef6899d47e990fc996c63ef186585d3f97aca5158",
+            "contentHash": "494875e7aa311ae73582e35ef6899d47e990fc996c63ef186585d3f97aca5158",
             "attempts": 0,
             "updatedAt": "2026-08-11T03:51:00.208Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "a8d20704609fc26c84b9cad0f205b00335afd8f837e2022b7b9230a19530e346",
-            "contentHash": "ed54430865bd0bc1cf79dd82fbd90133516a2e7313f103471ea50e561d1013d4",
+            "sourceHash": "494875e7aa311ae73582e35ef6899d47e990fc996c63ef186585d3f97aca5158",
+            "contentHash": "98b24f0cc72cf18b4e1fb09a30431a15907edabe5aa7e4669a77519079765d3c",
             "attempts": 1,
-            "updatedAt": "2026-08-11T04:01:10.067Z",
+            "updatedAt": "2026-08-11T15:03:52.099Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -40144,11 +40099,11 @@
       "sourceFingerprint": "0bea787c0bc0f66064baa3d6981c749edfc5e8c3b717c6fe8513df80315867e7",
       "locale": "de",
       "slug": "saint-benedict-stainless-steel-beaded-bracelet-ebsj4l",
-      "title": "Armband mit Perlen aus Edelstahl und Heilig-Benedikt-Motiv",
-      "eyebrow": "Armband mit Perlen aus Edelstahl und Heilig-Benedikt-Motiv",
-      "summary": "Dieses Heilig-Benedikt-Armband besteht aus runden Edelstahlperlen mit einer 14-karätigen Goldbeschichtung. Es ist mit einem elastischen Band ausgestattet, das ein einfaches An- und Ausziehen ermöglicht, und ist als Unisex-Modell konzipiert, das sich als Geschenk eignet.",
-      "description": "Das Armband präsentiert ein klares, rundes Perlenprofil, wobei jede runde Edelstahlperle durch ihre goldbeschichtete Oberfläche Licht einfängt. Die 14-karätige Goldbeschichtung verleiht einen warmen Ton, während die elastische Konstruktion ein Überstreifen ohne Verschluss ermöglicht. Als Teil des katholisch thematisierten Zubehörs bietet es eine unaufdringliche Möglichkeit, den Glauben auszudrücken. Wir bieten diesen Artikel als Lagerware an; für Großhandelsdetails kontaktieren Sie uns bitte.",
-      "catholicContext": "Der Heilige Benedikt ist ein verehrter christlicher Heiliger, und seine Medaille und sein Kreuz sind traditionelle Andachtsobjekte in der katholischen Volksfrömmigkeit, obwohl dieses Armband selbst nicht als Sakramentale beschrieben wird.",
+      "title": "Sankt Benedikt Armband aus Edelstahl mit Perlen",
+      "eyebrow": "Armband aus Edelstahlperlen mit Sankt Benedikt Motiv",
+      "summary": "Dieses Sankt Benedikt Armband besteht aus runden Edelstahlperlen mit einer 14K Goldplattierung. Es ist mit einem elastischen Band ausgestattet, das ein leichtes An- und Ausziehen ermöglicht, und ist als Unisex-Modell konzipiert, das sich als Geschenk eignet.",
+      "description": "Das Armband präsentiert ein klares, rundes Perlenprofil, wobei jede runde Edelstahlperle durch ihre goldplattierte Oberfläche Licht einfängt. Die 14K Goldplattierung verleiht einen warmen Farbton, während die elastische Konstruktion ein Überstreifen ohne Verschluss ermöglicht. Als Accessoire mit katholischem Motiv bietet es eine dezente Möglichkeit, den Glauben auszudrücken. Wir beziehen dieses Produkt als sofort verfügbaren Artikel; kontaktieren Sie uns für Großhandelsdetails.",
+      "catholicContext": "Der heilige Benedikt ist ein verehrter christlicher Heiliger, und seine Medaille und sein Kreuz sind traditionelle Andachtsobjekte in der katholischen Volksfrömmigkeit, obwohl dieses Armband selbst nicht als Sakramentale beschrieben wird.",
       "catholicRelevance": "explicit",
       "categories": [
         {
@@ -40159,37 +40114,37 @@
       ],
       "sku": "ALI-AAEQTG7BAOVioqqEY6eBSJ4l",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hec88a7ff83fa43da95e5248da4d127acB.webp",
-      "imageAlt": "Armband mit Perlen aus Edelstahl und Heilig-Benedikt-Motiv",
+      "imageAlt": "Sankt Benedikt Armband aus Edelstahl mit Perlen",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hec88a7ff83fa43da95e5248da4d127acB.webp",
-          "alt": "Armband mit Perlen aus Edelstahl und Heilig-Benedikt-Motiv"
+          "alt": "Sankt Benedikt Armband aus Edelstahl mit Perlen"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H87c097885fd2429c9e1594329deb45a99.webp",
-          "alt": "Armband mit Perlen aus Edelstahl und Heilig-Benedikt-Motiv"
+          "alt": "Sankt Benedikt Armband aus Edelstahl mit Perlen"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H4623f49a4e5f460da972e49793205e1eD.webp",
-          "alt": "Armband mit Perlen aus Edelstahl und Heilig-Benedikt-Motiv"
+          "alt": "Sankt Benedikt Armband aus Edelstahl mit Perlen"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H85a5dd54f4fb44a5b37ed68f8eddb13bu.webp",
-          "alt": "Armband mit Perlen aus Edelstahl und Heilig-Benedikt-Motiv"
+          "alt": "Sankt Benedikt Armband aus Edelstahl mit Perlen"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H84fb69249bf9480389a3cdbf31520688i.webp",
-          "alt": "Armband mit Perlen aus Edelstahl und Heilig-Benedikt-Motiv"
+          "alt": "Sankt Benedikt Armband aus Edelstahl mit Perlen"
         }
       ],
       "variantImages": [],
       "accent": "#8b6b4a",
       "features": [
-        "Hergestellt aus Edelstahl für Langlebigkeit",
-        "Runde Perlen mit 14-karätiger Goldbeschichtung",
+        "Aus Edelstahl gefertigt für Langlebigkeit",
+        "Runde Perlen mit 14K Goldplattierung",
         "Elastisches Band, kein Verschluss erforderlich",
-        "Unisex-Stil für alle Geschlechter geeignet",
-        "Kategorisiert als religiöses Armband"
+        "Unisex-Stil, geeignet für alle Geschlechter",
+        "Kategorisiert unter religiösen Armbändern"
       ],
       "specifications": [
         {
@@ -40197,8 +40152,8 @@
           "value": "Edelstahl"
         },
         {
-          "name": "Beschichtung",
-          "value": "14k Goldbeschichtet"
+          "name": "Plattierung",
+          "value": "14K Goldplattiert"
         },
         {
           "name": "Armbandtyp",
@@ -40218,23 +40173,23 @@
         }
       ],
       "applications": [
-        "Als tägliches Glaubensaccessoire tragen",
-        "Als religiöses Geschenk überreichen",
+        "Als tägliches Accessoire des Glaubens tragen",
+        "Als religiöses Geschenk geben",
         "In katholischen Geschenkläden verwenden",
-        "Kombinierbar mit lässiger oder formeller Kleidung"
+        "Kombinierbar mit legerer oder formeller Kleidung"
       ],
       "faq": [
         {
-          "question": "Aus welchem Material besteht dieses Armband mit dem Heiligen Benedikt?",
-          "answer": "Das Armband besteht aus Edelstahlperlen mit einer 14-karätigen Goldbeschichtung, die eine langlebige und anlaufgeschützte Oberfläche bieten."
+          "question": "Aus welchem Material besteht dieses Sankt Benedikt Armband?",
+          "answer": "Das Armband besteht aus Edelstahlperlen mit einer 14K Goldplattierung, die eine langlebige und anlaufgeschützte Oberfläche bietet."
         },
         {
           "question": "Hat dieses Armband einen Verschluss?",
-          "answer": "Nein, es verwendet ein elastisches Band, sodass das Armband ohne Verschluss über die Hand gestreift werden kann."
+          "answer": "Nein, es verwendet ein elastisches Band, sodass das Armband ohne Verschluss über die Hand gezogen werden kann."
         },
         {
           "question": "Ist dieses Armband für Männer und Frauen geeignet?",
-          "answer": "Ja, es ist als Unisex-Stück gestaltet und kann von jedem getragen werden."
+          "answer": "Ja, es ist als Unisex-Stück konzipiert, sodass es von jedem getragen werden kann."
         }
       ],
       "pricing": {
@@ -40251,8 +40206,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Armband mit Perlen aus Edelstahl und Heilig-Benedikt-Motiv",
-          "description": "Dieses Heilig-Benedikt-Armband besteht aus runden Edelstahlperlen mit einer 14-karätigen Goldbeschichtung. Es ist mit einem elastischen Band ausgestattet, das ein einfaches An- und Ausziehen ermöglicht, und ist als Unisex-Modell konzipiert, das sich als Geschenk eignet.",
+          "name": "Sankt Benedikt Armband aus Edelstahl mit Perlen",
+          "description": "Dieses Sankt Benedikt Armband besteht aus runden Edelstahlperlen mit einer 14K Goldplattierung. Es ist mit einem elastischen Band ausgestattet, das ein leichtes An- und Ausziehen ermöglicht, und ist als Unisex-Modell konzipiert, das sich als Geschenk eignet.",
           "sku": "ALI-AAEQTG7BAOVioqqEY6eBSJ4l",
           "image": [
             "https://sc04.alicdn.com/kf/Hec88a7ff83fa43da95e5248da4d127acB.jpg",
@@ -40270,8 +40225,8 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Beschichtung",
-              "value": "14k Goldbeschichtet"
+              "name": "Plattierung",
+              "value": "14K Goldplattiert"
             },
             {
               "@type": "PropertyValue",
@@ -40313,10 +40268,10 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Aus welchem Material besteht dieses Armband mit dem Heiligen Benedikt?",
+              "name": "Aus welchem Material besteht dieses Sankt Benedikt Armband?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Das Armband besteht aus Edelstahlperlen mit einer 14-karätigen Goldbeschichtung, die eine langlebige und anlaufgeschützte Oberfläche bieten."
+                "text": "Das Armband besteht aus Edelstahlperlen mit einer 14K Goldplattierung, die eine langlebige und anlaufgeschützte Oberfläche bietet."
               }
             },
             {
@@ -40324,7 +40279,7 @@
               "name": "Hat dieses Armband einen Verschluss?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Nein, es verwendet ein elastisches Band, sodass das Armband ohne Verschluss über die Hand gestreift werden kann."
+                "text": "Nein, es verwendet ein elastisches Band, sodass das Armband ohne Verschluss über die Hand gezogen werden kann."
               }
             },
             {
@@ -40332,7 +40287,7 @@
               "name": "Ist dieses Armband für Männer und Frauen geeignet?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, es ist als Unisex-Stück gestaltet und kann von jedem getragen werden."
+                "text": "Ja, es ist als Unisex-Stück konzipiert, sodass es von jedem getragen werden kann."
               }
             }
           ]
@@ -40340,22 +40295,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "dc0f7ed2044ef494816ac9ec24a054309c17a1631534c240cef623ee0754ab1c",
+        "sourceHash": "c49ccfdbb362b85fd2f20676a5bbc4a36687ea2fdc2e1920e424ab4a823a57f9",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "dc0f7ed2044ef494816ac9ec24a054309c17a1631534c240cef623ee0754ab1c",
-            "contentHash": "dc0f7ed2044ef494816ac9ec24a054309c17a1631534c240cef623ee0754ab1c",
+            "sourceHash": "c49ccfdbb362b85fd2f20676a5bbc4a36687ea2fdc2e1920e424ab4a823a57f9",
+            "contentHash": "c49ccfdbb362b85fd2f20676a5bbc4a36687ea2fdc2e1920e424ab4a823a57f9",
             "attempts": 0,
             "updatedAt": "2026-08-11T03:51:06.045Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "dc0f7ed2044ef494816ac9ec24a054309c17a1631534c240cef623ee0754ab1c",
-            "contentHash": "6468c45060f2198220ab0ec2530085ca636b3e00a8fabcbc166b8d460bb61a01",
+            "sourceHash": "c49ccfdbb362b85fd2f20676a5bbc4a36687ea2fdc2e1920e424ab4a823a57f9",
+            "contentHash": "969749bb24c135b985ba2e401a12d652cf1d1e85899455090ca3729d2cac2cc0",
             "attempts": 1,
-            "updatedAt": "2026-08-11T04:01:17.431Z",
+            "updatedAt": "2026-08-11T15:03:58.950Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -40900,6 +40855,1803 @@
             "contentHash": "561b9c297d615bdb7376c170238188b9ea5d5b04878d525cd0a987b9f438a38e",
             "attempts": 1,
             "updatedAt": "2026-08-11T04:01:32.364Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHITG7BAOVioqqEY6erCyDu",
+      "sourceId": "AAHITG7BAOVioqqEY6erCyDu",
+      "sourceFingerprint": "dea22f76964b6ee1def005ede2b15d4ae836a758b27fe729390498e2dbb82551",
+      "locale": "de",
+      "slug": "zinc-alloy-rhinestone-virgin-mary-pendant-necklace-ercydu",
+      "title": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen",
+      "eyebrow": "Marianischer Anhänger-Anhänger-Halskette",
+      "summary": "Diese Halskette zeigt einen Anhänger der Jungfrau Maria, besetzt mit Strasssteinen, gefertigt aus Zinklegierung. Erhältlich in Gold, Gold-2, Gold-Kette, Gold 3 und Bunt, eignet sie sich für DIY-Schmuckprojekte oder als Fertigaccessoire.",
+      "description": "Die Anhänger-Halskette präsentiert ein marianisches Motiv mit einer mit Strasssteinen verzierten Oberfläche. Die Zinklegierung bietet eine langlebige Basis für die dekorativen Steine.\n\nIn mehreren Ausführungen erhältlich, darunter Goldtöne und eine mehrfarbige Option, kann sie verschiedene Stile ergänzen. Das Unisex-Design und die schlichte Kette machen sie für den Alltag oder zum Basteln geeignet.\n\nWährend nicht alle Varianten eine Kette enthalten, ist dies bei der Variante Gold-Kette der Fall. Diese Flexibilität unterstützt die kreative Verwendung bei der Herstellung von individuellem Schmuck.",
+      "catholicContext": "Die Halskette zeigt einen Anhänger der Jungfrau Maria, einer in der katholischen Tradition verehrten Figur.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Schmuckzubehör",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H3e218b010e3c44b49f41fe509866670cY.webp",
+      "imageAlt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3e218b010e3c44b49f41fe509866670cY.webp",
+          "alt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd27653f102f43038bc28558d0ef728cB.webp",
+          "alt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9ce45d0c8e744d32aa3f1f72f8484749V.webp",
+          "alt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H4275658690a540c1a8bcdd68d64d3eccH.webp",
+          "alt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5a62def3d18f4eb3a8bf9f7950dd01bf8.webp",
+          "alt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf72b2ffd0c274871964138bfd375817bZ.webp",
+          "alt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen - bunt",
+          "label": "bunt",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H717c5248465f469591b00e783bd44001o.webp",
+          "alt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen - gold",
+          "label": "gold",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H582577e8689f416db96e41485874033eF.webp",
+          "alt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen - gold-kette",
+          "label": "gold-kette",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H8e496e496b25478c95b765b0ccfde3f1o.webp",
+          "alt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen - gold-3",
+          "label": "gold-3",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H65f3312fc42044bd81013f971b308ae4q.webp",
+          "alt": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen - gold-2",
+          "label": "gold-2",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu-V--3"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Gefertigt aus Zinklegierung",
+        "Mit Strasssteinen besetzter Anhänger der Jungfrau Maria",
+        "Erhältlich in Gold, Gold-2, Gold-Kette, Gold 3 und Bunt",
+        "Unisex-Design",
+        "Geeignet für DIY-Schmuckprojekte"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinklegierung"
+        },
+        {
+          "name": "Anhänger-Design",
+          "value": "Jungfrau Maria mit Strasssteinen"
+        },
+        {
+          "name": "Stil",
+          "value": "Unisex"
+        }
+      ],
+      "applications": [
+        "Als eigenständige Halskette",
+        "Für DIY-Schmuckherstellung",
+        "Als Geschenk oder persönliches Accessoire"
+      ],
+      "faq": [
+        {
+          "question": "Ist eine Kette im Lieferumfang enthalten?",
+          "answer": "Einige Varianten enthalten eine Kette, wie die Variante Gold-Kette. Andere Varianten enthalten möglicherweise keine Kette, daher überprüfen Sie bitte die jeweilige Variante vor der Bestellung."
+        },
+        {
+          "question": "Welche Varianten sind verfügbar?",
+          "answer": "Die Halskette ist in Gold, Gold-2, Gold-Kette, Gold 3 und Bunt erhältlich. Sie unterscheiden sich in der Ausführung und dem Vorhandensein einer Kette."
+        },
+        {
+          "question": "Aus welchem Material besteht der Anhänger?",
+          "answer": "Der Anhänger besteht aus Zinklegierung und ist mit Strasssteinen verziert."
+        }
+      ],
+      "pricing": {
+        "price": "1.37",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.37",
+          "max": "2.87"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Halskette mit Anhänger der Jungfrau Maria aus Zinklegierung mit Strasssteinen",
+          "description": "Diese Halskette zeigt einen Anhänger der Jungfrau Maria, besetzt mit Strasssteinen, gefertigt aus Zinklegierung. Erhältlich in Gold, Gold-2, Gold-Kette, Gold 3 und Bunt, eignet sie sich für DIY-Schmuckprojekte oder als Fertigaccessoire.",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu",
+          "image": [
+            "https://sc04.alicdn.com/kf/H3e218b010e3c44b49f41fe509866670cY.jpg",
+            "https://sc04.alicdn.com/kf/Hcd27653f102f43038bc28558d0ef728cB.jpg",
+            "https://sc04.alicdn.com/kf/H9ce45d0c8e744d32aa3f1f72f8484749V.jpg",
+            "https://sc04.alicdn.com/kf/H4275658690a540c1a8bcdd68d64d3eccH.jpg",
+            "https://sc04.alicdn.com/kf/H5a62def3d18f4eb3a8bf9f7950dd01bf8.jpg"
+          ],
+          "category": "Schmuckzubehör",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinklegierung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Anhänger-Design",
+              "value": "Jungfrau Maria mit Strasssteinen"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Unisex"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.37",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.37",
+              "maxPrice": "2.87",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Ist eine Kette im Lieferumfang enthalten?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Einige Varianten enthalten eine Kette, wie die Variante Gold-Kette. Andere Varianten enthalten möglicherweise keine Kette, daher überprüfen Sie bitte die jeweilige Variante vor der Bestellung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Varianten sind verfügbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Halskette ist in Gold, Gold-2, Gold-Kette, Gold 3 und Bunt erhältlich. Sie unterscheiden sich in der Ausführung und dem Vorhandensein einer Kette."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Aus welchem Material besteht der Anhänger?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Anhänger besteht aus Zinklegierung und ist mit Strasssteinen verziert."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "75ea4a117515eb6b29265275973860c6bb620cd666fc8783ec0b5d8368940867",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "75ea4a117515eb6b29265275973860c6bb620cd666fc8783ec0b5d8368940867",
+            "contentHash": "75ea4a117515eb6b29265275973860c6bb620cd666fc8783ec0b5d8368940867",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:23.760Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "75ea4a117515eb6b29265275973860c6bb620cd666fc8783ec0b5d8368940867",
+            "contentHash": "82711cc7d270a0c30522b3b28b9aeddd4bc9ef5cf39ba0b9b031d99127173d50",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T15:04:06.185Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHtTG7BAOVioqqEY6erC0Pw",
+      "sourceId": "AAHtTG7BAOVioqqEY6erC0Pw",
+      "sourceFingerprint": "0606003fead75b6efd0d4c05938a63f237384dc5416efa6656d4da546c2f8695",
+      "locale": "de",
+      "slug": "stainless-steel-cross-pendant-charm-for-diy-jewelry-erc0pw",
+      "title": "Anhänger Kreuz aus Edelstahl für DIY-Schmuck",
+      "eyebrow": "Anhänger Kreuz aus Edelstahl",
+      "summary": "Dieser Kreuzanhänger aus Edelstahl ist in Gold- oder Stahlfarbe und in drei Größen erhältlich. Er eignet sich für die DIY-Schmuckherstellung und bietet eine langlebige, anlaufbeständige Option für Bastler und Großhändler.",
+      "description": "Dieser Kreuzanhänger besteht aus Edelstahl und ist in Gold- oder Stahlfarbe erhältlich. Das Design ist ein einfaches Kreuz (ohne Korpus), was ihn zu einem vielseitigen Bestandteil für die Schmuckherstellung macht. Es werden drei Größen angeboten: 54 mm x 30 mm, 43 mm x 26 mm und 30 mm x 18 mm, die verschiedene Projektgrößen ermöglichen. Der Anhänger wird als Anhänger verkauft und ist für die Verwendung in Halsketten, Armbändern oder anderen DIY-Kreationen bestimmt. Die Konstruktion aus Edelstahl deutet auf Langlebigkeit und Beständigkeit gegen Anlaufen hin, obwohl keine spezifischen Details zur Oberfläche angegeben sind. Dieses Stück eignet sich für religiös motivierten Schmuck, Bastelbedarf oder den Großhandel.",
+      "catholicContext": "Ein schlichtes Kreuz ist ein eigenständiges christliches Symbol, das sich von einem Kruzifix unterscheidet, das den Leib Christi einschließt.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Schmuckzubehör",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHtTG7BAOVioqqEY6erC0Pw",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2f93101e128d401398f6c5fb001d064cp.webp",
+      "imageAlt": "Anhänger Kreuz aus Edelstahl für DIY-Schmuck",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2f93101e128d401398f6c5fb001d064cp.webp",
+          "alt": "Anhänger Kreuz aus Edelstahl für DIY-Schmuck"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1ae780dc4e15497ea1beb62482da6195f.webp",
+          "alt": "Anhänger Kreuz aus Edelstahl für DIY-Schmuck"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H26387cd9a31f4d1abdc5147a6b89fc7d7.webp",
+          "alt": "Anhänger Kreuz aus Edelstahl für DIY-Schmuck"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1526a0a8b8bb46288c77c0a68c327b85B.webp",
+          "alt": "Anhänger Kreuz aus Edelstahl für DIY-Schmuck"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H38715ad5face4b6ea1be5068c668055bQ.webp",
+          "alt": "Anhänger Kreuz aus Edelstahl für DIY-Schmuck"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He43bdd6ac4cf450e96bf6d86e7657c4e6.webp",
+          "alt": "Anhänger Kreuz aus Edelstahl für DIY-Schmuck - Stahlkreuz",
+          "label": "Stahlkreuz",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6erC0Pw-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5a2a16466b00407fadcc5cdcb8bb0461J.webp",
+          "alt": "Anhänger Kreuz aus Edelstahl für DIY-Schmuck - Goldkreuz",
+          "label": "Goldkreuz",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6erC0Pw-V--2"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Konstruktion aus Edelstahl",
+        "Erhältlich in Gold- oder Stahlfarbe",
+        "Drei Größenoptionen: 54 mm x 30 mm, 43 mm x 26 mm, 30 mm x 18 mm",
+        "Schlichtes Kreuzdesign ohne Korpus",
+        "Geeignet für die DIY-Schmuckherstellung"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Edelstahl"
+        },
+        {
+          "name": "Farboptionen",
+          "value": "Gold, Stahl"
+        },
+        {
+          "name": "Größenoptionen",
+          "value": "54 mm x 30 mm, 43 mm x 26 mm, 30 mm x 18 mm"
+        },
+        {
+          "name": "Design",
+          "value": "Schlichtes Kreuz (ohne Korpus)"
+        }
+      ],
+      "applications": [
+        "DIY-Halsketten",
+        "Armbandanhänger",
+        "Religiös motivierter Schmuck",
+        "Bastelprojekte"
+      ],
+      "faq": [
+        {
+          "question": "Welche Größen sind für diesen Kreuzanhänger erhältlich?",
+          "answer": "Der Anhänger ist in drei Größen erhältlich: 54 mm x 30 mm, 43 mm x 26 mm und 30 mm x 18 mm, was verschiedene Designmaßstäbe ermöglicht."
+        },
+        {
+          "question": "Hat dieser Anhänger eine Gold- oder Stahloberfläche?",
+          "answer": "Der Anhänger ist in zwei Farboptionen erhältlich: Gold und Stahl. Beide bestehen aus Edelstahl, aber der genaue Oberflächentyp ist nicht angegeben."
+        },
+        {
+          "question": "Ist dieser Anhänger sowohl für Armbänder als auch für Halsketten geeignet?",
+          "answer": "Ja, der Anhänger kann in verschiedenen Schmuckarten verwendet werden, einschließlich Halsketten und Armbändern, für DIY-Projekte."
+        }
+      ],
+      "pricing": {
+        "price": "0.72",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.72",
+          "max": "10.80"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Anhänger Kreuz aus Edelstahl für DIY-Schmuck",
+          "description": "Dieser Kreuzanhänger aus Edelstahl ist in Gold- oder Stahlfarbe und in drei Größen erhältlich. Er eignet sich für die DIY-Schmuckherstellung und bietet eine langlebige, anlaufbeständige Option für Bastler und Großhändler.",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6erC0Pw",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2f93101e128d401398f6c5fb001d064cp.jpg",
+            "https://sc04.alicdn.com/kf/H1ae780dc4e15497ea1beb62482da6195f.jpg",
+            "https://sc04.alicdn.com/kf/H26387cd9a31f4d1abdc5147a6b89fc7d7.jpg",
+            "https://sc04.alicdn.com/kf/H1526a0a8b8bb46288c77c0a68c327b85B.jpg",
+            "https://sc04.alicdn.com/kf/H38715ad5face4b6ea1be5068c668055bQ.jpg"
+          ],
+          "category": "Schmuckzubehör",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Edelstahl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Farboptionen",
+              "value": "Gold, Stahl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Größenoptionen",
+              "value": "54 mm x 30 mm, 43 mm x 26 mm, 30 mm x 18 mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Schlichtes Kreuz (ohne Korpus)"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.72",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.72",
+              "maxPrice": "10.80",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Größen sind für diesen Kreuzanhänger erhältlich?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Anhänger ist in drei Größen erhältlich: 54 mm x 30 mm, 43 mm x 26 mm und 30 mm x 18 mm, was verschiedene Designmaßstäbe ermöglicht."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hat dieser Anhänger eine Gold- oder Stahloberfläche?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Anhänger ist in zwei Farboptionen erhältlich: Gold und Stahl. Beide bestehen aus Edelstahl, aber der genaue Oberflächentyp ist nicht angegeben."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieser Anhänger sowohl für Armbänder als auch für Halsketten geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, der Anhänger kann in verschiedenen Schmuckarten verwendet werden, einschließlich Halsketten und Armbändern, für DIY-Projekte."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e6deb8506085f54735ab1f58d6795414abf44afdd8142de0e80d79d9a9ef9d2c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e6deb8506085f54735ab1f58d6795414abf44afdd8142de0e80d79d9a9ef9d2c",
+            "contentHash": "e6deb8506085f54735ab1f58d6795414abf44afdd8142de0e80d79d9a9ef9d2c",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:24.071Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "e6deb8506085f54735ab1f58d6795414abf44afdd8142de0e80d79d9a9ef9d2c",
+            "contentHash": "08d6eaaef14810d0d453ee0bad4c3df30c900b23dc67fb97e10076401c938fe3",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T15:04:12.951Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH_TG7BAOVioqqEY6erC-Lj",
+      "sourceId": "AAH_TG7BAOVioqqEY6erC-Lj",
+      "sourceFingerprint": "796e4bd03ee2a6db35fb93ab9cbdf666ef9153ddf7dab656c15988111e3cf8b4",
+      "locale": "de",
+      "slug": "engraved-wooden-cross-ornament-magnet-erc-lj",
+      "title": "Gravierter hölzerner Kreuz-Anhänger mit Magnet",
+      "eyebrow": "Hölzerner Kreuz-Anhänger mit Magnet",
+      "summary": "Dieser umweltfreundliche hölzerne Kreuz-Anhänger verbindet ein geschnitztes Design mit einer Magnetrückseite und eignet sich für die Heimdekoration und als Geschenk. Hergestellt aus Holz mit Schnitztechnik bietet er eine natürliche Optik für verschiedene Anwendungen. Für den Großhandel über unsere Plattform erhältlich.",
+      "description": "Dieser hölzerne Kreuz-Anhänger ist aus umweltfreundlichem Holz geschnitzt und weist eine natürliche Maserung auf, die zu rustikalen oder traditionellen Umgebungen passt. Die Magnetrückseite ermöglicht eine einfache Präsentation an Kühlschränken, Metallflächen oder Magnettafeln. Seine kompakte Größe macht ihn zu einem vielseitigen Dekorationsstück für das ganze Jahr oder für saisonale Feiertage.\n\nAls Großhandelsartikel ist er eine praktische Wahl für Geschenkartikelläden, Bastelgeschäfte und Veranstaltungsplaner. Wir beziehen dieses Produkt direkt von einem Hersteller in Zhejiang, China, und gewährleisten so eine gleichbleibende Qualität für Großbestellungen.\n\nKontaktieren Sie uns für Preise und Verfügbarkeit. Wir können auf Anfrage Muster oder weitere Details bereitstellen.",
+      "catholicContext": "Ein schlichtes Kreuz ist ein verbreitetes Andachtssymbol in christlichen Traditionen, zu unterscheiden von einem Kruzifix, das den Corpus Christi enthält.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Christbaumschmuck",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAH_TG7BAOVioqqEY6erC-Lj",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Hd018a2f0140e432cb3f3a8b10144dda9B.webp",
+      "imageAlt": "Gravierter hölzerner Kreuz-Anhänger mit Magnet",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd018a2f0140e432cb3f3a8b10144dda9B.webp",
+          "alt": "Gravierter hölzerner Kreuz-Anhänger mit Magnet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha1c84b9c70e34bc4ad4ba577b0583da0x.webp",
+          "alt": "Gravierter hölzerner Kreuz-Anhänger mit Magnet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H013077a4f5e54cb69bb19e7e601b316ak.webp",
+          "alt": "Gravierter hölzerner Kreuz-Anhänger mit Magnet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd903acfca12e408f8408f725596494f3Y.webp",
+          "alt": "Gravierter hölzerner Kreuz-Anhänger mit Magnet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Haa4a326856604664971586aadfe5939ff.webp",
+          "alt": "Gravierter hölzerner Kreuz-Anhänger mit Magnet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcb8e2816e9b242d88dacef709e956751m.webp",
+          "alt": "Gravierter hölzerner Kreuz-Anhänger mit Magnet"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Material: Holz",
+        "Technik: Geschnitzt",
+        "Eigenschaft: Umweltfreundlich",
+        "Produkttyp: Dekoration",
+        "Motiv: Kreuz",
+        "Anwendung: Geeignet für verschiedene Anlässe, einschließlich Weihnachten, Ostern und Heimdekoration"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Holz"
+        },
+        {
+          "name": "Technik",
+          "value": "Geschnitzt"
+        },
+        {
+          "name": "Eigenschaft",
+          "value": "Umweltfreundlich"
+        },
+        {
+          "name": "Produkttyp",
+          "value": "Dekoration"
+        },
+        {
+          "name": "Motiv",
+          "value": "Kreuz"
+        },
+        {
+          "name": "Herkunftsort",
+          "value": "CN;ZHE"
+        }
+      ],
+      "applications": [
+        "Heimdekoration und Präsentation",
+        "Weihnachtsschmuck für Weihnachten, Ostern und andere Jahreszeiten",
+        "Geschenkartikel für religiöse Feiern",
+        "Bastelprojekte oder DIY-Magnete"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchem Material besteht dieser Kreuz-Anhänger?",
+          "answer": "Er besteht aus Holz mit Schnitztechnik und wird als umweltfreundlich beschrieben."
+        },
+        {
+          "question": "Ist dies ein Kruzifix?",
+          "answer": "Nein, das Produkt wird als Kreuz-Anhänger ohne Corpus beschrieben, es ist also kein Kruzifix."
+        },
+        {
+          "question": "Für welche Anwendungen ist dieser Anhänger geeignet?",
+          "answer": "Er eignet sich für die Heimdekoration, als Geschenk zu Feiertagen und für verschiedene Anlässe wie Weihnachten, Ostern und andere Feierlichkeiten."
+        }
+      ],
+      "pricing": {
+        "price": "7.20",
+        "regularPrice": "7.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "5.20",
+          "max": "7.20"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gravierter hölzerner Kreuz-Anhänger mit Magnet",
+          "description": "Dieser umweltfreundliche hölzerne Kreuz-Anhänger verbindet ein geschnitztes Design mit einer Magnetrückseite und eignet sich für die Heimdekoration und als Geschenk. Hergestellt aus Holz mit Schnitztechnik bietet er eine natürliche Optik für verschiedene Anwendungen. Für den Großhandel über unsere Plattform erhältlich.",
+          "sku": "ALI-AAH_TG7BAOVioqqEY6erC-Lj",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd018a2f0140e432cb3f3a8b10144dda9B.jpg",
+            "https://sc04.alicdn.com/kf/Ha1c84b9c70e34bc4ad4ba577b0583da0x.jpg",
+            "https://sc04.alicdn.com/kf/H013077a4f5e54cb69bb19e7e601b316ak.jpg",
+            "https://sc04.alicdn.com/kf/Hd903acfca12e408f8408f725596494f3Y.jpg",
+            "https://sc04.alicdn.com/kf/Haa4a326856604664971586aadfe5939ff.jpg",
+            "https://sc04.alicdn.com/kf/Hcb8e2816e9b242d88dacef709e956751m.jpg"
+          ],
+          "category": "Christbaumschmuck",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Holz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Technik",
+              "value": "Geschnitzt"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Eigenschaft",
+              "value": "Umweltfreundlich"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Produkttyp",
+              "value": "Dekoration"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Motiv",
+              "value": "Kreuz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Herkunftsort",
+              "value": "CN;ZHE"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "7.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "5.20",
+              "maxPrice": "7.20",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchem Material besteht dieser Kreuz-Anhänger?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Er besteht aus Holz mit Schnitztechnik und wird als umweltfreundlich beschrieben."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dies ein Kruzifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein, das Produkt wird als Kreuz-Anhänger ohne Corpus beschrieben, es ist also kein Kruzifix."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Für welche Anwendungen ist dieser Anhänger geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Er eignet sich für die Heimdekoration, als Geschenk zu Feiertagen und für verschiedene Anlässe wie Weihnachten, Ostern und andere Feierlichkeiten."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "7e08b587f6d5997a74da75f0149ffff08bab6acb7eca65cb73da2f3656fb0481",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "7e08b587f6d5997a74da75f0149ffff08bab6acb7eca65cb73da2f3656fb0481",
+            "contentHash": "7e08b587f6d5997a74da75f0149ffff08bab6acb7eca65cb73da2f3656fb0481",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:51.764Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "7e08b587f6d5997a74da75f0149ffff08bab6acb7eca65cb73da2f3656fb0481",
+            "contentHash": "a17e3cf5bee3cb35bba38ad6029eedf1e43e508efec06441691456a1ff884115",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T15:04:19.955Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEzTG7BAOVioqqEY6eBRvxs",
+      "sourceId": "AAEzTG7BAOVioqqEY6eBRvxs",
+      "sourceFingerprint": "1c4e8d61dca6de60078de537dd244cc8b44ca1c8775f505d72fe26c48cae0f6f",
+      "locale": "de",
+      "slug": "custom-color-pearl-bead-cross-bracelet-for-men-and-women-ebrvxs",
+      "title": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren",
+      "eyebrow": "Perlenkreuz-Armband",
+      "summary": "Dieses Perlenkreuz-Armband ist in Braun, Schwarz, Rot und Weiß erhältlich. Für Damen und Herren konzipiert, bietet es eine schlichte, alltägliche Möglichkeit, ein Kreuzsymbol zu tragen. Ideal für den persönlichen Gebrauch oder als Lagerartikel für Händler religiöser Artikel.",
+      "description": "Das Armband besteht aus Perlen in verschiedenen Farben, mit einem Kreuz-Anhänger als zentralem Element. Das Design ist unisex und für den täglichen Gebrauch gedacht.\n\nIn vier Farbvarianten erhältlich – Braun, Schwarz, Rot und Weiß – bietet dieses Armband Optionen für unterschiedliche Geschmäcker und Anlässe.\n\nWir bieten dieses Armband für den Großhandel an. Kontaktieren Sie uns für Mengenanfragen und um Ihren Lagerbedarf zu besprechen.",
+      "catholicContext": "Ein Kreuz ist ein zentrales Symbol des christlichen Glaubens, und Rosenkranz-Armbänder werden oft als Gebetshilfe verwendet.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosenkranz-Armbänder",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H5d107d1b786a4a259493b5f4d2a415771.webp",
+      "imageAlt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5d107d1b786a4a259493b5f4d2a415771.webp",
+          "alt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He004b35fc89a4406aa9f2e9a9fd7ca80M.webp",
+          "alt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9469a4a3e2614c898b53fe7876a3c2b6Q.webp",
+          "alt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H961a937b73f84572b9aaedeec197166cy.webp",
+          "alt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H697e92aaeb354079994e64862b006940r.webp",
+          "alt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5272637c2f5841898f5877f61a93be7bp.webp",
+          "alt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc61abb94bd7409293fd7ed4179dbb637.webp",
+          "alt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren - Schwarz",
+          "label": "Schwarz",
+          "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfd3bf551da164ce7a00f3b8748c1fcf7y.webp",
+          "alt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren - Weiß",
+          "label": "Weiß",
+          "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc5fd500b0a0d485a82c884a5d24e89b15.webp",
+          "alt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren - Braun",
+          "label": "Braun",
+          "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd98c8ff2d02842a8a1436d7d389e41d1o.webp",
+          "alt": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren - Rot",
+          "label": "Rot",
+          "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs-V-3331260"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Perlenkonstruktion",
+        "Kreuz-Anhänger-Design",
+        "Erhältlich in Braun, Schwarz, Rot und Weiß",
+        "Unisex-Stil für Damen und Herren",
+        "Als Rosenkranz-Armband kategorisiert"
+      ],
+      "specifications": [
+        {
+          "name": "Farbvarianten",
+          "value": "Braun, Schwarz, Rot, Weiß"
+        },
+        {
+          "name": "Kategorie",
+          "value": "Rosenkranz-Armbänder"
+        }
+      ],
+      "applications": [
+        "Persönliches Gebets- und Alltagsaccessoire",
+        "Alltagsaccessoire",
+        "Handelsware für religiöse Artikel",
+        "Geschenkartikel"
+      ],
+      "faq": [
+        {
+          "question": "Welche Farben sind für dieses Perlenkreuz-Armband erhältlich?",
+          "answer": "Das Armband ist in vier Farbvarianten erhältlich: Braun, Schwarz, Rot und Weiß."
+        },
+        {
+          "question": "Ist dieses Armband für Damen und Herren geeignet?",
+          "answer": "Ja, das Armband ist als Unisex-Accessoire für Damen und Herren konzipiert."
+        },
+        {
+          "question": "Kann ich dieses Armband in großen Mengen für mein Geschäft bestellen?",
+          "answer": "Wir unterstützen den Großhandel. Kontaktieren Sie uns, um Mengenbestellungen und Verfügbarkeit zu besprechen."
+        }
+      ],
+      "pricing": {
+        "price": "0.47",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.47"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Perlenkreuz-Armband in individuellen Farben für Damen und Herren",
+          "description": "Dieses Perlenkreuz-Armband ist in Braun, Schwarz, Rot und Weiß erhältlich. Für Damen und Herren konzipiert, bietet es eine schlichte, alltägliche Möglichkeit, ein Kreuzsymbol zu tragen. Ideal für den persönlichen Gebrauch oder als Lagerartikel für Händler religiöser Artikel.",
+          "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs",
+          "image": [
+            "https://sc04.alicdn.com/kf/H5d107d1b786a4a259493b5f4d2a415771.jpg",
+            "https://sc04.alicdn.com/kf/He004b35fc89a4406aa9f2e9a9fd7ca80M.jpg",
+            "https://sc04.alicdn.com/kf/H9469a4a3e2614c898b53fe7876a3c2b6Q.jpg",
+            "https://sc04.alicdn.com/kf/H961a937b73f84572b9aaedeec197166cy.jpg",
+            "https://sc04.alicdn.com/kf/H697e92aaeb354079994e64862b006940r.jpg",
+            "https://sc04.alicdn.com/kf/H5272637c2f5841898f5877f61a93be7bp.jpg"
+          ],
+          "category": "Rosenkranz-Armbänder",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Farbvarianten",
+              "value": "Braun, Schwarz, Rot, Weiß"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kategorie",
+              "value": "Rosenkranz-Armbänder"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.47",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.47",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Farben sind für dieses Perlenkreuz-Armband erhältlich?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Armband ist in vier Farbvarianten erhältlich: Braun, Schwarz, Rot und Weiß."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieses Armband für Damen und Herren geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, das Armband ist als Unisex-Accessoire für Damen und Herren konzipiert."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich dieses Armband in großen Mengen für mein Geschäft bestellen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wir unterstützen den Großhandel. Kontaktieren Sie uns, um Mengenbestellungen und Verfügbarkeit zu besprechen."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "2cfff62caf7999e81f0930fadfa819d7f0e69d1bd64a42b06e0b3e1632294de7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "2cfff62caf7999e81f0930fadfa819d7f0e69d1bd64a42b06e0b3e1632294de7",
+            "contentHash": "2cfff62caf7999e81f0930fadfa819d7f0e69d1bd64a42b06e0b3e1632294de7",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:23.514Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "2cfff62caf7999e81f0930fadfa819d7f0e69d1bd64a42b06e0b3e1632294de7",
+            "contentHash": "e16b8eeab0f711e56a614f269a1879fe46651f02767507edf4ea2d1fd06d7daa",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T15:04:26.176Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGWTG7BAOVioqqEY6e5QJaD",
+      "sourceId": "AAGWTG7BAOVioqqEY6e5QJaD",
+      "sourceFingerprint": "2dc5b07f5fd5cb6fd67320dbaddb177f1806f4b036e43992a014497f4297e402",
+      "locale": "de",
+      "slug": "imitation-gold-silver-tassel-plant-pattern-earrings-e5qjad",
+      "title": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber",
+      "eyebrow": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber",
+      "summary": "Diese galvanisierten Legierungsohrringe bestechen durch ein Pflanzenmuster und ein Quasten-Anhänger-Design, erhältlich in den Ausführungen Imitationsgold und -silber. Wählen Sie aus mehreren Varianten für Ihre DIY-Schmuckprojekte oder den Bedarf an Accessoires.",
+      "description": "Ein Satz Ohrringe mit Quasten-Anhänger aus Legierung mit galvanischer Oberfläche, die Gold oder Silber imitiert. Das Design umfasst ein Pflanzenmuster und hängende Quasten-Elemente, geeignet für die Schmuckherstellung oder als fertig verkäufliche Accessoires. Es werden mehrere Farbvarianten angeboten, darunter Schwarz, Gold und Silber mit Optionen für antike Oberflächen. Diese Ohrringe sind leicht und lassen sich vielseitig in verschiedene Stile integrieren, was sie zu einer vielseitigen Ergänzung Ihres Produktsortiments macht.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Schmuckzubehör",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H1f24613e248d4c14b8e51b7f5a9d26f5w.webp",
+      "imageAlt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1f24613e248d4c14b8e51b7f5a9d26f5w.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hae861afb992e4aeb8402bfe274d22a7fz.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hea465ed40a1e4227a2ddcd97752442cc6.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3a9d5f4192b2489b83badf55ae5e2193J.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha3304f41f0064e078cd30cc064cd2cden.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5fa61e5280674ded8253738eea42a262V.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber - silber-001-antikes-silber",
+          "label": "silber-001-antikes-silber",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H022bb5dfefcc411cbd0297b02bc1ea4em.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber - gold-001-antikes-gold",
+          "label": "gold-001-antikes-gold",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6667527121c9450d8fc8893e03d892d1r.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber - silber-001",
+          "label": "silber-001",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2b22a26d744f4a0b84a7993766bf45b9L.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber - gold-001",
+          "label": "gold-001",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H812c544e19974398a9952331aab2f19dI.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber - schwarz-001",
+          "label": "schwarz-001",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9fbace5464cf479f8b072a92e387dd04j.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber - silber-002-antik",
+          "label": "silber-002-antik",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H454be617242f45cfa63d699332eb7a18K.webp",
+          "alt": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber - gold-002",
+          "label": "gold-002",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--7"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Legierungskonstruktion mit galvanischer Imitationsgold- oder -silberoberfläche",
+        "Pflanzenmuster und Quasten-Anhänger-Design",
+        "Mehrere Farbvarianten: Gold, Silber, Schwarz und antike Oberflächen",
+        "Geeignet für DIY-Schmuckherstellung oder den direkten Verkauf",
+        "Hängender Schmuckstil für Ohrringe"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Legierung mit galvanischer Oberfläche"
+        },
+        {
+          "name": "Farbvarianten",
+          "value": "Schwarz-001, Gold-001, Gold-001 Antikes Gold, Gold-002, Silber-001, Silber-001 Antikes Silber, Silber-002 Antik"
+        },
+        {
+          "name": "Design",
+          "value": "Pflanzenmuster mit Quasten-Anhänger"
+        }
+      ],
+      "applications": [
+        "Schmuckherstellung und DIY-Basteln",
+        "Einzelhandel mit Accessoires",
+        "Kostüm- oder Mode-Ensembles",
+        "Geschenkartikel oder Party-Gunst"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchen Materialien bestehen diese Ohrringe?",
+          "answer": "Die Ohrringe bestehen aus Legierung und haben eine galvanische Oberfläche, die Gold oder Silber imitiert."
+        },
+        {
+          "question": "Welche Farboptionen sind verfügbar?",
+          "answer": "Zu den Varianten gehören Schwarz, Gold-001, Gold-001 Antikes Gold, Gold-002, Silber-001, Silber-001 Antikes Silber und Silber-002 Antik."
+        },
+        {
+          "question": "Können diese für die DIY-Schmuckherstellung verwendet werden?",
+          "answer": "Ja, die Ohrringe mit Quasten-Anhänger eignen sich für DIY-Projekte oder können als fertige Accessoires verkauft werden."
+        }
+      ],
+      "pricing": {
+        "price": "0.01",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.01",
+          "max": "0.02"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Ohrmringe mit Quasten-Anhänger und Pflanzenmuster in Imitationsgold und -silber",
+          "description": "Diese galvanisierten Legierungsohrringe bestechen durch ein Pflanzenmuster und ein Quasten-Anhänger-Design, erhältlich in den Ausführungen Imitationsgold und -silber. Wählen Sie aus mehreren Varianten für Ihre DIY-Schmuckprojekte oder den Bedarf an Accessoires.",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1f24613e248d4c14b8e51b7f5a9d26f5w.png",
+            "https://sc04.alicdn.com/kf/Hae861afb992e4aeb8402bfe274d22a7fz.png",
+            "https://sc04.alicdn.com/kf/Hea465ed40a1e4227a2ddcd97752442cc6.png",
+            "https://sc04.alicdn.com/kf/H3a9d5f4192b2489b83badf55ae5e2193J.png",
+            "https://sc04.alicdn.com/kf/Ha3304f41f0064e078cd30cc064cd2cden.png"
+          ],
+          "category": "Schmuckzubehör",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Legierung mit galvanischer Oberfläche"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Farbvarianten",
+              "value": "Schwarz-001, Gold-001, Gold-001 Antikes Gold, Gold-002, Silber-001, Silber-001 Antikes Silber, Silber-002 Antik"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Pflanzenmuster mit Quasten-Anhänger"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.01",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.01",
+              "maxPrice": "0.02",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchen Materialien bestehen diese Ohrringe?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Ohrringe bestehen aus Legierung und haben eine galvanische Oberfläche, die Gold oder Silber imitiert."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Farboptionen sind verfügbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Zu den Varianten gehören Schwarz, Gold-001, Gold-001 Antikes Gold, Gold-002, Silber-001, Silber-001 Antikes Silber und Silber-002 Antik."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Können diese für die DIY-Schmuckherstellung verwendet werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, die Ohrringe mit Quasten-Anhänger eignen sich für DIY-Projekte oder können als fertige Accessoires verkauft werden."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0f5cc29c045e9c9ff6307c298f8279a6312c74f11202fc03a38fe37eb949dbe7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0f5cc29c045e9c9ff6307c298f8279a6312c74f11202fc03a38fe37eb949dbe7",
+            "contentHash": "0f5cc29c045e9c9ff6307c298f8279a6312c74f11202fc03a38fe37eb949dbe7",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:28.873Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "0f5cc29c045e9c9ff6307c298f8279a6312c74f11202fc03a38fe37eb949dbe7",
+            "contentHash": "9b3e3a8717d6f2d038678aee12696ca210f862f4f856e694dcc10d698ffa3888",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T15:04:33.982Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFYTG7BAOVioqqEY6eeQlcd",
+      "sourceId": "AAFYTG7BAOVioqqEY6eeQlcd",
+      "sourceFingerprint": "2456566a647ddc9f3fb2ecab9f7d045716512f20ac4843077f5cd707d23c2458",
+      "locale": "de",
+      "slug": "children-s-wooden-bead-rosary-necklace-pink-white-eeqlcd",
+      "title": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß)",
+      "eyebrow": "Kinder-Rosenkranz-Halskette",
+      "summary": "Diese Kinder-Rosenkranz-Halskette besteht aus Holzperlen in traditionellem Rosenkranz-Design mit Kreuzanhänger. Erhältlich in Rosa oder Weiß. Geeignet als Taufgeschenk oder zum Beten lernen. Großhandelsbestellungen willkommen.",
+      "description": "Dieser Kinder-Rosenkranz ist aus Holzperlen gefertigt und in zwei Farbvarianten erhältlich: Rosa und Weiß. Das Rosenkranz-Design folgt der traditionellen Struktur, mit Kreuzanhänger und vollständigen Gesätzen. Die Holzperlen sind leicht, was es Kindern angenehm macht, sie beim Gebet zu tragen oder zu halten.\n\nIdeal als Geschenk zur Taufe, Erstkommunion oder für den Religionsunterricht, führt dieser Rosenkranz die Kleinen in die Praxis des Rosenkranzes ein. Er kann auch in der Sonntagsschule oder beim gemeinsamen Familiengebet verwendet werden. Die neutrale weiße Version passt für Jungen und Mädchen, während die rosa Variante einen sanfteren Ton hinzufügt.\n\nFür Großhandelskäufer bietet dieser Rosenkranz eine erschwingliche Möglichkeit, eine Auswahl an religiösen Kinderartikeln zu führen. Kontaktieren Sie uns für Mengenpreise und Verfügbarkeit.",
+      "catholicContext": "Der Rosenkranz ist ein katholisches Gebet, das sich auf die Betrachtung der Ereignisse im Leben Jesu Christi und der Jungfrau Maria konzentriert.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Katholische Rosenkränze",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAFYTG7BAOVioqqEY6eeQlcd",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H0b293dea0cc645d9bb1eb4ea668f7c45x.webp",
+      "imageAlt": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß)",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0b293dea0cc645d9bb1eb4ea668f7c45x.webp",
+          "alt": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0db33bc118cf4c18963182438124b1842.webp",
+          "alt": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H74d58fa6495647f5bba79ccc3fef725aE.webp",
+          "alt": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha3d349430b694bb79cc7cc37a81e70bbO.webp",
+          "alt": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7a05e3b232274157a282f0b064ae6723N.webp",
+          "alt": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0f5041c1beba4039802489fb066ef348X.webp",
+          "alt": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß)"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4a6ece9bda374f7cafae3e6ce98c122d2.webp",
+          "alt": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß) - rosa",
+          "label": "rosa",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eeQlcd-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H20d469f520764ac58d1002b3a9432728f.webp",
+          "alt": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß) - weiß",
+          "label": "weiß",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eeQlcd-V-3331185"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Holzperlen mit Rosenkranz-Design",
+        "Erhältlich in Rosa und Weiß",
+        "Mit Kreuzanhänger",
+        "Für Kinder geeignet",
+        "Leichtes Design für kleine Hände"
+      ],
+      "specifications": [
+        {
+          "name": "Farbe",
+          "value": "Weiß, Rosa"
+        },
+        {
+          "name": "Design",
+          "value": "Rosenkranz"
+        }
+      ],
+      "applications": [
+        "Taufgeschenke",
+        "Erstkommuniongeschenke",
+        "Religionsunterricht",
+        "Familiengebetszeit"
+      ],
+      "faq": [
+        {
+          "question": "Welche Farben sind für diesen Kinder-Rosenkranz erhältlich?",
+          "answer": "Dieser Rosenkranz ist in zwei Farboptionen erhältlich: Weiß und Rosa."
+        },
+        {
+          "question": "Ist dieser Rosenkranz für den täglichen Gebrauch durch Kinder geeignet?",
+          "answer": "Ja, die Holzperlen und das leichte Design machen ihn für Kinder geeignet, ihn beim Gebet zu halten."
+        },
+        {
+          "question": "Kann ich diesen Rosenkranz in großen Mengen zum Weiterverkauf kaufen?",
+          "answer": "Ja, dieses Produkt wird im Großhandel angeboten. Kontaktieren Sie uns für Großbestellungen."
+        }
+      ],
+      "pricing": {
+        "price": "0.36",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Kinder-Rosenkranz-Halskette aus Holzperlen (Rosa/Weiß)",
+          "description": "Diese Kinder-Rosenkranz-Halskette besteht aus Holzperlen in traditionellem Rosenkranz-Design mit Kreuzanhänger. Erhältlich in Rosa oder Weiß. Geeignet als Taufgeschenk oder zum Beten lernen. Großhandelsbestellungen willkommen.",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eeQlcd",
+          "image": [
+            "https://sc04.alicdn.com/kf/H0b293dea0cc645d9bb1eb4ea668f7c45x.jpg",
+            "https://sc04.alicdn.com/kf/H0db33bc118cf4c18963182438124b1842.jpg",
+            "https://sc04.alicdn.com/kf/H74d58fa6495647f5bba79ccc3fef725aE.jpg",
+            "https://sc04.alicdn.com/kf/Ha3d349430b694bb79cc7cc37a81e70bbO.jpg",
+            "https://sc04.alicdn.com/kf/H7a05e3b232274157a282f0b064ae6723N.jpg",
+            "https://sc04.alicdn.com/kf/H0f5041c1beba4039802489fb066ef348X.jpg"
+          ],
+          "category": "Katholische Rosenkränze",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Farbe",
+              "value": "Weiß, Rosa"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Rosenkranz"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.36",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Farben sind für diesen Kinder-Rosenkranz erhältlich?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dieser Rosenkranz ist in zwei Farboptionen erhältlich: Weiß und Rosa."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieser Rosenkranz für den täglichen Gebrauch durch Kinder geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, die Holzperlen und das leichte Design machen ihn für Kinder geeignet, ihn beim Gebet zu halten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich diesen Rosenkranz in großen Mengen zum Weiterverkauf kaufen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, dieses Produkt wird im Großhandel angeboten. Kontaktieren Sie uns für Großbestellungen."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "7074e7c38f880592062a8e33d332e4ef5d52b0441b10d180481459f0d294a9d1",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "7074e7c38f880592062a8e33d332e4ef5d52b0441b10d180481459f0d294a9d1",
+            "contentHash": "7074e7c38f880592062a8e33d332e4ef5d52b0441b10d180481459f0d294a9d1",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:55.198Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "7074e7c38f880592062a8e33d332e4ef5d52b0441b10d180481459f0d294a9d1",
+            "contentHash": "c5f06295aed9f8d48064d72eeb26090ba7c8e24924c63b32c1bfbb7b8d31eb7f",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T15:04:41.125Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHoTG7BAOVioqqEY6eBRTbo",
+      "sourceId": "AAHoTG7BAOVioqqEY6eBRTbo",
+      "sourceFingerprint": "024c7d0292d31818760e3e4fe6be03b26f35ed7c1520f5348e05f11384fe7d66",
+      "locale": "de",
+      "slug": "vintage-cross-pendant-beaded-necklace-ebrtbo",
+      "title": "Vintage Kreuzanhänger Halskette mit Perlenkette",
+      "eyebrow": "Vintage Kreuzanhänger Halskette",
+      "summary": "Diese religiöse Halskette verfügt über einen Kreuzanhänger im Vintage-Stil mit einer Perlenkette. Erhältlich in versilberter oder vergoldeter Ausführung, gefertigt aus Legierung mit einem kralengefassten Hauptstein. Das Unisex-Design eignet sich für den täglichen Gebrauch als Accessoire mit Glauben.",
+      "description": "Diese Kreuzanhänger-Halskette präsentiert eine Vintage-Ästhetik mit einer Perlenkette und einem kralengefassten Steinakzent. Der Anhänger ist aus Legierung gefertigt und in zwei Veredelungsoptionen erhältlich: versilbert oder vergoldet. Als Perlenkette hängt sie als schlichtes, klassisches Stück für den täglichen Gebrauch.\n\nDie Halskette ist unter religiösem Schmuck mit katholischer Bedeutung kategorisiert und eignet sich für diejenigen, die einen dezenten Ausdruck ihres Glaubens suchen. Das Unisex-Design bedeutet, dass sie von jedem getragen werden kann. Die Materialien sind Legierung, und der Stein ist eine kralengefasste Kunststoffvariante.\n\nOb allein oder in Schichten getragen, bietet dieses Stück ein unkompliziertes Design, das zu einer Reihe von lässigen Outfits passt. Der Vintage-Look könnte diejenigen ansprechen, die traditionelle religiöse Symbole in zeitgenössischem Schmuck schätzen.",
+      "catholicContext": "In der katholischen Tradition ist das Kreuz ein zentrales Glaubenssymbol, und ein als Schmuck getragenes Kreuzanhänger kann als sichtbarer Ausdruck persönlicher Hingabe dienen.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Katholische Rosenkränze",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHoTG7BAOVioqqEY6eBRTbo",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H79c12be8830646a0858a415c3af90b89T.webp",
+      "imageAlt": "Vintage Kreuzanhänger Halskette mit Perlenkette",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H79c12be8830646a0858a415c3af90b89T.webp",
+          "alt": "Vintage Kreuzanhänger Halskette mit Perlenkette"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1689f7d7d7934b58bd46f65d79f7dfe8S.webp",
+          "alt": "Vintage Kreuzanhänger Halskette mit Perlenkette"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hce057e043a97408f9fb883ba0807f0aag.webp",
+          "alt": "Vintage Kreuzanhänger Halskette mit Perlenkette"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0830826a7a3944ab96f23feaea89a351u.webp",
+          "alt": "Vintage Kreuzanhänger Halskette mit Perlenkette"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Kreuzanhänger-Design im Vintage-Stil",
+        "Perlenketten-Typ",
+        "Erhältlich in versilberter oder vergoldeter Ausführung",
+        "Hauptstein mit Krallenfassungstechnik",
+        "Unisex-Geschlecht",
+        "Als katholischer religiöser Schmuck kategorisiert"
+      ],
+      "specifications": [
+        {
+          "name": "Hauptmaterial Schmuck",
+          "value": "Legierung"
+        },
+        {
+          "name": "Veredelung",
+          "value": "Versilbert, Vergoldet"
+        },
+        {
+          "name": "Kettentyp",
+          "value": "Perlen"
+        },
+        {
+          "name": "Hauptstein",
+          "value": "Kunststoff"
+        },
+        {
+          "name": "Fassungstechnik",
+          "value": "Krallenfassung"
+        },
+        {
+          "name": "Geschlecht",
+          "value": "Unisex"
+        },
+        {
+          "name": "Stil",
+          "value": "Religiös"
+        },
+        {
+          "name": "Religiöser Typ",
+          "value": "Katholizismus"
+        }
+      ],
+      "applications": [
+        "Als tägliches Accessoire mit Glauben tragen",
+        "Geschenk für religiöse Anlässe",
+        "Kombinieren Sie mit lässigen oder Vintage-Outfits",
+        "Als einfaches Layering-Stück verwenden"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchen Materialien besteht diese Halskette?",
+          "answer": "Der Anhänger und die Kette sind aus Legierung gefertigt, mit einem Kunststoff-Hauptstein in Krallenfassung. Die Veredelung ist in Silber oder Gold erhältlich."
+        },
+        {
+          "question": "Ist diese Halskette für Männer und Frauen geeignet?",
+          "answer": "Ja, das Produkt ist als Unisex gekennzeichnet, daher kann es von jedem unabhängig vom Geschlecht getragen werden."
+        },
+        {
+          "question": "Hat der Anhänger ein Kruzifix?",
+          "answer": "Das Produkt wird als Kreuzanhänger beschrieben, das typischerweise ein einfaches Kreuz darstellt und kein Kruzifix mit dem Korpus Christi."
+        }
+      ],
+      "pricing": {
+        "price": "1.58",
+        "regularPrice": "1.58",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.20",
+          "max": "1.58"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Vintage Kreuzanhänger Halskette mit Perlenkette",
+          "description": "Diese religiöse Halskette verfügt über einen Kreuzanhänger im Vintage-Stil mit einer Perlenkette. Erhältlich in versilberter oder vergoldeter Ausführung, gefertigt aus Legierung mit einem kralengefassten Hauptstein. Das Unisex-Design eignet sich für den täglichen Gebrauch als Accessoire mit Glauben.",
+          "sku": "ALI-AAHoTG7BAOVioqqEY6eBRTbo",
+          "image": [
+            "https://sc04.alicdn.com/kf/H79c12be8830646a0858a415c3af90b89T.jpg",
+            "https://sc04.alicdn.com/kf/H1689f7d7d7934b58bd46f65d79f7dfe8S.jpg",
+            "https://sc04.alicdn.com/kf/Hce057e043a97408f9fb883ba0807f0aag.jpg",
+            "https://sc04.alicdn.com/kf/H0830826a7a3944ab96f23feaea89a351u.jpg"
+          ],
+          "category": "Katholische Rosenkränze",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Hauptmaterial Schmuck",
+              "value": "Legierung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Veredelung",
+              "value": "Versilbert, Vergoldet"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kettentyp",
+              "value": "Perlen"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Hauptstein",
+              "value": "Kunststoff"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Fassungstechnik",
+              "value": "Krallenfassung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Geschlecht",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Religiös"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Religiöser Typ",
+              "value": "Katholizismus"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.58",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.20",
+              "maxPrice": "1.58",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchen Materialien besteht diese Halskette?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Anhänger und die Kette sind aus Legierung gefertigt, mit einem Kunststoff-Hauptstein in Krallenfassung. Die Veredelung ist in Silber oder Gold erhältlich."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist diese Halskette für Männer und Frauen geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, das Produkt ist als Unisex gekennzeichnet, daher kann es von jedem unabhängig vom Geschlecht getragen werden."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hat der Anhänger ein Kruzifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Produkt wird als Kreuzanhänger beschrieben, das typischerweise ein einfaches Kreuz darstellt und kein Kruzifix mit dem Korpus Christi."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b52b73cdff87bfb48eccffc526a345e047bf25d702b6180ac0949eebe93ab6cf",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b52b73cdff87bfb48eccffc526a345e047bf25d702b6180ac0949eebe93ab6cf",
+            "contentHash": "b52b73cdff87bfb48eccffc526a345e047bf25d702b6180ac0949eebe93ab6cf",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:35.511Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "b52b73cdff87bfb48eccffc526a345e047bf25d702b6180ac0949eebe93ab6cf",
+            "contentHash": "4f7f56bff8279fc7f751c683e4fc5ab27d81ee24047965e78c79b8991a1670ef",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T15:04:55.667Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAERTG7BAOVioqqEY6eBT4E8",
+      "sourceId": "AAERTG7BAOVioqqEY6eBT4E8",
+      "sourceFingerprint": "b5dd89609d45ab770aae2a9197ef050f8fd44e761f7068645b68bc5df7f8e70d",
+      "locale": "de",
+      "slug": "guardian-angel-blessing-resin-cross-ornament-ebt4e8",
+      "title": "Schutzengel-Segen Kreuzanhänger aus Harz",
+      "eyebrow": "Schutzengel-Kreuz Harz-Anhänger",
+      "summary": "Dieser Schutzengel-Segen Kreuzanhänger ist aus Harz geformt und mit Soft-Emaille-Details und UV-Druck verziert. Es ist ein dreidimensionales Modell, das sich für die Ausstellung zu Weihnachten, Ostern und anderen festlichen Anlässen eignet.",
+      "description": "Der Anhänger ist aus Harz gegossen und hat ein robustes, handliches Gewicht. Soft-Emaille-Highlights und UV-Druck setzen Kontraste zur kreuzförmigen Silhouette. Es ist ein dreidimensionales Modell, das sich auf einem Kaminsims, Regal oder Tisch gut präsentiert, anstatt flach zu liegen.\n\nDer Stil ist als Kreuz angegeben, und der Produkttyp ist Modell. Anwendungen umfassen Weihnachten, Erntedankfest, Ostern und allgemeine Wohndekoration sowie Kunst- und Sammlerausstellung. Die Marke ist OUOOO, und es stammt aus Zhejiang, China.\n\nDa es sich um ein Harz-Kunsthandwerk handelt, halten Sie es von direkter Sonneneinstrahlung fern und reinigen Sie es mit einem trockenen Tuch. Es ist nicht als Kruzifix beschrieben, daher zeigt die Figur ein Schutzengel-Motiv auf einem Kreuz, nicht Christus.",
+      "catholicContext": "Ein Kreuz ist ein zentrales Symbol des christlichen Glaubens, obwohl dieses Produkt nicht als Kruzifix beschrieben ist und nicht als gesegnet oder geweiht angenommen werden sollte.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Christbaumschmuck",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAERTG7BAOVioqqEY6eBT4E8",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H4a97d309a7d14803a09a9e58f17abe8cJ.webp",
+      "imageAlt": "Schutzengel-Segen Kreuzanhänger aus Harz",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4a97d309a7d14803a09a9e58f17abe8cJ.webp",
+          "alt": "Schutzengel-Segen Kreuzanhänger aus Harz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha149f094b48e489f94366c332ad21bdbz.webp",
+          "alt": "Schutzengel-Segen Kreuzanhänger aus Harz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hefea9e74a757437b83718959a3bd7c14N.webp",
+          "alt": "Schutzengel-Segen Kreuzanhänger aus Harz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H40f99ca6086e4d30ba7153420ee0bccaC.webp",
+          "alt": "Schutzengel-Segen Kreuzanhänger aus Harz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf256f057ce4d490a9931353cad94ea9dl.webp",
+          "alt": "Schutzengel-Segen Kreuzanhänger aus Harz"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Aus Harz geformt mit dreidimensionalem Modellform",
+        "Soft-Emaille-Details und UV-Druck",
+        "Kreuzstil-Design mit Schutzengel-Segen-Motiv",
+        "Geeignet für mehrere Feiertage und Wohndekoration",
+        "Marke: OUOOO; Herkunft: Zhejiang, China"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Harz"
+        },
+        {
+          "name": "Emaille-Typ",
+          "value": "Soft-Emaille"
+        },
+        {
+          "name": "Form",
+          "value": "3D"
+        },
+        {
+          "name": "Druck",
+          "value": "UV-Druck"
+        },
+        {
+          "name": "Technik",
+          "value": "Plattiert"
+        },
+        {
+          "name": "Produkttyp",
+          "value": "Modell"
+        },
+        {
+          "name": "Stil",
+          "value": "Kreuz"
+        },
+        {
+          "name": "Herkunftsort",
+          "value": "CN;ZHE"
+        }
+      ],
+      "applications": [
+        "Weihnachtsdekoration",
+        "Osterdekoration",
+        "Wohndekoration",
+        "Kunst- und Sammlerausstellung"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchem Material besteht dieser Schutzengel-Kreuzanhänger?",
+          "answer": "Er besteht aus Harz mit Soft-Emaille-Details und UV-Druck, was ihm eine haltbare, dimensionale Oberfläche verleiht."
+        },
+        {
+          "question": "Ist dieses Produkt ein Kruzifix?",
+          "answer": "Nein, es ist als Kreuz beschrieben, nicht als Kruzifix. Es gibt keine Erwähnung eines Christus-Korpus in den Produktfakten."
+        },
+        {
+          "question": "Kann dieser Anhänger im Freien verwendet werden?",
+          "answer": "Die aufgeführten Anwendungen umfassen Wohndekoration und Feiertagsausstellung, aber es wird keine Verwendung im Freien angegeben. Harz kann bei direkter Sonneneinstrahlung beschädigt werden, daher wird die Ausstellung im Innenbereich empfohlen."
+        }
+      ],
+      "pricing": {
+        "price": "4.97",
+        "regularPrice": "4.97",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "4.10",
+          "max": "4.97"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Schutzengel-Segen Kreuzanhänger aus Harz",
+          "description": "Dieser Schutzengel-Segen Kreuzanhänger ist aus Harz geformt und mit Soft-Emaille-Details und UV-Druck verziert. Es ist ein dreidimensionales Modell, das sich für die Ausstellung zu Weihnachten, Ostern und anderen festlichen Anlässen eignet.",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eBT4E8",
+          "image": [
+            "https://sc04.alicdn.com/kf/H4a97d309a7d14803a09a9e58f17abe8cJ.jpg",
+            "https://sc04.alicdn.com/kf/Ha149f094b48e489f94366c332ad21bdbz.jpg",
+            "https://sc04.alicdn.com/kf/Hefea9e74a757437b83718959a3bd7c14N.jpg",
+            "https://sc04.alicdn.com/kf/H40f99ca6086e4d30ba7153420ee0bccaC.jpg",
+            "https://sc04.alicdn.com/kf/Hf256f057ce4d490a9931353cad94ea9dl.jpg"
+          ],
+          "category": "Christbaumschmuck",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Harz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Emaille-Typ",
+              "value": "Soft-Emaille"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Form",
+              "value": "3D"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Druck",
+              "value": "UV-Druck"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Technik",
+              "value": "Plattiert"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Produkttyp",
+              "value": "Modell"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Kreuz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Herkunftsort",
+              "value": "CN;ZHE"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "4.97",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "4.10",
+              "maxPrice": "4.97",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchem Material besteht dieser Schutzengel-Kreuzanhänger?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Er besteht aus Harz mit Soft-Emaille-Details und UV-Druck, was ihm eine haltbare, dimensionale Oberfläche verleiht."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieses Produkt ein Kruzifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein, es ist als Kreuz beschrieben, nicht als Kruzifix. Es gibt keine Erwähnung eines Christus-Korpus in den Produktfakten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann dieser Anhänger im Freien verwendet werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die aufgeführten Anwendungen umfassen Wohndekoration und Feiertagsausstellung, aber es wird keine Verwendung im Freien angegeben. Harz kann bei direkter Sonneneinstrahlung beschädigt werden, daher wird die Ausstellung im Innenbereich empfohlen."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "65debd5d1da2ba138af148dc4abb9304da4c8a03475a938c002459bdc01d8b7c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "65debd5d1da2ba138af148dc4abb9304da4c8a03475a938c002459bdc01d8b7c",
+            "contentHash": "65debd5d1da2ba138af148dc4abb9304da4c8a03475a938c002459bdc01d8b7c",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:43.215Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "65debd5d1da2ba138af148dc4abb9304da4c8a03475a938c002459bdc01d8b7c",
+            "contentHash": "256feba13e22d13dbfea0fee7e63fcd78c985e16ef12db7dc3c434d614ece584",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T15:05:06.686Z",
             "model": "deepseek-v4-flash"
           }
         }

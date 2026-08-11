@@ -337,10 +337,7 @@ try {
   const prunedSync = {
     ...sourceCatalog.sync,
     deletedProductIds: [
-      ...new Set([
-        ...(sourceCatalog.sync?.deletedProductIds || []).map(String),
-        ...prunedProductIds,
-      ]),
+      ...new Set([...(sourceCatalog.sync?.deletedProductIds || []).map(String), ...prunedProductIds]),
     ],
   };
   const result = {

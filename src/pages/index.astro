@@ -3,6 +3,25 @@ import Layout from '~/layouts/PageLayout.astro';
 import ProductCard from '~/components/ouooo/ProductCard.astro';
 import { GENERAL_WHATSAPP_URL } from '~/config/contact';
 import { products } from '~/data/products';
+import { ui } from '~/i18n/ui';
+
+// Featured product categories on the homepage, most recently updated first,
+// 8 products per category.
+const featuredSlugs = ['catholic-rosaries', 'rosary-bracelets', 'keychains'];
+const featuredSections = featuredSlugs
+  .map((slug) => {
+    const items = products
+      .filter((product) => product.categories?.some((category) => category.slug === slug))
+      .sort((a, b) =>
+        (b.localization?.translations?.en?.updatedAt || '').localeCompare(
+          a.localization?.translations?.en?.updatedAt || ''
+        )
+      )
+      .slice(0, 8);
+    const name = items[0]?.categories.find((category) => category.slug === slug)?.name || slug;
+    return { slug, name, items };
+  })
+  .filter((section) => section.items.length > 0);
 
 const metadata = {
   title: 'Wholesale Rosaries & Custom Religious Gifts',
@@ -56,9 +75,23 @@ const metadata = {
       </div>
       <a class="text-sm font-semibold text-primary" href="/products">View all products →</a>
     </div>
-    <div class="grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
-      {products.map((product) => <ProductCard product={product} />)}
-    </div>
+    {
+      featuredSections.map(({ slug, name, items }) => (
+        <div class="mb-16 last:mb-0">
+          <div class="mb-7 flex items-end justify-between gap-4">
+            <h3 class="text-2xl font-semibold text-gray-950">{name}</h3>
+            <a class="text-sm font-semibold text-primary" href={`/collections/${slug}`}>
+              {ui('viewMore')} <span aria-hidden="true">→</span>
+            </a>
+          </div>
+          <div class="grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4">
+            {items.map((product) => (
+              <ProductCard product={product} />
+            ))}
+          </div>
+        </div>
+      ))
+    }
   </section>
 
   <section class="bg-[#092a21] text-white">

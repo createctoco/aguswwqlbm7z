@@ -3,6 +3,7 @@
 const english = {
   collections: 'Collections',
   category: 'Category',
+  viewMore: 'More',
   wholesaleCatalog: 'Wholesale catalog',
   productsHeading: 'Catholic gifts and religious accessories for wholesale buyers.',
   productsIntro:
@@ -37,6 +38,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   it: {
     collections: 'Collezioni',
     category: 'Categoria',
+    viewMore: 'Altro',
     wholesaleCatalog: 'Catalogo all\u2019ingrosso',
     productsHeading: 'Regali cattolici e accessori religiosi per acquirenti all\u2019ingrosso.',
     productsIntro:
@@ -69,6 +71,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   es: {
     collections: 'Colecciones',
     category: 'Categoría',
+    viewMore: 'Más',
     wholesaleCatalog: 'Cat\u00e1logo al por mayor',
     productsHeading: 'Regalos cat\u00f3licos y accesorios religiosos para compradores al por mayor.',
     productsIntro:
@@ -101,6 +104,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   fr: {
     collections: 'Collections',
     category: 'Catégorie',
+    viewMore: 'Plus',
     wholesaleCatalog: 'Catalogue de gros',
     productsHeading: 'Cadeaux catholiques et accessoires religieux pour les acheteurs en gros.',
     productsIntro:
@@ -133,6 +137,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   pt: {
     collections: 'Cole\u00e7\u00f5es',
     category: 'Categoria',
+    viewMore: 'Mais',
     wholesaleCatalog: 'Cat\u00e1logo de atacado',
     productsHeading: 'Presentes cat\u00f3licos e acess\u00f3rios religiosos para compradores de atacado.',
     productsIntro:
@@ -165,6 +170,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   pl: {
     collections: 'Kolekcje',
     category: 'Kategoria',
+    viewMore: 'Więcej',
     wholesaleCatalog: 'Katalog hurtowy',
     productsHeading: 'Prezenty katolickie i akcesoria religijne dla kupuj\u0105cych hurtowych.',
     productsIntro:
@@ -197,6 +203,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   de: {
     collections: 'Kollektionen',
     category: 'Kategorie',
+    viewMore: 'Mehr',
     wholesaleCatalog: 'Gro\u00dfhandelskatalog',
     productsHeading: 'Katholische Geschenke und religi\u00f6se Accessoires f\u00fcr Gro\u00dfhandelsk\u00e4ufer.',
     productsIntro:
@@ -229,6 +236,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   fil: {
     collections: 'Mga Koleksyon',
     category: 'Kategorya',
+    viewMore: 'Higit pa',
     wholesaleCatalog: 'Katalogo ng pakyawan',
     productsHeading: 'Mga regalong Katoliko at relihiyosong aksesorya para sa mga bumibili nang pakyawan.',
     productsIntro:
@@ -261,6 +269,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   hr: {
     collections: 'Kolekcije',
     category: 'Kategorija',
+    viewMore: 'Više',
     wholesaleCatalog: 'Katalog za veleprodaju',
     productsHeading: 'Katoli\u010dki darovi i vjerski dodaci za kupce na veliko.',
     productsIntro:
@@ -293,6 +302,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   sl: {
     collections: 'Kolekcije',
     category: 'Kategorija',
+    viewMore: 'Več',
     wholesaleCatalog: 'Katalog za veleprodajo',
     productsHeading: 'Katoli\u0161ka darila in verski dodatki za kupce na debelo.',
     productsIntro:
@@ -325,6 +335,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   ro: {
     collections: 'Colec\u021bii',
     category: 'Categorie',
+    viewMore: 'Mai mult',
     wholesaleCatalog: 'Catalog en-gros',
     productsHeading: 'Cadouri catolice \u0219i accesorii religioase pentru cump\u0103r\u0103torii en-gros.',
     productsIntro:
@@ -357,6 +368,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   ar: {
     collections: '\u0627\u0644\u0645\u062c\u0645\u0648\u0639\u0627\u062a',
     category: 'الفئة',
+    viewMore: 'المزيد',
     wholesaleCatalog: '\u0643\u062a\u0627\u0644\u0648\u062c \u0627\u0644\u062c\u0645\u0644\u0629',
     productsHeading:
       '\u0647\u062f\u0627\u064a\u0627 \u0643\u0627\u062b\u0648\u0644\u064a\u0643\u064a\u0629 \u0648\u0625\u0643\u0633\u0633\u0648\u0627\u0631\u0627\u062a \u062f\u064a\u0646\u064a\u0629 \u0644\u0645\u0634\u062a\u0631\u064a \u0627\u0644\u062c\u0645\u0644\u0629.',
@@ -398,6 +410,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   'zh-hant': {
     collections: '\u5206\u985e',
     category: '分類',
+    viewMore: '更多',
     wholesaleCatalog: '\u6279\u767c\u76ee\u9304',
     productsHeading:
       '\u9762\u5411\u6279\u767c\u8cb7\u5bb6\u7684\u5929\u4e3b\u6559\u79ae\u54c1\u8207\u5b97\u6559\u98fe\u54c1\u3002',
@@ -431,6 +444,7 @@ const localized: Partial<Record<string, Partial<Record<keyof typeof english, str
   'zh-hans': {
     collections: '\u5206\u7c7b',
     category: '分类',
+    viewMore: '更多',
     wholesaleCatalog: '\u6279\u53d1\u76ee\u5f55',
     productsHeading:
       '\u9762\u5411\u6279\u53d1\u4e70\u5bb6\u7684\u5929\u4e3b\u6559\u793c\u54c1\u4e0e\u5b97\u6559\u9970\u54c1\u3002',

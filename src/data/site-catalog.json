@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-11T03:52:20.083Z",
+  "generatedAt": "2026-08-11T14:58:00.903Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
-    "modifiedAfter": "2026-08-09T15:53:16.918Z",
+    "modifiedAfter": null,
     "changedProductIds": [
-      "AAG1TG7BAOVioqqEY6eBSZTT",
-      "AAErTG7BAOVioqqEY6e1pONr",
-      "AAHeTG7BAOVioqqEY6eBS5T6",
-      "AAFfTG7BAOVioqqEY6eEg3lb",
-      "AAEgTG7BAOVioqqEY6eMhsZE",
-      "AAH3TG7BAOVioqqEY6eBTrdt",
-      "AAFBTG7BAOVioqqEY6eBRKNV",
-      "AAEQTG7BAOVioqqEY6eBSJ4l",
-      "AAEATG7BAOVioqqEY6eBSoGw",
-      "AAExTG7BAOVioqqEY6eBSkkZ"
+      "AAHITG7BAOVioqqEY6erCyDu",
+      "AAHtTG7BAOVioqqEY6erC0Pw",
+      "AAH_TG7BAOVioqqEY6erC-Lj",
+      "AAEzTG7BAOVioqqEY6eBRvxs",
+      "AAGWTG7BAOVioqqEY6e5QJaD",
+      "AAFYTG7BAOVioqqEY6eeQlcd",
+      "AAHhTG7BAOVioqqEY6eErU7e",
+      "AAHoTG7BAOVioqqEY6eBRTbo",
+      "AAE1TG7BAOVioqqEY6eErA10",
+      "AAERTG7BAOVioqqEY6eBT4E8"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 8,
-    "reused": 150,
-    "source_fallback": 2
+    "generated": 9,
+    "reused": 160,
+    "source_fallback": 1
   },
   "products": [
     {
@@ -32531,12 +32531,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "202c58c535af9be6d0073b0d3aa3ae431ca8801d5130454872dfd6175b8abe71",
+        "sourceHash": "d92a6c45a26a41237278923e56d9c80829a46d118934d465b9c8cfdb160fc8ca",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "202c58c535af9be6d0073b0d3aa3ae431ca8801d5130454872dfd6175b8abe71",
-            "contentHash": "202c58c535af9be6d0073b0d3aa3ae431ca8801d5130454872dfd6175b8abe71",
+            "sourceHash": "d92a6c45a26a41237278923e56d9c80829a46d118934d465b9c8cfdb160fc8ca",
+            "contentHash": "d92a6c45a26a41237278923e56d9c80829a46d118934d465b9c8cfdb160fc8ca",
             "attempts": 0,
             "updatedAt": "2026-08-11T03:49:14.091Z",
             "model": "deepseek-v4-flash"
@@ -33236,12 +33236,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "f6e86ff246115b653cf4ae44e033b0f49da71097e5c042974aa1789e7b041b66",
+        "sourceHash": "da90d486ee7edfbfffcbb1bb61c6e4cc1b2d5c8f67a04bfbb822be182de69987",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "f6e86ff246115b653cf4ae44e033b0f49da71097e5c042974aa1789e7b041b66",
-            "contentHash": "f6e86ff246115b653cf4ae44e033b0f49da71097e5c042974aa1789e7b041b66",
+            "sourceHash": "da90d486ee7edfbfffcbb1bb61c6e4cc1b2d5c8f67a04bfbb822be182de69987",
+            "contentHash": "da90d486ee7edfbfffcbb1bb61c6e4cc1b2d5c8f67a04bfbb822be182de69987",
             "attempts": 0,
             "updatedAt": "2026-08-11T03:50:33.067Z",
             "model": "deepseek-v4-flash"
@@ -33681,12 +33681,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "a8d20704609fc26c84b9cad0f205b00335afd8f837e2022b7b9230a19530e346",
+        "sourceHash": "494875e7aa311ae73582e35ef6899d47e990fc996c63ef186585d3f97aca5158",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "a8d20704609fc26c84b9cad0f205b00335afd8f837e2022b7b9230a19530e346",
-            "contentHash": "a8d20704609fc26c84b9cad0f205b00335afd8f837e2022b7b9230a19530e346",
+            "sourceHash": "494875e7aa311ae73582e35ef6899d47e990fc996c63ef186585d3f97aca5158",
+            "contentHash": "494875e7aa311ae73582e35ef6899d47e990fc996c63ef186585d3f97aca5158",
             "attempts": 0,
             "updatedAt": "2026-08-11T03:51:00.208Z",
             "model": "deepseek-v4-flash"
@@ -33896,12 +33896,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "dc0f7ed2044ef494816ac9ec24a054309c17a1631534c240cef623ee0754ab1c",
+        "sourceHash": "c49ccfdbb362b85fd2f20676a5bbc4a36687ea2fdc2e1920e424ab4a823a57f9",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "dc0f7ed2044ef494816ac9ec24a054309c17a1631534c240cef623ee0754ab1c",
-            "contentHash": "dc0f7ed2044ef494816ac9ec24a054309c17a1631534c240cef623ee0754ab1c",
+            "sourceHash": "c49ccfdbb362b85fd2f20676a5bbc4a36687ea2fdc2e1920e424ab4a823a57f9",
+            "contentHash": "c49ccfdbb362b85fd2f20676a5bbc4a36687ea2fdc2e1920e424ab4a823a57f9",
             "attempts": 0,
             "updatedAt": "2026-08-11T03:51:06.045Z",
             "model": "deepseek-v4-flash"
@@ -34424,6 +34424,2086 @@
             "contentHash": "1b7d064468541c92182e2bc209fc60a680bc8d2054ff05d3b2201b86c58c82b8",
             "attempts": 0,
             "updatedAt": "2026-08-11T03:52:19.769Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHITG7BAOVioqqEY6erCyDu",
+      "sourceId": "AAHITG7BAOVioqqEY6erCyDu",
+      "sourceFingerprint": "dea22f76964b6ee1def005ede2b15d4ae836a758b27fe729390498e2dbb82551",
+      "locale": "en",
+      "slug": "zinc-alloy-rhinestone-virgin-mary-pendant-necklace-ercydu",
+      "title": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace",
+      "eyebrow": "Marian pendant charm necklace",
+      "summary": "This necklace showcases a Virgin Mary pendant set with rhinestones, crafted from zinc alloy. Offered in Gold, Gold-2, Gold-chain, Gold 3, and Colorful variants, it suits DIY jewelry projects or ready-to-wear accessory needs.",
+      "description": "The pendant necklace presents a Marian motif with a rhinestone embellished surface. The zinc alloy construction provides a durable base for the decorative stones.\n\nAvailable in several finishes, including gold tones and a multicolor option, it can complement a range of styles. The unisex design and simple chain make it adaptable for everyday wear or craft applications.\n\nWhile it does not include a chain in all variants, the Gold-chain variant does. This flexibility supports creative use in making custom jewelry.",
+      "catholicContext": "The necklace features a pendant of the Virgin Mary, a figure venerated in Catholic tradition.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H3e218b010e3c44b49f41fe509866670cY.webp",
+      "imageAlt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3e218b010e3c44b49f41fe509866670cY.webp",
+          "alt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd27653f102f43038bc28558d0ef728cB.webp",
+          "alt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9ce45d0c8e744d32aa3f1f72f8484749V.webp",
+          "alt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H4275658690a540c1a8bcdd68d64d3eccH.webp",
+          "alt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5a62def3d18f4eb3a8bf9f7950dd01bf8.webp",
+          "alt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf72b2ffd0c274871964138bfd375817bZ.webp",
+          "alt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace - colorful",
+          "label": "colorful",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H717c5248465f469591b00e783bd44001o.webp",
+          "alt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace - gold",
+          "label": "gold",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H582577e8689f416db96e41485874033eF.webp",
+          "alt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace - gold-chain",
+          "label": "gold-chain",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H8e496e496b25478c95b765b0ccfde3f1o.webp",
+          "alt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace - gold-3",
+          "label": "gold-3",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H65f3312fc42044bd81013f971b308ae4q.webp",
+          "alt": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace - gold-2",
+          "label": "gold-2",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu-V--3"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Crafted from zinc alloy",
+        "Rhinestone-encrusted Virgin Mary pendant",
+        "Available in Gold, Gold-2, Gold-chain, Gold 3, and Colorful variants",
+        "Unisex design",
+        "Suitable for DIY jewelry projects"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc alloy"
+        },
+        {
+          "name": "Pendant design",
+          "value": "Virgin Mary with rhinestones"
+        },
+        {
+          "name": "Style",
+          "value": "Unisex"
+        }
+      ],
+      "applications": [
+        "As a standalone necklace",
+        "For DIY jewelry making",
+        "As a gift or personal accessory"
+      ],
+      "faq": [
+        {
+          "question": "Does the necklace come with a chain?",
+          "answer": "Some variants include a chain, such as the Gold-chain variant. Other variants may not include a chain, so please check the specific variant before ordering."
+        },
+        {
+          "question": "What variants are available?",
+          "answer": "The necklace is offered in Gold, Gold-2, Gold-chain, Gold 3, and Colorful variants. They differ in finish and chain inclusion."
+        },
+        {
+          "question": "What is the pendant made of?",
+          "answer": "The pendant is made from zinc alloy and features rhinestone embellishments."
+        }
+      ],
+      "pricing": {
+        "price": "1.37",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.37",
+          "max": "2.87"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Zinc Alloy Rhinestone Virgin Mary Pendant Necklace",
+          "description": "A zinc alloy necklace featuring a rhinestone-encrusted Virgin Mary pendant. Available in multiple color variants for DIY jewelry and accessory use.",
+          "sku": "ALI-AAHITG7BAOVioqqEY6erCyDu",
+          "image": [
+            "https://sc04.alicdn.com/kf/H3e218b010e3c44b49f41fe509866670cY.jpg",
+            "https://sc04.alicdn.com/kf/Hcd27653f102f43038bc28558d0ef728cB.jpg",
+            "https://sc04.alicdn.com/kf/H9ce45d0c8e744d32aa3f1f72f8484749V.jpg",
+            "https://sc04.alicdn.com/kf/H4275658690a540c1a8bcdd68d64d3eccH.jpg",
+            "https://sc04.alicdn.com/kf/H5a62def3d18f4eb3a8bf9f7950dd01bf8.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendant design",
+              "value": "Virgin Mary with rhinestones"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Unisex"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.37",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.37",
+              "maxPrice": "2.87",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does the necklace come with a chain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Some variants include a chain, such as the Gold-chain variant. Other variants may not include a chain, so please check the specific variant before ordering."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What variants are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace is offered in Gold, Gold-2, Gold-chain, Gold 3, and Colorful variants. They differ in finish and chain inclusion."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is made from zinc alloy and features rhinestone embellishments."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "75ea4a117515eb6b29265275973860c6bb620cd666fc8783ec0b5d8368940867",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "75ea4a117515eb6b29265275973860c6bb620cd666fc8783ec0b5d8368940867",
+            "contentHash": "75ea4a117515eb6b29265275973860c6bb620cd666fc8783ec0b5d8368940867",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:23.760Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHtTG7BAOVioqqEY6erC0Pw",
+      "sourceId": "AAHtTG7BAOVioqqEY6erC0Pw",
+      "sourceFingerprint": "0606003fead75b6efd0d4c05938a63f237384dc5416efa6656d4da546c2f8695",
+      "locale": "en",
+      "slug": "stainless-steel-cross-pendant-charm-for-diy-jewelry-erc0pw",
+      "title": "Stainless Steel Cross Pendant Charm for DIY Jewelry",
+      "eyebrow": "stainless steel cross pendant charm",
+      "summary": "This stainless steel cross pendant charm comes in gold or steel color and three sizes. It is suitable for DIY jewelry making, offering a durable, tarnish-resistant option for crafters and wholesale buyers.",
+      "description": "This cross pendant charm is made from stainless steel, available in gold or steel color finishes. The design is a simple cross (no corpus), making it a versatile component for jewelry making. Three sizes are offered: 54mm x 30mm, 43mm x 26mm, and 30mm x 18mm, allowing for various project scales. The pendant is sold as a charm, intended for use in necklaces, bracelets, or other DIY creations. Stainless steel construction suggests durability and resistance to tarnishing, though no specific finish details are provided. This piece is suitable for religious-themed jewelry, craft supplies, or wholesale distribution.",
+      "catholicContext": "A plain cross is a distinct Christian symbol from a crucifix, which includes the body of Christ.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHtTG7BAOVioqqEY6erC0Pw",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2f93101e128d401398f6c5fb001d064cp.webp",
+      "imageAlt": "Stainless Steel Cross Pendant Charm for DIY Jewelry",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2f93101e128d401398f6c5fb001d064cp.webp",
+          "alt": "Stainless Steel Cross Pendant Charm for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1ae780dc4e15497ea1beb62482da6195f.webp",
+          "alt": "Stainless Steel Cross Pendant Charm for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H26387cd9a31f4d1abdc5147a6b89fc7d7.webp",
+          "alt": "Stainless Steel Cross Pendant Charm for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1526a0a8b8bb46288c77c0a68c327b85B.webp",
+          "alt": "Stainless Steel Cross Pendant Charm for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H38715ad5face4b6ea1be5068c668055bQ.webp",
+          "alt": "Stainless Steel Cross Pendant Charm for DIY Jewelry"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He43bdd6ac4cf450e96bf6d86e7657c4e6.webp",
+          "alt": "Stainless Steel Cross Pendant Charm for DIY Jewelry - steel-cross",
+          "label": "steel-cross",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6erC0Pw-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5a2a16466b00407fadcc5cdcb8bb0461J.webp",
+          "alt": "Stainless Steel Cross Pendant Charm for DIY Jewelry - gold-cross",
+          "label": "gold-cross",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6erC0Pw-V--2"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Stainless steel construction",
+        "Available in gold or steel color",
+        "Three size options: 54mm x 30mm, 43mm x 26mm, 30mm x 18mm",
+        "Simple cross design without corpus",
+        "Suitable for DIY jewelry making"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Stainless steel"
+        },
+        {
+          "name": "Color options",
+          "value": "Gold, Steel"
+        },
+        {
+          "name": "Size options",
+          "value": "54mm x 30mm, 43mm x 26mm, 30mm x 18mm"
+        },
+        {
+          "name": "Design",
+          "value": "Plain cross (no corpus)"
+        }
+      ],
+      "applications": [
+        "DIY necklaces",
+        "Bracelet charms",
+        "Religious-themed jewelry",
+        "Craft projects"
+      ],
+      "faq": [
+        {
+          "question": "What sizes are available for this cross pendant charm?",
+          "answer": "The pendant is available in three sizes: 54mm x 30mm, 43mm x 26mm, and 30mm x 18mm, allowing for different design scales."
+        },
+        {
+          "question": "Does this charm have a gold or steel finish?",
+          "answer": "The charm is available in two color options: gold and steel. Both are stainless steel, but the exact finish type is not specified."
+        },
+        {
+          "question": "Is this pendant suitable for use in bracelets as well as necklaces?",
+          "answer": "Yes, the charm can be used in various jewelry types, including necklaces and bracelets, for DIY projects."
+        }
+      ],
+      "pricing": {
+        "price": "0.72",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.72",
+          "max": "10.80"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Stainless Steel Cross Pendant Charm for DIY Jewelry",
+          "description": "Wholesale stainless steel cross pendant charm in gold or steel color, available in three sizes. Ideal for DIY jewelry making and craft projects.",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6erC0Pw",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2f93101e128d401398f6c5fb001d064cp.jpg",
+            "https://sc04.alicdn.com/kf/H1ae780dc4e15497ea1beb62482da6195f.jpg",
+            "https://sc04.alicdn.com/kf/H26387cd9a31f4d1abdc5147a6b89fc7d7.jpg",
+            "https://sc04.alicdn.com/kf/H1526a0a8b8bb46288c77c0a68c327b85B.jpg",
+            "https://sc04.alicdn.com/kf/H38715ad5face4b6ea1be5068c668055bQ.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Stainless steel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color options",
+              "value": "Gold, Steel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Size options",
+              "value": "54mm x 30mm, 43mm x 26mm, 30mm x 18mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Plain cross (no corpus)"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.72",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.72",
+              "maxPrice": "10.80",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What sizes are available for this cross pendant charm?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is available in three sizes: 54mm x 30mm, 43mm x 26mm, and 30mm x 18mm, allowing for different design scales."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this charm have a gold or steel finish?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The charm is available in two color options: gold and steel. Both are stainless steel, but the exact finish type is not specified."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this pendant suitable for use in bracelets as well as necklaces?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the charm can be used in various jewelry types, including necklaces and bracelets, for DIY projects."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e6deb8506085f54735ab1f58d6795414abf44afdd8142de0e80d79d9a9ef9d2c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e6deb8506085f54735ab1f58d6795414abf44afdd8142de0e80d79d9a9ef9d2c",
+            "contentHash": "e6deb8506085f54735ab1f58d6795414abf44afdd8142de0e80d79d9a9ef9d2c",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:24.071Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH_TG7BAOVioqqEY6erC-Lj",
+      "sourceId": "AAH_TG7BAOVioqqEY6erC-Lj",
+      "sourceFingerprint": "796e4bd03ee2a6db35fb93ab9cbdf666ef9153ddf7dab656c15988111e3cf8b4",
+      "locale": "en",
+      "slug": "engraved-wooden-cross-ornament-magnet-erc-lj",
+      "title": "Engraved Wooden Cross Ornament Magnet",
+      "eyebrow": "Wooden cross ornament magnet",
+      "summary": "This eco-friendly wooden cross ornament combines a carved design with a magnet backing, suitable for home decor and gift use. Crafted from wood with a carved technique, it offers a natural look for various applications. Available for wholesale sourcing through our platform.",
+      "description": "This wooden cross ornament is carved from eco-friendly wood, presenting a natural grain that suits rustic or traditional settings. The magnet backing allows for easy display on refrigerators, metal surfaces, or magnetic boards. Its compact size makes it a versatile decorative piece for year-round use or seasonal holidays.\n\nAs a wholesale item, it serves as a practical choice for gift shops, craft stores, and event planners. We source this directly from a manufacturer in Zhejiang, China, ensuring consistent quality for bulk orders.\n\nContact us for pricing and availability. We can provide samples or additional details upon request.",
+      "catholicContext": "A plain cross is a common devotional symbol in Christian traditions, distinct from a crucifix which includes the corpus of Christ.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAH_TG7BAOVioqqEY6erC-Lj",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Hd018a2f0140e432cb3f3a8b10144dda9B.webp",
+      "imageAlt": "Engraved Wooden Cross Ornament Magnet",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd018a2f0140e432cb3f3a8b10144dda9B.webp",
+          "alt": "Engraved Wooden Cross Ornament Magnet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha1c84b9c70e34bc4ad4ba577b0583da0x.webp",
+          "alt": "Engraved Wooden Cross Ornament Magnet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H013077a4f5e54cb69bb19e7e601b316ak.webp",
+          "alt": "Engraved Wooden Cross Ornament Magnet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd903acfca12e408f8408f725596494f3Y.webp",
+          "alt": "Engraved Wooden Cross Ornament Magnet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Haa4a326856604664971586aadfe5939ff.webp",
+          "alt": "Engraved Wooden Cross Ornament Magnet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcb8e2816e9b242d88dacef709e956751m.webp",
+          "alt": "Engraved Wooden Cross Ornament Magnet"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Material: Wood",
+        "Technique: Carved",
+        "Feature: Eco-Friendly",
+        "Product type: Decoration",
+        "Theme: Cross",
+        "Application: Suitable for various occasions including Christmas, Easter, and home decoration"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Technique",
+          "value": "Carved"
+        },
+        {
+          "name": "Feature",
+          "value": "Eco-Friendly"
+        },
+        {
+          "name": "Product Type",
+          "value": "Decoration"
+        },
+        {
+          "name": "Theme",
+          "value": "Cross"
+        },
+        {
+          "name": "Place of Origin",
+          "value": "CN;ZHE"
+        }
+      ],
+      "applications": [
+        "Home decoration display",
+        "Holiday ornament for Christmas, Easter, and other seasons",
+        "Gift item for religious celebrations",
+        "Craft projects or DIY magnets"
+      ],
+      "faq": [
+        {
+          "question": "What material is this cross ornament made from?",
+          "answer": "It is made from wood with a carved technique, and it is described as eco-friendly."
+        },
+        {
+          "question": "Is this a crucifix?",
+          "answer": "No, the product is described as a cross ornament without a corpus, so it is not a crucifix."
+        },
+        {
+          "question": "What applications is this ornament suitable for?",
+          "answer": "It is suitable for home decoration, holiday gifts, and various occasions like Christmas, Easter, and other celebrations."
+        }
+      ],
+      "pricing": {
+        "price": "7.20",
+        "regularPrice": "7.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "5.20",
+          "max": "7.20"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Engraved Wooden Cross Ornament Magnet",
+          "description": "Eco-friendly carved wooden cross ornament magnet for home decor, gifts, and holiday crafting. Wholesale sourced from China, ideal for retail and bulk orders.",
+          "sku": "ALI-AAH_TG7BAOVioqqEY6erC-Lj",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd018a2f0140e432cb3f3a8b10144dda9B.jpg",
+            "https://sc04.alicdn.com/kf/Ha1c84b9c70e34bc4ad4ba577b0583da0x.jpg",
+            "https://sc04.alicdn.com/kf/H013077a4f5e54cb69bb19e7e601b316ak.jpg",
+            "https://sc04.alicdn.com/kf/Hd903acfca12e408f8408f725596494f3Y.jpg",
+            "https://sc04.alicdn.com/kf/Haa4a326856604664971586aadfe5939ff.jpg",
+            "https://sc04.alicdn.com/kf/Hcb8e2816e9b242d88dacef709e956751m.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Technique",
+              "value": "Carved"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Feature",
+              "value": "Eco-Friendly"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Product Type",
+              "value": "Decoration"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Theme",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Place of Origin",
+              "value": "CN;ZHE"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "7.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "5.20",
+              "maxPrice": "7.20",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this cross ornament made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is made from wood with a carved technique, and it is described as eco-friendly."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, the product is described as a cross ornament without a corpus, so it is not a crucifix."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What applications is this ornament suitable for?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is suitable for home decoration, holiday gifts, and various occasions like Christmas, Easter, and other celebrations."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "7e08b587f6d5997a74da75f0149ffff08bab6acb7eca65cb73da2f3656fb0481",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "7e08b587f6d5997a74da75f0149ffff08bab6acb7eca65cb73da2f3656fb0481",
+            "contentHash": "7e08b587f6d5997a74da75f0149ffff08bab6acb7eca65cb73da2f3656fb0481",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:51.764Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEzTG7BAOVioqqEY6eBRvxs",
+      "sourceId": "AAEzTG7BAOVioqqEY6eBRvxs",
+      "sourceFingerprint": "1c4e8d61dca6de60078de537dd244cc8b44ca1c8775f505d72fe26c48cae0f6f",
+      "locale": "en",
+      "slug": "custom-color-pearl-bead-cross-bracelet-for-men-and-women-ebrvxs",
+      "title": "Custom Color Pearl Bead Cross Bracelet for Men and Women",
+      "eyebrow": "beaded cross bracelet",
+      "summary": "This pearl bead cross bracelet is available in brown, black, red, and white. Designed for both men and women, it offers a simple, everyday way to carry a cross symbol. Ideal for personal wear or as a stock item for religious goods retailers.",
+      "description": "The bracelet is constructed from pearl beads in a variety of colors, with a cross pendant as the central feature. It is a unisex design intended for daily wear.\n\nAvailable in four color variants—brown, black, red, and white—this bracelet provides options for different tastes and occasions.\n\nWe offer this bracelet for wholesale sourcing. Contact us for bulk inquiries and to discuss your inventory needs.",
+      "catholicContext": "A cross is a central symbol of the Christian faith, and rosary-style bracelets are often used as an aid to prayer.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H5d107d1b786a4a259493b5f4d2a415771.webp",
+      "imageAlt": "Custom Color Pearl Bead Cross Bracelet for Men and Women",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5d107d1b786a4a259493b5f4d2a415771.webp",
+          "alt": "Custom Color Pearl Bead Cross Bracelet for Men and Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He004b35fc89a4406aa9f2e9a9fd7ca80M.webp",
+          "alt": "Custom Color Pearl Bead Cross Bracelet for Men and Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9469a4a3e2614c898b53fe7876a3c2b6Q.webp",
+          "alt": "Custom Color Pearl Bead Cross Bracelet for Men and Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H961a937b73f84572b9aaedeec197166cy.webp",
+          "alt": "Custom Color Pearl Bead Cross Bracelet for Men and Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H697e92aaeb354079994e64862b006940r.webp",
+          "alt": "Custom Color Pearl Bead Cross Bracelet for Men and Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5272637c2f5841898f5877f61a93be7bp.webp",
+          "alt": "Custom Color Pearl Bead Cross Bracelet for Men and Women"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc61abb94bd7409293fd7ed4179dbb637.webp",
+          "alt": "Custom Color Pearl Bead Cross Bracelet for Men and Women - black",
+          "label": "black",
+          "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfd3bf551da164ce7a00f3b8748c1fcf7y.webp",
+          "alt": "Custom Color Pearl Bead Cross Bracelet for Men and Women - white",
+          "label": "white",
+          "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc5fd500b0a0d485a82c884a5d24e89b15.webp",
+          "alt": "Custom Color Pearl Bead Cross Bracelet for Men and Women - brown",
+          "label": "brown",
+          "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd98c8ff2d02842a8a1436d7d389e41d1o.webp",
+          "alt": "Custom Color Pearl Bead Cross Bracelet for Men and Women - red",
+          "label": "red",
+          "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs-V-3331260"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Pearl bead construction",
+        "Cross pendant design",
+        "Available in brown, black, red, and white",
+        "Unisex style for men and women",
+        "Categorized as rosary bracelet"
+      ],
+      "specifications": [
+        {
+          "name": "Color Variants",
+          "value": "Brown, Black, Red, White"
+        },
+        {
+          "name": "Category",
+          "value": "Rosary bracelets"
+        }
+      ],
+      "applications": [
+        "Personal devotional wear",
+        "Everyday accessory",
+        "Retail stock for religious goods",
+        "Gift item"
+      ],
+      "faq": [
+        {
+          "question": "What colors are available for this pearl bead cross bracelet?",
+          "answer": "The bracelet is available in four color variants: brown, black, red, and white."
+        },
+        {
+          "question": "Is this bracelet suitable for both men and women?",
+          "answer": "Yes, the bracelet is designed as a unisex accessory for men and women."
+        },
+        {
+          "question": "Can I order this bracelet in bulk for my store?",
+          "answer": "We support wholesale sourcing. Contact us to discuss bulk orders and availability."
+        }
+      ],
+      "pricing": {
+        "price": "0.47",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.47"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Custom Color Pearl Bead Cross Bracelet for Men and Women",
+          "description": "Pearl bead cross bracelet in brown, black, red, and white variants. A versatile Catholic-style accessory for men and women from OUOOO.",
+          "sku": "ALI-AAEzTG7BAOVioqqEY6eBRvxs",
+          "image": [
+            "https://sc04.alicdn.com/kf/H5d107d1b786a4a259493b5f4d2a415771.jpg",
+            "https://sc04.alicdn.com/kf/He004b35fc89a4406aa9f2e9a9fd7ca80M.jpg",
+            "https://sc04.alicdn.com/kf/H9469a4a3e2614c898b53fe7876a3c2b6Q.jpg",
+            "https://sc04.alicdn.com/kf/H961a937b73f84572b9aaedeec197166cy.jpg",
+            "https://sc04.alicdn.com/kf/H697e92aaeb354079994e64862b006940r.jpg",
+            "https://sc04.alicdn.com/kf/H5272637c2f5841898f5877f61a93be7bp.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Color Variants",
+              "value": "Brown, Black, Red, White"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Rosary bracelets"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.47",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.47",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What colors are available for this pearl bead cross bracelet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet is available in four color variants: brown, black, red, and white."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the bracelet is designed as a unisex accessory for men and women."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I order this bracelet in bulk for my store?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We support wholesale sourcing. Contact us to discuss bulk orders and availability."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "2cfff62caf7999e81f0930fadfa819d7f0e69d1bd64a42b06e0b3e1632294de7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "2cfff62caf7999e81f0930fadfa819d7f0e69d1bd64a42b06e0b3e1632294de7",
+            "contentHash": "2cfff62caf7999e81f0930fadfa819d7f0e69d1bd64a42b06e0b3e1632294de7",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:23.514Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGWTG7BAOVioqqEY6e5QJaD",
+      "sourceId": "AAGWTG7BAOVioqqEY6e5QJaD",
+      "sourceFingerprint": "2dc5b07f5fd5cb6fd67320dbaddb177f1806f4b036e43992a014497f4297e402",
+      "locale": "en",
+      "slug": "imitation-gold-silver-tassel-plant-pattern-earrings-e5qjad",
+      "title": "Imitation Gold Silver Tassel Plant Pattern Earrings",
+      "eyebrow": "imitation gold and silver tassel pendant earrings with plant pattern",
+      "summary": "These alloy electroplated earrings feature a plant pattern and tassel pendant design, available in imitation gold and silver finishes. Choose from multiple variants to suit your DIY jewelry projects or accessory sourcing needs.",
+      "description": "A set of tassel pendant earrings made from alloy with an electroplated finish to imitate gold or silver. The design includes a plant pattern and hanging tassel elements, suitable for jewelry making or as ready-to-sell accessories. Multiple color variants are offered, including black, gold, and silver with options for ancient finishes. These earrings are lightweight and easy to incorporate into various styles, making them a versatile addition to your product lineup.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H1f24613e248d4c14b8e51b7f5a9d26f5w.webp",
+      "imageAlt": "Imitation Gold Silver Tassel Plant Pattern Earrings",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1f24613e248d4c14b8e51b7f5a9d26f5w.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hae861afb992e4aeb8402bfe274d22a7fz.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hea465ed40a1e4227a2ddcd97752442cc6.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3a9d5f4192b2489b83badf55ae5e2193J.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha3304f41f0064e078cd30cc064cd2cden.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5fa61e5280674ded8253738eea42a262V.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings - silver-001-ancient-silver",
+          "label": "silver-001-ancient-silver",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H022bb5dfefcc411cbd0297b02bc1ea4em.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings - gold-001-ancient-gold",
+          "label": "gold-001-ancient-gold",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6667527121c9450d8fc8893e03d892d1r.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings - silver-001",
+          "label": "silver-001",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2b22a26d744f4a0b84a7993766bf45b9L.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings - gold-001",
+          "label": "gold-001",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H812c544e19974398a9952331aab2f19dI.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings - black-001",
+          "label": "black-001",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9fbace5464cf479f8b072a92e387dd04j.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings - silver-002-ancient",
+          "label": "silver-002-ancient",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H454be617242f45cfa63d699332eb7a18K.webp",
+          "alt": "Imitation Gold Silver Tassel Plant Pattern Earrings - gold-002",
+          "label": "gold-002",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD-V--7"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Alloy construction with electroplated imitation gold or silver finish",
+        "Plant pattern and tassel pendant design",
+        "Multiple color variants: gold, silver, black, and ancient finishes",
+        "Suitable for DIY jewelry making or direct sale",
+        "Hanging ornament style for earrings"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Alloy with electroplated finish"
+        },
+        {
+          "name": "Color variants",
+          "value": "Black-001, gold-001, gold-001 ancient gold, gold-002, silver-001, silver-001 ancient silver, silver-002 ancient"
+        },
+        {
+          "name": "Design",
+          "value": "Plant pattern with tassel pendant"
+        }
+      ],
+      "applications": [
+        "Jewelry making and DIY crafts",
+        "Retail accessory sales",
+        "Costume or fashion ensembles",
+        "Gift items or party favors"
+      ],
+      "faq": [
+        {
+          "question": "What materials are these earrings made of?",
+          "answer": "The earrings are made from alloy and feature an electroplated finish to imitate gold or silver."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "Variants include black, gold-001, gold-001 ancient gold, gold-002, silver-001, silver-001 ancient silver, and silver-002 ancient."
+        },
+        {
+          "question": "Can these be used for DIY jewelry making?",
+          "answer": "Yes, the tassel pendant earrings are suitable for DIY projects or can be sold as finished accessories."
+        }
+      ],
+      "pricing": {
+        "price": "0.01",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.01",
+          "max": "0.02"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Imitation Gold Silver Tassel Plant Pattern Earrings",
+          "description": "Alloy electroplated tassel pendant earrings with plant pattern in imitation gold and silver finishes. Available in multiple color variants for DIY jewelry making.",
+          "sku": "ALI-AAGWTG7BAOVioqqEY6e5QJaD",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1f24613e248d4c14b8e51b7f5a9d26f5w.png",
+            "https://sc04.alicdn.com/kf/Hae861afb992e4aeb8402bfe274d22a7fz.png",
+            "https://sc04.alicdn.com/kf/Hea465ed40a1e4227a2ddcd97752442cc6.png",
+            "https://sc04.alicdn.com/kf/H3a9d5f4192b2489b83badf55ae5e2193J.png",
+            "https://sc04.alicdn.com/kf/Ha3304f41f0064e078cd30cc064cd2cden.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Alloy with electroplated finish"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Black-001, gold-001, gold-001 ancient gold, gold-002, silver-001, silver-001 ancient silver, silver-002 ancient"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Plant pattern with tassel pendant"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.01",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.01",
+              "maxPrice": "0.02",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are these earrings made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The earrings are made from alloy and feature an electroplated finish to imitate gold or silver."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Variants include black, gold-001, gold-001 ancient gold, gold-002, silver-001, silver-001 ancient silver, and silver-002 ancient."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can these be used for DIY jewelry making?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the tassel pendant earrings are suitable for DIY projects or can be sold as finished accessories."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0f5cc29c045e9c9ff6307c298f8279a6312c74f11202fc03a38fe37eb949dbe7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0f5cc29c045e9c9ff6307c298f8279a6312c74f11202fc03a38fe37eb949dbe7",
+            "contentHash": "0f5cc29c045e9c9ff6307c298f8279a6312c74f11202fc03a38fe37eb949dbe7",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:28.873Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFYTG7BAOVioqqEY6eeQlcd",
+      "sourceId": "AAFYTG7BAOVioqqEY6eeQlcd",
+      "sourceFingerprint": "2456566a647ddc9f3fb2ecab9f7d045716512f20ac4843077f5cd707d23c2458",
+      "locale": "en",
+      "slug": "children-s-wooden-bead-rosary-necklace-pink-white-eeqlcd",
+      "title": "Children's Wooden Bead Rosary Necklace (Pink/White)",
+      "eyebrow": "children's rosary necklace",
+      "summary": "This children's rosary necklace features wooden beads in a traditional rosary design with a cross pendant. Available in pink or white. Suitable for baptism gifts or teaching prayer. Wholesale orders welcome.",
+      "description": "This children's rosary is made with wooden beads and comes in two color options: pink and white. The rosary design follows the traditional structure, with a cross pendant and a complete set of decades. The wooden beads are lightweight, making it comfortable for children to wear or hold during prayer.\n\nIdeal as a gift for baptism, First Communion, or religious education classes, this rosary introduces little ones to the practice of the Rosary. It can also be used in Sunday school or family prayer time. The neutral white version suits both boys and girls, while the pink variant adds a softer tone.\n\nFor wholesale buyers, this rosary offers an affordable way to stock a variety of children's religious items. Contact us for bulk pricing and availability.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAFYTG7BAOVioqqEY6eeQlcd",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H0b293dea0cc645d9bb1eb4ea668f7c45x.webp",
+      "imageAlt": "Children's Wooden Bead Rosary Necklace (Pink/White)",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0b293dea0cc645d9bb1eb4ea668f7c45x.webp",
+          "alt": "Children's Wooden Bead Rosary Necklace (Pink/White)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0db33bc118cf4c18963182438124b1842.webp",
+          "alt": "Children's Wooden Bead Rosary Necklace (Pink/White)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H74d58fa6495647f5bba79ccc3fef725aE.webp",
+          "alt": "Children's Wooden Bead Rosary Necklace (Pink/White)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha3d349430b694bb79cc7cc37a81e70bbO.webp",
+          "alt": "Children's Wooden Bead Rosary Necklace (Pink/White)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7a05e3b232274157a282f0b064ae6723N.webp",
+          "alt": "Children's Wooden Bead Rosary Necklace (Pink/White)"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0f5041c1beba4039802489fb066ef348X.webp",
+          "alt": "Children's Wooden Bead Rosary Necklace (Pink/White)"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4a6ece9bda374f7cafae3e6ce98c122d2.webp",
+          "alt": "Children's Wooden Bead Rosary Necklace (Pink/White) - pink",
+          "label": "pink",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eeQlcd-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H20d469f520764ac58d1002b3a9432728f.webp",
+          "alt": "Children's Wooden Bead Rosary Necklace (Pink/White) - white",
+          "label": "white",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eeQlcd-V-3331185"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Wooden beads with rosary design",
+        "Available in pink and white variants",
+        "Includes cross pendant",
+        "Suitable for children",
+        "Lightweight construction for small hands"
+      ],
+      "specifications": [
+        {
+          "name": "Color",
+          "value": "White, Pink"
+        },
+        {
+          "name": "Design",
+          "value": "Rosary"
+        }
+      ],
+      "applications": [
+        "Baptism gifts",
+        "First Communion gifts",
+        "Religious education classes",
+        "Family prayer time"
+      ],
+      "faq": [
+        {
+          "question": "What colors are available for this children's rosary?",
+          "answer": "This rosary comes in two color options: white and pink."
+        },
+        {
+          "question": "Is this rosary suitable for everyday use by children?",
+          "answer": "Yes, the wooden beads and lightweight design make it appropriate for children to handle during prayer."
+        },
+        {
+          "question": "Can I purchase this rosary in bulk for resale?",
+          "answer": "Yes, this product is offered wholesale. Contact us for bulk ordering details."
+        }
+      ],
+      "pricing": {
+        "price": "0.36",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Children's Wooden Bead Rosary Necklace (Pink/White)",
+          "description": "Buy children's wooden bead rosary necklaces in pink or white. Cross pendant, prayer beads, wholesale. Ideal for baptism gifts, First Communion, and catechesis.",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eeQlcd",
+          "image": [
+            "https://sc04.alicdn.com/kf/H0b293dea0cc645d9bb1eb4ea668f7c45x.jpg",
+            "https://sc04.alicdn.com/kf/H0db33bc118cf4c18963182438124b1842.jpg",
+            "https://sc04.alicdn.com/kf/H74d58fa6495647f5bba79ccc3fef725aE.jpg",
+            "https://sc04.alicdn.com/kf/Ha3d349430b694bb79cc7cc37a81e70bbO.jpg",
+            "https://sc04.alicdn.com/kf/H7a05e3b232274157a282f0b064ae6723N.jpg",
+            "https://sc04.alicdn.com/kf/H0f5041c1beba4039802489fb066ef348X.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Color",
+              "value": "White, Pink"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Rosary"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.36",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What colors are available for this children's rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This rosary comes in two color options: white and pink."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary suitable for everyday use by children?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the wooden beads and lightweight design make it appropriate for children to handle during prayer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I purchase this rosary in bulk for resale?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, this product is offered wholesale. Contact us for bulk ordering details."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "7074e7c38f880592062a8e33d332e4ef5d52b0441b10d180481459f0d294a9d1",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "7074e7c38f880592062a8e33d332e4ef5d52b0441b10d180481459f0d294a9d1",
+            "contentHash": "7074e7c38f880592062a8e33d332e4ef5d52b0441b10d180481459f0d294a9d1",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:55.198Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHhTG7BAOVioqqEY6eErU7e",
+      "sourceId": "AAHhTG7BAOVioqqEY6eErU7e",
+      "sourceFingerprint": "2626c111255e6711a032dccc71c282369dba251faec4b1e7b16da502270f9d92",
+      "locale": "en",
+      "slug": "our-lady-of-mount-carmel-scapular-pendant-eeru7e",
+      "title": "Our Lady of Mount Carmel Scapular Pendant",
+      "eyebrow": "Catholic scapular pendant",
+      "summary": "This scapular pendant presents a geometric rendition of Our Lady of Mount Carmel in polyester. A religious-themed accessory for men, women, and children, it pairs a modern look with traditional Marian devotion.",
+      "description": "The pendant's geometric pattern gives a contemporary edge to a classic devotional image of Our Lady of Mount Carmel. Crafted from polyester, it is lightweight and suitable for everyday wear. The design is unisex, making it a versatile addition to any jewelry collection. As religious-themed jewelry, it can serve as a visible reminder of faith. We offer this piece as part of our Catholic gift sourcing catalog; contact us for ordering details.",
+      "catholicContext": "Marian refers to the Virgin Mary in Christian and Catholic context; Our Lady of Mount Carmel is a traditional Marian devotion.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "39",
+          "name": "Catholic Scapulars",
+          "slug": "catholic-scapulars"
+        }
+      ],
+      "sku": "ALI-AAHhTG7BAOVioqqEY6eErU7e",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H4b75d8a8a019464e8246dc2c06bf5263B.webp",
+      "imageAlt": "Our Lady of Mount Carmel Scapular Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4b75d8a8a019464e8246dc2c06bf5263B.webp",
+          "alt": "Our Lady of Mount Carmel Scapular Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6d70360ddaa245909c5fa6ce615ea90bZ.webp",
+          "alt": "Our Lady of Mount Carmel Scapular Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1600753cd6374980a53b0f538ccf13feo.webp",
+          "alt": "Our Lady of Mount Carmel Scapular Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha4f62f37313149218b8e35993e137f2dk.webp",
+          "alt": "Our Lady of Mount Carmel Scapular Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7cfcacf8a8bf4059bc572d0af17dfce06.webp",
+          "alt": "Our Lady of Mount Carmel Scapular Pendant"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Polyester construction",
+        "Geometric Our Lady of Mount Carmel pattern",
+        "Religious Catholic themed pendant",
+        "Unisex design for men, women, and children",
+        "Suitable for gifting on occasions like Christmas"
+      ],
+      "specifications": [
+        {
+          "name": "Main Material",
+          "value": "Polyester"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Pendant or Charm"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Shape/Pattern",
+          "value": "Geometric"
+        }
+      ],
+      "applications": [
+        "Religious jewelry for personal wear",
+        "Gift for Catholic occasions such as Christmas",
+        "Wedding or anniversary favor",
+        "Devotional accessory for daily use"
+      ],
+      "faq": [
+        {
+          "question": "What material is this scapular pendant made of?",
+          "answer": "This scapular pendant is made of polyester."
+        },
+        {
+          "question": "Is this pendant suitable for both men and women?",
+          "answer": "Yes, the pendant is designed as unisex, suitable for men, women, and children."
+        },
+        {
+          "question": "What design does this pendant feature?",
+          "answer": "The pendant features a geometric pattern depicting Our Lady of Mount Carmel, a traditional Marian image."
+        }
+      ],
+      "pricing": {
+        "price": "0.65",
+        "regularPrice": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.35",
+          "max": "0.65"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Our Lady of Mount Carmel Scapular Pendant",
+          "description": "Polyester scapular pendant with geometric Our Lady design. Religious Catholic jewelry, unisex, suitable for gifts. Explore OUOOO's collection.",
+          "sku": "ALI-AAHhTG7BAOVioqqEY6eErU7e",
+          "image": [
+            "https://sc04.alicdn.com/kf/H4b75d8a8a019464e8246dc2c06bf5263B.jpg",
+            "https://sc04.alicdn.com/kf/H6d70360ddaa245909c5fa6ce615ea90bZ.jpg",
+            "https://sc04.alicdn.com/kf/H1600753cd6374980a53b0f538ccf13feo.jpg",
+            "https://sc04.alicdn.com/kf/Ha4f62f37313149218b8e35993e137f2dk.jpg",
+            "https://sc04.alicdn.com/kf/H7cfcacf8a8bf4059bc572d0af17dfce06.jpg"
+          ],
+          "category": "Catholic Scapulars",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Polyester"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Pendant or Charm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape/Pattern",
+              "value": "Geometric"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.35",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this scapular pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This scapular pendant is made of polyester."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this pendant suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the pendant is designed as unisex, suitable for men, women, and children."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What design does this pendant feature?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant features a geometric pattern depicting Our Lady of Mount Carmel, a traditional Marian image."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "7d642c4b2380ac56ab4e0a06a95594015a3ff0c477fc3d3fe23261c6db0e3962",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "7d642c4b2380ac56ab4e0a06a95594015a3ff0c477fc3d3fe23261c6db0e3962",
+            "contentHash": "7d642c4b2380ac56ab4e0a06a95594015a3ff0c477fc3d3fe23261c6db0e3962",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:29.042Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHoTG7BAOVioqqEY6eBRTbo",
+      "sourceId": "AAHoTG7BAOVioqqEY6eBRTbo",
+      "sourceFingerprint": "024c7d0292d31818760e3e4fe6be03b26f35ed7c1520f5348e05f11384fe7d66",
+      "locale": "en",
+      "slug": "vintage-cross-pendant-beaded-necklace-ebrtbo",
+      "title": "Vintage Cross Pendant Beaded Necklace",
+      "eyebrow": "vintage cross pendant necklace",
+      "summary": "This religious necklace features a vintage-style cross pendant with a beaded chain. Available in silver-plated or gold-plated finishes, it is crafted from alloy with a claw-set main stone. The unisex design suits everyday wear as a faith-inspired accessory.",
+      "description": "This cross pendant necklace presents a vintage aesthetic with a beaded chain and a claw-set stone accent. The pendant is crafted from alloy and offered in two plating options: silver-plated or gold-plated. As a beaded necklace, it hangs as a simple, classic piece for daily wear.\n\nThe necklace is categorized under religious jewelry with Catholic significance, making it a suitable choice for those seeking a subtle expression of faith. Its unisex styling means it can be worn by anyone. The materials are alloy, and the stone is a plastic-based claw set.\n\nWhether worn alone or layered, this piece offers a straightforward design that complements a range of casual outfits. Its vintage look may appeal to those who appreciate traditional religious symbols in contemporary jewelry.",
+      "catholicContext": "Within Catholic tradition, the cross is a central symbol of faith, and a cross pendant worn as jewelry can serve as a visible expression of personal devotion.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHoTG7BAOVioqqEY6eBRTbo",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H79c12be8830646a0858a415c3af90b89T.webp",
+      "imageAlt": "Vintage Cross Pendant Beaded Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H79c12be8830646a0858a415c3af90b89T.webp",
+          "alt": "Vintage Cross Pendant Beaded Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1689f7d7d7934b58bd46f65d79f7dfe8S.webp",
+          "alt": "Vintage Cross Pendant Beaded Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hce057e043a97408f9fb883ba0807f0aag.webp",
+          "alt": "Vintage Cross Pendant Beaded Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0830826a7a3944ab96f23feaea89a351u.webp",
+          "alt": "Vintage Cross Pendant Beaded Necklace"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Vintage-style cross pendant design",
+        "Beaded chain necklace type",
+        "Available in silver-plated or gold-plated plating",
+        "Main stone set with claw setting technique",
+        "Unisex gender designation",
+        "Categorized as Catholic religious jewelry"
+      ],
+      "specifications": [
+        {
+          "name": "Jewelry Main Material",
+          "value": "Alloy"
+        },
+        {
+          "name": "Plating",
+          "value": "Silver Plated, Gold Plated"
+        },
+        {
+          "name": "Chain Type",
+          "value": "Beads"
+        },
+        {
+          "name": "Main Stone",
+          "value": "Plastic"
+        },
+        {
+          "name": "Inlay Technology",
+          "value": "Claw Setting"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Religious Type",
+          "value": "Catholicism"
+        }
+      ],
+      "applications": [
+        "Wear as a daily faith-inspired accessory",
+        "Gift for religious occasions",
+        "Pair with casual or vintage-style outfits",
+        "Use as a simple layering piece"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this necklace made of?",
+          "answer": "The pendant and chain are made of alloy, with a plastic main stone set using a claw setting. The plating is available in silver or gold."
+        },
+        {
+          "question": "Is this necklace suitable for both men and women?",
+          "answer": "Yes, the product is marked as unisex, so it can be worn by anyone regardless of gender."
+        },
+        {
+          "question": "Does the pendant feature a crucifix?",
+          "answer": "The product is described as a cross pendant, which typically depicts a plain cross rather than a crucifix with the corpus of Christ."
+        }
+      ],
+      "pricing": {
+        "price": "1.58",
+        "regularPrice": "1.58",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.20",
+          "max": "1.58"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Vintage Cross Pendant Beaded Necklace",
+          "description": "A vintage-style cross pendant necklace with beads, available in silver-plated and gold-plated finishes. Unisex religious jewelry for everyday wear.",
+          "sku": "ALI-AAHoTG7BAOVioqqEY6eBRTbo",
+          "image": [
+            "https://sc04.alicdn.com/kf/H79c12be8830646a0858a415c3af90b89T.jpg",
+            "https://sc04.alicdn.com/kf/H1689f7d7d7934b58bd46f65d79f7dfe8S.jpg",
+            "https://sc04.alicdn.com/kf/Hce057e043a97408f9fb883ba0807f0aag.jpg",
+            "https://sc04.alicdn.com/kf/H0830826a7a3944ab96f23feaea89a351u.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Main Material",
+              "value": "Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Silver Plated, Gold Plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain Type",
+              "value": "Beads"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "Plastic"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Inlay Technology",
+              "value": "Claw Setting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Religious Type",
+              "value": "Catholicism"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.58",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.20",
+              "maxPrice": "1.58",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant and chain are made of alloy, with a plastic main stone set using a claw setting. The plating is available in silver or gold."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this necklace suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product is marked as unisex, so it can be worn by anyone regardless of gender."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the pendant feature a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product is described as a cross pendant, which typically depicts a plain cross rather than a crucifix with the corpus of Christ."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b52b73cdff87bfb48eccffc526a345e047bf25d702b6180ac0949eebe93ab6cf",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b52b73cdff87bfb48eccffc526a345e047bf25d702b6180ac0949eebe93ab6cf",
+            "contentHash": "b52b73cdff87bfb48eccffc526a345e047bf25d702b6180ac0949eebe93ab6cf",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:35.511Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE1TG7BAOVioqqEY6eErA10",
+      "sourceId": "AAE1TG7BAOVioqqEY6eErA10",
+      "sourceFingerprint": "1ae928ffbf43303b5cfaa4d20c684343b1a241174f7639b556885b330544d3c9",
+      "locale": "en",
+      "slug": "ouooo-handcrafted-children-s-catholic-scapular-jewelry-religious-eera10",
+      "title": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious",
+      "eyebrow": "Catholic Scapulars",
+      "summary": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious Amulet Polyester Material Our Lady Mount Carmel Gift",
+      "description": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious Amulet Polyester Material Our Lady Mount Carmel Gift",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "39",
+          "name": "Catholic Scapulars",
+          "slug": "catholic-scapulars"
+        }
+      ],
+      "sku": "ALI-AAE1TG7BAOVioqqEY6eErA10",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Ha18f4d39a827453690f8e528b37136fef.webp",
+      "imageAlt": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha18f4d39a827453690f8e528b37136fef.webp",
+          "alt": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H33891616bae440d5a05e2f71913b6b54t.webp",
+          "alt": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H96ac52f8d84f4b50875bbdca1d789e0cP.webp",
+          "alt": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha654c8f804634b77aac8cc3c9982cfefU.webp",
+          "alt": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc48fd8cbb6548ca850df02f8640834eE.webp",
+          "alt": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb2e60c71b61a4fdabf18eb2ea8851ea6D.webp",
+          "alt": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2f74d00a6d324e4f9dc8be74f54f900aS.webp",
+          "alt": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious - green",
+          "label": "green",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6eErA10-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1d378b0d14a4e6394f498ca6b7eb8bf1.webp",
+          "alt": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious - red",
+          "label": "red",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6eErA10-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ddb6cbae666426aaead1e9368ef299dy.webp",
+          "alt": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious - black",
+          "label": "black",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6eErA10-V--3"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Variant: Black, Red, Green"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Black, Red, Green"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.35",
+          "max": "0.65"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious",
+          "description": "OUOOO Handcrafted Children's Catholic Scapular Jewelry Religious Amulet Polyester Material Our Lady Mount Carmel Gift",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6eErA10",
+          "image": [
+            "https://sc04.alicdn.com/kf/Ha18f4d39a827453690f8e528b37136fef.jpg",
+            "https://sc04.alicdn.com/kf/H33891616bae440d5a05e2f71913b6b54t.jpg",
+            "https://sc04.alicdn.com/kf/H96ac52f8d84f4b50875bbdca1d789e0cP.jpg",
+            "https://sc04.alicdn.com/kf/Ha654c8f804634b77aac8cc3c9982cfefU.jpg",
+            "https://sc04.alicdn.com/kf/Hbc48fd8cbb6548ca850df02f8640834eE.jpg",
+            "https://sc04.alicdn.com/kf/Hb2e60c71b61a4fdabf18eb2ea8851ea6D.jpg"
+          ],
+          "category": "Catholic Scapulars",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Black, Red, Green"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.35",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "bf2d22b9c2598c357cf91ebd27a884524c856cb1146af03cf3892a7c18647028",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "bf2d22b9c2598c357cf91ebd27a884524c856cb1146af03cf3892a7c18647028",
+            "contentHash": "bf2d22b9c2598c357cf91ebd27a884524c856cb1146af03cf3892a7c18647028",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:58:00.571Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAERTG7BAOVioqqEY6eBT4E8",
+      "sourceId": "AAERTG7BAOVioqqEY6eBT4E8",
+      "sourceFingerprint": "b5dd89609d45ab770aae2a9197ef050f8fd44e761f7068645b68bc5df7f8e70d",
+      "locale": "en",
+      "slug": "guardian-angel-blessing-resin-cross-ornament-ebt4e8",
+      "title": "Guardian Angel Blessing Resin Cross Ornament",
+      "eyebrow": "Guardian Angel Cross Resin Ornament",
+      "summary": "This Guardian Angel Blessing cross ornament is molded in resin with soft enamel detailing and UV printing. It is a three-dimensional model suited for display during Christmas, Easter, and other festive occasions.",
+      "description": "The ornament is cast in resin, giving it a sturdy, hand-feel weight. Soft enamel highlights and UV printing add contrast to the cross-shaped silhouette. It is a three-dimensional model, so it reads well on a mantel, shelf, or tabletop rather than lying flat.\n\nStyle is listed as Cross, and the product type is model. Applications include Christmas, Thanksgiving, Easter, and general home decoration, as well as art and collectible display. The brand is OUOOO, and it originates from Zhejiang, China.\n\nBecause it is a resin craft, keep it away from prolonged direct sunlight and clean with a dry cloth. It is not described as a crucifix, so the figure depicts a guardian angel motif on a cross rather than Christ.",
+      "catholicContext": "A cross is a central symbol of the Christian faith, though this product is not described as a crucifix and should not be assumed to be blessed or consecrated.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAERTG7BAOVioqqEY6eBT4E8",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H4a97d309a7d14803a09a9e58f17abe8cJ.webp",
+      "imageAlt": "Guardian Angel Blessing Resin Cross Ornament",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4a97d309a7d14803a09a9e58f17abe8cJ.webp",
+          "alt": "Guardian Angel Blessing Resin Cross Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha149f094b48e489f94366c332ad21bdbz.webp",
+          "alt": "Guardian Angel Blessing Resin Cross Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hefea9e74a757437b83718959a3bd7c14N.webp",
+          "alt": "Guardian Angel Blessing Resin Cross Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H40f99ca6086e4d30ba7153420ee0bccaC.webp",
+          "alt": "Guardian Angel Blessing Resin Cross Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf256f057ce4d490a9931353cad94ea9dl.webp",
+          "alt": "Guardian Angel Blessing Resin Cross Ornament"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Molded in resin with a three-dimensional model shape",
+        "Soft enamel detailing and UV printing",
+        "Cross-style design with guardian angel blessing theme",
+        "Suitable for multiple holidays and home decor",
+        "Brand: OUOOO; origin: Zhejiang, China"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Resin"
+        },
+        {
+          "name": "Enamel type",
+          "value": "Soft enamel"
+        },
+        {
+          "name": "Shape",
+          "value": "3D"
+        },
+        {
+          "name": "Printing",
+          "value": "UV Printing"
+        },
+        {
+          "name": "Technique",
+          "value": "Plated"
+        },
+        {
+          "name": "Product Type",
+          "value": "Model"
+        },
+        {
+          "name": "Style",
+          "value": "Cross"
+        },
+        {
+          "name": "Place of Origin",
+          "value": "CN;ZHE"
+        }
+      ],
+      "applications": [
+        "Christmas decoration",
+        "Easter decoration",
+        "Home decoration",
+        "Art and collectible display"
+      ],
+      "faq": [
+        {
+          "question": "What material is this guardian angel cross ornament made of?",
+          "answer": "It is made of resin with soft enamel detailing and UV printing, giving it a durable, dimensional finish."
+        },
+        {
+          "question": "Is this product a crucifix?",
+          "answer": "No, it is described as a cross, not a crucifix. There is no mention of a corpus of Christ in the product facts."
+        },
+        {
+          "question": "Can this ornament be used outdoors?",
+          "answer": "The listed applications include home decoration and holiday displays, but it does not state outdoor use. Resin may degrade in direct sunlight, so indoor display is recommended."
+        }
+      ],
+      "pricing": {
+        "price": "4.97",
+        "regularPrice": "4.97",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "4.10",
+          "max": "4.97"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Guardian Angel Blessing Resin Cross Ornament",
+          "description": "Guardian Angel Blessing cross ornament in resin with soft enamel details and UV printing. A collectible model for Christmas, Easter, and home decoration.",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eBT4E8",
+          "image": [
+            "https://sc04.alicdn.com/kf/H4a97d309a7d14803a09a9e58f17abe8cJ.jpg",
+            "https://sc04.alicdn.com/kf/Ha149f094b48e489f94366c332ad21bdbz.jpg",
+            "https://sc04.alicdn.com/kf/Hefea9e74a757437b83718959a3bd7c14N.jpg",
+            "https://sc04.alicdn.com/kf/H40f99ca6086e4d30ba7153420ee0bccaC.jpg",
+            "https://sc04.alicdn.com/kf/Hf256f057ce4d490a9931353cad94ea9dl.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Resin"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Enamel type",
+              "value": "Soft enamel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "3D"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Printing",
+              "value": "UV Printing"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Technique",
+              "value": "Plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Product Type",
+              "value": "Model"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Place of Origin",
+              "value": "CN;ZHE"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "4.97",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "4.10",
+              "maxPrice": "4.97",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this guardian angel cross ornament made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is made of resin with soft enamel detailing and UV printing, giving it a durable, dimensional finish."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this product a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, it is described as a cross, not a crucifix. There is no mention of a corpus of Christ in the product facts."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this ornament be used outdoors?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The listed applications include home decoration and holiday displays, but it does not state outdoor use. Resin may degrade in direct sunlight, so indoor display is recommended."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "65debd5d1da2ba138af148dc4abb9304da4c8a03475a938c002459bdc01d8b7c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "65debd5d1da2ba138af148dc4abb9304da4c8a03475a938c002459bdc01d8b7c",
+            "contentHash": "65debd5d1da2ba138af148dc4abb9304da4c8a03475a938c002459bdc01d8b7c",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T14:57:43.215Z",
             "model": "deepseek-v4-flash"
           }
         }

@@ -320,6 +320,13 @@ try {
       translationBacklog.push(sourceProduct);
     }
   }
+  // Only keep products that still exist in the English source catalog so the
+  // localized catalogs never accumulate stale products the main site no longer
+  // publishes (sub-sites must not show more products than the English site).
+  const sourceCatalogIds = new Set(sourceCatalog.products.map((product) => String(product.productId)));
+  for (const productId of [...productsById.keys()]) {
+    if (!sourceCatalogIds.has(productId)) productsById.delete(productId);
+  }
   const products = [...productsById.values()];
   const result = {
     schemaVersion: sourceCatalog.schemaVersion,

@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-11T18:07:38.382Z",
+  "generatedAt": "2026-08-11T18:55:14.935Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAGxTG7BAOVioqqEY6exyN7W",
-      "AAERTG7BAOVioqqEY6eebEi7",
-      "AAHOTG7BAOVioqqEY6eAPoIK",
-      "AAEWTG7BAOVioqqEY6eOpJ5C",
-      "AAH4TG7BAOVioqqEY6eYEWvg",
-      "AAGITG7BAOVioqqEY6eYWarp",
-      "AAHlTG7BAOVioqqEY6eE7ZRc",
-      "AAEqTG7BAOVioqqEY6eCTY5J",
-      "AAFOTG7BAOVioqqEY6eYVmJ6",
-      "AAE3TG7BAOVioqqEY6eYVEl-"
+      "AAELTG7BAOVioqqEY6eyZx_P",
+      "AAFQTG7BAOVioqqEY6eYaM99",
+      "AAEeTG7BAOVioqqEY6ePw0_5",
+      "AAHwTG7BAOVioqqEY6ed-hk8",
+      "AAERTG7BAOVioqqEY6eGI37m",
+      "AAH7TG7BAOVioqqEY6eYbTDC",
+      "AAEoTG7BAOVioqqEY6eCTZ43",
+      "AAGbTG7BAOVioqqEY6eegS_J",
+      "AAHqTG7BAOVioqqEY6eFBvXm",
+      "AAGNTG7BAOVioqqEY6e286DA"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 8,
-    "reused": 170,
-    "source_fallback": 2
+    "generated": 9,
+    "reused": 180,
+    "source_fallback": 1
   },
   "products": [
     {
@@ -36972,12 +36972,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "b2e163acc616f41a0112975fdc4912070def4abee0d3fd0bbd8fd8e9f9a57d7b",
+        "sourceHash": "dd59282dc82a11a3906de99c52d15643a82c4f9709511f9264d60be1b5988b9e",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "b2e163acc616f41a0112975fdc4912070def4abee0d3fd0bbd8fd8e9f9a57d7b",
-            "contentHash": "b2e163acc616f41a0112975fdc4912070def4abee0d3fd0bbd8fd8e9f9a57d7b",
+            "sourceHash": "dd59282dc82a11a3906de99c52d15643a82c4f9709511f9264d60be1b5988b9e",
+            "contentHash": "dd59282dc82a11a3906de99c52d15643a82c4f9709511f9264d60be1b5988b9e",
             "attempts": 0,
             "updatedAt": "2026-08-11T18:06:45.334Z",
             "model": "deepseek-v4-flash"
@@ -37420,12 +37420,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "1f0c2bffdc6842e4c04251ee495342588b954034cd6455d7182a625d9a3d4ba7",
+        "sourceHash": "da6a512a7bfd70c692914c3f9b0fa27c6bf79e12995db4ad040eea9d3d80a2fd",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "1f0c2bffdc6842e4c04251ee495342588b954034cd6455d7182a625d9a3d4ba7",
-            "contentHash": "1f0c2bffdc6842e4c04251ee495342588b954034cd6455d7182a625d9a3d4ba7",
+            "sourceHash": "da6a512a7bfd70c692914c3f9b0fa27c6bf79e12995db4ad040eea9d3d80a2fd",
+            "contentHash": "da6a512a7bfd70c692914c3f9b0fa27c6bf79e12995db4ad040eea9d3d80a2fd",
             "attempts": 0,
             "updatedAt": "2026-08-11T18:06:53.639Z",
             "model": "deepseek-v4-flash"
@@ -37641,12 +37641,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "328f90d4b2f8effc4877f8bcdba676ce6a94cacb4b76041a123d3eb40fcfb0cf",
+        "sourceHash": "a1c71cdc978d0ba6f381459a217d3166bea121eb4a03fd7e3535d7911915673d",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "328f90d4b2f8effc4877f8bcdba676ce6a94cacb4b76041a123d3eb40fcfb0cf",
-            "contentHash": "328f90d4b2f8effc4877f8bcdba676ce6a94cacb4b76041a123d3eb40fcfb0cf",
+            "sourceHash": "a1c71cdc978d0ba6f381459a217d3166bea121eb4a03fd7e3535d7911915673d",
+            "contentHash": "a1c71cdc978d0ba6f381459a217d3166bea121eb4a03fd7e3535d7911915673d",
             "attempts": 0,
             "updatedAt": "2026-08-11T18:06:59.686Z",
             "model": "deepseek-v4-flash"
@@ -38633,6 +38633,2200 @@
             "contentHash": "014c062acf9eec1214439a963f4f23f6dd060c529ef1dc062f0fe8090fb922eb",
             "attempts": 0,
             "updatedAt": "2026-08-11T18:07:38.052Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAELTG7BAOVioqqEY6eyZx_P",
+      "sourceId": "AAELTG7BAOVioqqEY6eyZx_P",
+      "sourceFingerprint": "45cf746ab25e66e0172e77812b2ede28f32a424c7656fd174c8fcbf5558aec62",
+      "locale": "en",
+      "slug": "red-rose-scented-wooden-rosary-necklace-eyzx_p",
+      "title": "Red Rose Scented Wooden Rosary Necklace",
+      "eyebrow": "wooden rosary necklace",
+      "summary": "A wooden rosary necklace with red rose scent and hand-engraved plated metal accents. The beaded chain and cross make it a Catholic gift for prayer. Contact us for wholesale orders.",
+      "description": "This rosary necklace is made of wood with a red rose scent, offering a subtle fragrance. The hand-engraved plated metal details add a distinct touch. As a beaded necklace with a cross, it serves as a devotional aid for Catholic prayer. The wood material provides a natural feel, while the plating is described as 'Other,' indicating a non-standard finish. This piece is categorized under Catholic Rosaries and Religious necklaces, aligning with Christian faith expressions. It is designed as a gift item, suitable for those who appreciate religious symbolism. The bead chain type ensures a flexible, classic rosary structure. For sourcing inquiries, we at OUOOO are ready to assist.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAELTG7BAOVioqqEY6eyZx_P",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H7a1e99ebff804bda8c5cd2f05927d0b2m.webp",
+      "imageAlt": "Red Rose Scented Wooden Rosary Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7a1e99ebff804bda8c5cd2f05927d0b2m.webp",
+          "alt": "Red Rose Scented Wooden Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H03c2d105498e44618aac5a8b1894fa93r.webp",
+          "alt": "Red Rose Scented Wooden Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H30577e6c310144fe9c795ae526bc3d7bx.webp",
+          "alt": "Red Rose Scented Wooden Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4d87b68842c74ed4bf311368fdbdc221H.webp",
+          "alt": "Red Rose Scented Wooden Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H80e30007dd74492aa48a7938ecb1cce04.webp",
+          "alt": "Red Rose Scented Wooden Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H930ad80686704f3e99c8439304d2f172m.webp",
+          "alt": "Red Rose Scented Wooden Rosary Necklace"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Wooden beads with a red rose scent",
+        "Hand-engraved plated metal accents",
+        "Beaded necklace chain type",
+        "Cross design for religious symbolism",
+        "Categorized as Catholic Rosary and Religious style",
+        "Brand: OUOOO"
+      ],
+      "specifications": [
+        {
+          "name": "Main Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Necklace, Beaded Necklace"
+        },
+        {
+          "name": "Plating",
+          "value": "Other"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Religious Type",
+          "value": "Christianity"
+        },
+        {
+          "name": "Occasion",
+          "value": "Gift"
+        },
+        {
+          "name": "Place of Origin",
+          "value": "CN;ZHE"
+        }
+      ],
+      "applications": [
+        "Catholic prayer and devotion",
+        "Religious gift giving",
+        "Wearing as religious jewelry",
+        "Personal meditation use"
+      ],
+      "faq": [
+        {
+          "question": "What material is the rosary necklace made of?",
+          "answer": "The rosary beads are made of wood, and the metal parts are plated with a finish described as 'Other'."
+        },
+        {
+          "question": "Does the rosary necklace include a cross?",
+          "answer": "The product title mentions a wooden cross, so the necklace includes a cross as part of its design."
+        },
+        {
+          "question": "Is this rosary intended as a gift item?",
+          "answer": "Yes, the occasion attribute is listed as 'Gift,' and it falls under the Catholic Rosaries category."
+        }
+      ],
+      "pricing": {
+        "price": "0.55",
+        "regularPrice": "0.55",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.35",
+          "max": "0.55"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Red Rose Scented Wooden Rosary Necklace",
+          "description": "Wooden rosary necklace with red rose scent, hand-engraved plated metal accents, and a cross. A religious beaded necklace for Catholic gift-giving.",
+          "sku": "ALI-AAELTG7BAOVioqqEY6eyZx_P",
+          "image": [
+            "https://sc04.alicdn.com/kf/H7a1e99ebff804bda8c5cd2f05927d0b2m.jpg",
+            "https://sc04.alicdn.com/kf/H03c2d105498e44618aac5a8b1894fa93r.png",
+            "https://sc04.alicdn.com/kf/H30577e6c310144fe9c795ae526bc3d7bx.png",
+            "https://sc04.alicdn.com/kf/H4d87b68842c74ed4bf311368fdbdc221H.png",
+            "https://sc04.alicdn.com/kf/H80e30007dd74492aa48a7938ecb1cce04.png",
+            "https://sc04.alicdn.com/kf/H930ad80686704f3e99c8439304d2f172m.png"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Necklace, Beaded Necklace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Other"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Religious Type",
+              "value": "Christianity"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Occasion",
+              "value": "Gift"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Place of Origin",
+              "value": "CN;ZHE"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.55",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.35",
+              "maxPrice": "0.55",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is the rosary necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary beads are made of wood, and the metal parts are plated with a finish described as 'Other'."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the rosary necklace include a cross?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product title mentions a wooden cross, so the necklace includes a cross as part of its design."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary intended as a gift item?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the occasion attribute is listed as 'Gift,' and it falls under the Catholic Rosaries category."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "fdfad2f904a8e58f0f4fdb3983506fe775e29f883e04b976c8fdaf95edf300d6",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "fdfad2f904a8e58f0f4fdb3983506fe775e29f883e04b976c8fdaf95edf300d6",
+            "contentHash": "fdfad2f904a8e58f0f4fdb3983506fe775e29f883e04b976c8fdaf95edf300d6",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:29.926Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFQTG7BAOVioqqEY6eYaM99",
+      "sourceId": "AAFQTG7BAOVioqqEY6eYaM99",
+      "sourceFingerprint": "b7653930ae70d2c2b9065a7342469dc5f4c012014414dd861bc29e31eb3b245b",
+      "locale": "en",
+      "slug": "wooden-bead-rosary-necklace-with-cross-pendant-eyam99",
+      "title": "Wooden Bead Rosary Necklace with Cross Pendant",
+      "eyebrow": "Catholic Rosary Necklace with Wood Beads and Cross Pendant",
+      "summary": "A rosary necklace made with natural wood beads and a cross pendant, offered in five color choices. Suitable as a personal prayer aid or as a gift for Catholic occasions.",
+      "description": "This rosary necklace pairs natural wood beads with a cross pendant, giving the prayer aid a warm, organic look. The design is straightforward and practical, suited to daily handling. We offer it in five bead tones—Coffee, Brown, Beige, Black, and Red—so you can match preference or occasion. Its necklace format allows it to be worn or carried easily, and it can serve as a tactile reminder of the Rosary's mysteries during personal prayer.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H2fa1d3631b1e40e596795dec33f2f106c.webp",
+      "imageAlt": "Wooden Bead Rosary Necklace with Cross Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2fa1d3631b1e40e596795dec33f2f106c.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5f15347bacac44b988375c7ac2a25d31D.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1a145fbd63fd4fe39dcb945e558fb175O.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H81169ac35373402cb0a8bf3998f8684a3.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf5e4a0c8a0e64fb59d9c40372a17bec0p.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H90d69ef4388c4c58a8f0245a3e94b373P.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H413c39c357e244ee97f6628fed61d4017.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant - coffee",
+          "label": "coffee",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf8d93518806d413e9ab7aca7f83ea5d7i.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant - red",
+          "label": "red",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc78d28895fce48309dda88bed572c210y.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant - brown",
+          "label": "brown",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcdf405d7f17d4b47adaf0cde150e16b23.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant - beige",
+          "label": "beige",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99-V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1d65b660f00240799e3ab98e6bca280e8.webp",
+          "alt": "Wooden Bead Rosary Necklace with Cross Pendant - black",
+          "label": "black",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99-V-3327837"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Natural wood beads",
+        "Cross pendant included",
+        "Five color variants: Coffee, Brown, Beige, Black, Red",
+        "Necklace style for easy wear",
+        "Categorized as Catholic rosary"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Pendant",
+          "value": "Cross"
+        },
+        {
+          "name": "Style",
+          "value": "Necklace"
+        },
+        {
+          "name": "Color variants",
+          "value": "Coffee, Brown, Beige, Black, Red"
+        }
+      ],
+      "applications": [
+        "Personal prayer and meditation",
+        "Gift for Catholic occasions",
+        "Everyday devotional wear",
+        "Religious education aids"
+      ],
+      "faq": [
+        {
+          "question": "What material is this rosary necklace made of?",
+          "answer": "The beads are made of natural wood, and the pendant is a cross. The exact wood type is not specified."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "The rosary necklace comes in five variants: Coffee, Brown, Beige, Black, and Red."
+        },
+        {
+          "question": "Is this a crucifix or a plain cross pendant?",
+          "answer": "The product is described as a cross pendant. There is no indication of a corpus (body of Christ), so it is a plain cross, not a crucifix."
+        }
+      ],
+      "pricing": {
+        "price": "0.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.23",
+          "max": "0.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wooden Bead Rosary Necklace with Cross Pendant",
+          "description": "Natural wood bead rosary necklace featuring a Jesus cross pendant. Available in five color variants. A practical prayer aid for personal devotion.",
+          "sku": "ALI-AAFQTG7BAOVioqqEY6eYaM99",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2fa1d3631b1e40e596795dec33f2f106c.jpg",
+            "https://sc04.alicdn.com/kf/H5f15347bacac44b988375c7ac2a25d31D.jpg",
+            "https://sc04.alicdn.com/kf/H1a145fbd63fd4fe39dcb945e558fb175O.jpg",
+            "https://sc04.alicdn.com/kf/H81169ac35373402cb0a8bf3998f8684a3.jpg",
+            "https://sc04.alicdn.com/kf/Hf5e4a0c8a0e64fb59d9c40372a17bec0p.jpg",
+            "https://sc04.alicdn.com/kf/H90d69ef4388c4c58a8f0245a3e94b373P.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendant",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Necklace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Coffee, Brown, Beige, Black, Red"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.23",
+              "maxPrice": "0.30",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this rosary necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are made of natural wood, and the pendant is a cross. The exact wood type is not specified."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary necklace comes in five variants: Coffee, Brown, Beige, Black, and Red."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this a crucifix or a plain cross pendant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product is described as a cross pendant. There is no indication of a corpus (body of Christ), so it is a plain cross, not a crucifix."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "9fbf564041e0e90406db0eed017c479450eb3a6d7cb01cc3c41d23f4f4f0c40b",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "9fbf564041e0e90406db0eed017c479450eb3a6d7cb01cc3c41d23f4f4f0c40b",
+            "contentHash": "9fbf564041e0e90406db0eed017c479450eb3a6d7cb01cc3c41d23f4f4f0c40b",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:28.729Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEeTG7BAOVioqqEY6ePw0_5",
+      "sourceId": "AAEeTG7BAOVioqqEY6ePw0_5",
+      "sourceFingerprint": "6ec5f13875d58b5ba53f17de78ddb5880d3136495609c7ea83f78f37f58e1a44",
+      "locale": "en",
+      "slug": "vintage-rosary-necklace-with-imitation-pearl-8mm-beads-epw0_5",
+      "title": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads",
+      "eyebrow": "Catholic vintage rosary necklace",
+      "summary": "This vintage rosary necklace features 8mm imitation pearl beads and a cross pendant, offered in nine color options including gray, plum red, and black. A practical and ornamental piece for personal prayer or as a gift.",
+      "description": "The rosary's vintage character comes through in its glass-like imitation pearl beads, each 8mm in size, paired with a traditional cross. The color range—from muted gray to plum red and brown—lets buyers match preference or occasion. The necklace format makes it easy to carry or wear. As a Catholic devotional item, it can be used for reciting the Rosary, the prayer centered on contemplation of events in the lives of Jesus and Mary.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb16697eadf5c4f7c91e462dcdd997839y.webp",
+      "imageAlt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb16697eadf5c4f7c91e462dcdd997839y.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf6a4eb5678e245a9b181dda419359eafG.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc478650843a45778f56dd7797eacf64g.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7b5d31078bc1445d985743cd9d44db9es.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31de8cabd2b04472843172159bf69c5e9.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H561b51a045704799a1bcf06e9884e67aT.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha139393831a0470fb50c078cff62d24eA.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads - red",
+          "label": "red",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H508c1e0d702a46e3b496f7ea6c2ae3efB.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads - white",
+          "label": "white",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5a814bb87e3c4e5b8e672218ec233155B.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads - purple",
+          "label": "purple",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3851110"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd33a27ac315844b59fd25bd652110216o.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads - brown",
+          "label": "brown",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H115f2ccfa70f4d18a86fb2f34456f41d2.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads - gray",
+          "label": "gray",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-5412614"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2d4bbbc52ebb4898a2dfe0aa09e37baeq.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads - plum-red",
+          "label": "plum-red",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H822812737a474597bca62fd4ed6df75fW.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads - blue",
+          "label": "blue",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-123085"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb361b4c87e8a47579dd9d084c1db6c20J.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads - pink",
+          "label": "pink",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd2c81f5f64c347f985a2f67106179d6bP.webp",
+          "alt": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads - black",
+          "label": "black",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3327837"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "8mm imitation pearl beads with a glass-like finish",
+        "Cross pendant attached to the rosary",
+        "Available in nine color variants: gray, plum red, brown, black, red, white, pink, blue, purple",
+        "Vintage-style design suitable for devotional use",
+        "Necklace form for convenient carrying"
+      ],
+      "specifications": [
+        {
+          "name": "Bead size",
+          "value": "8mm"
+        },
+        {
+          "name": "Bead material",
+          "value": "Imitation pearl"
+        },
+        {
+          "name": "Style",
+          "value": "Vintage"
+        },
+        {
+          "name": "Color variants",
+          "value": "Gray, plum red, brown, black, red, white, pink, blue, purple"
+        }
+      ],
+      "applications": [
+        "Personal Rosary prayer",
+        "Catholic religious gift for Easter or other occasions",
+        "Everyday devotional jewelry",
+        "Church group or ministry giveaways"
+      ],
+      "faq": [
+        {
+          "question": "What are the beads made of?",
+          "answer": "The beads are imitation pearl, each 8mm in diameter."
+        },
+        {
+          "question": "Is this a crucifix or a cross?",
+          "answer": "The product description mentions a cross, not a crucifix. We do not have details about a corpus."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "The rosary comes in gray, plum red, brown, black, red, white, pink, blue, and purple."
+        }
+      ],
+      "pricing": {
+        "price": "0.58",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.58"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Vintage Rosary Necklace with Imitation Pearl 8mm Beads",
+          "description": "Vintage-style Catholic rosary necklace with 8mm imitation pearl beads and cross. Available in 9 colors. Ideal for devotional prayer and religious gifts.",
+          "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hb16697eadf5c4f7c91e462dcdd997839y.jpg",
+            "https://sc04.alicdn.com/kf/Hf6a4eb5678e245a9b181dda419359eafG.jpg",
+            "https://sc04.alicdn.com/kf/Hcc478650843a45778f56dd7797eacf64g.jpg",
+            "https://sc04.alicdn.com/kf/H7b5d31078bc1445d985743cd9d44db9es.jpg",
+            "https://sc04.alicdn.com/kf/H31de8cabd2b04472843172159bf69c5e9.jpg",
+            "https://sc04.alicdn.com/kf/H561b51a045704799a1bcf06e9884e67aT.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Bead size",
+              "value": "8mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bead material",
+              "value": "Imitation pearl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Vintage"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Gray, plum red, brown, black, red, white, pink, blue, purple"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.58",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.58",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the beads made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are imitation pearl, each 8mm in diameter."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this a crucifix or a cross?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product description mentions a cross, not a crucifix. We do not have details about a corpus."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary comes in gray, plum red, brown, black, red, white, pink, blue, and purple."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "ccb50362984bfc343df0fa48be76dd93350ae76a6ea7e7feb3eeae569db01175",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "ccb50362984bfc343df0fa48be76dd93350ae76a6ea7e7feb3eeae569db01175",
+            "contentHash": "ccb50362984bfc343df0fa48be76dd93350ae76a6ea7e7feb3eeae569db01175",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:37.464Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHwTG7BAOVioqqEY6ed-hk8",
+      "sourceId": "AAHwTG7BAOVioqqEY6ed-hk8",
+      "sourceFingerprint": "b5b0b4cdbd4e63f6ded591501dcb475f83193072d59115c63c132451e3a0d5b7",
+      "locale": "en",
+      "slug": "8mm-imitation-pearl-rosary-necklace-ed-hk8",
+      "title": "8mm Imitation Pearl Rosary Necklace",
+      "eyebrow": "rosary necklace",
+      "summary": "An 8mm imitation pearl rosary necklace with a cross, offered in nine color variants including gray, plum red, brown, black, red, white, pink, blue, and purple. Crafted for Catholic prayer and devotional use, suitable for church gift shops and religious goods retailers.",
+      "description": "This rosary necklace features 8mm imitation pearl beads and a cross, making it a recognizable aid for the Rosary, a traditional Catholic prayer. The beads are sized for comfortable handling during prayer, and the necklace style allows for easy wearing or carrying. Choose from nine color options to suit personal preference or liturgical seasons.\n\nAs a devotional item, this rosary is suitable for personal prayer, catechesis, or as a gift for sacramental occasions. For wholesale purchasing, contact us for pricing and availability.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hf4330f25a41c44d0978f286aadfb8199X.webp",
+      "imageAlt": "8mm Imitation Pearl Rosary Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf4330f25a41c44d0978f286aadfb8199X.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7f0c723aea724075b5b50e1a640a77d5g.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb7716f2ec1f84022b67c24613c243371O.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc3d241ad98724ee68c2ee5f3d1604ac4P.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H751ad1dcbfaa46d9a79c9912db6985a6O.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfc3b1b3974e641bc9a88ddba82ea5e4ed.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hceaecaf1363a4eb1bdca882176ff055bY.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace - blue",
+          "label": "blue",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-123085"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7020fc830371408b8a62be8f9006042d1.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace - black",
+          "label": "black",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He27644754c8e454bb54e918cdc0b27fcd.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace - pink",
+          "label": "pink",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc1c422c722184222a20d11f5f098cbc9J.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace - white",
+          "label": "white",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1485b0335d64c229d774e43d0bc46f7B.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace - red",
+          "label": "red",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdfc65fbb97284f15b0d24f2bf93c8954i.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace - brown",
+          "label": "brown",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf13b721f3ddd4004b2aa5ed323164c2bv.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace - purple",
+          "label": "purple",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-3851110"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H02b53579052944ba850e7972177cca549.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace - plum-red",
+          "label": "plum-red",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H203402098f5242238826af4727d399abn.webp",
+          "alt": "8mm Imitation Pearl Rosary Necklace - gray",
+          "label": "gray",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V-5412614"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "8mm imitation pearl beads",
+        "Includes a cross",
+        "Available in nine color variants: gray, plum red, brown, black, red, white, pink, blue, purple",
+        "Necklace style for wearing or carrying",
+        "Categorized under Catholic Rosaries"
+      ],
+      "specifications": [
+        {
+          "name": "Bead size",
+          "value": "8mm"
+        },
+        {
+          "name": "Material",
+          "value": "Imitation pearl"
+        },
+        {
+          "name": "Primary color options",
+          "value": "Gray, plum red, brown, black, red, white, pink, blue, purple"
+        }
+      ],
+      "applications": [
+        "Personal Rosary prayer",
+        "Gift for baptism, first communion, or confirmation",
+        "Church gift shop inventory",
+        "Catechetical use in religious education"
+      ],
+      "faq": [
+        {
+          "question": "What material are the beads made of?",
+          "answer": "The beads are made of imitation pearl, sized at 8mm each."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "The rosary necklace comes in nine color variants: gray, plum red, brown, black, red, white, pink, blue, and purple."
+        },
+        {
+          "question": "Is the cross a crucifix?",
+          "answer": "The product is described as having a cross; it is not specified as a crucifix with a corpus of Christ."
+        }
+      ],
+      "pricing": {
+        "price": "0.58",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.58"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "8mm Imitation Pearl Rosary Necklace",
+          "description": "8mm imitation pearl rosary necklace with cross, available in 9 colors. A Catholic prayer aid for devotional use. Wholesale inquiries welcome.",
+          "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf4330f25a41c44d0978f286aadfb8199X.jpg",
+            "https://sc04.alicdn.com/kf/H7f0c723aea724075b5b50e1a640a77d5g.jpg",
+            "https://sc04.alicdn.com/kf/Hb7716f2ec1f84022b67c24613c243371O.jpg",
+            "https://sc04.alicdn.com/kf/Hc3d241ad98724ee68c2ee5f3d1604ac4P.jpg",
+            "https://sc04.alicdn.com/kf/H751ad1dcbfaa46d9a79c9912db6985a6O.jpg",
+            "https://sc04.alicdn.com/kf/Hfc3b1b3974e641bc9a88ddba82ea5e4ed.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Bead size",
+              "value": "8mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Imitation pearl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Primary color options",
+              "value": "Gray, plum red, brown, black, red, white, pink, blue, purple"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.58",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.58",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material are the beads made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are made of imitation pearl, sized at 8mm each."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary necklace comes in nine color variants: gray, plum red, brown, black, red, white, pink, blue, and purple."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the cross a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product is described as having a cross; it is not specified as a crucifix with a corpus of Christ."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "fa8cccfecb4fb12bdf3d953a6d2f81d616979a462a28376259817b2a8d8d3e0c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "fa8cccfecb4fb12bdf3d953a6d2f81d616979a462a28376259817b2a8d8d3e0c",
+            "contentHash": "fa8cccfecb4fb12bdf3d953a6d2f81d616979a462a28376259817b2a8d8d3e0c",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:29.069Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAERTG7BAOVioqqEY6eGI37m",
+      "sourceId": "AAERTG7BAOVioqqEY6eGI37m",
+      "sourceFingerprint": "c0f67c1fa08c395391dc95f5db148e6c45966d4da6042c8e5e06b2c7d76caeb8",
+      "locale": "en",
+      "slug": "wooden-rosary-necklace-with-cross-and-jesus-pendant-egi37m",
+      "title": "Wooden Rosary Necklace with Cross and Jesus Pendant",
+      "eyebrow": "Wooden rosary necklace",
+      "summary": "This wooden rosary necklace features a cross and a Jesus pendant, offered in four color options: Coffee, Brown, Beige, and Black. Designed as a rosary, it serves as a devotional accessory for personal use or wholesale distribution.",
+      "description": "This wooden rosary necklace combines a cross and a Jesus pendant in one piece, available in Coffee, Brown, Beige, and Black. The design is categorized as a rosary, making it suitable for those seeking a prayer aid or religious accessory.\n\nCrafted from wood, this necklace offers a natural aesthetic that may appeal to individuals looking for an eco-friendly alternative to metal or plastic rosaries. Its neutral tones allow it to complement various styles.\n\nWe offer this item for wholesale, and you can contact us for ordering details. The variant selection includes four colors, allowing you to choose what best fits your inventory needs.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H7269ab568b6f4bbc8c63f7485b307773R.webp",
+      "imageAlt": "Wooden Rosary Necklace with Cross and Jesus Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7269ab568b6f4bbc8c63f7485b307773R.webp",
+          "alt": "Wooden Rosary Necklace with Cross and Jesus Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1e7fbdad27624e459c1a6555ab4f6d4dL.webp",
+          "alt": "Wooden Rosary Necklace with Cross and Jesus Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0a24f6b717df4a69a351aa72716ce5d23.webp",
+          "alt": "Wooden Rosary Necklace with Cross and Jesus Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H68a4c02e2c7d4af3bde8d3184c06da2bJ.webp",
+          "alt": "Wooden Rosary Necklace with Cross and Jesus Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8e049b99d2e2495c80f49c5b37479eedO.webp",
+          "alt": "Wooden Rosary Necklace with Cross and Jesus Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7083e069ba4f47d5b8d297eb4ed56ffaU.webp",
+          "alt": "Wooden Rosary Necklace with Cross and Jesus Pendant"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc78d28895fce48309dda88bed572c210y.webp",
+          "alt": "Wooden Rosary Necklace with Cross and Jesus Pendant - brown",
+          "label": "brown",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H413c39c357e244ee97f6628fed61d4017.webp",
+          "alt": "Wooden Rosary Necklace with Cross and Jesus Pendant - coffee",
+          "label": "coffee",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcdf405d7f17d4b47adaf0cde150e16b23.webp",
+          "alt": "Wooden Rosary Necklace with Cross and Jesus Pendant - beige",
+          "label": "beige",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m-V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1d65b660f00240799e3ab98e6bca280e8.webp",
+          "alt": "Wooden Rosary Necklace with Cross and Jesus Pendant - black",
+          "label": "black",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m-V-3327837"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Made of wood",
+        "Includes a cross and a Jesus pendant",
+        "Available in Coffee, Brown, Beige, and Black variants",
+        "Design category: Rosary",
+        "Suitable for wholesale orders"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Design",
+          "value": "Rosary"
+        },
+        {
+          "name": "Color variants",
+          "value": "Coffee, Brown, Beige, Black"
+        }
+      ],
+      "applications": [
+        "Personal prayer and devotional use",
+        "Religious gift items",
+        "Church or ministry supply",
+        "Retail inventory for religious goods stores"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this rosary necklace?",
+          "answer": "This rosary necklace is made of wood, as stated in the product description."
+        },
+        {
+          "question": "What color options are available for this wooden rosary necklace?",
+          "answer": "The necklace is available in four color variants: Coffee, Brown, Beige, and Black."
+        },
+        {
+          "question": "Is this product suitable for wholesale purchases?",
+          "answer": "Yes, this product is listed under religious jewelry wholesale, and we support wholesale orders. Contact us for more details."
+        }
+      ],
+      "pricing": {
+        "price": "0.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.23",
+          "max": "0.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wooden Rosary Necklace with Cross and Jesus Pendant",
+          "description": "Wooden rosary necklace with cross and Jesus pendant, available in Coffee, Brown, Beige, and Black. Ideal for religious jewelry wholesale.",
+          "sku": "ALI-AAERTG7BAOVioqqEY6eGI37m",
+          "image": [
+            "https://sc04.alicdn.com/kf/H7269ab568b6f4bbc8c63f7485b307773R.jpg",
+            "https://sc04.alicdn.com/kf/H1e7fbdad27624e459c1a6555ab4f6d4dL.jpg",
+            "https://sc04.alicdn.com/kf/H0a24f6b717df4a69a351aa72716ce5d23.jpg",
+            "https://sc04.alicdn.com/kf/H68a4c02e2c7d4af3bde8d3184c06da2bJ.jpg",
+            "https://sc04.alicdn.com/kf/H8e049b99d2e2495c80f49c5b37479eedO.jpg",
+            "https://sc04.alicdn.com/kf/H7083e069ba4f47d5b8d297eb4ed56ffaU.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Rosary"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Coffee, Brown, Beige, Black"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.23",
+              "maxPrice": "0.30",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this rosary necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This rosary necklace is made of wood, as stated in the product description."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available for this wooden rosary necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace is available in four color variants: Coffee, Brown, Beige, and Black."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this product suitable for wholesale purchases?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, this product is listed under religious jewelry wholesale, and we support wholesale orders. Contact us for more details."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "d2a4aa51fb211b7f3f16133b0c9adaa30fd87a730679022ef6c08bd2dd85afa2",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "d2a4aa51fb211b7f3f16133b0c9adaa30fd87a730679022ef6c08bd2dd85afa2",
+            "contentHash": "d2a4aa51fb211b7f3f16133b0c9adaa30fd87a730679022ef6c08bd2dd85afa2",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:35.238Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH7TG7BAOVioqqEY6eYbTDC",
+      "sourceId": "AAH7TG7BAOVioqqEY6eYbTDC",
+      "sourceFingerprint": "163fc9b99223041bac9fd7cf4b8d3245cf4503d4e5dd0c1c07ecd8945961bad8",
+      "locale": "en",
+      "slug": "wood-grain-rosary-with-wooden-beads-and-cross-eybtdc",
+      "title": "Wood Grain Rosary with Wooden Beads and Cross",
+      "eyebrow": "wood grain rosary",
+      "summary": "A wood grain rosary featuring wooden beads and a Jesus cross, offered in brown or beige. Suitable for Catholic devotional use and wholesale orders, this rosary provides a natural, tactile option for prayer.",
+      "description": "This rosary is crafted with wooden beads and a wood grain finish, presenting a natural aesthetic. It includes a Jesus cross, distinguishing it as a Catholic devotional item. Available in brown and beige color variants. The wooden construction offers a warm, traditional feel. For wholesale buyers, this rosary serves as a practical choice for parishes, gift shops, or religious goods distributors. Its simple design focuses on the essential elements of the Rosary, making it a straightforward addition to any Catholic inventory.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAH7TG7BAOVioqqEY6eYbTDC",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hfa27545d5c414d179d896e4ce29e0e0ac.webp",
+      "imageAlt": "Wood Grain Rosary with Wooden Beads and Cross",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfa27545d5c414d179d896e4ce29e0e0ac.webp",
+          "alt": "Wood Grain Rosary with Wooden Beads and Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hee2ad901e46748c896d694d8b7c456fdB.webp",
+          "alt": "Wood Grain Rosary with Wooden Beads and Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha2360043af7d4cebb75de0dee2ebc897h.webp",
+          "alt": "Wood Grain Rosary with Wooden Beads and Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H86d65dfa10924be6a8ea18f3c6b15d574.webp",
+          "alt": "Wood Grain Rosary with Wooden Beads and Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H36a06f814db149f49a22fdb131b9956ba.webp",
+          "alt": "Wood Grain Rosary with Wooden Beads and Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdbf3b749dcd34cfd9d109f0eaf368d2ce.webp",
+          "alt": "Wood Grain Rosary with Wooden Beads and Cross"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5dd2bf792d4d4ba2b0ac714a73052f48K.webp",
+          "alt": "Wood Grain Rosary with Wooden Beads and Cross - brown",
+          "label": "brown",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eYbTDC-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H89bc2c190ba14fd69d74d1b84869d4d9y.webp",
+          "alt": "Wood Grain Rosary with Wooden Beads and Cross - beige",
+          "label": "beige",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eYbTDC-V-5715155"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Wood grain finish",
+        "Wooden beads",
+        "Jesus cross",
+        "Available in brown or beige",
+        "Catholic rosary design"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Brown, Beige"
+        }
+      ],
+      "applications": [
+        "Personal Catholic prayer",
+        "Parish gift shop inventory",
+        "Religious education materials",
+        "Wholesale distribution"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this rosary?",
+          "answer": "The rosary features wooden beads and a wood grain finish, with a Jesus cross included."
+        },
+        {
+          "question": "What color variants are available?",
+          "answer": "The rosary is offered in brown and beige."
+        },
+        {
+          "question": "Is this rosary suitable for wholesale orders?",
+          "answer": "Yes, this rosary is available for wholesale sourcing, making it suitable for bulk purchasing."
+        }
+      ],
+      "pricing": {
+        "price": "0.48",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.48"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wood Grain Rosary with Wooden Beads and Cross",
+          "description": "Wood grain rosary with wooden beads and Jesus cross, available in brown and beige. Ideal for Catholic prayer and wholesale sourcing.",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eYbTDC",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hfa27545d5c414d179d896e4ce29e0e0ac.jpg",
+            "https://sc04.alicdn.com/kf/Hee2ad901e46748c896d694d8b7c456fdB.jpg",
+            "https://sc04.alicdn.com/kf/Ha2360043af7d4cebb75de0dee2ebc897h.jpg",
+            "https://sc04.alicdn.com/kf/H86d65dfa10924be6a8ea18f3c6b15d574.jpg",
+            "https://sc04.alicdn.com/kf/H36a06f814db149f49a22fdb131b9956ba.jpg",
+            "https://sc04.alicdn.com/kf/Hdbf3b749dcd34cfd9d109f0eaf368d2ce.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Brown, Beige"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.48",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.48",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary features wooden beads and a wood grain finish, with a Jesus cross included."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color variants are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary is offered in brown and beige."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary suitable for wholesale orders?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, this rosary is available for wholesale sourcing, making it suitable for bulk purchasing."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "59bfad3399483d0e17f0364421af320ebb89e796f0174f8cf9c9f24ba7f9fbd3",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "59bfad3399483d0e17f0364421af320ebb89e796f0174f8cf9c9f24ba7f9fbd3",
+            "contentHash": "59bfad3399483d0e17f0364421af320ebb89e796f0174f8cf9c9f24ba7f9fbd3",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:41.867Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEoTG7BAOVioqqEY6eCTZ43",
+      "sourceId": "AAEoTG7BAOVioqqEY6eCTZ43",
+      "sourceFingerprint": "402d0ad35e1bf2f0d473963a503fc06186a34c47bc6e3a467d4e8d8ef55c75c6",
+      "locale": "en",
+      "slug": "8mm-wooden-rosary-beads-catholic-prayer-ectz43",
+      "title": "8mm Wooden Rosary Beads Catholic Prayer",
+      "eyebrow": "wooden rosary",
+      "summary": "8mm wooden rosary beads featuring a strand design and Christian religious style. Made of wood, these beads serve as a prayer aid and are suitable as gifts for religious occasions.",
+      "description": "This rosary features 8mm wooden beads arranged in a strand configuration, a common style for prayer beads. The wood material offers a natural, tactile feel during handling. Crafted in the religious style associated with Christianity, the rosary can be used for personal devotion or as a gift item. Its design aligns with the traditional Catholic practice of praying the Rosary, which involves meditation on the mysteries of the life of Jesus and Mary. The beads are presented as a beaded necklace, making them easy to carry or wear. Suitable for various religious and gift-giving occasions, this rosary serves as a tangible aid for prayer.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAEoTG7BAOVioqqEY6eCTZ43",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H5525737a49154b8a9195d7257bddeaedr.webp",
+      "imageAlt": "8mm Wooden Rosary Beads Catholic Prayer",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5525737a49154b8a9195d7257bddeaedr.webp",
+          "alt": "8mm Wooden Rosary Beads Catholic Prayer"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0f0cb2c487f41e7af12c1aad25e179bj.webp",
+          "alt": "8mm Wooden Rosary Beads Catholic Prayer"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7064a15168924ab9a6e205f1bbe1eafeN.webp",
+          "alt": "8mm Wooden Rosary Beads Catholic Prayer"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He215dfc2828a47798ea697f7715bc57e0.webp",
+          "alt": "8mm Wooden Rosary Beads Catholic Prayer"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Heb9b670544d241d69d044b3f21afb344H.webp",
+          "alt": "8mm Wooden Rosary Beads Catholic Prayer"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2d4e22e894d8438b81f6418e88fca51eK.webp",
+          "alt": "8mm Wooden Rosary Beads Catholic Prayer"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "8mm wooden beads",
+        "Strand chain type",
+        "Religious style",
+        "Christianity religious type",
+        "Suitable as a gift"
+      ],
+      "specifications": [
+        {
+          "name": "Main Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Bead Size",
+          "value": "8mm"
+        },
+        {
+          "name": "Chain Type",
+          "value": "Strand"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Beaded Necklace"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        }
+      ],
+      "applications": [
+        "Personal prayer and devotion",
+        "Gift for religious occasions",
+        "Catholic church use",
+        "Religious education"
+      ],
+      "faq": [
+        {
+          "question": "What material is this rosary made of?",
+          "answer": "The rosary is made of wood, with 8mm beads."
+        },
+        {
+          "question": "Is this rosary suitable for daily prayer?",
+          "answer": "Yes, the wooden beads are durable and the strand design makes it easy to handle during prayer."
+        },
+        {
+          "question": "Can this rosary be used as a gift?",
+          "answer": "Yes, it is designed for gift occasions and suitable for religious events such as Christmas or Easter."
+        }
+      ],
+      "pricing": {
+        "price": "0.58",
+        "regularPrice": "0.58",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.58"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "8mm Wooden Rosary Beads Catholic Prayer",
+          "description": "8mm wooden rosary beads in a strand style, Christian religious accessory. Suitable for gift and prayer use. Wholesale available.",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6eCTZ43",
+          "image": [
+            "https://sc04.alicdn.com/kf/H5525737a49154b8a9195d7257bddeaedr.jpg",
+            "https://sc04.alicdn.com/kf/Hc0f0cb2c487f41e7af12c1aad25e179bj.jpg",
+            "https://sc04.alicdn.com/kf/H7064a15168924ab9a6e205f1bbe1eafeN.jpg",
+            "https://sc04.alicdn.com/kf/He215dfc2828a47798ea697f7715bc57e0.jpg",
+            "https://sc04.alicdn.com/kf/Heb9b670544d241d69d044b3f21afb344H.jpg",
+            "https://sc04.alicdn.com/kf/H2d4e22e894d8438b81f6418e88fca51eK.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bead Size",
+              "value": "8mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain Type",
+              "value": "Strand"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Beaded Necklace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.58",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.58",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this rosary made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary is made of wood, with 8mm beads."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary suitable for daily prayer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the wooden beads are durable and the strand design makes it easy to handle during prayer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this rosary be used as a gift?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed for gift occasions and suitable for religious events such as Christmas or Easter."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b25d883d4d866d0d627bfc082caac7c84957e1550b7d8a85f4a6ff91387480ed",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b25d883d4d866d0d627bfc082caac7c84957e1550b7d8a85f4a6ff91387480ed",
+            "contentHash": "b25d883d4d866d0d627bfc082caac7c84957e1550b7d8a85f4a6ff91387480ed",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:35.361Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGbTG7BAOVioqqEY6eegS_J",
+      "sourceId": "AAGbTG7BAOVioqqEY6eegS_J",
+      "sourceFingerprint": "b46c02c88ef5e8ef594ea3c2222e3278aadc62f56da3b6c6e7d2c86f9ed42ca1",
+      "locale": "en",
+      "slug": "natural-wooden-rosary-cross-pendant-necklace-eegs_j",
+      "title": "Natural Wooden Rosary Cross Pendant Necklace",
+      "eyebrow": "Wooden rosary pendant necklace",
+      "summary": "This unisex wooden rosary pendant necklace features natural wood beads and a cross-shaped pattern, designed in a religious style. The bead chain offers a classic rosary look, making it suitable for prayer and daily wear. Crafted from wood, it serves as a tangible aid for Catholic devotion.",
+      "description": "A natural wooden rosary pendant necklace with cross-shaped beads on a bead chain. The wood material gives it a warm, earthy feel, while the cross shape and religious style suit Catholic devotional practices. Whether used for personal prayer or as a reminder of faith, this necklace combines simplicity with spiritual significance. Its unisex design makes it versatile for both men and women. The bead chain type echoes the traditional rosary structure, supporting the recitation of prayers.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAGbTG7BAOVioqqEY6eegS_J",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H635506da3e79420d89114e9251ff1765y.webp",
+      "imageAlt": "Natural Wooden Rosary Cross Pendant Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H635506da3e79420d89114e9251ff1765y.webp",
+          "alt": "Natural Wooden Rosary Cross Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbae0d20387134eb59b3bd30408950ee2e.webp",
+          "alt": "Natural Wooden Rosary Cross Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H74a845de660d43daae398d463845cb12y.webp",
+          "alt": "Natural Wooden Rosary Cross Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H06a8fbc5bef44f7ea0c0c53219a6e479t.webp",
+          "alt": "Natural Wooden Rosary Cross Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H543cd256d60e49048c573d89af9b5126D.webp",
+          "alt": "Natural Wooden Rosary Cross Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H077978c6afc24861b9b80ad65893bff67.webp",
+          "alt": "Natural Wooden Rosary Cross Pendant Necklace"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Crafted from natural wood",
+        "Cross-shaped pattern on beads",
+        "Bead chain type for classic rosary look",
+        "Unisex design",
+        "Religious style"
+      ],
+      "specifications": [
+        {
+          "name": "Main Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Necklace Type",
+          "value": "Pendant necklace"
+        },
+        {
+          "name": "Chain Type",
+          "value": "Beads"
+        },
+        {
+          "name": "Shape/Pattern",
+          "value": "Cross"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        }
+      ],
+      "applications": [
+        "Daily devotional prayer",
+        "Religious jewelry for personal wear",
+        "Gift for Catholic faithful",
+        "Meditation aid"
+      ],
+      "faq": [
+        {
+          "question": "What material is this rosary necklace made of?",
+          "answer": "The rosary necklace is made from natural wood, as listed in the product specifications."
+        },
+        {
+          "question": "Is this necklace suitable for both men and women?",
+          "answer": "Yes, the necklace is designed as unisex, making it suitable for anyone regardless of gender."
+        },
+        {
+          "question": "Does the necklace feature a cross shape?",
+          "answer": "The necklace's shape/pattern is described as cross, indicating a cross motif on the beads."
+        }
+      ],
+      "pricing": {
+        "price": "0.50",
+        "regularPrice": "0.50",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.50"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Natural Wooden Rosary Cross Pendant Necklace",
+          "description": "Unisex wooden rosary pendant necklace with cross-shaped beads, chain type beads, suitable for religious style. Ideal for Catholic devotional use.",
+          "sku": "ALI-AAGbTG7BAOVioqqEY6eegS_J",
+          "image": [
+            "https://sc04.alicdn.com/kf/H635506da3e79420d89114e9251ff1765y.jpg",
+            "https://sc04.alicdn.com/kf/Hbae0d20387134eb59b3bd30408950ee2e.jpg",
+            "https://sc04.alicdn.com/kf/H74a845de660d43daae398d463845cb12y.jpg",
+            "https://sc04.alicdn.com/kf/H06a8fbc5bef44f7ea0c0c53219a6e479t.jpg",
+            "https://sc04.alicdn.com/kf/H543cd256d60e49048c573d89af9b5126D.jpg",
+            "https://sc04.alicdn.com/kf/H077978c6afc24861b9b80ad65893bff67.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Necklace Type",
+              "value": "Pendant necklace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain Type",
+              "value": "Beads"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape/Pattern",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.50",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.50",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this rosary necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The rosary necklace is made from natural wood, as listed in the product specifications."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this necklace suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the necklace is designed as unisex, making it suitable for anyone regardless of gender."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the necklace feature a cross shape?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace's shape/pattern is described as cross, indicating a cross motif on the beads."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "45efb2972207798be8b3083a3ef3f78e1c1f711c727c25f3ba7ac07fc453dee2",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "45efb2972207798be8b3083a3ef3f78e1c1f711c727c25f3ba7ac07fc453dee2",
+            "contentHash": "45efb2972207798be8b3083a3ef3f78e1c1f711c727c25f3ba7ac07fc453dee2",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:41.085Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHqTG7BAOVioqqEY6eFBvXm",
+      "sourceId": "AAHqTG7BAOVioqqEY6eFBvXm",
+      "sourceFingerprint": "d4248a2b5237dc7500d392067f60fe29a5240faa1c0f713ae27f4d192fef4c6e",
+      "locale": "en",
+      "slug": "handmade-wooden-rosary-with-cross-catholic-jewelry-efbvxm",
+      "title": "Handmade Wooden Rosary with Cross – Catholic Jewelry",
+      "eyebrow": "handmade wooden rosary",
+      "summary": "This handmade wooden rosary features a cross and colored beads in eight earthy and vibrant tones. A practical choice for Catholic prayer or as a baptism or communion gift. Ideal for wholesale buyers seeking varied color options.",
+      "description": "This handmade wooden rosary comes with a cross and is offered in eight color variants: beige, coffee, brown, black, red, and colorful. The natural wood material gives each piece a distinct look, and the color range allows you to match different tastes or occasions.\n\nWhether your customers are looking for a personal prayer aid or a gift for a baptism or First Communion, this rosary presents a simple, traditional option. The multiple color variants are practical for retail displays or for offering choices to individual customers.\n\nAs a wholesale item, this rosary is suited for church gift shops, Catholic bookstores, or event planners. Contact us for bulk ordering details.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H8a0aa6ea79dc481f9bf6a5938e03b510R.webp",
+      "imageAlt": "Handmade Wooden Rosary with Cross – Catholic Jewelry",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a0aa6ea79dc481f9bf6a5938e03b510R.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0a3dbc7e23424d89a7236dd8f8c87215A.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He40b9df2377c4d47a8074c45537c1c03q.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc94ecfce1022443985a246abeac50404P.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H376b988243304d298eeaf73a72d3c7cao.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc13f60f54244e18b3d80ee5009e8cd9h.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f43a47f88ea4694b24d0b7ef2e972a8A.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry - coffee-2",
+          "label": "coffee-2",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haa6b2833141243ecbf09ebfba436cb7af.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry - red",
+          "label": "red",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1e8683548a64a3b85d8276f25effdb6X.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry - beige-2",
+          "label": "beige-2",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hba36e1b8e8dc49a8a9ab55b89fe89ce9t.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry - coffee",
+          "label": "coffee",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1a99f147d2f84ad3b3279d93543f01e2t.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry - colorful",
+          "label": "colorful",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2235564179c94ab9a12996a1bb2fec91C.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry - black",
+          "label": "black",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H916a4f1aa4d243e58708cad9aaf95678l.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry - beige",
+          "label": "beige",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdf756f2e17a94a82b60f7ed790657be4z.webp",
+          "alt": "Handmade Wooden Rosary with Cross – Catholic Jewelry - brown",
+          "label": "brown",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm-V-3399503"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Handmade construction from wood",
+        "Includes a cross pendant",
+        "Available in eight color variants: Beige, Coffee, Brown, Black, Red, Colorful, and two additional shades",
+        "Suitable for use as prayer beads or as a religious gift",
+        "Wholesale quantity available"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Color variants",
+          "value": "Beige-2, Coffee-2, Coffee, Brown, Beige, Black, Red, Colorful"
+        },
+        {
+          "name": "Includes",
+          "value": "Cross"
+        },
+        {
+          "name": "Style",
+          "value": "Handmade"
+        }
+      ],
+      "applications": [
+        "Personal prayer use",
+        "Baptism gifts",
+        "First Communion gifts",
+        "Church gift shop inventory"
+      ],
+      "faq": [
+        {
+          "question": "What colors are available for this wooden rosary?",
+          "answer": "This rosary comes in eight color variants: Beige-2, Coffee-2, Coffee, Brown, Beige, Black, Red, and Colorful."
+        },
+        {
+          "question": "Does this rosary include a cross?",
+          "answer": "Yes, the product includes a cross, as noted in the title and product information."
+        },
+        {
+          "question": "Is this rosary handmade?",
+          "answer": "Yes, the rosary is described as handmade, indicating individual crafting rather than mass-produced uniformity."
+        }
+      ],
+      "pricing": {
+        "price": "0.32",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.25",
+          "max": "0.32"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Handmade Wooden Rosary with Cross – Catholic Jewelry",
+          "description": "Handmade wooden rosary with cross, available in eight colors. Catholic prayer beads suitable for baptism and communion gifts. Wholesale available.",
+          "sku": "ALI-AAHqTG7BAOVioqqEY6eFBvXm",
+          "image": [
+            "https://sc04.alicdn.com/kf/H8a0aa6ea79dc481f9bf6a5938e03b510R.jpg",
+            "https://sc04.alicdn.com/kf/H0a3dbc7e23424d89a7236dd8f8c87215A.jpg",
+            "https://sc04.alicdn.com/kf/He40b9df2377c4d47a8074c45537c1c03q.jpg",
+            "https://sc04.alicdn.com/kf/Hc94ecfce1022443985a246abeac50404P.jpg",
+            "https://sc04.alicdn.com/kf/H376b988243304d298eeaf73a72d3c7cao.jpg",
+            "https://sc04.alicdn.com/kf/Hbc13f60f54244e18b3d80ee5009e8cd9h.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Beige-2, Coffee-2, Coffee, Brown, Beige, Black, Red, Colorful"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Includes",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Handmade"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.32",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.25",
+              "maxPrice": "0.32",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What colors are available for this wooden rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This rosary comes in eight color variants: Beige-2, Coffee-2, Coffee, Brown, Beige, Black, Red, and Colorful."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this rosary include a cross?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product includes a cross, as noted in the title and product information."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary handmade?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the rosary is described as handmade, indicating individual crafting rather than mass-produced uniformity."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "89fd81d25b5ab1c0dc957351b57b0268cf3f5e4c48d340a0f27d4f7e60071092",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "89fd81d25b5ab1c0dc957351b57b0268cf3f5e4c48d340a0f27d4f7e60071092",
+            "contentHash": "89fd81d25b5ab1c0dc957351b57b0268cf3f5e4c48d340a0f27d4f7e60071092",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:54:41.946Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGNTG7BAOVioqqEY6e286DA",
+      "sourceId": "AAGNTG7BAOVioqqEY6e286DA",
+      "sourceFingerprint": "a3f5fb638f9953f32cbf9858256aaac6b0c84064bb936bcbf11a5cbc1f4352ce",
+      "locale": "en",
+      "slug": "hot-selling-home-display-metal-saint-benedict-figurine-e286da",
+      "title": "Hot-selling Home Display Metal Saint Benedict Figurine",
+      "eyebrow": "Accessories",
+      "summary": "Hot-selling Home Display Metal Saint Benedict Figurine Hand-carved Engraving Benedictine Religion Gift",
+      "description": "Hot-selling Home Display Metal Saint Benedict Figurine Hand-carved Engraving Benedictine Religion Gift",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb6508abb99ed414ca582aaa57c69e4b2V.webp",
+      "imageAlt": "Hot-selling Home Display Metal Saint Benedict Figurine",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb6508abb99ed414ca582aaa57c69e4b2V.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0f22d8623834d7cab4f0ce3d6706bc57.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc9caf9ef579f4f319d0309e858d2a58du.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He9fdf9327429452e907ec53ff203d445P.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H466e748dd4dd4bcba2fae8cd398e9cc4b.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha533f2187a8d4d06bd419074eae68cf3i.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H455ce41eca724381a0fdd21e336e0352F.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine - ancient-silver",
+          "label": "ancient-silver",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf6e9dbb2b967494b9d9024c00f1a7e09d.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine - gold",
+          "label": "gold",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9bfb292577c442908b64ac2e4ec61220p.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine - ancient-red",
+          "label": "ancient-red",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1b13afb293b64378ab6e0b610e183e305.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine - ancient-green",
+          "label": "ancient-green",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H11b8567616c74ea289a7ded029185cc5N.webp",
+          "alt": "Hot-selling Home Display Metal Saint Benedict Figurine - gun-black",
+          "label": "gun-black",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA-V--4"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Variant: Ancient green, Ancient red, Ancient silver, Gun black, Gold"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Ancient green, Ancient red, Ancient silver, Gun black, Gold"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.15",
+          "max": "1.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Hot-selling Home Display Metal Saint Benedict Figurine",
+          "description": "Hot-selling Home Display Metal Saint Benedict Figurine Hand-carved Engraving Benedictine Religion Gift",
+          "sku": "ALI-AAGNTG7BAOVioqqEY6e286DA",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hb6508abb99ed414ca582aaa57c69e4b2V.png",
+            "https://sc04.alicdn.com/kf/Hb0f22d8623834d7cab4f0ce3d6706bc57.png",
+            "https://sc04.alicdn.com/kf/Hc9caf9ef579f4f319d0309e858d2a58du.png",
+            "https://sc04.alicdn.com/kf/He9fdf9327429452e907ec53ff203d445P.png",
+            "https://sc04.alicdn.com/kf/H466e748dd4dd4bcba2fae8cd398e9cc4b.png",
+            "https://sc04.alicdn.com/kf/Ha533f2187a8d4d06bd419074eae68cf3i.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Ancient green, Ancient red, Ancient silver, Gun black, Gold"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.15",
+              "maxPrice": "1.30",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "523537999410424b13a76292e564493c3b81998ff5b0e5f8480a045ed3fc6021",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "523537999410424b13a76292e564493c3b81998ff5b0e5f8480a045ed3fc6021",
+            "contentHash": "523537999410424b13a76292e564493c3b81998ff5b0e5f8480a045ed3fc6021",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T18:55:14.583Z",
             "model": "deepseek-v4-flash"
           }
         }

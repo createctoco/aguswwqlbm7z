@@ -49,6 +49,7 @@ jobs:
           MECRT_CATALOG_URL: ${{ secrets.MECRT_CATALOG_URL }}
           MECRT_CATALOG_BRIDGE_SECRET: ${{ secrets.MECRT_CATALOG_BRIDGE_SECRET }}
           MECRT_CATALOG_BATCH_SIZE: ${{ inputs.batch_size || 10 }}
+          MECRT_CATALOG_RECONCILE: "true"
           MECRT_CATALOG_QUEUE_FILE: src/data/catalog-queue.json
         run: npm run sync:catalog
 

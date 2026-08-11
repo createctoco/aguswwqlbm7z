@@ -109,3 +109,29 @@ export async function getRelatedProducts(product: Product, limit = 3): Promise<P
     .all<ProductRow>();
   return result.results.map((row) => JSON.parse(row.content_json) as Product);
 }
+
+export async function listSitemapSlugs(
+  locale: SupportedLocale
+): Promise<{ products: string[]; collections: string[] }> {
+  const [products, collections] = await database().batch([
+    database().prepare('SELECT slug FROM products WHERE locale = ?').bind(locale),
+    database().prepare('SELECT DISTINCT category_slug AS slug FROM product_categories WHERE locale = ?').bind(locale),
+  ]);
+  return {
+    products: (products.results as { slug?: string }[]).map((row) => String(row.slug || '')).filter(Boolean),
+    collections: (collections.results as { slug?: string }[]).map((row) => String(row.slug || '')).filter(Boolean),
+  };
+}
+
+export async function listProductsBrief(
+  locale: SupportedLocale
+): Promise<Array<{ slug: string; title: string; summary: string }>> {
+  const result = await database()
+    .prepare('SELECT content_json FROM products WHERE locale = ? ORDER BY updated_at DESC')
+    .bind(locale)
+    .all<ProductRow>();
+  return (result.results as ProductRow[]).map((row) => {
+    const product = JSON.parse(row.content_json) as Product;
+    return { slug: product.slug, title: product.title, summary: product.summary || '' };
+  });
+}

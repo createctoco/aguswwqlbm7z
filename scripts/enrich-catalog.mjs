@@ -381,28 +381,35 @@ try {
   );
   if (!Array.isArray(catalog.products) || catalog.products.length < 1)
     throw new Error('Catalog input is empty or invalid.');
-  const products = [];
+  // Run DeepSeek rewrites concurrently (default 4 workers) to speed up large
+  // batches; editorial profiles are pre-assigned to keep the same balance.
+  const requestedConcurrency = Number.parseInt(process.env.OUOOO_ENRICH_CONCURRENCY || '4', 10);
+  const concurrency = Number.isFinite(requestedConcurrency) ? Math.max(1, Math.min(6, requestedConcurrency)) : 4;
+  const products = new Array(catalog.products.length);
   const profileCounts = editorialProfiles.map(() => 0);
+  const profiles = catalog.products.map((product) => balancedEditorialProfile(product, profileCounts));
+  const generatedOutputs = [];
   let reused = 0;
-  for (const product of catalog.products) {
-    const fingerprint = sourceFingerprint(product);
-    const cached = reusableAi(previousById.get(String(product.source_id)), fingerprint);
-    process.stdout.write(
-      `${cached ? 'Reusing' : 'Rewriting'} product ${products.length + 1}/${catalog.products.length}...\n`
-    );
-    const profile = balancedEditorialProfile(product, profileCounts);
-    const generatedAi =
-      cached ||
-      (await rewriteProduct(
-        product,
-        products.map(({ ai: previous }) => previous),
-        profile,
-        knowledge
-      ));
-    const ai = { ...generatedAi, source_fingerprint: fingerprint };
-    if (cached) reused += 1;
-    products.push({ ...product, ai, structured_data: sanitizeSourceBrand(structuredData(product, ai)) });
-  }
+  let nextIndex = 0;
+  await Promise.all(
+    Array.from({ length: Math.min(concurrency, catalog.products.length) }, async () => {
+      while (nextIndex < catalog.products.length) {
+        const index = nextIndex;
+        nextIndex += 1;
+        const product = catalog.products[index];
+        const fingerprint = sourceFingerprint(product);
+        const cached = reusableAi(previousById.get(String(product.source_id)), fingerprint);
+        process.stdout.write(
+          `${cached ? 'Reusing' : 'Rewriting'} product ${index + 1}/${catalog.products.length}...\n`
+        );
+        const generatedAi = cached || (await rewriteProduct(product, generatedOutputs, profiles[index], knowledge));
+        const ai = { ...generatedAi, source_fingerprint: fingerprint };
+        if (cached) reused += 1;
+        else generatedOutputs.push(ai);
+        products[index] = { ...product, ai, structured_data: sanitizeSourceBrand(structuredData(product, ai)) };
+      }
+    })
+  );
   const generated = products.filter(({ ai }) => ai.enrichment_status === 'generated').length;
   const sourceFallback = products.filter(({ ai }) => ai.enrichment_status === 'source_fallback').length;
   const result = {

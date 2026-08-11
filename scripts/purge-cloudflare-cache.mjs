@@ -1,6 +1,6 @@
 import localeData from '../src/i18n/locales.json' with { type: 'json' };
 
-const apiToken = process.env.CLOUDFLARE_API_TOKEN || '';
+const apiToken = process.env.CLOUDFLARE_PURGE_TOKEN || process.env.CLOUDFLARE_API_TOKEN || '';
 const hosts = [...new Set(Object.values(localeData.locales).map(({ host }) => host))];
 
 if (!apiToken) {

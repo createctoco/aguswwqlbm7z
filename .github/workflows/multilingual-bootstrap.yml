@@ -95,9 +95,11 @@ jobs:
           git add src/data/i18n
           git diff --cached --quiet || git commit -m "Generate 13 localized product catalogs"
 
+          pushed=0
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
-              exit 0
+              pushed=1
+              break
             fi
 
             if [ "$attempt" -eq 5 ]; then
@@ -110,6 +112,15 @@ jobs:
             git rebase origin/main
             sleep $((attempt * 5))
           done
+          if [ "$pushed" -ne 1 ]; then
+            echo "Unable to publish localized catalogs." >&2
+            exit 1
+          fi
+
+          # Point the moving deploy-latest tag at this commit so the deploy
+          # dispatch references the freshly translated catalogs exactly.
+          git tag -f deploy-latest HEAD
+          git push -f origin deploy-latest
       - name: Trigger production deployment
         # Bot commits do not trigger other workflows, so dispatch the deploy
         # explicitly so the freshly translated localized catalogs go live.
@@ -117,9 +128,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          # Dispatch against the exact commit we just pushed so the deploy
-          # builds the freshly translated catalogs (avoids a ref-propagation race).
-          SHA="$(git rev-parse HEAD)"
-          echo "Dispatching production deployment for $SHA"
-          gh workflow run "Deploy Cloudflare hybrid catalog" --repo "${{ github.repository }}" --ref "$SHA"
+          # Dispatch against the deploy-latest tag (updated to the commit we
+          # just pushed) so the deploy builds the freshly translated catalogs
+          # without a ref-propagation race.
+          gh workflow run "Deploy Cloudflare hybrid catalog" --repo "${{ github.repository }}" --ref deploy-latest
 

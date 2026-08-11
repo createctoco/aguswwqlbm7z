@@ -3,7 +3,7 @@
   "locale": "fr",
   "sourceLocale": "en",
   "sourceCatalogHash": "7fc71d4200478c2ea45c3fb91b75834014ca8f61f1502d5d5a27cac98744b4f3",
-  "generatedAt": "2026-08-11T19:42:12.232Z",
+  "generatedAt": "2026-08-11T19:43:07.338Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
@@ -36,14 +36,13 @@
   },
   "categoryGlossarySourceHash": "fbac66204ed2143d0eb559de90b360cba332f2af95f5eb37f458536910f477f2",
   "translationSummary": {
-    "ready": 198,
-    "skipped": 2,
+    "ready": 199,
+    "skipped": 1,
     "skippedProductIds": [
-      "AAGxTG7BAOVioqqEY6e7uzWC",
-      "AAF5TG7BAOVioqqEY6e5ckII"
+      "AAGxTG7BAOVioqqEY6e7uzWC"
     ],
     "reused": 186,
-    "generated": 12,
+    "generated": 13,
     "generatedProductIds": [
       "AAEeTG7BAOVioqqEY6ePw0_5",
       "AAHwTG7BAOVioqqEY6ed-hk8",
@@ -56,7 +55,8 @@
       "AAE0TG7BAOVioqqEY6ey_co3",
       "AAHNTG7BAOVioqqEY6eOgu1M",
       "AAHqTG7BAOVioqqEY6eBS-S2",
-      "AAG9TG7BAOVioqqEY6ee6hMe"
+      "AAG9TG7BAOVioqqEY6ee6hMe",
+      "AAF5TG7BAOVioqqEY6e5ckII"
     ],
     "retriedBacklog": 1,
     "glossaryReused": true
@@ -545,136 +545,6 @@
             "contentHash": "ea7adc1644caf3e7501ab5e89ec80a6f207c7926d1888414221ce0d9af85aa32",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:55:06.338Z",
-            "model": "deepseek-v4-flash"
-          }
-        }
-      }
-    },
-    {
-      "productId": "AAF5TG7BAOVioqqEY6e5ckII",
-      "sourceId": "AAF5TG7BAOVioqqEY6e5ckII",
-      "sourceFingerprint": "829884f1e81cff77a8f6b0a95d5fa9f0c8266b92441f973ac8a5cd6d55330bcd",
-      "locale": "en",
-      "slug": "car-bag-keychain-pendant-necklace-jewelry-epoxy-resin-zinc-alloy-e5ckii",
-      "title": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy",
-      "eyebrow": "Keychains",
-      "summary": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy Picture Journey Chris Figure Small Accessories",
-      "description": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy Picture Journey Chris Figure Small Accessories",
-      "catholicContext": "",
-      "catholicRelevance": "none",
-      "categories": [
-        {
-          "id": "83",
-          "name": "Keychains",
-          "slug": "keychains"
-        }
-      ],
-      "sku": "ALI-AAF5TG7BAOVioqqEY6e5ckII",
-      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H9abe3395dd6148758b9c32817cbd6c06r.webp",
-      "imageAlt": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy",
-      "gallery": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9abe3395dd6148758b9c32817cbd6c06r.webp",
-          "alt": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/H72f5b31ebc2e45cab791760913877448U.webp",
-          "alt": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1bad7693dbc64290ae58096dbbaa665cV.webp",
-          "alt": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hea2ebd4758f14761aa81a4dbc2b696e9M.webp",
-          "alt": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hce521f2cf2464a879e6f3457995b0bf6t.webp",
-          "alt": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy"
-        }
-      ],
-      "variantImages": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/H36e20b197eb74437b6cb4ba29945396f6.webp",
-          "alt": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy - silver-2",
-          "label": "silver-2",
-          "sku": "ALI-AAF5TG7BAOVioqqEY6e5ckII-V--3"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/06/H96b66f387c984708ace75d8c525eb2ebq.webp",
-          "alt": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy - silver-1",
-          "label": "silver-1",
-          "sku": "ALI-AAF5TG7BAOVioqqEY6e5ckII-V--4"
-        }
-      ],
-      "accent": "#6f7c72",
-      "features": [
-        "Variant: Silver-1, Silver-2"
-      ],
-      "specifications": [
-        {
-          "name": "Variant",
-          "value": "Silver-1, Silver-2"
-        }
-      ],
-      "applications": [],
-      "faq": [],
-      "pricing": {
-        "price": "0.32",
-        "currency": "USD",
-        "onSale": false,
-        "priceRange": {
-          "min": "0.26",
-          "max": "0.32"
-        }
-      },
-      "structuredData": {
-        "product": {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy",
-          "description": "Car Bag Keychain Pendant Necklace Jewelry Epoxy Resin Zinc Alloy Picture Journey Chris Figure Small Accessories",
-          "sku": "ALI-AAF5TG7BAOVioqqEY6e5ckII",
-          "image": [
-            "https://sc04.alicdn.com/kf/H9abe3395dd6148758b9c32817cbd6c06r.png",
-            "https://sc04.alicdn.com/kf/H72f5b31ebc2e45cab791760913877448U.png",
-            "https://sc04.alicdn.com/kf/H1bad7693dbc64290ae58096dbbaa665cV.png",
-            "https://sc04.alicdn.com/kf/Hea2ebd4758f14761aa81a4dbc2b696e9M.png",
-            "https://sc04.alicdn.com/kf/Hce521f2cf2464a879e6f3457995b0bf6t.png"
-          ],
-          "category": "Keychains",
-          "additionalProperty": [
-            {
-              "@type": "PropertyValue",
-              "name": "Variant",
-              "value": "Silver-1, Silver-2"
-            }
-          ],
-          "offers": {
-            "@type": "Offer",
-            "price": "0.32",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "minPrice": "0.26",
-              "maxPrice": "0.32",
-              "priceCurrency": "USD"
-            }
-          }
-        }
-      },
-      "localization": {
-        "sourceLocale": "en",
-        "sourceHash": "079e9593f6a7412b09a44fecb7aca3436ba4845a6268a7090749e6b4c25fa24d",
-        "translations": {
-          "en": {
-            "status": "source",
-            "sourceHash": "079e9593f6a7412b09a44fecb7aca3436ba4845a6268a7090749e6b4c25fa24d",
-            "contentHash": "079e9593f6a7412b09a44fecb7aca3436ba4845a6268a7090749e6b4c25fa24d",
-            "attempts": 0,
-            "updatedAt": "2026-08-11T19:19:32.722Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -40707,10 +40577,10 @@
       "sourceFingerprint": "6ec5f13875d58b5ba53f17de78ddb5880d3136495609c7ea83f78f37f58e1a44",
       "locale": "fr",
       "slug": "vintage-rosary-necklace-with-imitation-pearl-8mm-beads-epw0_5",
-      "title": "Collier de chapelet vintage avec perles imitation perle 8 mm",
+      "title": "Collier de chapelet vintage avec perles nacrées imitation 8 mm",
       "eyebrow": "Collier de chapelet catholique vintage",
-      "summary": "Ce collier de chapelet vintage présente des perles imitation perle de 8 mm et un pendentif croix, proposé en neuf coloris, dont gris, rouge prune et noir. Une pièce pratique et ornementale pour la prière personnelle ou comme cadeau.",
-      "description": "Le caractère vintage du chapelet provient de ses perles imitation perle d'aspect verre, chacune de 8 mm, accompagnées d'une croix traditionnelle. La gamme de couleurs – du gris sourd au rouge prune et au brun – permet aux acheteurs de choisir selon leurs préférences ou l'occasion. Le format collier le rend facile à transporter ou à porter. En tant qu'article de dévotion catholique, il peut être utilisé pour réciter le chapelet, la prière centrée sur la contemplation des événements de la vie de Jésus et de Marie.",
+      "summary": "Ce collier de chapelet vintage comporte des perles nacrées imitation de 8 mm et un pendentif croix, proposé en neuf coloris, dont gris, rouge prune et noir. Une pièce pratique et décorative pour la prière personnelle ou comme cadeau.",
+      "description": "Le caractère vintage de ce chapelet provient de ses perles nacrées imitation à l'aspect vitreux, chacune de 8 mm, associées à une croix traditionnelle. La gamme de couleurs – du gris sourd au rouge prune et au brun – permet aux acheteurs de choisir selon leurs préférences ou l'occasion. Le format collier le rend facile à transporter ou à porter. En tant qu'objet de dévotion catholique, il peut être utilisé pour réciter le chapelet, prière centrée sur la contemplation des événements de la vie de Jésus et de Marie.",
       "catholicContext": "Le chapelet est une prière catholique centrée sur la contemplation des événements de la vie de Jésus-Christ et de la Vierge Marie.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -40722,94 +40592,94 @@
       ],
       "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb16697eadf5c4f7c91e462dcdd997839y.webp",
-      "imageAlt": "Collier de chapelet vintage avec perles imitation perle de 8 mm",
+      "imageAlt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb16697eadf5c4f7c91e462dcdd997839y.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm"
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf6a4eb5678e245a9b181dda419359eafG.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm"
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc478650843a45778f56dd7797eacf64g.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm"
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H7b5d31078bc1445d985743cd9d44db9es.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm"
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H31de8cabd2b04472843172159bf69c5e9.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm"
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H561b51a045704799a1bcf06e9884e67aT.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm"
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm"
         }
       ],
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha139393831a0470fb50c078cff62d24eA.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm - rouge",
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm - rouge",
           "label": "rouge",
           "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3331260"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H508c1e0d702a46e3b496f7ea6c2ae3efB.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm - blanc",
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm - blanc",
           "label": "blanc",
           "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3331185"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H5a814bb87e3c4e5b8e672218ec233155B.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm - violet",
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm - violet",
           "label": "violet",
           "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3851110"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd33a27ac315844b59fd25bd652110216o.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm - marron",
-          "label": "marron",
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm - brun",
+          "label": "brun",
           "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3399503"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H115f2ccfa70f4d18a86fb2f34456f41d2.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm - gris",
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm - gris",
           "label": "gris",
           "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-5412614"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H2d4bbbc52ebb4898a2dfe0aa09e37baeq.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm - rouge prune",
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm - rouge prune",
           "label": "rouge prune",
           "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V--14"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H822812737a474597bca62fd4ed6df75fW.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm - bleu",
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm - bleu",
           "label": "bleu",
           "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-123085"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb361b4c87e8a47579dd9d084c1db6c20J.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm - rose",
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm - rose",
           "label": "rose",
           "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3328925"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd2c81f5f64c347f985a2f67106179d6bP.webp",
-          "alt": "Collier de chapelet vintage avec perles imitation perle de 8 mm - noir",
+          "alt": "Collier de chapelet vintage avec perles nacrées imitation 8 mm - noir",
           "label": "noir",
           "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5-V-3327837"
         }
       ],
       "accent": "#9a6b63",
       "features": [
-        "Perles imitation perle de 8 mm avec finition aspect verre",
+        "Perles nacrées imitation de 8 mm à l'aspect vitreux",
         "Pendentif croix attaché au chapelet",
-        "Disponible en neuf coloris : gris, rouge prune, marron, noir, rouge, blanc, rose, bleu, violet",
+        "Disponible en neuf variantes de couleur : gris, rouge prune, brun, noir, rouge, blanc, rose, bleu, violet",
         "Design vintage adapté à un usage de dévotion",
         "Format collier pour un transport facile"
       ],
@@ -40820,35 +40690,35 @@
         },
         {
           "name": "Matériau des perles",
-          "value": "Imitation perle"
+          "value": "Perles imitation"
         },
         {
           "name": "Style",
           "value": "Vintage"
         },
         {
-          "name": "Coloris disponibles",
-          "value": "Gris, rouge prune, marron, noir, rouge, blanc, rose, bleu, violet"
+          "name": "Variantes de couleur",
+          "value": "Gris, rouge prune, brun, noir, rouge, blanc, rose, bleu, violet"
         }
       ],
       "applications": [
         "Prière personnelle du chapelet",
-        "Cadeau religieux catholique pour Pâques ou d'autres occasions",
+        "Cadeau religieux catholique pour Pâques ou autres occasions",
         "Bijou de dévotion quotidien",
         "Cadeaux pour groupes paroissiaux ou ministères"
       ],
       "faq": [
         {
-          "question": "En quoi sont faites les perles ?",
-          "answer": "Les perles sont en imitation perle, chacune de 8 mm de diamètre."
+          "question": "En quel matériau sont les perles ?",
+          "answer": "Les perles sont en imitation de perle, chacune de 8 mm de diamètre."
         },
         {
           "question": "Est-ce un crucifix ou une croix ?",
-          "answer": "La description du produit mentionne une croix, pas un crucifix. Nous n'avons pas de détails sur la présence d'un corpus."
+          "answer": "La description du produit mentionne une croix, pas un crucifix. Nous n'avons pas de détails sur un corpus."
         },
         {
-          "question": "Quelles options de couleurs sont disponibles ?",
-          "answer": "Le chapelet est disponible en gris, rouge prune, marron, noir, rouge, blanc, rose, bleu et violet."
+          "question": "Quelles options de couleur sont disponibles ?",
+          "answer": "Le chapelet est disponible en gris, rouge prune, brun, noir, rouge, blanc, rose, bleu et violet."
         }
       ],
       "pricing": {
@@ -40864,8 +40734,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Collier de chapelet vintage avec perles imitation perle 8 mm",
-          "description": "Ce collier de chapelet vintage présente des perles imitation perle de 8 mm et un pendentif croix, proposé en neuf coloris, dont gris, rouge prune et noir. Une pièce pratique et ornementale pour la prière personnelle ou comme cadeau.",
+          "name": "Collier de chapelet vintage avec perles nacrées imitation 8 mm",
+          "description": "Ce collier de chapelet vintage comporte des perles nacrées imitation de 8 mm et un pendentif croix, proposé en neuf coloris, dont gris, rouge prune et noir. Une pièce pratique et décorative pour la prière personnelle ou comme cadeau.",
           "sku": "ALI-AAEeTG7BAOVioqqEY6ePw0_5",
           "image": [
             "https://sc04.alicdn.com/kf/Hb16697eadf5c4f7c91e462dcdd997839y.jpg",
@@ -40885,7 +40755,7 @@
             {
               "@type": "PropertyValue",
               "name": "Matériau des perles",
-              "value": "Imitation perle"
+              "value": "Perles imitation"
             },
             {
               "@type": "PropertyValue",
@@ -40894,8 +40764,8 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Coloris disponibles",
-              "value": "Gris, rouge prune, marron, noir, rouge, blanc, rose, bleu, violet"
+              "name": "Variantes de couleur",
+              "value": "Gris, rouge prune, brun, noir, rouge, blanc, rose, bleu, violet"
             }
           ],
           "offers": {
@@ -40917,10 +40787,10 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "En quoi sont faites les perles ?",
+              "name": "En quel matériau sont les perles ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Les perles sont en imitation perle, chacune de 8 mm de diamètre."
+                "text": "Les perles sont en imitation de perle, chacune de 8 mm de diamètre."
               }
             },
             {
@@ -40928,15 +40798,15 @@
               "name": "Est-ce un crucifix ou une croix ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "La description du produit mentionne une croix, pas un crucifix. Nous n'avons pas de détails sur la présence d'un corpus."
+                "text": "La description du produit mentionne une croix, pas un crucifix. Nous n'avons pas de détails sur un corpus."
               }
             },
             {
               "@type": "Question",
-              "name": "Quelles options de couleurs sont disponibles ?",
+              "name": "Quelles options de couleur sont disponibles ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Le chapelet est disponible en gris, rouge prune, marron, noir, rouge, blanc, rose, bleu et violet."
+                "text": "Le chapelet est disponible en gris, rouge prune, brun, noir, rouge, blanc, rose, bleu et violet."
               }
             }
           ]
@@ -40957,9 +40827,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "1841597e5d19ba30f05287c3e9a33febcd03aa85ab5a99c610287a6965794768",
-            "contentHash": "b5793a05fc1c05456ca828b26aba7b4d2339fba2b785dbe318c95984309449a4",
+            "contentHash": "a7bf1863b6c7eaef2401d5294dd9b74f6fc015b0d7e51f46c429cc1dc9de3745",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:28:25.473Z",
+            "updatedAt": "2026-08-11T19:41:51.773Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -40973,8 +40843,8 @@
       "slug": "8mm-imitation-pearl-rosary-necklace-ed-hk8",
       "title": "Collier de chapelet en perles imitation perle 8mm",
       "eyebrow": "collier de chapelet",
-      "summary": "Un collier de chapelet en perles imitation perle de 8mm avec une croix, proposé en neuf variantes de couleurs dont gris, rouge prune, marron, noir, rouge, blanc, rose, bleu et violet. Conçu pour la prière catholique et l'usage dévotionnel, adapté aux boutiques de cadeaux religieux et aux détaillants d'articles religieux.",
-      "description": "Ce collier de chapelet présente des perles imitation perle de 8mm et une croix, ce qui en fait un aide reconnaissable pour le Rosaire, une prière catholique traditionnelle. Les perles sont dimensionnées pour une manipulation confortable pendant la prière, et le style collier permet de le porter ou de le transporter facilement. Choisissez parmi neuf options de couleurs pour convenir à vos goûts personnels ou aux temps liturgiques.\n\nEn tant qu'article dévotionnel, ce chapelet convient à la prière personnelle, à la catéchèse ou comme cadeau pour les occasions sacramentelles. Pour un achat en gros, contactez-nous pour les prix et la disponibilité.",
+      "summary": "Un collier de chapelet en perles imitation perle de 8mm avec une croix, proposé en neuf variantes de couleur : gris, rouge prune, marron, noir, rouge, blanc, rose, bleu et violet. Conçu pour la prière catholique et l'usage dévotionnel, adapté aux boutiques de cadeaux religieux et aux détaillants d'articles religieux.",
+      "description": "Ce collier de chapelet présente des perles imitation perle de 8mm et une croix, ce qui en fait un aide reconnaissable pour le Rosaire, une prière catholique traditionnelle. Les perles sont dimensionnées pour une manipulation confortable pendant la prière, et le style collier permet de le porter ou de le transporter facilement. Choisissez parmi neuf options de couleur pour convenir aux préférences personnelles ou aux saisons liturgiques.\n\nEn tant qu'article dévotionnel, ce chapelet convient à la prière personnelle, à la catéchèse ou comme cadeau pour les occasions sacramentelles. Pour un achat en gros, contactez-nous pour les prix et la disponibilité.",
       "catholicContext": "Le Rosaire est une prière catholique centrée sur la contemplation des événements de la vie de Jésus-Christ et de la Vierge Marie.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -41059,7 +40929,7 @@
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H02b53579052944ba850e7972177cca549.webp",
           "alt": "Collier de chapelet en perles imitation perle 8mm - rouge prune",
-          "label": "rouge-prune",
+          "label": "rouge prune",
           "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8-V--14"
         },
         {
@@ -41072,10 +40942,10 @@
       "accent": "#7a6d92",
       "features": [
         "Perles imitation perle de 8mm",
-        "Comprend une croix",
-        "Disponible en neuf variantes de couleurs : gris, rouge prune, marron, noir, rouge, blanc, rose, bleu, violet",
-        "Style collier pour le porter ou le transporter",
-        "Classé dans la catégorie des chapelets catholiques"
+        "Inclut une croix",
+        "Disponible en neuf variantes de couleur : gris, rouge prune, marron, noir, rouge, blanc, rose, bleu, violet",
+        "Style collier pour porter ou transporter",
+        "Classé sous Chapelets catholiques"
       ],
       "specifications": [
         {
@@ -41094,21 +40964,21 @@
       "applications": [
         "Prière personnelle du Rosaire",
         "Cadeau pour le baptême, la première communion ou la confirmation",
-        "Inventaire des boutiques de cadeaux religieux",
-        "Usage catéchétique dans l'éducation religieuse"
+        "Inventaire de la boutique de cadeaux d'église",
+        "Utilisation catéchétique dans l'éducation religieuse"
       ],
       "faq": [
         {
           "question": "De quel matériau sont faites les perles ?",
-          "answer": "Les perles sont en imitation perle, d'une taille de 8mm chacune."
+          "answer": "Les perles sont en imitation perle, chacune mesurant 8mm."
         },
         {
-          "question": "Quelles options de couleurs sont disponibles ?",
-          "answer": "Le collier de chapelet est disponible en neuf variantes de couleurs : gris, rouge prune, marron, noir, rouge, blanc, rose, bleu et violet."
+          "question": "Quelles options de couleur sont disponibles ?",
+          "answer": "Le collier de chapelet est disponible en neuf variantes de couleur : gris, rouge prune, marron, noir, rouge, blanc, rose, bleu et violet."
         },
         {
           "question": "La croix est-elle un crucifix ?",
-          "answer": "Le produit est décrit comme ayant une croix ; il n'est pas précisé s'il s'agit d'un crucifix avec un corpus du Christ."
+          "answer": "Le produit est décrit comme ayant une croix ; il n'est pas précisé s'il s'agit d'un crucifix avec le corps du Christ."
         }
       ],
       "pricing": {
@@ -41125,7 +40995,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Collier de chapelet en perles imitation perle 8mm",
-          "description": "Un collier de chapelet en perles imitation perle de 8mm avec une croix, proposé en neuf variantes de couleurs dont gris, rouge prune, marron, noir, rouge, blanc, rose, bleu et violet. Conçu pour la prière catholique et l'usage dévotionnel, adapté aux boutiques de cadeaux religieux et aux détaillants d'articles religieux.",
+          "description": "Un collier de chapelet en perles imitation perle de 8mm avec une croix, proposé en neuf variantes de couleur : gris, rouge prune, marron, noir, rouge, blanc, rose, bleu et violet. Conçu pour la prière catholique et l'usage dévotionnel, adapté aux boutiques de cadeaux religieux et aux détaillants d'articles religieux.",
           "sku": "ALI-AAHwTG7BAOVioqqEY6ed-hk8",
           "image": [
             "https://sc04.alicdn.com/kf/Hf4330f25a41c44d0978f286aadfb8199X.jpg",
@@ -41175,15 +41045,15 @@
               "name": "De quel matériau sont faites les perles ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Les perles sont en imitation perle, d'une taille de 8mm chacune."
+                "text": "Les perles sont en imitation perle, chacune mesurant 8mm."
               }
             },
             {
               "@type": "Question",
-              "name": "Quelles options de couleurs sont disponibles ?",
+              "name": "Quelles options de couleur sont disponibles ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Le collier de chapelet est disponible en neuf variantes de couleurs : gris, rouge prune, marron, noir, rouge, blanc, rose, bleu et violet."
+                "text": "Le collier de chapelet est disponible en neuf variantes de couleur : gris, rouge prune, marron, noir, rouge, blanc, rose, bleu et violet."
               }
             },
             {
@@ -41191,7 +41061,7 @@
               "name": "La croix est-elle un crucifix ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Le produit est décrit comme ayant une croix ; il n'est pas précisé s'il s'agit d'un crucifix avec un corpus du Christ."
+                "text": "Le produit est décrit comme ayant une croix ; il n'est pas précisé s'il s'agit d'un crucifix avec le corps du Christ."
               }
             }
           ]
@@ -41212,9 +41082,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "48f0c3b9eac6252c3aec50f6895766a82306519482a44f10e83320ca31a9b41d",
-            "contentHash": "fead12a4219e8935628667de5432a95ee58dc70b4d816489055f2415de11f07d",
+            "contentHash": "498b85113f73855c04848834327f99ac7a29c79a4699699094451ea272dc7f1c",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:28:33.234Z",
+            "updatedAt": "2026-08-11T19:41:59.451Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -41867,8 +41737,8 @@
       "slug": "natural-wooden-rosary-cross-pendant-necklace-eegs_j",
       "title": "Collier pendentif croix en bois naturel avec chapelet",
       "eyebrow": "Collier pendentif chapelet en bois",
-      "summary": "Ce collier pendentif chapelet en bois naturel unisexe présente des perles en bois naturel et un motif en forme de croix, conçu dans un style religieux. La chaîne de perles offre un look classique de chapelet, ce qui le rend adapté à la prière et au port quotidien. Fabriqué en bois, il sert d'aide tangible à la dévotion catholique.",
-      "description": "Un collier pendentif chapelet en bois naturel avec des perles en forme de croix sur une chaîne de perles. Le matériau en bois lui confère une sensation chaleureuse et terreuse, tandis que la forme de croix et le style religieux conviennent aux pratiques de dévotion catholique. Qu'il soit utilisé pour la prière personnelle ou comme rappel de la foi, ce collier allie simplicité et signification spirituelle. Son design unisexe le rend polyvalent pour les hommes et les femmes. Le type de chaîne à perles rappelle la structure traditionnelle du chapelet, favorisant la récitation des prières.",
+      "summary": "Ce collier pendentif chapelet en bois naturel unisexe présente des perles en bois naturel et un motif en forme de croix, conçu dans un style religieux. Le cordon de perles offre un look classique de chapelet, le rendant adapté à la prière et au port quotidien. Fabriqué en bois, il sert d'aide tangible à la dévotion catholique.",
+      "description": "Un collier pendentif chapelet en bois naturel avec des perles en forme de croix sur un cordon de perles. Le matériau en bois lui donne une sensation chaleureuse et terreuse, tandis que la forme de croix et le style religieux conviennent aux pratiques de dévotion catholique. Que ce soit pour la prière personnelle ou comme rappel de la foi, ce collier allie simplicité et signification spirituelle. Son design unisexe le rend polyvalent pour les hommes et les femmes. Le type de cordon de perles rappelle la structure traditionnelle du chapelet, soutenant la récitation des prières.",
       "catholicContext": "Le chapelet est une prière catholique centrée sur la contemplation des événements de la vie de Jésus-Christ et de la Vierge Marie.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -41912,7 +41782,7 @@
       "features": [
         "Fabriqué en bois naturel",
         "Motif en forme de croix sur les perles",
-        "Type de chaîne à perles pour un look classique de chapelet",
+        "Type de cordon de perles pour un look classique de chapelet",
         "Design unisexe",
         "Style religieux"
       ],
@@ -41939,7 +41809,7 @@
         }
       ],
       "applications": [
-        "Prière dévotionnelle quotidienne",
+        "Prière de dévotion quotidienne",
         "Bijou religieux pour le port personnel",
         "Cadeau pour les fidèles catholiques",
         "Aide à la méditation"
@@ -41950,8 +41820,8 @@
           "answer": "Le collier chapelet est fabriqué en bois naturel, comme indiqué dans les spécifications du produit."
         },
         {
-          "question": "Ce collier convient-il aux hommes et aux femmes ?",
-          "answer": "Oui, le collier est conçu comme unisexe, ce qui le rend adapté à toute personne, quel que soit son genre."
+          "question": "Ce collier convient-il aussi bien aux hommes qu'aux femmes ?",
+          "answer": "Oui, le collier est conçu comme unisexe, le rendant adapté à tout le monde, quel que soit le genre."
         },
         {
           "question": "Le collier présente-t-il une forme de croix ?",
@@ -41973,7 +41843,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Collier pendentif croix en bois naturel avec chapelet",
-          "description": "Ce collier pendentif chapelet en bois naturel unisexe présente des perles en bois naturel et un motif en forme de croix, conçu dans un style religieux. La chaîne de perles offre un look classique de chapelet, ce qui le rend adapté à la prière et au port quotidien. Fabriqué en bois, il sert d'aide tangible à la dévotion catholique.",
+          "description": "Ce collier pendentif chapelet en bois naturel unisexe présente des perles en bois naturel et un motif en forme de croix, conçu dans un style religieux. Le cordon de perles offre un look classique de chapelet, le rendant adapté à la prière et au port quotidien. Fabriqué en bois, il sert d'aide tangible à la dévotion catholique.",
           "sku": "ALI-AAGbTG7BAOVioqqEY6eegS_J",
           "image": [
             "https://sc04.alicdn.com/kf/H635506da3e79420d89114e9251ff1765y.jpg",
@@ -42038,10 +41908,10 @@
             },
             {
               "@type": "Question",
-              "name": "Ce collier convient-il aux hommes et aux femmes ?",
+              "name": "Ce collier convient-il aussi bien aux hommes qu'aux femmes ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Oui, le collier est conçu comme unisexe, ce qui le rend adapté à toute personne, quel que soit son genre."
+                "text": "Oui, le collier est conçu comme unisexe, le rendant adapté à tout le monde, quel que soit le genre."
               }
             },
             {
@@ -42070,9 +41940,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "798ed8d50f13fddfb1994a0982dc0549ee4a8681d0c91cdcb63ad954e3c80474",
-            "contentHash": "fa99d8174d277af54782bd1f3c70c52d82129847b5fb91429f7fb8bf73ef363a",
+            "contentHash": "5000336365265eba0d8f7f57a4e858fb13b6bb2d430c4ba71c18e1eb0e2b8778",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:28:39.486Z",
+            "updatedAt": "2026-08-11T19:42:05.588Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -42504,9 +42374,9 @@
       "locale": "fr",
       "slug": "simple-round-ot-buckle-for-necklace-and-bracelet-diy-egzjxl",
       "title": "Boucle OT ronde simple pour collier et bracelet DIY",
-      "eyebrow": "Accessoire de fermeture pour collier et bracelet à boucle OT",
-      "summary": "Ces boucles OT rondes sont disponibles en finition or ou argent, avec plusieurs options de taille et de poids. Utilisez-les comme fermoirs de queue pour colliers ou bracelets dans vos projets de bijouterie DIY. Design simple et fonctionnel pour des accessoires de tous les jours.",
-      "description": "Fabriquées en métal, ces boucles OT présentent une forme ronde simple. Choisissez parmi les variantes or ou argent, en tailles de 0,9x1,2 cm à 1,2x1,6 cm, avec des poids allant de 0,7 g à 1,3 g. Elles se fixent à l'extrémité des colliers ou bracelets pour une fermeture sécurisée.\n\nCette pièce est un composant pratique pour les créateurs de bijoux. Elle convient aussi bien aux nouvelles créations qu'aux réparations de pièces existantes. La finition lisse s'accorde avec des designs décontractés ou formels. Sélectionnez la taille qui correspond à l'épaisseur de votre cordon ou chaîne.\n\nPour l'approvisionnement, nous proposons ces boucles OT en gros. Contactez-nous pour confirmer la disponibilité et les détails de commande.",
+      "eyebrow": "Boucle OT pour collier et bracelet - accessoire de fermeture",
+      "summary": "Ces boucles OT rondes sont disponibles en finition or ou argent, avec plusieurs options de taille et de poids. Utilisez-les comme fermoirs de queue pour colliers ou bracelets dans vos projets de bijoux DIY. Design simple et fonctionnel pour accessoires de tous les jours.",
+      "description": "Fabriquées en métal, ces boucles OT ont une forme ronde simple. Choisissez parmi les variantes or ou argent, en tailles de 0,9x1,2 cm à 1,2x1,6 cm, avec des poids allant de 0,7g à 1,3g. Elles se fixent à la queue des colliers ou bracelets pour une fermeture sécurisée.\n\nCe composant est un élément pratique pour les créateurs de bijoux. Il convient aussi bien aux nouvelles créations qu'aux réparations de pièces existantes. La finition simple s'accorde avec des designs décontractés ou formels. Sélectionnez la taille qui correspond à l'épaisseur de votre cordon ou chaîne.\n\nPour l'approvisionnement, nous proposons ces boucles OT en gros. Contactez-nous pour confirmer la disponibilité et les détails de commande.",
       "catholicContext": "",
       "catholicRelevance": "none",
       "categories": [
@@ -42577,9 +42447,9 @@
       "features": [
         "Disponible en finition or ou argent",
         "Plusieurs options de taille : 0,9x1,2, 1x1,2, 1,2x1,6, 1,1x1,6 cm",
-        "Plage de poids : 0,7 g à 1,3 g par boucle",
-        "Forme ronde OT pour extrémité de collier ou bracelet",
-        "Design simple pour projets de bijouterie DIY"
+        "Gamme de poids : 0,7g à 1,3g par boucle",
+        "Forme OT ronde pour queue de collier ou bracelet",
+        "Design simple pour projets de bijoux DIY"
       ],
       "specifications": [
         {
@@ -42596,7 +42466,7 @@
         },
         {
           "name": "Options de poids",
-          "value": "0,7 g, 0,8 g, 1,2 g, 1,3 g"
+          "value": "0,7g, 0,8g, 1,2g, 1,3g"
         },
         {
           "name": "Finition",
@@ -42604,13 +42474,13 @@
         },
         {
           "name": "Utilisation",
-          "value": "Fermoir pour extrémité de collier et bracelet"
+          "value": "Fermoir pour queue de collier et bracelet"
         }
       ],
       "applications": [
         "Fabrication de colliers DIY",
         "Fabrication de bracelets DIY",
-        "Réparation de fermoirs de bijoux existants",
+        "Réparation de fermetures de bijoux existants",
         "Projets d'artisanat et de conception de bijoux"
       ],
       "faq": [
@@ -42620,11 +42490,11 @@
         },
         {
           "question": "Quel est le poids de ces boucles ?",
-          "answer": "Les boucles pèsent entre 0,7 g et 1,3 g selon la variante de taille. Par exemple, la taille 0,9x1,2 cm pèse environ 0,7 g, tandis que la taille 1,2x1,6 cm pèse environ 1,3 g."
+          "answer": "Les boucles pèsent entre 0,7g et 1,3g selon la variante de taille. Par exemple, la taille 0,9x1,2 cm pèse environ 0,7g, tandis que la taille 1,2x1,6 cm pèse environ 1,3g."
         },
         {
           "question": "Ces boucles peuvent-elles être utilisées pour les colliers et les bracelets ?",
-          "answer": "Oui, elles sont conçues comme fermoirs de bout pour les colliers et les bracelets. Choisissez une taille qui correspond à votre cordon ou chaîne pour une fermeture sécurisée."
+          "answer": "Oui, elles sont conçues comme fermoirs de queue pour les colliers et les bracelets. Choisissez une taille adaptée à votre cordon ou chaîne pour une fermeture sécurisée."
         }
       ],
       "pricing": {
@@ -42641,7 +42511,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Boucle OT ronde simple pour collier et bracelet DIY",
-          "description": "Ces boucles OT rondes sont disponibles en finition or ou argent, avec plusieurs options de taille et de poids. Utilisez-les comme fermoirs de queue pour colliers ou bracelets dans vos projets de bijouterie DIY. Design simple et fonctionnel pour des accessoires de tous les jours.",
+          "description": "Ces boucles OT rondes sont disponibles en finition or ou argent, avec plusieurs options de taille et de poids. Utilisez-les comme fermoirs de queue pour colliers ou bracelets dans vos projets de bijoux DIY. Design simple et fonctionnel pour accessoires de tous les jours.",
           "sku": "ALI-AAERTG7BAOVioqqEY6egZjxL",
           "image": [
             "https://sc04.alicdn.com/kf/H0d46798a5bd3421e9ec0b11b27df39d7h.jpg",
@@ -42670,7 +42540,7 @@
             {
               "@type": "PropertyValue",
               "name": "Options de poids",
-              "value": "0,7 g, 0,8 g, 1,2 g, 1,3 g"
+              "value": "0,7g, 0,8g, 1,2g, 1,3g"
             },
             {
               "@type": "PropertyValue",
@@ -42680,7 +42550,7 @@
             {
               "@type": "PropertyValue",
               "name": "Utilisation",
-              "value": "Fermoir pour extrémité de collier et bracelet"
+              "value": "Fermoir pour queue de collier et bracelet"
             }
           ],
           "offers": {
@@ -42713,7 +42583,7 @@
               "name": "Quel est le poids de ces boucles ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Les boucles pèsent entre 0,7 g et 1,3 g selon la variante de taille. Par exemple, la taille 0,9x1,2 cm pèse environ 0,7 g, tandis que la taille 1,2x1,6 cm pèse environ 1,3 g."
+                "text": "Les boucles pèsent entre 0,7g et 1,3g selon la variante de taille. Par exemple, la taille 0,9x1,2 cm pèse environ 0,7g, tandis que la taille 1,2x1,6 cm pèse environ 1,3g."
               }
             },
             {
@@ -42721,7 +42591,7 @@
               "name": "Ces boucles peuvent-elles être utilisées pour les colliers et les bracelets ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Oui, elles sont conçues comme fermoirs de bout pour les colliers et les bracelets. Choisissez une taille qui correspond à votre cordon ou chaîne pour une fermeture sécurisée."
+                "text": "Oui, elles sont conçues comme fermoirs de queue pour les colliers et les bracelets. Choisissez une taille adaptée à votre cordon ou chaîne pour une fermeture sécurisée."
               }
             }
           ]
@@ -42742,9 +42612,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "0a5d945339e62859b92471629df2ae808e7094ae90b5a44e9d607b2ea4995c2c",
-            "contentHash": "0911c6a6f437940c8b49af51cfe310f9ebca6d87c2dfe44894b50e7a00133e4a",
+            "contentHash": "20ccdc5ce3cb9442a7d356c05cce90976bec7810d42edc0c262afc6f3be94a3a",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:28:47.446Z",
+            "updatedAt": "2026-08-11T19:42:13.841Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -42758,9 +42628,9 @@
       "slug": "wooden-cross-christmas-pendant-for-diy-crafts-ejc0fm",
       "title": "Pendentif Croix en Bois de Noël pour Travaux Manuels DIY",
       "eyebrow": "Pendentif croix en bois de Noël pour travaux manuels DIY",
-      "summary": "Un pendentif croix en bois simple conçu pour les projets DIY de Noël. Utilisez-le pour créer des ornements, des guirlandes ou des bijoux. Sa surface en bois naturel accepte la peinture, les paillettes ou la teinture. Vendu comme support vierge pour une personnalisation créative.",
-      "description": "Ce pendentif croix en bois apporte une silhouette propre et naturelle à votre gamme de travaux manuels de Noël. La forme de la croix est découpée dans du bois avec des bords lisses, ce qui la rend facile à manipuler et à décorer. Parce que c'est une croix simple, elle convient à la fois aux thèmes hivernaux laïques et aux crèches chrétiennes, bien qu'elle ne possède pas le corpus d'un crucifix.\n\nChaque pièce est une toile vierge : peignez-la, ajoutez des paillettes, ou laissez-la naturelle pour un look rustique. Le style pendentif comprend un trou pour le fil ou le câble, afin qu'il puisse être suspendu à un sapin, à une fenêtre ou à une chaîne de collier. Sa construction légère maintient les frais d'expédition bas et le rend idéal pour des sessions de fabrication en gros.",
-      "catholicContext": "Une croix simple (sans corpus) est un symbole distinct d'un crucifix et est souvent utilisée dans les projets artisanaux chrétiens.",
+      "summary": "Un pendentif croix en bois simple conçu pour les projets de Noël DIY. Utilisez-le pour créer des ornements, des guirlandes ou des bijoux. Sa surface en bois naturel accepte la peinture, les paillettes ou la teinture. Vendu brut pour une personnalisation créative.",
+      "description": "Ce pendentif croix en bois apporte une silhouette naturelle et propre à votre gamme de bricolage de Noël. La forme de croix est découpée dans du bois avec des bords lisses, ce qui la rend facile à manipuler et à décorer. Parce qu'il s'agit d'une croix simple, il convient à la fois aux thèmes hivernaux laïques et aux crèches chrétiennes, bien qu'il lui manque le corpus d'un crucifix.\n\nChaque pièce est une toile vierge : peignez-la, ajoutez des paillettes ou laissez-la naturelle pour un look rustique. Le style pendentif comprend un trou pour le fil ou le câble, afin de pouvoir être accroché à un arbre, à une fenêtre ou à une chaîne de collier. Sa construction légère maintient les frais d'expédition à un niveau bas et le rend idéal pour des sessions de fabrication en gros.",
+      "catholicContext": "Une croix simple (sans corpus) est un symbole distinct du crucifix et est souvent utilisée dans les projets d'artisanat chrétien.",
       "catholicRelevance": "explicit",
       "categories": [
         {
@@ -42771,37 +42641,37 @@
       ],
       "sku": "ALI-AAFHTG7BAOVioqqEY6ejc0fm",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc498d679254f4d1195add417fe201cack.webp",
-      "imageAlt": "Pendentif croix en bois de Noël pour travaux manuels DIY",
+      "imageAlt": "Pendentif Croix en Bois de Noël pour Travaux Manuels DIY",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc498d679254f4d1195add417fe201cack.webp",
-          "alt": "Pendentif croix en bois de Noël pour travaux manuels DIY"
+          "alt": "Pendentif Croix en Bois de Noël pour Travaux Manuels DIY"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H3f3c4f6044014b02832c47c20e9b72bcc.webp",
-          "alt": "Pendentif croix en bois de Noël pour travaux manuels DIY"
+          "alt": "Pendentif Croix en Bois de Noël pour Travaux Manuels DIY"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc7ac1204748a4cd1bf172176adede17by.webp",
-          "alt": "Pendentif croix en bois de Noël pour travaux manuels DIY"
+          "alt": "Pendentif Croix en Bois de Noël pour Travaux Manuels DIY"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H3597623235184303acb6435a78bd2171a.webp",
-          "alt": "Pendentif croix en bois de Noël pour travaux manuels DIY"
+          "alt": "Pendentif Croix en Bois de Noël pour Travaux Manuels DIY"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H3c9b75716df947a8af7a131003f5a8966.webp",
-          "alt": "Pendentif croix en bois de Noël pour travaux manuels DIY"
+          "alt": "Pendentif Croix en Bois de Noël pour Travaux Manuels DIY"
         }
       ],
       "variantImages": [],
       "accent": "#6d7887",
       "features": [
-        "Pendentif en forme de croix",
-        "Conçu pour la décoration et les travaux manuels DIY",
+        "Pendentif en forme de croix en bois",
+        "Conçu pour la décoration DIY et l'artisanat",
         "Convient aux thèmes de Noël",
         "Croix simple sans corpus",
-        "Surface vierge pour peinture, teinture ou embellissement"
+        "Surface vierge pour peindre, teindre ou embellir"
       ],
       "specifications": [
         {
@@ -42826,23 +42696,23 @@
         }
       ],
       "applications": [
-        "Créer des ornements pour sapin de Noël",
-        "Fabriquer des bijoux DIY tels que des colliers",
-        "Confectionner des guirlandes ou des décorations suspendues",
-        "Ajouter à l'emballage cadeau ou aux embellissements de couronne"
+        "Création d'ornements pour arbre de Noël",
+        "Fabrication de bijoux DIY tels que des colliers",
+        "Confection de guirlandes ou de décorations suspendues",
+        "Ajout à l'emballage cadeau ou aux embellissements de couronnes"
       ],
       "faq": [
         {
-          "question": "Quel est le matériau de ce pendentif croix en bois ?",
-          "answer": "Le matériau est répertorié comme 'Aucun' dans les spécifications du produit, ce qui signifie que le type de bois exact n'est pas spécifié. Il est décrit comme un pendentif en bois, il convient donc aux travaux manuels légers."
+          "question": "En quel matériau ce pendentif croix en bois est-il fait ?",
+          "answer": "Le matériau est indiqué comme 'Aucun' dans les spécifications du produit, ce qui signifie que le type de bois exact n'est pas spécifié. Il est décrit comme un pendentif en bois, donc il convient pour un bricolage léger."
         },
         {
           "question": "Ce pendentif inclut-il une corde ou une chaîne ?",
-          "answer": "Non, le produit est répertorié comme pendentif uniquement. Vous devrez fournir votre propre corde, câble ou chaîne pour le suspendre."
+          "answer": "Non, le produit est listé comme pendentif uniquement. Vous devrez fournir votre propre corde, fil ou chaîne pour le suspendre."
         },
         {
           "question": "Ce pendentif croix peut-il être peint ou décoré ?",
-          "answer": "Oui, il est conçu pour un usage DIY. La surface vierge peut être peinte, pailletée ou teinte pour correspondre à votre projet."
+          "answer": "Oui, il est conçu pour un usage DIY. La surface vierge peut être peinte, pailletée ou teintée pour correspondre à votre projet."
         }
       ],
       "pricing": {
@@ -42860,7 +42730,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Pendentif Croix en Bois de Noël pour Travaux Manuels DIY",
-          "description": "Un pendentif croix en bois simple conçu pour les projets DIY de Noël. Utilisez-le pour créer des ornements, des guirlandes ou des bijoux. Sa surface en bois naturel accepte la peinture, les paillettes ou la teinture. Vendu comme support vierge pour une personnalisation créative.",
+          "description": "Un pendentif croix en bois simple conçu pour les projets de Noël DIY. Utilisez-le pour créer des ornements, des guirlandes ou des bijoux. Sa surface en bois naturel accepte la peinture, les paillettes ou la teinture. Vendu brut pour une personnalisation créative.",
           "sku": "ALI-AAFHTG7BAOVioqqEY6ejc0fm",
           "image": [
             "https://sc04.alicdn.com/kf/Hc498d679254f4d1195add417fe201cack.png",
@@ -42916,10 +42786,10 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Quel est le matériau de ce pendentif croix en bois ?",
+              "name": "En quel matériau ce pendentif croix en bois est-il fait ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Le matériau est répertorié comme 'Aucun' dans les spécifications du produit, ce qui signifie que le type de bois exact n'est pas spécifié. Il est décrit comme un pendentif en bois, il convient donc aux travaux manuels légers."
+                "text": "Le matériau est indiqué comme 'Aucun' dans les spécifications du produit, ce qui signifie que le type de bois exact n'est pas spécifié. Il est décrit comme un pendentif en bois, donc il convient pour un bricolage léger."
               }
             },
             {
@@ -42927,7 +42797,7 @@
               "name": "Ce pendentif inclut-il une corde ou une chaîne ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Non, le produit est répertorié comme pendentif uniquement. Vous devrez fournir votre propre corde, câble ou chaîne pour le suspendre."
+                "text": "Non, le produit est listé comme pendentif uniquement. Vous devrez fournir votre propre corde, fil ou chaîne pour le suspendre."
               }
             },
             {
@@ -42935,7 +42805,7 @@
               "name": "Ce pendentif croix peut-il être peint ou décoré ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Oui, il est conçu pour un usage DIY. La surface vierge peut être peinte, pailletée ou teinte pour correspondre à votre projet."
+                "text": "Oui, il est conçu pour un usage DIY. La surface vierge peut être peinte, pailletée ou teintée pour correspondre à votre projet."
               }
             }
           ]
@@ -42956,9 +42826,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "70dbbc84c01c448b70a1a78c1ccd1eeb8ebd3803c802084eb5489fc5b8e76f86",
-            "contentHash": "895b83021e07df56903ff7ba24ede2bb509d83e63d57724e3a97f13f675cd1a2",
+            "contentHash": "c412334d1d66f47c08ebceb3e6c2a3c3c1950ffa7007c82845c484ef831b650b",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:28:54.953Z",
+            "updatedAt": "2026-08-11T19:42:21.420Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -42970,10 +42840,10 @@
       "sourceFingerprint": "eefc8aa1fdf3438acf4b72d9cf415e2c10628e83020d79e51070f12a4c8e68c1",
       "locale": "fr",
       "slug": "vintage-gold-plated-father-st-benedict-exorcism-necklace-ebtcxc",
-      "title": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme",
+      "title": "Collier Saint Benoît Exorciste Vintage Plaqué Or",
       "eyebrow": "Colliers de mode",
-      "summary": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme en acier inoxydable, croix romaine catholique avec démon, collier religieux",
-      "description": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme en acier inoxydable, croix romaine catholique avec démon, collier religieux",
+      "summary": "Collier Saint Benoît Exorciste Vintage Plaqué Or en acier inoxydable, croix romaine catholique avec démon, collier religieux",
+      "description": "Collier Saint Benoît Exorciste Vintage Plaqué Or en acier inoxydable, croix romaine catholique avec démon, collier religieux",
       "catholicContext": "",
       "catholicRelevance": "devotional_context",
       "categories": [
@@ -42985,49 +42855,49 @@
       ],
       "sku": "ALI-AAHZTG7BAOVioqqEY6eBTcXC",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H344dc361c65541e18d754d322823a1aeC.webp",
-      "imageAlt": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme",
+      "imageAlt": "Collier Saint Benoît Exorciste Vintage Plaqué Or",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H344dc361c65541e18d754d322823a1aeC.webp",
-          "alt": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme"
+          "alt": "Collier Saint Benoît Exorciste Vintage Plaqué Or"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H16954c0ade4f4dd3a9eea917303913b9i.webp",
-          "alt": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme"
+          "alt": "Collier Saint Benoît Exorciste Vintage Plaqué Or"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H95a31da88e4644a5af3ab4fc7ad6d9bcb.webp",
-          "alt": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme"
+          "alt": "Collier Saint Benoît Exorciste Vintage Plaqué Or"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Heb921ed232b346b6a8309005b896339aN.webp",
-          "alt": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme"
+          "alt": "Collier Saint Benoît Exorciste Vintage Plaqué Or"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H9b864ddf6ea44d39abd285290cd895c6J.webp",
-          "alt": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme"
+          "alt": "Collier Saint Benoît Exorciste Vintage Plaqué Or"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H4386166edad643e5b0c280c9ad02cfc1M.webp",
-          "alt": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme"
+          "alt": "Collier Saint Benoît Exorciste Vintage Plaqué Or"
         }
       ],
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/He78fa761451148f9b35ec610b382531b0.webp",
-          "alt": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme - or2",
+          "alt": "Collier Saint Benoît Exorciste Vintage Plaqué Or - or2",
           "label": "or2",
           "sku": "ALI-AAHZTG7BAOVioqqEY6eBTcXC-V--2"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H10569f7493c74838816dff9c64cfb96dj.webp",
-          "alt": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme - or1",
+          "alt": "Collier Saint Benoît Exorciste Vintage Plaqué Or - or1",
           "label": "or1",
           "sku": "ALI-AAHZTG7BAOVioqqEY6eBTcXC-V--1"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H1ec9634b8727478288965a8ff06556b72.webp",
-          "alt": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme - or3",
+          "alt": "Collier Saint Benoît Exorciste Vintage Plaqué Or - or3",
           "label": "or3",
           "sku": "ALI-AAHZTG7BAOVioqqEY6eBTcXC-V--3"
         }
@@ -43057,8 +42927,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme",
-          "description": "Collier Vintage Doré à l'Or fin Père Saint Benoît Exorcisme en acier inoxydable, croix romaine catholique avec démon, collier religieux",
+          "name": "Collier Saint Benoît Exorciste Vintage Plaqué Or",
+          "description": "Collier Saint Benoît Exorciste Vintage Plaqué Or en acier inoxydable, croix romaine catholique avec démon, collier religieux",
           "sku": "ALI-AAHZTG7BAOVioqqEY6eBTcXC",
           "image": [
             "https://sc04.alicdn.com/kf/H344dc361c65541e18d754d322823a1aeC.jpg",
@@ -43105,9 +42975,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "d8012b38bcd9cdf83c852c6dd54145c4a51095e8e789486f2ffef0d0c39ce020",
-            "contentHash": "5e8b8ef6815b990a32c807c27d9d3ea225d76c4d73ada560a5de7a3ebf3b08bb",
+            "contentHash": "2942ba914f22188c3545152f9474fd320bf27c7c88fce4d5c4f4e960fb9f4a7b",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:28:58.553Z",
+            "updatedAt": "2026-08-11T19:42:24.699Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -43120,9 +42990,9 @@
       "locale": "fr",
       "slug": "saint-benedict-cross-keychain-with-crucifix-medal-edawv-",
       "title": "Porte-clés Croix de Saint Benoît avec Médaille Crucifix",
-      "eyebrow": "Porte-clés Croix de Saint Benoît",
-      "summary": "Un porte-clés en métal avec une croix de Saint Benoît, une médaille crucifix et un pendentif de Jérusalem. Choisissez entre Or + Argent Ancien ou Argent + Vieil Or. Conception de porte-clés durable pour un usage quotidien.",
-      "description": "Ce porte-clés combine une croix de Saint Benoît avec une médaille crucifix et un pendentif de Jérusalem, ce qui en fait un accessoire distinctif pour les clés, les sacs ou les sacs à dos. La construction en métal et la conception de porte-clés conviennent à une utilisation quotidienne.\n\nDisponible en deux combinaisons de couleurs : Or + Argent Ancien et Argent + Vieil Or. Idéal pour un usage personnel ou comme cadeau pratique pour ceux qui apprécient les symboles religieux.",
+      "eyebrow": "Porte-clés croix de Saint Benoît",
+      "summary": "Porte-clés en métal avec croix de Saint Benoît, médaille crucifix et breloque de Jérusalem. Choisissez entre Or + Argent ancien ou Argent + Or vieilli. Anneau porte-clés durable pour un usage quotidien.",
+      "description": "Ce porte-clés associe une croix de Saint Benoît à une médaille crucifix et une breloque de Jérusalem, ce qui en fait un accessoire distinctif pour les clés, sacs ou sacs à dos. La construction en métal et l'anneau porte-clés sont adaptés à une manipulation quotidienne.\n\nDisponible en deux combinaisons de couleurs : Or + Argent ancien et Argent + Or vieilli. Idéal pour un usage personnel ou comme cadeau pratique pour ceux qui apprécient les symboles religieux.",
       "catholicContext": "Saint Benoît est un saint largement vénéré dans l'Église catholique, connu pour la médaille de Saint Benoît, qui est un objet de dévotion populaire.",
       "catholicRelevance": "devotional_context",
       "categories": [
@@ -43170,16 +43040,16 @@
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H76e884f391ca452daf91303c4500efd29.webp",
-          "alt": "Porte-clés Croix de Saint Benoît avec Médaille Crucifix - argent-vieil-or",
-          "label": "argent-vieil-or",
+          "alt": "Porte-clés Croix de Saint Benoît avec Médaille Crucifix - argent-or-vieilli",
+          "label": "argent-or-vieilli",
           "sku": "ALI-AAGTTG7BAOVioqqEY6eDAwv--V--2"
         }
       ],
       "accent": "#6f7c72",
       "features": [
         "Construction en métal pour la durabilité",
-        "Comprend une croix de Saint Benoît, une médaille crucifix et un pendentif de Jérusalem",
-        "Disponible en deux variantes de couleur : Or + Argent Ancien, Argent + Vieil Or",
+        "Comprend une croix de Saint Benoît, une médaille crucifix et une breloque de Jérusalem",
+        "Disponible en deux variantes de couleurs : Or + Argent ancien, Argent + Or vieilli",
         "Style porte-clés pour attacher aux clés, sacs ou sacs à dos"
       ],
       "specifications": [
@@ -43188,8 +43058,8 @@
           "value": "Métal"
         },
         {
-          "name": "Variantes de couleur",
-          "value": "Or + Argent Ancien ; Argent + Vieil Or"
+          "name": "Variantes de couleurs",
+          "value": "Or + Argent ancien ; Argent + Or vieilli"
         },
         {
           "name": "Catégorie",
@@ -43204,12 +43074,12 @@
       ],
       "faq": [
         {
-          "question": "Quelles options de couleur sont disponibles pour ce porte-clés ?",
-          "answer": "Le porte-clés est disponible en deux variantes : Or + Argent Ancien et Argent + Vieil Or."
+          "question": "Quelles options de couleurs sont disponibles pour ce porte-clés ?",
+          "answer": "Le porte-clés est disponible en deux variantes : Or + Argent ancien et Argent + Or vieilli."
         },
         {
           "question": "Ce porte-clés est-il un crucifix ou une croix ?",
-          "answer": "Le porte-clés comprend à la fois une croix de Saint Benoît et une médaille crucifix, qui représente le Christ en croix."
+          "answer": "Le porte-clés comprend à la fois une croix de Saint Benoît et une médaille crucifix qui représente le Christ en croix."
         },
         {
           "question": "De quel matériau est fait le porte-clés ?",
@@ -43230,7 +43100,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Porte-clés Croix de Saint Benoît avec Médaille Crucifix",
-          "description": "Un porte-clés en métal avec une croix de Saint Benoît, une médaille crucifix et un pendentif de Jérusalem. Choisissez entre Or + Argent Ancien ou Argent + Vieil Or. Conception de porte-clés durable pour un usage quotidien.",
+          "description": "Porte-clés en métal avec croix de Saint Benoît, médaille crucifix et breloque de Jérusalem. Choisissez entre Or + Argent ancien ou Argent + Or vieilli. Anneau porte-clés durable pour un usage quotidien.",
           "sku": "ALI-AAGTTG7BAOVioqqEY6eDAwv-",
           "image": [
             "https://sc04.alicdn.com/kf/H9f04bdf0f0b84b3d993cac816a5120ccm.jpg",
@@ -43249,8 +43119,8 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Variantes de couleur",
-              "value": "Or + Argent Ancien ; Argent + Vieil Or"
+              "name": "Variantes de couleurs",
+              "value": "Or + Argent ancien ; Argent + Or vieilli"
             },
             {
               "@type": "PropertyValue",
@@ -43277,10 +43147,10 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Quelles options de couleur sont disponibles pour ce porte-clés ?",
+              "name": "Quelles options de couleurs sont disponibles pour ce porte-clés ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Le porte-clés est disponible en deux variantes : Or + Argent Ancien et Argent + Vieil Or."
+                "text": "Le porte-clés est disponible en deux variantes : Or + Argent ancien et Argent + Or vieilli."
               }
             },
             {
@@ -43288,7 +43158,7 @@
               "name": "Ce porte-clés est-il un crucifix ou une croix ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Le porte-clés comprend à la fois une croix de Saint Benoît et une médaille crucifix, qui représente le Christ en croix."
+                "text": "Le porte-clés comprend à la fois une croix de Saint Benoît et une médaille crucifix qui représente le Christ en croix."
               }
             },
             {
@@ -43317,9 +43187,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "0d43ca3f88867dab458b5f0ee24baf8bf7002c204687789b9ee50d9360709cdc",
-            "contentHash": "9e3cf8740c79cf831b07997490264e7f2824ad6951d38a2a3ea0264f056b24bc",
+            "contentHash": "c0b702745dd9a6273cd8aa2457501179153afd57c21a2228e51ae3c181383822",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:29:04.684Z",
+            "updatedAt": "2026-08-11T19:42:30.961Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -43333,9 +43203,9 @@
       "slug": "large-victorian-cross-necklace-silver-long-chain-ebrdym",
       "title": "Grand collier croix victorienne, chaîne longue argentée",
       "eyebrow": "Collier pendentif croix style victorien",
-      "summary": "Un grand pendentif croix de style victorien sur une chaîne longue, avec une finition argentée. Cet accessoire imposant met la croix clairement en valeur. Deux variantes sont disponibles, vous permettant de choisir l'option qui convient à votre style. Une pièce de bijouterie religieuse simple avec un caractère inspiré du vintage.",
-      "description": "Ce collier est centré sur un pendentif croix de grande taille avec des détails d'inspiration victorienne. La chaîne longue permet au pendentif de se positionner bien en dessous de la clavicule, rendant la croix visible par-dessus les pulls, tuniques ou hauts simples. La finition argentée rend la pièce polyvalente pour des tenues décontractées ou plus habillées.\n\nDeux variantes sont proposées, vous offrant le choix de la longueur de chaîne ou du style de pendentif. Nous avons sourcé cette pièce dans le cadre de notre gamme d'accessoires, et elle peut convenir pour un port personnel ou pour enrichir une sélection de vente au détail axée sur la foi. Sans corpus, elle est correctement décrite comme une croix plutôt qu'un crucifix.",
-      "catholicContext": "La croix, en tant que symbole du sacrifice du Christ, occupe une place centrale dans la vie de dévotion catholique.",
+      "summary": "Un grand pendentif croix de style victorien sur une chaîne longue, avec une finition argentée. Cet accessoire imposant fait de la croix un point focal clair. Deux variantes sont disponibles, vous permettant de choisir l'option qui correspond à votre look. Une pièce de bijouterie religieuse simple avec un caractère d'inspiration vintage.",
+      "description": "Ce collier est centré sur un pendentif croix de grande taille avec des détails d'inspiration victorienne. La chaîne longue permet au pendentif de se positionner bien en dessous de la clavicule, rendant la croix visible par-dessus les pulls, tuniques ou hauts simples. La finition argentée rend la pièce polyvalente pour les tenues décontractées et plus habillées.\n\nDeux variantes sont proposées, vous offrant le choix de la longueur de chaîne ou du style de pendentif. Nous avons sourcé cette pièce dans le cadre de notre gamme d'accessoires, et elle peut convenir pour un port personnel ou pour enrichir une sélection de vente au détail axée sur la foi. Sans corpus, elle est correctement décrite comme une croix plutôt qu'un crucifix.",
+      "catholicContext": "Une croix, en tant que symbole du sacrifice du Christ, occupe une place centrale dans la vie de dévotion catholique.",
       "catholicRelevance": "explicit",
       "categories": [
         {
@@ -43401,7 +43271,7 @@
         },
         {
           "name": "Finition",
-          "value": "Tons argent"
+          "value": "Argentée"
         },
         {
           "name": "Variantes",
@@ -43417,15 +43287,15 @@
       "faq": [
         {
           "question": "Ce collier est-il une croix ou un crucifix ?",
-          "answer": "Il est décrit comme une croix. Les informations produit ne mentionnent pas de corpus (le corps du Christ), il ne doit donc pas être appelé crucifix."
+          "answer": "Il est décrit comme une croix. Les caractéristiques du produit ne mentionnent pas de corpus (le corps du Christ), il ne doit donc pas être appelé crucifix."
         },
         {
           "question": "Quelle est la longueur de la chaîne ?",
-          "answer": "La chaîne est décrite comme « longue », mais les mesures exactes ne sont pas fournies dans les informations produit. Contactez-nous pour des dimensions spécifiques si nécessaire."
+          "answer": "La chaîne est décrite comme « longue », mais les mesures exactes ne sont pas fournies dans les caractéristiques du produit. Contactez-nous pour des dimensions spécifiques si nécessaire."
         },
         {
           "question": "Existe-t-il différentes variantes disponibles ?",
-          "answer": "Oui, la fiche produit comprend deux variantes, bien que les différences exactes (telles que le style de chaîne ou la taille du pendentif) ne soient pas spécifiées."
+          "answer": "Oui, la fiche produit inclut deux variantes, mais les différences exactes (telles que le style de chaîne ou la taille du pendentif) ne sont pas spécifiées."
         }
       ],
       "pricing": {
@@ -43442,7 +43312,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Grand collier croix victorienne, chaîne longue argentée",
-          "description": "Un grand pendentif croix de style victorien sur une chaîne longue, avec une finition argentée. Cet accessoire imposant met la croix clairement en valeur. Deux variantes sont disponibles, vous permettant de choisir l'option qui convient à votre style. Une pièce de bijouterie religieuse simple avec un caractère inspiré du vintage.",
+          "description": "Un grand pendentif croix de style victorien sur une chaîne longue, avec une finition argentée. Cet accessoire imposant fait de la croix un point focal clair. Deux variantes sont disponibles, vous permettant de choisir l'option qui correspond à votre look. Une pièce de bijouterie religieuse simple avec un caractère d'inspiration vintage.",
           "sku": "ALI-AAELTG7BAOVioqqEY6eBRDYM",
           "image": [
             "https://sc04.alicdn.com/kf/He96def3979a449b3b0ed5205d817956bL.jpg",
@@ -43466,7 +43336,7 @@
             {
               "@type": "PropertyValue",
               "name": "Finition",
-              "value": "Tons argent"
+              "value": "Argentée"
             },
             {
               "@type": "PropertyValue",
@@ -43496,7 +43366,7 @@
               "name": "Ce collier est-il une croix ou un crucifix ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Il est décrit comme une croix. Les informations produit ne mentionnent pas de corpus (le corps du Christ), il ne doit donc pas être appelé crucifix."
+                "text": "Il est décrit comme une croix. Les caractéristiques du produit ne mentionnent pas de corpus (le corps du Christ), il ne doit donc pas être appelé crucifix."
               }
             },
             {
@@ -43504,7 +43374,7 @@
               "name": "Quelle est la longueur de la chaîne ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "La chaîne est décrite comme « longue », mais les mesures exactes ne sont pas fournies dans les informations produit. Contactez-nous pour des dimensions spécifiques si nécessaire."
+                "text": "La chaîne est décrite comme « longue », mais les mesures exactes ne sont pas fournies dans les caractéristiques du produit. Contactez-nous pour des dimensions spécifiques si nécessaire."
               }
             },
             {
@@ -43512,7 +43382,7 @@
               "name": "Existe-t-il différentes variantes disponibles ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Oui, la fiche produit comprend deux variantes, bien que les différences exactes (telles que le style de chaîne ou la taille du pendentif) ne soient pas spécifiées."
+                "text": "Oui, la fiche produit inclut deux variantes, mais les différences exactes (telles que le style de chaîne ou la taille du pendentif) ne sont pas spécifiées."
               }
             }
           ]
@@ -43533,9 +43403,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "547a26bd47baa0c70fcc43e5ecb85cb99b0aa81870899ab3fe8833c12b90c817",
-            "contentHash": "a6c8248a6989022ecda4f429f8e317583ddc91ff350b0be3760c15b77c34f756",
+            "contentHash": "d213f5bed29f7597f0a2dc21a50c9db9fddcf011f45562128ddac9bd0c10a646",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:29:11.661Z",
+            "updatedAt": "2026-08-11T19:42:37.846Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -43547,10 +43417,10 @@
       "sourceFingerprint": "3e0a736b3ded8aaf781a4126ef74384e7a3a3704a8d8f36dfb0f7ca7a4ef2124",
       "locale": "fr",
       "slug": "hand-tied-knotted-rope-rosary-with-cross-necklace-ey_co3",
-      "title": "Chapelet en corde nouée main avec croix, collier",
-      "eyebrow": "chapelet en corde nouée",
-      "summary": "Un chapelet en corde nouée à la main avec une croix attachée, conçu comme un collier. Disponible en noir, rouge, bleu uni et multicolore. Un article de dévotion pratique pour les acheteurs en gros de cadeaux catholiques.",
-      "description": "Ce chapelet en corde est fabriqué en nouant chaque nœud à la main le long de la corde, formant les dizaines. Il comporte une croix à l'extrémité et est conçu pour être porté en collier. Quatre variantes de couleur sont proposées : noir, rouge, bleu et multicolore. La construction en corde lui confère une sensation flexible et durable, adaptée à une manipulation quotidienne pendant la prière.\n\nEn tant qu'article de dévotion catholique, ce chapelet est destiné à la prière personnelle, en particulier au rosaire. Son design compact et portable le rend pratique à transporter ou à porter. Pour les acheteurs en gros, cet article offre une option simple et fonctionnelle pour les magasins d'articles religieux ou les boutiques de cadeaux d'église.",
+      "title": "Chapelet en corde à nœuds fait main avec croix en collier",
+      "eyebrow": "chapelet en corde à nœuds",
+      "summary": "Un chapelet en corde à nœuds fait main avec une croix attachée, conçu comme un collier. Disponible en noir uni, rouge, bleu et multicolore. Un article de dévotion pratique pour les acheteurs en gros de cadeaux catholiques.",
+      "description": "Ce chapelet en corde à nœuds est fabriqué en nouant à la main chaque nœud le long de la corde, formant les dizaines. Il comporte une croix à l'extrémité et est conçu pour être porté en collier. Quatre variantes de couleur sont proposées : noir, rouge, bleu et multicolore. La construction en corde lui confère une sensation flexible et durable, adaptée à une utilisation quotidienne pendant la prière.\n\nEn tant qu'article de dévotion catholique, ce chapelet est destiné à la prière personnelle, en particulier au rosaire. Son design compact et portable le rend pratique à transporter ou à porter. Pour les acheteurs en gros, cet article offre une option simple et fonctionnelle pour les magasins d'articles religieux ou les boutiques de cadeaux d'église.",
       "catholicContext": "Le rosaire est une prière catholique centrée sur la contemplation des événements de la vie de Jésus-Christ et de la Vierge Marie.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -43562,67 +43432,67 @@
       ],
       "sku": "ALI-AAE0TG7BAOVioqqEY6ey_co3",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/He143ce3b063746ebb80d7c2fed44620d6.webp",
-      "imageAlt": "Chapelet en corde nouée main avec croix, collier",
+      "imageAlt": "Chapelet en corde à nœuds fait main avec croix en collier",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/He143ce3b063746ebb80d7c2fed44620d6.webp",
-          "alt": "Chapelet en corde nouée main avec croix, collier"
+          "alt": "Chapelet en corde à nœuds fait main avec croix en collier"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hff358280b83e410c9497179dd839aa54g.webp",
-          "alt": "Chapelet en corde nouée main avec croix, collier"
+          "alt": "Chapelet en corde à nœuds fait main avec croix en collier"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb3a8b034bcdd4e42a25070004ba94077P.webp",
-          "alt": "Chapelet en corde nouée main avec croix, collier"
+          "alt": "Chapelet en corde à nœuds fait main avec croix en collier"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H61ad96ba28454e938ea2a226bc0d2b665.webp",
-          "alt": "Chapelet en corde nouée main avec croix, collier"
+          "alt": "Chapelet en corde à nœuds fait main avec croix en collier"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc35fdbf8f39e4839a087c084a360734es.webp",
-          "alt": "Chapelet en corde nouée main avec croix, collier"
+          "alt": "Chapelet en corde à nœuds fait main avec croix en collier"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha270da7ce6d1417aada9ada02616fa79k.webp",
-          "alt": "Chapelet en corde nouée main avec croix, collier"
+          "alt": "Chapelet en corde à nœuds fait main avec croix en collier"
         }
       ],
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H1d115a4f481849c0a67acf7197d89d8eC.webp",
-          "alt": "Chapelet en corde nouée main avec croix, collier - multicolore",
+          "alt": "Chapelet en corde à nœuds fait main avec croix en collier - multicolore",
           "label": "multicolore",
           "sku": "ALI-AAE0TG7BAOVioqqEY6ey_co3-V--4"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H690d9919ff5b407d88c8ee5ef96cead2J.webp",
-          "alt": "Chapelet en corde nouée main avec croix, collier - rouge",
+          "alt": "Chapelet en corde à nœuds fait main avec croix en collier - rouge",
           "label": "rouge",
           "sku": "ALI-AAE0TG7BAOVioqqEY6ey_co3-V--1"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd0c8464617b44449b1a211323ce111e5t.webp",
-          "alt": "Chapelet en corde nouée main avec croix, collier - noir",
+          "alt": "Chapelet en corde à nœuds fait main avec croix en collier - noir",
           "label": "noir",
           "sku": "ALI-AAE0TG7BAOVioqqEY6ey_co3-V--3"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H7b7b791dc1e647bcb584a6cffbc850af9.webp",
-          "alt": "Chapelet en corde nouée main avec croix, collier - bleu",
+          "alt": "Chapelet en corde à nœuds fait main avec croix en collier - bleu",
           "label": "bleu",
           "sku": "ALI-AAE0TG7BAOVioqqEY6ey_co3-V--2"
         }
       ],
       "accent": "#7a6d92",
       "features": [
-        "Construction en corde nouée à la main",
+        "Construction à nœuds faits main",
         "Pendentif croix attaché",
         "Portable en collier",
         "Disponible en noir, rouge, bleu et multicolore",
         "Matériau en corde",
-        "Catégorisé comme chapelets catholiques"
+        "Catégorisé comme chapelet catholique"
       ],
       "specifications": [
         {
@@ -43649,17 +43519,17 @@
       "applications": [
         "Récitation personnelle du rosaire",
         "Collier de dévotion portable",
-        "Inventaire de boutique de cadeaux catholiques",
+        "Inventaire pour boutiques de cadeaux catholiques",
         "Distribution en gros d'articles religieux"
       ],
       "faq": [
         {
-          "question": "Quelles options de couleur sont disponibles pour ce chapelet en corde nouée ?",
-          "answer": "Le chapelet est disponible en quatre variantes de couleur : noir, rouge, bleu et multicolore."
+          "question": "Quelles options de couleur sont disponibles pour ce chapelet en corde à nœuds ?",
+          "answer": "Le chapelet est disponible en quatre variantes : noir, rouge, bleu et multicolore."
         },
         {
           "question": "Comment ce chapelet est-il fabriqué ?",
-          "answer": "Il est noué à la main avec des nœuds le long de la corde, avec une croix à l'extrémité, et conçu pour être porté comme un collier."
+          "answer": "Il est fait main avec des nœuds le long de la corde, avec une croix à l'extrémité, et est conçu pour être porté en collier."
         },
         {
           "question": "Ce chapelet convient-il aux commandes en gros ?",
@@ -43679,8 +43549,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Chapelet en corde nouée main avec croix, collier",
-          "description": "Un chapelet en corde nouée à la main avec une croix attachée, conçu comme un collier. Disponible en noir, rouge, bleu uni et multicolore. Un article de dévotion pratique pour les acheteurs en gros de cadeaux catholiques.",
+          "name": "Chapelet en corde à nœuds fait main avec croix en collier",
+          "description": "Un chapelet en corde à nœuds fait main avec une croix attachée, conçu comme un collier. Disponible en noir uni, rouge, bleu et multicolore. Un article de dévotion pratique pour les acheteurs en gros de cadeaux catholiques.",
           "sku": "ALI-AAE0TG7BAOVioqqEY6ey_co3",
           "image": [
             "https://sc04.alicdn.com/kf/He143ce3b063746ebb80d7c2fed44620d6.jpg",
@@ -43737,10 +43607,10 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Quelles options de couleur sont disponibles pour ce chapelet en corde nouée ?",
+              "name": "Quelles options de couleur sont disponibles pour ce chapelet en corde à nœuds ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Le chapelet est disponible en quatre variantes de couleur : noir, rouge, bleu et multicolore."
+                "text": "Le chapelet est disponible en quatre variantes : noir, rouge, bleu et multicolore."
               }
             },
             {
@@ -43748,7 +43618,7 @@
               "name": "Comment ce chapelet est-il fabriqué ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Il est noué à la main avec des nœuds le long de la corde, avec une croix à l'extrémité, et conçu pour être porté comme un collier."
+                "text": "Il est fait main avec des nœuds le long de la corde, avec une croix à l'extrémité, et est conçu pour être porté en collier."
               }
             },
             {
@@ -43777,9 +43647,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "5fc07a77b45d26ec040ea780c003eca944695b2300e0e31b298529f8bcd02d13",
-            "contentHash": "2a959cb4d90f945e250b0d9df7b93544d0383460ef0da092b657c58e60fde9a8",
+            "contentHash": "3e02fa8022bd87eed64d7aab6e05537c6c98de72a89e7f0265c787842ed9dbcd",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:29:18.897Z",
+            "updatedAt": "2026-08-11T19:42:45.340Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -43793,8 +43663,8 @@
       "slug": "retro-our-lady-of-aparecida-keychain-pendant-eogu1m",
       "title": "Porte-clés pendentif rétro Notre-Dame d'Aparecida",
       "eyebrow": "Porte-clés pendentif marial",
-      "summary": "Ce porte-clés pendentif rétro représente Notre-Dame d'Aparecida dans un style vintage. Fabriqué en alliage métallique, il est disponible en finitions or-bleu ancien ou argent-bleu ancien. Un accessoire marial compact pour les clés, les sacs ou l'affichage.",
-      "description": "Le pendentif capture l'image vénérée de Notre-Dame d'Aparecida avec une esthétique rétro. Sa coloration de style ancien et son relief détaillé en font une pièce distinctive pour ceux qui apprécient l'imagerie mariale traditionnelle. La construction en alliage offre une sensation de robustesse adaptée à une utilisation quotidienne. Choisissez entre la variante or-bleu ancien ou argent-bleu ancien selon vos préférences personnelles. Ce porte-clés fonctionne également comme petit pendentif, offrant une flexibilité dans son utilisation. Sa taille compacte lui permet d'accompagner les clés ou de servir de rappel discret de la foi.",
+      "summary": "Ce porte-clés pendentif rétro représente Notre-Dame d'Aparecida dans un style vintage. Fabriqué en alliage métallique, il est disponible en finitions or-bleu ancien ou argent-bleu ancien. Un accessoire marial compact pour clés, sacs ou présentations.",
+      "description": "Le pendentif capture l'image vénérée de Notre-Dame d'Aparecida avec une esthétique rétro. Sa coloration de style ancien et son relief détaillé en font une pièce distinctive pour ceux qui apprécient l'imagerie mariale traditionnelle. La construction en alliage offre une sensation de robustesse adaptée à un usage quotidien. Choisissez entre la variante or-bleu ancien ou argent-bleu ancien selon vos préférences. Ce porte-clés fonctionne également comme petit pendentif, offrant une flexibilité d'utilisation. Sa taille compacte lui permet d'accompagner des clés ou de servir de discret rappel de la foi.",
       "catholicContext": "Le titre fait référence à Notre-Dame d'Aparecida, une dévotion mariale au Brésil.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -43836,14 +43706,14 @@
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb8984818cd674f17a99fda82d9494810v.webp",
-          "alt": "Porte-clés pendentif rétro Notre-Dame d'Aparecida - argent-bleu ancien",
-          "label": "argent-bleu ancien",
+          "alt": "Porte-clés pendentif rétro Notre-Dame d'Aparecida - ancien-argent-bleu",
+          "label": "ancien-argent-bleu",
           "sku": "ALI-AAHNTG7BAOVioqqEY6eOgu1M-V--2"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc47cbfa23c234639aefbaf6a224a6c41j.webp",
-          "alt": "Porte-clés pendentif rétro Notre-Dame d'Aparecida - or-bleu ancien",
-          "label": "or-bleu ancien",
+          "alt": "Porte-clés pendentif rétro Notre-Dame d'Aparecida - ancien-or-bleu",
+          "label": "ancien-or-bleu",
           "sku": "ALI-AAHNTG7BAOVioqqEY6eOgu1M-V--1"
         }
       ],
@@ -43851,8 +43721,8 @@
       "features": [
         "Représentation rétro de Notre-Dame d'Aparecida",
         "Fabriqué en alliage métallique",
-        "Disponible en variantes or-bleu ancien et argent-bleu ancien",
-        "Double fonction comme porte-clés et pendentif",
+        "Disponible en variantes ancien or-bleu et ancien argent-bleu",
+        "Double fonction : porte-clés et pendentif",
         "Taille compacte pour la portabilité"
       ],
       "specifications": [
@@ -43870,10 +43740,10 @@
         }
       ],
       "applications": [
-        "Fixer aux clés pour un usage quotidien",
-        "Porter comme pendentif sur une chaîne (non inclus)",
+        "Attacher aux clés pour un usage quotidien",
+        "Porter en pendentif sur une chaîne (non incluse)",
         "Accrocher à un sac ou un sac à dos",
-        "Offrir comme petit cadeau pour les dévots de Marie"
+        "Offrir en petit cadeau pour les dévots de Marie"
       ],
       "faq": [
         {
@@ -43886,7 +43756,7 @@
         },
         {
           "question": "Cet article peut-il être utilisé comme pendentif ?",
-          "answer": "Oui, il est conçu pour fonctionner à la fois comme porte-clés et comme pendentif, mais les chaînes ou cordons ne sont pas inclus."
+          "answer": "Oui, il est conçu pour fonctionner à la fois comme porte-clés et comme pendentif, bien que les chaînes ou cordons ne soient pas inclus."
         }
       ],
       "pricing": {
@@ -43903,7 +43773,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Porte-clés pendentif rétro Notre-Dame d'Aparecida",
-          "description": "Ce porte-clés pendentif rétro représente Notre-Dame d'Aparecida dans un style vintage. Fabriqué en alliage métallique, il est disponible en finitions or-bleu ancien ou argent-bleu ancien. Un accessoire marial compact pour les clés, les sacs ou l'affichage.",
+          "description": "Ce porte-clés pendentif rétro représente Notre-Dame d'Aparecida dans un style vintage. Fabriqué en alliage métallique, il est disponible en finitions or-bleu ancien ou argent-bleu ancien. Un accessoire marial compact pour clés, sacs ou présentations.",
           "sku": "ALI-AAHNTG7BAOVioqqEY6eOgu1M",
           "image": [
             "https://sc04.alicdn.com/kf/H3ba377c614f24834b8df6f23b112cb27I.png",
@@ -43969,7 +43839,7 @@
               "name": "Cet article peut-il être utilisé comme pendentif ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Oui, il est conçu pour fonctionner à la fois comme porte-clés et comme pendentif, mais les chaînes ou cordons ne sont pas inclus."
+                "text": "Oui, il est conçu pour fonctionner à la fois comme porte-clés et comme pendentif, bien que les chaînes ou cordons ne soient pas inclus."
               }
             }
           ]
@@ -43990,9 +43860,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "2a74fd6800fb8b84e3047c2c6cc9dde8423f92653a0dafc9a79ab01fe5d0862e",
-            "contentHash": "08edf28846089651c5878cc6dab6afca7142d3e3c081a3a4e1bf8429524bbe45",
+            "contentHash": "be1c74e57642cc497ad8c28ff52a6ed4329aff7746f17308cf466cc269655868",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:29:25.744Z",
+            "updatedAt": "2026-08-11T19:42:52.245Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -44004,10 +43874,10 @@
       "sourceFingerprint": "47ab0982e5291ccb08ebf0c900ce8a19009daa0c865e8d78b50f9d008c2ec4f2",
       "locale": "fr",
       "slug": "antique-silver-cross-pendant-zinc-alloy-ebs-s2",
-      "title": "Pendentif Croix Antique Argent en Alliage de Zinc",
-      "eyebrow": "Pendentif croix antique argent en alliage de zinc",
-      "summary": "Ce pendentif croix antique argent mesure 5,5 x 3,5 cm et est fabriqué en alliage de zinc avec une finition métallique. Disponible en variantes kaki, café et argent, il offre un look vintage pour les projets de bijouterie.",
-      "description": "Ce pendentif croix antique argent est une pièce compacte en alliage de zinc, mesurant 5,5 sur 3,5 centimètres. Le pendentif est disponible en trois variantes de couleur : kaki, café et argent. Sa finition antique lui donne une apparence usée par le temps, adaptée aux designs rustiques ou vintage. En tant que pendentif croix, il peut être utilisé dans une variété d'applications de bijouterie, des colliers à la réparation de chapelets. Pour les acheteurs catholiques, la croix est un symbole central de la foi, et ce pendentif offre un moyen simple de l'incorporer dans des accessoires personnels.",
+      "title": "Pendentif Croix Argent Antique Alliage de Zinc",
+      "eyebrow": "Pendentif croix en alliage de zinc argent antique",
+      "summary": "Ce pendentif croix argent antique mesure 5,5 x 3,5 cm et est en alliage de zinc avec une finition métallique. Disponible en kaki, café et argent, il offre un look vintage pour vos projets de bijouterie.",
+      "description": "Ce pendentif croix argent antique est une pièce compacte en alliage de zinc, mesurant 5,5 sur 3,5 centimètres. Le pendentif est disponible en trois variantes de couleur : kaki, café et argent. Sa finition antique lui donne un aspect patiné adapté aux designs rustiques ou vintage. En tant que pendentif croix, il peut être utilisé dans diverses applications de bijouterie, des colliers à la réparation de chapelets. Pour les acheteurs catholiques, la croix est un symbole central de la foi, et ce pendentif offre un moyen simple de l'intégrer dans des accessoires personnels.",
       "catholicContext": "La croix est un symbole central de la foi catholique, représentant la crucifixion de Jésus-Christ.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -44019,49 +43889,49 @@
       ],
       "sku": "ALI-AAHqTG7BAOVioqqEY6eBS-S2",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H31beaf6c4baa4f0f825549961cdf6895e.webp",
-      "imageAlt": "Pendentif Croix Antique Argent en Alliage de Zinc",
+      "imageAlt": "Pendentif Croix Argent Antique Alliage de Zinc",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H31beaf6c4baa4f0f825549961cdf6895e.webp",
-          "alt": "Pendentif Croix Antique Argent en Alliage de Zinc"
+          "alt": "Pendentif Croix Argent Antique Alliage de Zinc"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H632f80d5b9a94bb9882c999c0f5789d1g.webp",
-          "alt": "Pendentif Croix Antique Argent en Alliage de Zinc"
+          "alt": "Pendentif Croix Argent Antique Alliage de Zinc"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha57eedf80cab4881927f4cb31adcdc04h.webp",
-          "alt": "Pendentif Croix Antique Argent en Alliage de Zinc"
+          "alt": "Pendentif Croix Argent Antique Alliage de Zinc"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H8c16c4fc906244e68d11aa0032cf09aeQ.webp",
-          "alt": "Pendentif Croix Antique Argent en Alliage de Zinc"
+          "alt": "Pendentif Croix Argent Antique Alliage de Zinc"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H0edebc28eca64f00bb696c9ac10f97deU.webp",
-          "alt": "Pendentif Croix Antique Argent en Alliage de Zinc"
+          "alt": "Pendentif Croix Argent Antique Alliage de Zinc"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H747cdab6a1a04f9d8ac3b6bb9e38526bx.webp",
-          "alt": "Pendentif Croix Antique Argent en Alliage de Zinc"
+          "alt": "Pendentif Croix Argent Antique Alliage de Zinc"
         }
       ],
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H26a175528a9b410ab321f9ff10e7b26ch.webp",
-          "alt": "Pendentif Croix Antique Argent en Alliage de Zinc - café",
+          "alt": "Pendentif Croix Argent Antique Alliage de Zinc - café",
           "label": "café",
           "sku": "ALI-AAHqTG7BAOVioqqEY6eBS-S2-V-3778969"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H1a8df394870d4c2f8043e86ad0944a78Y.webp",
-          "alt": "Pendentif Croix Antique Argent en Alliage de Zinc - kaki",
+          "alt": "Pendentif Croix Argent Antique Alliage de Zinc - kaki",
           "label": "kaki",
           "sku": "ALI-AAHqTG7BAOVioqqEY6eBS-S2-V-4384391"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H89dabc0090e44ed788b8d03472c1d84eJ.webp",
-          "alt": "Pendentif Croix Antique Argent en Alliage de Zinc - argent",
+          "alt": "Pendentif Croix Argent Antique Alliage de Zinc - argent",
           "label": "argent",
           "sku": "ALI-AAHqTG7BAOVioqqEY6eBS-S2-V-3460547"
         }
@@ -44085,7 +43955,7 @@
         },
         {
           "name": "Couleurs variantes",
-          "value": "Kaki, Café, Argent"
+          "value": "Kaki, café, argent"
         },
         {
           "name": "Design",
@@ -44093,15 +43963,15 @@
         }
       ],
       "applications": [
-        "Pendentif de collier",
-        "Charms de bracelet",
+        "Pendentif pour collier",
+        "Charms pour bracelet",
         "Composant de chapelet",
         "Fabrication de bijoux artisanaux"
       ],
       "faq": [
         {
           "question": "Quelles sont les variantes de couleur disponibles pour ce pendentif croix ?",
-          "answer": "Le pendentif est disponible en trois variantes : kaki, café et argent."
+          "answer": "Le pendentif existe en trois variantes : kaki, café et argent."
         },
         {
           "question": "Quel est le matériau de ce pendentif croix ?",
@@ -44109,7 +43979,7 @@
         },
         {
           "question": "Quelles sont les dimensions de ce pendentif croix ?",
-          "answer": "Le pendentif mesure 5,5 sur 3,5 centimètres."
+          "answer": "Le pendentif mesure 5,5 par 3,5 centimètres."
         }
       ],
       "pricing": {
@@ -44125,8 +43995,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Pendentif Croix Antique Argent en Alliage de Zinc",
-          "description": "Ce pendentif croix antique argent mesure 5,5 x 3,5 cm et est fabriqué en alliage de zinc avec une finition métallique. Disponible en variantes kaki, café et argent, il offre un look vintage pour les projets de bijouterie.",
+          "name": "Pendentif Croix Argent Antique Alliage de Zinc",
+          "description": "Ce pendentif croix argent antique mesure 5,5 x 3,5 cm et est en alliage de zinc avec une finition métallique. Disponible en kaki, café et argent, il offre un look vintage pour vos projets de bijouterie.",
           "sku": "ALI-AAHqTG7BAOVioqqEY6eBS-S2",
           "image": [
             "https://sc04.alicdn.com/kf/H31beaf6c4baa4f0f825549961cdf6895e.jpg",
@@ -44151,7 +44021,7 @@
             {
               "@type": "PropertyValue",
               "name": "Couleurs variantes",
-              "value": "Kaki, Café, Argent"
+              "value": "Kaki, café, argent"
             },
             {
               "@type": "PropertyValue",
@@ -44181,7 +44051,7 @@
               "name": "Quelles sont les variantes de couleur disponibles pour ce pendentif croix ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Le pendentif est disponible en trois variantes : kaki, café et argent."
+                "text": "Le pendentif existe en trois variantes : kaki, café et argent."
               }
             },
             {
@@ -44197,7 +44067,7 @@
               "name": "Quelles sont les dimensions de ce pendentif croix ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Le pendentif mesure 5,5 sur 3,5 centimètres."
+                "text": "Le pendentif mesure 5,5 par 3,5 centimètres."
               }
             }
           ]
@@ -44218,9 +44088,9 @@
           "fr": {
             "status": "ready",
             "sourceHash": "7e818315588e2f85fe8e8d9c9e29b158bf1f29e3aa7e53c0928acc4a8ec84d2f",
-            "contentHash": "6137ef356958af5595baae3494c2fd00a047e831fd88dfc7122cca8ab0a7e9b0",
+            "contentHash": "5e05a0249d2f511255971bf5d7d44817b441d0240ba8c667d55e1b31389c906b",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:29:31.910Z",
+            "updatedAt": "2026-08-11T19:42:57.713Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -44234,8 +44104,8 @@
       "slug": "oval-vintage-rosary-pendant-necklace-in-silver-ee6hme",
       "title": "Collier pendentif chapelet vintage ovale en argent",
       "eyebrow": "collier pendentif chapelet vintage ovale",
-      "summary": "Un pendentif chapelet vintage ovale avec un design de levage, disponible en couleur acier ou en argent. Ce pendentif en métal convient aux collections de bijoux de dévotion et aux présentoirs de vente au détail, offrant un look classique pour un usage quotidien.",
-      "description": "La silhouette ovale du pendentif est un clin d'œil subtil aux styles de chapelet vintage, rendue dans une finition métallique qui convient aux commandes en gros et au détail. Son design de levage est simple et fonctionnel, ce qui en fait un choix facile pour un port quotidien ou un emballage cadeau.\n\nChoisissez entre la couleur acier et l'argent pour correspondre à différents thèmes de présentation ou préférences des clients. En tant que pendentif en métal, il est léger et durable, adapté à une manipulation répétée en boutique. Nous pouvons fournir plus de détails sur les tailles et la disponibilité en gros sur demande.",
+      "summary": "Un pendentif de chapelet vintage ovale avec un design de levage, disponible en couleur acier ou en argent. Ce pendentif en métal convient aux collections de bijoux de dévotion et aux présentoirs de vente au détail, offrant un look classique pour un usage quotidien.",
+      "description": "La silhouette ovale du pendentif est un clin d'œil subtil aux styles de chapelet vintage, rendue dans une finition en métal qui convient aussi bien aux commandes en gros qu'au détail. Son design de levage est simple et fonctionnel, ce qui en fait un choix facile pour un usage quotidien ou un emballage cadeau.\n\nChoisissez entre la couleur acier et l'argent pour correspondre à différents thèmes de présentation ou préférences des clients. En tant que pendentif en métal, il est léger et durable, adapté à une manipulation répétée en magasin. Nous pouvons fournir plus de détails sur les tailles et la disponibilité en gros sur demande.",
       "catholicContext": "Le chapelet est une prière catholique centrée sur la contemplation des événements de la vie de Jésus-Christ et de la Vierge Marie.",
       "catholicRelevance": "devotional_context",
       "categories": [
@@ -44307,7 +44177,7 @@
         },
         {
           "name": "Variantes disponibles",
-          "value": "Couleur acier, argent"
+          "value": "Couleur acier, Argent"
         },
         {
           "name": "Type de produit",
@@ -44323,15 +44193,15 @@
       "faq": [
         {
           "question": "Quelles variantes sont disponibles pour ce pendentif chapelet ?",
-          "answer": "Ce pendentif est disponible en finition couleur acier et argent."
+          "answer": "Ce pendentif est disponible en finition couleur acier et en argent."
         },
         {
           "question": "Ce pendentif est-il adapté aux commandes en gros ?",
-          "answer": "Oui, le produit est proposé en gros et au détail, il peut donc être commandé en quantité pour l'inventaire du magasin."
+          "answer": "Oui, le produit est répertorié comme étant en gros et au détail, il peut donc être commandé en quantité pour l'inventaire du magasin."
         },
         {
           "question": "Quel est le style de design de ce pendentif ?",
-          "answer": "Il a un design de chapelet vintage ovale avec une fonction de levage, ce qui le rend facile à attacher à un collier ou à une chaîne."
+          "answer": "Il a un design de chapelet vintage ovale avec une fonction de levage, ce qui permet de l'attacher facilement à un collier ou à une chaîne."
         }
       ],
       "pricing": {
@@ -44348,7 +44218,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Collier pendentif chapelet vintage ovale en argent",
-          "description": "Un pendentif chapelet vintage ovale avec un design de levage, disponible en couleur acier ou en argent. Ce pendentif en métal convient aux collections de bijoux de dévotion et aux présentoirs de vente au détail, offrant un look classique pour un usage quotidien.",
+          "description": "Un pendentif de chapelet vintage ovale avec un design de levage, disponible en couleur acier ou en argent. Ce pendentif en métal convient aux collections de bijoux de dévotion et aux présentoirs de vente au détail, offrant un look classique pour un usage quotidien.",
           "sku": "ALI-AAG9TG7BAOVioqqEY6ee6hMe",
           "image": [
             "https://sc04.alicdn.com/kf/H6f156e6354de46739958962c9b15756b0.jpg",
@@ -44373,7 +44243,7 @@
             {
               "@type": "PropertyValue",
               "name": "Variantes disponibles",
-              "value": "Couleur acier, argent"
+              "value": "Couleur acier, Argent"
             },
             {
               "@type": "PropertyValue",
@@ -44403,7 +44273,7 @@
               "name": "Quelles variantes sont disponibles pour ce pendentif chapelet ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ce pendentif est disponible en finition couleur acier et argent."
+                "text": "Ce pendentif est disponible en finition couleur acier et en argent."
               }
             },
             {
@@ -44411,7 +44281,7 @@
               "name": "Ce pendentif est-il adapté aux commandes en gros ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Oui, le produit est proposé en gros et au détail, il peut donc être commandé en quantité pour l'inventaire du magasin."
+                "text": "Oui, le produit est répertorié comme étant en gros et au détail, il peut donc être commandé en quantité pour l'inventaire du magasin."
               }
             },
             {
@@ -44419,7 +44289,7 @@
               "name": "Quel est le style de design de ce pendentif ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Il a un design de chapelet vintage ovale avec une fonction de levage, ce qui le rend facile à attacher à un collier ou à une chaîne."
+                "text": "Il a un design de chapelet vintage ovale avec une fonction de levage, ce qui permet de l'attacher facilement à un collier ou à une chaîne."
               }
             }
           ]
@@ -44440,9 +44310,147 @@
           "fr": {
             "status": "ready",
             "sourceHash": "ef243a4d94b56a01d13ae8955cb14647b2432f95ef4c96e411d55d914dcc6024",
-            "contentHash": "ce43455a0d1e6640a50f38157c439d547e136aa80a4db931cf6407688082fd30",
+            "contentHash": "864cd1f20706cefe973f90fe84b1a55103c4f935fef60f8b2949ad2d35ef9717",
             "attempts": 1,
-            "updatedAt": "2026-08-11T19:29:38.253Z",
+            "updatedAt": "2026-08-11T19:43:04.263Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAF5TG7BAOVioqqEY6e5ckII",
+      "sourceId": "AAF5TG7BAOVioqqEY6e5ckII",
+      "sourceFingerprint": "829884f1e81cff77a8f6b0a95d5fa9f0c8266b92441f973ac8a5cd6d55330bcd",
+      "locale": "fr",
+      "slug": "car-bag-keychain-pendant-necklace-jewelry-epoxy-resin-zinc-alloy-e5ckii",
+      "title": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc",
+      "eyebrow": "Porte-clés",
+      "summary": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc Figure Chris Petit Accessoires",
+      "description": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc Figure Chris Petit Accessoires",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "83",
+          "name": "Porte-clés",
+          "slug": "keychains"
+        }
+      ],
+      "sku": "ALI-AAF5TG7BAOVioqqEY6e5ckII",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H9abe3395dd6148758b9c32817cbd6c06r.webp",
+      "imageAlt": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9abe3395dd6148758b9c32817cbd6c06r.webp",
+          "alt": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H72f5b31ebc2e45cab791760913877448U.webp",
+          "alt": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1bad7693dbc64290ae58096dbbaa665cV.webp",
+          "alt": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hea2ebd4758f14761aa81a4dbc2b696e9M.webp",
+          "alt": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hce521f2cf2464a879e6f3457995b0bf6t.webp",
+          "alt": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H36e20b197eb74437b6cb4ba29945396f6.webp",
+          "alt": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc - argent-2",
+          "label": "argent-2",
+          "sku": "ALI-AAF5TG7BAOVioqqEY6e5ckII-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H96b66f387c984708ace75d8c525eb2ebq.webp",
+          "alt": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc - argent-1",
+          "label": "argent-1",
+          "sku": "ALI-AAF5TG7BAOVioqqEY6e5ckII-V--4"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Variante : Argent-1, Argent-2"
+      ],
+      "specifications": [
+        {
+          "name": "Variante",
+          "value": "Argent-1, Argent-2"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.32",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.26",
+          "max": "0.32"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc",
+          "description": "Porte-clés Voiture Sac Pendentif Collier Bijou Résine Époxy Alliage de Zinc Figure Chris Petit Accessoires",
+          "sku": "ALI-AAF5TG7BAOVioqqEY6e5ckII",
+          "image": [
+            "https://sc04.alicdn.com/kf/H9abe3395dd6148758b9c32817cbd6c06r.png",
+            "https://sc04.alicdn.com/kf/H72f5b31ebc2e45cab791760913877448U.png",
+            "https://sc04.alicdn.com/kf/H1bad7693dbc64290ae58096dbbaa665cV.png",
+            "https://sc04.alicdn.com/kf/Hea2ebd4758f14761aa81a4dbc2b696e9M.png",
+            "https://sc04.alicdn.com/kf/Hce521f2cf2464a879e6f3457995b0bf6t.png"
+          ],
+          "category": "Porte-clés",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Argent-1, Argent-2"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.32",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.26",
+              "maxPrice": "0.32",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "079e9593f6a7412b09a44fecb7aca3436ba4845a6268a7090749e6b4c25fa24d",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "079e9593f6a7412b09a44fecb7aca3436ba4845a6268a7090749e6b4c25fa24d",
+            "contentHash": "079e9593f6a7412b09a44fecb7aca3436ba4845a6268a7090749e6b4c25fa24d",
+            "attempts": 0,
+            "updatedAt": "2026-08-11T19:19:32.722Z",
+            "model": "deepseek-v4-flash"
+          },
+          "fr": {
+            "status": "ready",
+            "sourceHash": "079e9593f6a7412b09a44fecb7aca3436ba4845a6268a7090749e6b4c25fa24d",
+            "contentHash": "5ffc5d9e6abf409c18125cf4a209a0bd04e21b64c322e10b32f3508f195a1bea",
+            "attempts": 1,
+            "updatedAt": "2026-08-11T19:43:07.337Z",
             "model": "deepseek-v4-flash"
           }
         }

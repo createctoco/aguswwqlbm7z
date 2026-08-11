@@ -115,5 +115,11 @@ jobs:
         # explicitly so the freshly translated localized catalogs go live.
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow run "Deploy Cloudflare hybrid catalog" --repo "${{ github.repository }}" --ref main
+        shell: bash
+        run: |
+          # Dispatch against the exact commit we just pushed so the deploy
+          # builds the freshly translated catalogs (avoids a ref-propagation race).
+          SHA="$(git rev-parse HEAD)"
+          echo "Dispatching production deployment for $SHA"
+          gh workflow run "Deploy Cloudflare hybrid catalog" --repo "${{ github.repository }}" --ref "$SHA"
 

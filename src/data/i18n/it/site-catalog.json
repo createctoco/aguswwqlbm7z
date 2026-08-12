@@ -2,23 +2,23 @@
   "schemaVersion": 3,
   "locale": "it",
   "sourceLocale": "en",
-  "sourceCatalogHash": "7fc71d4200478c2ea45c3fb91b75834014ca8f61f1502d5d5a27cac98744b4f3",
-  "generatedAt": "2026-08-11T20:03:55.698Z",
+  "sourceCatalogHash": "1978dd147ace13dced7f82d0593871b372a0146e5a4dee036d699ac7c58265c9",
+  "generatedAt": "2026-08-12T04:15:41.490Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAERTG7BAOVioqqEY6egZjxL",
-      "AAFHTG7BAOVioqqEY6ejc0fm",
-      "AAHZTG7BAOVioqqEY6eBTcXC",
-      "AAGTTG7BAOVioqqEY6eDAwv-",
-      "AAELTG7BAOVioqqEY6eBRDYM",
-      "AAE0TG7BAOVioqqEY6ey_co3",
-      "AAHNTG7BAOVioqqEY6eOgu1M",
-      "AAHqTG7BAOVioqqEY6eBS-S2",
-      "AAG9TG7BAOVioqqEY6ee6hMe",
-      "AAF5TG7BAOVioqqEY6e5ckII"
+      "AAE1TG7BAOVioqqEY6erJUkY",
+      "AAESTG7BAOVioqqEY6ePmyw4",
+      "AAGRTG7BAOVioqqEY6eBTPzE",
+      "AAHVTG7BAOVioqqEY6eBT7FQ",
+      "AAEoTG7BAOVioqqEY6eBSGjz",
+      "AAFwTG7BAOVioqqEY6eBUaR2",
+      "AAHITG7BAOVioqqEY6eBTW-H",
+      "AAGETG7BAOVioqqEY6eC0sLq",
+      "AAFBTG7BAOVioqqEY6eBSfd8",
+      "AAGrTG7BAOVioqqEY6eBTc0M"
     ],
     "deletedProductIds": []
   },
@@ -36,14 +36,26 @@
   },
   "categoryGlossarySourceHash": "fbac66204ed2143d0eb559de90b360cba332f2af95f5eb37f458536910f477f2",
   "translationSummary": {
-    "ready": 199,
+    "ready": 209,
     "skipped": 1,
     "skippedProductIds": [
       "AAGxTG7BAOVioqqEY6e7uzWC"
     ],
-    "reused": 199,
-    "generated": 0,
-    "generatedProductIds": [],
+    "reused": 198,
+    "generated": 11,
+    "generatedProductIds": [
+      "AAGTTG7BAOVioqqEY6eDAwv-",
+      "AAE1TG7BAOVioqqEY6erJUkY",
+      "AAESTG7BAOVioqqEY6ePmyw4",
+      "AAGRTG7BAOVioqqEY6eBTPzE",
+      "AAHVTG7BAOVioqqEY6eBT7FQ",
+      "AAEoTG7BAOVioqqEY6eBSGjz",
+      "AAFwTG7BAOVioqqEY6eBUaR2",
+      "AAHITG7BAOVioqqEY6eBTW-H",
+      "AAGETG7BAOVioqqEY6eC0sLq",
+      "AAGrTG7BAOVioqqEY6eBTc0M",
+      "AAFBTG7BAOVioqqEY6eBSfd8"
+    ],
     "retriedBacklog": 1,
     "glossaryReused": true
   },
@@ -42975,11 +42987,11 @@
       "sourceFingerprint": "f1c5ac0451904d3f188cd0dde7ea146fd4c0ebb39bdbcdde253a8c2224c27e66",
       "locale": "it",
       "slug": "saint-benedict-cross-keychain-with-crucifix-medal-edawv-",
-      "title": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso",
-      "eyebrow": "Portachiavi con croce di San Benedetto",
-      "summary": "Un portachiavi in metallo con croce di San Benedetto, medaglia del crocifisso e charm di Gerusalemme. Scegli tra Oro + Argento Antico o Argento + Oro Antico. Design con anello resistente per l'uso quotidiano.",
-      "description": "Questo portachiavi abbina una croce di San Benedetto a una medaglia del crocifisso e un charm di Gerusalemme, rendendolo un accessorio distintivo per chiavi, borse o zaini. La costruzione in metallo e il design ad anello sono adatti all'uso quotidiano.\n\nDisponibile in due varianti di colore: Oro + Argento Antico e Argento + Oro Antico. Ideale per uso personale o come regalo pratico per chi apprezza i simboli religiosi.",
-      "catholicContext": "San Benedetto è un santo ampiamente venerato nella Chiesa Cattolica, noto per la medaglia di San Benedetto, che è un popolare oggetto di devozione.",
+      "title": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso",
+      "eyebrow": "Portachiavi croce di San Benedetto",
+      "summary": "Un portachiavi in metallo con croce di San Benedetto, medaglia crocifisso e charm di Gerusalemme. Scegli tra Oro + Argento Antico o Argento + Oro Vecchio. Design resistente con anello portachiavi per l'uso quotidiano.",
+      "description": "Questo portachiavi combina una croce di San Benedetto con una medaglia crocifisso e un charm di Gerusalemme, rendendolo un accessorio distintivo per chiavi, borse o zaino. La costruzione in metallo e il design con anello portachiavi sono adatti all'uso quotidiano.\n\nDisponibile in due abbinamenti di colori: Oro + Argento Antico e Argento + Oro Vecchio. Ideale per uso personale o come regalo pratico per chi apprezza i simboli religiosi.",
+      "catholicContext": "San Benedetto è un santo ampiamente venerato nella Chiesa Cattolica, noto per la medaglia di San Benedetto, che è un popolare oggetto devozionale.",
       "catholicRelevance": "devotional_context",
       "categories": [
         {
@@ -42990,53 +43002,53 @@
       ],
       "sku": "ALI-AAGTTG7BAOVioqqEY6eDAwv-",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H9f04bdf0f0b84b3d993cac816a5120ccm.webp",
-      "imageAlt": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso",
+      "imageAlt": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H9f04bdf0f0b84b3d993cac816a5120ccm.webp",
-          "alt": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso"
+          "alt": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H43cc0fa7256242a592331f8e77e20514R.webp",
-          "alt": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso"
+          "alt": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H647bb6e218494c0f98ad9f11de12946es.webp",
-          "alt": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso"
+          "alt": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H5930bbcd604949349b1f07d866d25b574.webp",
-          "alt": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso"
+          "alt": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb04ee99d125243a08d1992ea95bc7a70a.webp",
-          "alt": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso"
+          "alt": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f58cb6d72c64923919e8625bc8f7cecC.webp",
-          "alt": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso"
+          "alt": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso"
         }
       ],
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H91da7af5f6bd413392063526710b23f4t.webp",
-          "alt": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso - oro-argento-antico",
-          "label": "oro-argento-antico",
+          "alt": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso - oro-argento-antico",
+          "label": "gold-ancient-silver",
           "sku": "ALI-AAGTTG7BAOVioqqEY6eDAwv--V--1"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H76e884f391ca452daf91303c4500efd29.webp",
-          "alt": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso - argento-oro-antico",
-          "label": "argento-oro-antico",
+          "alt": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso - argento-oro-vecchio",
+          "label": "silver-old-gold",
           "sku": "ALI-AAGTTG7BAOVioqqEY6eDAwv--V--2"
         }
       ],
       "accent": "#6f7c72",
       "features": [
         "Costruzione in metallo per durabilità",
-        "Include croce di San Benedetto, medaglia del crocifisso e charm di Gerusalemme",
-        "Disponibile in due varianti di colore: Oro + Argento Antico, Argento + Oro Antico",
-        "Stile portachiavi per aggancio a chiavi, borse o zaini"
+        "Include croce di San Benedetto, medaglia crocifisso e charm di Gerusalemme",
+        "Disponibile in due varianti di colore: Oro + Argento Antico, Argento + Oro Vecchio",
+        "Stile portachiavi per agganciare a chiavi, borse o zaini"
       ],
       "specifications": [
         {
@@ -43045,7 +43057,7 @@
         },
         {
           "name": "Varianti di colore",
-          "value": "Oro + Argento Antico; Argento + Oro Antico"
+          "value": "Oro + Argento Antico; Argento + Oro Vecchio"
         },
         {
           "name": "Categoria",
@@ -43054,22 +43066,22 @@
       ],
       "applications": [
         "Portachiavi quotidiano per chiavi personali",
-        "Aggancio a borsa o zaino",
+        "Agganciare a una borsa o zaino",
         "Piccolo regalo per occasioni religiose",
         "Oggetto da collezione per la devozione a San Benedetto"
       ],
       "faq": [
         {
           "question": "Quali opzioni di colore sono disponibili per questo portachiavi?",
-          "answer": "Il portachiavi è disponibile in due varianti: Oro + Argento Antico e Argento + Oro Antico."
+          "answer": "Il portachiavi è disponibile in due varianti: Oro + Argento Antico e Argento + Oro Vecchio."
         },
         {
           "question": "Questo portachiavi è un crocifisso o una croce?",
-          "answer": "Il portachiavi include sia una croce di San Benedetto che una medaglia del crocifisso, che raffigura Cristo sulla croce."
+          "answer": "Il portachiavi include sia una croce di San Benedetto che una medaglia crocifisso, che raffigura Cristo sulla croce."
         },
         {
-          "question": "Di quale materiale è fatto il portachiavi?",
-          "answer": "Il portachiavi è fatto di metallo, offrendo una costruzione durevole per l'uso quotidiano."
+          "question": "Di che materiale è fatto il portachiavi?",
+          "answer": "Il portachiavi è fatto di metallo, garantendo una costruzione durevole per l'uso quotidiano."
         }
       ],
       "pricing": {
@@ -43085,8 +43097,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Portachiavi Croce di San Benedetto con Medaglia del Crocifisso",
-          "description": "Un portachiavi in metallo con croce di San Benedetto, medaglia del crocifisso e charm di Gerusalemme. Scegli tra Oro + Argento Antico o Argento + Oro Antico. Design con anello resistente per l'uso quotidiano.",
+          "name": "Portachiavi Croce di San Benedetto con Medaglia Crocifisso",
+          "description": "Un portachiavi in metallo con croce di San Benedetto, medaglia crocifisso e charm di Gerusalemme. Scegli tra Oro + Argento Antico o Argento + Oro Vecchio. Design resistente con anello portachiavi per l'uso quotidiano.",
           "sku": "ALI-AAGTTG7BAOVioqqEY6eDAwv-",
           "image": [
             "https://sc04.alicdn.com/kf/H9f04bdf0f0b84b3d993cac816a5120ccm.jpg",
@@ -43106,7 +43118,7 @@
             {
               "@type": "PropertyValue",
               "name": "Varianti di colore",
-              "value": "Oro + Argento Antico; Argento + Oro Antico"
+              "value": "Oro + Argento Antico; Argento + Oro Vecchio"
             },
             {
               "@type": "PropertyValue",
@@ -43136,7 +43148,7 @@
               "name": "Quali opzioni di colore sono disponibili per questo portachiavi?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Il portachiavi è disponibile in due varianti: Oro + Argento Antico e Argento + Oro Antico."
+                "text": "Il portachiavi è disponibile in due varianti: Oro + Argento Antico e Argento + Oro Vecchio."
               }
             },
             {
@@ -43144,15 +43156,15 @@
               "name": "Questo portachiavi è un crocifisso o una croce?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Il portachiavi include sia una croce di San Benedetto che una medaglia del crocifisso, che raffigura Cristo sulla croce."
+                "text": "Il portachiavi include sia una croce di San Benedetto che una medaglia crocifisso, che raffigura Cristo sulla croce."
               }
             },
             {
               "@type": "Question",
-              "name": "Di quale materiale è fatto il portachiavi?",
+              "name": "Di che materiale è fatto il portachiavi?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Il portachiavi è fatto di metallo, offrendo una costruzione durevole per l'uso quotidiano."
+                "text": "Il portachiavi è fatto di metallo, garantendo una costruzione durevole per l'uso quotidiano."
               }
             }
           ]
@@ -43160,22 +43172,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "0d43ca3f88867dab458b5f0ee24baf8bf7002c204687789b9ee50d9360709cdc",
+        "sourceHash": "cb02f390a800ed4c80e179c4f6b0c2af6a779eb3cad5b2cba123133e081fb22d",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "0d43ca3f88867dab458b5f0ee24baf8bf7002c204687789b9ee50d9360709cdc",
-            "contentHash": "0d43ca3f88867dab458b5f0ee24baf8bf7002c204687789b9ee50d9360709cdc",
+            "sourceHash": "cb02f390a800ed4c80e179c4f6b0c2af6a779eb3cad5b2cba123133e081fb22d",
+            "contentHash": "cb02f390a800ed4c80e179c4f6b0c2af6a779eb3cad5b2cba123133e081fb22d",
             "attempts": 0,
             "updatedAt": "2026-08-11T19:18:45.939Z",
             "model": "deepseek-v4-flash"
           },
           "it": {
             "status": "ready",
-            "sourceHash": "0d43ca3f88867dab458b5f0ee24baf8bf7002c204687789b9ee50d9360709cdc",
-            "contentHash": "3d8a3273281b644bf76f7d3602114f2ee9460ca958d3205ecaa992dba88d90c7",
-            "attempts": 3,
-            "updatedAt": "2026-08-11T19:42:47.859Z",
+            "sourceHash": "cb02f390a800ed4c80e179c4f6b0c2af6a779eb3cad5b2cba123133e081fb22d",
+            "contentHash": "2a16912e82484be05b3f7779727ca0d88d4735a7d4eccb26639a3a37a3a92f1c",
+            "attempts": 1,
+            "updatedAt": "2026-08-12T04:14:17.115Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -44437,6 +44449,2169 @@
             "contentHash": "b532e6216fd6b8ca24585b4c6ecb700153b8cbd414374900abc254d556700ed7",
             "attempts": 1,
             "updatedAt": "2026-08-11T19:43:27.076Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE1TG7BAOVioqqEY6erJUkY",
+      "sourceId": "AAE1TG7BAOVioqqEY6erJUkY",
+      "sourceFingerprint": "613e19fec8fb42094cc1f9de333a6beb660653bdbbf739769de75f5481e2087b",
+      "locale": "it",
+      "slug": "wholesale-zinc-alloy-rhinestone-pendant-charm-bracelet-sweet-erjuky",
+      "title": "Bracciale al Rosario con Ciondolo e Pendente in Lega di Zinco con Cristalli",
+      "eyebrow": "Bracciali del rosario",
+      "summary": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, motivo dolce cuore con croce e corona, accessori di gioielleria",
+      "description": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, motivo dolce cuore con croce e corona, accessori di gioielleria",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Bracciali del rosario",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Hf1b6066d5d9e4fdaba80afa69751ba81y.webp",
+      "imageAlt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf1b6066d5d9e4fdaba80afa69751ba81y.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H84ea562e36064d589216a1479522c759N.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7c1d4a9a33a34215b96c8ca8ffb10ff5s.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H486a318531ff4cfbb9b17dcbe344e2d1B.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7588c3a2750642dfb3fbfd852ca9fa255.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H221fdff9f8e24593a0573a9c8c2b1967B.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H50deb52ad174421889070fdce9b5aeb7P.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato oro NC20-7",
+          "label": "gold-plated-nc20-7",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0e89f3469b7f41b49a5fbf562c11a28fl.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato oro NC20-8",
+          "label": "gold-plated-nc20-8",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5b6eb38841e641f1825704bda36dfce0e.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato oro NC20-9",
+          "label": "gold-plated-nc20-9",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H292d3c786e1743799b82a2a5cd547f5a1.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato oro NAA05-5",
+          "label": "gold-plated-naa05-5",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H69502711eb6f48eaa89f18f1b504b71dx.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato platino NAC11-2",
+          "label": "platinum-plated-nac11-2",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H19e8e2d96aee4bc0921b7ad469f7c8f2T.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato platino NAC11-4",
+          "label": "platinum-plated-nac11-4",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb2ac90ae9bbb4a6c951236e2bc241255r.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato platino NAC11-8",
+          "label": "platinum-plated-nac11-8",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H840c3312f8c34f6188eec6296e8ec0c2n.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato oro rosa NAC11-10",
+          "label": "gold-plated-pink-nac11-10",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd63b51de1102412ebadb301c28d1cba1T.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato oro rosa NAC12-2",
+          "label": "gold-plated-pink-nac12-2",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0c223105963e4e738b2189056226301aA.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato oro rosa NAC12-4",
+          "label": "gold-plated-pink-nac12-4",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc202e9e57e034a09a05ddd6eb39a59f6R.webp",
+          "alt": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, dolce cuore e corona - placcato oro rosa NAC12-6",
+          "label": "gold-plated-pink-nac12-6",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY-V--11"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Variante: placcato oro NAA05-5, placcato oro NC20-7, placcato oro NC20-8, placcato oro NC20-9, placcato oro rosa NAC11-10, placcato oro rosa NAC12-2, placcato oro rosa NAC12-4, placcato oro rosa NAC12-6, placcato platino NAC11-2, placcato platino NAC11-4, placcato platino NAC11-8"
+      ],
+      "specifications": [
+        {
+          "name": "Variante",
+          "value": "Placcato oro NAA05-5, placcato oro NC20-7, placcato oro NC20-8, placcato oro NC20-9, placcato oro rosa NAC11-10, placcato oro rosa NAC12-2, placcato oro rosa NAC12-4, placcato oro rosa NAC12-6, placcato platino NAC11-2, placcato platino NAC11-4, placcato platino NAC11-8"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.32",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.32",
+          "max": "1.82"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Bracciale al Rosario con Ciondolo e Pendente in Lega di Zinco con Cristalli",
+          "description": "Bracciale all'ingrosso in lega di zinco con ciondoli e cristalli, motivo dolce cuore con croce e corona, accessori di gioielleria",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6erJUkY",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf1b6066d5d9e4fdaba80afa69751ba81y.jpg",
+            "https://sc04.alicdn.com/kf/H84ea562e36064d589216a1479522c759N.jpg",
+            "https://sc04.alicdn.com/kf/H7c1d4a9a33a34215b96c8ca8ffb10ff5s.jpg",
+            "https://sc04.alicdn.com/kf/H486a318531ff4cfbb9b17dcbe344e2d1B.jpg",
+            "https://sc04.alicdn.com/kf/H7588c3a2750642dfb3fbfd852ca9fa255.jpg",
+            "https://sc04.alicdn.com/kf/H221fdff9f8e24593a0573a9c8c2b1967B.jpg"
+          ],
+          "category": "Bracciali del rosario",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Placcato oro NAA05-5, placcato oro NC20-7, placcato oro NC20-8, placcato oro NC20-9, placcato oro rosa NAC11-10, placcato oro rosa NAC12-2, placcato oro rosa NAC12-4, placcato oro rosa NAC12-6, placcato platino NAC11-2, placcato platino NAC11-4, placcato platino NAC11-8"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.32",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.32",
+              "maxPrice": "1.82",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "4facc10253a33e6f744f42a3b15e1b20b09158bc48133ba8ec194a183b149afb",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "4facc10253a33e6f744f42a3b15e1b20b09158bc48133ba8ec194a183b149afb",
+            "contentHash": "4facc10253a33e6f744f42a3b15e1b20b09158bc48133ba8ec194a183b149afb",
+            "attempts": 0,
+            "updatedAt": "2026-08-12T04:12:02.086Z",
+            "model": "deepseek-v4-flash"
+          },
+          "it": {
+            "status": "ready",
+            "sourceHash": "4facc10253a33e6f744f42a3b15e1b20b09158bc48133ba8ec194a183b149afb",
+            "contentHash": "c67c98299acd42e7fba6cff33db07f4400e88883dda8e0108c869b56f8f1dad7",
+            "attempts": 1,
+            "updatedAt": "2026-08-12T04:14:23.534Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAESTG7BAOVioqqEY6ePmyw4",
+      "sourceId": "AAESTG7BAOVioqqEY6ePmyw4",
+      "sourceFingerprint": "2d4c8dded3f66b1c9b5a372cf79e043868c3a91a3f57bb3831c95aaddab380ce",
+      "locale": "it",
+      "slug": "colorful-pearl-rosary-cross-bracelet-epmyw4",
+      "title": "Bracciale Rosario con Croce e Perle Colorate",
+      "eyebrow": "Bracciale del rosario",
+      "summary": "Questo bracciale del rosario artigianale abbina una croce in lega di zinco a perle colorate, disponibile in sette varianti di colore. Un semplice accessorio religioso per l'uso quotidiano, con un design che riflette gli elementi tradizionali del rosario.",
+      "description": "Realizzato con una croce in lega di zinco e perle colorate, questo bracciale è fatto a mano ed è disponibile in sette varianti di colore: blu e bianco, verde e bianco, rosa chiaro, viola e bianco, bianco, rosa e blu. Il design è classificato come religioso, rendendolo adatto a chi indossa gioielli devozionali.\n\nCome bracciale del rosario, riecheggia la struttura di un rosario tradizionale, che i cattolici usano per la preghiera incentrata sulla vita di Gesù e Maria. Questo pezzo si concentra sulla croce e sulle perle piuttosto che su un set completo di rosario, offrendo un'opzione compatta per l'uso quotidiano.\n\nProcuriamo questo articolo da fornitori che forniscono accessori religiosi fatti a mano e possiamo condividere ulteriori dettagli su disponibilità e ordinazione su richiesta.",
+      "catholicContext": "Il Rosario è una preghiera cattolica incentrata sulla contemplazione degli eventi della vita di Gesù Cristo e della Vergine Maria.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Bracciali del rosario",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAESTG7BAOVioqqEY6ePmyw4",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H24185f3b55154033841d454b2963272bs.webp",
+      "imageAlt": "Bracciale Rosario con Croce e Perle Colorate",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H24185f3b55154033841d454b2963272bs.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcf944915b9c24db2a8a22a5ca7b57eb7W.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3297f7f708714f23aeed6b52dc005b058.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1ac9d23a83ab4f75b286b96ce0d13be4q.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc508d94caffb40fea3f1128b408a6ee28.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc2cbe6befdca4ee9beea0d0904d1563ca.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7f69469cf60242749f2154773c040944D.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate - blu",
+          "label": "blu",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ePmyw4-V-123085"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf434ad83ceac4e5ba0d2332cb958813eo.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate - bianco",
+          "label": "bianco",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ePmyw4-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc9766e5e6f4c4440b5813df0041d08b0n.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate - rosa",
+          "label": "rosa",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ePmyw4-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf871f04ee22741ad857c1a89626dd2656.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate - rosa chiaro",
+          "label": "rosa chiaro",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ePmyw4-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha437ed9285fd48bb97049b89bad7390bA.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate - blu e bianco",
+          "label": "blu e bianco",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ePmyw4-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H145257abeb8c48c287283a5f0071d1d2z.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate - verde e bianco",
+          "label": "verde e bianco",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ePmyw4-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc523bb37b9a7401b9bb500350f212024c.webp",
+          "alt": "Bracciale Rosario con Croce e Perle Colorate - viola e bianco",
+          "label": "viola e bianco",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ePmyw4-V--3"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Lavorazione artigianale con perline",
+        "Croce centrale in lega di zinco",
+        "Perle colorate in 7 varianti",
+        "Categoria di design religioso",
+        "Leggero per l'uso quotidiano"
+      ],
+      "specifications": [
+        {
+          "name": "Materiale",
+          "value": "Lega di zinco (croce), perle"
+        },
+        {
+          "name": "Varianti",
+          "value": "Blu e bianco, verde e bianco, rosa chiaro, viola e bianco, bianco, rosa, blu"
+        },
+        {
+          "name": "Design",
+          "value": "Religioso"
+        }
+      ],
+      "applications": [
+        "Uso devozionale quotidiano",
+        "Aiuto per la preghiera del rosario",
+        "Regalo religioso per anniversari",
+        "Accessorio moda che completa l'abbigliamento religioso"
+      ],
+      "faq": [
+        {
+          "question": "Quali materiali sono usati in questo bracciale del rosario?",
+          "answer": "Il bracciale presenta una croce in lega di zinco e perle, come specificato nei dettagli del prodotto."
+        },
+        {
+          "question": "Quali varianti di colore sono disponibili?",
+          "answer": "Sono offerte sette varianti di colore: blu e bianco, verde e bianco, rosa chiaro, viola e bianco, bianco, rosa e blu."
+        },
+        {
+          "question": "Questo bracciale è adatto all'uso quotidiano?",
+          "answer": "Sì, il suo design leggero e i materiali durevoli lo rendono pratico per l'uso quotidiano, anche se non sono dettagliati test di durabilità specifici."
+        }
+      ],
+      "pricing": {
+        "price": "0.54",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.45",
+          "max": "0.54"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Bracciale Rosario con Croce e Perle Colorate",
+          "description": "Questo bracciale del rosario artigianale abbina una croce in lega di zinco a perle colorate, disponibile in sette varianti di colore. Un semplice accessorio religioso per l'uso quotidiano, con un design che riflette gli elementi tradizionali del rosario.",
+          "sku": "ALI-AAESTG7BAOVioqqEY6ePmyw4",
+          "image": [
+            "https://sc04.alicdn.com/kf/H24185f3b55154033841d454b2963272bs.png",
+            "https://sc04.alicdn.com/kf/Hcf944915b9c24db2a8a22a5ca7b57eb7W.png",
+            "https://sc04.alicdn.com/kf/H3297f7f708714f23aeed6b52dc005b058.png",
+            "https://sc04.alicdn.com/kf/H1ac9d23a83ab4f75b286b96ce0d13be4q.png",
+            "https://sc04.alicdn.com/kf/Hc508d94caffb40fea3f1128b408a6ee28.png",
+            "https://sc04.alicdn.com/kf/Hc2cbe6befdca4ee9beea0d0904d1563ca.png"
+          ],
+          "category": "Bracciali del rosario",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiale",
+              "value": "Lega di zinco (croce), perle"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianti",
+              "value": "Blu e bianco, verde e bianco, rosa chiaro, viola e bianco, bianco, rosa, blu"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Religioso"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.54",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.45",
+              "maxPrice": "0.54",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quali materiali sono usati in questo bracciale del rosario?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Il bracciale presenta una croce in lega di zinco e perle, come specificato nei dettagli del prodotto."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quali varianti di colore sono disponibili?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sono offerte sette varianti di colore: blu e bianco, verde e bianco, rosa chiaro, viola e bianco, bianco, rosa e blu."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Questo bracciale è adatto all'uso quotidiano?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sì, il suo design leggero e i materiali durevoli lo rendono pratico per l'uso quotidiano, anche se non sono dettagliati test di durabilità specifici."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "23c05b167686593704c65f91aab7a86deb7c378407af1f0690eff33f876a4e4e",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "23c05b167686593704c65f91aab7a86deb7c378407af1f0690eff33f876a4e4e",
+            "contentHash": "23c05b167686593704c65f91aab7a86deb7c378407af1f0690eff33f876a4e4e",
+            "attempts": 0,
+            "updatedAt": "2026-08-12T04:11:33.275Z",
+            "model": "deepseek-v4-flash"
+          },
+          "it": {
+            "status": "ready",
+            "sourceHash": "23c05b167686593704c65f91aab7a86deb7c378407af1f0690eff33f876a4e4e",
+            "contentHash": "69e0bbdc5c6bcd3332c584eed522d88c7edb2243cf2d003fadf2a92bd7ce5f53",
+            "attempts": 2,
+            "updatedAt": "2026-08-12T04:14:39.207Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGRTG7BAOVioqqEY6eBTPzE",
+      "sourceId": "AAGRTG7BAOVioqqEY6eBTPzE",
+      "sourceFingerprint": "dc234592d189c438bb2fc81d574631c8b4ff4edfe5e7630f10a19f104d7ed1fb",
+      "locale": "it",
+      "slug": "handmade-wooden-beaded-cross-necklace-with-silver-plated-accents-ebtpze",
+      "title": "Collana con croce in perline di legno fatta a mano con accenti placcati argento",
+      "eyebrow": "Collana con ciondolo a croce in perline di legno e rosario",
+      "summary": "Questa collana unisex con croce in perline di legno presenta perline di legno intrecciate a corda e un ciondolo a croce con accenti placcati argento. La costruzione artigianale si adatta sia a uomini che a donne. Una scelta pratica per l'uso quotidiano o la pratica devozionale cattolica.",
+      "description": "Questa collana con croce in perline di legno fatta a mano offre un aspetto naturale e terroso adatto all'uso quotidiano. Le perline sono intrecciate a corda in legno, offrendo una sensazione durevole e leggera. Un ciondolo a croce placcato argento funge da punto focale, aggiungendo un contrasto sottile ai caldi toni del legno. Il design unisex si adatta sia a uomini che a donne.\n\nSebbene sia semplice nella costruzione, la collana è realizzata per un uso pratico. Le perline di legno sono lisce e arrotondate, comode sulla pelle. Il dettaglio placcato argento sulla croce conferisce una finitura leggermente lucida senza essere eccessivamente ornato.\n\nCome articolo devozionale cattolico, questa collana in stile rosario può accompagnare la preghiera personale.",
+      "catholicContext": "Il Rosario è una preghiera cattolica incentrata sulla contemplazione degli eventi della vita di Gesù Cristo e della Vergine Maria.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Rosari cattolici",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAGRTG7BAOVioqqEY6eBTPzE",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H82d79e5260da402eb175952a4a961b6es.webp",
+      "imageAlt": "Collana con croce in perline di legno fatta a mano con accenti placcati argento",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H82d79e5260da402eb175952a4a961b6es.webp",
+          "alt": "Collana con croce in perline di legno fatta a mano con accenti placcati argento"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H347e10ab838f4b098eec3d722ae25d6a2.webp",
+          "alt": "Collana con croce in perline di legno fatta a mano con accenti placcati argento"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2c835953e02f4107a607cd63c64f7687H.webp",
+          "alt": "Collana con croce in perline di legno fatta a mano con accenti placcati argento"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3886a55cee7a4a748fcb4a00fad3209cB.webp",
+          "alt": "Collana con croce in perline di legno fatta a mano con accenti placcati argento"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Perline di legno fatte a mano con costruzione intrecciata a corda",
+        "Ciondolo a croce con finitura placcata argento",
+        "Design unisex adatto a uomini e donne",
+        "Stile collana a perline, leggera per l'uso quotidiano",
+        "Stile religioso con associazione cattolica"
+      ],
+      "specifications": [
+        {
+          "name": "Materiale",
+          "value": "Legno"
+        },
+        {
+          "name": "Placcatura",
+          "value": "Placcato argento"
+        },
+        {
+          "name": "Tipo di catena",
+          "value": "Perline"
+        },
+        {
+          "name": "Tipo di gioiello",
+          "value": "Collane"
+        },
+        {
+          "name": "Genere",
+          "value": "Unisex"
+        },
+        {
+          "name": "Tecnologia di intarsio",
+          "value": "Perline di legno intrecciate a corda"
+        },
+        {
+          "name": "Stile",
+          "value": "Religioso"
+        }
+      ],
+      "applications": [
+        "Uso quotidiano come accessorio personale",
+        "Aiuto devozionale per la preghiera cattolica",
+        "Regalo pensato per occasioni religiose",
+        "Sovrapposizione con altre collane"
+      ],
+      "faq": [
+        {
+          "question": "Questa collana è considerata un rosario?",
+          "answer": "La descrizione del prodotto la etichetta come collana con ciondolo a croce del rosario cattolico. È progettata in stile a perline con una croce, ma i dettagli come il numero di perline non sono forniti. Può essere usata per la preghiera come articolo devozionale personale."
+        },
+        {
+          "question": "Di cosa è fatto il ciondolo a croce?",
+          "answer": "Il ciondolo a croce ha una finitura placcata argento. Il materiale principale della collana è il legno, e la tecnologia di intarsio è descritta come perline di legno intrecciate a corda."
+        },
+        {
+          "question": "Questa collana è adatta a uomini o donne?",
+          "answer": "La collana è contrassegnata come unisex, quindi è progettata per essere indossata sia da uomini che da donne."
+        }
+      ],
+      "pricing": {
+        "price": "0.73",
+        "regularPrice": "0.73",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.52",
+          "max": "0.73"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collana con croce in perline di legno fatta a mano con accenti placcati argento",
+          "description": "Questa collana unisex con croce in perline di legno presenta perline di legno intrecciate a corda e un ciondolo a croce con accenti placcati argento. La costruzione artigianale si adatta sia a uomini che a donne. Una scelta pratica per l'uso quotidiano o la pratica devozionale cattolica.",
+          "sku": "ALI-AAGRTG7BAOVioqqEY6eBTPzE",
+          "image": [
+            "https://sc04.alicdn.com/kf/H82d79e5260da402eb175952a4a961b6es.jpg",
+            "https://sc04.alicdn.com/kf/H347e10ab838f4b098eec3d722ae25d6a2.jpg",
+            "https://sc04.alicdn.com/kf/H2c835953e02f4107a607cd63c64f7687H.jpg",
+            "https://sc04.alicdn.com/kf/H3886a55cee7a4a748fcb4a00fad3209cB.jpg"
+          ],
+          "category": "Rosari cattolici",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiale",
+              "value": "Legno"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Placcatura",
+              "value": "Placcato argento"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo di catena",
+              "value": "Perline"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo di gioiello",
+              "value": "Collane"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Genere",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tecnologia di intarsio",
+              "value": "Perline di legno intrecciate a corda"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stile",
+              "value": "Religioso"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.73",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.52",
+              "maxPrice": "0.73",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Questa collana è considerata un rosario?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La descrizione del prodotto la etichetta come collana con ciondolo a croce del rosario cattolico. È progettata in stile a perline con una croce, ma i dettagli come il numero di perline non sono forniti. Può essere usata per la preghiera come articolo devozionale personale."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Di cosa è fatto il ciondolo a croce?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Il ciondolo a croce ha una finitura placcata argento. Il materiale principale della collana è il legno, e la tecnologia di intarsio è descritta come perline di legno intrecciate a corda."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Questa collana è adatta a uomini o donne?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La collana è contrassegnata come unisex, quindi è progettata per essere indossata sia da uomini che da donne."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "8d0f19d7727fdf762fa1c4d09cd2ddfb3f207bee6b6c19b837bcc5a3d6971453",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "8d0f19d7727fdf762fa1c4d09cd2ddfb3f207bee6b6c19b837bcc5a3d6971453",
+            "contentHash": "8d0f19d7727fdf762fa1c4d09cd2ddfb3f207bee6b6c19b837bcc5a3d6971453",
+            "attempts": 0,
+            "updatedAt": "2026-08-12T04:11:42.388Z",
+            "model": "deepseek-v4-flash"
+          },
+          "it": {
+            "status": "ready",
+            "sourceHash": "8d0f19d7727fdf762fa1c4d09cd2ddfb3f207bee6b6c19b837bcc5a3d6971453",
+            "contentHash": "a02e2308bdb1e901f37d5cc301f170b269c144ea69a3646c959e817f47730c72",
+            "attempts": 1,
+            "updatedAt": "2026-08-12T04:14:46.705Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHVTG7BAOVioqqEY6eBT7FQ",
+      "sourceId": "AAHVTG7BAOVioqqEY6eBT7FQ",
+      "sourceFingerprint": "bbbd1b12436030606b458c41564ca5ae80fbc4391045c40f28a2d8e67e848521",
+      "locale": "it",
+      "slug": "gold-plated-stainless-steel-cross-necklace-ebt7fq",
+      "title": "Collana Croce in Acciaio Inossidabile Placcato Oro",
+      "eyebrow": "Collana Croce in Acciaio Inossidabile Placcato Oro",
+      "summary": "Questa collana in acciaio inossidabile placcato oro presenta una catena a grani tondi e un design a croce. Disponibile nelle finiture Gold A e Gold B, è adatta sia a uomini che a donne come opzione regalo.",
+      "description": "Questa collana combina una costruzione in acciaio inossidabile placcato oro con una catena a grani tondi e un pendente a croce. Il design è semplice e resistente, il che la rende una scelta pratica per l'uso quotidiano. Due varianti dorate, Gold A e Gold B, offrono sottili differenze di finitura per soddisfare i gusti personali. La collana è classificata come collana moda, ma il suo motivo a croce porta un simbolismo cristiano esplicito. È presentata come un regalo adatto sia a uomini che a donne, anche se non vengono fornite specifiche sulla lunghezza della catena o sulle dimensioni del pendente.",
+      "catholicContext": "La croce è un simbolo cristiano tradizionale, anche se una croce semplice è distinta dal crocifisso che reca il corpo di Cristo.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Collane moda",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAHVTG7BAOVioqqEY6eBT7FQ",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H19e56e5b6a0f46a0a1679d58f5b04612r.webp",
+      "imageAlt": "Collana Croce in Acciaio Inossidabile Placcato Oro",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H19e56e5b6a0f46a0a1679d58f5b04612r.webp",
+          "alt": "Collana Croce in Acciaio Inossidabile Placcato Oro"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha11e324a5f3e4b6a9719b9ec445bd84aO.webp",
+          "alt": "Collana Croce in Acciaio Inossidabile Placcato Oro"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H75418c0ef1fa4ce5992424336c05c0ced.webp",
+          "alt": "Collana Croce in Acciaio Inossidabile Placcato Oro"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdcc5a088c263487790e58ec07e1250abu.webp",
+          "alt": "Collana Croce in Acciaio Inossidabile Placcato Oro"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Heca3f6b8a09a4b7d945eaba941f71df7l.webp",
+          "alt": "Collana Croce in Acciaio Inossidabile Placcato Oro"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hee9d7be652054b7e9057c165fb457f84L.webp",
+          "alt": "Collana Croce in Acciaio Inossidabile Placcato Oro - oro-a",
+          "label": "oro-a",
+          "sku": "ALI-AAHVTG7BAOVioqqEY6eBT7FQ-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H251c05b96860491a906800f604189273U.webp",
+          "alt": "Collana Croce in Acciaio Inossidabile Placcato Oro - oro-b",
+          "label": "oro-b",
+          "sku": "ALI-AAHVTG7BAOVioqqEY6eBT7FQ-V--1"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Acciaio inossidabile placcato oro per una finitura brillante",
+        "Catena a grani tondi per un aspetto strutturato",
+        "Design a croce come chiaro motivo religioso",
+        "Due varianti di colore: Gold A e Gold B",
+        "Proposto come regalo per uomo o donna"
+      ],
+      "specifications": [
+        {
+          "name": "Materiale",
+          "value": "Acciaio inossidabile con placcatura in oro"
+        },
+        {
+          "name": "Design",
+          "value": "Catena a grani tondi con pendente a croce"
+        },
+        {
+          "name": "Varianti disponibili",
+          "value": "Gold A, Gold B"
+        }
+      ],
+      "applications": [
+        "Uso quotidiano come accessorio cristiano",
+        "Regalo religioso per uomo o donna",
+        "A strati con altre collane",
+        "Abbigliamento casual o semi-formale"
+      ],
+      "faq": [
+        {
+          "question": "Con quali materiali è realizzata questa collana a croce?",
+          "answer": "La collana è realizzata in acciaio inossidabile con una finitura placcata in oro, che garantisce durata e un aspetto lucido."
+        },
+        {
+          "question": "Qual è la differenza tra le varianti Gold A e Gold B?",
+          "answer": "Entrambe le varianti sono di colore oro, ma Gold A e Gold B rappresentano due opzioni di finitura distinte. La differenza visiva esatta non è specificata."
+        },
+        {
+          "question": "Questa collana è adatta sia a uomini che a donne?",
+          "answer": "Sì, il prodotto è descritto come un regalo adatto sia a uomini che a donne, e il design a croce è unisex."
+        }
+      ],
+      "pricing": {
+        "price": "2.50",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.90",
+          "max": "2.50"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collana Croce in Acciaio Inossidabile Placcato Oro",
+          "description": "Questa collana in acciaio inossidabile placcato oro presenta una catena a grani tondi e un design a croce. Disponibile nelle finiture Gold A e Gold B, è adatta sia a uomini che a donne come opzione regalo.",
+          "sku": "ALI-AAHVTG7BAOVioqqEY6eBT7FQ",
+          "image": [
+            "https://sc04.alicdn.com/kf/H19e56e5b6a0f46a0a1679d58f5b04612r.jpg",
+            "https://sc04.alicdn.com/kf/Ha11e324a5f3e4b6a9719b9ec445bd84aO.jpg",
+            "https://sc04.alicdn.com/kf/H75418c0ef1fa4ce5992424336c05c0ced.jpg",
+            "https://sc04.alicdn.com/kf/Hdcc5a088c263487790e58ec07e1250abu.jpg",
+            "https://sc04.alicdn.com/kf/Heca3f6b8a09a4b7d945eaba941f71df7l.jpg"
+          ],
+          "category": "Collane moda",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiale",
+              "value": "Acciaio inossidabile con placcatura in oro"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Catena a grani tondi con pendente a croce"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianti disponibili",
+              "value": "Gold A, Gold B"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.50",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.90",
+              "maxPrice": "2.50",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Con quali materiali è realizzata questa collana a croce?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La collana è realizzata in acciaio inossidabile con una finitura placcata in oro, che garantisce durata e un aspetto lucido."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Qual è la differenza tra le varianti Gold A e Gold B?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Entrambe le varianti sono di colore oro, ma Gold A e Gold B rappresentano due opzioni di finitura distinte. La differenza visiva esatta non è specificata."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Questa collana è adatta sia a uomini che a donne?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sì, il prodotto è descritto come un regalo adatto sia a uomini che a donne, e il design a croce è unisex."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "16c6a331b35aa6a5b4e8d83545ea2ea152630387b83644f7f20f2c70c817ae3b",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "16c6a331b35aa6a5b4e8d83545ea2ea152630387b83644f7f20f2c70c817ae3b",
+            "contentHash": "16c6a331b35aa6a5b4e8d83545ea2ea152630387b83644f7f20f2c70c817ae3b",
+            "attempts": 0,
+            "updatedAt": "2026-08-12T04:11:39.628Z",
+            "model": "deepseek-v4-flash"
+          },
+          "it": {
+            "status": "ready",
+            "sourceHash": "16c6a331b35aa6a5b4e8d83545ea2ea152630387b83644f7f20f2c70c817ae3b",
+            "contentHash": "689ea7d927b2855d52fd440e8ca0d64027c0a702545c4a0f83ae011aa508e6c1",
+            "attempts": 1,
+            "updatedAt": "2026-08-12T04:14:53.043Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEoTG7BAOVioqqEY6eBSGjz",
+      "sourceId": "AAEoTG7BAOVioqqEY6eBSGjz",
+      "sourceFingerprint": "807b74fb4573bd3c390dd8e500c634c38751a8b8f3fe778703f3ef4dc324a8af",
+      "locale": "it",
+      "slug": "st-francis-of-assisi-gothic-pendant-necklace-ebsgjz",
+      "title": "Collana con ciondolo gotico di San Francesco d'Assisi",
+      "eyebrow": "Collana con ciondolo gotico di San Francesco d'Assisi",
+      "summary": "Questa collana in stile gotico presenta un ciondolo di San Francesco d'Assisi con immagini di Nostra Signora e Gesù e una catena a perline. Disponibile in sette varianti argento. Adatta a rivenditori di articoli religiosi cattolici che cercano accessori devozionali distintivi.",
+      "description": "Questa collana abbina un ciondolo di ispirazione gotica a una catena a perline, combinando immagini devozionali con un'estetica audace. Il ciondolo raffigura San Francesco d'Assisi, un santo cattolico ampiamente riconosciuto, insieme a immagini mariane e di Cristo. Sette varianti di colore argento offrono flessibilità per le diverse preferenze dei clienti. La catena a perline completa l'aspetto vintage del ciondolo. Questo pezzo è adatto per l'uso quotidiano o come regalo significativo. È disponibile l'ordine all'ingrosso; contattateci per quantità all'ingrosso e selezione delle varianti.",
+      "catholicContext": "San Francesco d'Assisi è un venerato santo cattolico noto per la sua devozione alla povertà e al creato.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Collane moda",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAEoTG7BAOVioqqEY6eBSGjz",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H0eafa3e8be5a43cabf942c17c9ffe375D.webp",
+      "imageAlt": "Collana con ciondolo gotico di San Francesco d'Assisi",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0eafa3e8be5a43cabf942c17c9ffe375D.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5bdfc7a87a7b4fb19661f0dfcc9f73d5A.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H05a3b523c5dd489e94e803a7e9996bc3C.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hef249ec496d24ee2b6875ae55dda4ec97.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfe957c98a8fe426f8f6510e74fa99fc8C.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6aed8b2383bf461d902b3a298018d2bd5.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf01aa4f89d4b4a20bc07def160a1ca74E.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi - argento1",
+          "label": "argento1",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6eBSGjz-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf62929811257473c9d1c3b5bd316cc40Y.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi - argento2",
+          "label": "argento2",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6eBSGjz-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha9534025e73d43de9da6a321be780127X.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi - argento3",
+          "label": "argento3",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6eBSGjz-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2cfc71afae224098a1bd955d403f3c2by.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi - argento4",
+          "label": "argento4",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6eBSGjz-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfdcfb6f5cc254aa0b0dd25a4e0e86233S.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi - argento5",
+          "label": "argento5",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6eBSGjz-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H958d666b9ce54155b442e59c65eb56e2U.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi - argento6",
+          "label": "argento6",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6eBSGjz-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf8049296a84a4943b0987a41d1cc9b52U.webp",
+          "alt": "Collana con ciondolo gotico di San Francesco d'Assisi - argento7",
+          "label": "argento7",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6eBSGjz-V--15"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Ciondolo in stile gotico raffigurante San Francesco d'Assisi",
+        "Include immagini di Nostra Signora e Gesù sul ciondolo",
+        "Viene fornito con catena a perline",
+        "Sette varianti argento (Argento1 fino ad Argento7)",
+        "Stile gioiello da uomo"
+      ],
+      "specifications": [
+        {
+          "name": "Variante",
+          "value": "Argento1, Argento2, Argento3, Argento4, Argento5, Argento6, Argento7"
+        }
+      ],
+      "applications": [
+        "Vendita al dettaglio in negozi di articoli religiosi",
+        "Accessorio moda a tema religioso",
+        "Uso devozionale personale",
+        "Regalo per occasioni cattoliche"
+      ],
+      "faq": [
+        {
+          "question": "Quali varianti sono disponibili per questa collana?",
+          "answer": "La collana gotica di San Francesco d'Assisi è disponibile in sette varianti argento: Argento1, Argento2, Argento3, Argento4, Argento5, Argento6 e Argento7."
+        },
+        {
+          "question": "Questa collana include una catena?",
+          "answer": "Sì, la collana include una catena a perline come indicato nei dettagli del prodotto."
+        },
+        {
+          "question": "Questa collana è progettata per uomo?",
+          "answer": "Il titolo originale del prodotto indica che è per uomo, anche se potrebbe piacere a chiunque preferisca uno stile devozionale gotico."
+        }
+      ],
+      "pricing": {
+        "price": "4.15",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.80",
+          "max": "4.15"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collana con ciondolo gotico di San Francesco d'Assisi",
+          "description": "Questa collana in stile gotico presenta un ciondolo di San Francesco d'Assisi con immagini di Nostra Signora e Gesù e una catena a perline. Disponibile in sette varianti argento. Adatta a rivenditori di articoli religiosi cattolici che cercano accessori devozionali distintivi.",
+          "sku": "ALI-AAEoTG7BAOVioqqEY6eBSGjz",
+          "image": [
+            "https://sc04.alicdn.com/kf/H0eafa3e8be5a43cabf942c17c9ffe375D.jpg",
+            "https://sc04.alicdn.com/kf/H5bdfc7a87a7b4fb19661f0dfcc9f73d5A.jpg",
+            "https://sc04.alicdn.com/kf/H05a3b523c5dd489e94e803a7e9996bc3C.jpg",
+            "https://sc04.alicdn.com/kf/Hef249ec496d24ee2b6875ae55dda4ec97.jpg",
+            "https://sc04.alicdn.com/kf/Hfe957c98a8fe426f8f6510e74fa99fc8C.jpg",
+            "https://sc04.alicdn.com/kf/H6aed8b2383bf461d902b3a298018d2bd5.jpg"
+          ],
+          "category": "Collane moda",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Argento1, Argento2, Argento3, Argento4, Argento5, Argento6, Argento7"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "4.15",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.80",
+              "maxPrice": "4.15",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quali varianti sono disponibili per questa collana?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La collana gotica di San Francesco d'Assisi è disponibile in sette varianti argento: Argento1, Argento2, Argento3, Argento4, Argento5, Argento6 e Argento7."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Questa collana include una catena?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sì, la collana include una catena a perline come indicato nei dettagli del prodotto."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Questa collana è progettata per uomo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Il titolo originale del prodotto indica che è per uomo, anche se potrebbe piacere a chiunque preferisca uno stile devozionale gotico."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "ac8d193e67781b94e9f6c651a245d7439f1831794a4616446586012f12edf0c8",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "ac8d193e67781b94e9f6c651a245d7439f1831794a4616446586012f12edf0c8",
+            "contentHash": "ac8d193e67781b94e9f6c651a245d7439f1831794a4616446586012f12edf0c8",
+            "attempts": 0,
+            "updatedAt": "2026-08-12T04:11:37.819Z",
+            "model": "deepseek-v4-flash"
+          },
+          "it": {
+            "status": "ready",
+            "sourceHash": "ac8d193e67781b94e9f6c651a245d7439f1831794a4616446586012f12edf0c8",
+            "contentHash": "6017da015127221eec193f5969f4005d6401c7e905e62d7f5191f4f5e909226e",
+            "attempts": 1,
+            "updatedAt": "2026-08-12T04:15:00.144Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFwTG7BAOVioqqEY6eBUaR2",
+      "sourceId": "AAFwTG7BAOVioqqEY6eBUaR2",
+      "sourceFingerprint": "f3694ca0a63af1c9b4400652d607393a747e490dce8d04204a1fe5bab061ac21",
+      "locale": "it",
+      "slug": "classic-stainless-steel-god-pendant-necklace-ebuar2",
+      "title": "Collana Classica con Ciondolo God in Acciaio Inossidabile",
+      "eyebrow": "collana con ciondolo religioso",
+      "summary": "Questa classica collana con ciondolo God in stile vintage è realizzata in acciaio inossidabile con finitura lucida. Scegli tra placcatura oro o argento. Un'opzione di gioielleria religiosa semplice per rivenditori e distributori.",
+      "description": "Questa classica collana con ciondolo God abbina un design di ispirazione vintage alla durata dell'acciaio inossidabile. Il ciondolo è disponibile in placcatura oro o argento, offrendo agli acquirenti due aspetti distinti da un'unica linea di prodotti. Lo stile unisex è adatto all'uso quotidiano e ai regali.\n\nGrazie all'acciaio inossidabile, il ciondolo resiste meglio all'ossidazione e all'usura rispetto a molte alternative in metallo base. La collana è venduta come set completo di ciondolo e catena, pronta per l'esposizione o l'uso immediato. Ci riforniamo direttamente dal produttore; contattateci per i dettagli di ordinazione correnti.",
+      "catholicContext": "Gioielli devozionali come questo ciondolo God possono accompagnare la preghiera personale, ma non sono un sacramentale a meno che non siano benedetti dalla Chiesa.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Collane moda",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAFwTG7BAOVioqqEY6eBUaR2",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H25211b45381d4dd2934f380ecf23b3cei.webp",
+      "imageAlt": "Collana con ciondolo God in acciaio inossidabile classico",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H25211b45381d4dd2934f380ecf23b3cei.webp",
+          "alt": "Collana con ciondolo God in acciaio inossidabile classico"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H86dcdc94fba24554b7743bc50ac46744j.webp",
+          "alt": "Collana con ciondolo God in acciaio inossidabile classico"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb09972f42a874d72856fa62a6b763025H.webp",
+          "alt": "Collana con ciondolo God in acciaio inossidabile classico"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H73fa58ff90b745fd8d3640deb7acf8803.webp",
+          "alt": "Collana con ciondolo God in acciaio inossidabile classico"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcaec815ad97443ff816eb9669be4c29fF.webp",
+          "alt": "Collana con ciondolo God in acciaio inossidabile classico"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf7a8208f38374ee1b0cd109591c8eba6k.webp",
+          "alt": "Collana con ciondolo God in acciaio inossidabile classico"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H615a6527c04a4b8b9758464deaff937fV.webp",
+          "alt": "Collana con ciondolo God in acciaio inossidabile classico - ciondolo oro",
+          "label": "ciondolo-oro",
+          "sku": "ALI-AAFwTG7BAOVioqqEY6eBUaR2-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1afb8b829ed40c6ae72f25a481e0a68V.webp",
+          "alt": "Collana con ciondolo God in acciaio inossidabile classico - ciondolo argento",
+          "label": "ciondolo-argento",
+          "sku": "ALI-AAFwTG7BAOVioqqEY6eBUaR2-V--3"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Design classico in stile vintage del ciondolo God",
+        "Costruzione in acciaio inossidabile per durata",
+        "Disponibile in finitura placcata oro o argento",
+        "Venduto come collana con ciondolo incluso",
+        "Stile unisex adatto all'uso quotidiano"
+      ],
+      "specifications": [
+        {
+          "name": "Variante",
+          "value": "Ciondolo oro o ciondolo argento"
+        }
+      ],
+      "applications": [
+        "Vendita al dettaglio di gioielli religiosi",
+        "Regalo per devozione personale",
+        "Negozio di articoli religiosi",
+        "Accessorio quotidiano basato sulla fede"
+      ],
+      "faq": [
+        {
+          "question": "Quali opzioni di finitura sono disponibili per questa collana con ciondolo?",
+          "answer": "Il ciondolo è offerto in due varianti: placcato oro e placcato argento. Entrambi hanno una base in acciaio inossidabile."
+        },
+        {
+          "question": "Il ciondolo è fatto di oro o argento massiccio?",
+          "answer": "No, il materiale di base è acciaio inossidabile con placcatura in oro o argento, offrendo durata a un costo inferiore rispetto ai metalli preziosi."
+        },
+        {
+          "question": "Questa collana è adatta all'uso quotidiano?",
+          "answer": "Sì, la costruzione in acciaio inossidabile e la finitura placcata sono progettate per resistere all'uso regolare, anche se si dovrebbe evitare il contatto con sostanze chimiche aggressive."
+        }
+      ],
+      "pricing": {
+        "price": "2.68",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.20",
+          "max": "2.68"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collana Classica con Ciondolo God in Acciaio Inossidabile",
+          "description": "Questa classica collana con ciondolo God in stile vintage è realizzata in acciaio inossidabile con finitura lucida. Scegli tra placcatura oro o argento. Un'opzione di gioielleria religiosa semplice per rivenditori e distributori.",
+          "sku": "ALI-AAFwTG7BAOVioqqEY6eBUaR2",
+          "image": [
+            "https://sc04.alicdn.com/kf/H25211b45381d4dd2934f380ecf23b3cei.jpg",
+            "https://sc04.alicdn.com/kf/H86dcdc94fba24554b7743bc50ac46744j.jpg",
+            "https://sc04.alicdn.com/kf/Hb09972f42a874d72856fa62a6b763025H.jpg",
+            "https://sc04.alicdn.com/kf/H73fa58ff90b745fd8d3640deb7acf8803.jpg",
+            "https://sc04.alicdn.com/kf/Hcaec815ad97443ff816eb9669be4c29fF.jpg",
+            "https://sc04.alicdn.com/kf/Hf7a8208f38374ee1b0cd109591c8eba6k.jpg"
+          ],
+          "category": "Collane moda",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Ciondolo oro o ciondolo argento"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.68",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.20",
+              "maxPrice": "2.68",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quali opzioni di finitura sono disponibili per questa collana con ciondolo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Il ciondolo è offerto in due varianti: placcato oro e placcato argento. Entrambi hanno una base in acciaio inossidabile."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Il ciondolo è fatto di oro o argento massiccio?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, il materiale di base è acciaio inossidabile con placcatura in oro o argento, offrendo durata a un costo inferiore rispetto ai metalli preziosi."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Questa collana è adatta all'uso quotidiano?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sì, la costruzione in acciaio inossidabile e la finitura placcata sono progettate per resistere all'uso regolare, anche se si dovrebbe evitare il contatto con sostanze chimiche aggressive."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "29a2456ff2ffb3e2f4309d6b3b41e94d9d67dd694272e8024d8155a95b63c275",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "29a2456ff2ffb3e2f4309d6b3b41e94d9d67dd694272e8024d8155a95b63c275",
+            "contentHash": "29a2456ff2ffb3e2f4309d6b3b41e94d9d67dd694272e8024d8155a95b63c275",
+            "attempts": 0,
+            "updatedAt": "2026-08-12T04:11:43.538Z",
+            "model": "deepseek-v4-flash"
+          },
+          "it": {
+            "status": "ready",
+            "sourceHash": "29a2456ff2ffb3e2f4309d6b3b41e94d9d67dd694272e8024d8155a95b63c275",
+            "contentHash": "1039c6a44d14a872d82d76b8eca11a302247b7636bfb17642d7172b7ef051bae",
+            "attempts": 2,
+            "updatedAt": "2026-08-12T04:15:14.612Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHITG7BAOVioqqEY6eBTW-H",
+      "sourceId": "AAHITG7BAOVioqqEY6eBTW-H",
+      "sourceFingerprint": "57b35787a5d0f70fa632a417d959e39798a59584c14f5922bd55a287c48cade5",
+      "locale": "it",
+      "slug": "stainless-steel-virgin-mary-pendant-gold-or-silver-ebtw-h",
+      "title": "Ciondolo Vergine Maria in Acciaio Inossidabile Oro o Argento",
+      "eyebrow": "Ciondolo mariano",
+      "summary": "Questo ciondolo in acciaio inossidabile raffigura la Vergine Maria (Nostra Signora) in un design semplice, disponibile in oro o argento. Realizzato in acciaio inossidabile, è un ciondolo in metallo durevole per la creazione di gioielli e accessori fai-da-te.",
+      "description": "Il ciondolo è realizzato in acciaio inossidabile, un metallo robusto che resiste all'ossidazione, rendendolo una scelta pratica per l'uso quotidiano. Raffigura la Vergine Maria, conosciuta anche come Nostra Signora, in un design dettagliato in rilievo. Disponibile in finitura oro o argento, il ciondolo si adatta a varie palette di colori. Come componente, può essere fissato a catene, cordini o utilizzato in altri progetti artigianali. Il design è abbastanza compatto per la creazione di gioielli, ma funziona anche per portachiavi o charm per borse.",
+      "catholicContext": "La Vergine Maria, chiamata anche Nostra Signora, è onorata nella pietà popolare cattolica, che estende ma non sostituisce la vita liturgica della Chiesa.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessori",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHITG7BAOVioqqEY6eBTW-H",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H57a1f4b12e924c858553b1749cd9df04N.webp",
+      "imageAlt": "Ciondolo Vergine Maria in Acciaio Inossidabile Oro o Argento",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H57a1f4b12e924c858553b1749cd9df04N.webp",
+          "alt": "Ciondolo Vergine Maria in Acciaio Inossidabile Oro o Argento"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hef4803c6cea345be968eeb8db9b6ea18A.webp",
+          "alt": "Ciondolo Vergine Maria in Acciaio Inossidabile Oro o Argento"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbb8a94bbe77c45489ae0d2ec7f76b457T.webp",
+          "alt": "Ciondolo Vergine Maria in Acciaio Inossidabile Oro o Argento"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ac5dee9ecc446919bd568779d8d9a8dc.webp",
+          "alt": "Ciondolo Vergine Maria in Acciaio Inossidabile Oro o Argento"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hca732a73cf12479eb43ae20055a5c494i.webp",
+          "alt": "Ciondolo Vergine Maria in Acciaio Inossidabile Oro o Argento"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H00381c65329e44f2ab77bc7776d521234.webp",
+          "alt": "Ciondolo Vergine Maria in Acciaio Inossidabile Oro o Argento - argento",
+          "label": "argento",
+          "sku": "ALI-AAHITG7BAOVioqqEY6eBTW-H-V-3460547"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He49f338b78ba436da0290f6b793025b5W.webp",
+          "alt": "Ciondolo Vergine Maria in Acciaio Inossidabile Oro o Argento - oro",
+          "label": "oro",
+          "sku": "ALI-AAHITG7BAOVioqqEY6eBTW-H-V-3331116"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Materiale: acciaio inossidabile",
+        "Finitura disponibile: oro e argento",
+        "Design: immagine della Vergine Maria",
+        "Ideale per gioielli e accessori fai-da-te",
+        "Adatto per il fissaggio a catene o cordini"
+      ],
+      "specifications": [
+        {
+          "name": "Materiale",
+          "value": "Acciaio inossidabile"
+        },
+        {
+          "name": "Design",
+          "value": "Vergine Maria"
+        },
+        {
+          "name": "Varianti disponibili",
+          "value": "Oro, Argento"
+        }
+      ],
+      "applications": [
+        "Creazione di gioielli fai-da-te",
+        "Assemblaggio di collane o bracciali",
+        "Decorazione di portachiavi",
+        "Creazione di accessori"
+      ],
+      "faq": [
+        {
+          "question": "Di che materiale è fatto questo ciondolo?",
+          "answer": "Questo ciondolo è realizzato in acciaio inossidabile, un metallo durevole che resiste all'ossidazione. È disponibile in finitura oro o argento."
+        },
+        {
+          "question": "Che design presenta questo ciondolo?",
+          "answer": "Il ciondolo presenta un design della Vergine Maria, conosciuta anche come Nostra Signora, in una rappresentazione semplice e classica, adatta per uso devozionale o decorativo."
+        },
+        {
+          "question": "Posso usare questo ciondolo per creare i miei gioielli?",
+          "answer": "Sì, questo ciondolo è progettato per la creazione di gioielli e accessori fai-da-te. Può essere facilmente fissato a catene, cordini o altri elementi per creare collane, bracciali o portachiavi."
+        }
+      ],
+      "pricing": {
+        "price": "0.50",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.39",
+          "max": "0.50"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Ciondolo Vergine Maria in Acciaio Inossidabile Oro o Argento",
+          "description": "Questo ciondolo in acciaio inossidabile raffigura la Vergine Maria (Nostra Signora) in un design semplice, disponibile in oro o argento. Realizzato in acciaio inossidabile, è un ciondolo in metallo durevole per la creazione di gioielli e accessori fai-da-te.",
+          "sku": "ALI-AAHITG7BAOVioqqEY6eBTW-H",
+          "image": [
+            "https://sc04.alicdn.com/kf/H57a1f4b12e924c858553b1749cd9df04N.jpg",
+            "https://sc04.alicdn.com/kf/Hef4803c6cea345be968eeb8db9b6ea18A.jpg",
+            "https://sc04.alicdn.com/kf/Hbb8a94bbe77c45489ae0d2ec7f76b457T.jpg",
+            "https://sc04.alicdn.com/kf/H4ac5dee9ecc446919bd568779d8d9a8dc.jpg",
+            "https://sc04.alicdn.com/kf/Hca732a73cf12479eb43ae20055a5c494i.jpg"
+          ],
+          "category": "Accessori",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiale",
+              "value": "Acciaio inossidabile"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Vergine Maria"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianti disponibili",
+              "value": "Oro, Argento"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.50",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.39",
+              "maxPrice": "0.50",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Di che materiale è fatto questo ciondolo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Questo ciondolo è realizzato in acciaio inossidabile, un metallo durevole che resiste all'ossidazione. È disponibile in finitura oro o argento."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Che design presenta questo ciondolo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Il ciondolo presenta un design della Vergine Maria, conosciuta anche come Nostra Signora, in una rappresentazione semplice e classica, adatta per uso devozionale o decorativo."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Posso usare questo ciondolo per creare i miei gioielli?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sì, questo ciondolo è progettato per la creazione di gioielli e accessori fai-da-te. Può essere facilmente fissato a catene, cordini o altri elementi per creare collane, bracciali o portachiavi."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b03acde08efc466fcde453a097c07fd9f75e76d89a047f078988c6f6f03f2b73",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b03acde08efc466fcde453a097c07fd9f75e76d89a047f078988c6f6f03f2b73",
+            "contentHash": "b03acde08efc466fcde453a097c07fd9f75e76d89a047f078988c6f6f03f2b73",
+            "attempts": 0,
+            "updatedAt": "2026-08-12T04:11:45.005Z",
+            "model": "deepseek-v4-flash"
+          },
+          "it": {
+            "status": "ready",
+            "sourceHash": "b03acde08efc466fcde453a097c07fd9f75e76d89a047f078988c6f6f03f2b73",
+            "contentHash": "ec13661614421dd7021844beeecaee5567ca03bf54c872320bb08174fb320402",
+            "attempts": 1,
+            "updatedAt": "2026-08-12T04:15:21.929Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGETG7BAOVioqqEY6eC0sLq",
+      "sourceId": "AAGETG7BAOVioqqEY6eC0sLq",
+      "sourceFingerprint": "c61b378a06984dd56961791fadd1a316fb90b8610a2f015aa4d0890e9d5d58bf",
+      "locale": "it",
+      "slug": "titanium-steel-cross-bracelet-for-men-and-women-ec0slq",
+      "title": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna",
+      "eyebrow": "bracciale con croce in acciaio al titanio",
+      "summary": "Un bracciale con croce in acciaio al titanio con perle rotonde e un ciondolo a croce. Disponibile in finitura oro o argento. Progettato sia per uomo che per donna, si adatta a un uso casual o devozionale come sottile promemoria della fede.",
+      "description": "Questo bracciale con croce è realizzato in acciaio al titanio, offrendo durata e resistenza all'ossidazione. Le perle rotonde forniscono un aspetto classico, mentre il ciondolo a croce aggiunge un tocco significativo. Scegli tra finiture oro o argento per abbinarlo al tuo stile personale.\n\nIl suo design unisex si adatta a una varietà di misure di polso ed è adatto all'uso quotidiano, rendendolo un regalo pratico per occasioni come San Valentino o compleanni.",
+      "catholicContext": "Un bracciale con croce può servire come promemoria visibile della fede, ma non è un sacramentale a meno che non sia benedetto da un sacerdote.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Bracciali del rosario",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAGETG7BAOVioqqEY6eC0sLq",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hafaa4919a9c248ee98bb527b1dcb4390M.webp",
+      "imageAlt": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hafaa4919a9c248ee98bb527b1dcb4390M.webp",
+          "alt": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H113971e401934305bc860fc6e69e4637a.webp",
+          "alt": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf560ed28a3df4c30a935ba332dd63c892.webp",
+          "alt": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H58af60a7e8c04f3395bde26ed8ba657dO.webp",
+          "alt": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H014a2158f2d945b4ae2fe29c2253c788r.webp",
+          "alt": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He370805ca1384381bb16b7c69e9394bdW.webp",
+          "alt": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H084f04be514d4dc9b771a632d375b235X.webp",
+          "alt": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna - argento",
+          "label": "argento",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eC0sLq-V-3460547"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1a7eb35920a94916b22492c74ea5d37es.webp",
+          "alt": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna - oro",
+          "label": "oro",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eC0sLq-V-3331116"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Realizzato in acciaio al titanio per resistenza e protezione dall'ossidazione",
+        "Perle rotonde con ciondolo a croce",
+        "Disponibile in varianti oro e argento",
+        "Design unisex adatto sia a uomini che a donne"
+      ],
+      "specifications": [
+        {
+          "name": "Materiale",
+          "value": "Acciaio al titanio"
+        },
+        {
+          "name": "Stile",
+          "value": "Bracciale con croce e perle rotonde"
+        },
+        {
+          "name": "Varianti di colore",
+          "value": "Oro, Argento"
+        }
+      ],
+      "applications": [
+        "Accessorio per uso quotidiano per uomini e donne",
+        "Abbinamento con altri bracciali",
+        "Regalo per San Valentino o compleanni",
+        "Sottile espressione della fede personale"
+      ],
+      "faq": [
+        {
+          "question": "Quali materiali sono utilizzati per questo bracciale con croce?",
+          "answer": "Il bracciale è realizzato in acciaio al titanio, noto per la sua durata e resistenza all'ossidazione."
+        },
+        {
+          "question": "Quali opzioni di colore sono disponibili?",
+          "answer": "Il bracciale è disponibile in due finiture: oro e argento."
+        },
+        {
+          "question": "Questo bracciale è adatto sia a uomini che a donne?",
+          "answer": "Sì, il bracciale ha un design unisex ed è pensato sia per uomini che per donne."
+        }
+      ],
+      "pricing": {
+        "price": "3.50",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "3.50",
+          "max": "3.90"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Bracciale con Croce in Acciaio al Titanio per Uomo e Donna",
+          "description": "Un bracciale con croce in acciaio al titanio con perle rotonde e un ciondolo a croce. Disponibile in finitura oro o argento. Progettato sia per uomo che per donna, si adatta a un uso casual o devozionale come sottile promemoria della fede.",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eC0sLq",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hafaa4919a9c248ee98bb527b1dcb4390M.jpg",
+            "https://sc04.alicdn.com/kf/H113971e401934305bc860fc6e69e4637a.jpg",
+            "https://sc04.alicdn.com/kf/Hf560ed28a3df4c30a935ba332dd63c892.jpg",
+            "https://sc04.alicdn.com/kf/H58af60a7e8c04f3395bde26ed8ba657dO.jpg",
+            "https://sc04.alicdn.com/kf/H014a2158f2d945b4ae2fe29c2253c788r.jpg",
+            "https://sc04.alicdn.com/kf/He370805ca1384381bb16b7c69e9394bdW.jpg"
+          ],
+          "category": "Bracciali del rosario",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiale",
+              "value": "Acciaio al titanio"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stile",
+              "value": "Bracciale con croce e perle rotonde"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianti di colore",
+              "value": "Oro, Argento"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "3.50",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "3.50",
+              "maxPrice": "3.90",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quali materiali sono utilizzati per questo bracciale con croce?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Il bracciale è realizzato in acciaio al titanio, noto per la sua durata e resistenza all'ossidazione."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quali opzioni di colore sono disponibili?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Il bracciale è disponibile in due finiture: oro e argento."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Questo bracciale è adatto sia a uomini che a donne?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sì, il bracciale ha un design unisex ed è pensato sia per uomini che per donne."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "ffc7e380fa709ee920b204032d140ce0147a144314ec3421e640a4a45fda5059",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "ffc7e380fa709ee920b204032d140ce0147a144314ec3421e640a4a45fda5059",
+            "contentHash": "ffc7e380fa709ee920b204032d140ce0147a144314ec3421e640a4a45fda5059",
+            "attempts": 0,
+            "updatedAt": "2026-08-12T04:11:52.927Z",
+            "model": "deepseek-v4-flash"
+          },
+          "it": {
+            "status": "ready",
+            "sourceHash": "ffc7e380fa709ee920b204032d140ce0147a144314ec3421e640a4a45fda5059",
+            "contentHash": "881f8625957694a0aac5cbf9d7023c27e62b07cac3b8d99472c69c51b4e1038f",
+            "attempts": 1,
+            "updatedAt": "2026-08-12T04:15:28.067Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGrTG7BAOVioqqEY6eBTc0M",
+      "sourceId": "AAGrTG7BAOVioqqEY6eBTc0M",
+      "sourceFingerprint": "b4b69580e572997c2101829a2fbc16e5c54213f68f2a799e4ef5f03d827c664d",
+      "locale": "it",
+      "slug": "stainless-steel-cross-pendant-necklace-with-beaded-chain-ebtc0m",
+      "title": "Collana con ciondolo a croce in acciaio inossidabile con catena perlata",
+      "eyebrow": "Collana religiosa con ciondolo a croce in acciaio inossidabile",
+      "summary": "Questa collana con ciondolo a croce unisce una croce in acciaio inossidabile a una catena perlata in due finiture tono oro. Progettata per durare e per l'uso quotidiano, è adatta come accessorio devozionale per uso personale o come regalo per un sacerdote o un figlio.",
+      "description": "Questa collana con ciondolo a croce in acciaio inossidabile offre un design semplice e resistente, adatto all'uso quotidiano. Il ciondolo a forma di croce è abbinato a una catena perlata, e le due varianti in tono oro (Gold1 e Gold2) offrono opzioni con finiture diverse. Sebbene le informazioni sul prodotto non specifichino i materiali oltre all'acciaio inossidabile, la costruzione robusta suggerisce un uso duraturo nel tempo.\n\nCome accessorio religioso, la croce serve come promemoria visibile della fede, inserendosi nella pratica devozionale cattolica. Può essere apprezzata da chi cerca una collana con croce pratica per uso personale o come regalo, ad esempio per un sacerdote o un figlio.",
+      "catholicContext": "Le croci sono usate nella pratica devozionale cattolica come promemoria del sacrificio di Cristo, sebbene questo articolo commerciale non sia descritto come benedetto o come sacramental.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Collane moda",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAGrTG7BAOVioqqEY6eBTc0M",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/He566d9e44c594e5e8d01654444f4c650f.webp",
+      "imageAlt": "Collana con ciondolo a croce in acciaio inossidabile con catena perlata",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He566d9e44c594e5e8d01654444f4c650f.webp",
+          "alt": "Collana con ciondolo a croce in acciaio inossidabile con catena perlata"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haa4320d823e5486499937402af09a2f8h.webp",
+          "alt": "Collana con ciondolo a croce in acciaio inossidabile con catena perlata"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hac7e44a33e574f50a61e66bde1c1fcc4l.webp",
+          "alt": "Collana con ciondolo a croce in acciaio inossidabile con catena perlata"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63c1dc8057784f45903de60a79108e979.webp",
+          "alt": "Collana con ciondolo a croce in acciaio inossidabile con catena perlata"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H968803a953f64082aa6289a92e9705340.webp",
+          "alt": "Collana con ciondolo a croce in acciaio inossidabile con catena perlata"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hba365aa897704a6fbd58c8f0d6941a02h.webp",
+          "alt": "Collana con ciondolo a croce in acciaio inossidabile con catena perlata - gold1",
+          "label": "gold1",
+          "sku": "ALI-AAGrTG7BAOVioqqEY6eBTc0M-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf033f83df4734eb2986db6181d693566h.webp",
+          "alt": "Collana con ciondolo a croce in acciaio inossidabile con catena perlata - gold2",
+          "label": "gold2",
+          "sku": "ALI-AAGrTG7BAOVioqqEY6eBTc0M-V--5"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Costruzione in acciaio inossidabile per durata",
+        "Design con ciondolo a croce",
+        "Catena perlata inclusa",
+        "Due varianti in tono oro: Gold1 e Gold2",
+        "Design unisex adatto a vari utilizzatori"
+      ],
+      "specifications": [
+        {
+          "name": "Materiale",
+          "value": "Acciaio inossidabile"
+        },
+        {
+          "name": "Tipo di catena",
+          "value": "Catena perlata"
+        },
+        {
+          "name": "Varianti disponibili",
+          "value": "Gold1, Gold2"
+        }
+      ],
+      "applications": [
+        "Uso devozionale personale",
+        "Regalo per un sacerdote o un figlio",
+        "Accessorio quotidiano",
+        "Sovrapposizione con altre collane"
+      ],
+      "faq": [
+        {
+          "question": "Di che materiale è fatta la collana con ciondolo?",
+          "answer": "La collana presenta un ciondolo a croce in acciaio inossidabile, sebbene il materiale della catena non sia specificato oltre al fatto che è perlata."
+        },
+        {
+          "question": "Sono disponibili varianti di colore o finitura?",
+          "answer": "Sì, la collana è disponibile in due varianti in tono oro: Gold1 e Gold2."
+        },
+        {
+          "question": "Questa collana può essere indossata tutti i giorni?",
+          "answer": "Data la costruzione in acciaio inossidabile, la collana è probabilmente resistente per un uso regolare, ma non sono fornite garanzie specifiche per l'uso quotidiano."
+        }
+      ],
+      "pricing": {
+        "price": "2.58",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.10",
+          "max": "2.58"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collana con ciondolo a croce in acciaio inossidabile con catena perlata",
+          "description": "Questa collana con ciondolo a croce unisce una croce in acciaio inossidabile a una catena perlata in due finiture tono oro. Progettata per durare e per l'uso quotidiano, è adatta come accessorio devozionale per uso personale o come regalo per un sacerdote o un figlio.",
+          "sku": "ALI-AAGrTG7BAOVioqqEY6eBTc0M",
+          "image": [
+            "https://sc04.alicdn.com/kf/He566d9e44c594e5e8d01654444f4c650f.jpg",
+            "https://sc04.alicdn.com/kf/Haa4320d823e5486499937402af09a2f8h.jpg",
+            "https://sc04.alicdn.com/kf/Hac7e44a33e574f50a61e66bde1c1fcc4l.jpg",
+            "https://sc04.alicdn.com/kf/H63c1dc8057784f45903de60a79108e979.jpg",
+            "https://sc04.alicdn.com/kf/H968803a953f64082aa6289a92e9705340.jpg"
+          ],
+          "category": "Collane moda",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiale",
+              "value": "Acciaio inossidabile"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo di catena",
+              "value": "Catena perlata"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianti disponibili",
+              "value": "Gold1, Gold2"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.58",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.10",
+              "maxPrice": "2.58",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Di che materiale è fatta la collana con ciondolo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La collana presenta un ciondolo a croce in acciaio inossidabile, sebbene il materiale della catena non sia specificato oltre al fatto che è perlata."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Sono disponibili varianti di colore o finitura?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sì, la collana è disponibile in due varianti in tono oro: Gold1 e Gold2."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Questa collana può essere indossata tutti i giorni?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Data la costruzione in acciaio inossidabile, la collana è probabilmente resistente per un uso regolare, ma non sono fornite garanzie specifiche per l'uso quotidiano."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "9446eddaaca9b0dc07e11d9375704402b16fcfe7af5ad8a3d9ba8e222f045824",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "9446eddaaca9b0dc07e11d9375704402b16fcfe7af5ad8a3d9ba8e222f045824",
+            "contentHash": "9446eddaaca9b0dc07e11d9375704402b16fcfe7af5ad8a3d9ba8e222f045824",
+            "attempts": 0,
+            "updatedAt": "2026-08-12T04:11:56.176Z",
+            "model": "deepseek-v4-flash"
+          },
+          "it": {
+            "status": "ready",
+            "sourceHash": "9446eddaaca9b0dc07e11d9375704402b16fcfe7af5ad8a3d9ba8e222f045824",
+            "contentHash": "7a1d89ba86c710b205106c25730801637723d610a655c45894008e3172f8aa49",
+            "attempts": 1,
+            "updatedAt": "2026-08-12T04:15:34.610Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFBTG7BAOVioqqEY6eBSfd8",
+      "sourceId": "AAFBTG7BAOVioqqEY6eBSfd8",
+      "sourceFingerprint": "e2a6b7d1c8b7260f0d8275e844a3a71c07de57ca16c2972a61520bb685fa8d30",
+      "locale": "it",
+      "slug": "lady-of-guadalupe-pendant-with-colorful-crystal-inlay-ebsfd8",
+      "title": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato",
+      "eyebrow": "Collana con ciondolo della Madonna di Guadalupe",
+      "summary": "Questo ciondolo della Madonna di Guadalupe presenta una forma ovale con inserti in cristallo colorato e dettagli in zirconio. Disponibile nelle varianti Grigio, Bianco, Rosa, Blu e Verde, è adatto per la creazione di gioielli o per l'esposizione al dettaglio.",
+      "description": "Il ciondolo presenta una silhouette ovale distintiva, con accenti in cristallo colorato inseriti nel corpo e dettagli in zirconio. Ogni variante (Grigio, Bianco, Rosa, Blu, Verde) offre una diversa combinazione di colori mantenendo lo stesso design.\n\nQuesto pezzo è un ciondolo mariano, chiamato così in onore della Madonna di Guadalupe, ed è concepito come accessorio religioso. I suoi componenti sono tipici della bigiotteria; non forniamo certificazioni sui materiali. Per quantità all'ingrosso e disponibilità attuale, contattateci.",
+      "catholicContext": "La Madonna di Guadalupe è un titolo della Vergine Maria, venerata nella tradizione cattolica, e questo ciondolo è dedicato a questa apparizione mariana.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessori",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAFBTG7BAOVioqqEY6eBSfd8",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H0248403469b34e599c7a3fe1ffc3fee0b.webp",
+      "imageAlt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0248403469b34e599c7a3fe1ffc3fee0b.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfc38a16eb04246fbbf8e51b30a22e5787.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1efd5a56df74c65bb09f6b7a32a5cccU.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9c46b39e22c4446191b2f9526bcf3f1dy.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1689c15b515d4e4bb31e68abbc434c803.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha6e4d0d933ec4db39f4aaba30f2d37ffO.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Had306102f1594edfa75a1fced91e4e50n.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato - rosa",
+          "label": "rosa",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBSfd8-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0f222635a672476eacdc4e052445de14w.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato - bianco",
+          "label": "bianco",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBSfd8-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8ce61169bbd24604a56beada1196ef417.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato - blu",
+          "label": "blu",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBSfd8-V-123085"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hae0f3c96970b4a4aa6a48ddd6fccf04dS.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato - verde",
+          "label": "verde",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBSfd8-V-216016296"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5aebd2e28cfa4522a5fcfec3da0bd383o.webp",
+          "alt": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato - grigio",
+          "label": "grigio",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBSfd8-V-5412614"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Design a ciondolo ovale",
+        "Accenti in cristallo colorato incastonati",
+        "Dettagli in zirconio",
+        "Cinque varianti di colore: Grigio, Bianco, Rosa, Blu, Verde",
+        "Fornito per la rivendita all'ingrosso"
+      ],
+      "specifications": [
+        {
+          "name": "Forma",
+          "value": "Ovale"
+        },
+        {
+          "name": "Design",
+          "value": "Ciondolo della Madonna di Guadalupe con cristalli incastonati"
+        },
+        {
+          "name": "Varianti di colore",
+          "value": "Grigio, Bianco, Rosa, Blu, Verde"
+        },
+        {
+          "name": "Dettagli materiale",
+          "value": "Accenti in cristallo e zirconio (come descritto)"
+        }
+      ],
+      "applications": [
+        "Creazione di gioielli e assemblaggio di collane",
+        "Esposizione al dettaglio per articoli religiosi",
+        "Idee regalo per occasioni religiose",
+        "Distribuzione all'ingrosso a negozi di articoli da regalo"
+      ],
+      "faq": [
+        {
+          "question": "Quali varianti di colore sono disponibili per questo ciondolo della Madonna di Guadalupe?",
+          "answer": "Il ciondolo è disponibile nelle varianti Grigio, Bianco, Rosa, Blu e Verde."
+        },
+        {
+          "question": "Qual è il design di questo ciondolo?",
+          "answer": "È un ciondolo a forma ovale con inserti in cristallo colorato e dettagli in zirconio, che rappresenta la Madonna di Guadalupe."
+        },
+        {
+          "question": "Posso usare questo ciondolo per creare collane?",
+          "answer": "Sì, è un ciondolo progettato per l'assemblaggio di collane, adatto per la creazione di gioielli o per la vendita al dettaglio."
+        }
+      ],
+      "pricing": {
+        "price": "2.80",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.00",
+          "max": "2.80"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Ciondolo della Madonna di Guadalupe con inserti in cristallo colorato",
+          "description": "Questo ciondolo della Madonna di Guadalupe presenta una forma ovale con inserti in cristallo colorato e dettagli in zirconio. Disponibile nelle varianti Grigio, Bianco, Rosa, Blu e Verde, è adatto per la creazione di gioielli o per l'esposizione al dettaglio.",
+          "sku": "ALI-AAFBTG7BAOVioqqEY6eBSfd8",
+          "image": [
+            "https://sc04.alicdn.com/kf/H0248403469b34e599c7a3fe1ffc3fee0b.jpg",
+            "https://sc04.alicdn.com/kf/Hfc38a16eb04246fbbf8e51b30a22e5787.jpg",
+            "https://sc04.alicdn.com/kf/Hd1efd5a56df74c65bb09f6b7a32a5cccU.jpg",
+            "https://sc04.alicdn.com/kf/H9c46b39e22c4446191b2f9526bcf3f1dy.jpg",
+            "https://sc04.alicdn.com/kf/H1689c15b515d4e4bb31e68abbc434c803.jpg",
+            "https://sc04.alicdn.com/kf/Ha6e4d0d933ec4db39f4aaba30f2d37ffO.jpg"
+          ],
+          "category": "Accessori",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Forma",
+              "value": "Ovale"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Ciondolo della Madonna di Guadalupe con cristalli incastonati"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianti di colore",
+              "value": "Grigio, Bianco, Rosa, Blu, Verde"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Dettagli materiale",
+              "value": "Accenti in cristallo e zirconio (come descritto)"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.80",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.00",
+              "maxPrice": "2.80",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quali varianti di colore sono disponibili per questo ciondolo della Madonna di Guadalupe?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Il ciondolo è disponibile nelle varianti Grigio, Bianco, Rosa, Blu e Verde."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Qual è il design di questo ciondolo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "È un ciondolo a forma ovale con inserti in cristallo colorato e dettagli in zirconio, che rappresenta la Madonna di Guadalupe."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Posso usare questo ciondolo per creare collane?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sì, è un ciondolo progettato per l'assemblaggio di collane, adatto per la creazione di gioielli o per la vendita al dettaglio."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "09f650ff2f051d08b8debc55336c37ada054d9d7fecc97ba074bf97dbd13c770",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "09f650ff2f051d08b8debc55336c37ada054d9d7fecc97ba074bf97dbd13c770",
+            "contentHash": "09f650ff2f051d08b8debc55336c37ada054d9d7fecc97ba074bf97dbd13c770",
+            "attempts": 0,
+            "updatedAt": "2026-08-12T04:11:50.672Z",
+            "model": "deepseek-v4-flash"
+          },
+          "it": {
+            "status": "ready",
+            "sourceHash": "09f650ff2f051d08b8debc55336c37ada054d9d7fecc97ba074bf97dbd13c770",
+            "contentHash": "4a5569d7d64c4a15aa865ca0b59b93d68590489b315bb257f00527cfa69e7416",
+            "attempts": 1,
+            "updatedAt": "2026-08-12T04:15:41.489Z",
             "model": "deepseek-v4-flash"
           }
         }

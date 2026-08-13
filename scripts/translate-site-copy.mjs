@@ -70,7 +70,7 @@ const isLikelyInternationalLabel = (value) => {
   if (/[.!?;:]/.test(text)) return false;
   if (/[\u2013\u2014]/.test(text)) return false;
   if (text.split(/\s+/).length > 6) return false;
-  if (!/^[\p{L}\p{N}][\p{L}\p{N}\s&'\u2019\u00b7/()\-,]*$/u.test(text)) return false;
+  if (!/^[\p{L}\p{N}$+%/][\p{L}\p{N}\s&'\u2019\u00b7/()\-,$+%#]*$/u.test(text)) return false;
   return true;
 };
 const previous = await readFile(outputFile, 'utf8')

@@ -66,6 +66,55 @@ const postCollection = defineCollection({
   }),
 });
 
+const guideCardItem = () =>
+  z.object({
+    title: z.string(),
+    text: z.string(),
+    badge: z.string().optional(),
+    label: z.string().optional(),
+    labelValue: z.string().optional(),
+  });
+
+// Guides are technical blog entries rendered under /guides/ from Markdown/MDX.
+// Reusable block data lives in the frontmatter so the shared layout can render
+// comparison tables, card grids and checklists without page-specific code.
+const guideCollection = defineCollection({
+  loader: glob({ pattern: ['*.md', '*.mdx'], base: 'src/data/guide' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    excerpt: z.string().optional(),
+    publishDate: z.date().optional(),
+    updateDate: z.date().optional(),
+    draft: z.boolean().optional(),
+    category: z.string().optional(),
+    tags: z.array(z.string()).optional(),
+    image: z.string().optional(),
+
+    comparison: z.array(z.array(z.string())).optional(),
+    cardItems: z.array(guideCardItem()).optional(),
+    beadMaterials: z.array(guideCardItem()).optional(),
+    metalMaterials: z.array(guideCardItem()).optional(),
+    checklist: z.array(z.string()).optional(),
+    bulletChecks: z.array(z.string()).optional(),
+
+    cta: z
+      .object({
+        eyebrow: z.string().optional(),
+        title: z.string().optional(),
+        body: z.string().optional(),
+        primaryLabel: z.string().optional(),
+        primaryHref: z.string().optional(),
+        buttonLabel: z.string().optional(),
+        buttonHref: z.string().optional(),
+      })
+      .optional(),
+
+    metadata: metadataDefinition(),
+  }),
+});
+
 export const collections = {
   post: postCollection,
+  guide: guideCollection,
 };

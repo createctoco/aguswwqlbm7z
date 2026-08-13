@@ -1,0 +1,67 @@
+---
+title: 8 mm vs. 10 mm Rosary Beads
+description: Compare 8 mm and 10 mm beads for wholesale rosary sourcing.
+excerpt: Compare 8 mm and 10 mm beads for wholesale rosary sourcing.
+category: Specifications
+publishDate: 2026-08-08
+updateDate: 2026-08-08
+tags:
+  - sizing
+  - beads
+comparison:
+  - ['8 mm', 'Lighter and compact', 'Everyday rosaries and bracelets']
+  - ['10 mm', 'More substantial', 'Gift sets and statement pieces']
+cardItems:
+  - title: 8 mm
+    badge: Lighter and compact
+    label: Common direction
+    labelValue: Everyday rosaries and bracelets
+    text: >-
+      An 8 mm rosary feels lighter on the wrist and in the hand, sits neatly in a pocket or small gift box, and suits daily carry, travel, and one-decade styles.
+  - title: 10 mm
+    badge: More substantial
+    label: Common direction
+    labelValue: Gift sets and statement pieces
+    text: >-
+      A 10 mm rosary has stronger visual presence and easier handling. The larger beads read clearly in product photos and give a more substantial, premium gift presentation.
+bulletChecks:
+  - 'Material density — a dense bead such as stone or glass weighs more than wood or acrylic at the same size.'
+  - 'Connector style — chain, cord, knots, and elastic all change how the rosary drapes and handles.'
+  - 'Medal and centerpiece size — larger components need enough bead spacing to balance the finished piece.'
+  - 'Crucifix weight — a heavier crucifix can change the balance and feel of the whole rosary.'
+cta:
+  eyebrow: Need help deciding?
+  title: Tell us your target market and bead size preference.
+  body: >-
+    Share the destination market, intended user, bead material, and packaging format. We will confirm what is available and help you compare samples before ordering.
+  primaryLabel: Explore product concepts
+  primaryHref: /products
+  buttonLabel: Discuss your requirements
+  buttonHref: /contact
+---
+
+import GuideTable from '~/components/guides/GuideTable.astro';
+import GuideSection from '~/components/guides/GuideSection.astro';
+import GuideCards from '~/components/guides/GuideCards.astro';
+import GuideChecklist from '~/components/guides/GuideChecklist.astro';
+import GuideSplit from '~/components/guides/GuideSplit.astro';
+
+<GuideSection>
+  <GuideCards items={frontmatter.cardItems} columns={2} />
+</GuideSection>
+
+<GuideSection eyebrow="At a glance" title="Size comparison" background="muted">
+  <GuideTable columns={['Size', 'Feel', 'Common direction']} rows={frontmatter.comparison} minWidth="560px" />
+</GuideSection>
+
+<GuideSection eyebrow="Beyond bead size" title="Consider the complete construction">
+  <GuideSplit>
+    <div class="flex flex-col justify-center leading-8 text-muted">
+      <p>
+        Bead size is only one factor. The material, connectors, medals, and crucifix all contribute to how a finished
+        rosary feels, drapes, and presents.
+      </p>
+    </div>
+    <GuideChecklist items={frontmatter.bulletChecks} />
+  </GuideSplit>
+</GuideSection>

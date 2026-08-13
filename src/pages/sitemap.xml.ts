@@ -16,7 +16,7 @@ const staticPaths = [
   '/guides',
   '/guides/choosing-rosary-materials',
   '/guides/8mm-vs-10mm-beads',
-  '/help',
+  '/faq',
   '/our-story',
   '/payment',
   '/privacy',

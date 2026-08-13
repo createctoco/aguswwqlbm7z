@@ -3,6 +3,7 @@ import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 
 import localeData from '../src/i18n/locales.json' with { type: 'json' };
+import { normalizeCopy } from './site-copy-html.mjs';
 
 const locale = String(process.env.OUOOO_LOCALE || '')
   .trim()
@@ -63,6 +64,15 @@ const mayRemainUnchanged = (value) =>
   (locale === 'it' && value === 'Privacy') ||
   /^[\d,.]+\s*(?:mm|cm|m(?:²|2)?|kg|g)$/i.test(value) ||
   /(?:Ltd\.?|Road|Street|Tower|Hong Kong|HK$)/i.test(value);
+const isLikelyInternationalLabel = (value) => {
+  const text = normalizeCopy(value);
+  if (text.length < 2 || text.length > 80) return false;
+  if (/[.!?;:]/.test(text)) return false;
+  if (/[\u2013\u2014]/.test(text)) return false;
+  if (text.split(/\s+/).length > 6) return false;
+  if (!/^[\p{L}\p{N}][\p{L}\p{N}\s&'\u2019\u00b7/()\-,]*$/u.test(text)) return false;
+  return true;
+};
 const previous = await readFile(outputFile, 'utf8')
   .then(JSON.parse)
   .catch(() => null);
@@ -113,6 +123,7 @@ async function translateChunk(entries) {
   const system = `Translate OUOOO website copy from English into ${definition.label} (${locale}). Return only valid JSON in exactly this shape: {"translations":{"id":"translation"}}. Preserve every supplied id exactly and return every id. Translate naturally for a professional B2B Catholic-gifts website. Preserve OUOOO, WhatsApp, WeChat, email addresses, URLs, product identifiers, numbers, currencies, placeholders in braces, and factual meaning. Translate Catholic terminology accurately. Do not add claims, explanations, markdown, HTML, or source branding. Keep interface labels concise. For Arabic use natural RTL Arabic; for Chinese use the requested script.`;
   let lastError;
   let remaining = [...entries];
+  let sawResponse = false;
   for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
     try {
       const requested = Object.fromEntries(remaining.map(({ id, source: text }) => [id, text]));
@@ -167,6 +178,7 @@ async function translateChunk(entries) {
           ready.set(id, { id, source: sourceText, translation });
         } else missing.push({ id, source: sourceText });
       }
+      sawResponse = true;
       if (missing.length === 0) return;
       remaining = missing;
       await writeCheckpoint();
@@ -175,6 +187,27 @@ async function translateChunk(entries) {
       lastError = error;
     }
     if (attempt < maxAttempts) await delay(Math.min(15000, 800 * 2 ** (attempt - 1)));
+  }
+  // Fallback: strings that DeepSeek keeps returning unchanged across every
+  // retry are almost always short international terms (for example
+  // "Checklist" or "Hardware", which are loanwords in many locales). Keep
+  // those in English instead of failing the whole deployment. Longer or
+  // sentence-like copy still fails loudly so genuine untranslated text is
+  // never published silently.
+  if (sawResponse) {
+    const accepted = remaining.filter(({ source }) => isLikelyInternationalLabel(source));
+    for (const entry of accepted) {
+      ready.set(entry.id, { id: entry.id, source: entry.source, translation: entry.source });
+      process.stdout.write(`[OUOOO] ${locale}: keeping "${entry.source}" in English (international label).\n`);
+    }
+    await writeCheckpoint();
+    const hardMissing = remaining.filter(({ source }) => !isLikelyInternationalLabel(source));
+    if (hardMissing.length) {
+      throw new Error(
+        `DeepSeek omitted ${hardMissing.length} site-copy ids: ${hardMissing.map(({ id, source }) => `${id}: ${source}`).join(' | ')}`
+      );
+    }
+    return;
   }
   throw lastError || new Error('Site-copy translation failed.');
 }

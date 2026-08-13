@@ -1,0 +1,136 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'B2B Return & Resolution Policy – OUOOO',
+  description:
+    'OUOOO serves wholesale and professional buyers. Learn how returns, claims, and after-sales resolutions are handled for B2B orders.',
+};
+
+const inspectionItems = [
+  'Product reference and order or quotation reference.',
+  'Quantity received and quantity affected.',
+  'Photos of the outer carton, shipping label, inner packaging, and affected products.',
+  'Clear close-up photos or video showing the issue.',
+  'A short description of the requested resolution.',
+];
+
+const eligibleItems = [
+  'Products materially different from the approved sample or written specification.',
+  'Incorrect product, color, or variant supplied.',
+  'Verified shortages.',
+  'Significant manufacturing defects beyond agreed tolerances.',
+  'Transit damage where the applicable shipping arrangement makes a claim possible.',
+];
+
+const notReturnableItems = [
+  'Customized, private-label, made-to-order, or specially sourced goods that match the approved sample or specification.',
+  'Goods affected by change of mind, slow sales, market preference, or an incorrect specification supplied or approved by the buyer.',
+  'Products that have been used, altered, repacked, relabeled, damaged after delivery, or cannot be resold.',
+  'Reasonable variations in natural grain, stone pattern, handmade details, plating tone, or batch color that fall within the approved standard.',
+  'Claims submitted after the agreed inspection period without evidence of a hidden defect.',
+];
+---
+
+<Layout metadata={metadata}>
+  <section class="bg-[#f6f1e8]">
+    <div class="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+      <p class="text-xs font-semibold uppercase tracking-[.16em] text-primary">After-sales</p>
+      <h1 class="mt-4 max-w-3xl text-4xl font-semibold sm:text-5xl">B2B Return &amp; Resolution Policy</h1>
+      <p class="mt-6 max-w-3xl text-lg leading-8 text-muted">
+        OUOOO serves wholesale and professional buyers. B2B products may be sourced, packed, customized, or produced for
+        a specific order, so returns are handled differently from consumer retail returns. The quotation, approved
+        sample, written specification, and order confirmation for a transaction take priority where they contain
+        specific after-sales terms.
+      </p>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-6 py-16">
+    <div class="grid gap-5 lg:grid-cols-2">
+      <article class="rounded-2xl border border-black/10 bg-white p-7">
+        <h2 class="text-xl font-semibold">Check goods promptly</h2>
+        <p class="mt-4 leading-7 text-muted">
+          Inspect cartons, quantities, variants, and product condition as soon as the shipment arrives. Report visible
+          damage, shortages, incorrect items, or material quality concerns within
+          <strong class="text-gray-900"> 7 calendar days of delivery</strong> unless the written order terms specify another
+          period.
+        </p>
+        <p class="mt-4 text-sm font-semibold text-primary">Include:</p>
+        <ul class="mt-2 space-y-2">
+          {
+            inspectionItems.map((item) => (
+              <li class="flex items-start gap-3 leading-7 text-muted">
+                <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                <span>{item}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </article>
+
+      <article class="rounded-2xl bg-[#f1ece5] p-7">
+        <h2 class="text-xl font-semibold">Issues eligible for review</h2>
+        <ul class="mt-4 space-y-3">
+          {
+            eligibleItems.map((item) => (
+              <li class="flex items-start gap-3 leading-7 text-gray-700">
+                <span class="mt-1 text-primary">✓</span>
+                <span>{item}</span>
+              </li>
+            ))
+          }
+        </ul>
+        <p class="mt-4 leading-7 text-muted">
+          Depending on the facts, an agreed resolution may include replacement, rework, replenishment, credit, partial
+          refund, or refund. No remedy is automatic until the evidence, responsibility, and practical solution have been
+          reviewed.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="bg-[#f4f5f2] py-16">
+    <div class="mx-auto max-w-6xl px-6">
+      <p class="text-xs font-semibold uppercase tracking-[.16em] text-primary">Not returnable</p>
+      <h2 class="mt-3 text-3xl font-semibold">Items generally not returnable</h2>
+      <div class="mt-8 grid gap-4 md:grid-cols-2">
+        {notReturnableItems.map((item) => <div class="rounded-2xl bg-white p-5 leading-7 text-muted">{item}</div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-6 py-16">
+    <div class="grid gap-5 md:grid-cols-2">
+      <article class="rounded-2xl bg-[#f6f1e8] p-7">
+        <h2 class="text-xl font-semibold">Samples and bulk orders</h2>
+        <p class="mt-4 leading-7 text-muted">
+          For large or specification-sensitive orders, we strongly recommend approving a physical sample before bulk
+          production. Approval confirms the expected material, construction, color, dimensions, packaging, and
+          workmanship standard.
+        </p>
+      </article>
+      <article class="rounded-2xl border border-black/10 bg-white p-7">
+        <h2 class="text-xl font-semibold">Return authorization and shipping</h2>
+        <p class="mt-4 leading-7 text-muted">
+          Do not return goods without written authorization and a confirmed return address. Unauthorized returns may be
+          rejected. Responsibility for return freight, duties, and related costs depends on the cause of the issue and
+          the agreed shipping terms. Keep the products and packaging available while a claim is being reviewed.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="border-t border-black/10">
+    <div class="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-16 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-[.16em] text-primary">Contact us</p>
+        <h2 class="mt-3 text-3xl font-semibold">Send an after-sales request</h2>
+        <p class="mt-3 text-muted">
+          Email intl@ouooo.com or use the contact page. We will confirm the next step in writing.
+        </p>
+      </div>
+      <a class="btn-primary shrink-0" href="/contact">Contact OUOOO</a>
+    </div>
+  </section>
+</Layout>

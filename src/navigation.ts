@@ -43,7 +43,6 @@ export const footerData = {
         { text: 'Stock wholesale', href: '/stock-wholesale' },
         { text: 'Sourcing agent', href: '/sourcing-agent' },
         { text: 'Payment methods', href: '/payment' },
-        { text: 'Customization', href: '/customization' },
       ],
     },
     {
@@ -57,14 +56,14 @@ export const footerData = {
     {
       title: 'Help Center',
       links: [
-        { text: 'Help & FAQ', href: '/help' },
+        { text: 'FAQ', href: '/faq' },
         { text: 'Customization', href: '/customization' },
         { text: 'Return policy', href: '/returns' },
         { text: 'Contact support', href: '/contact' },
       ],
     },
   ],
-  secondaryLinks: [{ text: 'Privacy Policy', href: '/privacy' }],
+  secondaryLinks: [],
   description:
     'An independent B2B sourcing catalog for wholesale rosaries, Catholic gifts, and custom religious products.',
   socialLinks: [],

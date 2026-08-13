@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-12T04:12:02.394Z",
+  "generatedAt": "2026-08-13T04:17:13.952Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAE1TG7BAOVioqqEY6erJUkY",
-      "AAESTG7BAOVioqqEY6ePmyw4",
-      "AAGRTG7BAOVioqqEY6eBTPzE",
-      "AAHVTG7BAOVioqqEY6eBT7FQ",
-      "AAEoTG7BAOVioqqEY6eBSGjz",
-      "AAFwTG7BAOVioqqEY6eBUaR2",
-      "AAHITG7BAOVioqqEY6eBTW-H",
-      "AAGETG7BAOVioqqEY6eC0sLq",
-      "AAFBTG7BAOVioqqEY6eBSfd8",
-      "AAGrTG7BAOVioqqEY6eBTc0M"
+      "AAFiTG7BAOVioqqEY6ePmkxp",
+      "AAHmTG7BAOVioqqEY6edI_sn",
+      "AAGVTG7BAOVioqqEY6e0jt3y",
+      "AAGtTG7BAOVioqqEY6eBSqS6",
+      "AAHTTG7BAOVioqqEY6eehH-u",
+      "AAEKTG7BAOVioqqEY6eBTQst",
+      "AAHiTG7BAOVioqqEY6ey4Kuh",
+      "AAGOTG7BAOVioqqEY6eFcrbd",
+      "AAGsTG7BAOVioqqEY6egT6-K",
+      "AAHcTG7BAOVioqqEY6eZrdw2"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 9,
-    "reused": 200,
-    "source_fallback": 1
+    "generated": 8,
+    "reused": 210,
+    "source_fallback": 2
   },
   "products": [
     {
@@ -43471,12 +43471,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "8d0f19d7727fdf762fa1c4d09cd2ddfb3f207bee6b6c19b837bcc5a3d6971453",
+        "sourceHash": "e5e699041b8f439e8d92f0fa302f6b9e6e74a363a2e759ab337998daa2e60178",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "8d0f19d7727fdf762fa1c4d09cd2ddfb3f207bee6b6c19b837bcc5a3d6971453",
-            "contentHash": "8d0f19d7727fdf762fa1c4d09cd2ddfb3f207bee6b6c19b837bcc5a3d6971453",
+            "sourceHash": "e5e699041b8f439e8d92f0fa302f6b9e6e74a363a2e759ab337998daa2e60178",
+            "contentHash": "e5e699041b8f439e8d92f0fa302f6b9e6e74a363a2e759ab337998daa2e60178",
             "attempts": 0,
             "updatedAt": "2026-08-12T04:11:42.388Z",
             "model": "deepseek-v4-flash"
@@ -44479,12 +44479,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "ffc7e380fa709ee920b204032d140ce0147a144314ec3421e640a4a45fda5059",
+        "sourceHash": "7475db24239339ce1195b37bde70e4885cfa27aca1ff96a35df01e752a787241",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "ffc7e380fa709ee920b204032d140ce0147a144314ec3421e640a4a45fda5059",
-            "contentHash": "ffc7e380fa709ee920b204032d140ce0147a144314ec3421e640a4a45fda5059",
+            "sourceHash": "7475db24239339ce1195b37bde70e4885cfa27aca1ff96a35df01e752a787241",
+            "contentHash": "7475db24239339ce1195b37bde70e4885cfa27aca1ff96a35df01e752a787241",
             "attempts": 0,
             "updatedAt": "2026-08-12T04:11:52.927Z",
             "model": "deepseek-v4-flash"
@@ -44679,12 +44679,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "9446eddaaca9b0dc07e11d9375704402b16fcfe7af5ad8a3d9ba8e222f045824",
+        "sourceHash": "917e3aa652ace5649cde46a78e1b877ecb2e2bed533f75c8e722b4b04e7da910",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "9446eddaaca9b0dc07e11d9375704402b16fcfe7af5ad8a3d9ba8e222f045824",
-            "contentHash": "9446eddaaca9b0dc07e11d9375704402b16fcfe7af5ad8a3d9ba8e222f045824",
+            "sourceHash": "917e3aa652ace5649cde46a78e1b877ecb2e2bed533f75c8e722b4b04e7da910",
+            "contentHash": "917e3aa652ace5649cde46a78e1b877ecb2e2bed533f75c8e722b4b04e7da910",
             "attempts": 0,
             "updatedAt": "2026-08-12T04:11:56.176Z",
             "model": "deepseek-v4-flash"
@@ -44919,6 +44919,2082 @@
             "contentHash": "09f650ff2f051d08b8debc55336c37ada054d9d7fecc97ba074bf97dbd13c770",
             "attempts": 0,
             "updatedAt": "2026-08-12T04:11:50.672Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFiTG7BAOVioqqEY6ePmkxp",
+      "sourceId": "AAFiTG7BAOVioqqEY6ePmkxp",
+      "sourceFingerprint": "7930fdab84906740642d2f0955285a51a4c54b421d64ee78b32c3ebd46e23e67",
+      "locale": "en",
+      "slug": "6mm-rosary-beaded-bracelet-with-rose-cross-crucifix-epmkxp",
+      "title": "6mm Rosary Beaded Bracelet with Rose Cross Crucifix",
+      "eyebrow": "rosary bracelet",
+      "summary": "This handmade rosary bracelet strings 6mm beads with a rose cross crucifix accent. Choose gold or silver finish. A practical devotional accessory for personal prayer or as a meaningful gift.",
+      "description": "This rosary bracelet features a 6mm bead design and a distinctive rose cross crucifix. The handmade construction gives it a crafted feel, while the gold or silver finishes offer options to match personal style. The compact size suits daily wear, allowing it to be kept close for moments of prayer. As a devotional item, it aligns with the Catholic tradition of using rosary beads for contemplation of the mysteries of Christ's life. Whether for personal use or as a gift, this bracelet serves as a tangible reminder of faith.",
+      "catholicContext": "A crucifix, which bears the image of Christ crucified, is a traditional focal point in Catholic devotion, distinguishing it from a plain cross.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAFiTG7BAOVioqqEY6ePmkxp",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Ha2c289e3dee948af8c136b3c0657ea73E.webp",
+      "imageAlt": "6mm Rosary Beaded Bracelet with Rose Cross Crucifix",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha2c289e3dee948af8c136b3c0657ea73E.webp",
+          "alt": "6mm Rosary Beaded Bracelet with Rose Cross Crucifix"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc4d443115f684181a4fe9c29cba1f39af.webp",
+          "alt": "6mm Rosary Beaded Bracelet with Rose Cross Crucifix"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31b8ba713aef404e8ea6281076313cccO.webp",
+          "alt": "6mm Rosary Beaded Bracelet with Rose Cross Crucifix"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0dfd63ad12f4e249cacbf4e82e22577v.webp",
+          "alt": "6mm Rosary Beaded Bracelet with Rose Cross Crucifix"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf3a61f87697a47dda2ea7252a6cec797j.webp",
+          "alt": "6mm Rosary Beaded Bracelet with Rose Cross Crucifix"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H366421d172294d9ab26e677ce13a0774F.webp",
+          "alt": "6mm Rosary Beaded Bracelet with Rose Cross Crucifix - silver",
+          "label": "silver",
+          "sku": "ALI-AAFiTG7BAOVioqqEY6ePmkxp-V-3460547"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H88142afd6d9747b0a8e1c9e174eced7fU.webp",
+          "alt": "6mm Rosary Beaded Bracelet with Rose Cross Crucifix - gold",
+          "label": "gold",
+          "sku": "ALI-AAFiTG7BAOVioqqEY6ePmkxp-V-3331116"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Handmade construction",
+        "6mm bead size",
+        "Rose cross crucifix design",
+        "Available in gold or silver finish",
+        "Compact bracelet style"
+      ],
+      "specifications": [
+        {
+          "name": "Bead Size",
+          "value": "6mm"
+        },
+        {
+          "name": "Design",
+          "value": "Rosary bracelet"
+        },
+        {
+          "name": "Variant",
+          "value": "Gold or Silver"
+        }
+      ],
+      "applications": [
+        "Personal prayer and meditation",
+        "Everyday accessory",
+        "Gift for religious occasions",
+        "Devotional use"
+      ],
+      "faq": [
+        {
+          "question": "What are the available color options?",
+          "answer": "The bracelet is available in gold or silver finishes, allowing you to choose based on preference."
+        },
+        {
+          "question": "Is the bracelet handmade?",
+          "answer": "Yes, the product is described as handmade, indicating crafted construction."
+        },
+        {
+          "question": "What is the bead size?",
+          "answer": "The beads measure 6mm in diameter, making it a compact and comfortable bracelet."
+        }
+      ],
+      "pricing": {
+        "price": "0.37",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.28",
+          "max": "0.37"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "6mm Rosary Beaded Bracelet with Rose Cross Crucifix",
+          "description": "Handmade 6mm rosary bracelet featuring a rose cross crucifix, available in gold or silver. A stylish accessory for prayer and daily wear.",
+          "sku": "ALI-AAFiTG7BAOVioqqEY6ePmkxp",
+          "image": [
+            "https://sc04.alicdn.com/kf/Ha2c289e3dee948af8c136b3c0657ea73E.png",
+            "https://sc04.alicdn.com/kf/Hc4d443115f684181a4fe9c29cba1f39af.png",
+            "https://sc04.alicdn.com/kf/H31b8ba713aef404e8ea6281076313cccO.png",
+            "https://sc04.alicdn.com/kf/Hb0dfd63ad12f4e249cacbf4e82e22577v.png",
+            "https://sc04.alicdn.com/kf/Hf3a61f87697a47dda2ea7252a6cec797j.png"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Bead Size",
+              "value": "6mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Rosary bracelet"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Gold or Silver"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.37",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.28",
+              "maxPrice": "0.37",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the available color options?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet is available in gold or silver finishes, allowing you to choose based on preference."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the bracelet handmade?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product is described as handmade, indicating crafted construction."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the bead size?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads measure 6mm in diameter, making it a compact and comfortable bracelet."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "82c06190e4c7cd5b7d6e94949ce0dd56efac714485a687c00e04b700c7faf089",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "82c06190e4c7cd5b7d6e94949ce0dd56efac714485a687c00e04b700c7faf089",
+            "contentHash": "82c06190e4c7cd5b7d6e94949ce0dd56efac714485a687c00e04b700c7faf089",
+            "attempts": 0,
+            "updatedAt": "2026-08-13T04:16:38.502Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHmTG7BAOVioqqEY6edI_sn",
+      "sourceId": "AAHmTG7BAOVioqqEY6edI_sn",
+      "sourceFingerprint": "ffd6a95a4633c9a9f3416fd0e6b6a67829d16395442e5aaac494a9c34145381a",
+      "locale": "en",
+      "slug": "stainless-steel-oval-cross-pendant-necklace-edi_sn",
+      "title": "Stainless Steel Oval Cross Pendant Necklace",
+      "eyebrow": "Stainless Steel Oval Cross Pendant Necklace",
+      "summary": "This stainless steel cross pendant features an oval design with engraved lettering. Offered in four finishes—gold, rose gold, black, and silver—it suits both casual and formal wear, making it a versatile addition to any jewelry collection.",
+      "description": "The pendant's oval silhouette and engraved lettering give it a distinctive look that sets it apart from standard cross designs. The smooth surface and defined edges catch light subtly, adding visual interest without being overpowering.\n\nCrafted from stainless steel, this necklace is built for daily wear. The material resists tarnish and corrosion, ensuring the cross maintains its finish over time. The available color options allow for personal expression: classic gold, warm rose gold, sleek black, or bright silver.\n\nWe source this piece as part of our Catholic jewelry collection, suitable for those who want to wear their faith in a modern style.",
+      "catholicContext": "In Catholic tradition, the cross is a central symbol of faith, often worn as an expression of personal devotion.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAHmTG7BAOVioqqEY6edI_sn",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc09c60fa30cf4d42b2d1760fe1f8a943N.webp",
+      "imageAlt": "Stainless Steel Oval Cross Pendant Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc09c60fa30cf4d42b2d1760fe1f8a943N.webp",
+          "alt": "Stainless Steel Oval Cross Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0c5a90a6fa1b4053a27836868a1e3dd5k.webp",
+          "alt": "Stainless Steel Oval Cross Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9d6da5b881a649efb2870f73413981faV.webp",
+          "alt": "Stainless Steel Oval Cross Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hea6205430fbc4d0f9e6cc87ed7e90132P.webp",
+          "alt": "Stainless Steel Oval Cross Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H43df2ad7658d42009e41a9732997d1d0Q.webp",
+          "alt": "Stainless Steel Oval Cross Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4131c360ae704cfd885b32eea8885446V.webp",
+          "alt": "Stainless Steel Oval Cross Pendant Necklace"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9c76765b30bc4882b5651704888c3063M.webp",
+          "alt": "Stainless Steel Oval Cross Pendant Necklace - gold",
+          "label": "gold",
+          "sku": "ALI-AAHmTG7BAOVioqqEY6edI_sn-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f2a9c9d038341258d1eff6876c94fbaA.webp",
+          "alt": "Stainless Steel Oval Cross Pendant Necklace - silver",
+          "label": "silver",
+          "sku": "ALI-AAHmTG7BAOVioqqEY6edI_sn-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2995a8963017467f838eedc6616d329ep.webp",
+          "alt": "Stainless Steel Oval Cross Pendant Necklace - rose-gold",
+          "label": "rose-gold",
+          "sku": "ALI-AAHmTG7BAOVioqqEY6edI_sn-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haeaea46b66fa435a85ebdc72d2d5cf7cN.webp",
+          "alt": "Stainless Steel Oval Cross Pendant Necklace - black",
+          "label": "black",
+          "sku": "ALI-AAHmTG7BAOVioqqEY6edI_sn-V--4"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Oval cross pendant with engraved lettering",
+        "Stainless steel construction for durability",
+        "Available in rose gold, black, gold, and silver",
+        "Fashion design suitable for everyday wear"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Stainless steel"
+        },
+        {
+          "name": "Design",
+          "value": "Fashion"
+        },
+        {
+          "name": "Available Colors",
+          "value": "Rose Gold, Black, Gold, Silver"
+        }
+      ],
+      "applications": [
+        "Everyday wear as a cross necklace",
+        "Religious jewelry for personal devotion",
+        "Gift for confirmations or baptisms",
+        "Layering with other necklaces"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this cross pendant made of?",
+          "answer": "The pendant is made of stainless steel, which is resistant to tarnish and corrosion, making it suitable for daily wear."
+        },
+        {
+          "question": "What color options are available for this cross necklace?",
+          "answer": "It comes in four finishes: rose gold, black, gold, and silver, allowing you to choose based on your style preference."
+        },
+        {
+          "question": "Is this a crucifix or a cross?",
+          "answer": "The product is described as a cross pendant without a corpus, so it is a plain cross, not a crucifix."
+        }
+      ],
+      "pricing": {
+        "price": "0.93",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.93",
+          "max": "1.20"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Stainless Steel Oval Cross Pendant Necklace",
+          "description": "Discover our stainless steel oval cross pendant necklace with engraved lettering. Available in gold, rose gold, black, and silver. Ideal for Catholic jewelry.",
+          "sku": "ALI-AAHmTG7BAOVioqqEY6edI_sn",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc09c60fa30cf4d42b2d1760fe1f8a943N.jpg",
+            "https://sc04.alicdn.com/kf/H0c5a90a6fa1b4053a27836868a1e3dd5k.jpg",
+            "https://sc04.alicdn.com/kf/H9d6da5b881a649efb2870f73413981faV.jpg",
+            "https://sc04.alicdn.com/kf/Hea6205430fbc4d0f9e6cc87ed7e90132P.jpg",
+            "https://sc04.alicdn.com/kf/H43df2ad7658d42009e41a9732997d1d0Q.jpg",
+            "https://sc04.alicdn.com/kf/H4131c360ae704cfd885b32eea8885446V.jpg"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Stainless steel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Fashion"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Available Colors",
+              "value": "Rose Gold, Black, Gold, Silver"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.93",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.93",
+              "maxPrice": "1.20",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this cross pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is made of stainless steel, which is resistant to tarnish and corrosion, making it suitable for daily wear."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available for this cross necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It comes in four finishes: rose gold, black, gold, and silver, allowing you to choose based on your style preference."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this a crucifix or a cross?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product is described as a cross pendant without a corpus, so it is a plain cross, not a crucifix."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "471454cfd29205de2ba87166da688296635983f902e16ab868590587116aaf19",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "471454cfd29205de2ba87166da688296635983f902e16ab868590587116aaf19",
+            "contentHash": "471454cfd29205de2ba87166da688296635983f902e16ab868590587116aaf19",
+            "attempts": 0,
+            "updatedAt": "2026-08-13T04:16:40.889Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGVTG7BAOVioqqEY6e0jt3y",
+      "sourceId": "AAGVTG7BAOVioqqEY6e0jt3y",
+      "sourceFingerprint": "3b84fb4ed9b2c3456e3d175739fbb25fe49dc85a1e4a16d24535eee4393a798e",
+      "locale": "en",
+      "slug": "moyamiya-gold-plated-metal-material-jewelry-clasps-necklace-e0jt3y",
+      "title": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace",
+      "eyebrow": "Accessories",
+      "summary": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace Bracelet Heart Butterfly Beads Loose Handmade DIY Accessories",
+      "description": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace Bracelet Heart Butterfly Beads Loose Handmade DIY Accessories",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H432da00df0f3485c829074b4fb94186fB.webp",
+      "imageAlt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H432da00df0f3485c829074b4fb94186fB.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd0344f47ed6149ebb398810509484f28d.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9ea46ba35cfc4f8799838debfdc52d55O.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc3137deee1ef475cb22919efe2305afbx.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1af78afef8ac48d080c586f97ef4c44e0.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4f3a3fe273a3463bb04b7826cfef1399j.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb53f41e0ff4446c4b208e9aaeb98a219P.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 13",
+          "label": "13",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5825f72f9cd7446dbf9b5d6a23b3e55ag.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 14",
+          "label": "14",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H127f094617c84f73b3ba121c5c469239E.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 9",
+          "label": "9",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H275e019b7c784706932186d253b9d714L.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 10",
+          "label": "10",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H34a2e101f76240cbbd8ba356f3fd6849E.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 11",
+          "label": "11",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf64e6a8116e44b9c8fbb85fa8e6a6355H.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 12",
+          "label": "12",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc61fb8e0075b4d9abfdfb394c87aa668B.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 5",
+          "label": "5",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hadfd7e9c92b14025a0f628c68e016478z.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 6",
+          "label": "6",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd23acdc715194701871dd72171f89cd3s.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 7",
+          "label": "7",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H42bc35eb309e45eebb63d1164c4a8eb3X.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 8",
+          "label": "8",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H694f67af16c34e0fa2316cb657b6039bv.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 1",
+          "label": "1",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha35212a6c98f47b8827bb057132f4836f.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 2",
+          "label": "2",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He93e245788a04c5ca1d1146dafb64699X.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 3",
+          "label": "3",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6625814c9e8346e5999df408da104a51l.webp",
+          "alt": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace - 4",
+          "label": "4",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y-V--4"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Variant: 1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.08",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.08",
+          "max": "0.22"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace",
+          "description": "Moyamiya Gold Plated Metal Material Jewelry Clasps Necklace Bracelet Heart Butterfly Beads Loose Handmade DIY Accessories",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6e0jt3y",
+          "image": [
+            "https://sc04.alicdn.com/kf/H432da00df0f3485c829074b4fb94186fB.png",
+            "https://sc04.alicdn.com/kf/Hd0344f47ed6149ebb398810509484f28d.png",
+            "https://sc04.alicdn.com/kf/H9ea46ba35cfc4f8799838debfdc52d55O.png",
+            "https://sc04.alicdn.com/kf/Hc3137deee1ef475cb22919efe2305afbx.png",
+            "https://sc04.alicdn.com/kf/H1af78afef8ac48d080c586f97ef4c44e0.png",
+            "https://sc04.alicdn.com/kf/H4f3a3fe273a3463bb04b7826cfef1399j.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.08",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.08",
+              "maxPrice": "0.22",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "3b1339e7bf7537511a974b84ce08e115e27c65470ac1effff05190d8b9af8d9c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "3b1339e7bf7537511a974b84ce08e115e27c65470ac1effff05190d8b9af8d9c",
+            "contentHash": "3b1339e7bf7537511a974b84ce08e115e27c65470ac1effff05190d8b9af8d9c",
+            "attempts": 0,
+            "updatedAt": "2026-08-13T04:17:02.253Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGtTG7BAOVioqqEY6eBSqS6",
+      "sourceId": "AAGtTG7BAOVioqqEY6eBSqS6",
+      "sourceFingerprint": "35f60c01e0a0c89087e07216d5c49b552812302fd703536be73fe79dd3cc4eef",
+      "locale": "en",
+      "slug": "stainless-steel-beaded-rosary-bracelet-watch-ebsqs6",
+      "title": "Stainless Steel Beaded Rosary Bracelet Watch",
+      "eyebrow": "Stainless steel beaded bracelet watch",
+      "summary": "A stainless steel beaded bracelet watch featuring a cross motif and pearl accents. This unisex religious-style accessory combines timekeeping with devotional jewelry. Crafted with channel-set stones and a princess-cut diamond shape, it offers a distinctive look for Catholic gift-giving.",
+      "description": "This beaded bracelet watch is made of stainless steel and presents a cross pattern, reflecting a Catholic religious theme. It includes pearl accents and uses a channel setting for its stones, which are princess cut. The bracelet type is beaded and designed for unisex wear. While it functions as a watch, it also serves as a piece of devotional jewelry reminiscent of rosary beads. The Catholic context connects it to the Rosary, a traditional prayer practice. This item is suitable as a gift, particularly for occasions like Father's Day.",
+      "catholicContext": "The Rosary is a Catholic prayer tradition centered on contemplation of the lives of Jesus and Mary, often expressed through beaded jewelry like this bracelet.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAGtTG7BAOVioqqEY6eBSqS6",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H1ec90fdcfd8648fc81a5974222b5ab163.webp",
+      "imageAlt": "Stainless Steel Beaded Rosary Bracelet Watch",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1ec90fdcfd8648fc81a5974222b5ab163.webp",
+          "alt": "Stainless Steel Beaded Rosary Bracelet Watch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0f64ad84ab5c41c5979aa999228e3679U.webp",
+          "alt": "Stainless Steel Beaded Rosary Bracelet Watch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdc03c5b000c24506ae7cb9ac820dd801w.webp",
+          "alt": "Stainless Steel Beaded Rosary Bracelet Watch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb7c9feba29d04439a1371df81b09932di.webp",
+          "alt": "Stainless Steel Beaded Rosary Bracelet Watch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H77929e8dc21f42e8b60c4971d339798e9.webp",
+          "alt": "Stainless Steel Beaded Rosary Bracelet Watch"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#7a6d92",
+      "features": [
+        "Stainless steel construction",
+        "Beaded bracelet style",
+        "Cross-shaped pattern",
+        "Pearl accents",
+        "Channel-set princess-cut stones",
+        "Unisex design"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Stainless Steel"
+        },
+        {
+          "name": "Bracelet Type",
+          "value": "Beaded"
+        },
+        {
+          "name": "Pattern",
+          "value": "Cross"
+        },
+        {
+          "name": "Main Stone",
+          "value": "None"
+        },
+        {
+          "name": "Setting",
+          "value": "Channel"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        }
+      ],
+      "applications": [
+        "Everyday religious jewelry",
+        "Gift for Catholic occasions",
+        "Devotional reminder",
+        "Father's Day present"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this bracelet watch made of?",
+          "answer": "The bracelet watch is made of stainless steel, with pearl accents and channel-set princess-cut stones."
+        },
+        {
+          "question": "Is this bracelet suitable for both men and women?",
+          "answer": "Yes, it is designed as a unisex beaded bracelet, making it suitable for all genders."
+        },
+        {
+          "question": "What does the cross pattern signify in Catholic context?",
+          "answer": "The cross is a central symbol of Christianity, representing the crucifixion of Jesus Christ. This bracelet's design aligns with Catholic devotional jewelry, which often includes crosses or rosary-inspired elements."
+        }
+      ],
+      "pricing": {
+        "price": "2.50",
+        "regularPrice": "2.50",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.98",
+          "max": "2.50"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Stainless Steel Beaded Rosary Bracelet Watch",
+          "description": "Unisex stainless steel beaded bracelet watch with cross design and pearl accents. Religious Catholic-style jewelry. Ideal as a gift.",
+          "sku": "ALI-AAGtTG7BAOVioqqEY6eBSqS6",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1ec90fdcfd8648fc81a5974222b5ab163.jpg",
+            "https://sc04.alicdn.com/kf/H0f64ad84ab5c41c5979aa999228e3679U.jpg",
+            "https://sc04.alicdn.com/kf/Hdc03c5b000c24506ae7cb9ac820dd801w.jpg",
+            "https://sc04.alicdn.com/kf/Hb7c9feba29d04439a1371df81b09932di.jpg",
+            "https://sc04.alicdn.com/kf/H77929e8dc21f42e8b60c4971d339798e9.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Stainless Steel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bracelet Type",
+              "value": "Beaded"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pattern",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "None"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Setting",
+              "value": "Channel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.50",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.98",
+              "maxPrice": "2.50",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this bracelet watch made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet watch is made of stainless steel, with pearl accents and channel-set princess-cut stones."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed as a unisex beaded bracelet, making it suitable for all genders."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does the cross pattern signify in Catholic context?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cross is a central symbol of Christianity, representing the crucifixion of Jesus Christ. This bracelet's design aligns with Catholic devotional jewelry, which often includes crosses or rosary-inspired elements."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "ecf2b7519994d4a7a3dd92a34fecff38e6e52567200201ad4221110fadbed7b5",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "ecf2b7519994d4a7a3dd92a34fecff38e6e52567200201ad4221110fadbed7b5",
+            "contentHash": "ecf2b7519994d4a7a3dd92a34fecff38e6e52567200201ad4221110fadbed7b5",
+            "attempts": 0,
+            "updatedAt": "2026-08-13T04:16:33.101Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHTTG7BAOVioqqEY6eehH-u",
+      "sourceId": "AAHTTG7BAOVioqqEY6eehH-u",
+      "sourceFingerprint": "9559ec8cda2a916230f016a9a049702135a803c6d5e2b16062b4744902744d35",
+      "locale": "en",
+      "slug": "wholesale-wooden-cross-bracelet-vintage-beaded-eehh-u",
+      "title": "Wholesale Wooden Cross Bracelet Vintage Beaded",
+      "eyebrow": "wooden cross bracelet",
+      "summary": "This vintage wooden bracelet features a cross pendant and black beads, handmade in a retro style. Suitable for men, it serves as a tactile reminder of faith. Ideal for Catholic gift shops or bulk purchasing.",
+      "description": "This wooden cross bracelet presents a rustic, vintage aesthetic with its matte black beads and carved cross accent. Crafted by hand, each piece reflects natural variations in wood grain, making every bracelet distinct. The sturdy elastic cord ensures a comfortable fit for most wrist sizes. As a cross bracelet, it holds significance in Christian tradition, symbolizing faith and remembrance. Priced for wholesale, it suits retailers and distributors seeking devotional accessories.",
+      "catholicContext": "The cross is a central symbol of Christianity, recalling the crucifixion of Jesus Christ.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAHTTG7BAOVioqqEY6eehH-u",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H6767a3bedd244dd89270833799f6a01b0.webp",
+      "imageAlt": "Wholesale Wooden Cross Bracelet Vintage Beaded",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6767a3bedd244dd89270833799f6a01b0.webp",
+          "alt": "Wholesale Wooden Cross Bracelet Vintage Beaded"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8e27a2dcdc13423085c13c32c921b01eS.webp",
+          "alt": "Wholesale Wooden Cross Bracelet Vintage Beaded"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5af0e30c9d9474387d090f65688ad26P.webp",
+          "alt": "Wholesale Wooden Cross Bracelet Vintage Beaded"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H98af752356e4444f84fe70f7a74c68d2D.webp",
+          "alt": "Wholesale Wooden Cross Bracelet Vintage Beaded"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb734167d89fc474baab71300c579177cW.webp",
+          "alt": "Wholesale Wooden Cross Bracelet Vintage Beaded"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Handmade from wood with a retro vintage style",
+        "Features a cross-shaped pendant",
+        "Black beaded design suitable for men",
+        "Elastic cord for easy wear",
+        "Wholesale pricing available"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Style",
+          "value": "Retro"
+        },
+        {
+          "name": "Treatment Process",
+          "value": "Handmade"
+        },
+        {
+          "name": "Modeling",
+          "value": "Cross"
+        }
+      ],
+      "applications": [
+        "Catholic gift shops and religious goods stores",
+        "Bulk orders for churches or ministries",
+        "Personal devotional reminder",
+        "Everyday accessory for casual wear"
+      ],
+      "faq": [
+        {
+          "question": "What material is this bracelet made of?",
+          "answer": "The bracelet is made of wood, with a black beaded design."
+        },
+        {
+          "question": "Is this bracelet adjustable?",
+          "answer": "It features an elastic cord, allowing flexibility to fit most wrist sizes, but it is not listed as adjustable."
+        },
+        {
+          "question": "Can I order this bracelet in bulk for my store?",
+          "answer": "Yes, this product is available for wholesale orders. Contact us for pricing and quantity options."
+        }
+      ],
+      "pricing": {
+        "price": "0.54",
+        "regularPrice": "0.54",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.47",
+          "max": "0.54"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wholesale Wooden Cross Bracelet Vintage Beaded",
+          "description": "Wholesale vintage wooden cross bracelet with black beads, handmade retro style. Ideal for Catholic gifts and jewelry. Available for bulk orders.",
+          "sku": "ALI-AAHTTG7BAOVioqqEY6eehH-u",
+          "image": [
+            "https://sc04.alicdn.com/kf/H6767a3bedd244dd89270833799f6a01b0.jpg",
+            "https://sc04.alicdn.com/kf/H8e27a2dcdc13423085c13c32c921b01eS.jpg",
+            "https://sc04.alicdn.com/kf/He5af0e30c9d9474387d090f65688ad26P.jpg",
+            "https://sc04.alicdn.com/kf/H98af752356e4444f84fe70f7a74c68d2D.jpg",
+            "https://sc04.alicdn.com/kf/Hb734167d89fc474baab71300c579177cW.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Retro"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Treatment Process",
+              "value": "Handmade"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Modeling",
+              "value": "Cross"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.54",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.47",
+              "maxPrice": "0.54",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this bracelet made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet is made of wood, with a black beaded design."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet adjustable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It features an elastic cord, allowing flexibility to fit most wrist sizes, but it is not listed as adjustable."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I order this bracelet in bulk for my store?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, this product is available for wholesale orders. Contact us for pricing and quantity options."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "754836b86075d1b5223117b9c65ff27b263347f6973e2bee3f7f4d89e53579b4",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "754836b86075d1b5223117b9c65ff27b263347f6973e2bee3f7f4d89e53579b4",
+            "contentHash": "754836b86075d1b5223117b9c65ff27b263347f6973e2bee3f7f4d89e53579b4",
+            "attempts": 0,
+            "updatedAt": "2026-08-13T04:16:39.038Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEKTG7BAOVioqqEY6eBTQst",
+      "sourceId": "AAEKTG7BAOVioqqEY6eBTQst",
+      "sourceFingerprint": "d8fbf4ea00638d50aaf70d4ce9881a2d79547cd34a57b08e085d7e47e204430c",
+      "locale": "en",
+      "slug": "saint-benedict-stainless-steel-bracelet-wholesale-ebtqst",
+      "title": "Saint Benedict Stainless Steel Bracelet Wholesale",
+      "eyebrow": "stainless steel saint benedict bracelet",
+      "summary": "A Saint Benedict bracelet with a titanium steel build and gold-tone variants. This metal bracelet offers a durable choice for daily wear. We source it for wholesale orders and can assist with bulk inquiries.",
+      "description": "This Saint Benedict bracelet is made from titanium steel, a metal chosen for its toughness and resistance to tarnish. It comes in several gold-tone variants, allowing you to pick a shade that matches your inventory. The design features a Saint Benedict motif, making it a recognizable piece for Catholic shoppers.\n\nFor wholesale buyers, the metal construction is a practical point: it holds up to frequent use without the care that softer materials demand. Because it is a rigid bracelet, it suits customers who prefer a bangle style over a flexible chain. Contact us about the available gold-tone finishes and how they fit your catalog.",
+      "catholicContext": "Saint Benedict is a Catholic saint; the medal often includes the Benedictine cross and the Vade Retro Satana formula, but this product's details are not specified.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAEKTG7BAOVioqqEY6eBTQst",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc33638d9a5024f2fbc341e60503013746.webp",
+      "imageAlt": "Saint Benedict Stainless Steel Bracelet Wholesale",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc33638d9a5024f2fbc341e60503013746.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf8582a960b054cd0a8b7a82c90972047O.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f0c9b088545481da87a33dc68f0ba31w.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf96614d896f943d3bce7341a27e56322G.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd7d6d6a2651442c1850c81c883f93299d.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd80c0e2f5b13459a9dd056adf7c6f1dav.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hacd99499592c4e03aa2e68ad173d42c7c.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale - gold-1",
+          "label": "gold-1",
+          "sku": "ALI-AAEKTG7BAOVioqqEY6eBTQst-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9cf19e4901a049ddb23e02324a40133fc.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale - gold-2",
+          "label": "gold-2",
+          "sku": "ALI-AAEKTG7BAOVioqqEY6eBTQst-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H61cd98f4261e483cbee66fef9b2e31a4O.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale - gold-3",
+          "label": "gold-3",
+          "sku": "ALI-AAEKTG7BAOVioqqEY6eBTQst-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdba8eae9eb01407a886d1cdd76752e6eq.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale - gold-4",
+          "label": "gold-4",
+          "sku": "ALI-AAEKTG7BAOVioqqEY6eBTQst-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H91511b4c0e764f8a85eb8ea77a641526K.webp",
+          "alt": "Saint Benedict Stainless Steel Bracelet Wholesale - gold-5",
+          "label": "gold-5",
+          "sku": "ALI-AAEKTG7BAOVioqqEY6eBTQst-V--6"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Titanium steel construction for durability",
+        "Several gold-tone variants available",
+        "Saint Benedict design for Catholic devotional use",
+        "Bangle-style bracelet (from title/category)",
+        "Suitable for daily wear"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Titanium steel"
+        },
+        {
+          "name": "Variant",
+          "value": "Gold 3, Gold 4, Gold 5, Gold-1, Gold-2"
+        }
+      ],
+      "applications": [
+        "Catholic devotional jewelry",
+        "Everyday accessory",
+        "Religious gift item",
+        "Parish bookstore or gift shop inventory"
+      ],
+      "faq": [
+        {
+          "question": "What material is this Saint Benedict bracelet made from?",
+          "answer": "The bracelet is made from titanium steel, which is a strong and corrosion-resistant metal."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "There are five gold-tone variants: Gold 3, Gold 4, Gold 5, Gold-1, and Gold-2."
+        },
+        {
+          "question": "Is this bracelet flexible or a rigid bangle?",
+          "answer": "Based on the product title and category, it is a rigid metal bracelet rather than a flexible chain bracelet."
+        }
+      ],
+      "pricing": {
+        "price": "2.78",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.30",
+          "max": "2.78"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Saint Benedict Stainless Steel Bracelet Wholesale",
+          "description": "Saint Benedict bracelet in titanium steel with gold-tone variants. Durable metal construction for Catholic devotional jewelry. Wholesale sourcing via OUOOO.",
+          "sku": "ALI-AAEKTG7BAOVioqqEY6eBTQst",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc33638d9a5024f2fbc341e60503013746.jpg",
+            "https://sc04.alicdn.com/kf/Hf8582a960b054cd0a8b7a82c90972047O.jpg",
+            "https://sc04.alicdn.com/kf/H8f0c9b088545481da87a33dc68f0ba31w.jpg",
+            "https://sc04.alicdn.com/kf/Hf96614d896f943d3bce7341a27e56322G.jpg",
+            "https://sc04.alicdn.com/kf/Hd7d6d6a2651442c1850c81c883f93299d.jpg",
+            "https://sc04.alicdn.com/kf/Hd80c0e2f5b13459a9dd056adf7c6f1dav.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Titanium steel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Gold 3, Gold 4, Gold 5, Gold-1, Gold-2"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.78",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.30",
+              "maxPrice": "2.78",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this Saint Benedict bracelet made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet is made from titanium steel, which is a strong and corrosion-resistant metal."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There are five gold-tone variants: Gold 3, Gold 4, Gold 5, Gold-1, and Gold-2."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet flexible or a rigid bangle?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Based on the product title and category, it is a rigid metal bracelet rather than a flexible chain bracelet."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "48a8870658458fea0b6e3e1badff4b18580ab5333f013748e556173947518d02",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "48a8870658458fea0b6e3e1badff4b18580ab5333f013748e556173947518d02",
+            "contentHash": "48a8870658458fea0b6e3e1badff4b18580ab5333f013748e556173947518d02",
+            "attempts": 0,
+            "updatedAt": "2026-08-13T04:16:52.509Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHiTG7BAOVioqqEY6ey4Kuh",
+      "sourceId": "AAHiTG7BAOVioqqEY6ey4Kuh",
+      "sourceFingerprint": "0f44e231bb18ec9fc5cb774c5dc2affe3d94cd366ecbe099b61be58b9f95b499",
+      "locale": "en",
+      "slug": "ouooo-colorful-acrylic-cross-cream-handmade-beaded-diy-bracelet-ey4kuh",
+      "title": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet",
+      "eyebrow": "Accessories",
+      "summary": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet with Braids for Necklace Making Model TT5-B0",
+      "description": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet with Braids for Necklace Making Model TT5-B0",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHiTG7BAOVioqqEY6ey4Kuh",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H8f7d0506d17047e3b1fb827c23207a20r.webp",
+      "imageAlt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f7d0506d17047e3b1fb827c23207a20r.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf2348d86107d4c3584367b54983ce8afh.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H730aae32b62440acb98963a8552fe52dc.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hea3064bd54854a85b2cde634b07fdc00K.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3cf152d2a89d40a7a3aeaa96c3f99b36W.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H35c8c37c69eb427a95b5ad2ebd9a7992k.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbeae6a6b6ec44735a0d332c0205019ceo.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet - colorful2",
+          "label": "colorful2",
+          "sku": "ALI-AAHiTG7BAOVioqqEY6ey4Kuh-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H14b8043842fd450294a6c652e7c70a86E.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet - red",
+          "label": "red",
+          "sku": "ALI-AAHiTG7BAOVioqqEY6ey4Kuh-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7bab2ed898234dd98b35655b2720952eY.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet - colorful",
+          "label": "colorful",
+          "sku": "ALI-AAHiTG7BAOVioqqEY6ey4Kuh-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7b36311931364a45a752147c5a3275d9x.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet - black",
+          "label": "black",
+          "sku": "ALI-AAHiTG7BAOVioqqEY6ey4Kuh-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4c739c5715cc474fbdaa6b5036490b55a.webp",
+          "alt": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet - white",
+          "label": "white",
+          "sku": "ALI-AAHiTG7BAOVioqqEY6ey4Kuh-V-3331185"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Variant: colorful2, Black, Red, White, Colorful"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "colorful2, Black, Red, White, Colorful"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.01",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet",
+          "description": "OUOOO Colorful Acrylic Cross Cream Handmade Beaded DIY Bracelet with Braids for Necklace Making Model TT5-B0",
+          "sku": "ALI-AAHiTG7BAOVioqqEY6ey4Kuh",
+          "image": [
+            "https://sc04.alicdn.com/kf/H8f7d0506d17047e3b1fb827c23207a20r.jpg",
+            "https://sc04.alicdn.com/kf/Hf2348d86107d4c3584367b54983ce8afh.png",
+            "https://sc04.alicdn.com/kf/H730aae32b62440acb98963a8552fe52dc.png",
+            "https://sc04.alicdn.com/kf/Hea3064bd54854a85b2cde634b07fdc00K.png",
+            "https://sc04.alicdn.com/kf/H3cf152d2a89d40a7a3aeaa96c3f99b36W.png",
+            "https://sc04.alicdn.com/kf/H35c8c37c69eb427a95b5ad2ebd9a7992k.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "colorful2, Black, Red, White, Colorful"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.01",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "07c085b5d7a0133ed9a747336c0a362e3fe12002cbc1b53b995d3312a8e7bee2",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "07c085b5d7a0133ed9a747336c0a362e3fe12002cbc1b53b995d3312a8e7bee2",
+            "contentHash": "07c085b5d7a0133ed9a747336c0a362e3fe12002cbc1b53b995d3312a8e7bee2",
+            "attempts": 0,
+            "updatedAt": "2026-08-13T04:17:13.614Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGOTG7BAOVioqqEY6eFcrbd",
+      "sourceId": "AAGOTG7BAOVioqqEY6eFcrbd",
+      "sourceFingerprint": "7f22f37188d72f2f6ad31e42cd0c787a8c01b271e1df43922a05d0d20f48c598",
+      "locale": "en",
+      "slug": "luminous-10mm-rosary-necklace-with-jesus-icon-efcrbd",
+      "title": "Luminous 10mm Rosary Necklace with Jesus Icon",
+      "eyebrow": "luminous rosary necklace",
+      "summary": "This luminous rosary necklace features 10mm plastic beads that glow in the dark, with a Jesus icon pendant. Made of acrylic, resin, and lucite, it is lightweight and unisex. A meaningful choice for Easter gifts or personal prayer.",
+      "description": "Looking for a rosary that stands out? This luminous 10mm rosary necklace combines traditional prayer beads with a practical glow feature. The beads are crafted from acrylic, resin, and lucite, making them lightweight and durable for daily handling. The pendant showcases a Jesus icon, adding a devotional touch. As a beaded necklace, it is designed to be worn or used as a prayer aid. This unisex piece is suitable for both men and women. Its glowing quality can make it easier to locate in low light, whether you keep it on a nightstand or carry it in a bag. Given the cross pattern and religious style, it aligns with Catholic devotion to the Rosary, which involves contemplating the lives of Jesus and Mary. Consider it for Easter gifts or as a personal reminder of faith.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAGOTG7BAOVioqqEY6eFcrbd",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hac5b49b097d64bb5b278bbdd9cfca2e1T.webp",
+      "imageAlt": "Luminous 10mm Rosary Necklace with Jesus Icon",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hac5b49b097d64bb5b278bbdd9cfca2e1T.webp",
+          "alt": "Luminous 10mm Rosary Necklace with Jesus Icon"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha343df6f67e645068e09b3247dcf7e15r.webp",
+          "alt": "Luminous 10mm Rosary Necklace with Jesus Icon"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc86475a38a354d8fb87f1fb0b3522627L.webp",
+          "alt": "Luminous 10mm Rosary Necklace with Jesus Icon"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H110bb12e4c064e26b651e307c73089a4A.webp",
+          "alt": "Luminous 10mm Rosary Necklace with Jesus Icon"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3e4cfd6834574f2da8f03089cc00956fp.webp",
+          "alt": "Luminous 10mm Rosary Necklace with Jesus Icon"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H563d8b2ed74c433fa458777819683b0eh.webp",
+          "alt": "Luminous 10mm Rosary Necklace with Jesus Icon"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Luminous beads: 10mm plastic beads that glow in the dark",
+        "Jesus icon pendant: Features a clear Jesus icon on the pendant",
+        "Material: Made from acrylic, resin, and lucite, offering a lightweight feel",
+        "Unisex design: Suitable for all genders",
+        "Religious style: Cross pattern and Catholic-inspired design",
+        "Beaded necklace construction: Classic rosary-style layout"
+      ],
+      "specifications": [
+        {
+          "name": "Bead size",
+          "value": "10mm"
+        },
+        {
+          "name": "Materials",
+          "value": "Acrylic, Resin, Lucite (Plastic)"
+        },
+        {
+          "name": "Pendant",
+          "value": "Jesus icon"
+        },
+        {
+          "name": "Style",
+          "value": "Religious, Cross pattern"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Necklace type",
+          "value": "Beaded necklace"
+        },
+        {
+          "name": "Occasion",
+          "value": "Engagement (as listed)"
+        }
+      ],
+      "applications": [
+        "Personal prayer aid for the Rosary",
+        "Easter gift for Catholic faithful",
+        "Religious jewelry for everyday wear",
+        "Devotional item for meditation"
+      ],
+      "faq": [
+        {
+          "question": "What material is the rosary necklace made of?",
+          "answer": "The beads are made of plastic materials, specifically acrylic, resin, and lucite, making it lightweight and durable."
+        },
+        {
+          "question": "Does the necklace glow in the dark?",
+          "answer": "Yes, the 10mm beads are luminous, meaning they glow in the dark, which can make the rosary easier to find in low-light conditions."
+        },
+        {
+          "question": "Is the rosary suitable for both men and women?",
+          "answer": "Yes, the necklace is designed as unisex and can be worn by anyone."
+        }
+      ],
+      "pricing": {
+        "price": "0.75",
+        "regularPrice": "0.75",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.60",
+          "max": "0.75"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Luminous 10mm Rosary Necklace with Jesus Icon",
+          "description": "Luminous 10mm rosary necklace with Jesus icon pendant, plastic beads, unisex religious jewelry for Easter gifts. Glow-in-the-dark prayer beads.",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eFcrbd",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hac5b49b097d64bb5b278bbdd9cfca2e1T.jpg",
+            "https://sc04.alicdn.com/kf/Ha343df6f67e645068e09b3247dcf7e15r.jpg",
+            "https://sc04.alicdn.com/kf/Hc86475a38a354d8fb87f1fb0b3522627L.jpg",
+            "https://sc04.alicdn.com/kf/H110bb12e4c064e26b651e307c73089a4A.jpg",
+            "https://sc04.alicdn.com/kf/H3e4cfd6834574f2da8f03089cc00956fp.jpg",
+            "https://sc04.alicdn.com/kf/H563d8b2ed74c433fa458777819683b0eh.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Bead size",
+              "value": "10mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Materials",
+              "value": "Acrylic, Resin, Lucite (Plastic)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendant",
+              "value": "Jesus icon"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious, Cross pattern"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Necklace type",
+              "value": "Beaded necklace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Occasion",
+              "value": "Engagement (as listed)"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.75",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.60",
+              "maxPrice": "0.75",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is the rosary necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are made of plastic materials, specifically acrylic, resin, and lucite, making it lightweight and durable."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the necklace glow in the dark?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the 10mm beads are luminous, meaning they glow in the dark, which can make the rosary easier to find in low-light conditions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the rosary suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the necklace is designed as unisex and can be worn by anyone."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "dd568f4dc5b1d47155df5a98ad973741504f1518e202122746fb22344597df19",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "dd568f4dc5b1d47155df5a98ad973741504f1518e202122746fb22344597df19",
+            "contentHash": "dd568f4dc5b1d47155df5a98ad973741504f1518e202122746fb22344597df19",
+            "attempts": 0,
+            "updatedAt": "2026-08-13T04:16:48.584Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGsTG7BAOVioqqEY6egT6-K",
+      "sourceId": "AAGsTG7BAOVioqqEY6egT6-K",
+      "sourceFingerprint": "d5fc04099f64f9c3209a9acc4ae7c99bd6364b8c1bedbe68a4b508d13f6b6d5c",
+      "locale": "en",
+      "slug": "cross-alloy-beads-diy-jewelry-making-set-egt6-k",
+      "title": "Cross Alloy Beads DIY Jewelry Making Set",
+      "eyebrow": "Cross-shaped alloy charm pendant with beads",
+      "summary": "This jewelry making kit features cross-shaped alloy pendants and assorted beads for crafting bracelets, necklaces, and earrings. The design combines a classic cross motif with mixed metal beads, suitable for both men's and women's accessories.",
+      "description": "A collection of alloy pendants in a cross shape, paired with beaded components for handcrafting jewelry. The set includes charms and beads that can be assembled into bracelets, necklaces, or earrings. The cross pattern gives each piece a distinct religious style, while the alloy material offers a metallic finish. Suitable for both men and women, the unisex design allows for versatile use. This material is ideal for DIY projects, whether for personal wear or as handmade gifts. The included bead collection provides variety for different jewelry designs. The alloy composition ensures durability for regular use. The set is practical for crafters looking to create religious-themed accessories.",
+      "catholicContext": "A plain cross is a recognized symbol in Catholic devotion, though it is distinct from a crucifix bearing the corpus of Christ.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGsTG7BAOVioqqEY6egT6-K",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H5388ec61decc4b8a881f0cc2827b8565a.webp",
+      "imageAlt": "Cross Alloy Beads DIY Jewelry Making Set",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5388ec61decc4b8a881f0cc2827b8565a.webp",
+          "alt": "Cross Alloy Beads DIY Jewelry Making Set"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0e1a80c31c2640eb8b3b69eb18e600b47.webp",
+          "alt": "Cross Alloy Beads DIY Jewelry Making Set"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Had641d8bd489460cbb558422e2a14f0bU.webp",
+          "alt": "Cross Alloy Beads DIY Jewelry Making Set"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H632f4630b0b34cd58fb00b62667d2fe3j.webp",
+          "alt": "Cross Alloy Beads DIY Jewelry Making Set"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H665f88698b674710a80f4430676d7e3cK.webp",
+          "alt": "Cross Alloy Beads DIY Jewelry Making Set"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#9a6b63",
+      "features": [
+        "Cross-shaped pendants and charms with a religious style",
+        "Alloy material for a metallic finish and durability",
+        "Includes beads for DIY bracelet, necklace, and earring making",
+        "Unisex design suitable for men and women",
+        "Suitable for occasions like weddings, parties, and anniversaries"
+      ],
+      "specifications": [
+        {
+          "name": "Jewelry Main Material",
+          "value": "Alloy"
+        },
+        {
+          "name": "Pendants or Charms Type",
+          "value": "Charm Pendants"
+        },
+        {
+          "name": "Gender",
+          "value": "Women's, Men's, Unisex"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Pendants or Charms"
+        },
+        {
+          "name": "Shape/Pattern",
+          "value": "Cross"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Religious Type",
+          "value": "Catholicism"
+        }
+      ],
+      "applications": [
+        "DIY bracelet making",
+        "Necklace assembly",
+        "Earring crafting",
+        "Gift making for religious occasions"
+      ],
+      "faq": [
+        {
+          "question": "What materials are included in this jewelry making set?",
+          "answer": "The set includes cross-shaped alloy pendants and beads for DIY jewelry making. The main material is alloy, and the pendants are classified as charm pendants."
+        },
+        {
+          "question": "Is this jewelry suitable for both men and women?",
+          "answer": "Yes, the gender attribute lists women's, men's, and unisex, making it suitable for any gender."
+        },
+        {
+          "question": "What types of jewelry can be made with this kit?",
+          "answer": "You can make bracelets, necklaces, and earrings using the included beads and pendants."
+        }
+      ],
+      "pricing": {
+        "price": "0.10",
+        "regularPrice": "0.10",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Cross Alloy Beads DIY Jewelry Making Set",
+          "description": "Cross-shaped alloy charm pendants with beads for DIY bracelets, necklaces, and earrings. Unisex religious-style jewelry making material. Ideal for gifts and parties.",
+          "sku": "ALI-AAGsTG7BAOVioqqEY6egT6-K",
+          "image": [
+            "https://sc04.alicdn.com/kf/H5388ec61decc4b8a881f0cc2827b8565a.jpg",
+            "https://sc04.alicdn.com/kf/H0e1a80c31c2640eb8b3b69eb18e600b47.jpg",
+            "https://sc04.alicdn.com/kf/Had641d8bd489460cbb558422e2a14f0bU.jpg",
+            "https://sc04.alicdn.com/kf/H632f4630b0b34cd58fb00b62667d2fe3j.jpg",
+            "https://sc04.alicdn.com/kf/H665f88698b674710a80f4430676d7e3cK.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Main Material",
+              "value": "Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendants or Charms Type",
+              "value": "Charm Pendants"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Women's, Men's, Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Pendants or Charms"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape/Pattern",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Religious Type",
+              "value": "Catholicism"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.10",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are included in this jewelry making set?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The set includes cross-shaped alloy pendants and beads for DIY jewelry making. The main material is alloy, and the pendants are classified as charm pendants."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this jewelry suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the gender attribute lists women's, men's, and unisex, making it suitable for any gender."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What types of jewelry can be made with this kit?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can make bracelets, necklaces, and earrings using the included beads and pendants."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "7104296443d942338394b6b3e62c3e682b29ecb6c5cb5fda3f7425ebd40a3f6d",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "7104296443d942338394b6b3e62c3e682b29ecb6c5cb5fda3f7425ebd40a3f6d",
+            "contentHash": "7104296443d942338394b6b3e62c3e682b29ecb6c5cb5fda3f7425ebd40a3f6d",
+            "attempts": 0,
+            "updatedAt": "2026-08-13T04:16:55.728Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHcTG7BAOVioqqEY6eZrdw2",
+      "sourceId": "AAHcTG7BAOVioqqEY6eZrdw2",
+      "sourceFingerprint": "c076515ceaac85490d1def9624b31723cadd80a144a4fd22b2647a4df66b663a",
+      "locale": "en",
+      "slug": "zinc-alloy-saint-benedict-pendant-for-religious-jewelry-ezrdw2",
+      "title": "Zinc Alloy Saint Benedict Pendant for Religious Jewelry",
+      "eyebrow": "Saint Benedict pendant",
+      "summary": "A zinc alloy hanging pendant featuring the image of Saint Benedict. This themed charm comes with an aperture setting and is listed as unisex, suitable for men's or women's jewelry. A practical choice for sourcing religious accessories.",
+      "description": "This pendant is crafted from zinc alloy, a material often used for its durability and affordability in costume jewelry. The design is a single hanging ring with a Saint Benedict motif, a recognizable image in Catholic devotional items. The piece uses an aperture setting for the central element, a technique where the stone or detail is held by a rim of metal.\n\nFor wholesale buyers, the zinc alloy construction offers a cost-effective option for religious-themed jewelry lines. As a pendant or charm, it can be paired with chains, cords, or used in DIY projects. We source this item from our catalog; if you need to verify sizing or request samples, please contact us.",
+      "catholicContext": "The Saint Benedict Medal is a widely recognized devotional article in Catholicism, often associated with prayers for protection against evil.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHcTG7BAOVioqqEY6eZrdw2",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd6710ec3aee14d7088582e9bce9f0cd8O.webp",
+      "imageAlt": "Zinc Alloy Saint Benedict Pendant for Religious Jewelry",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd6710ec3aee14d7088582e9bce9f0cd8O.webp",
+          "alt": "Zinc Alloy Saint Benedict Pendant for Religious Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hce17a04acec342f1b9b07a351dc8ff03g.webp",
+          "alt": "Zinc Alloy Saint Benedict Pendant for Religious Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H98c79d55f3e04b309f2553155ad07334h.webp",
+          "alt": "Zinc Alloy Saint Benedict Pendant for Religious Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc95bd3d2903a4052b134789942aad050s.webp",
+          "alt": "Zinc Alloy Saint Benedict Pendant for Religious Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf58816cd4e5b4c0fbec64ed98b46e15dt.webp",
+          "alt": "Zinc Alloy Saint Benedict Pendant for Religious Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1bbd92eb06f748378f528c4870e2c85fW.webp",
+          "alt": "Zinc Alloy Saint Benedict Pendant for Religious Jewelry"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#7a6d92",
+      "features": [
+        "Made of zinc alloy",
+        "Features a Saint Benedict design",
+        "Aperture setting inlay technique",
+        "Unisex style for men and women",
+        "Suitable for gift occasions",
+        "Categorized as religious (Catholicism)"
+      ],
+      "specifications": [
+        {
+          "name": "Primary Material",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Setting Technique",
+          "value": "Aperture setting"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex, Women's, Men's"
+        },
+        {
+          "name": "Occasion",
+          "value": "Gift"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Brand",
+          "value": "SAEN"
+        },
+        {
+          "name": "Model Number",
+          "value": "A35"
+        }
+      ],
+      "applications": [
+        "Pendant for necklaces or bracelets",
+        "Charm for rosary-style jewelry",
+        "Religious-themed gift item",
+        "DIY jewelry making"
+      ],
+      "faq": [
+        {
+          "question": "What material is this Saint Benedict pendant made of?",
+          "answer": "The pendant is made of zinc alloy, a common metal for jewelry accessories."
+        },
+        {
+          "question": "Is this pendant suitable for both men and women?",
+          "answer": "Yes, it is listed as unisex, with options for women's and men's use."
+        },
+        {
+          "question": "Can I request a sample before placing a bulk order?",
+          "answer": "We encourage you to contact us to discuss sample requests and bulk purchasing options."
+        }
+      ],
+      "pricing": {
+        "price": "0.20",
+        "regularPrice": "0.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.12",
+          "max": "0.20"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Zinc Alloy Saint Benedict Pendant for Religious Jewelry",
+          "description": "Zinc alloy Saint Benedict pendant with aperture setting, unisex religious themed charm. Sourced for Catholic gift buyers. Contact us for bulk inquiries.",
+          "sku": "ALI-AAHcTG7BAOVioqqEY6eZrdw2",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd6710ec3aee14d7088582e9bce9f0cd8O.jpg",
+            "https://sc04.alicdn.com/kf/Hce17a04acec342f1b9b07a351dc8ff03g.jpg",
+            "https://sc04.alicdn.com/kf/H98c79d55f3e04b309f2553155ad07334h.jpg",
+            "https://sc04.alicdn.com/kf/Hc95bd3d2903a4052b134789942aad050s.jpg",
+            "https://sc04.alicdn.com/kf/Hf58816cd4e5b4c0fbec64ed98b46e15dt.jpg",
+            "https://sc04.alicdn.com/kf/H1bbd92eb06f748378f528c4870e2c85fW.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Primary Material",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Setting Technique",
+              "value": "Aperture setting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex, Women's, Men's"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Occasion",
+              "value": "Gift"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Brand",
+              "value": "SAEN"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Model Number",
+              "value": "A35"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.12",
+              "maxPrice": "0.20",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this Saint Benedict pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is made of zinc alloy, a common metal for jewelry accessories."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this pendant suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is listed as unisex, with options for women's and men's use."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I request a sample before placing a bulk order?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We encourage you to contact us to discuss sample requests and bulk purchasing options."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b81958cb385737811e89d903cd3d41530c1c7e3222f1f828f101db904a0b6f31",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b81958cb385737811e89d903cd3d41530c1c7e3222f1f828f101db904a0b6f31",
+            "contentHash": "b81958cb385737811e89d903cd3d41530c1c7e3222f1f828f101db904a0b6f31",
+            "attempts": 0,
+            "updatedAt": "2026-08-13T04:17:07.148Z",
             "model": "deepseek-v4-flash"
           }
         }

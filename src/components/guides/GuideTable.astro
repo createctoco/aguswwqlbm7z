@@ -1,0 +1,30 @@
+---
+interface Props {
+  columns: string[];
+  rows: string[][];
+  minWidth?: string;
+}
+
+const { columns, rows, minWidth = '760px' } = Astro.props;
+---
+
+<div class="not-prose overflow-x-auto rounded-2xl border border-black/10 bg-white">
+  <table class="w-full border-collapse text-left text-sm" style={`min-width: ${minWidth}`}>
+    <thead class="bg-[#f6f1e8]">
+      <tr>
+        {columns.map((column) => <th class="p-4 font-semibold">{column}</th>)}
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-black/10">
+      {
+        rows.map((row) => (
+          <tr>
+            {row.map((cell, index) => (
+              <td class:list={['p-4', index === 0 ? 'font-semibold' : 'text-muted']}>{cell}</td>
+            ))}
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

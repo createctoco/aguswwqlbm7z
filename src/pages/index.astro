@@ -4,6 +4,7 @@ import ProductCard from '~/components/ouooo/ProductCard.astro';
 import { GENERAL_WHATSAPP_URL } from '~/config/contact';
 import { products } from '~/data/products';
 import { ui } from '~/i18n/ui';
+import { getCollection } from 'astro:content';
 
 // Featured product categories on the homepage, most recently updated first,
 // 8 products per category.
@@ -22,6 +23,13 @@ const featuredSections = featuredSlugs
     return { slug, name, items };
   })
   .filter((section) => section.items.length > 0);
+
+// Latest guides for the homepage section, most recently published first.
+const latestGuides = (await getCollection('guide', ({ data }) => !data.draft))
+  .sort(
+    (a, b) => (b.data.publishDate?.getTime() || 0) - (a.data.publishDate?.getTime() || 0) || a.id.localeCompare(b.id)
+  )
+  .slice(0, 2);
 
 const metadata = {
   title: 'Wholesale Rosaries & Custom Religious Gifts',
@@ -132,22 +140,15 @@ const metadata = {
           Useful answers before you order.
         </h2><a class="mt-6 inline-block text-sm font-semibold text-primary" href="/guides">Browse all guides →</a>
       </div>
-      <a href="/guides/choosing-rosary-materials" class="rounded-2xl bg-[#f6f1e8] p-8"
-        ><p class="text-xs font-medium uppercase tracking-[.14em] text-muted">Materials</p><h3
-          class="mt-4 text-xl font-semibold"
-        >
-          How to choose the right rosary bead material
-        </h3><p class="mt-4 leading-7 text-muted">
-          Compare bead materials, metals, plating, cord, and sourcing requirements.
-        </p></a
-      >
-      <a href="/guides/8mm-vs-10mm-beads" class="rounded-2xl bg-[#f1ece5] p-8"
-        ><p class="text-xs font-medium uppercase tracking-[.14em] text-muted">Specifications</p><h3
-          class="mt-4 text-xl font-semibold"
-        >
-          8 mm vs. 10 mm rosary beads
-        </h3><p class="mt-4 leading-7 text-muted">Understand feel, weight, presentation, and buyer preference.</p></a
-      >
+      {
+        latestGuides.map((guide) => (
+          <a href={`/guides/${guide.id}`} class="rounded-2xl bg-[#f6f1e8] p-8">
+            <p class="text-xs font-medium uppercase tracking-[.14em] text-muted">{guide.data.category || 'Guide'}</p>
+            <h3 class="mt-4 text-xl font-semibold">{guide.data.title}</h3>
+            {guide.data.excerpt && <p class="mt-4 leading-7 text-muted">{guide.data.excerpt}</p>}
+          </a>
+        ))
+      }
     </div>
   </section>
 </Layout>

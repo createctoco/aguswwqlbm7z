@@ -1,0 +1,74 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  guide: CollectionEntry<'guide'>;
+}
+
+const { guide } = Astro.props;
+const { data } = guide;
+const url = `/guides/${guide.id}`;
+const siteUrl = (import.meta.env.OUOOO_SITE_URL || 'https://ouooo.com').replace(/\/$/, '');
+const dateModified = data.updateDate || data.publishDate;
+
+const metadata = {
+  title: data.title,
+  description: data.description || data.excerpt,
+};
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: data.title,
+  description: data.description || data.excerpt,
+  ...(dateModified ? { dateModified: dateModified.toISOString().slice(0, 10) } : {}),
+  mainEntityOfPage: `${siteUrl}${url}`,
+  author: { '@type': 'Organization', name: 'OUOOO', url: siteUrl },
+  publisher: { '@type': 'Organization', name: 'OUOOO', url: siteUrl },
+};
+
+const cta = data.cta;
+---
+
+<Layout metadata={metadata}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="bg-[#f6f1e8]">
+    <div class="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+      <p class="text-xs font-semibold uppercase tracking-[.16em] text-primary">
+        Sourcing guide{data.category ? ` · ${data.category}` : ''}
+      </p>
+      <h1 class="mt-4 max-w-3xl text-4xl font-semibold sm:text-5xl">{data.title}</h1>
+      {data.description && <p class="mt-6 max-w-3xl text-lg leading-8 text-muted">{data.description}</p>}
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a class="btn-primary" href={cta?.primaryHref || '/contact'}>{cta?.primaryLabel || 'Ask about this topic'}</a>
+        <a class="btn-secondary" href="/products">Browse products</a>
+      </div>
+    </div>
+  </section>
+
+  <slot />
+
+  <section class="bg-[#0f3b2f] text-white">
+    <div class="mx-auto max-w-6xl px-6 py-16">
+      <div class="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+        <div class="max-w-2xl">
+          <p class="text-xs font-semibold uppercase tracking-[.16em] text-[#d8c5a3]">
+            {cta?.eyebrow || 'Still deciding?'}
+          </p>
+          <h2 class="mt-3 text-3xl font-semibold">
+            {cta?.title || 'Tell us what you are sourcing and we will help.'}
+          </h2>
+          {cta?.body && <p class="mt-4 leading-8 text-white/80">{cta.body}</p>}
+        </div>
+        <a
+          class="inline-flex shrink-0 items-center justify-center rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-[#0f3b2f]"
+          href={cta?.buttonHref || '/contact'}
+        >
+          {cta?.buttonLabel || 'Contact OUOOO'}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

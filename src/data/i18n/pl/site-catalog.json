@@ -2,23 +2,23 @@
   "schemaVersion": 3,
   "locale": "pl",
   "sourceLocale": "en",
-  "sourceCatalogHash": "a119df4663d675bc65fced1fa4ccffe93ccc42a574f38bfb336d4609e77ff50c",
-  "generatedAt": "2026-08-13T04:24:43.247Z",
+  "sourceCatalogHash": "75e8b04e7574b1c5252fa663eb62e573059bf81bc80ead8d3c548baf2759ed14",
+  "generatedAt": "2026-08-14T04:21:42.232Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAFiTG7BAOVioqqEY6ePmkxp",
-      "AAHmTG7BAOVioqqEY6edI_sn",
-      "AAGVTG7BAOVioqqEY6e0jt3y",
-      "AAGtTG7BAOVioqqEY6eBSqS6",
-      "AAHTTG7BAOVioqqEY6eehH-u",
-      "AAEKTG7BAOVioqqEY6eBTQst",
-      "AAHiTG7BAOVioqqEY6ey4Kuh",
-      "AAGOTG7BAOVioqqEY6eFcrbd",
-      "AAGsTG7BAOVioqqEY6egT6-K",
-      "AAHcTG7BAOVioqqEY6eZrdw2"
+      "AAE8TG7BAOVioqqEY6eoxN9t",
+      "AAGgTG7BAOVioqqEY6erMo-w",
+      "AAEDTG7BAOVioqqEY6erMoEh",
+      "AAFYTG7BAOVioqqEY6eox_B1",
+      "AAH7TG7BAOVioqqEY6eBSAcn",
+      "AAEPTG7BAOVioqqEY6efuTj7",
+      "AAEQTG7BAOVioqqEY6eGLcQV",
+      "AAG0TG7BAOVioqqEY6eBt1-Z",
+      "AAGqTG7BAOVioqqEY6eJiw4E",
+      "AAG5TG7BAOVioqqEY6eErULC"
     ],
     "deletedProductIds": []
   },
@@ -36,27 +36,24 @@
   },
   "categoryGlossarySourceHash": "fbac66204ed2143d0eb559de90b360cba332f2af95f5eb37f458536910f477f2",
   "translationSummary": {
-    "ready": 219,
-    "skipped": 1,
+    "ready": 228,
+    "skipped": 2,
     "skippedProductIds": [
-      "AAGxTG7BAOVioqqEY6e7uzWC"
+      "AAGxTG7BAOVioqqEY6e7uzWC",
+      "AAEDTG7BAOVioqqEY6erMoEh"
     ],
-    "reused": 206,
-    "generated": 13,
+    "reused": 219,
+    "generated": 9,
     "generatedProductIds": [
-      "AAGRTG7BAOVioqqEY6eBTPzE",
-      "AAGETG7BAOVioqqEY6eC0sLq",
-      "AAGrTG7BAOVioqqEY6eBTc0M",
-      "AAFiTG7BAOVioqqEY6ePmkxp",
-      "AAHmTG7BAOVioqqEY6edI_sn",
-      "AAGVTG7BAOVioqqEY6e0jt3y",
-      "AAGtTG7BAOVioqqEY6eBSqS6",
-      "AAHTTG7BAOVioqqEY6eehH-u",
-      "AAEKTG7BAOVioqqEY6eBTQst",
-      "AAHiTG7BAOVioqqEY6ey4Kuh",
-      "AAGOTG7BAOVioqqEY6eFcrbd",
-      "AAGsTG7BAOVioqqEY6egT6-K",
-      "AAHcTG7BAOVioqqEY6eZrdw2"
+      "AAE8TG7BAOVioqqEY6eoxN9t",
+      "AAGgTG7BAOVioqqEY6erMo-w",
+      "AAFYTG7BAOVioqqEY6eox_B1",
+      "AAEPTG7BAOVioqqEY6efuTj7",
+      "AAH7TG7BAOVioqqEY6eBSAcn",
+      "AAEQTG7BAOVioqqEY6eGLcQV",
+      "AAG0TG7BAOVioqqEY6eBt1-Z",
+      "AAGqTG7BAOVioqqEY6eJiw4E",
+      "AAG5TG7BAOVioqqEY6eErULC"
     ],
     "retriedBacklog": 1,
     "glossaryReused": true
@@ -545,6 +542,367 @@
             "contentHash": "ea7adc1644caf3e7501ab5e89ec80a6f207c7926d1888414221ce0d9af85aa32",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:55:06.338Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEDTG7BAOVioqqEY6erMoEh",
+      "sourceId": "AAEDTG7BAOVioqqEY6erMoEh",
+      "sourceFingerprint": "374d241ab1318945d79cda582029c7d4df7fec874256197853f96a530c341c52",
+      "locale": "en",
+      "slug": "zinc-alloy-rhinestone-heart-pendant-necklace-ermoeh",
+      "title": "Zinc Alloy Rhinestone Heart Pendant Necklace",
+      "eyebrow": "Zinc alloy rhinestone heart pendant necklace",
+      "summary": "These zinc alloy heart pendants feature rhinestone accents and come in a range of plating options, including gold, white gold, and gun-black. Sizes vary from about 1.6 cm to 2.3 cm, with designs such as classic hearts, crowns, wings, and arrow-pierced motifs. Available in multiple color variants, they suit a variety of fashion styles.",
+      "description": "This collection of heart pendant necklaces offers a broad selection of finishes and motifs, making it easy to match different fashion lines. Made from zinc alloy, the pendants are plated in gold, white gold, or gun-black, with some featuring pink or red tones. Sizes approximate from 1.6 cm to 2.3 cm in height, and the designs include plain hearts, love crowns, wings, palm motifs, and arrow-pierced hearts, providing buyers with ample choice.\n\nEach pendant is embellished with rhinestones, adding a subtle sparkle. The variants include gold-plated red and pink zircon options, as well as white gold and platinum-plated pieces. These necklaces are intended for fashion use and can be ordered in bulk for retail or promotional purposes. If you need assistance selecting specific sizes or finishes, contact us for more details.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2240d0c45a69466c95eba4ed9e4ad541e.webp",
+      "imageAlt": "Zinc Alloy Rhinestone Heart Pendant Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2240d0c45a69466c95eba4ed9e4ad541e.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb95600964ba44eb2b75243b5f12889f12.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7831a12b9f03440a8562ed4af9731e7ao.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd34c3ac2aa194012bafc7102d51b997aA.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb00dcbe7f3ad406c85d1fa5f8437896eY.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H873b8100732049aeb5b18738e02934be3.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha4c6cdca96dd4380b8dcc410b36a9683C.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-wings-nz06-7",
+          "label": "gold-plated-love-wings-nz06-7",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--22"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha1ea212202114ac79775f36b4add76efR.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-nz06-6",
+          "label": "gold-plated-love-nz06-6",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--21"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H79a15f7081d14f24b548a228e73a614e0.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-palm-nz06-5",
+          "label": "gold-plated-love-palm-nz06-5",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--20"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H28ccd1681ef34b6f92ca0d7821757351V.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-arrow-piercing-love-nz06-4",
+          "label": "gold-plated-arrow-piercing-love-nz06-4",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--19"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H776e7d1210c34af3b5c0d20b40a29d375.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - platinum-plated-nac11-5",
+          "label": "platinum-plated-nac11-5",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--25"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc9c73cbde2974f11a893ede6e1ac99b3t.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - white-gold-plated-nac12-9",
+          "label": "white-gold-plated-nac12-9",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--24"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb4fa230d0dd8445788d3ac97b2ea658e4.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-wings-nz06-9",
+          "label": "gold-plated-love-wings-nz06-9",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--23"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf08c3d7c5e244852a783926589a7c552u.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 1-7-1-2cm-gold-plated-red-love-nab10-6",
+          "label": "1-7-1-2cm-gold-plated-red-love-nab10-6",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hdd7bd9a896bc4fbdb59fd529b005f14dv.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-zircon-love-red-nt02-4",
+          "label": "gold-plated-zircon-love-red-nt02-4",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H723bcf3aad3d42b9af0f1301f1856a35r.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-pink-zircon-nac12-1",
+          "label": "gold-plated-pink-zircon-nac12-1",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7416dc470c724a9687afad9f10967573f.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-pink-nab04-8",
+          "label": "gold-plated-love-pink-nab04-8",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hde2e4087105d4152beca7bb5bd09dff1J.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-zircon-love-pink-na24-4",
+          "label": "gold-plated-zircon-love-pink-na24-4",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hdaa450911d384d54a30a5d3c0c47a2e66.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - white-gold-plated-nac12-8",
+          "label": "white-gold-plated-nac12-8",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2c06514f04634612bbcc0f476d962b85K.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-crown-nz06-8",
+          "label": "gold-plated-love-crown-nz06-8",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb220db3078284ee0b54322461f2b4d31x.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-crown-nz06-3",
+          "label": "gold-plated-love-crown-nz06-3",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H805fe8c7c7364a3f92247598cb6fb28bM.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-white-na14-2",
+          "label": "gold-plated-love-white-na14-2",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--16"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5bbe4bd1b3b64386ac9aec1011d65291B.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-pink-zircon-nac12-7",
+          "label": "gold-plated-pink-zircon-nac12-7",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf999ba34d5fa44a8926d2da313523eee5.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 1-6-1cm-gold-plated-red-love-nac08-1",
+          "label": "1-6-1cm-gold-plated-red-love-nac08-1",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9bf719c10606485385357086ee1438735.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-1-3cm-gold-plated-red-love-nac07-9",
+          "label": "2-1-3cm-gold-plated-red-love-nac07-9",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0c7a1ac33f1e43d294b3066ae0da496br.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 1-9-1-4cm-gold-plated-red-love-nac07-10",
+          "label": "1-9-1-4cm-gold-plated-red-love-nac07-10",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc3fd60191f9d4ef1a4125589c82e7a6el.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-1-1-2cm-gold-plated-love-nab10-5",
+          "label": "2-1-1-2cm-gold-plated-love-nab10-5",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H830caf0ba41746a9b1350ee465d347319.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-3-1-6cm-gold-plated-gun-black-nae07-2",
+          "label": "2-3-1-6cm-gold-plated-gun-black-nae07-2",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3113117bfa0b45d2b0e393aef367dd79S.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-1-3cm-white-gold-plated-nac11-7",
+          "label": "2-1-3cm-white-gold-plated-nac11-7",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9ce16b73db714c3a9edb67156acc96434.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-1-1-2cm-white-gold-plated-nac11-3",
+          "label": "2-1-1-2cm-white-gold-plated-nac11-3",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbdbaa3d9c8bd41d183282d80c117197bN.webp",
+          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-21-2-cm-gold-plated-red-nae02-10",
+          "label": "2-21-2-cm-gold-plated-red-nae02-10",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--7"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Zinc alloy construction with gold, white gold, or gun-black plating",
+        "Rhinestone accents on the heart pendants",
+        "Multiple size variants from approximately 1.6 cm to 2.3 cm",
+        "Variety of designs including hearts, crowns, wings, and arrow-pierced motifs",
+        "Color options include red, pink, and white"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc alloy"
+        },
+        {
+          "name": "Plating",
+          "value": "Gold, white gold, gun-black, or platinum (variant-dependent)"
+        },
+        {
+          "name": "Pendant Size",
+          "value": "From 1.6 x 1 cm to 2.3 x 1.6 cm (variant-dependent)"
+        },
+        {
+          "name": "Stone",
+          "value": "Rhinestone or zircon"
+        },
+        {
+          "name": "Style",
+          "value": "Fashion necklace"
+        }
+      ],
+      "applications": [
+        "Fashion accessory for casual or dressed-up outfits",
+        "Retail jewelry displays",
+        "Gift items for Valentine's Day or anniversaries",
+        "Wholesale for boutiques or online stores"
+      ],
+      "faq": [
+        {
+          "question": "What materials are these necklaces made from?",
+          "answer": "The pendants are made from zinc alloy and are plated with gold, white gold, or gun-black, depending on the variant."
+        },
+        {
+          "question": "What are the available sizes?",
+          "answer": "Pendant sizes range from approximately 1.6 x 1 cm to 2.3 x 1.6 cm, depending on the specific variant."
+        },
+        {
+          "question": "Can I order a specific variant?",
+          "answer": "Yes, you can select from the listed variants, which include different plating, stone colors, and designs. For bulk orders or custom requirements, please contact us."
+        }
+      ],
+      "pricing": {
+        "price": "1.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.30",
+          "max": "2.76"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Zinc Alloy Rhinestone Heart Pendant Necklace",
+          "description": "Wholesale zinc alloy heart pendant necklaces with rhinestone details, available in gold, white gold, and gun-black finishes, multiple sizes.",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2240d0c45a69466c95eba4ed9e4ad541e.jpg",
+            "https://sc04.alicdn.com/kf/Hb95600964ba44eb2b75243b5f12889f12.jpg",
+            "https://sc04.alicdn.com/kf/H7831a12b9f03440a8562ed4af9731e7ao.jpg",
+            "https://sc04.alicdn.com/kf/Hd34c3ac2aa194012bafc7102d51b997aA.jpg",
+            "https://sc04.alicdn.com/kf/Hb00dcbe7f3ad406c85d1fa5f8437896eY.jpg",
+            "https://sc04.alicdn.com/kf/H873b8100732049aeb5b18738e02934be3.jpg"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Gold, white gold, gun-black, or platinum (variant-dependent)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendant Size",
+              "value": "From 1.6 x 1 cm to 2.3 x 1.6 cm (variant-dependent)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stone",
+              "value": "Rhinestone or zircon"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Fashion necklace"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.30",
+              "maxPrice": "2.76",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are these necklaces made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendants are made from zinc alloy and are plated with gold, white gold, or gun-black, depending on the variant."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the available sizes?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pendant sizes range from approximately 1.6 x 1 cm to 2.3 x 1.6 cm, depending on the specific variant."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I order a specific variant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, you can select from the listed variants, which include different plating, stone colors, and designs. For bulk orders or custom requirements, please contact us."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
+            "contentHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:12:50.913Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -48770,6 +49128,1945 @@
             "contentHash": "ce6ac50c74d2b6cc8a365cdf995c03315b162d8f99cfe519dae90b6ff7033c97",
             "attempts": 1,
             "updatedAt": "2026-08-13T04:24:43.246Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE8TG7BAOVioqqEY6eoxN9t",
+      "sourceId": "AAE8TG7BAOVioqqEY6eoxN9t",
+      "sourceFingerprint": "83daf67f2b53c089b47f1d58cbc5edca0b3b231f9eeb6941332704ff1a520f3d",
+      "locale": "pl",
+      "slug": "virgin-mary-pendant-necklace-18k-gold-plated-eoxn9t",
+      "title": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem",
+      "eyebrow": "Maryjny naszyjnik z wisiorem",
+      "summary": "Wisiorek Matki Boskiej o średnicy 1,8 cm, wykończony platerem 18K złota, dostępny w kilku nazwanych wariantach. Ten naszyjnik oferuje klasyczny maryjny wizerunek w kompaktowym rozmiarze, idealny do tworzenia biżuterii lub odsprzedaży.",
+      "description": "Ten naszyjnik z wisiorem przedstawia Matkę Boską w kompaktowym rozmiarze 1,8 cm, z wykończeniem platerowanym 18K złotem. Oferta obejmuje wiele wariantów z różnymi kodami wzorów (NV07-5, NB03-4, NB03-5, NB03-6, NS03-9), co pozwala na wybór w zależności od preferencji wzoru. Niewielka skala i złoty odcień czynią go wszechstronną bazą do projektów biżuterii DIY lub jako samodzielny dodatek. Jako produkt hurtowy, jest odpowiedni dla kupujących pragnących dodać maryjną biżuterię do swojej oferty.",
+      "catholicContext": "Matka Boska jest czczona w katolicyzmie jako Matka Boża, a maryjne przedmioty dewocyjne są często używane jako przypomnienie wiary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Akcesoria jubilerskie",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAE8TG7BAOVioqqEY6eoxN9t",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Hf32f5756538b4116aa3d64e83f5bce15w.webp",
+      "imageAlt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf32f5756538b4116aa3d64e83f5bce15w.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H839bfc976aec42e98c3c413eb936927do.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc70138ac1c054bbbabd299bdb69962b7p.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9f73e3c190264d40b9e13eb3e222165bz.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf809274731994c8aa723d713a4a38993p.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H4f1e9ee2b4df43899094a44d493398bbM.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H011e27474e804f7bab2df8f249d193e5y.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem - 1-8cm-virgin-necklace-plated-with-real-gold-nv07-5",
+          "label": "1-8cm-virgin-necklace-plated-with-real-gold-nv07-5",
+          "sku": "ALI-AAE8TG7BAOVioqqEY6eoxN9t-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H51e7b949eebc4c34943c8f9011b0f2ffD.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem - nb03-4-virgin-gold-plated",
+          "label": "nb03-4-virgin-gold-plated",
+          "sku": "ALI-AAE8TG7BAOVioqqEY6eoxN9t-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6b6ccf2b7264430388414d239dd2394b0.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem - nb03-6-virgin-gold-plated",
+          "label": "nb03-6-virgin-gold-plated",
+          "sku": "ALI-AAE8TG7BAOVioqqEY6eoxN9t-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H4eb7dd50a2294c35a84644326b8f5d47W.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem - nb03-5-virgin-gold-plated",
+          "label": "nb03-5-virgin-gold-plated",
+          "sku": "ALI-AAE8TG7BAOVioqqEY6eoxN9t-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H000a1b89c1aa4bceabde590e14592738B.webp",
+          "alt": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem - ns03-9-virgin-gold-plated",
+          "label": "ns03-9-virgin-gold-plated",
+          "sku": "ALI-AAE8TG7BAOVioqqEY6eoxN9t-V--2"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Wykończenie platerowane 18K złotem",
+        "Rozmiar wisiorka: 1,8 cm",
+        "Motyw religijny Matki Boskiej",
+        "Dostępne warianty: NV07-5, NB03-4, NB03-5, NB03-6, NS03-9",
+        "Odpowiedni do samodzielnego montażu biżuterii"
+      ],
+      "specifications": [
+        {
+          "name": "Rozmiar wisiorka",
+          "value": "1,8 cm"
+        },
+        {
+          "name": "Platerowanie",
+          "value": "18K złoto"
+        },
+        {
+          "name": "Warianty",
+          "value": "NV07-5, NB03-4, NB03-5, NB03-6, NS03-9"
+        }
+      ],
+      "applications": [
+        "Tworzenie i montaż biżuterii",
+        "Sprzedaż detaliczna akcesoriów religijnych",
+        "Osobiste użycie dewocyjne",
+        "Prezenty"
+      ],
+      "faq": [
+        {
+          "question": "Jakie rozmiary są dostępne dla tego naszyjnika z wisiorem?",
+          "answer": "Rozmiar wisiorka wynosi 1,8 cm, jak podano w atrybutach produktu."
+        },
+        {
+          "question": "Jakie warianty są oferowane dla tego produktu?",
+          "answer": "Dostępne warianty to NV07-5, NB03-4, NB03-5, NB03-6 i NS03-9, wszystkie z wykończeniem platerowanym 18K złotem."
+        },
+        {
+          "question": "Czy ten naszyjnik może być używany do projektów biżuterii DIY?",
+          "answer": "Tak, produkt jest sklasyfikowany jako akcesorium do biżuterii DIY, a jego kompaktowy rozmiar wisiorka sprawia, że nadaje się do wkomponowania w niestandardowe elementy."
+        }
+      ],
+      "pricing": {
+        "price": "1.08",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.08",
+          "max": "1.79"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Naszyjnik z wisiorem Matki Boskiej, platerowany 18K złotem",
+          "description": "Wisiorek Matki Boskiej o średnicy 1,8 cm, wykończony platerem 18K złota, dostępny w kilku nazwanych wariantach. Ten naszyjnik oferuje klasyczny maryjny wizerunek w kompaktowym rozmiarze, idealny do tworzenia biżuterii lub odsprzedaży.",
+          "sku": "ALI-AAE8TG7BAOVioqqEY6eoxN9t",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf32f5756538b4116aa3d64e83f5bce15w.jpg",
+            "https://sc04.alicdn.com/kf/H839bfc976aec42e98c3c413eb936927do.jpg",
+            "https://sc04.alicdn.com/kf/Hc70138ac1c054bbbabd299bdb69962b7p.jpg",
+            "https://sc04.alicdn.com/kf/H9f73e3c190264d40b9e13eb3e222165bz.jpg",
+            "https://sc04.alicdn.com/kf/Hf809274731994c8aa723d713a4a38993p.jpg",
+            "https://sc04.alicdn.com/kf/H4f1e9ee2b4df43899094a44d493398bbM.jpg"
+          ],
+          "category": "Akcesoria jubilerskie",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Rozmiar wisiorka",
+              "value": "1,8 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Platerowanie",
+              "value": "18K złoto"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Warianty",
+              "value": "NV07-5, NB03-4, NB03-5, NB03-6, NS03-9"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.08",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.08",
+              "maxPrice": "1.79",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jakie rozmiary są dostępne dla tego naszyjnika z wisiorem?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Rozmiar wisiorka wynosi 1,8 cm, jak podano w atrybutach produktu."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jakie warianty są oferowane dla tego produktu?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dostępne warianty to NV07-5, NB03-4, NB03-5, NB03-6 i NS03-9, wszystkie z wykończeniem platerowanym 18K złotem."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy ten naszyjnik może być używany do projektów biżuterii DIY?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, produkt jest sklasyfikowany jako akcesorium do biżuterii DIY, a jego kompaktowy rozmiar wisiorka sprawia, że nadaje się do wkomponowania w niestandardowe elementy."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "139962b264433dac42b27e123b625b796108485757f8e057cb3f932b7faf9bbf",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "139962b264433dac42b27e123b625b796108485757f8e057cb3f932b7faf9bbf",
+            "contentHash": "139962b264433dac42b27e123b625b796108485757f8e057cb3f932b7faf9bbf",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:12:49.139Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "139962b264433dac42b27e123b625b796108485757f8e057cb3f932b7faf9bbf",
+            "contentHash": "f262389dae5e7d9b49c204349d442a1028909eaf59a2403a8e8b90c2383949e7",
+            "attempts": 1,
+            "updatedAt": "2026-08-14T04:18:52.904Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGgTG7BAOVioqqEY6erMo-w",
+      "sourceId": "AAGgTG7BAOVioqqEY6erMo-w",
+      "sourceFingerprint": "ede2e9f2a3af21cb1372a9401d143a0fe67f31b563e709cb011831bfc331453e",
+      "locale": "pl",
+      "slug": "wholesale-zinc-alloy-gold-plated-fish-pendant-necklace-diy-ermo-w",
+      "title": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany hurtowo DIY",
+      "eyebrow": "Naszyjniki modowe",
+      "summary": "Hurtowy naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, DIY, biżuteria unisex",
+      "description": "Hurtowy naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, DIY, biżuteria unisex",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Naszyjniki modowe",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAGgTG7BAOVioqqEY6erMo-w",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H9a8132ddff2a477385ad20fa11582c42I.webp",
+      "imageAlt": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, hurtowy DIY",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9a8132ddff2a477385ad20fa11582c42I.webp",
+          "alt": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, hurtowy DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd1c25e66e7874f76a0d5316392d42822j.webp",
+          "alt": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, hurtowy DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc9bab011f1a447979b8f2ff524f0b2f22.webp",
+          "alt": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, hurtowy DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb7d1e5f18524413097674b893fb4a41eR.webp",
+          "alt": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, hurtowy DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He7a1083cca8b4128b35edc77d8613b37e.webp",
+          "alt": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, hurtowy DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H655e51ca572a4a7787efbe7724e08232M.webp",
+          "alt": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, hurtowy DIY"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3adfe880b4644a64a5f307e03d8b0e5bY.webp",
+          "alt": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, hurtowy DIY - złoty naszyjnik rybka-naf05-6",
+          "label": "golden-fish-necklace-naf05-6",
+          "sku": "ALI-AAGgTG7BAOVioqqEY6erMo-w-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H78b2cea5614246eaa0bbdd66989ec57f1.webp",
+          "alt": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, hurtowy DIY - biały złoty naszyjnik rybka-naf05-7",
+          "label": "white-gold-fish-necklace-naf05-7",
+          "sku": "ALI-AAGgTG7BAOVioqqEY6erMo-w-V--2"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Wariant: Złoty naszyjnik rybka NAF05-6, Biały złoty naszyjnik rybka NAF05-7"
+      ],
+      "specifications": [
+        {
+          "name": "Wariant",
+          "value": "Złoty naszyjnik rybka NAF05-6, Biały złoty naszyjnik rybka NAF05-7"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.25",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.90",
+          "max": "1.25"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Naszyjnik z zawieszką rybką ze stopu cynku, pozłacany hurtowo DIY",
+          "description": "Hurtowy naszyjnik z zawieszką rybką ze stopu cynku, pozłacany, DIY, biżuteria unisex",
+          "sku": "ALI-AAGgTG7BAOVioqqEY6erMo-w",
+          "image": [
+            "https://sc04.alicdn.com/kf/H9a8132ddff2a477385ad20fa11582c42I.jpg",
+            "https://sc04.alicdn.com/kf/Hd1c25e66e7874f76a0d5316392d42822j.jpg",
+            "https://sc04.alicdn.com/kf/Hc9bab011f1a447979b8f2ff524f0b2f22.jpg",
+            "https://sc04.alicdn.com/kf/Hb7d1e5f18524413097674b893fb4a41eR.jpg",
+            "https://sc04.alicdn.com/kf/He7a1083cca8b4128b35edc77d8613b37e.jpg",
+            "https://sc04.alicdn.com/kf/H655e51ca572a4a7787efbe7724e08232M.jpg"
+          ],
+          "category": "Naszyjniki modowe",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Wariant",
+              "value": "Złoty naszyjnik rybka NAF05-6, Biały złoty naszyjnik rybka NAF05-7"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.90",
+              "maxPrice": "1.25",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "4a593824169d88236dcd74de6a3a2c2d729c831f45a416b19d899db15091f65e",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "4a593824169d88236dcd74de6a3a2c2d729c831f45a416b19d899db15091f65e",
+            "contentHash": "4a593824169d88236dcd74de6a3a2c2d729c831f45a416b19d899db15091f65e",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:13:14.853Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "4a593824169d88236dcd74de6a3a2c2d729c831f45a416b19d899db15091f65e",
+            "contentHash": "dba233e87763de2af633b485d0b9c850e7d27d737bb4b5a44ae3a81dc3c425c0",
+            "attempts": 1,
+            "updatedAt": "2026-08-14T04:18:57.036Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFYTG7BAOVioqqEY6eox_B1",
+      "sourceId": "AAFYTG7BAOVioqqEY6eox_B1",
+      "sourceFingerprint": "52cc29a8049967a5a7a4c82afe4d1f98b168329b72e47198da939ea5212fceb6",
+      "locale": "pl",
+      "slug": "wooden-rosary-with-portuguese-prayer-cards-eox_b1",
+      "title": "Różaniec drewniany z portugalskimi kartami modlitewnymi",
+      "eyebrow": "drewniany różaniec z portugalskimi kartami modlitewnymi",
+      "summary": "Ten drewniany różaniec jest dostarczany z portugalskimi kartami modlitewnymi przedstawiającymi Matkę Bożą z Aparecidy, ukochaną brazylijską dewocję maryjną. Dostępny w sześciu brązowych wariantach, stanowi namacalną pomoc w modlitwie katolickiej i przemyślany prezent dla portugalskojęzycznych wiernych.",
+      "description": "Wizualnie ten różaniec łączy naturalne drewniane paciorki w kolorze drewna z komponującym się medalikiem i krucyfiksem, prezentując ciepły, stonowany wygląd odpowiedni do codziennego użytku. Dołączone karty modlitewne, wydrukowane po portugalsku i opatrzone wizerunkiem Matki Bożej z Aparecidy, dodają charakterystycznego elementu dewocyjnego, który wiąże zestaw z brazylijską tradycją katolicką.\n\nKażdy wariant („Brown-1” do „Brown-6”) oferuje inny układ lub wykończenie brązowych drewnianych paciorków, co pozwala wybrać dokładnie taki odcień, jaki preferujesz. Jako praktyczna pomoc w modlitwie różańcowej, zestaw wspiera tradycyjną sekwencję modlitw. Karty modlitewne są przemyślanym dodatkiem do osobistej refleksji lub do podarowania portugalskojęzycznym odbiorcom.",
+      "catholicContext": "Różaniec jest katolicką modlitwą skoncentrowaną na kontemplacji wydarzeń z życia Jezusa Chrystusa i Najświętszej Maryi Panny.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Różańce katolickie",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAFYTG7BAOVioqqEY6eox_B1",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H310f6fd36a144115969ec83cf36ca50e8.webp",
+      "imageAlt": "Różaniec drewniany z portugalskimi kartami modlitewnymi",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H310f6fd36a144115969ec83cf36ca50e8.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6cf21227e2b140bc877f241228e3a182r.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H22cd14c24be4405fbbfd231e50874d4ar.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9cbb809bfae347a1a914c23f22dee34fa.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H044513e6632241df9ba93e8cf39e690f6.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He5b87b8334424edba0295577df4911bbx.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0cd6e88eb72040669502aa6e7357fe01r.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi - brązowy-5",
+          "label": "brązowy-5",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eox_B1-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfa4befbcaf474d23b4782cdb04a3b901T.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi - brązowy-4",
+          "label": "brązowy-4",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eox_B1-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H101434be249642caa1b079928bd5b095B.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi - brązowy-6",
+          "label": "brązowy-6",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eox_B1-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd2eaf0f6f1214f06bfd89a676e28715c5.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi - brązowy-1",
+          "label": "brązowy-1",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eox_B1-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf7199c839da048ffa3969a08f4942d37G.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi - brązowy-3",
+          "label": "brązowy-3",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eox_B1-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbe8b364e79b04b11855bc1b478f68505K.webp",
+          "alt": "Różaniec drewniany z portugalskimi kartami modlitewnymi - brązowy-2",
+          "label": "brązowy-2",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eox_B1-V--2"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Wykonany z drewna z naturalnym brązowym wykończeniem",
+        "Sześć wariantów brązowych (Brązowy-1 do Brązowy-6)",
+        "Zawiera karty modlitewne w języku portugalskim",
+        "Karty przedstawiają wizerunek Matki Bożej z Aparecidy",
+        "Kompletny różaniec z paciorkami, medalikiem i krucyfiksem"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Drewno"
+        },
+        {
+          "name": "Kolor",
+          "value": "Brązowy (wiele odcieni)"
+        },
+        {
+          "name": "Warianty",
+          "value": "Brązowy-1, Brązowy-2, Brązowy-3, Brązowy-4, Brązowy-5, Brązowy-6"
+        },
+        {
+          "name": "Język kart modlitewnych",
+          "value": "Portugalski"
+        }
+      ],
+      "applications": [
+        "Codzienna osobista modlitwa różańcowa",
+        "Prezent dla portugalskojęzycznych katolików, zwłaszcza czcicieli Matki Bożej z Aparecidy",
+        "Grupy katolickiej edukacji religijnej",
+        "Pamiątka lub przedmiot dewocyjny dla odwiedzających Brazylię"
+      ],
+      "faq": [
+        {
+          "question": "Jak wygląda każdy brązowy wariant?",
+          "answer": "Sześć wariantów (Brązowy-1 do Brązowy-6) reprezentuje różne odcienie lub wykończenia brązowych drewnianych paciorków. Konkretne wartości kolorów nie są określone, dlatego zalecamy poproszenie o próbki, aby zobaczyć dokładne różnice."
+        },
+        {
+          "question": "Czy karty modlitewne są dołączone do każdego różańca?",
+          "answer": "Tak, każdy różaniec zawiera portugalskie karty modlitewne z wizerunkiem Matki Bożej z Aparecidy."
+        },
+        {
+          "question": "Jaki jest materiał różańca?",
+          "answer": "Różaniec jest wykonany z drewna, co nadaje mu naturalny i ciepły wygląd."
+        }
+      ],
+      "pricing": {
+        "price": "1.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.80",
+          "max": "1.20"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Różaniec drewniany z portugalskimi kartami modlitewnymi",
+          "description": "Ten drewniany różaniec jest dostarczany z portugalskimi kartami modlitewnymi przedstawiającymi Matkę Bożą z Aparecidy, ukochaną brazylijską dewocję maryjną. Dostępny w sześciu brązowych wariantach, stanowi namacalną pomoc w modlitwie katolickiej i przemyślany prezent dla portugalskojęzycznych wiernych.",
+          "sku": "ALI-AAFYTG7BAOVioqqEY6eox_B1",
+          "image": [
+            "https://sc04.alicdn.com/kf/H310f6fd36a144115969ec83cf36ca50e8.png",
+            "https://sc04.alicdn.com/kf/H6cf21227e2b140bc877f241228e3a182r.jpg",
+            "https://sc04.alicdn.com/kf/H22cd14c24be4405fbbfd231e50874d4ar.jpg",
+            "https://sc04.alicdn.com/kf/H9cbb809bfae347a1a914c23f22dee34fa.jpg",
+            "https://sc04.alicdn.com/kf/H044513e6632241df9ba93e8cf39e690f6.jpg",
+            "https://sc04.alicdn.com/kf/He5b87b8334424edba0295577df4911bbx.jpg"
+          ],
+          "category": "Różańce katolickie",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Drewno"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kolor",
+              "value": "Brązowy (wiele odcieni)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Warianty",
+              "value": "Brązowy-1, Brązowy-2, Brązowy-3, Brązowy-4, Brązowy-5, Brązowy-6"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Język kart modlitewnych",
+              "value": "Portugalski"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.80",
+              "maxPrice": "1.20",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jak wygląda każdy brązowy wariant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sześć wariantów (Brązowy-1 do Brązowy-6) reprezentuje różne odcienie lub wykończenia brązowych drewnianych paciorków. Konkretne wartości kolorów nie są określone, dlatego zalecamy poproszenie o próbki, aby zobaczyć dokładne różnice."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy karty modlitewne są dołączone do każdego różańca?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, każdy różaniec zawiera portugalskie karty modlitewne z wizerunkiem Matki Bożej z Aparecidy."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jaki jest materiał różańca?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Różaniec jest wykonany z drewna, co nadaje mu naturalny i ciepły wygląd."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "c2614290c6693e33be134d920a3a0afa3202f87bcac07d28469c92ac9ca8bddc",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "c2614290c6693e33be134d920a3a0afa3202f87bcac07d28469c92ac9ca8bddc",
+            "contentHash": "c2614290c6693e33be134d920a3a0afa3202f87bcac07d28469c92ac9ca8bddc",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:13:06.275Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "c2614290c6693e33be134d920a3a0afa3202f87bcac07d28469c92ac9ca8bddc",
+            "contentHash": "8d4964e48c3cd69dcc17d2d321e8be25be8401e9b2d963fb7709682d1d2b3e32",
+            "attempts": 1,
+            "updatedAt": "2026-08-14T04:19:07.786Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEPTG7BAOVioqqEY6efuTj7",
+      "sourceId": "AAEPTG7BAOVioqqEY6efuTj7",
+      "sourceFingerprint": "b43fd29b3a559d7fa1b96d9cb9028b99cb29c285a7b5056ae227b42aa1acfdaf",
+      "locale": "pl",
+      "slug": "acrylic-rosary-beads-necklace-8x10mm-efutj7",
+      "title": "Naszyjnik różańcowy z koralików akrylowych 8x10mm",
+      "eyebrow": "Akrylowy naszyjnik różańcowy",
+      "summary": "Akrylowy naszyjnik różańcowy z eliptycznymi koralikami 8x10mm. Dostępny w kolorach kawowym, czarnym i czerwonym, ten trwały różaniec nadaje się do osobistej modlitwy oraz jako prezent na Wielkanoc lub inne okazje.",
+      "description": "Ten akrylowy naszyjnik różańcowy to praktyczny wybór dla osób poszukujących trwałego, a zarazem lekkiego akcesorium dewocyjnego. Eliptyczne koraliki 8x10mm zapewniają komfort podczas użytkowania. Dostępny w kolorach kawowym, czarnym i czerwonym, może pasować do osobistego stylu lub stroju kościelnego.\n\nWykonany z akrylu, różaniec jest odporny na codzienne zużycie, co czyni go odpowiednim do częstego używania. Jego konstrukcja podąża za tradycyjną strukturą różańca, wspierając recytację modlitw. Niezależnie od tego, czy służy do osobistej pobożności, czy jako prezent na Wielkanoc, ten różaniec jest znaczącym przypomnieniem wiary.",
+      "catholicContext": "Różaniec jest katolicką modlitwą skupioną na kontemplacji wydarzeń z życia Jezusa Chrystusa i Maryi Dziewicy.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Różańce katolickie",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAEPTG7BAOVioqqEY6efuTj7",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H89318eea58d446e2bcc1324472bec2338.webp",
+      "imageAlt": "Naszyjnik różańcowy z koralików akrylowych 8x10mm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H89318eea58d446e2bcc1324472bec2338.webp",
+          "alt": "Naszyjnik różańcowy z koralików akrylowych 8x10mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haf82e0119eb44aa49c221e6a02d164f2Y.webp",
+          "alt": "Naszyjnik różańcowy z koralików akrylowych 8x10mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H46e58b027cb247eb98636a9c597ba23fs.webp",
+          "alt": "Naszyjnik różańcowy z koralików akrylowych 8x10mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H82eb584d47e94343b3a6a96b7c0d4b2fI.webp",
+          "alt": "Naszyjnik różańcowy z koralików akrylowych 8x10mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H98eda638c377449c8ed8a246e26592daY.webp",
+          "alt": "Naszyjnik różańcowy z koralików akrylowych 8x10mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H58c335ffc2fd4f17b9c2b522da2fb059W.webp",
+          "alt": "Naszyjnik różańcowy z koralików akrylowych 8x10mm"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H251e48cb91ae4149a42ff0edafd6c9b6z.webp",
+          "alt": "Naszyjnik różańcowy z koralików akrylowych 8x10mm - kawowy",
+          "label": "kawowy",
+          "sku": "ALI-AAEPTG7BAOVioqqEY6efuTj7-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1bf15f689f2d4eea89b4d582fb3a437bO.webp",
+          "alt": "Naszyjnik różańcowy z koralików akrylowych 8x10mm - czarny",
+          "label": "czarny",
+          "sku": "ALI-AAEPTG7BAOVioqqEY6efuTj7-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd44e1cfc46ff44098cfb0e0959b0378ee.webp",
+          "alt": "Naszyjnik różańcowy z koralików akrylowych 8x10mm - czerwony",
+          "label": "czerwony",
+          "sku": "ALI-AAEPTG7BAOVioqqEY6efuTj7-V-3331260"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Eliptyczne koraliki akrylowe 8x10mm",
+        "Dostępny w kolorach: kawowy, czarny, czerwony",
+        "Lekki i trwały materiał akrylowy",
+        "Tradycyjny wzór różańca",
+        "Odpowiedni do użytku osobistego i jako prezent"
+      ],
+      "specifications": [
+        {
+          "name": "Rozmiar koralików",
+          "value": "8x10mm"
+        },
+        {
+          "name": "Materiał",
+          "value": "Akryl"
+        },
+        {
+          "name": "Warianty kolorystyczne",
+          "value": "Kawowy, czarny, czerwony"
+        }
+      ],
+      "applications": [
+        "Codzienna modlitwa osobista",
+        "Prezent na Wielkanoc lub inne święta chrześcijańskie",
+        "Aktywności grup kościelnych",
+        "Środowiska edukacji religijnej"
+      ],
+      "faq": [
+        {
+          "question": "Z jakiego materiału jest wykonany ten różaniec?",
+          "answer": "Różaniec jest wykonany z akrylu, który jest lekki i trwały, odpowiedni do regularnego użytkowania."
+        },
+        {
+          "question": "Jakie są dostępne opcje kolorystyczne?",
+          "answer": "Różaniec występuje w trzech wariantach kolorystycznych: kawowym, czarnym i czerwonym."
+        },
+        {
+          "question": "Czy ten różaniec ma tradycyjną strukturę?",
+          "answer": "Tak, wzór jest opisany jako różaniec i zawiera eliptyczne koraliki w rozmiarze 8x10mm, co jest typowe dla koralików różańcowych."
+        }
+      ],
+      "pricing": {
+        "price": "0.52",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.52"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Naszyjnik różańcowy z koralików akrylowych 8x10mm",
+          "description": "Akrylowy naszyjnik różańcowy z eliptycznymi koralikami 8x10mm. Dostępny w kolorach kawowym, czarnym i czerwonym, ten trwały różaniec nadaje się do osobistej modlitwy oraz jako prezent na Wielkanoc lub inne okazje.",
+          "sku": "ALI-AAEPTG7BAOVioqqEY6efuTj7",
+          "image": [
+            "https://sc04.alicdn.com/kf/H89318eea58d446e2bcc1324472bec2338.jpg",
+            "https://sc04.alicdn.com/kf/Haf82e0119eb44aa49c221e6a02d164f2Y.jpg",
+            "https://sc04.alicdn.com/kf/H46e58b027cb247eb98636a9c597ba23fs.jpg",
+            "https://sc04.alicdn.com/kf/H82eb584d47e94343b3a6a96b7c0d4b2fI.jpg",
+            "https://sc04.alicdn.com/kf/H98eda638c377449c8ed8a246e26592daY.jpg",
+            "https://sc04.alicdn.com/kf/H58c335ffc2fd4f17b9c2b522da2fb059W.jpg"
+          ],
+          "category": "Różańce katolickie",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Rozmiar koralików",
+              "value": "8x10mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Akryl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Warianty kolorystyczne",
+              "value": "Kawowy, czarny, czerwony"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.52",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.52",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Z jakiego materiału jest wykonany ten różaniec?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Różaniec jest wykonany z akrylu, który jest lekki i trwały, odpowiedni do regularnego użytkowania."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jakie są dostępne opcje kolorystyczne?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Różaniec występuje w trzech wariantach kolorystycznych: kawowym, czarnym i czerwonym."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy ten różaniec ma tradycyjną strukturę?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, wzór jest opisany jako różaniec i zawiera eliptyczne koraliki w rozmiarze 8x10mm, co jest typowe dla koralików różańcowych."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b60aa93d9456fe4ea126b5a559c71a225b4027ba934bddfda94ffe033a18a13a",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b60aa93d9456fe4ea126b5a559c71a225b4027ba934bddfda94ffe033a18a13a",
+            "contentHash": "b60aa93d9456fe4ea126b5a559c71a225b4027ba934bddfda94ffe033a18a13a",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:13:10.007Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "b60aa93d9456fe4ea126b5a559c71a225b4027ba934bddfda94ffe033a18a13a",
+            "contentHash": "dbe37a0fadb723e877a2cd5a4555f532dc2656963b1e33734e577ecfee694cb6",
+            "attempts": 1,
+            "updatedAt": "2026-08-14T04:20:58.723Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH7TG7BAOVioqqEY6eBSAcn",
+      "sourceId": "AAH7TG7BAOVioqqEY6eBSAcn",
+      "sourceFingerprint": "05375cc3221565bd70ec28c0cace1036557bd1bb537a0c389b9124f8f4def3f2",
+      "locale": "pl",
+      "slug": "metal-enamel-crucifix-pendant-11-5x7cm-colorful-ebsacn",
+      "title": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy",
+      "eyebrow": "Metalowy emaliowany wisior krzyża",
+      "summary": "Ten metalowy emaliowany wisior krzyża o wymiarach 11,5x7 cm przedstawia kolorowy wizerunek Chrystusa, co czyni go wyjątkowym przedmiotem dewocyjnym. Dostępny w pięciu wariantach, odpowiada różnym preferencjom, zarówno do użytku osobistego, jak i jako prezent.",
+      "description": "Wykonany z metalu z wykończeniem emaliowanym, ten wisior krzyża ma wymiary 11,5 na 7 centymetrów. Kolorowy wzór przedstawia Chrystusa na krzyżu, służąc jako wizualne przypomnienie wiary. Dostępny w pięciu wariantach, oferuje elastyczność w zależności od gustu i zastosowania.\n\nJako przedmiot dewocyjny może być wystawiony w domu lub podarowany jako prezent z okazji religijnych. Jego kompaktowe rozmiary sprawiają, że łatwo umieścić go w kąciku modlitewnym lub nosić jako osobiste przypomnienie. Emalia dodaje trwałości i błyszczącego wyglądu, zwiększając jego atrakcyjność wizualną.",
+      "catholicContext": "Krzyż, przedstawiający Chrystusa na krzyżu, jest centralnym symbolem wiary katolickiej, często używanym w osobistej pobożności i modlitwie.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Akcesoria jubilerskie",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAH7TG7BAOVioqqEY6eBSAcn",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H8f6643507fc648dbbb47fd2529fa2d29v.webp",
+      "imageAlt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f6643507fc648dbbb47fd2529fa2d29v.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5bb1850b95164a9d8c582b9e5f0e9f6dx.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H99c20fb1def445baa654475569d241a9A.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H331dad45b39f4af6a3afb4800f00e34eu.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hac1a6e83499a4ed58f5d55fd6cff0cfcb.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H96943d1954694cdbbe876d6e4e492b52E.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0f126c3604c24360999d53429fe4dd3eP.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy - 4",
+          "label": "4",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eBSAcn-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H083e33046cd54165a8458a0870410e40c.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy - 3",
+          "label": "3",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eBSAcn-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H64c4380ac8724782b8ded917594e4dc6R.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy - 2",
+          "label": "2",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eBSAcn-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha651873618eb44b2a6be82aec94f7f3fF.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy - 1",
+          "label": "1",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eBSAcn-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2386aeffc59249ec8282b65066639a94H.webp",
+          "alt": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy - 5",
+          "label": "5",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eBSAcn-V--5"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Konstrukcja metalowa z wykończeniem emaliowanym",
+        "Przedstawia Chrystusa na krzyżu",
+        "Wymiary 11,5 cm na 7 cm",
+        "Dostępny w 5 wariantach",
+        "Kolorowy wzór"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Metal z emalią"
+        },
+        {
+          "name": "Wymiary",
+          "value": "11,5 cm x 7 cm"
+        },
+        {
+          "name": "Warianty",
+          "value": "5"
+        }
+      ],
+      "applications": [
+        "Dekoracja domu",
+        "Prezent religijny",
+        "Do osobistego użytku dewocyjnego",
+        "Ekspozycja w miejscu modlitwy"
+      ],
+      "faq": [
+        {
+          "question": "Jakie są wymiary tego wisiora krzyża?",
+          "answer": "Wisior krzyża ma 11,5 centymetra wysokości i 7 centymetrów szerokości."
+        },
+        {
+          "question": "Ile wariantów kolorystycznych jest dostępnych?",
+          "answer": "Ten produkt występuje w 5 różnych wariantach, co pozwala wybrać ten, który najlepiej odpowiada Twoim potrzebom."
+        },
+        {
+          "question": "Z jakiego materiału wykonany jest krzyż?",
+          "answer": "Krzyż jest wykonany z metalu z wykończeniem emaliowanym, co zapewnia trwałość i błyszczącą powierzchnię."
+        }
+      ],
+      "pricing": {
+        "price": "1.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.98",
+          "max": "1.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Metalowy emaliowany wisior krzyża 11,5x7 cm Kolorowy",
+          "description": "Ten metalowy emaliowany wisior krzyża o wymiarach 11,5x7 cm przedstawia kolorowy wizerunek Chrystusa, co czyni go wyjątkowym przedmiotem dewocyjnym. Dostępny w pięciu wariantach, odpowiada różnym preferencjom, zarówno do użytku osobistego, jak i jako prezent.",
+          "sku": "ALI-AAH7TG7BAOVioqqEY6eBSAcn",
+          "image": [
+            "https://sc04.alicdn.com/kf/H8f6643507fc648dbbb47fd2529fa2d29v.jpg",
+            "https://sc04.alicdn.com/kf/H5bb1850b95164a9d8c582b9e5f0e9f6dx.jpg",
+            "https://sc04.alicdn.com/kf/H99c20fb1def445baa654475569d241a9A.jpg",
+            "https://sc04.alicdn.com/kf/H331dad45b39f4af6a3afb4800f00e34eu.jpg",
+            "https://sc04.alicdn.com/kf/Hac1a6e83499a4ed58f5d55fd6cff0cfcb.jpg",
+            "https://sc04.alicdn.com/kf/H96943d1954694cdbbe876d6e4e492b52E.jpg"
+          ],
+          "category": "Akcesoria jubilerskie",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Metal z emalią"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Wymiary",
+              "value": "11,5 cm x 7 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Warianty",
+              "value": "5"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.98",
+              "maxPrice": "1.30",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jakie są wymiary tego wisiora krzyża?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wisior krzyża ma 11,5 centymetra wysokości i 7 centymetrów szerokości."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ile wariantów kolorystycznych jest dostępnych?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ten produkt występuje w 5 różnych wariantach, co pozwala wybrać ten, który najlepiej odpowiada Twoim potrzebom."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Z jakiego materiału wykonany jest krzyż?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Krzyż jest wykonany z metalu z wykończeniem emaliowanym, co zapewnia trwałość i błyszczącą powierzchnię."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "73b8fa5e87e3bb1e7160e32c37c5e542a39facc199f024e06918f7cdbcc0237f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "73b8fa5e87e3bb1e7160e32c37c5e542a39facc199f024e06918f7cdbcc0237f",
+            "contentHash": "73b8fa5e87e3bb1e7160e32c37c5e542a39facc199f024e06918f7cdbcc0237f",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:13:04.072Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "73b8fa5e87e3bb1e7160e32c37c5e542a39facc199f024e06918f7cdbcc0237f",
+            "contentHash": "7dbc79c43819b0eb0fb3003aee4cc68080818f2d14071f5214d69747e8b1860b",
+            "attempts": 1,
+            "updatedAt": "2026-08-14T04:21:07.065Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEQTG7BAOVioqqEY6eGLcQV",
+      "sourceId": "AAEQTG7BAOVioqqEY6eGLcQV",
+      "sourceFingerprint": "4dd13639c6983edd08e5fb0acbf86b9ff78043619234b106c342affc05715a31",
+      "locale": "pl",
+      "slug": "catholic-virgin-mary-pendant-zinc-alloy-silver-plated-eglcqv",
+      "title": "Wisiorek katolicki z wizerunkiem Maryi Dziewicy, stop cynku, srebrzony",
+      "eyebrow": "Katolicki wisiorek z wizerunkiem Maryi Dziewicy",
+      "summary": "Ten katolicki wisiorek przedstawia Maryję Dziewicę w sercowatym kształcie. Wykonany ze stopu cynku ze srebrzeniem, odpowiedni dla mężczyzn i kobiet. Akcesorium hurtowe dla potrzeb katolickiej biżuterii.",
+      "description": "Ten katolicki wisiorek z wizerunkiem Maryi Dziewicy jest wykonany ze stopu cynku i wykończony srebrzeniem. Sercowaty kształt otacza postać Maryi, oferując kompaktowy dodatek do codziennego noszenia. Dostępny w stylu unisex, pasuje do szerokiego grona odbiorców, w tym mężczyzn.\n\nWisiorek jest klasyfikowany jako religijna biżuteria katolicka. Srebrzyste wykończenie i konstrukcja ze stopu cynku zapewniają trwałą bazę. Tematyczne wisiorki tego typu są popularne do użytku dewocyjnego lub jako prezenty na okazje religijne.\n\nZaprojektowany z myślą o wszechstronności, wisiorek sprawdza się na weselach, rocznicach lub jako przedmiot upominkowy. Brak głównego kamienia utrzymuje prosty design, skupiając się na symbolu Maryi. W przypadku zapytań hurtowych jesteśmy gotowi do pomocy.",
+      "catholicContext": "Ten wisiorek przedstawia Maryję Dziewicę, znaną w tradycji katolickiej jako Matka Boża, i jest przeznaczony jako akcesorium dewocyjne.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Akcesoria jubilerskie",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAEQTG7BAOVioqqEY6eGLcQV",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hf8503456d18d447bbc870650fff36c61N.webp",
+      "imageAlt": "Katolicki wisiorek z wizerunkiem Maryi Dziewicy, stop cynku, srebrzony",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf8503456d18d447bbc870650fff36c61N.webp",
+          "alt": "Katolicki wisiorek z wizerunkiem Maryi Dziewicy, stop cynku, srebrzony"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hff7ec8b3a20f4a36b36b0e33780a8d1fq.webp",
+          "alt": "Katolicki wisiorek z wizerunkiem Maryi Dziewicy, stop cynku, srebrzony"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3f48f3ad70de484a9a0ea52598eade156.webp",
+          "alt": "Katolicki wisiorek z wizerunkiem Maryi Dziewicy, stop cynku, srebrzony"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfb00854842484c11b15b078a5ee7d7cdl.webp",
+          "alt": "Katolicki wisiorek z wizerunkiem Maryi Dziewicy, stop cynku, srebrzony"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb9a32e1d3a96455d979eced5d0abbeeaD.webp",
+          "alt": "Katolicki wisiorek z wizerunkiem Maryi Dziewicy, stop cynku, srebrzony"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Konstrukcja ze stopu cynku",
+        "Wykończenie srebrzone",
+        "Sercowaty wzór wisiorka",
+        "Katolicki motyw Maryi Dziewicy",
+        "Styl unisex, odpowiedni dla mężczyzn",
+        "Bez głównego kamienia"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Stop cynku"
+        },
+        {
+          "name": "Powłoka",
+          "value": "Srebrzona"
+        },
+        {
+          "name": "Kształt/Wzór",
+          "value": "Serce"
+        },
+        {
+          "name": "Płeć",
+          "value": "Męska, unisex"
+        },
+        {
+          "name": "Styl",
+          "value": "Religijny"
+        },
+        {
+          "name": "Typ religijny",
+          "value": "Katolicyzm"
+        }
+      ],
+      "applications": [
+        "Codzienne noszenie dewocyjne",
+        "Prezent na okazje katolickie",
+        "Akcesorium na wesele lub rocznicę",
+        "Na przyjęcia lub zaręczyny"
+      ],
+      "faq": [
+        {
+          "question": "Z jakiego materiału wykonany jest ten wisiorek?",
+          "answer": "Wisiorek jest wykonany ze stopu cynku i ma wykończenie srebrzone."
+        },
+        {
+          "question": "Czy ten wisiorek jest odpowiedni dla mężczyzn?",
+          "answer": "Tak, wisiorek jest oznaczony jako unisex i wyraźnie obejmuje mężczyzn jako opcję płci."
+        },
+        {
+          "question": "Jaki wzór ma ten wisiorek?",
+          "answer": "Ma sercowaty kształt z katolickim motywem Maryi Dziewicy."
+        }
+      ],
+      "pricing": {
+        "price": "0.15",
+        "regularPrice": "0.15",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wisiorek katolicki z wizerunkiem Maryi Dziewicy, stop cynku, srebrzony",
+          "description": "Ten katolicki wisiorek przedstawia Maryję Dziewicę w sercowatym kształcie. Wykonany ze stopu cynku ze srebrzeniem, odpowiedni dla mężczyzn i kobiet. Akcesorium hurtowe dla potrzeb katolickiej biżuterii.",
+          "sku": "ALI-AAEQTG7BAOVioqqEY6eGLcQV",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf8503456d18d447bbc870650fff36c61N.jpg",
+            "https://sc04.alicdn.com/kf/Hff7ec8b3a20f4a36b36b0e33780a8d1fq.jpg",
+            "https://sc04.alicdn.com/kf/H3f48f3ad70de484a9a0ea52598eade156.jpg",
+            "https://sc04.alicdn.com/kf/Hfb00854842484c11b15b078a5ee7d7cdl.jpg",
+            "https://sc04.alicdn.com/kf/Hb9a32e1d3a96455d979eced5d0abbeeaD.jpg"
+          ],
+          "category": "Akcesoria jubilerskie",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Stop cynku"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Powłoka",
+              "value": "Srebrzona"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kształt/Wzór",
+              "value": "Serce"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Płeć",
+              "value": "Męska, unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Styl",
+              "value": "Religijny"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Typ religijny",
+              "value": "Katolicyzm"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.15",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Z jakiego materiału wykonany jest ten wisiorek?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wisiorek jest wykonany ze stopu cynku i ma wykończenie srebrzone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy ten wisiorek jest odpowiedni dla mężczyzn?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, wisiorek jest oznaczony jako unisex i wyraźnie obejmuje mężczyzn jako opcję płci."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jaki wzór ma ten wisiorek?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ma sercowaty kształt z katolickim motywem Maryi Dziewicy."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "4828ed9a04eae2e63627d937ab5c6354438b0f7cb15fd0045b7f415c343191cc",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "4828ed9a04eae2e63627d937ab5c6354438b0f7cb15fd0045b7f415c343191cc",
+            "contentHash": "4828ed9a04eae2e63627d937ab5c6354438b0f7cb15fd0045b7f415c343191cc",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:13:17.213Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "4828ed9a04eae2e63627d937ab5c6354438b0f7cb15fd0045b7f415c343191cc",
+            "contentHash": "f8d9cd72a9dbcb463dc3222b118e70413d06f2d7aa97655c31b13fbdc5f23155",
+            "attempts": 1,
+            "updatedAt": "2026-08-14T04:21:15.806Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAG0TG7BAOVioqqEY6eBt1-Z",
+      "sourceId": "AAG0TG7BAOVioqqEY6eBt1-Z",
+      "sourceFingerprint": "3d06f99e6565c02318d01e1de4db373f17eb2cef8052eb7a151b76d414cb6f7d",
+      "locale": "pl",
+      "slug": "gold-plated-saint-benedict-medal-lariat-necklace-ebt1-z",
+      "title": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym",
+      "eyebrow": "Naszyjnik z medalikiem Świętego Benedykta",
+      "summary": "Ten naszyjnik w kolorze złotym posiada medalik Świętego Benedykta w stylu lariat, w połączeniu z wybranym łańcuszkiem czarnym lub srebrnym. Rozpoznawalny katolicki dewocyjny wzór do codziennego noszenia.",
+      "description": "Ten naszyjnik prezentuje medalik Świętego Benedykta w stylu lariat, wykonany z pozłacanym wykończeniem. Projekt skupia się na znanym wizerunku medalika, co czyni go wyrazem katolickiej tożsamości.\n\nWybierz czarny lub srebrny łańcuszek, aby dopasować go do osobistego stylu lub preferencji obdarowanej osoby. Styl lariat pozwala medalikowi wisieć na uniwersalnej długości, wygodnie układając się na większości dekolty.\n\nJako dewocyjny dodatek, służy jako namacalne przypomnienie wiary, odpowiednie do codziennego noszenia lub jako przemyślany prezent dla kogoś, kto ceni katolickie tradycje.",
+      "catholicContext": "Medalik Świętego Benedykta jest powszechnie rozpoznawanym katolickim przedmiotem dewocyjnym, często używanym w pobożności ludowej jako przypomnienie wiary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Naszyjniki modowe",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAG0TG7BAOVioqqEY6eBt1-Z",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H4822599661be40c58856e33c5ee3ee003.webp",
+      "imageAlt": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4822599661be40c58856e33c5ee3ee003.webp",
+          "alt": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc4bdedb1fbd4a5cb196434c384e8c0fO.webp",
+          "alt": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hacb0c8176e08480ea3d2a79f0b9ecd17B.webp",
+          "alt": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H90201281254e44919e7a0ad31e2eb96fL.webp",
+          "alt": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H75aa7e78f5c245dc9899aefc29c0ba364.webp",
+          "alt": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc737a0a7c57342aba47eabf858d7f16cK.webp",
+          "alt": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He2ddac2c508e420d8c5fb5bafd820d87g.webp",
+          "alt": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym - z łańcuszkiem czarnym",
+          "label": "z-łańcuszkiem-czarnym",
+          "sku": "ALI-AAG0TG7BAOVioqqEY6eBt1-Z-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H253c9148afe7472bb411965306cf4204U.webp",
+          "alt": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym - z łańcuszkiem srebrnym",
+          "label": "z-łańcuszkiem-srebrnym",
+          "sku": "ALI-AAG0TG7BAOVioqqEY6eBt1-Z-V--1"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Pozłacane wykończenie",
+        "Wzór medalika Świętego Benedykta",
+        "Naszyjnik w stylu lariat",
+        "Dostępny z czarnym lub srebrnym łańcuszkiem",
+        "Katolicki dewocyjny dodatek"
+      ],
+      "specifications": [
+        {
+          "name": "Projekt",
+          "value": "Katolicki"
+        },
+        {
+          "name": "Styl",
+          "value": "Lariat"
+        },
+        {
+          "name": "Powłoka",
+          "value": "Pozłacany"
+        },
+        {
+          "name": "Opcje łańcuszka",
+          "value": "Czarny lub srebrny"
+        }
+      ],
+      "applications": [
+        "Codzienne noszenie dewocyjne",
+        "Prezent na katolickie okazje",
+        "Osobisty wyraz wiary",
+        "Warstwowanie z innymi naszyjnikami"
+      ],
+      "faq": [
+        {
+          "question": "Jakie kolory łańcuszka są dostępne dla tego naszyjnika z medalikiem Świętego Benedykta?",
+          "answer": "Ten naszyjnik jest dostępny z czarnym lub srebrnym łańcuszkiem, co pozwala wybrać opcję najlepiej pasującą do Twojego stylu."
+        },
+        {
+          "question": "Czy ten naszyjnik nadaje się do codziennego noszenia?",
+          "answer": "Tak, pozłacany medalik i łańcuszek są zaprojektowane do regularnego użytku, co czyni go praktycznym wyborem do codziennego noszenia dewocyjnego."
+        },
+        {
+          "question": "Jaki to styl naszyjnika?",
+          "answer": "Naszyjnik ma styl lariat, w którym medalik wisi na łańcuszku, tworząc uniwersalny i regulowany wygląd."
+        }
+      ],
+      "pricing": {
+        "price": "1.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.65",
+          "max": "1.98"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Naszyjnik Lariat z Medalikiem Świętego Benedykta w Kolorze Złotym",
+          "description": "Ten naszyjnik w kolorze złotym posiada medalik Świętego Benedykta w stylu lariat, w połączeniu z wybranym łańcuszkiem czarnym lub srebrnym. Rozpoznawalny katolicki dewocyjny wzór do codziennego noszenia.",
+          "sku": "ALI-AAG0TG7BAOVioqqEY6eBt1-Z",
+          "image": [
+            "https://sc04.alicdn.com/kf/H4822599661be40c58856e33c5ee3ee003.jpg",
+            "https://sc04.alicdn.com/kf/Hbc4bdedb1fbd4a5cb196434c384e8c0fO.jpg",
+            "https://sc04.alicdn.com/kf/Hacb0c8176e08480ea3d2a79f0b9ecd17B.jpg",
+            "https://sc04.alicdn.com/kf/H90201281254e44919e7a0ad31e2eb96fL.jpg",
+            "https://sc04.alicdn.com/kf/H75aa7e78f5c245dc9899aefc29c0ba364.jpg",
+            "https://sc04.alicdn.com/kf/Hc737a0a7c57342aba47eabf858d7f16cK.jpg"
+          ],
+          "category": "Naszyjniki modowe",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Projekt",
+              "value": "Katolicki"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Styl",
+              "value": "Lariat"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Powłoka",
+              "value": "Pozłacany"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Opcje łańcuszka",
+              "value": "Czarny lub srebrny"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.65",
+              "maxPrice": "1.98",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jakie kolory łańcuszka są dostępne dla tego naszyjnika z medalikiem Świętego Benedykta?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ten naszyjnik jest dostępny z czarnym lub srebrnym łańcuszkiem, co pozwala wybrać opcję najlepiej pasującą do Twojego stylu."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy ten naszyjnik nadaje się do codziennego noszenia?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, pozłacany medalik i łańcuszek są zaprojektowane do regularnego użytku, co czyni go praktycznym wyborem do codziennego noszenia dewocyjnego."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jaki to styl naszyjnika?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Naszyjnik ma styl lariat, w którym medalik wisi na łańcuszku, tworząc uniwersalny i regulowany wygląd."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "bffe3f30df536645e67c8f8b65e7ee4231050b40083228d8c15b4b6901f404b2",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "bffe3f30df536645e67c8f8b65e7ee4231050b40083228d8c15b4b6901f404b2",
+            "contentHash": "bffe3f30df536645e67c8f8b65e7ee4231050b40083228d8c15b4b6901f404b2",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:13:19.806Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "bffe3f30df536645e67c8f8b65e7ee4231050b40083228d8c15b4b6901f404b2",
+            "contentHash": "f0d4ca98f54c6b5360b38860ce311a2a2424f22fa5896db3b3165e912b74e174",
+            "attempts": 1,
+            "updatedAt": "2026-08-14T04:21:24.425Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGqTG7BAOVioqqEY6eJiw4E",
+      "sourceId": "AAGqTG7BAOVioqqEY6eJiw4E",
+      "sourceFingerprint": "98d92bc0505b4d95b0678a179fecb855a037c24f94d87335cdf8fbe03d10cc95",
+      "locale": "pl",
+      "slug": "natural-wood-beaded-cross-wall-hanging-ejiw4e",
+      "title": "Naturalny drewniany krzyż ścienny z koralików",
+      "eyebrow": "Drewniany krzyż ścienny z koralików",
+      "summary": "Krzyż ścienny wykonany z naturalnych drewnianych koralików ze złoconymi akcentami. Jego kształt krzyża i neutralne drewniane odcienie pasują do wystroju domów, wesel lub jako wartościowy prezent. Prosty, uniseks design umożliwiający wszechstronne umieszczenie.",
+      "description": "Ta ozdoba ścienna jest wykonana z naturalnych drewnianych koralików, które nadają jej ciepłą, organiczną teksturę. Koraliki są nanizane w kształt krzyża, z wybranymi złoconymi elementami dodającymi subtelny kontrast. Jako zwykły krzyż służy jako symbol religijny bez przedstawiania korpusu, co czyni go uniwersalnym wyrazem wiary.\n\nZe względu na to, że jest wykonany z drewna, powierzchnia może się nieznacznie różnić między egzemplarzami, a najlepiej przechowywać go w suchym miejscu. Pętla do zawieszania umożliwia łatwe wyeksponowanie na ścianie, drzwiach lub w niszy. Jego uniseks, religijny styl pasuje zarówno do użytku osobistego, jak i do hurtowych zestawów prezentowych.\n\nPozyskujemy ten przedmiot jako ozdobę dekoracyjną, a nie jako akcesorium liturgiczne.",
+      "catholicContext": "Zwykły krzyż jest powszechną ozdobą dewocyjną w katolickich domach, odróżnianą od krucyfiksu, który przedstawia ciało Chrystusa.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ozdoby",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAGqTG7BAOVioqqEY6eJiw4E",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H435477323ea4412eb2d19a31231aff09n.webp",
+      "imageAlt": "Naturalny drewniany krzyż ścienny z koralików",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H435477323ea4412eb2d19a31231aff09n.webp",
+          "alt": "Naturalny drewniany krzyż ścienny z koralików"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7047d5154cb44d40a972f0f8ab4c6511y.webp",
+          "alt": "Naturalny drewniany krzyż ścienny z koralików"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2cdd253a48da441fb5f87710bca73c65Y.webp",
+          "alt": "Naturalny drewniany krzyż ścienny z koralików"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hff03c7c0943e45b4b564606b3cb3ae825.webp",
+          "alt": "Naturalny drewniany krzyż ścienny z koralików"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1295fbec76b84ebba7da3f042324f5c3r.webp",
+          "alt": "Naturalny drewniany krzyż ścienny z koralików"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Wykonanie z naturalnych drewnianych koralików",
+        "Złocone koraliki akcentujące",
+        "Projekt krzyża do zawieszenia na ścianie",
+        "Uniseks styl religijny",
+        "Sklasyfikowany jako ozdoba i rodzaj naszyjnika"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Drewno"
+        },
+        {
+          "name": "Powłoka",
+          "value": "Złocenie"
+        },
+        {
+          "name": "Kształt/Wzór",
+          "value": "Krzyż"
+        },
+        {
+          "name": "Styl",
+          "value": "Religijny"
+        },
+        {
+          "name": "Płeć",
+          "value": "Uniseks"
+        }
+      ],
+      "applications": [
+        "Dekoracja ścienna w domach",
+        "Akcenty weselne",
+        "Prezenty rocznicowe",
+        "Ekspozycja ozdób religijnych"
+      ],
+      "faq": [
+        {
+          "question": "Jakie materiały są użyte w tym krzyżu ściennym?",
+          "answer": "Zgodnie z faktami produktowymi głównym materiałem jest drewno, a powłoka jest złocona. Jest to więc krzyż z drewnianych koralików ze złoconymi akcentami."
+        },
+        {
+          "question": "Czy to krucyfiks czy zwykły krzyż?",
+          "answer": "Przedmiot jest opisany jako krzyż bez wzmianki o korpusie, więc należy traktować go jako zwykły krzyż, a nie krucyfiks."
+        },
+        {
+          "question": "Czy można nosić go jako naszyjnik?",
+          "answer": "Oryginalna oferta kategoryzuje go pod naszyjniki i naszyjniki z koralików, więc może być noszony, ale jego główne przeznaczenie to ozdoba ścienna. Zalecamy potwierdzenie wymiarów przed zamówieniem."
+        }
+      ],
+      "pricing": {
+        "price": "2.55",
+        "regularPrice": "2.55",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.95",
+          "max": "2.55"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Naturalny drewniany krzyż ścienny z koralików",
+          "description": "Krzyż ścienny wykonany z naturalnych drewnianych koralików ze złoconymi akcentami. Jego kształt krzyża i neutralne drewniane odcienie pasują do wystroju domów, wesel lub jako wartościowy prezent. Prosty, uniseks design umożliwiający wszechstronne umieszczenie.",
+          "sku": "ALI-AAGqTG7BAOVioqqEY6eJiw4E",
+          "image": [
+            "https://sc04.alicdn.com/kf/H435477323ea4412eb2d19a31231aff09n.png",
+            "https://sc04.alicdn.com/kf/H7047d5154cb44d40a972f0f8ab4c6511y.png",
+            "https://sc04.alicdn.com/kf/H2cdd253a48da441fb5f87710bca73c65Y.png",
+            "https://sc04.alicdn.com/kf/Hff03c7c0943e45b4b564606b3cb3ae825.png",
+            "https://sc04.alicdn.com/kf/H1295fbec76b84ebba7da3f042324f5c3r.png"
+          ],
+          "category": "Ozdoby",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Drewno"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Powłoka",
+              "value": "Złocenie"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kształt/Wzór",
+              "value": "Krzyż"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Styl",
+              "value": "Religijny"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Płeć",
+              "value": "Uniseks"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.55",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.95",
+              "maxPrice": "2.55",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jakie materiały są użyte w tym krzyżu ściennym?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Zgodnie z faktami produktowymi głównym materiałem jest drewno, a powłoka jest złocona. Jest to więc krzyż z drewnianych koralików ze złoconymi akcentami."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy to krucyfiks czy zwykły krzyż?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Przedmiot jest opisany jako krzyż bez wzmianki o korpusie, więc należy traktować go jako zwykły krzyż, a nie krucyfiks."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy można nosić go jako naszyjnik?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oryginalna oferta kategoryzuje go pod naszyjniki i naszyjniki z koralików, więc może być noszony, ale jego główne przeznaczenie to ozdoba ścienna. Zalecamy potwierdzenie wymiarów przed zamówieniem."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "bda15150c34ae2d9a88b7549cd6f9b094947fc801d94d188860a8d873027a8cb",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "bda15150c34ae2d9a88b7549cd6f9b094947fc801d94d188860a8d873027a8cb",
+            "contentHash": "bda15150c34ae2d9a88b7549cd6f9b094947fc801d94d188860a8d873027a8cb",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:13:17.845Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "bda15150c34ae2d9a88b7549cd6f9b094947fc801d94d188860a8d873027a8cb",
+            "contentHash": "daa282bc0473bce73f336de24457c8b1b2c365fe40686dd70735ac93ad501cea",
+            "attempts": 1,
+            "updatedAt": "2026-08-14T04:21:33.923Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAG5TG7BAOVioqqEY6eErULC",
+      "sourceId": "AAG5TG7BAOVioqqEY6eErULC",
+      "sourceFingerprint": "6301b7e19fdb03edc3da5d66cefcf63f4dc341178ab9e95e2b06f83b7f7492bf",
+      "locale": "pl",
+      "slug": "catholic-scapular-pendant-necklace-eerulc",
+      "title": "Naszyjnik z szkaplerzem katolickim",
+      "eyebrow": "Wisiorek szkaplerza katolickiego",
+      "summary": "Ten katolicki wisiorek szkaplerzowy łączy tkaninową bazę z wisiorkiem, wykonany z poliestru. Zaprojektowany na okazje religijne, takie jak Pierwsza Komunia Święta i Wielkanoc, służy jako akcesorium dewocyjne dla mężczyzn, kobiet i dzieci.",
+      "description": "Szukasz znaczącego akcesorium religijnego na Pierwszą Komunię Świętą lub Wielkanoc? Ten katolicki wisiorek szkaplerzowy oferuje prostą, możliwą do noszenia opcję. Posiada poliestrową tkaninę z wisiorkiem, dzięki czemu jest lekki i wygodny do codziennego noszenia.\n\nWisiorek ma geometryczny kształt i religijny styl, odzwierciedlający katolicką inspirację. Jest zaprojektowany jako unisex, odpowiedni dla mężczyzn, kobiet i dzieci.\n\nTen element jest również praktycznym wyborem na prezent, pasującym na okazje takie jak wesela, rocznice czy przyjęcia. Jego tkaninowy materiał i wzór wisiorka czynią go wszechstronnym dodatkiem do każdej kolekcji biżuterii religijnej.",
+      "catholicContext": "Szkaplerze są formą popularnej pobożności w tradycji katolickiej, często noszone jako znak wiary i oddania.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "39",
+          "name": "Szkaplerze katolickie",
+          "slug": "catholic-scapulars"
+        }
+      ],
+      "sku": "ALI-AAG5TG7BAOVioqqEY6eErULC",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hf045a7a4d3a94b4397fb2b03d8ca28604.webp",
+      "imageAlt": "Naszyjnik z szkaplerzem katolickim",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf045a7a4d3a94b4397fb2b03d8ca28604.webp",
+          "alt": "Naszyjnik z szkaplerzem katolickim"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H82c5fb75f7904f36b690b6ef37f2b4d9m.webp",
+          "alt": "Naszyjnik z szkaplerzem katolickim"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H26d80dfe9bcd4a329d4d13f0ebc56dc8J.webp",
+          "alt": "Naszyjnik z szkaplerzem katolickim"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H907a9bf36e1947c3a3b09818e4fedb10H.webp",
+          "alt": "Naszyjnik z szkaplerzem katolickim"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0104b305c29142f8802d5eae41957378j.webp",
+          "alt": "Naszyjnik z szkaplerzem katolickim"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc2c34cd48ae74b2491d67523d32634907.webp",
+          "alt": "Naszyjnik z szkaplerzem katolickim"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Wykonany z tkaniny poliestrowej",
+        "Zawiera wisiorek",
+        "Geometryczny kształt w stylu religijnym",
+        "Zaprojektowany do noszenia unisex",
+        "Nadaje się do użytku dewocyjnego"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Poliester"
+        },
+        {
+          "name": "Typ biżuterii",
+          "value": "Wisiorki lub charmsy"
+        },
+        {
+          "name": "Styl",
+          "value": "Religijny"
+        },
+        {
+          "name": "Kształt/Wzór",
+          "value": "Geometryczny"
+        },
+        {
+          "name": "Płeć",
+          "value": "Unisex"
+        }
+      ],
+      "applications": [
+        "Jako akcesorium dewocyjne do osobistej wiary",
+        "Jako prezent na Pierwszą Komunię Świętą",
+        "Na uroczystości wielkanocne",
+        "Na wydarzenia i spotkania religijne"
+      ],
+      "faq": [
+        {
+          "question": "Z czego wykonany jest ten wisiorek szkaplerzowy?",
+          "answer": "Ten wisiorek szkaplerzowy jest wykonany z tkaniny poliestrowej, z dołączonym charmowym wisiorkiem."
+        },
+        {
+          "question": "Czy ten szkaplerz jest odpowiedni zarówno dla mężczyzn, jak i kobiet?",
+          "answer": "Tak, jest zaprojektowany jako unisex i może być noszony przez mężczyzn, kobiety i dzieci."
+        },
+        {
+          "question": "Czy może być używany jako prezent na Pierwszą Komunię Świętą?",
+          "answer": "Tak, nadaje się na okazje Pierwszej Komunii Świętej, jak wskazano w opisie produktu."
+        }
+      ],
+      "pricing": {
+        "price": "0.65",
+        "regularPrice": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.35",
+          "max": "0.65"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Naszyjnik z szkaplerzem katolickim",
+          "description": "Ten katolicki wisiorek szkaplerzowy łączy tkaninową bazę z wisiorkiem, wykonany z poliestru. Zaprojektowany na okazje religijne, takie jak Pierwsza Komunia Święta i Wielkanoc, służy jako akcesorium dewocyjne dla mężczyzn, kobiet i dzieci.",
+          "sku": "ALI-AAG5TG7BAOVioqqEY6eErULC",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf045a7a4d3a94b4397fb2b03d8ca28604.jpg",
+            "https://sc04.alicdn.com/kf/H82c5fb75f7904f36b690b6ef37f2b4d9m.jpg",
+            "https://sc04.alicdn.com/kf/H26d80dfe9bcd4a329d4d13f0ebc56dc8J.jpg",
+            "https://sc04.alicdn.com/kf/H907a9bf36e1947c3a3b09818e4fedb10H.jpg",
+            "https://sc04.alicdn.com/kf/H0104b305c29142f8802d5eae41957378j.jpg",
+            "https://sc04.alicdn.com/kf/Hc2c34cd48ae74b2491d67523d32634907.jpg"
+          ],
+          "category": "Szkaplerze katolickie",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Poliester"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Typ biżuterii",
+              "value": "Wisiorki lub charmsy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Styl",
+              "value": "Religijny"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kształt/Wzór",
+              "value": "Geometryczny"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Płeć",
+              "value": "Unisex"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.35",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Z czego wykonany jest ten wisiorek szkaplerzowy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ten wisiorek szkaplerzowy jest wykonany z tkaniny poliestrowej, z dołączonym charmowym wisiorkiem."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy ten szkaplerz jest odpowiedni zarówno dla mężczyzn, jak i kobiet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, jest zaprojektowany jako unisex i może być noszony przez mężczyzn, kobiety i dzieci."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy może być używany jako prezent na Pierwszą Komunię Świętą?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, nadaje się na okazje Pierwszej Komunii Świętej, jak wskazano w opisie produktu."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "db267aec643a1263dd4968d8b8c5d83badad26153d6617d7014ab2e3b18b0a0c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "db267aec643a1263dd4968d8b8c5d83badad26153d6617d7014ab2e3b18b0a0c",
+            "contentHash": "db267aec643a1263dd4968d8b8c5d83badad26153d6617d7014ab2e3b18b0a0c",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:13:20.860Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "db267aec643a1263dd4968d8b8c5d83badad26153d6617d7014ab2e3b18b0a0c",
+            "contentHash": "b2e8b5308e9065b355a15eadfd521f853b20c9a0accd6820257a1848e9a8dbd9",
+            "attempts": 1,
+            "updatedAt": "2026-08-14T04:21:42.230Z",
             "model": "deepseek-v4-flash"
           }
         }

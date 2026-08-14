@@ -63,10 +63,12 @@ const mayRemainUnchanged = (value) =>
   /^(?:Email|WeChat|WhatsApp):?$/i.test(value) ||
   (locale === 'it' && value === 'Privacy') ||
   /^[\d,.]+\s*(?:mm|cm|m(?:²|2)?|kg|g)$/i.test(value) ||
+  /^[\d,.]+\s*(?:[–-]\s*[\d,.]+\s*)+(?:mm|cm|m(?:²|2)?|inch|in|kg|g|%)?$/i.test(value) ||
   /(?:Ltd\.?|Road|Street|Tower|Hong Kong|HK$)/i.test(value);
 const isLikelyInternationalLabel = (value) => {
   const text = normalizeCopy(value);
   if (text.length < 2 || text.length > 80) return false;
+  if (/^[\d,.]+\s*(?:[–-]\s*[\d,.]+\s*)+(?:mm|cm|m(?:²|2)?|inch|in|kg|g|%)?$/i.test(text)) return true;
   if (/[.!?;:]/.test(text)) return false;
   if (/[\u2013\u2014]/.test(text)) return false;
   if (text.split(/\s+/).length > 6) return false;

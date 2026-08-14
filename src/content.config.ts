@@ -92,11 +92,17 @@ const guideCollection = defineCollection({
     image: z.string().optional(),
 
     comparison: z.array(z.array(z.string())).optional(),
+    copyRows: z.array(z.array(z.string())).optional(),
     cardItems: z.array(guideCardItem()).optional(),
     beadMaterials: z.array(guideCardItem()).optional(),
     metalMaterials: z.array(guideCardItem()).optional(),
+    marketComparison: z.array(z.array(z.string())).optional(),
+    sizeCards: z.array(guideCardItem()).optional(),
+    handlingCards: z.array(guideCardItem()).optional(),
     checklist: z.array(z.string()).optional(),
     bulletChecks: z.array(z.string()).optional(),
+    aestheticChecks: z.array(z.string()).optional(),
+    giftChecks: z.array(z.string()).optional(),
 
     cta: z
       .object({

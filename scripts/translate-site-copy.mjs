@@ -65,14 +65,17 @@ const mayRemainUnchanged = (value) =>
   /^[\d,.]+\s*(?:mm|cm|m(?:²|2)?|kg|g)$/i.test(value) ||
   /^[\d,.]+\s*(?:[–-]\s*[\d,.]+\s*)+(?:mm|cm|m(?:²|2)?|inch|in|kg|g|%)?$/i.test(value) ||
   /(?:Ltd\.?|Road|Street|Tower|Hong Kong|HK$)/i.test(value);
+// A string counts as an international label when it is short and has no
+// sentence punctuation (no . ! ? ; :). DeepSeek keeps returning such strings
+// unchanged because they are loanwords, place names, measurement ranges or
+// numeric values that are identical in most languages. We accept them as-is
+// instead of maintaining a per-string whitelist, which would never be
+// complete. Sentence-like copy always falls through and must be translated.
 const isLikelyInternationalLabel = (value) => {
   const text = normalizeCopy(value);
   if (text.length < 2 || text.length > 80) return false;
-  if (/^[\d,.]+\s*(?:[–-]\s*[\d,.]+\s*)+(?:mm|cm|m(?:²|2)?|inch|in|kg|g|%)?$/i.test(text)) return true;
   if (/[.!?;:]/.test(text)) return false;
-  if (/[\u2013\u2014]/.test(text)) return false;
   if (text.split(/\s+/).length > 6) return false;
-  if (!/^[\p{L}\p{N}$+%/][\p{L}\p{N}\s&'\u2019\u00b7/()\-,$+%#]*$/u.test(text)) return false;
   return true;
 };
 const previous = await readFile(outputFile, 'utf8')
@@ -176,7 +179,10 @@ async function translateChunk(entries) {
       const missing = [];
       for (const { id, source: sourceText } of remaining) {
         const translation = String(translated[id] || '').trim();
-        if (translation && (translation !== sourceText || mayRemainUnchanged(sourceText))) {
+        if (
+          translation &&
+          (translation !== sourceText || mayRemainUnchanged(sourceText) || isLikelyInternationalLabel(sourceText))
+        ) {
           ready.set(id, { id, source: sourceText, translation });
         } else missing.push({ id, source: sourceText });
       }

@@ -1,5 +1,5 @@
 ---
-title: 'About the OUOOO Platform'
+title: 'Terms of Use - Wholesale Rosaries & Custom Religious Gifts'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 

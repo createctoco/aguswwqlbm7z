@@ -42,7 +42,13 @@ const cta = data.cta;
       <h1 class="mt-4 max-w-3xl text-4xl font-semibold sm:text-5xl">{data.title}</h1>
       {data.description && <p class="mt-6 max-w-3xl text-lg leading-8 text-muted">{data.description}</p>}
       <div class="mt-8 flex flex-wrap gap-4">
-        <a class="btn-primary" href={cta?.primaryHref || '/contact'}>{cta?.primaryLabel || 'Ask about this topic'}</a>
+        {
+          cta?.primaryLabel && (
+            <a class="btn-primary" href={cta?.primaryHref || '/contact'}>
+              {cta?.primaryLabel}
+            </a>
+          )
+        }
         <a class="btn-secondary" href="/products">Browse products</a>
       </div>
     </div>

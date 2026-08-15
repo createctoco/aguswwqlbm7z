@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-14T04:13:21.206Z",
+  "generatedAt": "2026-08-15T02:57:03.573Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAE8TG7BAOVioqqEY6eoxN9t",
-      "AAGgTG7BAOVioqqEY6erMo-w",
-      "AAEDTG7BAOVioqqEY6erMoEh",
-      "AAFYTG7BAOVioqqEY6eox_B1",
-      "AAH7TG7BAOVioqqEY6eBSAcn",
-      "AAEPTG7BAOVioqqEY6efuTj7",
-      "AAEQTG7BAOVioqqEY6eGLcQV",
-      "AAG0TG7BAOVioqqEY6eBt1-Z",
-      "AAGqTG7BAOVioqqEY6eJiw4E",
-      "AAG5TG7BAOVioqqEY6eErULC"
+      "AAH_TG7BAOVioqqEY6e517Q3",
+      "AAGITG7BAOVioqqEY6e51-6G",
+      "AAGLTG7BAOVioqqEY6e52QLz",
+      "AAHpTG7BAOVioqqEY6e4TLKv",
+      "AAHhTG7BAOVioqqEY6e51sCO",
+      "AAH5TG7BAOVioqqEY6eBTA8Z",
+      "AAHGTG7BAOVioqqEY6eBTb03",
+      "AAGMTG7BAOVioqqEY6ee7miU",
+      "AAG7TG7BAOVioqqEY6eBRJnZ",
+      "AAEKTG7BAOVioqqEY6eBTWBY"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 9,
-    "reused": 220,
-    "source_fallback": 1
+    "generated": 8,
+    "reused": 230,
+    "source_fallback": 2
   },
   "products": [
     {
@@ -49004,12 +49004,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "bda15150c34ae2d9a88b7549cd6f9b094947fc801d94d188860a8d873027a8cb",
+        "sourceHash": "4014064d1aa4dc430eb191dfe8129bee6353721b9b1f47b5a5ef4ee7aa18e65c",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "bda15150c34ae2d9a88b7549cd6f9b094947fc801d94d188860a8d873027a8cb",
-            "contentHash": "bda15150c34ae2d9a88b7549cd6f9b094947fc801d94d188860a8d873027a8cb",
+            "sourceHash": "4014064d1aa4dc430eb191dfe8129bee6353721b9b1f47b5a5ef4ee7aa18e65c",
+            "contentHash": "4014064d1aa4dc430eb191dfe8129bee6353721b9b1f47b5a5ef4ee7aa18e65c",
             "attempts": 0,
             "updatedAt": "2026-08-14T04:13:17.845Z",
             "model": "deepseek-v4-flash"
@@ -49215,14 +49215,2016 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "db267aec643a1263dd4968d8b8c5d83badad26153d6617d7014ab2e3b18b0a0c",
+        "sourceHash": "5eb985bb203c59ca4f1b4a1446b3c6bb998787d87e8260f563bdd21d59fa7721",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "db267aec643a1263dd4968d8b8c5d83badad26153d6617d7014ab2e3b18b0a0c",
-            "contentHash": "db267aec643a1263dd4968d8b8c5d83badad26153d6617d7014ab2e3b18b0a0c",
+            "sourceHash": "5eb985bb203c59ca4f1b4a1446b3c6bb998787d87e8260f563bdd21d59fa7721",
+            "contentHash": "5eb985bb203c59ca4f1b4a1446b3c6bb998787d87e8260f563bdd21d59fa7721",
             "attempts": 0,
             "updatedAt": "2026-08-14T04:13:20.860Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH_TG7BAOVioqqEY6e517Q3",
+      "sourceId": "AAH_TG7BAOVioqqEY6e517Q3",
+      "sourceFingerprint": "235fc5f833b5d4448be275d71f8d2fb4ebba7955c6f8d20d03556439b8d63244",
+      "locale": "en",
+      "slug": "natural-stone-cross-pendant-bracelet-gold-plated-e517q3",
+      "title": "Natural Stone Cross Pendant Bracelet, Gold Plated",
+      "eyebrow": "Handmade natural stone cross pendant bracelet",
+      "summary": "A handmade bracelet of natural stone beads accented by a gold-plated cross pendant. Offered in blue, brown, or red band card variants, this woven accessory pairs well with casual or dressy outfits and makes a thoughtful gift.",
+      "description": "The bracelet's natural stone beads vary in tone, giving each piece a slightly distinct look. A gold-plated cross pendant serves as the focal point, suspended among the woven beads. The handmade construction gives it a relaxed, artisanal feel.\n\nEach variant includes a card backing in your choice of blue, brown, or red, which may be useful for display or gifting. The bracelet is designed for women and can be worn alone or stacked with other pieces.",
+      "catholicContext": "A cross pendant is a recognizable Christian symbol, though this bracelet is a devotional accessory and not a blessed sacramental.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAH_TG7BAOVioqqEY6e517Q3",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Hf9456351d8af4b938d4d893b99ac2568e.webp",
+      "imageAlt": "Natural Stone Cross Pendant Bracelet, Gold Plated",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf9456351d8af4b938d4d893b99ac2568e.webp",
+          "alt": "Natural Stone Cross Pendant Bracelet, Gold Plated"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf892a5c891714b388eecf8af1807aa29y.webp",
+          "alt": "Natural Stone Cross Pendant Bracelet, Gold Plated"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He86f285efe4149b88727c7060d932687r.webp",
+          "alt": "Natural Stone Cross Pendant Bracelet, Gold Plated"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2fa7a3f7709041c1882055b149e02650f.webp",
+          "alt": "Natural Stone Cross Pendant Bracelet, Gold Plated"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha508262d2cba4107ab30ff52feaac813I.webp",
+          "alt": "Natural Stone Cross Pendant Bracelet, Gold Plated - blue-band-card",
+          "label": "blue-band-card",
+          "sku": "ALI-AAH_TG7BAOVioqqEY6e517Q3-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H58f2157d1e9e4818b7bb478f6ef99781H.webp",
+          "alt": "Natural Stone Cross Pendant Bracelet, Gold Plated - red-band-card",
+          "label": "red-band-card",
+          "sku": "ALI-AAH_TG7BAOVioqqEY6e517Q3-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H210620d85c2a411a973dbcebc5ea1a45z.webp",
+          "alt": "Natural Stone Cross Pendant Bracelet, Gold Plated - brown-band-card",
+          "label": "brown-band-card",
+          "sku": "ALI-AAH_TG7BAOVioqqEY6e517Q3-V--1"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Natural stone beads with a handmade woven design",
+        "Gold-plated cross pendant (marked as 14k in design attributes)",
+        "Available in blue, brown, or red band card variants",
+        "Categorized as a rosary-style bracelet",
+        "Packaged with a band card for presentation"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Blue band card, Brown band card, Red band card"
+        },
+        {
+          "name": "Design",
+          "value": "Natural stone 14k pendant"
+        },
+        {
+          "name": "Product type",
+          "value": "Bracelet"
+        }
+      ],
+      "applications": [
+        "Everyday wear for women",
+        "Gift for religious occasions such as baptisms or confirmations",
+        "Personal devotional accessory",
+        "Stacking with other bracelets"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this bracelet?",
+          "answer": "The bracelet features natural stone beads and a gold-plated cross pendant. The design is marked as '14k' for the pendant plating, though the base metal is not specified."
+        },
+        {
+          "question": "What variants are available?",
+          "answer": "This bracelet comes in three variants based on the band card color: blue, brown, and red. The bracelet itself appears consistent across variants."
+        },
+        {
+          "question": "Is the bracelet adjustable or one size?",
+          "answer": "The product facts do not specify length or adjustability. If sizing is critical, please contact us for more details before ordering."
+        }
+      ],
+      "pricing": {
+        "price": "3.12",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.80",
+          "max": "3.12"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Natural Stone Cross Pendant Bracelet, Gold Plated",
+          "description": "Handmade natural stone beaded bracelet with a gold-plated cross pendant. Available in blue, brown, or red band card variants. Ideal for everyday wear or gifting.",
+          "sku": "ALI-AAH_TG7BAOVioqqEY6e517Q3",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf9456351d8af4b938d4d893b99ac2568e.png",
+            "https://sc04.alicdn.com/kf/Hf892a5c891714b388eecf8af1807aa29y.png",
+            "https://sc04.alicdn.com/kf/He86f285efe4149b88727c7060d932687r.png",
+            "https://sc04.alicdn.com/kf/H2fa7a3f7709041c1882055b149e02650f.jpeg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Blue band card, Brown band card, Red band card"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Natural stone 14k pendant"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Product type",
+              "value": "Bracelet"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "3.12",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.80",
+              "maxPrice": "3.12",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this bracelet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet features natural stone beads and a gold-plated cross pendant. The design is marked as '14k' for the pendant plating, though the base metal is not specified."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What variants are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This bracelet comes in three variants based on the band card color: blue, brown, and red. The bracelet itself appears consistent across variants."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the bracelet adjustable or one size?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product facts do not specify length or adjustability. If sizing is critical, please contact us for more details before ordering."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "3a8c2444340edd14a30cabb6944eb8fbf875a219193f38c79ff18260fa240b46",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "3a8c2444340edd14a30cabb6944eb8fbf875a219193f38c79ff18260fa240b46",
+            "contentHash": "3a8c2444340edd14a30cabb6944eb8fbf875a219193f38c79ff18260fa240b46",
+            "attempts": 0,
+            "updatedAt": "2026-08-15T02:56:03.159Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGITG7BAOVioqqEY6e51-6G",
+      "sourceId": "AAGITG7BAOVioqqEY6e51-6G",
+      "sourceFingerprint": "72d7f0587cdee8923486c4c1865b6267011691cab0a6eb1ff2548a1d7dc6eaf9",
+      "locale": "en",
+      "slug": "first-communion-bracelet-for-kids-pink-and-blue-e51-6g",
+      "title": "First Communion Bracelet for Kids Pink and Blue",
+      "eyebrow": "First Communion bracelet",
+      "summary": "This First Communion bracelet for kids is made with acrylic beads and decorated with saint stickers and a cross. Available in pink or blue. We offer sample and bulk ordering for your store or parish gift shop.",
+      "description": "Mark a child's First Communion with a bracelet that pairs everyday wearability with a clear Catholic symbol. Each bracelet uses acrylic beads in either pink or blue and includes stickers of saints alongside a cross, giving it a distinct devotional feel. The adjustable design suits young wrists (specific size not listed).\n\nWe supply this bracelet for retail and ministry settings. It works well as a standalone accessory or paired with a card and a child's missal. Since it comes in two colorways, you can offer a choice without expanding your inventory much.\n\nContact us for purchase options, including single-piece samples and volume pricing. We are happy to help with questions about current availability and shipping.",
+      "catholicContext": "First Communion refers to a person's first reception of the Eucharist, a significant Catholic milestone.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAGITG7BAOVioqqEY6e51-6G",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H7209467efb5c4f8591995897d1abd7079.webp",
+      "imageAlt": "First Communion Bracelet for Kids Pink and Blue",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7209467efb5c4f8591995897d1abd7079.webp",
+          "alt": "First Communion Bracelet for Kids Pink and Blue"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H731d6e76fecf4d689204fa949d9e83fax.webp",
+          "alt": "First Communion Bracelet for Kids Pink and Blue"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb922c83ffd1641dea85b4947ef24336bb.webp",
+          "alt": "First Communion Bracelet for Kids Pink and Blue"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He20d547d97a345eab2fc5854ada54919I.webp",
+          "alt": "First Communion Bracelet for Kids Pink and Blue"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfde4d7ccb2624c5eb623d9fcdcbdafe0b.webp",
+          "alt": "First Communion Bracelet for Kids Pink and Blue"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3c2cd7704d6b43a1bc4891db3d3d5d42K.webp",
+          "alt": "First Communion Bracelet for Kids Pink and Blue - blue",
+          "label": "blue",
+          "sku": "ALI-AAGITG7BAOVioqqEY6e51-6G-V-123085"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H4ad723affa5940e1a3f29da48358a3c7O.webp",
+          "alt": "First Communion Bracelet for Kids Pink and Blue - pink",
+          "label": "pink",
+          "sku": "ALI-AAGITG7BAOVioqqEY6e51-6G-V-3328925"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Acrylic bead construction for lightweight wear",
+        "Pink and blue color variants",
+        "Includes saint stickers and a cross motif",
+        "Categorized as a rosary bracelet",
+        "Designed for children's First Communion"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Pink / Blue"
+        }
+      ],
+      "applications": [
+        "First Communion gift accessory",
+        "Sunday school or religious education prize",
+        "Parish gift shop inventory",
+        "Catholic-themed party favor"
+      ],
+      "faq": [
+        {
+          "question": "Does the bracelet come in both pink and blue?",
+          "answer": "Yes, this First Communion bracelet is available in pink and blue variants."
+        },
+        {
+          "question": "What material is the bracelet made of?",
+          "answer": "The bracelet is made of acrylic beads."
+        },
+        {
+          "question": "Is this bracelet suitable for a boys' First Communion?",
+          "answer": "The blue variant may be suitable for boys, but the product is generally marketed for kids without specifying gender."
+        }
+      ],
+      "pricing": {
+        "price": "1.49",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.70",
+          "max": "1.49"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "First Communion Bracelet for Kids Pink and Blue",
+          "description": "First Communion bracelet for kids in pink or blue acrylic beads featuring Catholic saint stickers and a cross. Order a sample or bulk quote from OUOOO.",
+          "sku": "ALI-AAGITG7BAOVioqqEY6e51-6G",
+          "image": [
+            "https://sc04.alicdn.com/kf/H7209467efb5c4f8591995897d1abd7079.png",
+            "https://sc04.alicdn.com/kf/H731d6e76fecf4d689204fa949d9e83fax.png",
+            "https://sc04.alicdn.com/kf/Hb922c83ffd1641dea85b4947ef24336bb.png",
+            "https://sc04.alicdn.com/kf/He20d547d97a345eab2fc5854ada54919I.png",
+            "https://sc04.alicdn.com/kf/Hfde4d7ccb2624c5eb623d9fcdcbdafe0b.png"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Pink / Blue"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.49",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.70",
+              "maxPrice": "1.49",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does the bracelet come in both pink and blue?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, this First Communion bracelet is available in pink and blue variants."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material is the bracelet made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet is made of acrylic beads."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet suitable for a boys' First Communion?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The blue variant may be suitable for boys, but the product is generally marketed for kids without specifying gender."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "d61b6e077c52c5497ce63603dbef1507ba0929b2cbc8e4c3cbbd05de7864fa52",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "d61b6e077c52c5497ce63603dbef1507ba0929b2cbc8e4c3cbbd05de7864fa52",
+            "contentHash": "d61b6e077c52c5497ce63603dbef1507ba0929b2cbc8e4c3cbbd05de7864fa52",
+            "attempts": 0,
+            "updatedAt": "2026-08-15T02:55:52.906Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGLTG7BAOVioqqEY6e52QLz",
+      "sourceId": "AAGLTG7BAOVioqqEY6e52QLz",
+      "sourceFingerprint": "147106ccf5e8120909d77e4060a5ad2b621c30f8101251dfb457942e5f7dbbfc",
+      "locale": "en",
+      "slug": "hematite-cross-beaded-bracelet-adjustable-unisex-e52qlz",
+      "title": "Hematite Cross Beaded Bracelet, Adjustable Unisex",
+      "eyebrow": "beaded cross bracelet",
+      "summary": "An adjustable unisex bracelet made of hematite beads, featuring a gold and silver-tone cross pendant. The electroplated finish and trendy style make it a practical choice for everyday wear or as a gift.",
+      "description": "This bracelet is strung with smooth hematite beads in a black ironstone tone, giving it a subtle metallic sheen. The pendant is a plain cross, electroplated in gold and silver tones to match the bracelet's mixed-metal look.\n\nThe adjustable bangle design fits most wrists, making it a flexible accessory for both men and women. It ships from Yiwu, and the model number is MCGSL248.\n\nAs a cross pendant without a corpus, it is distinct from a crucifix and can be worn as an expression of faith or simply as a fashion choice.",
+      "catholicContext": "This is a plain cross bracelet, not a crucifix, as no corpus is present; it may serve as a visible reminder of Christian faith.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAGLTG7BAOVioqqEY6e52QLz",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H5664ee86b10548289c83ee5e2a0f2d27Y.webp",
+      "imageAlt": "Hematite Cross Beaded Bracelet, Adjustable Unisex",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5664ee86b10548289c83ee5e2a0f2d27Y.webp",
+          "alt": "Hematite Cross Beaded Bracelet, Adjustable Unisex"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hec944ef188794b6591beb9d9920f1ed3r.webp",
+          "alt": "Hematite Cross Beaded Bracelet, Adjustable Unisex"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hce1449039f7c46dcacf52660d4b93a64k.webp",
+          "alt": "Hematite Cross Beaded Bracelet, Adjustable Unisex"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5ccc2be729a34e7daec3b2aeced7f2b7z.webp",
+          "alt": "Hematite Cross Beaded Bracelet, Adjustable Unisex"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Hematite beads with a black ironstone look",
+        "Gold and silver-tone electroplated cross pendant",
+        "Adjustable bangle style for a customizable fit",
+        "Trendy unisex design suitable for all genders",
+        "Sourced from Yiwu, model MCGSL248"
+      ],
+      "specifications": [
+        {
+          "name": "Primary material",
+          "value": "Hematite"
+        },
+        {
+          "name": "Pendant shape",
+          "value": "Cross"
+        },
+        {
+          "name": "Plating",
+          "value": "Electroplating"
+        },
+        {
+          "name": "Style",
+          "value": "Trendy"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        }
+      ],
+      "applications": [
+        "Everyday casual wear",
+        "Faith-based gift for a friend or partner",
+        "Couple matching bracelets",
+        "Accessory for cross-themed outfits"
+      ],
+      "faq": [
+        {
+          "question": "Is this bracelet adjustable?",
+          "answer": "Yes, the bangle-style design is adjustable to fit most wrist sizes comfortably."
+        },
+        {
+          "question": "What is the cross pendant made of?",
+          "answer": "The pendant is electroplated in gold and silver tones. The base material is not specified, but the beads are hematite."
+        },
+        {
+          "question": "Can this bracelet be worn by both men and women?",
+          "answer": "Yes, it is designed as a unisex accessory suitable for anyone."
+        }
+      ],
+      "pricing": {
+        "price": "1.18",
+        "regularPrice": "1.18",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.95",
+          "max": "1.18"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Hematite Cross Beaded Bracelet, Adjustable Unisex",
+          "description": "Shop an adjustable hematite bead bracelet with a gold and silver-tone cross. A trendy unisex beaded bangle, electroplated for a lasting shine.",
+          "sku": "ALI-AAGLTG7BAOVioqqEY6e52QLz",
+          "image": [
+            "https://sc04.alicdn.com/kf/H5664ee86b10548289c83ee5e2a0f2d27Y.png",
+            "https://sc04.alicdn.com/kf/Hec944ef188794b6591beb9d9920f1ed3r.png",
+            "https://sc04.alicdn.com/kf/Hce1449039f7c46dcacf52660d4b93a64k.png",
+            "https://sc04.alicdn.com/kf/H5ccc2be729a34e7daec3b2aeced7f2b7z.jpeg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Primary material",
+              "value": "Hematite"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendant shape",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Electroplating"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Trendy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.18",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.95",
+              "maxPrice": "1.18",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is this bracelet adjustable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the bangle-style design is adjustable to fit most wrist sizes comfortably."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the cross pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is electroplated in gold and silver tones. The base material is not specified, but the beads are hematite."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this bracelet be worn by both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed as a unisex accessory suitable for anyone."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "865880f3caeb9aac6b51619f1067c34447d19062128b0ca549d883cf663f000e",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "865880f3caeb9aac6b51619f1067c34447d19062128b0ca549d883cf663f000e",
+            "contentHash": "865880f3caeb9aac6b51619f1067c34447d19062128b0ca549d883cf663f000e",
+            "attempts": 0,
+            "updatedAt": "2026-08-15T02:56:23.388Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHpTG7BAOVioqqEY6e4TLKv",
+      "sourceId": "AAHpTG7BAOVioqqEY6e4TLKv",
+      "sourceFingerprint": "ea087ac1f32c88fae8dceb170ee0a714477e6fcdaaaa69fc077f485161af7e74",
+      "locale": "en",
+      "slug": "wholesale-retail-cross-border-supply-punk-style-zinc-alloy-beads-e4tlkv",
+      "title": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads",
+      "eyebrow": "Accessories",
+      "summary": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads DIY Bracelets Necklaces Prayer Jewelry Accessories Pendants",
+      "description": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads DIY Bracelets Necklaces Prayer Jewelry Accessories Pendants",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHpTG7BAOVioqqEY6e4TLKv",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H48d62b14f0a64262a38f5862659938a8o.webp",
+      "imageAlt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H48d62b14f0a64262a38f5862659938a8o.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1366141cba8246379784e554de534f0fj.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H42da50771e0c46d79c01e532ed38123fy.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf146a536c7814b4fa1d48023ebd37a23i.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9b483e03593d4248a54ded3d95d125563.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1bed4ca260054de59277a387b61b325eI.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbcf3347a9871478f923c17449d037e0cD.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads - ck10-2-zinc-alloy-06g-0707",
+          "label": "ck10-2-zinc-alloy-06g-0707",
+          "sku": "ALI-AAHpTG7BAOVioqqEY6e4TLKv-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He1f61928e1704bf694d9360f47104264w.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads - ck10-6-zinc-alloy-06g-0707",
+          "label": "ck10-6-zinc-alloy-06g-0707",
+          "sku": "ALI-AAHpTG7BAOVioqqEY6e4TLKv-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H83769dce1a884a6d810783fd98c8dfa7V.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads - ck10-4-zinc-alloy-06g-0707",
+          "label": "ck10-4-zinc-alloy-06g-0707",
+          "sku": "ALI-AAHpTG7BAOVioqqEY6e4TLKv-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1acee4ef3e3f4259aea93e236e90a9c5o.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads - ck10-1-zinc-alloy-06g-0707",
+          "label": "ck10-1-zinc-alloy-06g-0707",
+          "sku": "ALI-AAHpTG7BAOVioqqEY6e4TLKv-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H739148b70af2482eb1400619a6940d71j.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads - ck10-3-zinc-alloy-06g-0707",
+          "label": "ck10-3-zinc-alloy-06g-0707",
+          "sku": "ALI-AAHpTG7BAOVioqqEY6e4TLKv-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc0e5dd2abc1d4feab69622a505af54d1Q.webp",
+          "alt": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads - ck10-5-zinc-alloy-06g-0707",
+          "label": "ck10-5-zinc-alloy-06g-0707",
+          "sku": "ALI-AAHpTG7BAOVioqqEY6e4TLKv-V--3"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Variant: Ck10-1-zinc alloy 06g-0707, Ck10-2-zinc alloy 06g-0707, Ck10-3-zinc alloy 06g-0707, Ck10-4-zinc alloy 06g-0707, Ck10-5-zinc alloy 06g-0707, Ck10-6-zinc alloy 06g-0707"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Ck10-1-zinc alloy 06g-0707, Ck10-2-zinc alloy 06g-0707, Ck10-3-zinc alloy 06g-0707, Ck10-4-zinc alloy 06g-0707, Ck10-5-zinc alloy 06g-0707, Ck10-6-zinc alloy 06g-0707"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.02",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads",
+          "description": "Wholesale Retail Cross-border Supply Punk Style Zinc Alloy Beads DIY Bracelets Necklaces Prayer Jewelry Accessories Pendants",
+          "sku": "ALI-AAHpTG7BAOVioqqEY6e4TLKv",
+          "image": [
+            "https://sc04.alicdn.com/kf/H48d62b14f0a64262a38f5862659938a8o.png",
+            "https://sc04.alicdn.com/kf/H1366141cba8246379784e554de534f0fj.png",
+            "https://sc04.alicdn.com/kf/H42da50771e0c46d79c01e532ed38123fy.png",
+            "https://sc04.alicdn.com/kf/Hf146a536c7814b4fa1d48023ebd37a23i.png",
+            "https://sc04.alicdn.com/kf/H9b483e03593d4248a54ded3d95d125563.png",
+            "https://sc04.alicdn.com/kf/H1bed4ca260054de59277a387b61b325eI.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Ck10-1-zinc alloy 06g-0707, Ck10-2-zinc alloy 06g-0707, Ck10-3-zinc alloy 06g-0707, Ck10-4-zinc alloy 06g-0707, Ck10-5-zinc alloy 06g-0707, Ck10-6-zinc alloy 06g-0707"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.02",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "db6d3bf2bc6b6c293d5c42a7b8c2f55015f8f033f5430b8a12a70f02149a82b4",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "db6d3bf2bc6b6c293d5c42a7b8c2f55015f8f033f5430b8a12a70f02149a82b4",
+            "contentHash": "db6d3bf2bc6b6c293d5c42a7b8c2f55015f8f033f5430b8a12a70f02149a82b4",
+            "attempts": 0,
+            "updatedAt": "2026-08-15T02:56:25.999Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHhTG7BAOVioqqEY6e51sCO",
+      "sourceId": "AAHhTG7BAOVioqqEY6e51sCO",
+      "sourceFingerprint": "e4daadafae7d7c240d9e4578e5bda616452acf673d7703f24b5ac97e8f13e977",
+      "locale": "en",
+      "slug": "resin-key-storage-box-with-sculpted-decor-e51sco",
+      "title": "Resin Key Storage Box with Sculpted Decor",
+      "eyebrow": "Resin key storage box",
+      "summary": "This sculpted resin key storage box combines artistic wall decor with practical key organization. Its irregular shape and detailed figurine-style design make it a distinctive addition to home entryways. Suitable as a holiday gift or home decoration piece.",
+      "description": "The Resin Crafts Jesus Mary Wall Decorations Key Storage Box is a sculpted figurine that also functions as a key holder. Made of resin, its irregular shape and artistic pattern give it a handcrafted look. While it can serve as a decorative wall piece, its primary function is to store keys, helping keep entryways tidy. This product is listed under Ornaments and is intended for holiday decoration and gifting, as well as general home decoration. If you have questions about dimensions or mounting, please contact us for details.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHhTG7BAOVioqqEY6e51sCO",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H55aafc5732964cadaae3d53eb1971feeH.webp",
+      "imageAlt": "Resin Key Storage Box with Sculpted Decor",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H55aafc5732964cadaae3d53eb1971feeH.webp",
+          "alt": "Resin Key Storage Box with Sculpted Decor"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7d29da0053984d399be05ac05bda55deP.webp",
+          "alt": "Resin Key Storage Box with Sculpted Decor"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H753417bd97f04db08742bd644ac0738bs.webp",
+          "alt": "Resin Key Storage Box with Sculpted Decor"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2103cbcfcb304d03bb9668922711421bi.webp",
+          "alt": "Resin Key Storage Box with Sculpted Decor"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd0c721ce4a3412e9bcf49828ba25f69R.webp",
+          "alt": "Resin Key Storage Box with Sculpted Decor"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Sculpted resin construction",
+        "Functions as a wall-mounted key storage box",
+        "Artistic design with irregular shape",
+        "Suitable for holiday decoration and gifting",
+        "Product type: figurine",
+        "Brand: OUOOO"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Resin"
+        },
+        {
+          "name": "Technique",
+          "value": "Sculpted"
+        },
+        {
+          "name": "Shape",
+          "value": "Irregular"
+        },
+        {
+          "name": "Pattern",
+          "value": "Sculpture"
+        },
+        {
+          "name": "Product Type",
+          "value": "Figurine"
+        },
+        {
+          "name": "Style",
+          "value": "Animal"
+        }
+      ],
+      "applications": [
+        "Wall-mounted key storage in home entryways",
+        "Holiday decoration",
+        "Gift for home decor enthusiasts",
+        "Artistic accent in living spaces"
+      ],
+      "faq": [
+        {
+          "question": "What material is this key storage box made of?",
+          "answer": "It is made of resin, a durable and detailed material commonly used for sculpted decor pieces."
+        },
+        {
+          "question": "Can this product be used as a wall decoration?",
+          "answer": "Yes, it is designed as a wall-mounted key storage box, combining decorative appeal with practical use."
+        },
+        {
+          "question": "Is this item part of a specific product line?",
+          "answer": "This item is listed under the OUOOO brand and belongs to the Ornaments category, with a figurine product type."
+        }
+      ],
+      "pricing": {
+        "price": "2.30",
+        "regularPrice": "2.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.80",
+          "max": "2.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Resin Key Storage Box with Sculpted Decor",
+          "description": "A sculpted resin key storage box with artistic Jesus and Mary wall decor. Ideal for home organization and holiday decoration. Available from OUOOO.",
+          "sku": "ALI-AAHhTG7BAOVioqqEY6e51sCO",
+          "image": [
+            "https://sc04.alicdn.com/kf/H55aafc5732964cadaae3d53eb1971feeH.png",
+            "https://sc04.alicdn.com/kf/H7d29da0053984d399be05ac05bda55deP.png",
+            "https://sc04.alicdn.com/kf/H753417bd97f04db08742bd644ac0738bs.jpeg",
+            "https://sc04.alicdn.com/kf/H2103cbcfcb304d03bb9668922711421bi.png",
+            "https://sc04.alicdn.com/kf/Hcd0c721ce4a3412e9bcf49828ba25f69R.png"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Resin"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Technique",
+              "value": "Sculpted"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Irregular"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pattern",
+              "value": "Sculpture"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Product Type",
+              "value": "Figurine"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Animal"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.80",
+              "maxPrice": "2.30",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this key storage box made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is made of resin, a durable and detailed material commonly used for sculpted decor pieces."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this product be used as a wall decoration?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed as a wall-mounted key storage box, combining decorative appeal with practical use."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this item part of a specific product line?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This item is listed under the OUOOO brand and belongs to the Ornaments category, with a figurine product type."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "15e677351370e8463ba9bc0b304bbfd5163a5ee96bdfd2d398acfe556d4870ae",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "15e677351370e8463ba9bc0b304bbfd5163a5ee96bdfd2d398acfe556d4870ae",
+            "contentHash": "15e677351370e8463ba9bc0b304bbfd5163a5ee96bdfd2d398acfe556d4870ae",
+            "attempts": 0,
+            "updatedAt": "2026-08-15T02:56:08.344Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH5TG7BAOVioqqEY6eBTA8Z",
+      "sourceId": "AAH5TG7BAOVioqqEY6eBTA8Z",
+      "sourceFingerprint": "d5843d2d5f4f1a7d89e81859a30009d6e4ea236cf7701c227cb8295678bb57df",
+      "locale": "en",
+      "slug": "saint-michael-medallion-necklace-for-men-ebta8z",
+      "title": "Saint Michael Medallion Necklace for Men",
+      "eyebrow": "Saint Michael pendant necklace",
+      "summary": "This Saint Michael medallion necklace is available in black, gold, or silver finishes. The pendant depicts the Archangel in a classic religious style. A straightforward devotional accessory for everyday wear.",
+      "description": "This men's necklace features a Saint Michael medallion, a recognized figure in Catholic tradition. The pendant is offered in three finishes: black, gold, and silver, letting you match your personal style. The chain is not described in the product facts, so we recommend checking the listing for chain material and length.\n\nAs a religious jewelry item, it serves as a visible expression of faith.",
+      "catholicContext": "Devotion to Saint Michael the Archangel is a recognized form of popular piety in the Catholic tradition, though this retail item is not described as blessed or a sacramental.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAH5TG7BAOVioqqEY6eBTA8Z",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H67ac581005b7419aa03eaab8eab814b8C.webp",
+      "imageAlt": "Saint Michael Medallion Necklace for Men",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H67ac581005b7419aa03eaab8eab814b8C.webp",
+          "alt": "Saint Michael Medallion Necklace for Men"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1ec264c22e5e4c7584a02b150777512dC.webp",
+          "alt": "Saint Michael Medallion Necklace for Men"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha86c4bfb1eaf407183ea1166d8f86cf56.webp",
+          "alt": "Saint Michael Medallion Necklace for Men"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H697c1b7ffdb24976afd4c11638bca39d2.webp",
+          "alt": "Saint Michael Medallion Necklace for Men"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8230fc00dd77453a89e85314a8672ffe7.webp",
+          "alt": "Saint Michael Medallion Necklace for Men"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9794675becd041e4a6122a69a3ab67efH.webp",
+          "alt": "Saint Michael Medallion Necklace for Men"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfda53dfc49a14084a36ea1ce117737524.webp",
+          "alt": "Saint Michael Medallion Necklace for Men - black",
+          "label": "black",
+          "sku": "ALI-AAH5TG7BAOVioqqEY6eBTA8Z-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a06e816d98e42308cb3bec5f8902340V.webp",
+          "alt": "Saint Michael Medallion Necklace for Men - silver",
+          "label": "silver",
+          "sku": "ALI-AAH5TG7BAOVioqqEY6eBTA8Z-V-3460547"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8874933fbfdc4207ab10aa6096b20b4eT.webp",
+          "alt": "Saint Michael Medallion Necklace for Men - gold",
+          "label": "gold",
+          "sku": "ALI-AAH5TG7BAOVioqqEY6eBTA8Z-V-3331116"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Saint Michael medallion design for men",
+        "Available in black, gold, and silver finishes",
+        "Listed under the Fashion Necklace category",
+        "Religious pendant style"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Black, Gold, Silver"
+        },
+        {
+          "name": "Category",
+          "value": "Fashion Necklace"
+        }
+      ],
+      "applications": [
+        "Wear as a daily devotional necklace",
+        "Give as a gift for religious occasions",
+        "Use as a personal reminder of faith"
+      ],
+      "faq": [
+        {
+          "question": "What colors are available for this Saint Michael necklace?",
+          "answer": "The necklace is available in three finishes: black, gold, and silver, as listed in the product variants."
+        },
+        {
+          "question": "What material is the pendant made of?",
+          "answer": "The product facts do not specify the material. We recommend checking the product listing or contacting us for material details before ordering."
+        },
+        {
+          "question": "Is the chain included with the pendant?",
+          "answer": "The product is described as a necklace, so it likely includes a chain, but the specific chain material and length are not stated. Please review the listing or contact us for confirmation."
+        }
+      ],
+      "pricing": {
+        "price": "2.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.90",
+          "max": "2.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Saint Michael Medallion Necklace for Men",
+          "description": "Saint Michael pendant necklace for men in black, gold, or silver. A religious medallion with an Archangel theme, suitable as a devotional accessory.",
+          "sku": "ALI-AAH5TG7BAOVioqqEY6eBTA8Z",
+          "image": [
+            "https://sc04.alicdn.com/kf/H67ac581005b7419aa03eaab8eab814b8C.jpg",
+            "https://sc04.alicdn.com/kf/H1ec264c22e5e4c7584a02b150777512dC.jpg",
+            "https://sc04.alicdn.com/kf/Ha86c4bfb1eaf407183ea1166d8f86cf56.jpg",
+            "https://sc04.alicdn.com/kf/H697c1b7ffdb24976afd4c11638bca39d2.jpg",
+            "https://sc04.alicdn.com/kf/H8230fc00dd77453a89e85314a8672ffe7.jpg",
+            "https://sc04.alicdn.com/kf/H9794675becd041e4a6122a69a3ab67efH.jpg"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Black, Gold, Silver"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Fashion Necklace"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.90",
+              "maxPrice": "2.30",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What colors are available for this Saint Michael necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace is available in three finishes: black, gold, and silver, as listed in the product variants."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material is the pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product facts do not specify the material. We recommend checking the product listing or contacting us for material details before ordering."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the chain included with the pendant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product is described as a necklace, so it likely includes a chain, but the specific chain material and length are not stated. Please review the listing or contact us for confirmation."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b06b5801bcb4b1ed0af6992ca3fa2769d9213053c94e7fb6c1075c877b1704c4",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b06b5801bcb4b1ed0af6992ca3fa2769d9213053c94e7fb6c1075c877b1704c4",
+            "contentHash": "b06b5801bcb4b1ed0af6992ca3fa2769d9213053c94e7fb6c1075c877b1704c4",
+            "attempts": 0,
+            "updatedAt": "2026-08-15T02:56:16.716Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHGTG7BAOVioqqEY6eBTb03",
+      "sourceId": "AAHGTG7BAOVioqqEY6eBTb03",
+      "sourceFingerprint": "6493577270fa0ca325627090203e2d5d761684de4d63568b1ce976cda72e7b5c",
+      "locale": "en",
+      "slug": "religious-jewelry-accessories-rosary-junction-cross-connector-ebtb03",
+      "title": "Religious Jewelry Accessories Rosary Junction Cross Connector",
+      "eyebrow": "Accessories",
+      "summary": "Religious Jewelry Accessories Rosary Junction Cross Connector Triquetra Centerpiece Crucifix Metal for Necklaces Making",
+      "description": "Religious Jewelry Accessories Rosary Junction Cross Connector Triquetra Centerpiece Crucifix Metal for Necklaces Making",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHGTG7BAOVioqqEY6eBTb03",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H46940e5ca7864580a52f343e610d44cbY.webp",
+      "imageAlt": "Religious Jewelry Accessories Rosary Junction Cross Connector",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H46940e5ca7864580a52f343e610d44cbY.webp",
+          "alt": "Religious Jewelry Accessories Rosary Junction Cross Connector"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5411300b84ad46c8be3e0b96aad3aa16m.webp",
+          "alt": "Religious Jewelry Accessories Rosary Junction Cross Connector"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc2800af7ff934406b1c35d303b7925f3X.webp",
+          "alt": "Religious Jewelry Accessories Rosary Junction Cross Connector"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H09dea9450ca5494f87fb5c688eb29d4ed.webp",
+          "alt": "Religious Jewelry Accessories Rosary Junction Cross Connector"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H593f2c2ecc1b4db3b711286b71e93787x.webp",
+          "alt": "Religious Jewelry Accessories Rosary Junction Cross Connector - 2",
+          "label": "2",
+          "sku": "ALI-AAHGTG7BAOVioqqEY6eBTb03-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0f43476dee04c328c51c2b719b221f5i.webp",
+          "alt": "Religious Jewelry Accessories Rosary Junction Cross Connector - 3",
+          "label": "3",
+          "sku": "ALI-AAHGTG7BAOVioqqEY6eBTb03-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb2cc4c2031fe48df80742d55dddb05567.webp",
+          "alt": "Religious Jewelry Accessories Rosary Junction Cross Connector - 1",
+          "label": "1",
+          "sku": "ALI-AAHGTG7BAOVioqqEY6eBTb03-V--3"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Variant: 1, 2, 3",
+        "Design: religious"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "1, 2, 3"
+        },
+        {
+          "name": "Design",
+          "value": "religious"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.12",
+          "max": "0.20"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Religious Jewelry Accessories Rosary Junction Cross Connector",
+          "description": "Religious Jewelry Accessories Rosary Junction Cross Connector Triquetra Centerpiece Crucifix Metal for Necklaces Making",
+          "sku": "ALI-AAHGTG7BAOVioqqEY6eBTb03",
+          "image": [
+            "https://sc04.alicdn.com/kf/H46940e5ca7864580a52f343e610d44cbY.jpg",
+            "https://sc04.alicdn.com/kf/H5411300b84ad46c8be3e0b96aad3aa16m.jpg",
+            "https://sc04.alicdn.com/kf/Hc2800af7ff934406b1c35d303b7925f3X.jpg",
+            "https://sc04.alicdn.com/kf/H09dea9450ca5494f87fb5c688eb29d4ed.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "1, 2, 3"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "religious"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.12",
+              "maxPrice": "0.20",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "6ce5986ff3daaa43990b4fb6389412c035d4c6001ea933b22ca634e63bc8ad86",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "6ce5986ff3daaa43990b4fb6389412c035d4c6001ea933b22ca634e63bc8ad86",
+            "contentHash": "6ce5986ff3daaa43990b4fb6389412c035d4c6001ea933b22ca634e63bc8ad86",
+            "attempts": 0,
+            "updatedAt": "2026-08-15T02:56:42.397Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGMTG7BAOVioqqEY6ee7miU",
+      "sourceId": "AAGMTG7BAOVioqqEY6ee7miU",
+      "sourceFingerprint": "5fd17b52b8f5b0b5f418d14e891201297c54e88f7debade8461e7ba2f6021d23",
+      "locale": "en",
+      "slug": "metal-keychain-pendant-assortment-in-gold-silver-steel-ee7miu",
+      "title": "Metal Keychain Pendant Assortment in Gold, Silver, Steel",
+      "eyebrow": "metal keychain pendant",
+      "summary": "A wholesale assortment of metal keychain pendants in gold, silver, and steel color finishes. Each pendant serves as a hanging accessory for bags, keys, or car interiors. Multiple variants allow mix-and-match ordering for retail or promotional use.",
+      "description": "This metal keychain pendant assortment covers three color families: gold, silver, and steel. Each variant is designed as a hanging accessory, suitable for keyrings, bag charms, or car pendants. The set includes multiple finishes, giving buyers flexibility to select a single color or combine options.\n\nThese pendants are simple in construction and rely on their metal finish for visual appeal. They are not branded or engraved, making them adaptable for various retail displays or gift bundles. Because no specific material is listed, confirm the base metal with us before ordering if your market has strict material requirements.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "83",
+          "name": "Keychains",
+          "slug": "keychains"
+        }
+      ],
+      "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc81f24ac51e643cd8053671dd7825303N.webp",
+      "imageAlt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc81f24ac51e643cd8053671dd7825303N.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H05c0814c74814abab278bebf6e75abbed.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H762328196fbe4b10962c108dd6d52211R.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4c7d884e595c407e9cfdf490fc72c41dc.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H153a71691f2743a59113a88c5f5a29e3G.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2a923fc923b04bc39eac746b20014e45G.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - silver-1",
+          "label": "silver-1",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hee88ef2ddb2c44659ea8d38d1863d05bR.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - silver-2",
+          "label": "silver-2",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd49fe9dfda6448acb58b6b9eda9f9016B.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - steel-color-3",
+          "label": "steel-color-3",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H071332b3670744e48977fc35634bf553W.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - silver",
+          "label": "silver",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V-3460547"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd244fdedc731439eacecc631dea030adL.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - steel-color-1",
+          "label": "steel-color-1",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H30472d325e7d4622b8b64d0e17f47922D.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - steel-color-2",
+          "label": "steel-color-2",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbe7ab3a6845447f8826205a15480d83eQ.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - golden-3",
+          "label": "golden-3",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7d7a475fd29241c283731465fa1f4197H.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - steel-color",
+          "label": "steel-color",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8ce48e2263b445d4bb405350de3d3d35I.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - golden-1",
+          "label": "golden-1",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcf2a9cc7c7334a74b1a17c94f00279b7e.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - golden-2",
+          "label": "golden-2",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd92d5d83084a49d49b5c29729704714d9.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - gold",
+          "label": "gold",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha89826ae84e04ff58c571dc6e2894124R.webp",
+          "alt": "Metal Keychain Pendant Assortment in Gold, Silver, Steel - silver-3",
+          "label": "silver-3",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU-V--10"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Available in gold, silver, and steel color finishes",
+        "Designed as a hanging pendant for keys, bags, or cars",
+        "Multiple variants within each color for selection",
+        "Wholesale-oriented packaging for bulk orders",
+        "Unbranded surface suitable for retail displays"
+      ],
+      "specifications": [
+        {
+          "name": "Design type",
+          "value": "pendant"
+        },
+        {
+          "name": "Color variants",
+          "value": "gold, silver, steel color"
+        },
+        {
+          "name": "Category",
+          "value": "keychain"
+        }
+      ],
+      "applications": [
+        "Keychain accessory for personal keys",
+        "Bag charm or hanging decoration",
+        "Car interior pendant",
+        "Retail gift or souvenir item"
+      ],
+      "faq": [
+        {
+          "question": "What color options are available for these metal keychain pendants?",
+          "answer": "The pendants come in gold, silver, and steel color finishes. Each color has multiple numbered variants, such as Golden-1, Golden-2, and Golden-3, allowing you to choose specific styles or order a mix."
+        },
+        {
+          "question": "Are these pendants suitable for use as bag charms or car decorations?",
+          "answer": "Yes, they are designed as hanging accessories. Their compact size and metal construction make them suitable for keyrings, bag zipper pulls, or as a decorative element inside a car. However, verify dimensions with us before use if your application requires a specific size."
+        },
+        {
+          "question": "Can I request a specific metal material for these keychains?",
+          "answer": "The product attributes do not specify a metal material. If you need a particular alloy or coating for durability or compliance, contact us to discuss availability and any potential adjustments to the order."
+        }
+      ],
+      "pricing": {
+        "price": "0.24",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.24",
+          "max": "0.31"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Metal Keychain Pendant Assortment in Gold, Silver, Steel",
+          "description": "Wholesale metal keychain pendants in gold, silver, and steel color variants. Ideal for bags, keys, and car accessories. Available in multiple designs.",
+          "sku": "ALI-AAGMTG7BAOVioqqEY6ee7miU",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc81f24ac51e643cd8053671dd7825303N.jpg",
+            "https://sc04.alicdn.com/kf/H05c0814c74814abab278bebf6e75abbed.jpg",
+            "https://sc04.alicdn.com/kf/H762328196fbe4b10962c108dd6d52211R.jpg",
+            "https://sc04.alicdn.com/kf/H4c7d884e595c407e9cfdf490fc72c41dc.jpg",
+            "https://sc04.alicdn.com/kf/H153a71691f2743a59113a88c5f5a29e3G.jpg"
+          ],
+          "category": "Keychains",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Design type",
+              "value": "pendant"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "gold, silver, steel color"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "keychain"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.24",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.24",
+              "maxPrice": "0.31",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What color options are available for these metal keychain pendants?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendants come in gold, silver, and steel color finishes. Each color has multiple numbered variants, such as Golden-1, Golden-2, and Golden-3, allowing you to choose specific styles or order a mix."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are these pendants suitable for use as bag charms or car decorations?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, they are designed as hanging accessories. Their compact size and metal construction make them suitable for keyrings, bag zipper pulls, or as a decorative element inside a car. However, verify dimensions with us before use if your application requires a specific size."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I request a specific metal material for these keychains?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product attributes do not specify a metal material. If you need a particular alloy or coating for durability or compliance, contact us to discuss availability and any potential adjustments to the order."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "555ee9927484db59c4396716789c82b3864368a95f1e5b533d157006b699fd40",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "555ee9927484db59c4396716789c82b3864368a95f1e5b533d157006b699fd40",
+            "contentHash": "555ee9927484db59c4396716789c82b3864368a95f1e5b533d157006b699fd40",
+            "attempts": 0,
+            "updatedAt": "2026-08-15T02:56:40.683Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAG7TG7BAOVioqqEY6eBRJnZ",
+      "sourceId": "AAG7TG7BAOVioqqEY6eBRJnZ",
+      "sourceFingerprint": "4dfe6beed4f125c02681212ed16ffa3e06d1f42cf4467cd820a7cd3864695b0b",
+      "locale": "en",
+      "slug": "red-garnet-beaded-cross-rosary-necklace-ebrjnz",
+      "title": "Red Garnet Beaded Cross Rosary Necklace",
+      "eyebrow": "Catholic rosary-style beaded cross necklace",
+      "summary": "Make a clear choice for Catholic rosary devotion with this red garnet beaded cross necklace. It combines stone beads and a cross pendant in a unisex design, available with silver or gold plating for versatile wear.",
+      "description": "This red beaded cross necklace serves as a practical aid for Catholic rosary prayer. Its stone beads provide a tactile guide for counting prayers, while the cross pendant reinforces the focus on Christ's passion. The necklace is designed for unisex use, making it suitable for personal daily wear or as a thoughtful gift within a faith community. Constructed with claw-set garnet stones, it offers a durable structure for regular handling. The choice of silver or gold plating allows you to match the necklace to individual preferences or existing jewelry. Whether worn for personal devotion or given as a festival gift, this piece integrates function with a clear Catholic visual identity.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAG7TG7BAOVioqqEY6eBRJnZ",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H6d3cfe6d64f84d1481d6447a121a219a8.webp",
+      "imageAlt": "Red Garnet Beaded Cross Rosary Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6d3cfe6d64f84d1481d6447a121a219a8.webp",
+          "alt": "Red Garnet Beaded Cross Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcf5f52e8b34a49478c4ae7103af8dd99k.webp",
+          "alt": "Red Garnet Beaded Cross Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H026ab528bf8f4767863cf6503aad6591N.webp",
+          "alt": "Red Garnet Beaded Cross Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63df96fbd57d42e19b9c034252b0d4138.webp",
+          "alt": "Red Garnet Beaded Cross Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H98e53396bd7146a69da0b83f9fea960az.webp",
+          "alt": "Red Garnet Beaded Cross Rosary Necklace"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Garnet main stone in princess cut with claw setting",
+        "Beaded necklace design for tactile prayer counting",
+        "Unisex style suitable for men and women",
+        "Available in silver plated or gold plated finish",
+        "Cross shape/pattern for Catholic identity",
+        "Stone material for durable construction"
+      ],
+      "specifications": [
+        {
+          "name": "Jewelry Main Material",
+          "value": "Stone"
+        },
+        {
+          "name": "Main Stone",
+          "value": "Garnet"
+        },
+        {
+          "name": "Stone Cut",
+          "value": "Princess Cut"
+        },
+        {
+          "name": "Setting",
+          "value": "Claw Setting"
+        },
+        {
+          "name": "Plating",
+          "value": "Silver Plated or Gold Plated"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Beaded Necklace"
+        },
+        {
+          "name": "Chain Style",
+          "value": "Beads"
+        },
+        {
+          "name": "Shape",
+          "value": "Cross"
+        }
+      ],
+      "applications": [
+        "Personal rosary prayer and meditation",
+        "Daily devotional accessory for Catholic faithful",
+        "Religious gift for festivals or special occasions",
+        "Wear as a visible sign of faith"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this cross necklace made from?",
+          "answer": "This cross necklace is made of stone beads with garnet as the main stone, set in a princess cut with claw setting. The plating is available in either silver or gold."
+        },
+        {
+          "question": "Is this necklace suitable for both men and women?",
+          "answer": "Yes, the necklace is designed as a unisex piece, making it suitable for both men and women."
+        },
+        {
+          "question": "Can this necklace be used for rosary prayer?",
+          "answer": "The beaded design and cross pendant make it suitable for use as a rosary aid, helping to keep track of prayers during the Rosary."
+        }
+      ],
+      "pricing": {
+        "price": "2.45",
+        "regularPrice": "2.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.99",
+          "max": "2.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Red Garnet Beaded Cross Rosary Necklace",
+          "description": "Unisex red garnet beaded cross necklace with silver or gold plating, designed for Catholic rosary prayer and daily devotional wear.",
+          "sku": "ALI-AAG7TG7BAOVioqqEY6eBRJnZ",
+          "image": [
+            "https://sc04.alicdn.com/kf/H6d3cfe6d64f84d1481d6447a121a219a8.jpg",
+            "https://sc04.alicdn.com/kf/Hcf5f52e8b34a49478c4ae7103af8dd99k.jpg",
+            "https://sc04.alicdn.com/kf/H026ab528bf8f4767863cf6503aad6591N.jpg",
+            "https://sc04.alicdn.com/kf/H63df96fbd57d42e19b9c034252b0d4138.jpg",
+            "https://sc04.alicdn.com/kf/H98e53396bd7146a69da0b83f9fea960az.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Main Material",
+              "value": "Stone"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "Garnet"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stone Cut",
+              "value": "Princess Cut"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Setting",
+              "value": "Claw Setting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Silver Plated or Gold Plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Beaded Necklace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain Style",
+              "value": "Beads"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Cross"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.99",
+              "maxPrice": "2.45",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this cross necklace made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This cross necklace is made of stone beads with garnet as the main stone, set in a princess cut with claw setting. The plating is available in either silver or gold."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this necklace suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the necklace is designed as a unisex piece, making it suitable for both men and women."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this necklace be used for rosary prayer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beaded design and cross pendant make it suitable for use as a rosary aid, helping to keep track of prayers during the Rosary."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "a7725a0510e1e30061b4db2f4aaeb31808944343fd64aae6c5d470f1517c2653",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "a7725a0510e1e30061b4db2f4aaeb31808944343fd64aae6c5d470f1517c2653",
+            "contentHash": "a7725a0510e1e30061b4db2f4aaeb31808944343fd64aae6c5d470f1517c2653",
+            "attempts": 0,
+            "updatedAt": "2026-08-15T02:57:03.228Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEKTG7BAOVioqqEY6eBTWBY",
+      "sourceId": "AAEKTG7BAOVioqqEY6eBTWBY",
+      "sourceFingerprint": "9ebb90b64cd137fbcde2f4dab371544e7b59789ca3247abe1ca9d879ed5362d2",
+      "locale": "en",
+      "slug": "3d-relief-prayer-rod-staff-coin-badge-ebtwby",
+      "title": "3D Relief Prayer Rod Staff Coin Badge",
+      "eyebrow": "three-dimensional relief prayer rod staff coin badge",
+      "summary": "Metal crafts new design: a three-dimensional relief prayer rod staff coin badge, plated in alloy with gold and silver variants. This distinctive accessory combines raised relief detail with a coin-like form, suitable for various decorative and collectible applications.",
+      "description": "This new design from OUOOO Metal Crafts features a three-dimensional relief prayer rod staff motif on a coin-shaped badge. The raised surface gives the piece depth and texture, standing out from flat-printed badges. Available in two finishes: gold and silver, each plated alloy for a metallic sheen.\n\nThe coin badge is compact and lightweight, designed for easy attachment or display. Its relief detail captures fine lines and shapes of the staff and rod, making it suitable for themed crafts, accessories, or collectible sets. Whether used individually or in bulk for projects, the badge offers a tactile and visual focal point.\n\nWe source this item for wholesale buyers; contact us for current availability and order details.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAEKTG7BAOVioqqEY6eBTWBY",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H2ad59ac362e1433a9b52ac80cb98276a4.webp",
+      "imageAlt": "3D Relief Prayer Rod Staff Coin Badge",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2ad59ac362e1433a9b52ac80cb98276a4.webp",
+          "alt": "3D Relief Prayer Rod Staff Coin Badge"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H398575445b2542149176a5b2d92b0a80X.jpg",
+          "alt": "3D Relief Prayer Rod Staff Coin Badge"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H180e1b8dc2434fdda526ea95ca1b2c0be.webp",
+          "alt": "3D Relief Prayer Rod Staff Coin Badge"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7862494c91c44547b96b6bef187b8cb9E.webp",
+          "alt": "3D Relief Prayer Rod Staff Coin Badge"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H684cb4e9b4114947b8dfa3fb1332f2b4f.webp",
+          "alt": "3D Relief Prayer Rod Staff Coin Badge"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He2860de7eb9340b3bd41a48f6beaf47ax.webp",
+          "alt": "3D Relief Prayer Rod Staff Coin Badge - gold",
+          "label": "gold",
+          "sku": "ALI-AAEKTG7BAOVioqqEY6eBTWBY-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H62f607935e704b4cbdda838de88f6c69o.webp",
+          "alt": "3D Relief Prayer Rod Staff Coin Badge - silver",
+          "label": "silver",
+          "sku": "ALI-AAEKTG7BAOVioqqEY6eBTWBY-V-3460547"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Three-dimensional relief design on a coin-shaped badge",
+        "Plated alloy construction",
+        "Gold and silver finish variants",
+        "New design from OUOOO Metal Crafts",
+        "Compact accessory suitable for crafts or collectibles"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Alloy (plated)"
+        },
+        {
+          "name": "Design",
+          "value": "Three-dimensional relief prayer rod staff"
+        },
+        {
+          "name": "Available finishes",
+          "value": "Gold, Silver"
+        },
+        {
+          "name": "Category",
+          "value": "Accessories"
+        }
+      ],
+      "applications": [
+        "Craft projects and DIY accessories",
+        "Collectible coin badges",
+        "Decorative accents for bags or clothing",
+        "Promotional or gift items"
+      ],
+      "faq": [
+        {
+          "question": "What metal is this badge made of?",
+          "answer": "The badge is made of alloy with a plated finish."
+        },
+        {
+          "question": "What finishes are available?",
+          "answer": "The badge comes in gold and silver finishes."
+        },
+        {
+          "question": "Could this badge be used for a Catholic-themed craft?",
+          "answer": "The badge features a prayer rod staff design, which may fit such a theme, but it is not explicitly marketed as a religious item."
+        }
+      ],
+      "pricing": {
+        "price": "0.68",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.58",
+          "max": "0.68"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "3D Relief Prayer Rod Staff Coin Badge",
+          "description": "Three-dimensional relief prayer rod staff coin badge in gold or silver plated alloy. Distinctive raised design for accessories, crafts, and wholesale sourcing.",
+          "sku": "ALI-AAEKTG7BAOVioqqEY6eBTWBY",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2ad59ac362e1433a9b52ac80cb98276a4.jpg",
+            "https://sc04.alicdn.com/kf/H398575445b2542149176a5b2d92b0a80X.jpg",
+            "https://sc04.alicdn.com/kf/H180e1b8dc2434fdda526ea95ca1b2c0be.jpg",
+            "https://sc04.alicdn.com/kf/H7862494c91c44547b96b6bef187b8cb9E.jpg",
+            "https://sc04.alicdn.com/kf/H684cb4e9b4114947b8dfa3fb1332f2b4f.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Alloy (plated)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Three-dimensional relief prayer rod staff"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Available finishes",
+              "value": "Gold, Silver"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Accessories"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.68",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.58",
+              "maxPrice": "0.68",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What metal is this badge made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The badge is made of alloy with a plated finish."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What finishes are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The badge comes in gold and silver finishes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Could this badge be used for a Catholic-themed craft?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The badge features a prayer rod staff design, which may fit such a theme, but it is not explicitly marketed as a religious item."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "8ff6db9ace1788fbe13b7e649494bb1d3fc5d1ce922de76e3c8090feedaef5b7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "8ff6db9ace1788fbe13b7e649494bb1d3fc5d1ce922de76e3c8090feedaef5b7",
+            "contentHash": "8ff6db9ace1788fbe13b7e649494bb1d3fc5d1ce922de76e3c8090feedaef5b7",
+            "attempts": 0,
+            "updatedAt": "2026-08-15T02:56:33.363Z",
             "model": "deepseek-v4-flash"
           }
         }

@@ -1,28 +1,28 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-15T13:04:18.144Z",
+  "generatedAt": "2026-08-16T03:04:54.634Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAG3TG7BAOVioqqEY6ePwLA0",
-      "AAGHTG7BAOVioqqEY6edsNza",
-      "AAEwTG7BAOVioqqEY6eBR0oa",
-      "AAGOTG7BAOVioqqEY6eBSx-f",
-      "AAF5TG7BAOVioqqEY6eBTGo-",
-      "AAHtTG7BAOVioqqEY6eBTST3",
-      "AAEUTG7BAOVioqqEY6eBRANI",
-      "AAGjTG7BAOVioqqEY6eBQ1uA",
-      "AAEkTG7BAOVioqqEY6eAbjV9",
-      "AAEATG7BAOVioqqEY6eBR6yI"
+      "AAFGTG7BAOVioqqEY6eYaEN_",
+      "AAHCTG7BAOVioqqEY6eBSs-k",
+      "AAHhTG7BAOVioqqEY6e_xRZD",
+      "AAGdTG7BAOVioqqEY6eNFuMT",
+      "AAGVTG7BAOVioqqEY6ez1-Wi",
+      "AAGETG7BAOVioqqEY6eBsw-9",
+      "AAHPTG7BAOVioqqEY6eeDhUK",
+      "AAEYTG7BAOVioqqEY6eBSHHa",
+      "AAHyTG7BAOVioqqEY6ey4yM2",
+      "AAHSTG7BAOVioqqEY6eKbffg"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
     "generated": 8,
-    "reused": 240,
+    "reused": 250,
     "source_fallback": 2
   },
   "products": [
@@ -52712,12 +52712,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "10aa2666f72dcc7e8cd2d73995479ca9ef7abceff84fd3f977c8b4af6e499011",
+        "sourceHash": "b6d2d287ba2de627e7182324233d9b2bc01985b3104f802d07db05629f17ce6a",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "10aa2666f72dcc7e8cd2d73995479ca9ef7abceff84fd3f977c8b4af6e499011",
-            "contentHash": "10aa2666f72dcc7e8cd2d73995479ca9ef7abceff84fd3f977c8b4af6e499011",
+            "sourceHash": "b6d2d287ba2de627e7182324233d9b2bc01985b3104f802d07db05629f17ce6a",
+            "contentHash": "b6d2d287ba2de627e7182324233d9b2bc01985b3104f802d07db05629f17ce6a",
             "attempts": 0,
             "updatedAt": "2026-08-15T13:04:06.259Z",
             "model": "deepseek-v4-flash"
@@ -53309,14 +53309,2084 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "3baf15e4f4f1f768dbaffb5205ac022a6c25c8a3df5bea734841d2fd41bfad0e",
+        "sourceHash": "395eeda93241aab2bbe57816596c83753c4aebbcdac913211e7e93bc4f2b27ee",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "3baf15e4f4f1f768dbaffb5205ac022a6c25c8a3df5bea734841d2fd41bfad0e",
-            "contentHash": "3baf15e4f4f1f768dbaffb5205ac022a6c25c8a3df5bea734841d2fd41bfad0e",
+            "sourceHash": "395eeda93241aab2bbe57816596c83753c4aebbcdac913211e7e93bc4f2b27ee",
+            "contentHash": "395eeda93241aab2bbe57816596c83753c4aebbcdac913211e7e93bc4f2b27ee",
             "attempts": 0,
             "updatedAt": "2026-08-15T13:04:12.445Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFGTG7BAOVioqqEY6eYaEN_",
+      "sourceId": "AAFGTG7BAOVioqqEY6eYaEN_",
+      "sourceFingerprint": "542e17f8f4f6e5f0c4e51769cb900b252df22a7135db40ca541a8fa8b0d78050",
+      "locale": "en",
+      "slug": "wooden-om-bracelets-with-wood-bead-string-beads-elastic-bracelet-eyaen_",
+      "title": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets",
+      "eyebrow": "Rosary bracelets",
+      "summary": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets for Yoga Practice Meditation Mindfulness",
+      "description": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets for Yoga Practice Meditation Mindfulness",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAFGTG7BAOVioqqEY6eYaEN_",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H0a02daccfc82455c9e327383c2497398t.webp",
+      "imageAlt": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0a02daccfc82455c9e327383c2497398t.webp",
+          "alt": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5ba7efbdf5a48b3a612be8451c1d27ce.webp",
+          "alt": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfa1b65bf89de48209ca0384e01eb68d4T.webp",
+          "alt": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hac69ce7d364e4e6390e8eb88ad65c203g.webp",
+          "alt": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H886e81e53955437782fb34d1bc0d2194c.webp",
+          "alt": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hca105554fe2644dab7d24400192e8ccfR.webp",
+          "alt": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H789bac68b76b4f689d73354e0a4d9c30t.webp",
+          "alt": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets - black",
+          "label": "black",
+          "sku": "ALI-AAFGTG7BAOVioqqEY6eYaEN_-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H591c47c307fc462bab3bc1342c325b1aL.webp",
+          "alt": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets - coffee",
+          "label": "coffee",
+          "sku": "ALI-AAFGTG7BAOVioqqEY6eYaEN_-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9a4f4745f5104e268dbc72e74a884884j.webp",
+          "alt": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets - brown",
+          "label": "brown",
+          "sku": "ALI-AAFGTG7BAOVioqqEY6eYaEN_-V-3399503"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Variant: Coffee, Brown, Black",
+        "Design: om"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Coffee, Brown, Black"
+        },
+        {
+          "name": "Design",
+          "value": "om"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.48",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.22",
+          "max": "0.48"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets",
+          "description": "Wooden OM Bracelets with Wood Bead String Beads Elastic Bracelets for Yoga Practice Meditation Mindfulness",
+          "sku": "ALI-AAFGTG7BAOVioqqEY6eYaEN_",
+          "image": [
+            "https://sc04.alicdn.com/kf/H0a02daccfc82455c9e327383c2497398t.jpg",
+            "https://sc04.alicdn.com/kf/He5ba7efbdf5a48b3a612be8451c1d27ce.jpg",
+            "https://sc04.alicdn.com/kf/Hfa1b65bf89de48209ca0384e01eb68d4T.jpg",
+            "https://sc04.alicdn.com/kf/Hac69ce7d364e4e6390e8eb88ad65c203g.jpg",
+            "https://sc04.alicdn.com/kf/H886e81e53955437782fb34d1bc0d2194c.jpg",
+            "https://sc04.alicdn.com/kf/Hca105554fe2644dab7d24400192e8ccfR.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Coffee, Brown, Black"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "om"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.48",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.22",
+              "maxPrice": "0.48",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "ef131e2f9585f0b32422d2955ca2ddfa2600768978d1da308c61ed3b5c79f220",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "ef131e2f9585f0b32422d2955ca2ddfa2600768978d1da308c61ed3b5c79f220",
+            "contentHash": "ef131e2f9585f0b32422d2955ca2ddfa2600768978d1da308c61ed3b5c79f220",
+            "attempts": 0,
+            "updatedAt": "2026-08-16T03:04:33.076Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHCTG7BAOVioqqEY6eBSs-k",
+      "sourceId": "AAHCTG7BAOVioqqEY6eBSs-k",
+      "sourceFingerprint": "cd9c70e367c7fd32b0d0277079e144b49610f5d34bd572140cf3a5a1c2a2e150",
+      "locale": "en",
+      "slug": "gold-plated-rhinestone-our-lady-st-jude-pendant-charms-ebss-k",
+      "title": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms",
+      "eyebrow": "religious pendant charm",
+      "summary": "These gold-tone, rhinestone-studded pendant charms depict Our Lady of Guadalupe and Saint Jude. Ideal for custom religious jewelry projects, each charm offers a distinct saintly image. Choose from three variants to suit your design needs.",
+      "description": "Crafting religious jewelry often requires Finding components that balance devotional imagery with a polished look. These pendant charms feature Our Lady of Guadalupe and Saint Jude in a gold-plated finish accented with rhinestones. Each variant presents a different saintly depiction, allowing you to select the right focal piece for necklaces, bracelets, or other accessories. The design is explicitly religious, making these charms suitable for personal use or for creating items intended for gift-giving within a faith community. While the plating and stone setting suggest a dressier aesthetic, they remain practical for everyday wear.",
+      "catholicContext": "Our Lady of Guadalupe is a title of the Virgin Mary, and Saint Jude is a Catholic saint venerated as a patron of desperate cases.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHCTG7BAOVioqqEY6eBSs-k",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H29f1494faf2144519d285c0685edda577.webp",
+      "imageAlt": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H29f1494faf2144519d285c0685edda577.webp",
+          "alt": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc3aea2a190e4ae49324b85095cc2798G.webp",
+          "alt": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H410b2112ab924fbd96838b33e07986704.webp",
+          "alt": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbd460ca045d144e391c4ce7a6f867d07e.webp",
+          "alt": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3142888ac195448e8170901f7002f4f9W.webp",
+          "alt": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1f4e29239b964e9799be3d12246b9b11F.webp",
+          "alt": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms - 1",
+          "label": "1",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eBSs-k-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H042b13e704d04fccbb01abe8c4a26525v.webp",
+          "alt": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms - 2",
+          "label": "2",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eBSs-k-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H04a8dffe16e14fcc8a59c8bc55afe6a4e.webp",
+          "alt": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms - 3",
+          "label": "3",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eBSs-k-V--1"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Gold-plated finish with rhinestone accents",
+        "Features Our Lady of Guadalupe and Saint Jude designs",
+        "Available in three design variants",
+        "Categorized as religious accessory component"
+      ],
+      "specifications": [
+        {
+          "name": "Design",
+          "value": "Religious (Our Lady of Guadalupe and Saint Jude)"
+        },
+        {
+          "name": "Variant",
+          "value": "Three options available"
+        },
+        {
+          "name": "Category",
+          "value": "Accessories"
+        }
+      ],
+      "applications": [
+        "Jewelry making for necklaces",
+        "Bracelet charms",
+        "Religious-themed accessory crafting",
+        "Custom gift items"
+      ],
+      "faq": [
+        {
+          "question": "What designs are available for these pendant charms?",
+          "answer": "The charms feature Our Lady of Guadalupe and Saint Jude, with three design variants to choose from. Specific design details for each variant are not listed, but the category confirms a religious theme."
+        },
+        {
+          "question": "What metal finish do these charms have?",
+          "answer": "The charms are described as gold plated with rhinestone accents, giving a shiny, decorative appearance."
+        },
+        {
+          "question": "Are these charms suitable for making bracelets as well as necklaces?",
+          "answer": "Yes. The original product title indicates they are intended for jewelry making, including necklaces and bracelets, so they can be used as components in various types of jewelry."
+        }
+      ],
+      "pricing": {
+        "price": "0.95",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.82",
+          "max": "0.95"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gold Plated Rhinestone Our Lady & St Jude Pendant Charms",
+          "description": "Gold plated rhinestone pendant charms featuring Our Lady of Guadalupe and Saint Jude, for DIY religious necklaces and bracelets. Three design variants available.",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eBSs-k",
+          "image": [
+            "https://sc04.alicdn.com/kf/H29f1494faf2144519d285c0685edda577.jpg",
+            "https://sc04.alicdn.com/kf/Hbc3aea2a190e4ae49324b85095cc2798G.jpg",
+            "https://sc04.alicdn.com/kf/H410b2112ab924fbd96838b33e07986704.jpg",
+            "https://sc04.alicdn.com/kf/Hbd460ca045d144e391c4ce7a6f867d07e.jpg",
+            "https://sc04.alicdn.com/kf/H3142888ac195448e8170901f7002f4f9W.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Religious (Our Lady of Guadalupe and Saint Jude)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Three options available"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Accessories"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.95",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.82",
+              "maxPrice": "0.95",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What designs are available for these pendant charms?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The charms feature Our Lady of Guadalupe and Saint Jude, with three design variants to choose from. Specific design details for each variant are not listed, but the category confirms a religious theme."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What metal finish do these charms have?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The charms are described as gold plated with rhinestone accents, giving a shiny, decorative appearance."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are these charms suitable for making bracelets as well as necklaces?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The original product title indicates they are intended for jewelry making, including necklaces and bracelets, so they can be used as components in various types of jewelry."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "379db9ced8616f2158baf8c5cd26e5d10b175ea006ebb69b7ec68f5fa2311ef8",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "379db9ced8616f2158baf8c5cd26e5d10b175ea006ebb69b7ec68f5fa2311ef8",
+            "contentHash": "379db9ced8616f2158baf8c5cd26e5d10b175ea006ebb69b7ec68f5fa2311ef8",
+            "attempts": 0,
+            "updatedAt": "2026-08-16T03:04:19.292Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHhTG7BAOVioqqEY6e_xRZD",
+      "sourceId": "AAHhTG7BAOVioqqEY6e_xRZD",
+      "sourceFingerprint": "b529c66f37523fedadefee3bca00385485581be0d01f3a4f269486e507990e48",
+      "locale": "en",
+      "slug": "praying-hands-heart-cross-wall-decoration-e_xrzd",
+      "title": "Praying Hands Heart Cross Wall Decoration",
+      "eyebrow": "decorative cross wall art",
+      "summary": "This decorative cross wall art features a combined praying hands and heart motif. Choose from three sizes—30cm, 40cm, or 50cm—to fit your space. A meaningful addition to home or religious interiors.",
+      "description": "This wall decoration presents a cross with integrated praying hands and a heart, offering a distinct devotional focus. It comes in three size variants—30cm, 40cm, and 50cm—so you can match it to the wall proportions of a living room, entryway, or prayer corner.\n\nThe design is categorized as an ornament, suggesting it is intended primarily as a visual accent. While its religious symbolism is clear, it does not include a corpus, so it should be described as a cross rather than a crucifix. It may complement other devotional items but is not itself a liturgical furnishing.",
+      "catholicContext": "The cross is a central symbol of the Christian faith, representing the sacrifice of Jesus Christ.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHhTG7BAOVioqqEY6e_xRZD",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd46e0b18aff54cb2a5d28fed72a71aa4E.webp",
+      "imageAlt": "Praying Hands Heart Cross Wall Decoration",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd46e0b18aff54cb2a5d28fed72a71aa4E.webp",
+          "alt": "Praying Hands Heart Cross Wall Decoration"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0ea78727c49f4104b355ee4de4fbefcdq.webp",
+          "alt": "Praying Hands Heart Cross Wall Decoration"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H09c6587d0c5b4a5fb92433ead202b5878.webp",
+          "alt": "Praying Hands Heart Cross Wall Decoration"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8b6c7c3639b247578b3131a22b73c1ffq.webp",
+          "alt": "Praying Hands Heart Cross Wall Decoration"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H66adc3ea224f415d8fcf56bb72db8046W.webp",
+          "alt": "Praying Hands Heart Cross Wall Decoration"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd26380996bbc42848b9d81ff7d34aadae.webp",
+          "alt": "Praying Hands Heart Cross Wall Decoration - 50cm-praying-hands-heart-cross-large-size",
+          "label": "50cm-praying-hands-heart-cross-large-size",
+          "sku": "ALI-AAHhTG7BAOVioqqEY6e_xRZD-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H42f25c4c336b40a0a0a50163fa31ecc1A.webp",
+          "alt": "Praying Hands Heart Cross Wall Decoration - 40cm-praying-hands-heart-cross-medium-size",
+          "label": "40cm-praying-hands-heart-cross-medium-size",
+          "sku": "ALI-AAHhTG7BAOVioqqEY6e_xRZD-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H606bfc38f11d4917a2fa10e88e2828c5w.webp",
+          "alt": "Praying Hands Heart Cross Wall Decoration - 30cm-praying-hands-heart-cross-small-size",
+          "label": "30cm-praying-hands-heart-cross-small-size",
+          "sku": "ALI-AAHhTG7BAOVioqqEY6e_xRZD-V--1"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Decorative cross wall art combining praying hands and heart motifs",
+        "Available in three sizes: 30cm, 40cm, and 50cm",
+        "Categorized as an ornament for interior display",
+        "Designed for wall hanging in home or faith-based settings"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "30cm praying hands heart cross-small size"
+        },
+        {
+          "name": "Variant",
+          "value": "40cm praying hands heart cross-medium size"
+        },
+        {
+          "name": "Variant",
+          "value": "50cm praying hands heart cross-large size"
+        }
+      ],
+      "applications": [
+        "Living room wall decoration",
+        "Entryway or hallway accent",
+        "Prayer corner or meditation space",
+        "Gift for Christian households"
+      ],
+      "faq": [
+        {
+          "question": "What sizes are available for this praying hands heart cross wall decoration?",
+          "answer": "This wall cross is offered in three sizes: 30cm (small), 40cm (medium), and 50cm (large)."
+        },
+        {
+          "question": "Is this product a cross or a crucifix?",
+          "answer": "This is a cross, not a crucifix. It does not include a corpus or depiction of Christ on the cross."
+        },
+        {
+          "question": "What motifs are featured on this cross wall art?",
+          "answer": "The cross combines a praying hands motif with a heart shape, integrated into the design."
+        }
+      ],
+      "pricing": {
+        "price": "1.85",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.85",
+          "max": "4.85"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Praying Hands Heart Cross Wall Decoration",
+          "description": "This decorative cross wall art features praying hands and a heart motif. Available in three sizes: 30cm, 40cm, and 50cm. Ideal for home or chapel decor.",
+          "sku": "ALI-AAHhTG7BAOVioqqEY6e_xRZD",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd46e0b18aff54cb2a5d28fed72a71aa4E.png",
+            "https://sc04.alicdn.com/kf/H0ea78727c49f4104b355ee4de4fbefcdq.png",
+            "https://sc04.alicdn.com/kf/H09c6587d0c5b4a5fb92433ead202b5878.png",
+            "https://sc04.alicdn.com/kf/H8b6c7c3639b247578b3131a22b73c1ffq.png",
+            "https://sc04.alicdn.com/kf/H66adc3ea224f415d8fcf56bb72db8046W.png"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "30cm praying hands heart cross-small size"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "40cm praying hands heart cross-medium size"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "50cm praying hands heart cross-large size"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.85",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.85",
+              "maxPrice": "4.85",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What sizes are available for this praying hands heart cross wall decoration?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This wall cross is offered in three sizes: 30cm (small), 40cm (medium), and 50cm (large)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this product a cross or a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This is a cross, not a crucifix. It does not include a corpus or depiction of Christ on the cross."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What motifs are featured on this cross wall art?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cross combines a praying hands motif with a heart shape, integrated into the design."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "88fe023ad2e348ca842abba277577cb3046ab71300038273a9201d365f41918d",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "88fe023ad2e348ca842abba277577cb3046ab71300038273a9201d365f41918d",
+            "contentHash": "88fe023ad2e348ca842abba277577cb3046ab71300038273a9201d365f41918d",
+            "attempts": 0,
+            "updatedAt": "2026-08-16T03:04:11.338Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGdTG7BAOVioqqEY6eNFuMT",
+      "sourceId": "AAGdTG7BAOVioqqEY6eNFuMT",
+      "sourceFingerprint": "4993b1c2bce463ae702cfbe7a47c5a27a495e00243dad1f350d914c0d0688c73",
+      "locale": "en",
+      "slug": "gold-plated-camino-de-santiago-cross-brooch-enfumt",
+      "title": "Gold-Plated Camino de Santiago Cross Brooch",
+      "eyebrow": "Camino de Santiago pilgrim cross brooch",
+      "summary": "A gold-plated metal brooch featuring the Camino de Santiago cross, accented with colorful enamel. This badge-style accessory is available in nine color variants, including blues, reds, and yellow. Suitable for attaching to clothing, hats, or bags.",
+      "description": "This brooch presents the distinctive cross associated with the Camino de Santiago, a symbol recognized among pilgrims and those interested in the historic route. The metal base is finished with gold plating, and the cross bears colorful enamel details that vary by chosen variant. As a badge-style accessory, it can be pinned to a jacket, backpack, or hat. We offer nine color options: Blue1, Blue2, Blue3, Blue5, Blue8, Red4, Red6, Red7, and Yellow, allowing buyers to select the shade that best suits their inventory. This is a versatile accessory for retailers catering to travelers, hikers, or those with an interest in pilgrimage heritage.",
+      "catholicContext": "The Camino de Santiago is a historic Catholic pilgrimage route to the shrine of St. James the Apostle in Santiago de Compostela, Spain.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "210",
+          "name": "Brooch",
+          "slug": "brooch"
+        }
+      ],
+      "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/He15ae40e53c1482f88a91937d715eaafH.webp",
+      "imageAlt": "Gold-Plated Camino de Santiago Cross Brooch",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He15ae40e53c1482f88a91937d715eaafH.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfc4bba8deea7499ca9ad9e355558ef92V.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4a64e14a0ee44bc4a74844e6d14f9c5dP.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7aefaf49ce9d4a9391c1ec1a0f764675P.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0876b099cb7148bebda55665beec361c4.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8d65c1d8680543ee8cf0b3e3670a3304r.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha92f583246564a03a4c3d2c8953e33eap.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch - blue3",
+          "label": "blue3",
+          "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H965df15f92fe4034bd069faaa64ed35b6.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch - red4",
+          "label": "red4",
+          "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He0c927e576324c4590bc540369a38955A.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch - blue1",
+          "label": "blue1",
+          "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4148928bbaa547d7862b6e6addc1ed23S.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch - blue2",
+          "label": "blue2",
+          "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb2869e71c6104defa2af61fd560934b4g.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch - yellow",
+          "label": "yellow",
+          "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT-V-3354417"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbdbd689c97644e63b9f9f4c81a05bd52I.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch - red7",
+          "label": "red7",
+          "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H435e8b6f5ea2492c9eb7e794b126b490s.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch - blue8",
+          "label": "blue8",
+          "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H209f7c76ee584aa18b315c235db98040r.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch - blue5",
+          "label": "blue5",
+          "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H86643e23edf244298f05b67522b02e6dQ.webp",
+          "alt": "Gold-Plated Camino de Santiago Cross Brooch - red6",
+          "label": "red6",
+          "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT-V--6"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Gold-plated metal construction",
+        "Colorful cross design inspired by the Camino de Santiago",
+        "Available in nine color variants (Blue1, Blue2, Blue3, Blue5, Blue8, Red4, Red6, Red7, Yellow)",
+        "Brooch/badge style for pinning onto clothing or accessories",
+        "Suitable as a clothing accessory or jewelry item"
+      ],
+      "specifications": [
+        {
+          "name": "Plating",
+          "value": "Gold Plated"
+        },
+        {
+          "name": "Variant",
+          "value": "Blue1, Blue2, Blue3, Blue5, Blue8, Red4, Red6, Red7, Yellow"
+        },
+        {
+          "name": "Product Type",
+          "value": "Brooch"
+        }
+      ],
+      "applications": [
+        "Pilgrimage-themed gift shop merchandise",
+        "Souvenir for Camino de Santiago travelers",
+        "Clothing accessory for jackets, scarves, or hats",
+        "Decorative badge for backpacks or bags"
+      ],
+      "faq": [
+        {
+          "question": "What metal is this brooch made of?",
+          "answer": "The brooch is metal with a gold-plated finish. The exact base metal is not specified in the product details."
+        },
+        {
+          "question": "How many color options are available?",
+          "answer": "There are nine color variants: Blue1, Blue2, Blue3, Blue5, Blue8, Red4, Red6, Red7, and Yellow. These likely refer to different enamel color combinations on the cross."
+        },
+        {
+          "question": "Can this brooch be used as a lapel pin?",
+          "answer": "Yes, as a brooch, it can be pinned to clothing such as a lapel, jacket, or scarf. It could also be attached to a bag or hat."
+        }
+      ],
+      "pricing": {
+        "price": "0.35",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.27",
+          "max": "0.35"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gold-Plated Camino de Santiago Cross Brooch",
+          "description": "Gold-plated Camino de Santiago cross brooch with colorful enamel accents. Metal badge for clothing, hats, or bags. Available in multiple color variants.",
+          "sku": "ALI-AAGdTG7BAOVioqqEY6eNFuMT",
+          "image": [
+            "https://sc04.alicdn.com/kf/He15ae40e53c1482f88a91937d715eaafH.png",
+            "https://sc04.alicdn.com/kf/Hfc4bba8deea7499ca9ad9e355558ef92V.png",
+            "https://sc04.alicdn.com/kf/H4a64e14a0ee44bc4a74844e6d14f9c5dP.png",
+            "https://sc04.alicdn.com/kf/H7aefaf49ce9d4a9391c1ec1a0f764675P.png",
+            "https://sc04.alicdn.com/kf/H0876b099cb7148bebda55665beec361c4.png",
+            "https://sc04.alicdn.com/kf/H8d65c1d8680543ee8cf0b3e3670a3304r.png"
+          ],
+          "category": "Brooch",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Gold Plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Blue1, Blue2, Blue3, Blue5, Blue8, Red4, Red6, Red7, Yellow"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Product Type",
+              "value": "Brooch"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.35",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.27",
+              "maxPrice": "0.35",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What metal is this brooch made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The brooch is metal with a gold-plated finish. The exact base metal is not specified in the product details."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How many color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There are nine color variants: Blue1, Blue2, Blue3, Blue5, Blue8, Red4, Red6, Red7, and Yellow. These likely refer to different enamel color combinations on the cross."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this brooch be used as a lapel pin?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, as a brooch, it can be pinned to clothing such as a lapel, jacket, or scarf. It could also be attached to a bag or hat."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "028977cd78706c52383251de9b7a5226e4662a9d14f2b8189f2204ef28bd1411",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "028977cd78706c52383251de9b7a5226e4662a9d14f2b8189f2204ef28bd1411",
+            "contentHash": "028977cd78706c52383251de9b7a5226e4662a9d14f2b8189f2204ef28bd1411",
+            "attempts": 0,
+            "updatedAt": "2026-08-16T03:04:11.610Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGVTG7BAOVioqqEY6ez1-Wi",
+      "sourceId": "AAGVTG7BAOVioqqEY6ez1-Wi",
+      "sourceFingerprint": "243b616df5e28d4fbec78356a3dd6b8b38489f6cb2a5447ce571d65ec059e46a",
+      "locale": "en",
+      "slug": "stickers-for-three-hole-beaded-necklace-rosary-connector-necklac-ez1-wi",
+      "title": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace",
+      "eyebrow": "Accessories",
+      "summary": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace Center Three-Way Bracelet Parts Resin Jewelry Accessories",
+      "description": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace Center Three-Way Bracelet Parts Resin Jewelry Accessories",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGVTG7BAOVioqqEY6ez1-Wi",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H275a25ae3b1c4888ae6b09ddf09ec76b6.webp",
+      "imageAlt": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H275a25ae3b1c4888ae6b09ddf09ec76b6.webp",
+          "alt": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4926e8de5235401897c6593643507f29g.webp",
+          "alt": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc6bd03757dfe497eb6058390571a9ca0X.webp",
+          "alt": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd66f54c11e42493db0a4b694b7bbe2bco.webp",
+          "alt": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9dcc7de42a014701a75e56f54b662751q.webp",
+          "alt": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H25f2c33bb9bf410aa9c67d45677fbf0fK.webp",
+          "alt": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#9a6b63",
+      "features": [
+        "Shape: Triangle, Round",
+        "Usage: For Necklace Making",
+        "Jewelry Findings Type: Connectors",
+        "Place Of Origin: CN;ZHE",
+        "Brand Name: OUOOO",
+        "Model Number: 0413-2",
+        "Packing: Opp bag",
+        "Main Stone: Other"
+      ],
+      "specifications": [
+        {
+          "name": "Shape",
+          "value": "Triangle, Round"
+        },
+        {
+          "name": "Usage",
+          "value": "For Necklace Making"
+        },
+        {
+          "name": "Jewelry Findings Type",
+          "value": "Connectors"
+        },
+        {
+          "name": "Place Of Origin",
+          "value": "CN;ZHE"
+        },
+        {
+          "name": "Brand Name",
+          "value": "OUOOO"
+        },
+        {
+          "name": "Model Number",
+          "value": "0413-2"
+        },
+        {
+          "name": "Packing",
+          "value": "Opp bag"
+        },
+        {
+          "name": "Main Stone",
+          "value": "Other"
+        },
+        {
+          "name": "Plating",
+          "value": "Other"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "0.08",
+        "regularPrice": "0.08",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.05",
+          "max": "0.08"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace",
+          "description": "Stickers for Three-Hole Beaded Necklace Rosary Connector Necklace Center Three-Way Bracelet Parts Resin Jewelry Accessories",
+          "sku": "ALI-AAGVTG7BAOVioqqEY6ez1-Wi",
+          "image": [
+            "https://sc04.alicdn.com/kf/H275a25ae3b1c4888ae6b09ddf09ec76b6.png",
+            "https://sc04.alicdn.com/kf/H4926e8de5235401897c6593643507f29g.png",
+            "https://sc04.alicdn.com/kf/Hc6bd03757dfe497eb6058390571a9ca0X.png",
+            "https://sc04.alicdn.com/kf/Hd66f54c11e42493db0a4b694b7bbe2bco.png",
+            "https://sc04.alicdn.com/kf/H9dcc7de42a014701a75e56f54b662751q.png",
+            "https://sc04.alicdn.com/kf/H25f2c33bb9bf410aa9c67d45677fbf0fK.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Triangle, Round"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Usage",
+              "value": "For Necklace Making"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Findings Type",
+              "value": "Connectors"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Place Of Origin",
+              "value": "CN;ZHE"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Brand Name",
+              "value": "OUOOO"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Model Number",
+              "value": "0413-2"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Packing",
+              "value": "Opp bag"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "Other"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Other"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.08",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.05",
+              "maxPrice": "0.08",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "69bda9b4da9d6365d6637318f1494760e3663ac3894ab0f55f712dfbaea52eba",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "69bda9b4da9d6365d6637318f1494760e3663ac3894ab0f55f712dfbaea52eba",
+            "contentHash": "69bda9b4da9d6365d6637318f1494760e3663ac3894ab0f55f712dfbaea52eba",
+            "attempts": 0,
+            "updatedAt": "2026-08-16T03:04:46.119Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGETG7BAOVioqqEY6eBsw-9",
+      "sourceId": "AAGETG7BAOVioqqEY6eBsw-9",
+      "sourceFingerprint": "3732a470a87e9007a3ce03aab9b50aeb6a78689c14b6de72f9cd8e2af38f8a6e",
+      "locale": "en",
+      "slug": "camino-de-santiago-enamel-brooch-ebsw-9",
+      "title": "Camino de Santiago Enamel Brooch",
+      "eyebrow": "Camino de Santiago enamel brooch",
+      "summary": "A square enamel brooch with a Camino de Santiago shell motif, finished with gold plating. Offered in blue, red, and yellow color variants. Suitable as a badge for clothing or accessories, especially for those connected to the pilgrimage route.",
+      "description": "This square brooch features an enamel design centered on the Camino de Santiago shell, a recognized symbol of the pilgrimage. The gold-plated finish adds a subtle brightness, while the enamel provides durable color. Choose from ten variants across blue, red, and yellow shades to match personal style or church attire.\n\nWhether worn on a jacket, backpack, or hat, this brooch serves as a meaningful accessory for pilgrims and supporters. Its compact size and secure pin make it practical for everyday use. As a devotional item, it connects to the popular piety surrounding the Camino, though it is not a sacramental and holds no implied spiritual effect.",
+      "catholicContext": "The Camino de Santiago is a historic Christian pilgrimage route, and this brooch evokes that popular devotional tradition without constituting a sacramental.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "210",
+          "name": "Brooch",
+          "slug": "brooch"
+        }
+      ],
+      "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H867b5b1c404c44508c90e6450f807a7e2.webp",
+      "imageAlt": "Camino de Santiago Enamel Brooch",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H867b5b1c404c44508c90e6450f807a7e2.webp",
+          "alt": "Camino de Santiago Enamel Brooch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9503af9f9c62453693ec37a27be8f037P.webp",
+          "alt": "Camino de Santiago Enamel Brooch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H36e0c94bb6854e34ada57204808546e6Q.webp",
+          "alt": "Camino de Santiago Enamel Brooch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6671933f3bae4fa78c3e21b8b09b065cg-scaled.webp",
+          "alt": "Camino de Santiago Enamel Brooch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8704f35227e54b62a2be0542cf88d9e3t.webp",
+          "alt": "Camino de Santiago Enamel Brooch"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5682cfbaa57f4dc7b982b577447cef39d.webp",
+          "alt": "Camino de Santiago Enamel Brooch - blue1",
+          "label": "blue1",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hddfa7b32ee1748b8bf67bd20ebe5d366l.webp",
+          "alt": "Camino de Santiago Enamel Brooch - blue2",
+          "label": "blue2",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd5adc7f91e474acb874e64431f804a06k.webp",
+          "alt": "Camino de Santiago Enamel Brooch - blue3",
+          "label": "blue3",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H07d96efd483f4a58a2e7d6c842ade343f.webp",
+          "alt": "Camino de Santiago Enamel Brooch - red4",
+          "label": "red4",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H576df21e227045319c99ef424a8d6986x.webp",
+          "alt": "Camino de Santiago Enamel Brooch - blue5",
+          "label": "blue5",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H27404d40164e4dc791af4ff6d62561440.webp",
+          "alt": "Camino de Santiago Enamel Brooch - red6",
+          "label": "red6",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd13d80f853204f5cbe0d317c1a913ec7S.webp",
+          "alt": "Camino de Santiago Enamel Brooch - red7",
+          "label": "red7",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H85ca9d4f823640049dd757f58e065106d.webp",
+          "alt": "Camino de Santiago Enamel Brooch - blue6",
+          "label": "blue6",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0ffd28bff3b54c48af5437fde603981dO.webp",
+          "alt": "Camino de Santiago Enamel Brooch - yellow9",
+          "label": "yellow9",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0c39a579f4194cca8e19d55d58b9f93co.webp",
+          "alt": "Camino de Santiago Enamel Brooch - blue10",
+          "label": "blue10",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9-V--15"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Square enamel brooch with Camino de Santiago shell design",
+        "Gold plated (18K gold plated) finish",
+        "Available in 10 color variants: blues, reds, and yellows",
+        "Compact badge suitable for clothing and accessories"
+      ],
+      "specifications": [
+        {
+          "name": "Plating",
+          "value": "Gold Plated / 18K Gold Plated"
+        },
+        {
+          "name": "Variant",
+          "value": "Blue1, Blue2, Blue3, Blue5, Blue6, Blue10, Red4, Red6, Red7, Yellow9"
+        }
+      ],
+      "applications": [
+        "Attach to a jacket or coat as a pilgrim badge",
+        "Decorate a backpack or travel bag",
+        "Accessorize a hat or cap",
+        "Use as a decorative pin on church clothing or vestments"
+      ],
+      "faq": [
+        {
+          "question": "What color variants are available for this brooch?",
+          "answer": "The brooch comes in ten variants: Blue1, Blue2, Blue3, Blue5, Blue6, Blue10, Red4, Red6, Red7, and Yellow9. These cover multiple shades of blue, red, and yellow."
+        },
+        {
+          "question": "What is the plating finish on this enamel brooch?",
+          "answer": "The brooch is gold plated, with an 18K gold plated option available. The plating adds a bright, metallic finish to the enamel design."
+        },
+        {
+          "question": "Is this brooch suitable for everyday wear?",
+          "answer": "Yes, the brooch is designed as a badge for clothing and accessories. Its compact size and pin fastening make it practical for attaching to jackets, bags, hats, and other fabric items."
+        }
+      ],
+      "pricing": {
+        "price": "0.35",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.27",
+          "max": "0.35"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Camino de Santiago Enamel Brooch",
+          "description": "Gold-plated square enamel brooch depicting Camino de Santiago shell. Available in blue, red, and yellow variants. Ideal for pilgrims and church attire.",
+          "sku": "ALI-AAGETG7BAOVioqqEY6eBsw-9",
+          "image": [
+            "https://sc04.alicdn.com/kf/H867b5b1c404c44508c90e6450f807a7e2.jpg",
+            "https://sc04.alicdn.com/kf/H9503af9f9c62453693ec37a27be8f037P.jpg",
+            "https://sc04.alicdn.com/kf/H36e0c94bb6854e34ada57204808546e6Q.jpg",
+            "https://sc04.alicdn.com/kf/H6671933f3bae4fa78c3e21b8b09b065cg.jpg",
+            "https://sc04.alicdn.com/kf/H8704f35227e54b62a2be0542cf88d9e3t.jpg"
+          ],
+          "category": "Brooch",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Gold Plated / 18K Gold Plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Blue1, Blue2, Blue3, Blue5, Blue6, Blue10, Red4, Red6, Red7, Yellow9"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.35",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.27",
+              "maxPrice": "0.35",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What color variants are available for this brooch?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The brooch comes in ten variants: Blue1, Blue2, Blue3, Blue5, Blue6, Blue10, Red4, Red6, Red7, and Yellow9. These cover multiple shades of blue, red, and yellow."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the plating finish on this enamel brooch?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The brooch is gold plated, with an 18K gold plated option available. The plating adds a bright, metallic finish to the enamel design."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this brooch suitable for everyday wear?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the brooch is designed as a badge for clothing and accessories. Its compact size and pin fastening make it practical for attaching to jackets, bags, hats, and other fabric items."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "4ad0722f75f9f863f302d177b420dede95820661c86233fb4dcc156b412399ee",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "4ad0722f75f9f863f302d177b420dede95820661c86233fb4dcc156b412399ee",
+            "contentHash": "4ad0722f75f9f863f302d177b420dede95820661c86233fb4dcc156b412399ee",
+            "attempts": 0,
+            "updatedAt": "2026-08-16T03:04:26.227Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHPTG7BAOVioqqEY6eeDhUK",
+      "sourceId": "AAHPTG7BAOVioqqEY6eeDhUK",
+      "sourceFingerprint": "de5ec471e38c063cb39129219b01bc35007516010b90a3183a03fe512886b3ec",
+      "locale": "en",
+      "slug": "gold-eyeball-pendant-necklace-diamond-encrusted-eedhuk",
+      "title": "Gold Eyeball Pendant Necklace, Diamond-Encrusted",
+      "eyebrow": "fashion necklace pendant",
+      "summary": "A gold-tone alloy necklace featuring a diamond-encrusted eyeball pendant. Available in four variant codes (HJD-024-A, HJD-024-B, HJD-025-A, HJD-025-B). A distinctive fashion piece for adding an edgy focal point to any outfit.",
+      "description": "This pendant necklace centers on an eyeball design encrusted with diamond-like accents, finished in a gold tone. The alloy construction offers a substantial feel. It comes in four variants (HJD-024-A, HJD-024-B, HJD-025-A, HJD-025-B) to suit different preferences.\n\nPart of a 2023 drip-process accessories lineup, the pendant attaches to a necklace chain. Its bold, unconventional motif makes it a conversational accessory for modern styling. We do not have additional material or dimension details beyond the variant options.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAHPTG7BAOVioqqEY6eeDhUK",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd50113af90054379aa2ee106c2eb6db0L.webp",
+      "imageAlt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd50113af90054379aa2ee106c2eb6db0L.webp",
+          "alt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7462e33765994b85b628f42c2b1dc3868.webp",
+          "alt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4e6b2b4c431d4f6d9fb58640773f5e82r.webp",
+          "alt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0bf533a30f4147dcb8fdd26e91fade97X.webp",
+          "alt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H35968346fa3b4f2c94d7932acb2d0b6fI.webp",
+          "alt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H01f3f58c8a7f4c25af8f1ac14ccd7f51y.webp",
+          "alt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Heed453dee2a04dcc8d84a2a173a95c23d.webp",
+          "alt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted - hjd-025-b",
+          "label": "hjd-025-b",
+          "sku": "ALI-AAHPTG7BAOVioqqEY6eeDhUK-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1fc176e1af6240a1908980fba026f268m.webp",
+          "alt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted - hjd-024-b",
+          "label": "hjd-024-b",
+          "sku": "ALI-AAHPTG7BAOVioqqEY6eeDhUK-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3954496776a946cfb224cb535f8e4983o.webp",
+          "alt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted - hjd-025-a",
+          "label": "hjd-025-a",
+          "sku": "ALI-AAHPTG7BAOVioqqEY6eeDhUK-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hafbaee72fd984966ac7d8ea063b21963P.webp",
+          "alt": "Gold Eyeball Pendant Necklace, Diamond-Encrusted - hjd-024-a",
+          "label": "hjd-024-a",
+          "sku": "ALI-AAHPTG7BAOVioqqEY6eeDhUK-V--1"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Diamond-encrusted eyeball pendant design",
+        "Gold-tone finish",
+        "Alloy material",
+        "Necklace accessory with pendant",
+        "Four variant options: HJD-024-A, HJD-024-B, HJD-025-A, HJD-025-B"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "HJD-024-A / HJD-024-B / HJD-025-A / HJD-025-B"
+        },
+        {
+          "name": "Material",
+          "value": "Alloy"
+        },
+        {
+          "name": "Style",
+          "value": "Eyeball pendant with diamond-encrusted detail"
+        }
+      ],
+      "applications": [
+        "Everyday fashion accessory",
+        "Statement piece for casual outfits",
+        "Gift for someone who appreciates bold jewelry",
+        "Costume or themed styling"
+      ],
+      "faq": [
+        {
+          "question": "What variants are available for this necklace?",
+          "answer": "The necklace comes in four variants: HJD-024-A, HJD-024-B, HJD-025-A, and HJD-025-B. These may differ in design details or finish, but specific differences are not specified."
+        },
+        {
+          "question": "What material is the pendant made of?",
+          "answer": "The pendant is made of alloy, with a gold-tone finish and diamond-encrusted details. The chain material is not specified."
+        },
+        {
+          "question": "Is this necklace suitable for daily wear?",
+          "answer": "As a fashion accessory made of alloy, it is designed for regular styling. However, care should be taken to avoid exposure to moisture and chemicals to preserve the finish."
+        }
+      ],
+      "pricing": {
+        "price": "0.15",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gold Eyeball Pendant Necklace, Diamond-Encrusted",
+          "description": "Diamond-encrusted eyeball alloy pendant necklace in gold tone. Available in four variant codes. A bold fashion accessory for standout styling.",
+          "sku": "ALI-AAHPTG7BAOVioqqEY6eeDhUK",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd50113af90054379aa2ee106c2eb6db0L.jpg",
+            "https://sc04.alicdn.com/kf/H7462e33765994b85b628f42c2b1dc3868.jpg",
+            "https://sc04.alicdn.com/kf/H4e6b2b4c431d4f6d9fb58640773f5e82r.jpg",
+            "https://sc04.alicdn.com/kf/H0bf533a30f4147dcb8fdd26e91fade97X.jpg",
+            "https://sc04.alicdn.com/kf/H35968346fa3b4f2c94d7932acb2d0b6fI.jpg",
+            "https://sc04.alicdn.com/kf/H01f3f58c8a7f4c25af8f1ac14ccd7f51y.jpg"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "HJD-024-A / HJD-024-B / HJD-025-A / HJD-025-B"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Eyeball pendant with diamond-encrusted detail"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.15",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What variants are available for this necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace comes in four variants: HJD-024-A, HJD-024-B, HJD-025-A, and HJD-025-B. These may differ in design details or finish, but specific differences are not specified."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material is the pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is made of alloy, with a gold-tone finish and diamond-encrusted details. The chain material is not specified."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this necklace suitable for daily wear?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As a fashion accessory made of alloy, it is designed for regular styling. However, care should be taken to avoid exposure to moisture and chemicals to preserve the finish."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "61c814143814d3580cd15218e9093e220dfc904668b851c400b2d480fef5ac43",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "61c814143814d3580cd15218e9093e220dfc904668b851c400b2d480fef5ac43",
+            "contentHash": "61c814143814d3580cd15218e9093e220dfc904668b851c400b2d480fef5ac43",
+            "attempts": 0,
+            "updatedAt": "2026-08-16T03:04:31.761Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEYTG7BAOVioqqEY6eBSHHa",
+      "sourceId": "AAEYTG7BAOVioqqEY6eBSHHa",
+      "sourceFingerprint": "627c90a415a7b64bab9d3c01522f11edcd91eec8b75a48c41144095ad9d62188",
+      "locale": "en",
+      "slug": "resin-nativity-scene-statue-set-with-grotto-manger-ebshha",
+      "title": "Resin Nativity Scene Statue Set with Grotto Manger",
+      "eyebrow": "Resin nativity statue set",
+      "summary": "This resin nativity scene statue set includes three variants: Cross manger, Saintess Nativity, and Grotto manger. Crafted for Christmas display, it serves as a Christian home decoration depicting the nativity scene.",
+      "description": "This resin nativity scene statue set offers three distinct variants: Cross manger, Saintess Nativity, and Grotto manger. Each variant is designed as a decorative display piece for Christmas, featuring detailed figures of the nativity. The set is suitable for home or religious decoration, providing a visual reminder of the Christmas story. As part of the Ornaments category, this statue set is made from resin, a durable material commonly used for such figurines.",
+      "catholicContext": "Nativity scenes depict the birth of Jesus and are a traditional part of Catholic Christmas devotion.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAEYTG7BAOVioqqEY6eBSHHa",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H799e35b5ca014b8ab98f0d7ab92b1a8cK.webp",
+      "imageAlt": "Resin Nativity Scene Statue Set with Grotto Manger",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H799e35b5ca014b8ab98f0d7ab92b1a8cK.webp",
+          "alt": "Resin Nativity Scene Statue Set with Grotto Manger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9eacf3f2eaca4605bf260a2332224b0bk.webp",
+          "alt": "Resin Nativity Scene Statue Set with Grotto Manger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9c0fd46cffe44886b78cd1ab79b65f27G.webp",
+          "alt": "Resin Nativity Scene Statue Set with Grotto Manger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H687b3a0e74384ba2a73421d04eff689fz.webp",
+          "alt": "Resin Nativity Scene Statue Set with Grotto Manger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfcf4dd5274224076ab3b81687763c9e47.webp",
+          "alt": "Resin Nativity Scene Statue Set with Grotto Manger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9380aea827fb470f885fbae8bd7bb5d1B.webp",
+          "alt": "Resin Nativity Scene Statue Set with Grotto Manger"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0369d59dc8c4c15bb33c5c6ac84a4362.webp",
+          "alt": "Resin Nativity Scene Statue Set with Grotto Manger - saintess-nativity",
+          "label": "saintess-nativity",
+          "sku": "ALI-AAEYTG7BAOVioqqEY6eBSHHa-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4b6063a91274117be9995472e2e2d58J.webp",
+          "alt": "Resin Nativity Scene Statue Set with Grotto Manger - cross-manger",
+          "label": "cross-manger",
+          "sku": "ALI-AAEYTG7BAOVioqqEY6eBSHHa-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H603ae1c96f3d4359a20436229e2146a8T.webp",
+          "alt": "Resin Nativity Scene Statue Set with Grotto Manger - the-grotto-manger",
+          "label": "the-grotto-manger",
+          "sku": "ALI-AAEYTG7BAOVioqqEY6eBSHHa-V--2"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Made from resin material",
+        "Three variants: Cross manger, Saintess Nativity, Grotto manger",
+        "Depicts nativity scene with figures",
+        "Categorized as ornaments",
+        "Suitable for home or religious decoration"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Resin"
+        },
+        {
+          "name": "Variant",
+          "value": "Cross manger, Saintess Nativity, Grotto manger"
+        },
+        {
+          "name": "Category",
+          "value": "Ornaments"
+        }
+      ],
+      "applications": [
+        "Home Christmas decoration",
+        "Religious display during Advent",
+        "Gift for Catholic friends or family",
+        "Church or chapel decorative setting"
+      ],
+      "faq": [
+        {
+          "question": "What variants does this resin nativity statue set come in?",
+          "answer": "This resin nativity statue set is available in three variants: Cross manger, Saintess Nativity, and Grotto manger. Each variant offers a different depiction of the nativity scene."
+        },
+        {
+          "question": "Is this nativity statue set suitable for outdoor display?",
+          "answer": "The product facts do not specify if it is suitable for outdoor use. Resin is generally durable, but we recommend keeping it indoors to protect it from weather damage."
+        },
+        {
+          "question": "Can I order a specific variant of this nativity set?",
+          "answer": "Yes, the variants are listed as options. When ordering, you can specify which variant you prefer: Cross manger, Saintess Nativity, or Grotto manger."
+        }
+      ],
+      "pricing": {
+        "price": "7.90",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "7.00",
+          "max": "7.90"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Resin Nativity Scene Statue Set with Grotto Manger",
+          "description": "Resin nativity scene statue set with three variants: Cross manger, Saintess Nativity, and Grotto manger. A detailed Christian home decoration for Christmas.",
+          "sku": "ALI-AAEYTG7BAOVioqqEY6eBSHHa",
+          "image": [
+            "https://sc04.alicdn.com/kf/H799e35b5ca014b8ab98f0d7ab92b1a8cK.jpg",
+            "https://sc04.alicdn.com/kf/H9eacf3f2eaca4605bf260a2332224b0bk.jpg",
+            "https://sc04.alicdn.com/kf/H9c0fd46cffe44886b78cd1ab79b65f27G.jpg",
+            "https://sc04.alicdn.com/kf/H687b3a0e74384ba2a73421d04eff689fz.jpg",
+            "https://sc04.alicdn.com/kf/Hfcf4dd5274224076ab3b81687763c9e47.jpg",
+            "https://sc04.alicdn.com/kf/H9380aea827fb470f885fbae8bd7bb5d1B.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Resin"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Cross manger, Saintess Nativity, Grotto manger"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Ornaments"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "7.90",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "7.00",
+              "maxPrice": "7.90",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What variants does this resin nativity statue set come in?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This resin nativity statue set is available in three variants: Cross manger, Saintess Nativity, and Grotto manger. Each variant offers a different depiction of the nativity scene."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this nativity statue set suitable for outdoor display?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product facts do not specify if it is suitable for outdoor use. Resin is generally durable, but we recommend keeping it indoors to protect it from weather damage."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I order a specific variant of this nativity set?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the variants are listed as options. When ordering, you can specify which variant you prefer: Cross manger, Saintess Nativity, or Grotto manger."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "3601d0a6113612d0b31f05a964f360ae9041ba7e08c10eb461847cc180aee7e9",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "3601d0a6113612d0b31f05a964f360ae9041ba7e08c10eb461847cc180aee7e9",
+            "contentHash": "3601d0a6113612d0b31f05a964f360ae9041ba7e08c10eb461847cc180aee7e9",
+            "attempts": 0,
+            "updatedAt": "2026-08-16T03:04:31.586Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHyTG7BAOVioqqEY6ey4yM2",
+      "sourceId": "AAHyTG7BAOVioqqEY6ey4yM2",
+      "sourceFingerprint": "d6d0f91aed98cace76e3b565229bd1798d97c185486960f68dcab08d823362e8",
+      "locale": "en",
+      "slug": "diy-beaded-card-holder-decoration-kit-with-cross-ey4ym2",
+      "title": "DIY Beaded Card Holder Decoration Kit with Cross",
+      "eyebrow": "DIY bead craft kit with 3D cross design",
+      "summary": "Create your own beaded card holder decoration with this DIY kit. The set includes loose acrylic beads and materials to assemble a 3D cross design. Choose from White, Pink, or Colorful bead variants. Ideal for adding a handcrafted touch to cards or displays.",
+      "description": "This DIY kit provides the materials to assemble a beaded card holder decoration featuring a prominent 3D cross. The kit is available in White, Pink, and Colorful acrylic bead variants, letting you select the aesthetic that fits your project. The loose beads allow for flexible assembly, while the pre-formed cross accessory serves as the focal point.\n\nCrafters can use this kit to create a decorative holder for cards, photos, or small notes. The handmade nature of the finished piece adds a personalized, artisanal element to its use. Since the beads are loose, you have the freedom to arrange them according to your preference.\n\nA cross is a widely recognized symbol in Christianity, representing the crucifixion of Jesus Christ. For those seeking to incorporate faith-based elements into their crafts, this design offers a meaningful motif.",
+      "catholicContext": "The cross is a central symbol of the Christian faith, representing the sacrifice of Jesus Christ, and is commonly used in devotional crafts.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHyTG7BAOVioqqEY6ey4yM2",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H09bd3cd4c8d3488faa588d46abd62538e.webp",
+      "imageAlt": "DIY Beaded Card Holder Decoration Kit with Cross",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H09bd3cd4c8d3488faa588d46abd62538e.webp",
+          "alt": "DIY Beaded Card Holder Decoration Kit with Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0254557ed09d4bb695c42767e96f86c0h.webp",
+          "alt": "DIY Beaded Card Holder Decoration Kit with Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7f2f75b29bfb421d8af046ff08e1ea57Y.webp",
+          "alt": "DIY Beaded Card Holder Decoration Kit with Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f32bc9e20e84868b3a04e30476c2ceej.webp",
+          "alt": "DIY Beaded Card Holder Decoration Kit with Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H602e22e7e6c8431aa92e934d75371276g.webp",
+          "alt": "DIY Beaded Card Holder Decoration Kit with Cross"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H12a609f776d545bd9a82a5e2a92db64dH.webp",
+          "alt": "DIY Beaded Card Holder Decoration Kit with Cross - pink",
+          "label": "pink",
+          "sku": "ALI-AAHyTG7BAOVioqqEY6ey4yM2-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H81fb66fa98f44ac5a16e2a6e91e05962l.webp",
+          "alt": "DIY Beaded Card Holder Decoration Kit with Cross - colorful",
+          "label": "colorful",
+          "sku": "ALI-AAHyTG7BAOVioqqEY6ey4yM2-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7f1822ae04864c279f731d8342962035C.webp",
+          "alt": "DIY Beaded Card Holder Decoration Kit with Cross - white",
+          "label": "white",
+          "sku": "ALI-AAHyTG7BAOVioqqEY6ey4yM2-V-3331185"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "DIY kit for making a beaded card holder decoration",
+        "Includes a 3D cross accessory as the central decorative element",
+        "Comes with loose acrylic beads for assembly",
+        "Available in White, Pink, and Colorful variants",
+        "Materials suitable for handmade crafting projects"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "White, Pink, Colorful"
+        }
+      ],
+      "applications": [
+        "Creating handmade card holders for greeting cards",
+        "Decorating photo frames or display stands",
+        "Adding a cross-themed accent to craft projects",
+        "Personalizing gift cards or table settings"
+      ],
+      "faq": [
+        {
+          "question": "What does this DIY kit include?",
+          "answer": "The kit includes loose acrylic beads and a 3D cross accessory for assembling a beaded card holder decoration. The exact contents may vary, but the kit is designed for handmade crafting."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "The kit is available in three variants: White, Pink, and Colorful. Each variant features beads in that color scheme, allowing you to choose based on your design preference."
+        },
+        {
+          "question": "Is this kit suitable for beginners?",
+          "answer": "As a DIY craft kit, it is intended for hand assembly. The loose beads and cross accessory require manual arrangement, making it suitable for crafters comfortable with basic beading projects. The specific skill level is not specified."
+        }
+      ],
+      "pricing": {
+        "price": "0.02",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.01",
+          "max": "0.02"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "DIY Beaded Card Holder Decoration Kit with Cross",
+          "description": "Handmade beaded card holder decoration kit featuring a 3D cross design. Includes loose acrylic beads in White, Pink, or Colorful variants for DIY crafting.",
+          "sku": "ALI-AAHyTG7BAOVioqqEY6ey4yM2",
+          "image": [
+            "https://sc04.alicdn.com/kf/H09bd3cd4c8d3488faa588d46abd62538e.png",
+            "https://sc04.alicdn.com/kf/H0254557ed09d4bb695c42767e96f86c0h.png",
+            "https://sc04.alicdn.com/kf/H7f2f75b29bfb421d8af046ff08e1ea57Y.png",
+            "https://sc04.alicdn.com/kf/H8f32bc9e20e84868b3a04e30476c2ceej.png",
+            "https://sc04.alicdn.com/kf/H602e22e7e6c8431aa92e934d75371276g.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "White, Pink, Colorful"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.02",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.01",
+              "maxPrice": "0.02",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What does this DIY kit include?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The kit includes loose acrylic beads and a 3D cross accessory for assembling a beaded card holder decoration. The exact contents may vary, but the kit is designed for handmade crafting."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The kit is available in three variants: White, Pink, and Colorful. Each variant features beads in that color scheme, allowing you to choose based on your design preference."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this kit suitable for beginners?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As a DIY craft kit, it is intended for hand assembly. The loose beads and cross accessory require manual arrangement, making it suitable for crafters comfortable with basic beading projects. The specific skill level is not specified."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "3bd094d020ff0aa8bbe9366487894b06e88e693db3b604abca59a6d2a17f7f72",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "3bd094d020ff0aa8bbe9366487894b06e88e693db3b604abca59a6d2a17f7f72",
+            "contentHash": "3bd094d020ff0aa8bbe9366487894b06e88e693db3b604abca59a6d2a17f7f72",
+            "attempts": 0,
+            "updatedAt": "2026-08-16T03:04:54.311Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHSTG7BAOVioqqEY6eKbffg",
+      "sourceId": "AAHSTG7BAOVioqqEY6eKbffg",
+      "sourceFingerprint": "0eb08d0af0aa62d69d4fdf93bd85667502736500e6fd415a002a9a8c5ef4b20a",
+      "locale": "en",
+      "slug": "hand-carved-mahogany-cross-ornament-with-base-ekbffg",
+      "title": "Hand-Carved Mahogany Cross Ornament with Base",
+      "eyebrow": "hand-carved mahogany cross ornament",
+      "summary": "A hand-carved solid wood cross ornament measuring 12 by 6.5 by 2 cm, mounted on a base. The surface can be customized with text, making it suitable for personalized gifts or devotional decor.",
+      "description": "This cross ornament is carved from solid mahogany wood, with an irregular shape that highlights its handmade character. It comes with a separate base measuring 5 by 9 by 2.5 cm, allowing for tabletop display. The surface is suitable for engraving custom text, offering flexibility for personalization. The carving technique is engraving, and the product type is figurine. With themes including religious, love, cross, and DIY, this ornament can serve as a meaningful gift or a decorative piece in a home or office setting.",
+      "catholicContext": "A cross (without a corpus) is a distinct symbol from a crucifix and is commonly used in devotional and decorative contexts.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHSTG7BAOVioqqEY6eKbffg",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H61a59d4bec3c4e15b8b077710dd8ea340.webp",
+      "imageAlt": "Hand-Carved Mahogany Cross Ornament with Base",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H61a59d4bec3c4e15b8b077710dd8ea340.webp",
+          "alt": "Hand-Carved Mahogany Cross Ornament with Base"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H744fa165161746139d8b3b71a4790856V.webp",
+          "alt": "Hand-Carved Mahogany Cross Ornament with Base"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H52bf0837a93a407eac8833e3217e7568T.webp",
+          "alt": "Hand-Carved Mahogany Cross Ornament with Base"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7734772a454e4e0fad97f0250fb42bdaG.webp",
+          "alt": "Hand-Carved Mahogany Cross Ornament with Base"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H04a179a28d104fb3bd2699d52d50a81ah.webp",
+          "alt": "Hand-Carved Mahogany Cross Ornament with Base"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Hand-carved from solid mahogany wood",
+        "Cross size: 12 x 6.5 x 2 cm",
+        "Base size: 5 x 9 x 2.5 cm",
+        "Surface can be customized with text",
+        "Irregular shape for a handmade look",
+        "Carved using engraving technique"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Solid Wood"
+        },
+        {
+          "name": "Technique",
+          "value": "Carved"
+        },
+        {
+          "name": "Carving Type",
+          "value": "Engraving"
+        },
+        {
+          "name": "Shape",
+          "value": "Irregular"
+        },
+        {
+          "name": "Decoration",
+          "value": "Tabletop"
+        },
+        {
+          "name": "Theme",
+          "value": "Religious, Love, Cross, DIY, Mascot"
+        }
+      ],
+      "applications": [
+        "Tabletop home decoration",
+        "Personalized gift for religious occasions",
+        "Art and collectible display",
+        "Holiday decoration"
+      ],
+      "faq": [
+        {
+          "question": "What are the dimensions of this cross ornament?",
+          "answer": "The cross is 12 cm long, 6.5 cm wide, and 2 cm thick. The base measures 5 cm by 9 cm by 2.5 cm."
+        },
+        {
+          "question": "Can the surface be customized with text?",
+          "answer": "Yes, the surface is customizable with text. This allows for personalization, such as adding a name, date, or message."
+        },
+        {
+          "question": "What material is the ornament made of?",
+          "answer": "The ornament is made of solid wood, specifically mahogany, and is hand-carved."
+        }
+      ],
+      "pricing": {
+        "price": "3.40",
+        "regularPrice": "3.40",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.95",
+          "max": "3.40"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Hand-Carved Mahogany Cross Ornament with Base",
+          "description": "Hand-carved solid wood cross ornament with base, 12*6.5*2cm, irregular shape, surface customizable. Ideal for tabletop display and gifting.",
+          "sku": "ALI-AAHSTG7BAOVioqqEY6eKbffg",
+          "image": [
+            "https://sc04.alicdn.com/kf/H61a59d4bec3c4e15b8b077710dd8ea340.jpg",
+            "https://sc04.alicdn.com/kf/H744fa165161746139d8b3b71a4790856V.jpg",
+            "https://sc04.alicdn.com/kf/H52bf0837a93a407eac8833e3217e7568T.jpg",
+            "https://sc04.alicdn.com/kf/H7734772a454e4e0fad97f0250fb42bdaG.jpg",
+            "https://sc04.alicdn.com/kf/H04a179a28d104fb3bd2699d52d50a81ah.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Solid Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Technique",
+              "value": "Carved"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Carving Type",
+              "value": "Engraving"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Irregular"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Decoration",
+              "value": "Tabletop"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Theme",
+              "value": "Religious, Love, Cross, DIY, Mascot"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "3.40",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.95",
+              "maxPrice": "3.40",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the dimensions of this cross ornament?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cross is 12 cm long, 6.5 cm wide, and 2 cm thick. The base measures 5 cm by 9 cm by 2.5 cm."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can the surface be customized with text?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the surface is customizable with text. This allows for personalization, such as adding a name, date, or message."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material is the ornament made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ornament is made of solid wood, specifically mahogany, and is hand-carved."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "c121842d3db343ef4bc2bee07ffc6780e1ed40d87ff5e6d57a75b5872ae14266",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "c121842d3db343ef4bc2bee07ffc6780e1ed40d87ff5e6d57a75b5872ae14266",
+            "contentHash": "c121842d3db343ef4bc2bee07ffc6780e1ed40d87ff5e6d57a75b5872ae14266",
+            "attempts": 0,
+            "updatedAt": "2026-08-16T03:04:37.214Z",
             "model": "deepseek-v4-flash"
           }
         }

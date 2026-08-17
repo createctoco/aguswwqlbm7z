@@ -1,5 +1,11 @@
 ---
 import { SITE } from 'astrowind:config';
+import { BUILD_LOCALE, DEFAULT_LOCALE } from '~/i18n/config';
 ---
 
 {SITE.googleSiteVerificationId && <meta name="google-site-verification" content={SITE.googleSiteVerificationId} />}
+{
+  // TEMP: Pinterest domain verification for ouooo.com only. Remove this
+  // block after the domain is claimed in Pinterest.
+  BUILD_LOCALE === DEFAULT_LOCALE && <meta name="p:domain_verify" content="60a728926f99be74d64b08c247fc8c01" />
+}

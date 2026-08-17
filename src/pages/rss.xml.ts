@@ -3,7 +3,10 @@ import type { APIRoute } from 'astro';
 import { BUILD_SITE_URL } from '~/i18n/config';
 import { products } from '~/data/products';
 
-export const prerender = false;
+// Prerender the feed to a static file at build time (one file per locale
+// build). Keeping it static avoids bundling the full product catalog into
+// the Worker, which would exceed Cloudflare's Worker size limit.
+export const prerender = true;
 
 const escapeXml = (value: string) =>
   value

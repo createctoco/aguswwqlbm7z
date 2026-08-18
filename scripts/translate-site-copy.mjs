@@ -106,6 +106,57 @@ const reviewedTranslations = {
 const ready = new Map();
 const pending = [];
 
+// Rosary "decade" means a group of ten Hail Mary beads, not a ten-year period.
+// DeepSeek occasionally mistranslates it as "十年" in Chinese (e.g. 5-decade ->
+// 五十年, 3-decade -> 三十年, 15-decade -> 十五年). Correct it deterministically
+// after translation so every deploy ships accurate Chinese copy, including for
+// future guides that use "decade" sizing.
+const rosaryDecadeReplacements = {
+  'zh-hans': [
+    ['（即五十年）', ''],
+    ['五十年', '五端'],
+    ['三十年', '三段'],
+    ['十五年', '十五段'],
+    ['5-十年', '五端'],
+    ['3-十年', '三段'],
+    ['15-十年', '十五段'],
+    ['单十年', '单端'],
+    ['每十年', '每端'],
+    ['一个十年', '一端'],
+    ['五个十年', '五端'],
+    ['十年格式', '端数格式'],
+    ['十年计数', '端数'],
+    ['十年', '端'],
+  ],
+  'zh-hant': [
+    ['（即五十年）', ''],
+    ['五十年', '五端'],
+    ['三十年', '三段'],
+    ['十五年', '十五段'],
+    ['5-十年', '五端'],
+    ['3-十年', '三段'],
+    ['15-十年', '十五段'],
+    ['單十年', '單端'],
+    ['每十年', '每端'],
+    ['一個十年', '一端'],
+    ['五個十年', '五端'],
+    ['十年格式', '端數格式'],
+    ['十年計數', '端數'],
+    ['十年', '端'],
+  ],
+};
+
+const applyRosaryDecadeCorrections = (entry) => {
+  if (!entry || !/decade/i.test(entry.source)) return entry;
+  const replacements = rosaryDecadeReplacements[locale];
+  if (!replacements) return entry;
+  let translation = entry.translation;
+  for (const [from, to] of replacements) {
+    if (translation.includes(from)) translation = translation.split(from).join(to);
+  }
+  return translation === entry.translation ? entry : { ...entry, translation };
+};
+
 for (const entry of source.entries || []) {
   const reviewed = reviewedTranslations[locale]?.get(entry.source);
   if (reviewed) {
@@ -125,7 +176,7 @@ for (const entry of source.entries || []) {
 if (pending.length && !apiKey) throw new Error('DEEPSEEK_API_KEY is required for new or changed page copy.');
 
 async function translateChunk(entries) {
-  const system = `Translate OUOOO website copy from English into ${definition.label} (${locale}). Return only valid JSON in exactly this shape: {"translations":{"id":"translation"}}. Preserve every supplied id exactly and return every id. Translate naturally for a professional B2B Catholic-gifts website. Preserve OUOOO, WhatsApp, WeChat, email addresses, URLs, product identifiers, numbers, currencies, placeholders in braces, and factual meaning. Translate Catholic terminology accurately. Do not add claims, explanations, markdown, HTML, or source branding. Keep interface labels concise. For Arabic use natural RTL Arabic; for Chinese use the requested script.`;
+  const system = `Translate OUOOO website copy from English into ${definition.label} (${locale}). Return only valid JSON in exactly this shape: {"translations":{"id":"translation"}}. Preserve every supplied id exactly and return every id. Translate naturally for a professional B2B Catholic-gifts website. Preserve OUOOO, WhatsApp, WeChat, email addresses, URLs, product identifiers, numbers, currencies, placeholders in braces, and factual meaning. Translate Catholic terminology accurately. Glossary: in rosary context, "decade" means a group of ten Hail Mary beads, not a ten-year period (Chinese: 端, 5-decade = 五端, one decade = 一端; French: dizaine; Italian: decina; Spanish: decena; Portuguese: dezena; Polish: dziesiątek). Do not add claims, explanations, markdown, HTML, or source branding. Keep interface labels concise. For Arabic use natural RTL Arabic; for Chinese use the requested script.`;
   let lastError;
   let remaining = [...entries];
   let sawResponse = false;
@@ -241,7 +292,7 @@ for (let index = 0; index < pending.length; index += chunkSize) {
   await writeCheckpoint();
 }
 
-const entries = (source.entries || []).map(({ id }) => ready.get(id));
+const entries = (source.entries || []).map(({ id }) => applyRosaryDecadeCorrections(ready.get(id)));
 if (entries.some((entry) => !entry)) throw new Error(`Incomplete site-copy translation for ${locale}.`);
 const output = {
   schemaVersion: 1,

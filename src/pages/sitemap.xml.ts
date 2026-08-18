@@ -16,6 +16,8 @@ const staticPaths = [
   '/guides',
   '/guides/choosing-rosary-materials',
   '/guides/8mm-vs-10mm-beads',
+  '/guides/european-market-rosary-bead-sizes',
+  '/guides/why-5-decade-rosary-is-the-standard',
   '/faq',
   '/our-story',
   '/payment',

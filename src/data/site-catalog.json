@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-17T03:05:02.537Z",
+  "generatedAt": "2026-08-18T02:59:53.357Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAEzTG7BAOVioqqEY6e1C4Bv",
-      "AAEITG7BAOVioqqEY6e6dEIU",
-      "AAG_TG7BAOVioqqEY6eBSvb6",
-      "AAHXTG7BAOVioqqEY6eBSMpA",
-      "AAHkTG7BAOVioqqEY6eDnVDw",
-      "AAGwTG7BAOVioqqEY6edxhO2",
-      "AAH1TG7BAOVioqqEY6eM_RBY",
-      "AAGJTG7BAOVioqqEY6eEqkiP",
-      "AAGqTG7BAOVioqqEY6eBSJLL",
-      "AAF7TG7BAOVioqqEY6eBTD5s"
+      "AAHRTG7BAOVioqqEY6e7sF2F",
+      "AAE_TG7BAOVioqqEY6eBTjU3",
+      "AAGOTG7BAOVioqqEY6eBtUmL",
+      "AAEcTG7BAOVioqqEY6eYM2Jr",
+      "AAHMTG7BAOVioqqEY6eBS0mz",
+      "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "AAHdTG7BAOVioqqEY6eCHasP",
+      "AAHWTG7BAOVioqqEY6eBRiXm",
+      "AAHaTG7BAOVioqqEY6e7LbS6"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 8,
-    "reused": 260,
-    "source_fallback": 2
+    "generated": 10,
+    "reused": 270,
+    "source_fallback": 0
   },
   "products": [
     {
@@ -55613,12 +55613,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
+        "sourceHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
-            "contentHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
+            "sourceHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
+            "contentHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
             "attempts": 0,
             "updatedAt": "2026-08-17T03:04:23.427Z",
             "model": "deepseek-v4-flash"
@@ -56492,12 +56492,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
+        "sourceHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
-            "contentHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
+            "sourceHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
+            "contentHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
             "attempts": 0,
             "updatedAt": "2026-08-17T03:04:26.169Z",
             "model": "deepseek-v4-flash"
@@ -57579,14 +57579,2155 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
+        "sourceHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
-            "contentHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
+            "sourceHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
+            "contentHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
             "attempts": 0,
             "updatedAt": "2026-08-17T03:04:35.879Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHRTG7BAOVioqqEY6e7sF2F",
+      "sourceId": "AAHRTG7BAOVioqqEY6e7sF2F",
+      "sourceFingerprint": "cb894ec9c7a48373fd207cb12dd39b17fb088c7691b9d53a570daa46bb6c76ea",
+      "locale": "en",
+      "slug": "prayer-cross-couple-ring-for-men-and-women-e7sf2f",
+      "title": "Prayer Cross Couple Ring for Men and Women",
+      "eyebrow": "Cross Couple Ring",
+      "summary": "This unisex couple ring features an open design with a prayer cross pattern, crafted from alloy with a titanium-like finish. It is a stylish religious accessory suitable for gifting or personal wear.",
+      "description": "The Prayer Cross Couple Ring presents a modern open silhouette with a cross motif, appealing to those seeking religious jewelry. Crafted from alloy without plating, it offers a raw metallic look that fits casual and formal settings alike. Its unisex design makes it suitable for both men and women, and the open construction allows for easy sizing adjustments.\n\nThis ring is categorized under religious style with Catholicism as the religious type, indicating its intended connection to Catholic devotion. As a couple ring, it can serve as a matching accessory for partners, though it is not limited to that use. Its minimalist design makes it a versatile addition to any jewelry collection.",
+      "catholicContext": "A cross is a central symbol of Christianity, representing the crucifixion of Jesus Christ.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Rings",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAHRTG7BAOVioqqEY6e7sF2F",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H1fd824cb8b7c416aae421cfd4c6ca701k.webp",
+      "imageAlt": "Prayer Cross Couple Ring for Men and Women",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1fd824cb8b7c416aae421cfd4c6ca701k.webp",
+          "alt": "Prayer Cross Couple Ring for Men and Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31bdaaa91b304a09a9387461922f0b94a.webp",
+          "alt": "Prayer Cross Couple Ring for Men and Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H328c265afb9947aeb4abacb55daf44e3i.webp",
+          "alt": "Prayer Cross Couple Ring for Men and Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hce733088ec9f46f99214507eef587473a.webp",
+          "alt": "Prayer Cross Couple Ring for Men and Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha91c8313fe9c4d6aa8076cf8723c9c7ei.webp",
+          "alt": "Prayer Cross Couple Ring for Men and Women"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hadd2db4089d940c1a1f94845d75155c4v.webp",
+          "alt": "Prayer Cross Couple Ring for Men and Women"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Crafted from alloy with a titanium-like appearance",
+        "Open ring design for easy fitting",
+        "Unisex styling suitable for men and women",
+        "Prayer cross pattern as the central motif",
+        "No plating for a natural metallic finish",
+        "Categorized as religious jewelry with Catholicism as religious type"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Alloy"
+        },
+        {
+          "name": "Plating",
+          "value": "None"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Ring Type",
+          "value": "Couple Ring"
+        },
+        {
+          "name": "Model Number",
+          "value": "A306-- Prayer Cross Ring"
+        }
+      ],
+      "applications": [
+        "Gift for a partner or loved one",
+        "Wedding or engagement ring alternative",
+        "Religious jewelry for personal wear",
+        "Party or bridal shower accessory"
+      ],
+      "faq": [
+        {
+          "question": "What material is the Prayer Cross Couple Ring made of?",
+          "answer": "The ring is made of alloy and has no plating, giving it a natural metallic look."
+        },
+        {
+          "question": "Is this ring suitable for both men and women?",
+          "answer": "Yes, the ring is designed as unisex, so it can be worn by anyone regardless of gender."
+        },
+        {
+          "question": "Does the ring have an open design?",
+          "answer": "Yes, the ring features an open design, which allows for some flexibility in sizing."
+        }
+      ],
+      "pricing": {
+        "price": "0.28",
+        "regularPrice": "0.28",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.20",
+          "max": "0.28"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Prayer Cross Couple Ring for Men and Women",
+          "description": "Unisex titanium-look prayer cross couple ring in alloy with open design. Wholesale religious jewelry for men and women, suitable for gifts and weddings.",
+          "sku": "ALI-AAHRTG7BAOVioqqEY6e7sF2F",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1fd824cb8b7c416aae421cfd4c6ca701k.png",
+            "https://sc04.alicdn.com/kf/H31bdaaa91b304a09a9387461922f0b94a.png",
+            "https://sc04.alicdn.com/kf/H328c265afb9947aeb4abacb55daf44e3i.png",
+            "https://sc04.alicdn.com/kf/Hce733088ec9f46f99214507eef587473a.png",
+            "https://sc04.alicdn.com/kf/Ha91c8313fe9c4d6aa8076cf8723c9c7ei.png",
+            "https://sc04.alicdn.com/kf/Hadd2db4089d940c1a1f94845d75155c4v.png"
+          ],
+          "category": "Rings",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "None"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Ring Type",
+              "value": "Couple Ring"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Model Number",
+              "value": "A306-- Prayer Cross Ring"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.28",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.20",
+              "maxPrice": "0.28",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is the Prayer Cross Couple Ring made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ring is made of alloy and has no plating, giving it a natural metallic look."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this ring suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the ring is designed as unisex, so it can be worn by anyone regardless of gender."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the ring have an open design?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the ring features an open design, which allows for some flexibility in sizing."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+            "contentHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:34.628Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE_TG7BAOVioqqEY6eBTjU3",
+      "sourceId": "AAE_TG7BAOVioqqEY6eBTjU3",
+      "sourceFingerprint": "1f8426326390c5ffb4befb287be8502b42de3e116d8e986e6704372e5e3dfcf9",
+      "locale": "en",
+      "slug": "18k-gold-plated-virgin-mary-pendant-rosary-bracelet-ebtju3",
+      "title": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet",
+      "eyebrow": "Marian pendant rosary bracelet",
+      "summary": "This rosary bracelet features an 18K gold-plated Virgin Mary pendant set with zircon CZ stones, paired with red rope beads. The hand strap is adjustable for a comfortable fit. Suitable for personal devotion or as a thoughtful gift.",
+      "description": "Crafted with an 18K gold-plated metal pendant, this bracelet showcases a detailed Virgin Mary figure accented with zircon CZ stones. The red rope beads provide a classic rosary look, and the adjustable hand strap ensures a secure fit for various wrist sizes. Choose from two red color variants to suit your preference.\n\nAs a Marian devotional item, it can be used for prayer or as a reminder of faith. The durable construction makes it suitable for daily wear.",
+      "catholicContext": "The pendant depicts the Virgin Mary, a central figure in Catholic devotion and the Rosary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
+      "imageAlt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3e29e26989ff43c7967ecbf4dd29389f2.webp",
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H198b853667da4f65a06618384ab016c8k.webp",
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9b3170d7184448c4af54fddc99bb5469W.webp",
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H183744a16ef144578d42d63bac98854aU.webp",
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H820864580a7a478c955bcde6be496de2W.webp",
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha615dcc292184c358f9bf6d62632192fM.webp",
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet - red1",
+          "label": "red1",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc946704894a404d814a15e0080c3761i.webp",
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet - red2",
+          "label": "red2",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--5"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "18K gold-plated Virgin Mary pendant",
+        "Zircon CZ stone accents",
+        "Red rope beads",
+        "Adjustable hand strap",
+        "Two red variants available"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "18K gold-plated metal, zircon CZ, rope"
+        },
+        {
+          "name": "Design",
+          "value": "Virgin Mary pendant with red rope beads"
+        },
+        {
+          "name": "Closure",
+          "value": "Adjustable hand strap"
+        },
+        {
+          "name": "Variants",
+          "value": "Red1, Red2"
+        }
+      ],
+      "applications": [
+        "Personal prayer and devotion",
+        "Religious gift for Marian feasts",
+        "Everyday accessory with religious significance",
+        "Confirmation or First Communion gift"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this bracelet made of?",
+          "answer": "The bracelet features an 18K gold-plated metal pendant with zircon CZ stones, and red rope beads. The strap is adjustable."
+        },
+        {
+          "question": "Is the bracelet adjustable?",
+          "answer": "Yes, the hand strap is adjustable, allowing for a comfortable fit on different wrist sizes."
+        },
+        {
+          "question": "Are there any color options?",
+          "answer": "Yes, this bracelet is available in two red variants: Red1 and Red2."
+        }
+      ],
+      "pricing": {
+        "price": "2.53",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.10",
+          "max": "2.53"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet",
+          "description": "18K gold-plated Virgin Mary pendant rosary bracelet with red rope beads and adjustable hand strap. Zircon CZ accents. Choose from two red variants.",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
+          "image": [
+            "https://sc04.alicdn.com/kf/H456a8129460349df94b61797ab0f1c4cS.jpg",
+            "https://sc04.alicdn.com/kf/H3e29e26989ff43c7967ecbf4dd29389f2.jpg",
+            "https://sc04.alicdn.com/kf/H198b853667da4f65a06618384ab016c8k.jpg",
+            "https://sc04.alicdn.com/kf/H9b3170d7184448c4af54fddc99bb5469W.jpg",
+            "https://sc04.alicdn.com/kf/H183744a16ef144578d42d63bac98854aU.jpg",
+            "https://sc04.alicdn.com/kf/H820864580a7a478c955bcde6be496de2W.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "18K gold-plated metal, zircon CZ, rope"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Virgin Mary pendant with red rope beads"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Closure",
+              "value": "Adjustable hand strap"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "Red1, Red2"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.53",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.10",
+              "maxPrice": "2.53",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this bracelet made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet features an 18K gold-plated metal pendant with zircon CZ stones, and red rope beads. The strap is adjustable."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the bracelet adjustable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the hand strap is adjustable, allowing for a comfortable fit on different wrist sizes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are there any color options?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, this bracelet is available in two red variants: Red1 and Red2."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "contentHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:33.900Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGOTG7BAOVioqqEY6eBtUmL",
+      "sourceId": "AAGOTG7BAOVioqqEY6eBtUmL",
+      "sourceFingerprint": "03cce82bf1a95a268b3f499fcc31ebaeae63196d2d1b50a53726b87f9865ea54",
+      "locale": "en",
+      "slug": "mini-rosary-charm-bracelet-for-newborn-baptism-gift-ebtuml",
+      "title": "Mini Rosary Charm Bracelet for Newborn Baptism Gift",
+      "eyebrow": "Rosary charm bracelet",
+      "summary": "This mini rosary charm bracelet features a denary design with Catholic styling, crafted for newborn babies. Available in nine color variants, it makes a thoughtful gift for baptism or first communion.",
+      "description": "This mini rosary bracelet brings a classic Catholic motif to a small scale, designed to fit a newborn's wrist. The denary structure—ten beads—offers a compact form of the traditional rosary, making it an approachable introduction to the prayer. The bracelet is available in nine color variants, allowing you to match a family's preference or a special occasion's palette. Its lightweight design is suited for infants, and the charm adds a gentle visual anchor. Whether given as a baptism or first communion memento, this bracelet serves as a keepsake that carries a meaningful association with the Catholic faith.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd329e984d26747cd8c17f33e68fc9644g.webp",
+      "imageAlt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd329e984d26747cd8c17f33e68fc9644g.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd3579347a1394c349cd5194bc66b8e78j.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6870ddbfd62d4d05a4e5b68da17d2462P.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha71b3e069dcb4305a0416126527ef14dc.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haa8bbb7bc62147938442f2caab3becf7F.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hef8e636570cd40e48abedf53e0511f032.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He23c93126d6d4a0f8827d482edc908e3n.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift - colored7",
+          "label": "colored7",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5776e58eaa14d22aec3525785620fd2w.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift - colored3",
+          "label": "colored3",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbb65e12ec32047a99e89c8a903477e75O.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift - colored9",
+          "label": "colored9",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H89e982a2cca1466999a52c8a47a9ffdc8.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift - colored4",
+          "label": "colored4",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha52733793bf24056ba9b011eae372c1ff.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift - colored6",
+          "label": "colored6",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63f39f72b299482eae813af6cceb53c3e.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift - colored2",
+          "label": "colored2",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0f801aea58549128aba496454e00182V.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift - colored5",
+          "label": "colored5",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2ac370675eb24b728814c8ae6b5c2a43J.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift - colored8",
+          "label": "colored8",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hab53d52139f84de1bb96256f77dd99dcH.webp",
+          "alt": "Mini Rosary Charm Bracelet for Newborn Baptism Gift - colored1",
+          "label": "colored1",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--10"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Mini denary rosary with ten beads, suited for a newborn's wrist",
+        "Catholic design theme, reflecting traditional rosary devotion",
+        "Available in nine color variants for personal preference",
+        "Compact and lightweight, intended for infant use",
+        "Charm bracelet style with a small pendant-like charm"
+      ],
+      "specifications": [
+        {
+          "name": "Design",
+          "value": "Catholic"
+        },
+        {
+          "name": "Type",
+          "value": "Rosary bracelet"
+        },
+        {
+          "name": "Variants",
+          "value": "9 color options"
+        }
+      ],
+      "applications": [
+        "Gift for newborn baptism",
+        "Memento for first communion",
+        "Infant accessory for Catholic families",
+        "Pocket-sized rosary for travel or everyday carry"
+      ],
+      "faq": [
+        {
+          "question": "How many beads does this bracelet have?",
+          "answer": "This is a mini denary rosary, meaning it has a set of ten beads, ideal for a compact prayer aid."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "There are nine color variants, labeled colored1 through colored9, allowing you to select a preferred shade."
+        },
+        {
+          "question": "Is this bracelet suitable for a newborn?",
+          "answer": "Yes, it is designed for a newborn baby, with a small scale and lightweight construction for infant use."
+        }
+      ],
+      "pricing": {
+        "price": "0.52",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.52"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Mini Rosary Charm Bracelet for Newborn Baptism Gift",
+          "description": "Mini denary rosary charm bracelet for newborn baby, Catholic design, multiple color variants, ideal for baptism or communion gift.",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd329e984d26747cd8c17f33e68fc9644g.jpg",
+            "https://sc04.alicdn.com/kf/Hd3579347a1394c349cd5194bc66b8e78j.jpg",
+            "https://sc04.alicdn.com/kf/H6870ddbfd62d4d05a4e5b68da17d2462P.jpg",
+            "https://sc04.alicdn.com/kf/Ha71b3e069dcb4305a0416126527ef14dc.jpg",
+            "https://sc04.alicdn.com/kf/Haa8bbb7bc62147938442f2caab3becf7F.jpg",
+            "https://sc04.alicdn.com/kf/Hef8e636570cd40e48abedf53e0511f032.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Catholic"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Type",
+              "value": "Rosary bracelet"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "9 color options"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.52",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.52",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How many beads does this bracelet have?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This is a mini denary rosary, meaning it has a set of ten beads, ideal for a compact prayer aid."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There are nine color variants, labeled colored1 through colored9, allowing you to select a preferred shade."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet suitable for a newborn?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed for a newborn baby, with a small scale and lightweight construction for infant use."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+            "contentHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:50.200Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEcTG7BAOVioqqEY6eYM2Jr",
+      "sourceId": "AAEcTG7BAOVioqqEY6eYM2Jr",
+      "sourceFingerprint": "61e16346ee9266ee5df203bfd6226fb8e2fb829f9c3108d558f7db8195d40846",
+      "locale": "en",
+      "slug": "250ml-plastic-holy-water-bottle-with-cross-pattern-eym2jr",
+      "title": "250ml Plastic Holy Water Bottle with Cross Pattern",
+      "eyebrow": "Plastic Cross Pattern Holy Water Bottle",
+      "summary": "A 250ml HDPE holy water bottle with a white cross pattern and a protective PP cap. At 30.7g and 16.5cm tall, it's a lightweight option for ceremonies, gifts, and personal use.",
+      "description": "This 250ml holy water bottle is molded from high-density polyethylene (HDPE) for durability against impacts, while the polypropylene (PP) cap offers a reliable seal. Its white body carries an embossed cross design, making it a clear devotional symbol. The 16.5cm height and 30.7g weight make it easy to carry or store, whether for personal prayer or church-related events.",
+      "catholicContext": "In Catholic practice, holy water is used for blessings and devotional gestures, and a cross is a central symbol of the faith; this bottle is shaped for such use.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
+      "imageAlt": "250ml Plastic Holy Water Bottle with Cross Pattern",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1880c36feab49ee8e28277936e31bfck.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haece68d37fc146569cc2fa18df81b2731.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd7e209e67eb24fddb3d1db370fd159e8q.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc79f02828fb46fdab2002a45f2ffe5aa.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H50e34a9b22ad4fb8b7294056b92d11f5b.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#7a6d92",
+      "features": [
+        "250ml capacity holds a practical amount of holy water",
+        "Made from HDPE plastic for high protective strength",
+        "White color with cross pattern in raised relief",
+        "PP flip cap for easy opening and secure closing",
+        "Compact size: 16.5 x 5 x 5 cm, weighing only 30.7g"
+      ],
+      "specifications": [
+        {
+          "name": "Capacity",
+          "value": "250ml"
+        },
+        {
+          "name": "Size",
+          "value": "16.5 x 5 x 5 cm"
+        },
+        {
+          "name": "Weight",
+          "value": "30.7g"
+        },
+        {
+          "name": "Bottle material",
+          "value": "HDPE (high-density polyethylene)"
+        },
+        {
+          "name": "Cap material",
+          "value": "PP (polypropylene)"
+        },
+        {
+          "name": "Color",
+          "value": "White"
+        },
+        {
+          "name": "Pattern",
+          "value": "Cross"
+        }
+      ],
+      "applications": [
+        "Holding holy water for prayer at home",
+        "Religious ceremonies and baptism blessings",
+        "Devotional gifts for Easter or other feast days",
+        "Educational use in faith formation classes"
+      ],
+      "faq": [
+        {
+          "question": "What is the bottle made of and is it durable?",
+          "answer": "The bottle is made from HDPE (high-density polyethylene), which gives it high protective strength against impacts, making it suitable for everyday handling."
+        },
+        {
+          "question": "What are the dimensions and capacity?",
+          "answer": "The bottle measures 16.5 x 5 x 5 cm and holds 250ml of liquid. It weighs just 30.7g, so it's lightweight and portable."
+        },
+        {
+          "question": "Does it come with a cap?",
+          "answer": "Yes, it has a PP (polypropylene) cap that flips open, providing a secure closure to prevent spills."
+        }
+      ],
+      "pricing": {
+        "price": "0.39",
+        "regularPrice": "0.39",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.35",
+          "max": "0.39"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "250ml Plastic Holy Water Bottle with Cross Pattern",
+          "description": "HDPE plastic holy water bottle, 250ml, cross pattern, white, with PP flip cap. Lightweight and protective, suitable for religious ceremonies and gifts.",
+          "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
+          "image": [
+            "https://sc04.alicdn.com/kf/H54de41f1e8b94a1da6846ff578113e9fw.jpg",
+            "https://sc04.alicdn.com/kf/Hd1880c36feab49ee8e28277936e31bfck.jpg",
+            "https://sc04.alicdn.com/kf/Haece68d37fc146569cc2fa18df81b2731.jpg",
+            "https://sc04.alicdn.com/kf/Hd7e209e67eb24fddb3d1db370fd159e8q.jpg",
+            "https://sc04.alicdn.com/kf/Hbc79f02828fb46fdab2002a45f2ffe5aa.jpg",
+            "https://sc04.alicdn.com/kf/H50e34a9b22ad4fb8b7294056b92d11f5b.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Capacity",
+              "value": "250ml"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Size",
+              "value": "16.5 x 5 x 5 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Weight",
+              "value": "30.7g"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bottle material",
+              "value": "HDPE (high-density polyethylene)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Cap material",
+              "value": "PP (polypropylene)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color",
+              "value": "White"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pattern",
+              "value": "Cross"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.35",
+              "maxPrice": "0.39",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the bottle made of and is it durable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bottle is made from HDPE (high-density polyethylene), which gives it high protective strength against impacts, making it suitable for everyday handling."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the dimensions and capacity?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bottle measures 16.5 x 5 x 5 cm and holds 250ml of liquid. It weighs just 30.7g, so it's lightweight and portable."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does it come with a cap?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it has a PP (polypropylene) cap that flips open, providing a secure closure to prevent spills."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "contentHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:35.706Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHMTG7BAOVioqqEY6eBS0mz",
+      "sourceId": "AAHMTG7BAOVioqqEY6eBS0mz",
+      "sourceFingerprint": "2327b4fd97998cb1810e67392a13ede064a75cc1f0db2e787218d5fadaeaecbe",
+      "locale": "en",
+      "slug": "virgin-mary-enamel-brooch-with-cross-design-ebs0mz",
+      "title": "Virgin Mary Enamel Brooch with Cross Design",
+      "eyebrow": "Marian enamel brooch",
+      "summary": "A zinc alloy brooch with a detailed enamel Virgin Mary image and cross pattern. Set with princess-cut stones and imitation pearls, it adds a classic touch to coats and scarves. Unisex design suitable for everyday wear or gift-giving.",
+      "description": "This Marian brooch pairs a cross-shaped silhouette with a detailed enamel portrait of the Virgin Mary. The zinc alloy body is set with princess-cut stones and imitation pearls through channel setting, giving the piece a neat, finished look. At roughly the size of a typical lapel pin, it works well on coat lapels, scarves, or blazers. The brooch is made for unisex use and comes as a single piece. Because it features a cross and Mary, it may appeal to those looking for understated religious jewelry.",
+      "catholicContext": "Marian refers to the Virgin Mary, a central figure in Catholic devotion, and crosses are common symbols in Christian jewelry.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "210",
+          "name": "Brooch",
+          "slug": "brooch"
+        }
+      ],
+      "sku": "ALI-AAHMTG7BAOVioqqEY6eBS0mz",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H109c693f84ff4af4acad9879b9c39708B.webp",
+      "imageAlt": "Virgin Mary Enamel Brooch with Cross Design",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H109c693f84ff4af4acad9879b9c39708B.webp",
+          "alt": "Virgin Mary Enamel Brooch with Cross Design"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbdd230e09aa647149acd9814f3aac0e0v.webp",
+          "alt": "Virgin Mary Enamel Brooch with Cross Design"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1ed527cb39454a5d81d9b03b6528cb98A.webp",
+          "alt": "Virgin Mary Enamel Brooch with Cross Design"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H05b8882b3c3244b1a46e032d432539a81.webp",
+          "alt": "Virgin Mary Enamel Brooch with Cross Design"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2e8f72a2e3ca4544aec7a10563128763z.webp",
+          "alt": "Virgin Mary Enamel Brooch with Cross Design"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Zinc alloy construction",
+        "Enamel detailing with Virgin Mary image",
+        "Cross-shaped design",
+        "Princess-cut stones (imitation) and imitation pearls",
+        "Channel setting for stones",
+        "Unisex brooch style"
+      ],
+      "specifications": [
+        {
+          "name": "Main Material",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Stone Cut",
+          "value": "Princess Cut"
+        },
+        {
+          "name": "Stone Type",
+          "value": "Imitation (none as main stone)"
+        },
+        {
+          "name": "Pearl Type",
+          "value": "Imitation Pearl"
+        },
+        {
+          "name": "Setting Technique",
+          "value": "Channel Setting"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        }
+      ],
+      "applications": [
+        "Coat lapel decoration",
+        "Scarf or shawl pin",
+        "Blazer or jacket accent",
+        "Gift item"
+      ],
+      "faq": [
+        {
+          "question": "What material is this brooch made of?",
+          "answer": "The brooch is made of zinc alloy."
+        },
+        {
+          "question": "Does this brooch include real pearls or diamonds?",
+          "answer": "No, the pearls are imitation, and the stones are princess-cut imitations. The main stone attribute is listed as none."
+        },
+        {
+          "question": "Is the brooch suitable for both men and women?",
+          "answer": "Yes, the brooch is designed as unisex."
+        }
+      ],
+      "pricing": {
+        "price": "0.39",
+        "regularPrice": "0.39",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.32",
+          "max": "0.39"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Virgin Mary Enamel Brooch with Cross Design",
+          "description": "Zinc alloy enamel brooch featuring a Marian image and cross pattern. Princess-cut stones and imitation pearls. Ideal for coat decoration and gifting.",
+          "sku": "ALI-AAHMTG7BAOVioqqEY6eBS0mz",
+          "image": [
+            "https://sc04.alicdn.com/kf/H109c693f84ff4af4acad9879b9c39708B.jpg",
+            "https://sc04.alicdn.com/kf/Hbdd230e09aa647149acd9814f3aac0e0v.jpg",
+            "https://sc04.alicdn.com/kf/H1ed527cb39454a5d81d9b03b6528cb98A.jpg",
+            "https://sc04.alicdn.com/kf/H05b8882b3c3244b1a46e032d432539a81.jpg",
+            "https://sc04.alicdn.com/kf/H2e8f72a2e3ca4544aec7a10563128763z.jpg"
+          ],
+          "category": "Brooch",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stone Cut",
+              "value": "Princess Cut"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stone Type",
+              "value": "Imitation (none as main stone)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pearl Type",
+              "value": "Imitation Pearl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Setting Technique",
+              "value": "Channel Setting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.32",
+              "maxPrice": "0.39",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this brooch made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The brooch is made of zinc alloy."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this brooch include real pearls or diamonds?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, the pearls are imitation, and the stones are princess-cut imitations. The main stone attribute is listed as none."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the brooch suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the brooch is designed as unisex."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+            "contentHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:39.889Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "sourceId": "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "sourceFingerprint": "9d1a86f5893bebcc85eeb711d44af6122351806c2e3d7c311e3792e0fb7a91b7",
+      "locale": "en",
+      "slug": "antique-silver-plated-wooden-chaplet-rosary-ebrceq",
+      "title": "Antique Silver Plated Wooden Chaplet Rosary",
+      "eyebrow": "Wooden chaplet rosary necklace",
+      "summary": "This wooden chaplet rosary features red beads and an antique silver plated cross, handcrafted for Catholic devotion. The zinc alloy and wood construction makes it a durable, religious gift necklace.",
+      "description": "This handcrafted chaplet rosary is made with red wooden beads and an antique silver plated zinc alloy cross. The bead-and-chain design is suitable for personal prayer or as a religious gift. Its antique silver finish gives it a classic look. The rosary is a traditional Catholic prayer aid, and this piece is designed for devotional use. The wood and metal construction offers a sturdy, tactile feel. The red beads and antique plating make it a distinctive choice for those seeking a chaplet-style rosary necklace.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAGbTG7BAOVioqqEY6eBRcEQ",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Had5fa3f8bee847038f70701622cbe52fR.webp",
+      "imageAlt": "Antique Silver Plated Wooden Chaplet Rosary",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Had5fa3f8bee847038f70701622cbe52fR.webp",
+          "alt": "Antique Silver Plated Wooden Chaplet Rosary"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He8bb3fcc74564076a7345ed3ef85735fy.webp",
+          "alt": "Antique Silver Plated Wooden Chaplet Rosary"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H502eece11f994206b3064b9b4aab5833j.webp",
+          "alt": "Antique Silver Plated Wooden Chaplet Rosary"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc10cb766471e40ff916a0914cf4fd33dF.webp",
+          "alt": "Antique Silver Plated Wooden Chaplet Rosary"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb792c271d8dc4a3ab241604d4f613e9aU.webp",
+          "alt": "Antique Silver Plated Wooden Chaplet Rosary"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Red wooden beads",
+        "Antique silver plated zinc alloy cross",
+        "Handcrafted construction",
+        "Beaded necklace style",
+        "Catholic religious design"
+      ],
+      "specifications": [
+        {
+          "name": "Main Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Metal Type",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Plating",
+          "value": "Antique Silver"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Necklace"
+        },
+        {
+          "name": "Model Number",
+          "value": "P8-R-0009"
+        }
+      ],
+      "applications": [
+        "Personal prayer and devotion",
+        "Religious gift giving",
+        "Worn as a necklace",
+        "Catholic faith expression"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this chaplet rosary?",
+          "answer": "The beads are made of wood, and the cross is made of zinc alloy with an antique silver plating."
+        },
+        {
+          "question": "Is this rosary a crucifix or a plain cross?",
+          "answer": "The product description mentions a cross, not a crucifix, so it likely features a plain cross without a corpus."
+        },
+        {
+          "question": "What is the style of this rosary?",
+          "answer": "It is a beaded necklace style, handcrafted with red wooden beads and an antique silver plated cross, intended for Catholic religious use."
+        }
+      ],
+      "pricing": {
+        "price": "1.20",
+        "regularPrice": "1.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.98",
+          "max": "1.20"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Antique Silver Plated Wooden Chaplet Rosary",
+          "description": "Handcrafted wooden chaplet rosary with red beads, antique silver plating, and zinc alloy cross. A Catholic religious gift necklace.",
+          "sku": "ALI-AAGbTG7BAOVioqqEY6eBRcEQ",
+          "image": [
+            "https://sc04.alicdn.com/kf/Had5fa3f8bee847038f70701622cbe52fR.jpg",
+            "https://sc04.alicdn.com/kf/He8bb3fcc74564076a7345ed3ef85735fy.jpg",
+            "https://sc04.alicdn.com/kf/H502eece11f994206b3064b9b4aab5833j.jpg",
+            "https://sc04.alicdn.com/kf/Hc10cb766471e40ff916a0914cf4fd33dF.jpg",
+            "https://sc04.alicdn.com/kf/Hb792c271d8dc4a3ab241604d4f613e9aU.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Metal Type",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Antique Silver"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Necklace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Model Number",
+              "value": "P8-R-0009"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.98",
+              "maxPrice": "1.20",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this chaplet rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are made of wood, and the cross is made of zinc alloy with an antique silver plating."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary a crucifix or a plain cross?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product description mentions a cross, not a crucifix, so it likely features a plain cross without a corpus."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the style of this rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is a beaded necklace style, handcrafted with red wooden beads and an antique silver plated cross, intended for Catholic religious use."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+            "contentHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:39.520Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "sourceId": "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "sourceFingerprint": "ed3093004da5460e050631b2e96446e16268322861dadb694a72d6c478296a82",
+      "locale": "en",
+      "slug": "st-benedict-medallion-christmas-ornament-ebt4pn",
+      "title": "St. Benedict Medallion Christmas Ornament",
+      "eyebrow": "St. Benedict medallion Christmas ornament",
+      "summary": "This St. Benedict medallion ornament is made of alloy and available in gold or silver. It can be hung on Christmas trees, car mirrors, or door handles, adding a devotional touch to your holiday decor.",
+      "description": "Bring a touch of faith to your Christmas tree with this St. Benedict medallion ornament. Crafted from durable alloy, it is available in gold or silver finishes to match your decor. The medallion features the classic St. Benedict design, a popular symbol of Christian devotion. Use it to adorn your home, car, or door, making it a versatile piece for the holiday season. Whether as a gift or personal keepsake, it serves as a meaningful reminder of faith during Christmas.",
+      "catholicContext": "The St. Benedict medal is a popular devotional item in Catholic tradition, often used as a form of personal piety.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H80887ad2ddfd4ae198082c9ada992fe3T.webp",
+      "imageAlt": "St. Benedict Medallion Christmas Ornament",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H80887ad2ddfd4ae198082c9ada992fe3T.webp",
+          "alt": "St. Benedict Medallion Christmas Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfec3e96ad1054295be259baa475cbbafi.webp",
+          "alt": "St. Benedict Medallion Christmas Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He1958c25414f43408c0cd63bdbc99a18u.webp",
+          "alt": "St. Benedict Medallion Christmas Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H07d6a91f993e44279cd7b46ac5723782h.webp",
+          "alt": "St. Benedict Medallion Christmas Ornament"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc86f775b4d3b4da2b9beaaa02fb2501cR.webp",
+          "alt": "St. Benedict Medallion Christmas Ornament - gold",
+          "label": "gold",
+          "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha33e6d9bdef1413f8fd9d9e6fbee8c58y.webp",
+          "alt": "St. Benedict Medallion Christmas Ornament - silver",
+          "label": "silver",
+          "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn-V-3460547"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Made of alloy for durability",
+        "Available in gold and silver variants",
+        "Features St. Benedict medallion design",
+        "Suitable for cars, doors, and home decorations",
+        "Lightweight and easy to hang"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Alloy"
+        },
+        {
+          "name": "Variant",
+          "value": "Gold or Silver"
+        }
+      ],
+      "applications": [
+        "Christmas tree ornament",
+        "Car mirror charm",
+        "Door handle decoration",
+        "Home interior decor"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this St. Benedict medallion ornament?",
+          "answer": "The ornament is made of alloy, which provides durability and a metallic finish."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "The St. Benedict medallion ornament comes in gold and silver variants."
+        },
+        {
+          "question": "Can this ornament be used in a car?",
+          "answer": "Yes, it is suitable for cars, as it can be hung on mirrors or other interior fixtures."
+        }
+      ],
+      "pricing": {
+        "price": "3.25",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.80",
+          "max": "3.25"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "St. Benedict Medallion Christmas Ornament",
+          "description": "St. Benedict medallion Christmas ornament in gold or silver alloy, suitable for cars, doors, and home decorations. A devotional Christmas gift.",
+          "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn",
+          "image": [
+            "https://sc04.alicdn.com/kf/H80887ad2ddfd4ae198082c9ada992fe3T.jpg",
+            "https://sc04.alicdn.com/kf/Hfec3e96ad1054295be259baa475cbbafi.jpg",
+            "https://sc04.alicdn.com/kf/He1958c25414f43408c0cd63bdbc99a18u.jpg",
+            "https://sc04.alicdn.com/kf/H07d6a91f993e44279cd7b46ac5723782h.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Gold or Silver"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "3.25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.80",
+              "maxPrice": "3.25",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this St. Benedict medallion ornament?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ornament is made of alloy, which provides durability and a metallic finish."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The St. Benedict medallion ornament comes in gold and silver variants."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this ornament be used in a car?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is suitable for cars, as it can be hung on mirrors or other interior fixtures."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+            "contentHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:40.577Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHdTG7BAOVioqqEY6eCHasP",
+      "sourceId": "AAHdTG7BAOVioqqEY6eCHasP",
+      "sourceFingerprint": "9731db0ae53ecf7a6561a3c5871897833fd72ac61dbe8455621efe40cbcf95f1",
+      "locale": "en",
+      "slug": "flower-bead-rosary-necklace-with-alloy-cross-echasp",
+      "title": "Flower Bead Rosary Necklace with Alloy Cross",
+      "eyebrow": "Catholic rosary necklace",
+      "summary": "This rosary necklace pairs colorful 10mm plastic flower beads with an alloy cross and centerpiece. Measuring about 72cm in perimeter and 54cm as a necklace, it offers a lightweight, colorful option for personal prayer or gifting.",
+      "description": "The flower-shaped beads introduce a bright, decorative look to this rosary, setting it apart from plain round bead designs. The alloy cross measures 2.6 by 5cm, and the centerpiece continues the floral theme, creating a coordinated visual from cross to pendant.\n\nAt roughly 72cm in perimeter, it can serve as a full rosary, while the 54cm necklace length makes it easy to wear. Weighing about 34.5g, it stays light around the neck. The unisex design suits a range of tastes, and the zinc alloy cross adds a subtle metallic contrast to the plastic beads.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHdTG7BAOVioqqEY6eCHasP",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/He4f22c2b4e5644299a5ff3647436c015P.webp",
+      "imageAlt": "Flower Bead Rosary Necklace with Alloy Cross",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4f22c2b4e5644299a5ff3647436c015P.webp",
+          "alt": "Flower Bead Rosary Necklace with Alloy Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5e19bc4575d347b990aeb25afb43a05c0.webp",
+          "alt": "Flower Bead Rosary Necklace with Alloy Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf74e085b67224160bded2be0b3792162z.webp",
+          "alt": "Flower Bead Rosary Necklace with Alloy Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H76eb7e51b992463f8dfa1861fc29cedeD.webp",
+          "alt": "Flower Bead Rosary Necklace with Alloy Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdcdcddfebfa34201ba4af586c10b47eec.webp",
+          "alt": "Flower Bead Rosary Necklace with Alloy Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H402a3d4219344e84ba022a2c6d324ac7g.webp",
+          "alt": "Flower Bead Rosary Necklace with Alloy Cross"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "10mm plastic beads with flower shape",
+        "Alloy cross and centerpiece (cross size: 2.6*5cm)",
+        "Perimeter about 72cm; necklace length about 54cm",
+        "Total weight about 34.5g",
+        "Unisex religious jewelry with channel setting inlay"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Plastic beads; zinc alloy cross and centerpiece"
+        },
+        {
+          "name": "Cross size",
+          "value": "2.6*5cm"
+        },
+        {
+          "name": "Pendant length",
+          "value": "About 18cm"
+        },
+        {
+          "name": "Perimeter",
+          "value": "About 72cm"
+        },
+        {
+          "name": "Necklace length",
+          "value": "About 54cm"
+        },
+        {
+          "name": "Weight",
+          "value": "About 34.5g"
+        }
+      ],
+      "applications": [
+        "Personal prayer and devotional use",
+        "Catholic gift giving",
+        "Everyday wear as religious jewelry",
+        "Worn as a necklace accessory"
+      ],
+      "faq": [
+        {
+          "question": "What is the total length of this rosary necklace?",
+          "answer": "The perimeter is about 72cm, and when worn as a necklace, the length is about 54cm. The pendant adds about 18cm, bringing the total drop to roughly 72cm."
+        },
+        {
+          "question": "Are the beads made of plastic or another material?",
+          "answer": "The beads are made of plastic, specifically 10mm flower-shaped beads. The cross and centerpiece are made of zinc alloy."
+        },
+        {
+          "question": "Is this rosary suitable for both men and women?",
+          "answer": "Yes, it is designed as unisex, suitable for anyone. The colorful flower beads and lightweight construction make it a versatile choice."
+        }
+      ],
+      "pricing": {
+        "price": "0.66",
+        "regularPrice": "0.66",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.58",
+          "max": "0.66"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Flower Bead Rosary Necklace with Alloy Cross",
+          "description": "Colorful plastic rosary with flower beads, alloy cross and centerpiece. 72cm perimeter, 54cm necklace length. Unisex Catholic devotional jewelry.",
+          "sku": "ALI-AAHdTG7BAOVioqqEY6eCHasP",
+          "image": [
+            "https://sc04.alicdn.com/kf/He4f22c2b4e5644299a5ff3647436c015P.jpg",
+            "https://sc04.alicdn.com/kf/H5e19bc4575d347b990aeb25afb43a05c0.jpg",
+            "https://sc04.alicdn.com/kf/Hf74e085b67224160bded2be0b3792162z.jpg",
+            "https://sc04.alicdn.com/kf/H76eb7e51b992463f8dfa1861fc29cedeD.jpg",
+            "https://sc04.alicdn.com/kf/Hdcdcddfebfa34201ba4af586c10b47eec.jpg",
+            "https://sc04.alicdn.com/kf/H402a3d4219344e84ba022a2c6d324ac7g.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Plastic beads; zinc alloy cross and centerpiece"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Cross size",
+              "value": "2.6*5cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pendant length",
+              "value": "About 18cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Perimeter",
+              "value": "About 72cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Necklace length",
+              "value": "About 54cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Weight",
+              "value": "About 34.5g"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.66",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.58",
+              "maxPrice": "0.66",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the total length of this rosary necklace?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The perimeter is about 72cm, and when worn as a necklace, the length is about 54cm. The pendant adds about 18cm, bringing the total drop to roughly 72cm."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are the beads made of plastic or another material?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are made of plastic, specifically 10mm flower-shaped beads. The cross and centerpiece are made of zinc alloy."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed as unisex, suitable for anyone. The colorful flower beads and lightweight construction make it a versatile choice."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+            "contentHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:52.997Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHWTG7BAOVioqqEY6eBRiXm",
+      "sourceId": "AAHWTG7BAOVioqqEY6eBRiXm",
+      "sourceFingerprint": "99e29509da16db1a2fba5b5b94b6251b92a49f4c8b3451556e175f7b4c8955cc",
+      "locale": "en",
+      "slug": "handmade-wooden-cross-wall-hanging-11x21cm-ebrixm",
+      "title": "Handmade Wooden Cross Wall Hanging 11x21cm",
+      "eyebrow": "Wooden Wall Cross",
+      "summary": "This handmade wooden cross measures 11x21cm and is designed for wall hanging. Its natural wood finish and cutting technique give it a simple, traditional look suitable for church, home, or holiday decoration.",
+      "description": "Crafted from wood, this 11x21cm cross is a handmade wall hanging piece. The cutting technique gives it clean lines and a natural texture. Its compact size fits well in entryways, prayer corners, or above a mantel. \n\nAs a devotional object, it serves as a visual reminder of faith. Use it for personal reflection or as a gift for religious occasions like Christmas. The plain cross design without a corpus suits those who prefer a simple representation.",
+      "catholicContext": "A cross is a central symbol of the Christian faith, often used in personal devotion and home decoration.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHWTG7BAOVioqqEY6eBRiXm",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc56aa8e40a54494c8743f76d7641e3a8Z.webp",
+      "imageAlt": "Handmade Wooden Cross Wall Hanging 11x21cm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc56aa8e40a54494c8743f76d7641e3a8Z.webp",
+          "alt": "Handmade Wooden Cross Wall Hanging 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5cb1fb8c484f4ce5a7b4360c3aea866bx.webp",
+          "alt": "Handmade Wooden Cross Wall Hanging 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H934d4049cc20485a819d2697b5f68df9I.webp",
+          "alt": "Handmade Wooden Cross Wall Hanging 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ecf7c421b4f484eb756caa7c3b842d5N.webp",
+          "alt": "Handmade Wooden Cross Wall Hanging 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9900dab1002447c38b84fd990a3adffa7.webp",
+          "alt": "Handmade Wooden Cross Wall Hanging 11x21cm"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#9a6b63",
+      "features": [
+        "Made of wood",
+        "Handmade construction",
+        "11x21cm overall dimensions",
+        "Wall hanging style",
+        "Cutting technique for shaping"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Wood"
+        },
+        {
+          "name": "Size",
+          "value": "11x21cm"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Decoration",
+          "value": "Wall hanging"
+        },
+        {
+          "name": "Feature",
+          "value": "Handmade"
+        }
+      ],
+      "applications": [
+        "Home decoration",
+        "Church decoration",
+        "Holiday gift",
+        "Souvenir"
+      ],
+      "faq": [
+        {
+          "question": "What are the dimensions of this wooden cross?",
+          "answer": "The cross measures 11x21cm, making it a compact wall hanging suitable for small spaces."
+        },
+        {
+          "question": "Is this cross handmade?",
+          "answer": "Yes, the product is labeled as handmade, and the cutting technique is used to shape the wood."
+        },
+        {
+          "question": "Can this cross be used for Christmas decoration?",
+          "answer": "Yes, it is listed under holiday decoration and gift applications, including Christmas, and can serve as a decorative piece during the season."
+        }
+      ],
+      "pricing": {
+        "price": "0.75",
+        "regularPrice": "0.75",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.60",
+          "max": "0.75"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Handmade Wooden Cross Wall Hanging 11x21cm",
+          "description": "Handmade wooden cross wall hanging, 11x21cm, for church or home decor. A devotional piece in natural wood, ready to hang.",
+          "sku": "ALI-AAHWTG7BAOVioqqEY6eBRiXm",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc56aa8e40a54494c8743f76d7641e3a8Z.jpg",
+            "https://sc04.alicdn.com/kf/H5cb1fb8c484f4ce5a7b4360c3aea866bx.jpg",
+            "https://sc04.alicdn.com/kf/H934d4049cc20485a819d2697b5f68df9I.jpg",
+            "https://sc04.alicdn.com/kf/H6ecf7c421b4f484eb756caa7c3b842d5N.png",
+            "https://sc04.alicdn.com/kf/H9900dab1002447c38b84fd990a3adffa7.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Size",
+              "value": "11x21cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Decoration",
+              "value": "Wall hanging"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Feature",
+              "value": "Handmade"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.75",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.60",
+              "maxPrice": "0.75",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the dimensions of this wooden cross?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cross measures 11x21cm, making it a compact wall hanging suitable for small spaces."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this cross handmade?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product is labeled as handmade, and the cutting technique is used to shape the wood."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this cross be used for Christmas decoration?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is listed under holiday decoration and gift applications, including Christmas, and can serve as a decorative piece during the season."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+            "contentHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:44.336Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHaTG7BAOVioqqEY6e7LbS6",
+      "sourceId": "AAHaTG7BAOVioqqEY6e7LbS6",
+      "sourceFingerprint": "c5f0e73fd4325711982ae9c1d47214349fb6245a2c1278ec5af7071e44ff71ed",
+      "locale": "en",
+      "slug": "geometric-cross-natural-stone-bracelet-e7lbs6",
+      "title": "Geometric Cross Natural Stone Bracelet",
+      "eyebrow": "Geometric cross natural stone bracelet",
+      "summary": "A geometric cross natural stone bracelet designed for everyday wear. The elastic band fits most wrists, and the natural stone beads offer a minimalist look. Choose from black or white variants to match your style.",
+      "description": "This geometric cross bracelet combines natural stone beads with a simple cross pendant, creating an accessory that pairs well with casual or semi-formal attire. The elastic construction allows for easy slipping on and off, and the unisex design suits both men and women. Available in black and white, it works as a standalone piece or for mixing with other bracelets. The cross motif appeals to those seeking a subtle expression of faith in daily wear.",
+      "catholicContext": "A plain cross, without a corpus, is a Christian symbol of faith and may be worn as a devotional reminder, though it is not a sacramental unless blessed by the Church.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H9221bada29ce456ea649470ba162a406g.webp",
+      "imageAlt": "Geometric Cross Natural Stone Bracelet",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9221bada29ce456ea649470ba162a406g.webp",
+          "alt": "Geometric Cross Natural Stone Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0c5290dd7244afc959eed373a694ba4U.webp",
+          "alt": "Geometric Cross Natural Stone Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8e0c2299e1d2437f8f7328934a7eb020S.webp",
+          "alt": "Geometric Cross Natural Stone Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0b683bb5b484920b7201c43d6864df8p.webp",
+          "alt": "Geometric Cross Natural Stone Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb7d2c9c8bd4e4c9b8de429012818553cd.webp",
+          "alt": "Geometric Cross Natural Stone Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4bb4ed573bc43ee9ebc465940b2890d7.webp",
+          "alt": "Geometric Cross Natural Stone Bracelet"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H10e798c0a5264c20a31877a1f2b9dcb9J.webp",
+          "alt": "Geometric Cross Natural Stone Bracelet - black",
+          "label": "black",
+          "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ee28342967c4320aeb5ba9c448530d3o.webp",
+          "alt": "Geometric Cross Natural Stone Bracelet - white",
+          "label": "white",
+          "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6-V--2"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Natural stone beads",
+        "Geometric cross design",
+        "Elastic band for easy wear",
+        "Unisex style",
+        "Available in black and white"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Black, White"
+        }
+      ],
+      "applications": [
+        "Everyday casual wear",
+        "Pairing with other bracelets",
+        "Gifting for friends or family",
+        "Religious or spiritual expression"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this bracelet made of?",
+          "answer": "The bracelet features natural stone beads and an elastic band. Additional material details are not specified."
+        },
+        {
+          "question": "Is this bracelet sized for both men and women?",
+          "answer": "The product is described as unisex and suitable for men and women, though specific wrist size measurements are not provided."
+        },
+        {
+          "question": "Does the bracelet have a clasp?",
+          "answer": "No, the bracelet is elastic, so it stretches over the hand without a clasp."
+        }
+      ],
+      "pricing": {
+        "price": "0.42",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.36",
+          "max": "0.42"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Geometric Cross Natural Stone Bracelet",
+          "description": "Geometric cross natural stone bracelet with elastic band, available in black and white variants. A versatile accessory for men and women, suitable for everyday wear.",
+          "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6",
+          "image": [
+            "https://sc04.alicdn.com/kf/H9221bada29ce456ea649470ba162a406g.png",
+            "https://sc04.alicdn.com/kf/Hb0c5290dd7244afc959eed373a694ba4U.png",
+            "https://sc04.alicdn.com/kf/H8e0c2299e1d2437f8f7328934a7eb020S.png",
+            "https://sc04.alicdn.com/kf/Hb0b683bb5b484920b7201c43d6864df8p.png",
+            "https://sc04.alicdn.com/kf/Hb7d2c9c8bd4e4c9b8de429012818553cd.png",
+            "https://sc04.alicdn.com/kf/He4bb4ed573bc43ee9ebc465940b2890d7.png"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Black, White"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.42",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.36",
+              "maxPrice": "0.42",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this bracelet made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet features natural stone beads and an elastic band. Additional material details are not specified."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet sized for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product is described as unisex and suitable for men and women, though specific wrist size measurements are not provided."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the bracelet have a clasp?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, the bracelet is elastic, so it stretches over the hand without a clasp."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+            "contentHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:45.609Z",
             "model": "deepseek-v4-flash"
           }
         }

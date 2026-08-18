@@ -2,23 +2,23 @@
   "schemaVersion": 3,
   "locale": "de",
   "sourceLocale": "en",
-  "sourceCatalogHash": "132a1461bfc864f021282db7aca692fb068bf2f638530e533a00ece3904840de",
-  "generatedAt": "2026-08-17T03:13:01.162Z",
+  "sourceCatalogHash": "98fdd7a8ed86cd0b4d87d27ed3b8010eb959b35e9ab070f92027dcdc47ed01d3",
+  "generatedAt": "2026-08-18T03:08:08.836Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAEzTG7BAOVioqqEY6e1C4Bv",
-      "AAEITG7BAOVioqqEY6e6dEIU",
-      "AAG_TG7BAOVioqqEY6eBSvb6",
-      "AAHXTG7BAOVioqqEY6eBSMpA",
-      "AAHkTG7BAOVioqqEY6eDnVDw",
-      "AAGwTG7BAOVioqqEY6edxhO2",
-      "AAH1TG7BAOVioqqEY6eM_RBY",
-      "AAGJTG7BAOVioqqEY6eEqkiP",
-      "AAGqTG7BAOVioqqEY6eBSJLL",
-      "AAF7TG7BAOVioqqEY6eBTD5s"
+      "AAHRTG7BAOVioqqEY6e7sF2F",
+      "AAE_TG7BAOVioqqEY6eBTjU3",
+      "AAGOTG7BAOVioqqEY6eBtUmL",
+      "AAEcTG7BAOVioqqEY6eYM2Jr",
+      "AAHMTG7BAOVioqqEY6eBS0mz",
+      "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "AAHdTG7BAOVioqqEY6eCHasP",
+      "AAHWTG7BAOVioqqEY6eBRiXm",
+      "AAHaTG7BAOVioqqEY6e7LbS6"
     ],
     "deletedProductIds": []
   },
@@ -36,25 +36,28 @@
   },
   "categoryGlossarySourceHash": "b6c56a83072314b56383fbfa434e33dfc4e91cf06a3a3e3c5578f25bc7ae98a6",
   "translationSummary": {
-    "ready": 268,
-    "skipped": 2,
+    "ready": 279,
+    "skipped": 1,
     "skippedProductIds": [
-      "AAGxTG7BAOVioqqEY6e7uzWC",
-      "AAEDTG7BAOVioqqEY6erMoEh"
+      "AAGxTG7BAOVioqqEY6e7uzWC"
     ],
-    "reused": 258,
-    "generated": 10,
+    "reused": 265,
+    "generated": 14,
     "generatedProductIds": [
+      "AAEDTG7BAOVioqqEY6erMoEh",
       "AAEzTG7BAOVioqqEY6e1C4Bv",
-      "AAEITG7BAOVioqqEY6e6dEIU",
-      "AAG_TG7BAOVioqqEY6eBSvb6",
-      "AAHXTG7BAOVioqqEY6eBSMpA",
       "AAHkTG7BAOVioqqEY6eDnVDw",
-      "AAGwTG7BAOVioqqEY6edxhO2",
-      "AAH1TG7BAOVioqqEY6eM_RBY",
-      "AAGJTG7BAOVioqqEY6eEqkiP",
-      "AAGqTG7BAOVioqqEY6eBSJLL",
-      "AAF7TG7BAOVioqqEY6eBTD5s"
+      "AAF7TG7BAOVioqqEY6eBTD5s",
+      "AAHRTG7BAOVioqqEY6e7sF2F",
+      "AAE_TG7BAOVioqqEY6eBTjU3",
+      "AAGOTG7BAOVioqqEY6eBtUmL",
+      "AAEcTG7BAOVioqqEY6eYM2Jr",
+      "AAHMTG7BAOVioqqEY6eBS0mz",
+      "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "AAHdTG7BAOVioqqEY6eCHasP",
+      "AAHWTG7BAOVioqqEY6eBRiXm",
+      "AAHaTG7BAOVioqqEY6e7LbS6"
     ],
     "retriedBacklog": 2,
     "glossaryReused": true
@@ -543,367 +546,6 @@
             "contentHash": "ea7adc1644caf3e7501ab5e89ec80a6f207c7926d1888414221ce0d9af85aa32",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:55:06.338Z",
-            "model": "deepseek-v4-flash"
-          }
-        }
-      }
-    },
-    {
-      "productId": "AAEDTG7BAOVioqqEY6erMoEh",
-      "sourceId": "AAEDTG7BAOVioqqEY6erMoEh",
-      "sourceFingerprint": "374d241ab1318945d79cda582029c7d4df7fec874256197853f96a530c341c52",
-      "locale": "en",
-      "slug": "zinc-alloy-rhinestone-heart-pendant-necklace-ermoeh",
-      "title": "Zinc Alloy Rhinestone Heart Pendant Necklace",
-      "eyebrow": "Zinc alloy rhinestone heart pendant necklace",
-      "summary": "These zinc alloy heart pendants feature rhinestone accents and come in a range of plating options, including gold, white gold, and gun-black. Sizes vary from about 1.6 cm to 2.3 cm, with designs such as classic hearts, crowns, wings, and arrow-pierced motifs. Available in multiple color variants, they suit a variety of fashion styles.",
-      "description": "This collection of heart pendant necklaces offers a broad selection of finishes and motifs, making it easy to match different fashion lines. Made from zinc alloy, the pendants are plated in gold, white gold, or gun-black, with some featuring pink or red tones. Sizes approximate from 1.6 cm to 2.3 cm in height, and the designs include plain hearts, love crowns, wings, palm motifs, and arrow-pierced hearts, providing buyers with ample choice.\n\nEach pendant is embellished with rhinestones, adding a subtle sparkle. The variants include gold-plated red and pink zircon options, as well as white gold and platinum-plated pieces. These necklaces are intended for fashion use and can be ordered in bulk for retail or promotional purposes. If you need assistance selecting specific sizes or finishes, contact us for more details.",
-      "catholicContext": "",
-      "catholicRelevance": "none",
-      "categories": [
-        {
-          "id": "209",
-          "name": "Fashion Necklace",
-          "slug": "fashion-necklace"
-        }
-      ],
-      "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh",
-      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2240d0c45a69466c95eba4ed9e4ad541e.webp",
-      "imageAlt": "Zinc Alloy Rhinestone Heart Pendant Necklace",
-      "gallery": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2240d0c45a69466c95eba4ed9e4ad541e.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb95600964ba44eb2b75243b5f12889f12.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7831a12b9f03440a8562ed4af9731e7ao.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd34c3ac2aa194012bafc7102d51b997aA.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb00dcbe7f3ad406c85d1fa5f8437896eY.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H873b8100732049aeb5b18738e02934be3.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace"
-        }
-      ],
-      "variantImages": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha4c6cdca96dd4380b8dcc410b36a9683C.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-wings-nz06-7",
-          "label": "gold-plated-love-wings-nz06-7",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--22"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha1ea212202114ac79775f36b4add76efR.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-nz06-6",
-          "label": "gold-plated-love-nz06-6",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--21"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H79a15f7081d14f24b548a228e73a614e0.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-palm-nz06-5",
-          "label": "gold-plated-love-palm-nz06-5",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--20"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H28ccd1681ef34b6f92ca0d7821757351V.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-arrow-piercing-love-nz06-4",
-          "label": "gold-plated-arrow-piercing-love-nz06-4",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--19"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H776e7d1210c34af3b5c0d20b40a29d375.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - platinum-plated-nac11-5",
-          "label": "platinum-plated-nac11-5",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--25"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc9c73cbde2974f11a893ede6e1ac99b3t.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - white-gold-plated-nac12-9",
-          "label": "white-gold-plated-nac12-9",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--24"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb4fa230d0dd8445788d3ac97b2ea658e4.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-wings-nz06-9",
-          "label": "gold-plated-love-wings-nz06-9",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--23"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf08c3d7c5e244852a783926589a7c552u.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 1-7-1-2cm-gold-plated-red-love-nab10-6",
-          "label": "1-7-1-2cm-gold-plated-red-love-nab10-6",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--2"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hdd7bd9a896bc4fbdb59fd529b005f14dv.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-zircon-love-red-nt02-4",
-          "label": "gold-plated-zircon-love-red-nt02-4",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--1"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H723bcf3aad3d42b9af0f1301f1856a35r.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-pink-zircon-nac12-1",
-          "label": "gold-plated-pink-zircon-nac12-1",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--14"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7416dc470c724a9687afad9f10967573f.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-pink-nab04-8",
-          "label": "gold-plated-love-pink-nab04-8",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--13"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hde2e4087105d4152beca7bb5bd09dff1J.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-zircon-love-pink-na24-4",
-          "label": "gold-plated-zircon-love-pink-na24-4",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--12"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hdaa450911d384d54a30a5d3c0c47a2e66.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - white-gold-plated-nac12-8",
-          "label": "white-gold-plated-nac12-8",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--11"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2c06514f04634612bbcc0f476d962b85K.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-crown-nz06-8",
-          "label": "gold-plated-love-crown-nz06-8",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--18"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb220db3078284ee0b54322461f2b4d31x.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-crown-nz06-3",
-          "label": "gold-plated-love-crown-nz06-3",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--17"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H805fe8c7c7364a3f92247598cb6fb28bM.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-love-white-na14-2",
-          "label": "gold-plated-love-white-na14-2",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--16"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5bbe4bd1b3b64386ac9aec1011d65291B.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - gold-plated-pink-zircon-nac12-7",
-          "label": "gold-plated-pink-zircon-nac12-7",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--15"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf999ba34d5fa44a8926d2da313523eee5.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 1-6-1cm-gold-plated-red-love-nac08-1",
-          "label": "1-6-1cm-gold-plated-red-love-nac08-1",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--6"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9bf719c10606485385357086ee1438735.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-1-3cm-gold-plated-red-love-nac07-9",
-          "label": "2-1-3cm-gold-plated-red-love-nac07-9",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--5"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0c7a1ac33f1e43d294b3066ae0da496br.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 1-9-1-4cm-gold-plated-red-love-nac07-10",
-          "label": "1-9-1-4cm-gold-plated-red-love-nac07-10",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--4"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc3fd60191f9d4ef1a4125589c82e7a6el.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-1-1-2cm-gold-plated-love-nab10-5",
-          "label": "2-1-1-2cm-gold-plated-love-nab10-5",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--3"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H830caf0ba41746a9b1350ee465d347319.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-3-1-6cm-gold-plated-gun-black-nae07-2",
-          "label": "2-3-1-6cm-gold-plated-gun-black-nae07-2",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--10"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3113117bfa0b45d2b0e393aef367dd79S.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-1-3cm-white-gold-plated-nac11-7",
-          "label": "2-1-3cm-white-gold-plated-nac11-7",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--9"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9ce16b73db714c3a9edb67156acc96434.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-1-1-2cm-white-gold-plated-nac11-3",
-          "label": "2-1-1-2cm-white-gold-plated-nac11-3",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--8"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbdbaa3d9c8bd41d183282d80c117197bN.webp",
-          "alt": "Zinc Alloy Rhinestone Heart Pendant Necklace - 2-21-2-cm-gold-plated-red-nae02-10",
-          "label": "2-21-2-cm-gold-plated-red-nae02-10",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--7"
-        }
-      ],
-      "accent": "#6f7c72",
-      "features": [
-        "Zinc alloy construction with gold, white gold, or gun-black plating",
-        "Rhinestone accents on the heart pendants",
-        "Multiple size variants from approximately 1.6 cm to 2.3 cm",
-        "Variety of designs including hearts, crowns, wings, and arrow-pierced motifs",
-        "Color options include red, pink, and white"
-      ],
-      "specifications": [
-        {
-          "name": "Material",
-          "value": "Zinc alloy"
-        },
-        {
-          "name": "Plating",
-          "value": "Gold, white gold, gun-black, or platinum (variant-dependent)"
-        },
-        {
-          "name": "Pendant Size",
-          "value": "From 1.6 x 1 cm to 2.3 x 1.6 cm (variant-dependent)"
-        },
-        {
-          "name": "Stone",
-          "value": "Rhinestone or zircon"
-        },
-        {
-          "name": "Style",
-          "value": "Fashion necklace"
-        }
-      ],
-      "applications": [
-        "Fashion accessory for casual or dressed-up outfits",
-        "Retail jewelry displays",
-        "Gift items for Valentine's Day or anniversaries",
-        "Wholesale for boutiques or online stores"
-      ],
-      "faq": [
-        {
-          "question": "What materials are these necklaces made from?",
-          "answer": "The pendants are made from zinc alloy and are plated with gold, white gold, or gun-black, depending on the variant."
-        },
-        {
-          "question": "What are the available sizes?",
-          "answer": "Pendant sizes range from approximately 1.6 x 1 cm to 2.3 x 1.6 cm, depending on the specific variant."
-        },
-        {
-          "question": "Can I order a specific variant?",
-          "answer": "Yes, you can select from the listed variants, which include different plating, stone colors, and designs. For bulk orders or custom requirements, please contact us."
-        }
-      ],
-      "pricing": {
-        "price": "1.30",
-        "currency": "USD",
-        "onSale": false,
-        "priceRange": {
-          "min": "1.30",
-          "max": "2.76"
-        }
-      },
-      "structuredData": {
-        "product": {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "Zinc Alloy Rhinestone Heart Pendant Necklace",
-          "description": "Wholesale zinc alloy heart pendant necklaces with rhinestone details, available in gold, white gold, and gun-black finishes, multiple sizes.",
-          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh",
-          "image": [
-            "https://sc04.alicdn.com/kf/H2240d0c45a69466c95eba4ed9e4ad541e.jpg",
-            "https://sc04.alicdn.com/kf/Hb95600964ba44eb2b75243b5f12889f12.jpg",
-            "https://sc04.alicdn.com/kf/H7831a12b9f03440a8562ed4af9731e7ao.jpg",
-            "https://sc04.alicdn.com/kf/Hd34c3ac2aa194012bafc7102d51b997aA.jpg",
-            "https://sc04.alicdn.com/kf/Hb00dcbe7f3ad406c85d1fa5f8437896eY.jpg",
-            "https://sc04.alicdn.com/kf/H873b8100732049aeb5b18738e02934be3.jpg"
-          ],
-          "category": "Fashion Necklace",
-          "additionalProperty": [
-            {
-              "@type": "PropertyValue",
-              "name": "Material",
-              "value": "Zinc alloy"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Plating",
-              "value": "Gold, white gold, gun-black, or platinum (variant-dependent)"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Pendant Size",
-              "value": "From 1.6 x 1 cm to 2.3 x 1.6 cm (variant-dependent)"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Stone",
-              "value": "Rhinestone or zircon"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Style",
-              "value": "Fashion necklace"
-            }
-          ],
-          "offers": {
-            "@type": "Offer",
-            "price": "1.30",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "minPrice": "1.30",
-              "maxPrice": "2.76",
-              "priceCurrency": "USD"
-            }
-          }
-        },
-        "faq": {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What materials are these necklaces made from?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The pendants are made from zinc alloy and are plated with gold, white gold, or gun-black, depending on the variant."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What are the available sizes?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Pendant sizes range from approximately 1.6 x 1 cm to 2.3 x 1.6 cm, depending on the specific variant."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can I order a specific variant?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, you can select from the listed variants, which include different plating, stone colors, and designs. For bulk orders or custom requirements, please contact us."
-              }
-            }
-          ]
-        }
-      },
-      "localization": {
-        "sourceLocale": "en",
-        "sourceHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
-        "translations": {
-          "en": {
-            "status": "source",
-            "sourceHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
-            "contentHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
-            "attempts": 0,
-            "updatedAt": "2026-08-14T04:12:50.913Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -57483,11 +57125,11 @@
       "sourceFingerprint": "c044c1bc843c659f9fa0de2a763749042fbab9668b5ca9b4aaf4294a3bc993aa",
       "locale": "de",
       "slug": "customizable-cross-charm-pendant-for-children-e1c4bv",
-      "title": "Personalisierbares Kreuz-Anhänger-Armband für Kinder",
-      "eyebrow": "personalisierbares kreuzförmiges Anhänger-Armband",
-      "summary": "Ein kreuzförmiger Anhänger aus Legierung, entworfen für Kinder. Die anpassbaren Texte und Muster machen ihn geeignet für religiöse Geschenke, Jahrestage oder persönliche Erinnerungsstücke. Formenbau und Muster-Services sind für Großhandelsbestellungen verfügbar.",
-      "description": "Dieser kreuzförmige Anhänger ist aus Legierung gefertigt und bietet eine langlebige Basis für ein Design, das mit Namen oder Wörtern personalisiert werden kann. Der Anhänger hat ein Kreuzmuster, das seinem katholischen religiösen Stil entspricht. Hergestellt in Zhejiang, China, ist dieses Produkt für den direkten Fabrikverkauf im Großhandel positioniert.\n\nFür Käufer, die maßgeschneiderte Designs benötigen, werden Formenbau und Muster-Services angeboten, die eine Anpassung von Text, Mustern oder Bildern ermöglichen. Der Anhänger wird unter katholischen Skapulieren kategorisiert, funktioniert jedoch als Anhänger oder Charms, was ihn vielseitig für verschiedene andächtige oder Geschenkzwecke macht.\n\nGeschlechtsspezifisch für Kinder, könnte dieser Anhänger als bedeutungsvolles Accessoire für junge Menschen bei religiösen Meilensteinen wie Erstkommunion oder Taufe dienen, obwohl seine Verwendung nicht auf solche Ereignisse beschränkt ist.",
-      "catholicContext": "Das Kreuz ist ein zentrales Symbol des christlichen Glaubens, und katholische Andachtsgegenstände zeigen oft das Kreuz als Erinnerung an Christi Opfer.",
+      "title": "Personalisierbares Kreuz-Anhänger-Anhänger für Kinder",
+      "eyebrow": "personalisierbares kreuzförmiges Anhänger-Amulett",
+      "summary": "Ein kreuzförmiger Anhänger aus Legierung, entworfen für Kinder. Sein personalisierbarer Text und Muster machen ihn geeignet für religiöse Geschenke, Jahrestage oder persönliche Andenken. Formenbau und Musterdienste sind für Großhandelsbestellungen verfügbar.",
+      "description": "Dieser kreuzförmige Anhänger besteht aus Legierung und bietet eine haltbare Basis für ein Design, das mit Namen oder Wörtern personalisiert werden kann. Der Anhänger weist ein Kreuzmuster auf, das seinem katholischen religiösen Stil entspricht. Das Produkt stammt aus Zhejiang, China, und ist für den direkten Fabrikverkauf im Großhandel positioniert.\n\nFür Käufer, die maßgeschneiderte Designs benötigen, werden Formenbau und Musterdienste angeboten, die eine Anpassung von Text, Mustern oder Bildern ermöglichen. Der Anhänger ist unter Katholische Skapuliere kategorisiert, obwohl er als Anhänger oder Amulett fungiert, was ihn vielseitig für verschiedene Andachts- oder Geschenkanwendungen macht.\n\nGeschlechtsspezifisch für Kinder konzipiert, könnte dieser Anhänger als bedeutungsvolles Accessoire für junge Menschen bei religiösen Meilensteinen wie Erstkommunion oder Taufe dienen, obwohl seine Verwendung nicht auf solche Ereignisse beschränkt ist.",
+      "catholicContext": "Das Kreuz ist ein zentrales Symbol des christlichen Glaubens, und katholische Andachtsgegenstände zeigen oft das Kreuz als Erinnerung an das Opfer Christi.",
       "catholicRelevance": "explicit",
       "categories": [
         {
@@ -57498,27 +57140,27 @@
       ],
       "sku": "ALI-AAEzTG7BAOVioqqEY6e1C4Bv",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H00bd6dffb0884b6a86dc0d9a4282ccbeg.webp",
-      "imageAlt": "Personalisierbares Kreuz-Anhänger-Armband für Kinder",
+      "imageAlt": "Personalisierbarer Kreuz-Anhänger für Kinder",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/08/H00bd6dffb0884b6a86dc0d9a4282ccbeg.webp",
-          "alt": "Personalisierbares Kreuz-Anhänger-Armband für Kinder"
+          "alt": "Personalisierbarer Kreuz-Anhänger für Kinder"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/08/H8d03ab187e6e4ecf83ac3785f368be5aP.webp",
-          "alt": "Personalisierbares Kreuz-Anhänger-Armband für Kinder"
+          "alt": "Personalisierbarer Kreuz-Anhänger für Kinder"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/08/H73b492da923449ebb55578d487378f02v.webp",
-          "alt": "Personalisierbares Kreuz-Anhänger-Armband für Kinder"
+          "alt": "Personalisierbarer Kreuz-Anhänger für Kinder"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf61d4d18f4eb4f83bd8b9a9d9672b305i.webp",
-          "alt": "Personalisierbares Kreuz-Anhänger-Armband für Kinder"
+          "alt": "Personalisierbarer Kreuz-Anhänger für Kinder"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha9db3f33aa4a45ebb43db13b398668b3o.webp",
-          "alt": "Personalisierbares Kreuz-Anhänger-Armband für Kinder"
+          "alt": "Personalisierbarer Kreuz-Anhänger für Kinder"
         }
       ],
       "variantImages": [],
@@ -57528,7 +57170,7 @@
         "Personalisierbarer Text und Muster (Name oder Wörter)",
         "Kreuzform/-muster, religiöser Stil",
         "Für Kinder entworfen",
-        "Formenbau und Muster-Services verfügbar",
+        "Formenbau und Musterdienste verfügbar",
         "Herkunftsort: Zhejiang, China (CN;ZHE)"
       ],
       "specifications": [
@@ -57537,8 +57179,8 @@
           "value": "Legierung"
         },
         {
-          "name": "Anhänger/Charm-Typ",
-          "value": "Charm-Anhänger"
+          "name": "Anhänger-/Amulett-Typ",
+          "value": "Anhänger"
         },
         {
           "name": "Form/Muster",
@@ -57561,28 +57203,28 @@
           "value": "Text und Muster anpassbar"
         },
         {
-          "name": "Zusätzliche Services",
+          "name": "Zusätzliche Dienste",
           "value": "Formenbau und Musterherstellung"
         }
       ],
       "applications": [
         "Personalisierte religiöse Geschenke für Kinder",
-        "Jahrestags-Andenken mit persönlichem Text",
-        "Accessoires für religiöse Ereignisse oder Meilensteine",
-        "Persönlicher Andachts-Charm"
+        "Jahrestag-Andenken mit persönlichem Text",
+        "Accessoires für religiöse Veranstaltungen oder Meilensteine",
+        "Persönliches Andachts-Amulett"
       ],
       "faq": [
         {
           "question": "Aus welchem Material besteht dieser Kreuzanhänger?",
-          "answer": "Dieser Kreuzanhänger ist aus Legierung gefertigt, wie in den Produktattributen angegeben."
+          "answer": "Dieser Kreuzanhänger besteht aus Legierung, wie in den Produktattributen angegeben."
         },
         {
           "question": "Kann der Kreuzanhänger mit einem Namen oder spezifischem Text personalisiert werden?",
-          "answer": "Ja, die Produktattribute zeigen, dass eine Personalisierung mit Name oder Wörtern verfügbar ist, und das Design kann an Ihre Bedürfnisse angepasst werden."
+          "answer": "Ja, die Produktattribute zeigen, dass eine Personalisierung von Namen oder Wörtern verfügbar ist, und das Design kann an Ihre Bedürfnisse angepasst werden."
         },
         {
-          "question": "Gibt es zusätzliche Services für die Erstellung von kundenspezifischen Formen oder Mustern?",
-          "answer": "Ja, die Produktliste enthält Formenbau und Muster-Services, die es Ihnen ermöglichen, kundenspezifische Muster oder Texte für Großhandelsbestellungen zu entwickeln."
+          "question": "Gibt es zusätzliche Dienste für die Erstellung von kundenspezifischen Formen oder Mustern?",
+          "answer": "Ja, das Produktlisting umfasst Formenbau und Musterherstellung, sodass Sie kundenspezifische Muster oder Texte für Großhandelsbestellungen entwickeln können."
         }
       ],
       "pricing": {
@@ -57599,8 +57241,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Personalisierbares Kreuz-Anhänger-Armband für Kinder",
-          "description": "Ein kreuzförmiger Anhänger aus Legierung, entworfen für Kinder. Die anpassbaren Texte und Muster machen ihn geeignet für religiöse Geschenke, Jahrestage oder persönliche Erinnerungsstücke. Formenbau und Muster-Services sind für Großhandelsbestellungen verfügbar.",
+          "name": "Personalisierbares Kreuz-Anhänger-Anhänger für Kinder",
+          "description": "Ein kreuzförmiger Anhänger aus Legierung, entworfen für Kinder. Sein personalisierbarer Text und Muster machen ihn geeignet für religiöse Geschenke, Jahrestage oder persönliche Andenken. Formenbau und Musterdienste sind für Großhandelsbestellungen verfügbar.",
           "sku": "ALI-AAEzTG7BAOVioqqEY6e1C4Bv",
           "image": [
             "https://sc04.alicdn.com/kf/H00bd6dffb0884b6a86dc0d9a4282ccbeg.png",
@@ -57618,8 +57260,8 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Anhänger/Charm-Typ",
-              "value": "Charm-Anhänger"
+              "name": "Anhänger-/Amulett-Typ",
+              "value": "Anhänger"
             },
             {
               "@type": "PropertyValue",
@@ -57648,7 +57290,7 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Zusätzliche Services",
+              "name": "Zusätzliche Dienste",
               "value": "Formenbau und Musterherstellung"
             }
           ],
@@ -57674,7 +57316,7 @@
               "name": "Aus welchem Material besteht dieser Kreuzanhänger?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Dieser Kreuzanhänger ist aus Legierung gefertigt, wie in den Produktattributen angegeben."
+                "text": "Dieser Kreuzanhänger besteht aus Legierung, wie in den Produktattributen angegeben."
               }
             },
             {
@@ -57682,15 +57324,15 @@
               "name": "Kann der Kreuzanhänger mit einem Namen oder spezifischem Text personalisiert werden?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, die Produktattribute zeigen, dass eine Personalisierung mit Name oder Wörtern verfügbar ist, und das Design kann an Ihre Bedürfnisse angepasst werden."
+                "text": "Ja, die Produktattribute zeigen, dass eine Personalisierung von Namen oder Wörtern verfügbar ist, und das Design kann an Ihre Bedürfnisse angepasst werden."
               }
             },
             {
               "@type": "Question",
-              "name": "Gibt es zusätzliche Services für die Erstellung von kundenspezifischen Formen oder Mustern?",
+              "name": "Gibt es zusätzliche Dienste für die Erstellung von kundenspezifischen Formen oder Mustern?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, die Produktliste enthält Formenbau und Muster-Services, die es Ihnen ermöglichen, kundenspezifische Muster oder Texte für Großhandelsbestellungen zu entwickeln."
+                "text": "Ja, das Produktlisting umfasst Formenbau und Musterherstellung, sodass Sie kundenspezifische Muster oder Texte für Großhandelsbestellungen entwickeln können."
               }
             }
           ]
@@ -57698,22 +57340,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
+        "sourceHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
-            "contentHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
+            "sourceHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
+            "contentHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
             "attempts": 0,
             "updatedAt": "2026-08-17T03:04:23.427Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
-            "contentHash": "89e2b2aeb27521bc4c1975c4fcf3460e5f0ae5bef63327bcbd0761a09cabc949",
+            "sourceHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
+            "contentHash": "e0eac85a0fd5f1dab0306097269ab1b3fa544011a76f43222fc8160d18c243bb",
             "attempts": 1,
-            "updatedAt": "2026-08-17T03:11:54.035Z",
+            "updatedAt": "2026-08-18T03:06:41.220Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -58404,8 +58046,8 @@
       "slug": "10mm-bead-plastic-rosary-with-cross-ednvdw",
       "title": "Rosenkranz mit Kreuz, 10mm Perlen",
       "eyebrow": "Rosenkranz",
-      "summary": "Ein Rosenkranz aus Kunststoff mit 10mm Perlen und Kreuz, erhältlich in vier Farbvarianten. Leicht und langlebig, geeignet für persönliches Gebet, katechetische Zwecke oder als Geschenk für religiöse Anlässe.",
-      "description": "Dieser Rosenkranz aus Kunststoff ist mit 10mm Perlen gefertigt und enthält ein Kreuz. Erhältlich in Beige, Schwarz, Weiß und Blau. Das Design folgt dem traditionellen Rosenkranzformat, typisch für das katholische Gebet. Die Kunststoffkonstruktion bietet Langlebigkeit und ein leichtes Gefühl. Geeignet für individuelle Andacht, religiöse Bildungseinrichtungen oder als bedeutungsvolles Geschenk für Anlässe wie die Erstkommunion.",
+      "summary": "Ein Plastik-Rosenkranz mit 10mm Perlen und Kreuz, erhältlich in vier Farbvarianten. Leicht und langlebig, geeignet für persönliches Gebet, katechetische Zwecke oder als Geschenk für religiöse Anlässe.",
+      "description": "Dieser Plastik-Rosenkranz besteht aus 10mm Perlen und enthält ein Kreuz. Erhältlich in Beige, Schwarz, Weiß und Blau. Das Design folgt dem traditionellen Rosenkranzformat, typisch für das katholische Gebet. Die Kunststoffkonstruktion bietet Langlebigkeit und ein leichtes Gefühl. Geeignet für persönliche Andacht, religiöse Bildung oder als bedeutungsvolles Geschenk für Anlässe wie die Erstkommunion.",
       "catholicContext": "Der Rosenkranz ist ein katholisches Gebet, das sich auf die Betrachtung von Ereignissen im Leben Jesu Christi und der Jungfrau Maria konzentriert.",
       "catholicRelevance": "devotional_context",
       "categories": [
@@ -58472,7 +58114,7 @@
       ],
       "accent": "#8b6b4a",
       "features": [
-        "Perlengröße: 10mm",
+        "10mm Perlengröße",
         "Kunststoffkonstruktion",
         "Kreuz enthalten",
         "Farbvarianten: Beige, Schwarz, Weiß, Blau",
@@ -58499,8 +58141,8 @@
       "applications": [
         "Persönliches Gebet und Andacht",
         "Religiöse Bildung und Katechese",
-        "Geschenk für sakramentale Anlässe wie Erstkommunion",
-        "Kirchen- oder Ministrantenbedarf"
+        "Geschenk für sakramentale Anlässe wie die Erstkommunion",
+        "Kirchen- oder Gemeindebedarf"
       ],
       "faq": [
         {
@@ -58530,7 +58172,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Rosenkranz mit Kreuz, 10mm Perlen",
-          "description": "Ein Rosenkranz aus Kunststoff mit 10mm Perlen und Kreuz, erhältlich in vier Farbvarianten. Leicht und langlebig, geeignet für persönliches Gebet, katechetische Zwecke oder als Geschenk für religiöse Anlässe.",
+          "description": "Ein Plastik-Rosenkranz mit 10mm Perlen und Kreuz, erhältlich in vier Farbvarianten. Leicht und langlebig, geeignet für persönliches Gebet, katechetische Zwecke oder als Geschenk für religiöse Anlässe.",
           "sku": "ALI-AAHkTG7BAOVioqqEY6eDnVDw",
           "image": [
             "https://sc04.alicdn.com/kf/H91acfa23878847d3a7cee42d39f724d9A.jpg",
@@ -58609,22 +58251,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
+        "sourceHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
-            "contentHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
+            "sourceHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
+            "contentHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
             "attempts": 0,
             "updatedAt": "2026-08-17T03:04:26.169Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
-            "contentHash": "7146c5bbf470e00d2c5828d9d4b5ba5285f328cc188c20b93cf616bdc5fc2dbc",
-            "attempts": 2,
-            "updatedAt": "2026-08-17T03:12:29.740Z",
+            "sourceHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
+            "contentHash": "d7a31aaf8a11346e0b9de21dd636851b38e339885d84c6a1c0538c99129fa581",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:06:47.203Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -59539,10 +59181,10 @@
       "sourceFingerprint": "e532b0b71da1ec5cb006c414491da1e13a8fd1edcd19cf520075368b7cca238b",
       "locale": "de",
       "slug": "zinc-alloy-cross-wall-hanging-medal-ebtd5s",
-      "title": "Wandkreuz-Medaille aus Zinklegierung",
+      "title": "Zinklegierung Kreuz Wandhängende Medaille",
       "eyebrow": "dekorative Kreuzmedaille",
-      "summary": "Eine Kreuzmedaille aus Zinklegierung mit einer Bildgröße von 8,8 x 6 cm. Sie kann an der Wand aufgehängt oder auf einer Oberfläche aufgestellt werden und eignet sich vielseitig für die Wohnungsdekoration, Gebetsecken oder als Geschenk.",
-      "description": "Diese Wandkreuz-Medaille wird aus Zinklegierung mit einer beschichteten Oberfläche gegossen. Die Oberfläche weist ein gestanztes Design in 2D-Kreuzform auf. Die Maße betragen etwa 8,8 cm mal 6 cm, mit einem kleineren quadratischen Legierungsblech von 3 cm mal 2,5 cm. Das doppelte Design ermöglicht es, sie an der Wand aufzuhängen oder auf einen Ständer zu stellen.\n\nDie kompakte Größe und die metallische Oberfläche machen sie für verschiedene Präsentationsmöglichkeiten geeignet. Das religiöse Motiv entspricht katholischen Andachtspraktiken, bei denen Kreuze häufig in häuslichen Gebetsräumen verwendet werden.",
+      "summary": "Eine Kreuzmedaille aus Zinklegierung mit einer Bildgröße von 8,8 x 6 cm. Sie kann an der Wand aufgehängt oder auf einer Oberfläche aufgestellt werden, vielseitig einsetzbar für die Wohndekoration, Gebetsecken oder als Geschenk.",
+      "description": "Diese wandhängende Kreuzmedaille ist aus Zinklegierung mit einer beschichteten Oberfläche gegossen. Die Oberfläche hat ein gestanztes Design mit einer 2D-Kreuzform. Sie misst ungefähr 8,8 cm mal 6 cm, mit einem kleineren quadratischen Blech aus Legierung von 3 cm mal 2,5 cm. Das Dual-Purpose-Design ermöglicht es, sie an einer Wand aufzuhängen oder auf einem Ständer zu platzieren.\n\nDie kompakte Größe und die metallische Oberfläche der Medaille machen sie für verschiedene Präsentationsumgebungen geeignet. Ihr religiöses Motiv passt zu katholischen Andachtspraktiken, bei denen Kreuze häufig in häuslichen Gebetsräumen verwendet werden.",
       "catholicContext": "Das Kreuz ist ein zentrales Symbol des christlichen Glaubens und repräsentiert die Kreuzigung Jesu Christi.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -59554,27 +59196,27 @@
       ],
       "sku": "ALI-AAF7TG7BAOVioqqEY6eBTD5s",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H309eea3954b94281aeb3b86d0e10991fw.webp",
-      "imageAlt": "Wandkreuz-Medaille aus Zinklegierung",
+      "imageAlt": "Zinklegierung Kreuz Wandhängende Medaille",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H309eea3954b94281aeb3b86d0e10991fw.webp",
-          "alt": "Wandkreuz-Medaille aus Zinklegierung"
+          "alt": "Zinklegierung Kreuz Wandhängende Medaille"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbfe605c7f23847feb2588ba3fa3e89beL.webp",
-          "alt": "Wandkreuz-Medaille aus Zinklegierung"
+          "alt": "Zinklegierung Kreuz Wandhängende Medaille"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Haef0f33219d145dea635983eb72141c6d.webp",
-          "alt": "Wandkreuz-Medaille aus Zinklegierung"
+          "alt": "Zinklegierung Kreuz Wandhängende Medaille"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H250bb97895454fa68b32517115be54618.webp",
-          "alt": "Wandkreuz-Medaille aus Zinklegierung"
+          "alt": "Zinklegierung Kreuz Wandhängende Medaille"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc57ad1a864d24bdb82e850353b2d7c13U.webp",
-          "alt": "Wandkreuz-Medaille aus Zinklegierung"
+          "alt": "Zinklegierung Kreuz Wandhängende Medaille"
         }
       ],
       "variantImages": [],
@@ -59582,10 +59224,10 @@
       "features": [
         "Material: Zinklegierung",
         "Beschichtete Oberfläche",
-        "Drucktechnik: Stanzdruck",
-        "Doppelte Nutzung: Wandhängung oder Stand",
+        "Stanzdrucktechnik",
+        "Doppelter Verwendungszweck: Wandhängend oder stehend",
         "Bildgröße: 8,8 cm x 6 cm",
-        "Inklusive quadratischem Legierungsblech von 3 cm x 2,5 cm"
+        "Enthält ein quadratisches Blech aus Legierung von 3 cm x 2,5 cm"
       ],
       "specifications": [
         {
@@ -59601,7 +59243,7 @@
           "value": "8,8 cm x 6 cm"
         },
         {
-          "name": "Quadratisches Legierungsblech",
+          "name": "Quadratisches Blech aus Legierung",
           "value": "3 cm x 2,5 cm"
         },
         {
@@ -59614,23 +59256,23 @@
         }
       ],
       "applications": [
-        "Wohnungsdekoration",
-        "Präsentation in der Gebetsecke",
-        "Religiöses Souvenir",
+        "Wohndekoration",
+        "Gebetsecke-Präsentation",
+        "Religiöses Andenken",
         "Feiertags- oder Geschenkartikel"
       ],
       "faq": [
         {
           "question": "Aus welchem Material besteht diese Kreuzmedaille?",
-          "answer": "Diese Kreuzmedaille besteht aus Metall, genauer gesagt aus Zinklegierung, mit einer beschichteten Oberfläche."
+          "answer": "Diese Kreuzmedaille besteht aus Metall, speziell Zinklegierung, mit einer beschichteten Oberfläche."
         },
         {
-          "question": "Welche Maße hat diese Kreuzmedaille?",
-          "answer": "Die Hauptbildgröße beträgt 8,8 cm mal 6 cm, und sie enthält ein zusätzliches quadratisches Legierungsblech von 3 cm mal 2,5 cm."
+          "question": "Welche Abmessungen hat diese Kreuzmedaille?",
+          "answer": "Die Hauptbildgröße beträgt 8,8 cm mal 6 cm, und sie enthält ein zusätzliches quadratisches Blech aus Legierung von 3 cm mal 2,5 cm."
         },
         {
           "question": "Kann dieses Kreuz stehend aufgestellt werden?",
-          "answer": "Ja, das Design ist doppelt nutzbar: Es kann an der Wand aufgehängt oder auf einen Ständer gestellt werden."
+          "answer": "Ja, das Design ist doppelt nutzbar, sodass es an einer Wand aufgehängt oder auf einem Ständer zur stehenden Präsentation platziert werden kann."
         }
       ],
       "pricing": {
@@ -59647,8 +59289,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Wandkreuz-Medaille aus Zinklegierung",
-          "description": "Eine Kreuzmedaille aus Zinklegierung mit einer Bildgröße von 8,8 x 6 cm. Sie kann an der Wand aufgehängt oder auf einer Oberfläche aufgestellt werden und eignet sich vielseitig für die Wohnungsdekoration, Gebetsecken oder als Geschenk.",
+          "name": "Zinklegierung Kreuz Wandhängende Medaille",
+          "description": "Eine Kreuzmedaille aus Zinklegierung mit einer Bildgröße von 8,8 x 6 cm. Sie kann an der Wand aufgehängt oder auf einer Oberfläche aufgestellt werden, vielseitig einsetzbar für die Wohndekoration, Gebetsecken oder als Geschenk.",
           "sku": "ALI-AAF7TG7BAOVioqqEY6eBTD5s",
           "image": [
             "https://sc04.alicdn.com/kf/H309eea3954b94281aeb3b86d0e10991fw.jpg",
@@ -59676,7 +59318,7 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Quadratisches Legierungsblech",
+              "name": "Quadratisches Blech aus Legierung",
               "value": "3 cm x 2,5 cm"
             },
             {
@@ -59712,15 +59354,15 @@
               "name": "Aus welchem Material besteht diese Kreuzmedaille?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Diese Kreuzmedaille besteht aus Metall, genauer gesagt aus Zinklegierung, mit einer beschichteten Oberfläche."
+                "text": "Diese Kreuzmedaille besteht aus Metall, speziell Zinklegierung, mit einer beschichteten Oberfläche."
               }
             },
             {
               "@type": "Question",
-              "name": "Welche Maße hat diese Kreuzmedaille?",
+              "name": "Welche Abmessungen hat diese Kreuzmedaille?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Die Hauptbildgröße beträgt 8,8 cm mal 6 cm, und sie enthält ein zusätzliches quadratisches Legierungsblech von 3 cm mal 2,5 cm."
+                "text": "Die Hauptbildgröße beträgt 8,8 cm mal 6 cm, und sie enthält ein zusätzliches quadratisches Blech aus Legierung von 3 cm mal 2,5 cm."
               }
             },
             {
@@ -59728,7 +59370,7 @@
               "name": "Kann dieses Kreuz stehend aufgestellt werden?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, das Design ist doppelt nutzbar: Es kann an der Wand aufgehängt oder auf einen Ständer gestellt werden."
+                "text": "Ja, das Design ist doppelt nutzbar, sodass es an einer Wand aufgehängt oder auf einem Ständer zur stehenden Präsentation platziert werden kann."
               }
             }
           ]
@@ -59736,22 +59378,2612 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
+        "sourceHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
-            "contentHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
+            "sourceHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
+            "contentHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
             "attempts": 0,
             "updatedAt": "2026-08-17T03:04:35.879Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
-            "contentHash": "f89792fde3f01e03b45da32af81008991715929b46959b2e9cafbc387e26364a",
+            "sourceHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
+            "contentHash": "c67743f2316c943a74a4306e37390e6cd7850b9d28179de2bb063258c38b6dff",
             "attempts": 1,
-            "updatedAt": "2026-08-17T03:13:01.161Z",
+            "updatedAt": "2026-08-18T03:06:53.946Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEDTG7BAOVioqqEY6erMoEh",
+      "sourceId": "AAEDTG7BAOVioqqEY6erMoEh",
+      "sourceFingerprint": "374d241ab1318945d79cda582029c7d4df7fec874256197853f96a530c341c52",
+      "locale": "de",
+      "slug": "zinc-alloy-rhinestone-heart-pendant-necklace-ermoeh",
+      "title": "Zinklegierung Herz-Anhänger-Halskette mit Strass",
+      "eyebrow": "Zinklegierung Herz-Anhänger-Halskette mit Strass",
+      "summary": "Diese Herz-Anhänger aus Zinklegierung sind mit Strass verziert und in verschiedenen Ausführungen erhältlich, darunter Gold, Weißgold und Gun-Black. Die Größen variieren von etwa 1,6 cm bis 2,3 cm, mit Designs wie klassische Herzen, Kronen, Flügel und von Pfeilen durchbohrte Motive. Erhältlich in mehreren Farbvarianten passend zu verschiedenen Modestilen.",
+      "description": "Diese Kollektion von Herz-Anhänger-Halsketten bietet eine breite Auswahl an Oberflächen und Motiven, die sich leicht an verschiedene Modelinien anpassen lässt. Die Anhänger bestehen aus Zinklegierung und sind in Gold, Weißgold oder Gun-Black plattiert, einige mit rosa oder roten Tönen. Die Größen betragen ungefähr 1,6 cm bis 2,3 cm in der Höhe, und die Designs umfassen schlichte Herzen, Liebeskronen, Flügel, Handflächenmotive und von Pfeilen durchbohrte Herzen, was Käufern eine große Auswahl bietet.\n\nJeder Anhänger ist mit Strass verziert, was einen dezenten Glanz verleiht. Die Varianten umfassen vergoldete rote und rosa Zirkonoptionen sowie Stücke in Weißgold und Platin. Diese Halsketten sind für den Modegebrauch bestimmt und können in großen Mengen für den Einzelhandel oder Werbezwecke bestellt werden. Wenn Sie Hilfe bei der Auswahl bestimmter Größen oder Oberflächen benötigen, kontaktieren Sie uns für weitere Details.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Modische Halsketten",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2240d0c45a69466c95eba4ed9e4ad541e.webp",
+      "imageAlt": "Zinklegierung Herz-Anhänger-Halskette mit Strass",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2240d0c45a69466c95eba4ed9e4ad541e.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb95600964ba44eb2b75243b5f12889f12.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7831a12b9f03440a8562ed4af9731e7ao.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd34c3ac2aa194012bafc7102d51b997aA.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb00dcbe7f3ad406c85d1fa5f8437896eY.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H873b8100732049aeb5b18738e02934be3.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha4c6cdca96dd4380b8dcc410b36a9683C.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-love-wings-nz06-7",
+          "label": "gold-plated-love-wings-nz06-7",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--22"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha1ea212202114ac79775f36b4add76efR.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-love-nz06-6",
+          "label": "gold-plated-love-nz06-6",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--21"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H79a15f7081d14f24b548a228e73a614e0.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-love-palm-nz06-5",
+          "label": "gold-plated-love-palm-nz06-5",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--20"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H28ccd1681ef34b6f92ca0d7821757351V.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-arrow-piercing-love-nz06-4",
+          "label": "gold-plated-arrow-piercing-love-nz06-4",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--19"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H776e7d1210c34af3b5c0d20b40a29d375.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - platinum-plated-nac11-5",
+          "label": "platinum-plated-nac11-5",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--25"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc9c73cbde2974f11a893ede6e1ac99b3t.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - white-gold-plated-nac12-9",
+          "label": "white-gold-plated-nac12-9",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--24"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb4fa230d0dd8445788d3ac97b2ea658e4.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-love-wings-nz06-9",
+          "label": "gold-plated-love-wings-nz06-9",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--23"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf08c3d7c5e244852a783926589a7c552u.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - 1-7-1-2cm-gold-plated-red-love-nab10-6",
+          "label": "1-7-1-2cm-gold-plated-red-love-nab10-6",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hdd7bd9a896bc4fbdb59fd529b005f14dv.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-zircon-love-red-nt02-4",
+          "label": "gold-plated-zircon-love-red-nt02-4",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H723bcf3aad3d42b9af0f1301f1856a35r.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-pink-zircon-nac12-1",
+          "label": "gold-plated-pink-zircon-nac12-1",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7416dc470c724a9687afad9f10967573f.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-love-pink-nab04-8",
+          "label": "gold-plated-love-pink-nab04-8",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hde2e4087105d4152beca7bb5bd09dff1J.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-zircon-love-pink-na24-4",
+          "label": "gold-plated-zircon-love-pink-na24-4",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hdaa450911d384d54a30a5d3c0c47a2e66.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - white-gold-plated-nac12-8",
+          "label": "white-gold-plated-nac12-8",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2c06514f04634612bbcc0f476d962b85K.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-love-crown-nz06-8",
+          "label": "gold-plated-love-crown-nz06-8",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb220db3078284ee0b54322461f2b4d31x.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-love-crown-nz06-3",
+          "label": "gold-plated-love-crown-nz06-3",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H805fe8c7c7364a3f92247598cb6fb28bM.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-love-white-na14-2",
+          "label": "gold-plated-love-white-na14-2",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--16"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5bbe4bd1b3b64386ac9aec1011d65291B.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - gold-plated-pink-zircon-nac12-7",
+          "label": "gold-plated-pink-zircon-nac12-7",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf999ba34d5fa44a8926d2da313523eee5.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - 1-6-1cm-gold-plated-red-love-nac08-1",
+          "label": "1-6-1cm-gold-plated-red-love-nac08-1",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9bf719c10606485385357086ee1438735.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - 2-1-3cm-gold-plated-red-love-nac07-9",
+          "label": "2-1-3cm-gold-plated-red-love-nac07-9",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0c7a1ac33f1e43d294b3066ae0da496br.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - 1-9-1-4cm-gold-plated-red-love-nac07-10",
+          "label": "1-9-1-4cm-gold-plated-red-love-nac07-10",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc3fd60191f9d4ef1a4125589c82e7a6el.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - 2-1-1-2cm-gold-plated-love-nab10-5",
+          "label": "2-1-1-2cm-gold-plated-love-nab10-5",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H830caf0ba41746a9b1350ee465d347319.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - 2-3-1-6cm-gold-plated-gun-black-nae07-2",
+          "label": "2-3-1-6cm-gold-plated-gun-black-nae07-2",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3113117bfa0b45d2b0e393aef367dd79S.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - 2-1-3cm-white-gold-plated-nac11-7",
+          "label": "2-1-3cm-white-gold-plated-nac11-7",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9ce16b73db714c3a9edb67156acc96434.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - 2-1-1-2cm-white-gold-plated-nac11-3",
+          "label": "2-1-1-2cm-white-gold-plated-nac11-3",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbdbaa3d9c8bd41d183282d80c117197bN.webp",
+          "alt": "Zinklegierung Herz-Anhänger-Halskette mit Strass - 2-21-2-cm-gold-plated-red-nae02-10",
+          "label": "2-21-2-cm-gold-plated-red-nae02-10",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh-V--7"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Konstruktion aus Zinklegierung mit Gold-, Weißgold- oder Gun-Black-Beschichtung",
+        "Strass-Verzierungen an den Herz-Anhängern",
+        "Mehrere Größenvarianten von ca. 1,6 cm bis 2,3 cm",
+        "Verschiedene Designs wie Herzen, Kronen, Flügel und von Pfeilen durchbohrte Motive",
+        "Farboptionen umfassen Rot, Pink und Weiß"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinklegierung"
+        },
+        {
+          "name": "Beschichtung",
+          "value": "Gold, Weißgold, Gun-Black oder Platin (je nach Variante)"
+        },
+        {
+          "name": "Anhängergröße",
+          "value": "Von 1,6 x 1 cm bis 2,3 x 1,6 cm (je nach Variante)"
+        },
+        {
+          "name": "Stein",
+          "value": "Strass oder Zirkon"
+        },
+        {
+          "name": "Stil",
+          "value": "Mode-Halskette"
+        }
+      ],
+      "applications": [
+        "Mode-Accessoire für legere oder elegante Outfits",
+        "Einzelhandel Schmuckdisplays",
+        "Geschenkartikel für Valentinstag oder Jahrestage",
+        "Großhandel für Boutiquen oder Online-Shops"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchen Materialien bestehen diese Halsketten?",
+          "answer": "Die Anhänger bestehen aus Zinklegierung und sind je nach Variante mit Gold, Weißgold oder Gun-Black plattiert."
+        },
+        {
+          "question": "Welche Größen sind erhältlich?",
+          "answer": "Die Anhängergrößen reichen von ca. 1,6 x 1 cm bis 2,3 x 1,6 cm, je nach spezifischer Variante."
+        },
+        {
+          "question": "Kann ich eine bestimmte Variante bestellen?",
+          "answer": "Ja, Sie können aus den aufgeführten Varianten wählen, die unterschiedliche Beschichtungen, Steinfarben und Designs umfassen. Für Großbestellungen oder individuelle Anforderungen kontaktieren Sie uns bitte."
+        }
+      ],
+      "pricing": {
+        "price": "1.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.30",
+          "max": "2.76"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Zinklegierung Herz-Anhänger-Halskette mit Strass",
+          "description": "Diese Herz-Anhänger aus Zinklegierung sind mit Strass verziert und in verschiedenen Ausführungen erhältlich, darunter Gold, Weißgold und Gun-Black. Die Größen variieren von etwa 1,6 cm bis 2,3 cm, mit Designs wie klassische Herzen, Kronen, Flügel und von Pfeilen durchbohrte Motive. Erhältlich in mehreren Farbvarianten passend zu verschiedenen Modestilen.",
+          "sku": "ALI-AAEDTG7BAOVioqqEY6erMoEh",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2240d0c45a69466c95eba4ed9e4ad541e.jpg",
+            "https://sc04.alicdn.com/kf/Hb95600964ba44eb2b75243b5f12889f12.jpg",
+            "https://sc04.alicdn.com/kf/H7831a12b9f03440a8562ed4af9731e7ao.jpg",
+            "https://sc04.alicdn.com/kf/Hd34c3ac2aa194012bafc7102d51b997aA.jpg",
+            "https://sc04.alicdn.com/kf/Hb00dcbe7f3ad406c85d1fa5f8437896eY.jpg",
+            "https://sc04.alicdn.com/kf/H873b8100732049aeb5b18738e02934be3.jpg"
+          ],
+          "category": "Modische Halsketten",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinklegierung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Beschichtung",
+              "value": "Gold, Weißgold, Gun-Black oder Platin (je nach Variante)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Anhängergröße",
+              "value": "Von 1,6 x 1 cm bis 2,3 x 1,6 cm (je nach Variante)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stein",
+              "value": "Strass oder Zirkon"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Mode-Halskette"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.30",
+              "maxPrice": "2.76",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchen Materialien bestehen diese Halsketten?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Anhänger bestehen aus Zinklegierung und sind je nach Variante mit Gold, Weißgold oder Gun-Black plattiert."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Größen sind erhältlich?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Anhängergrößen reichen von ca. 1,6 x 1 cm bis 2,3 x 1,6 cm, je nach spezifischer Variante."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich eine bestimmte Variante bestellen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, Sie können aus den aufgeführten Varianten wählen, die unterschiedliche Beschichtungen, Steinfarben und Designs umfassen. Für Großbestellungen oder individuelle Anforderungen kontaktieren Sie uns bitte."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
+            "contentHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
+            "attempts": 0,
+            "updatedAt": "2026-08-14T04:12:50.913Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
+            "contentHash": "5e95af9a8040095aba8c8a54276f4496c86dd190d26a4c7de6954fe3890b628b",
+            "attempts": 3,
+            "updatedAt": "2026-08-18T03:06:32.387Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHRTG7BAOVioqqEY6e7sF2F",
+      "sourceId": "AAHRTG7BAOVioqqEY6e7sF2F",
+      "sourceFingerprint": "cb894ec9c7a48373fd207cb12dd39b17fb088c7691b9d53a570daa46bb6c76ea",
+      "locale": "de",
+      "slug": "prayer-cross-couple-ring-for-men-and-women-e7sf2f",
+      "title": "Gebetskreuz-Paarring für Damen und Herren",
+      "eyebrow": "Kreuz-Paarring",
+      "summary": "Dieser Unisex-Paarring besticht durch ein offenes Design mit Gebetskreuz-Motiv und ist aus einer Legierung mit titanähnlichem Finish gefertigt. Er ist ein stilvolles religiöses Accessoire, das sich zum Verschenken oder für den persönlichen Gebrauch eignet.",
+      "description": "Der Gebetskreuz-Paarring präsentiert eine moderne offene Silhouette mit Kreuzmotiv und spricht alle an, die religiösen Schmuck suchen. Gefertigt aus einer Legierung ohne Beschichtung bietet er einen natürlichen Metall-Look, der zu lässigen und formellen Anlässen passt. Sein Unisex-Design macht ihn für Männer und Frauen gleichermaßen geeignet, und die offene Konstruktion ermöglicht eine einfache Größenanpassung.\n\nDieser Ring ist der Kategorie 'Religiös' zugeordnet, mit Katholizismus als Religionstyp, was seine beabsichtigte Verbindung zur katholischen Frömmigkeit anzeigt. Als Paarring kann er als passendes Accessoire für Partner dienen, ist jedoch nicht auf diese Verwendung beschränkt. Sein minimalistisches Design macht ihn zu einer vielseitigen Ergänzung jeder Schmucksammlung.",
+      "catholicContext": "Das Kreuz ist ein zentrales Symbol des Christentums und repräsentiert die Kreuzigung Jesu Christi.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Ringe",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAHRTG7BAOVioqqEY6e7sF2F",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H1fd824cb8b7c416aae421cfd4c6ca701k.webp",
+      "imageAlt": "Gebetskreuz-Paarring für Damen und Herren",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1fd824cb8b7c416aae421cfd4c6ca701k.webp",
+          "alt": "Gebetskreuz-Paarring für Damen und Herren"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31bdaaa91b304a09a9387461922f0b94a.webp",
+          "alt": "Gebetskreuz-Paarring für Damen und Herren"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H328c265afb9947aeb4abacb55daf44e3i.webp",
+          "alt": "Gebetskreuz-Paarring für Damen und Herren"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hce733088ec9f46f99214507eef587473a.webp",
+          "alt": "Gebetskreuz-Paarring für Damen und Herren"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha91c8313fe9c4d6aa8076cf8723c9c7ei.webp",
+          "alt": "Gebetskreuz-Paarring für Damen und Herren"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hadd2db4089d940c1a1f94845d75155c4v.webp",
+          "alt": "Gebetskreuz-Paarring für Damen und Herren"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Gefertigt aus einer Legierung mit titanähnlichem Aussehen",
+        "Offenes Ringdesign für einfaches Anpassen",
+        "Unisex-Stil, geeignet für Männer und Frauen",
+        "Gebetskreuz-Motiv als zentrales Element",
+        "Keine Beschichtung für einen natürlichen Metall-Look",
+        "Als religiöser Schmuck mit Katholizismus als Religionstyp eingestuft"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Legierung"
+        },
+        {
+          "name": "Beschichtung",
+          "value": "Keine"
+        },
+        {
+          "name": "Geschlecht",
+          "value": "Unisex"
+        },
+        {
+          "name": "Stil",
+          "value": "Religiös"
+        },
+        {
+          "name": "Ringtyp",
+          "value": "Paarring"
+        },
+        {
+          "name": "Modellnummer",
+          "value": "A306-- Prayer Cross Ring"
+        }
+      ],
+      "applications": [
+        "Geschenk für einen Partner oder eine geliebte Person",
+        "Alternative zum Ehering oder Verlobungsring",
+        "Religiöser Schmuck für den persönlichen Gebrauch",
+        "Accessoire für Partys oder Brautpartys"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchem Material besteht der Gebetskreuz-Paarring?",
+          "answer": "Der Ring besteht aus einer Legierung und hat keine Beschichtung, was ihm einen natürlichen Metall-Look verleiht."
+        },
+        {
+          "question": "Ist dieser Ring für Männer und Frauen geeignet?",
+          "answer": "Ja, der Ring ist als Unisex-Design konzipiert und kann von jedem Geschlecht getragen werden."
+        },
+        {
+          "question": "Hat der Ring ein offenes Design?",
+          "answer": "Ja, der Ring hat ein offenes Design, das eine gewisse Flexibilität bei der Größenanpassung ermöglicht."
+        }
+      ],
+      "pricing": {
+        "price": "0.28",
+        "regularPrice": "0.28",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.20",
+          "max": "0.28"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gebetskreuz-Paarring für Damen und Herren",
+          "description": "Dieser Unisex-Paarring besticht durch ein offenes Design mit Gebetskreuz-Motiv und ist aus einer Legierung mit titanähnlichem Finish gefertigt. Er ist ein stilvolles religiöses Accessoire, das sich zum Verschenken oder für den persönlichen Gebrauch eignet.",
+          "sku": "ALI-AAHRTG7BAOVioqqEY6e7sF2F",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1fd824cb8b7c416aae421cfd4c6ca701k.png",
+            "https://sc04.alicdn.com/kf/H31bdaaa91b304a09a9387461922f0b94a.png",
+            "https://sc04.alicdn.com/kf/H328c265afb9947aeb4abacb55daf44e3i.png",
+            "https://sc04.alicdn.com/kf/Hce733088ec9f46f99214507eef587473a.png",
+            "https://sc04.alicdn.com/kf/Ha91c8313fe9c4d6aa8076cf8723c9c7ei.png",
+            "https://sc04.alicdn.com/kf/Hadd2db4089d940c1a1f94845d75155c4v.png"
+          ],
+          "category": "Ringe",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Legierung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Beschichtung",
+              "value": "Keine"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Geschlecht",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Religiös"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Ringtyp",
+              "value": "Paarring"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Modellnummer",
+              "value": "A306-- Prayer Cross Ring"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.28",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.20",
+              "maxPrice": "0.28",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchem Material besteht der Gebetskreuz-Paarring?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Ring besteht aus einer Legierung und hat keine Beschichtung, was ihm einen natürlichen Metall-Look verleiht."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieser Ring für Männer und Frauen geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, der Ring ist als Unisex-Design konzipiert und kann von jedem Geschlecht getragen werden."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hat der Ring ein offenes Design?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, der Ring hat ein offenes Design, das eine gewisse Flexibilität bei der Größenanpassung ermöglicht."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+            "contentHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:34.628Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+            "contentHash": "d98d3a43960c5d3e1ed4e49a1648a50153adc620112f655a6e73bc8582866c9e",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:07:01.390Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE_TG7BAOVioqqEY6eBTjU3",
+      "sourceId": "AAE_TG7BAOVioqqEY6eBTjU3",
+      "sourceFingerprint": "1f8426326390c5ffb4befb287be8502b42de3e116d8e986e6704372e5e3dfcf9",
+      "locale": "de",
+      "slug": "18k-gold-plated-virgin-mary-pendant-rosary-bracelet-ebtju3",
+      "title": "Rosenkranz-Armband mit 18K vergoldetem Marien-Anhänger",
+      "eyebrow": "Rosenkranz-Armband mit Marien-Anhänger",
+      "summary": "Dieses Rosenkranz-Armband verfügt über einen 18K vergoldeten Marien-Anhänger mit Zirkonia-Steinen (CZ), kombiniert mit roten Kordelperlen. Das Armband ist verstellbar für einen bequemen Sitz. Geeignet für die persönliche Andacht oder als durchdachtes Geschenk.",
+      "description": "Gefertigt mit einem 18K vergoldeten Metall-Anhänger, zeigt dieses Armband eine detaillierte Marienfigur, verziert mit Zirkonia-Steinen (CZ). Die roten Kordelperlen verleihen ihm den klassischen Rosenkranz-Look, und das verstellbare Armband sorgt für einen sicheren Sitz bei verschiedenen Handgelenkgrößen. Wählen Sie zwischen zwei roten Farbvarianten.\n\nAls marianischer Andachtsgegenstand kann es zum Gebet oder als Erinnerung an den Glauben verwendet werden. Die langlebige Konstruktion macht es für den täglichen Gebrauch geeignet.",
+      "catholicContext": "Der Anhänger zeigt die Jungfrau Maria, eine zentrale Figur in der katholischen Frömmigkeit und im Rosenkranz.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosenkranz-Armbänder",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
+      "imageAlt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
+          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3e29e26989ff43c7967ecbf4dd29389f2.webp",
+          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H198b853667da4f65a06618384ab016c8k.webp",
+          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9b3170d7184448c4af54fddc99bb5469W.webp",
+          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H183744a16ef144578d42d63bac98854aU.webp",
+          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H820864580a7a478c955bcde6be496de2W.webp",
+          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha615dcc292184c358f9bf6d62632192fM.webp",
+          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger - rot1",
+          "label": "rot1",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc946704894a404d814a15e0080c3761i.webp",
+          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger - rot2",
+          "label": "rot2",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--5"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "18K vergoldeter Marien-Anhänger",
+        "Zirkonia-Steine (CZ) Akzente",
+        "Rote Kordelperlen",
+        "Verstellbares Armband",
+        "Zwei rote Varianten erhältlich"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "18K vergoldetes Metall, Zirkonia (CZ), Kordel"
+        },
+        {
+          "name": "Design",
+          "value": "Marien-Anhänger mit roten Kordelperlen"
+        },
+        {
+          "name": "Verschluss",
+          "value": "Verstellbares Armband"
+        },
+        {
+          "name": "Varianten",
+          "value": "Rot1, Rot2"
+        }
+      ],
+      "applications": [
+        "Persönliches Gebet und Andacht",
+        "Religiöses Geschenk für Marienfeste",
+        "Alltagsaccessoire mit religiöser Bedeutung",
+        "Geschenk zur Firmung oder Erstkommunion"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchen Materialien besteht dieses Armband?",
+          "answer": "Das Armband besteht aus einem 18K vergoldeten Metall-Anhänger mit Zirkonia-Steinen (CZ) und roten Kordelperlen. Das Band ist verstellbar."
+        },
+        {
+          "question": "Ist das Armband verstellbar?",
+          "answer": "Ja, das Armband ist verstellbar und passt sich verschiedenen Handgelenkgrößen bequem an."
+        },
+        {
+          "question": "Gibt es Farboptionen?",
+          "answer": "Ja, dieses Armband ist in zwei roten Varianten erhältlich: Rot1 und Rot2."
+        }
+      ],
+      "pricing": {
+        "price": "2.53",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.10",
+          "max": "2.53"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Rosenkranz-Armband mit 18K vergoldetem Marien-Anhänger",
+          "description": "Dieses Rosenkranz-Armband verfügt über einen 18K vergoldeten Marien-Anhänger mit Zirkonia-Steinen (CZ), kombiniert mit roten Kordelperlen. Das Armband ist verstellbar für einen bequemen Sitz. Geeignet für die persönliche Andacht oder als durchdachtes Geschenk.",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
+          "image": [
+            "https://sc04.alicdn.com/kf/H456a8129460349df94b61797ab0f1c4cS.jpg",
+            "https://sc04.alicdn.com/kf/H3e29e26989ff43c7967ecbf4dd29389f2.jpg",
+            "https://sc04.alicdn.com/kf/H198b853667da4f65a06618384ab016c8k.jpg",
+            "https://sc04.alicdn.com/kf/H9b3170d7184448c4af54fddc99bb5469W.jpg",
+            "https://sc04.alicdn.com/kf/H183744a16ef144578d42d63bac98854aU.jpg",
+            "https://sc04.alicdn.com/kf/H820864580a7a478c955bcde6be496de2W.jpg"
+          ],
+          "category": "Rosenkranz-Armbänder",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "18K vergoldetes Metall, Zirkonia (CZ), Kordel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Marien-Anhänger mit roten Kordelperlen"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Verschluss",
+              "value": "Verstellbares Armband"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianten",
+              "value": "Rot1, Rot2"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.53",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.10",
+              "maxPrice": "2.53",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchen Materialien besteht dieses Armband?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Armband besteht aus einem 18K vergoldeten Metall-Anhänger mit Zirkonia-Steinen (CZ) und roten Kordelperlen. Das Band ist verstellbar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist das Armband verstellbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, das Armband ist verstellbar und passt sich verschiedenen Handgelenkgrößen bequem an."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Gibt es Farboptionen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, dieses Armband ist in zwei roten Varianten erhältlich: Rot1 und Rot2."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "contentHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:33.900Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "contentHash": "d6cb52504fffd3aa634c0e1c31ad8973bca3409ebb0d465fa31661001e24bb60",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:07:08.958Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGOTG7BAOVioqqEY6eBtUmL",
+      "sourceId": "AAGOTG7BAOVioqqEY6eBtUmL",
+      "sourceFingerprint": "03cce82bf1a95a268b3f499fcc31ebaeae63196d2d1b50a53726b87f9865ea54",
+      "locale": "de",
+      "slug": "mini-rosary-charm-bracelet-for-newborn-baptism-gift-ebtuml",
+      "title": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene",
+      "eyebrow": "Rosenkranz-Armband",
+      "summary": "Dieses Mini-Rosenkranz-Armband hat ein Zehner-Rosenkranz-Design mit katholischem Stil, speziell für Neugeborene. Erhältlich in neun Farbvarianten, ist es ein durchdachtes Geschenk zur Taufe oder Erstkommunion.",
+      "description": "Dieses Mini-Rosenkranz-Armband bringt ein klassisches katholisches Motiv in kleiner Größe und ist für das Handgelenk eines Neugeborenen konzipiert. Die Zehner-Struktur – zehn Perlen – bietet eine kompakte Form des traditionellen Rosenkranzes und ist eine zugängliche Einführung in das Gebet. Das Armband ist in neun Farbvarianten erhältlich, sodass Sie es an die Vorlieben der Familie oder das Farbschema des Anlasses anpassen können. Sein leichtes Design ist für Kleinkinder geeignet, und das Anhänger-Element bildet einen sanften visuellen Anker. Ob als Erinnerung an Taufe oder Erstkommunion, dieses Armband ist ein Andenken mit bedeutungsvoller Verbindung zum katholischen Glauben.",
+      "catholicContext": "Der Rosenkranz ist ein katholisches Gebet, das sich auf die Betrachtung der Ereignisse im Leben Jesu Christi und der Jungfrau Maria konzentriert.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosenkranz-Armbänder",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd329e984d26747cd8c17f33e68fc9644g.webp",
+      "imageAlt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd329e984d26747cd8c17f33e68fc9644g.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd3579347a1394c349cd5194bc66b8e78j.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6870ddbfd62d4d05a4e5b68da17d2462P.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha71b3e069dcb4305a0416126527ef14dc.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haa8bbb7bc62147938442f2caab3becf7F.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hef8e636570cd40e48abedf53e0511f032.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He23c93126d6d4a0f8827d482edc908e3n.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene - Farbe7",
+          "label": "colored7",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5776e58eaa14d22aec3525785620fd2w.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene - Farbe3",
+          "label": "colored3",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbb65e12ec32047a99e89c8a903477e75O.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene - Farbe9",
+          "label": "colored9",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H89e982a2cca1466999a52c8a47a9ffdc8.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene - Farbe4",
+          "label": "colored4",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha52733793bf24056ba9b011eae372c1ff.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene - Farbe6",
+          "label": "colored6",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63f39f72b299482eae813af6cceb53c3e.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene - Farbe2",
+          "label": "colored2",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0f801aea58549128aba496454e00182V.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene - Farbe5",
+          "label": "colored5",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2ac370675eb24b728814c8ae6b5c2a43J.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene - Farbe8",
+          "label": "colored8",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hab53d52139f84de1bb96256f77dd99dcH.webp",
+          "alt": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene - Farbe1",
+          "label": "colored1",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--10"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Mini-Zehner-Rosenkranz mit zehn Perlen, geeignet für das Handgelenk eines Neugeborenen",
+        "Katholisches Design, das die traditionelle Rosenkranz-Andacht widerspiegelt",
+        "Erhältlich in neun Farbvarianten für persönliche Vorlieben",
+        "Kompakt und leicht, für die Verwendung bei Säuglingen gedacht",
+        "Armband mit Anhänger und kleinem, anhängerähnlichen Schmuckstück"
+      ],
+      "specifications": [
+        {
+          "name": "Design",
+          "value": "Katholisch"
+        },
+        {
+          "name": "Typ",
+          "value": "Rosenkranz-Armband"
+        },
+        {
+          "name": "Varianten",
+          "value": "9 Farboptionen"
+        }
+      ],
+      "applications": [
+        "Geschenk zur Taufe eines Neugeborenen",
+        "Andenken zur Erstkommunion",
+        "Accessoire für Säuglinge in katholischen Familien",
+        "Taschengroßer Rosenkranz für Reisen oder den Alltag"
+      ],
+      "faq": [
+        {
+          "question": "Wie viele Perlen hat dieses Armband?",
+          "answer": "Dies ist ein Mini-Zehner-Rosenkranz, das heißt, er hat einen Satz von zehn Perlen, ideal als kompakte Gebetshilfe."
+        },
+        {
+          "question": "Welche Farboptionen sind verfügbar?",
+          "answer": "Es gibt neun Farbvarianten, gekennzeichnet von Farbe1 bis Farbe9, sodass Sie einen bevorzugten Farbton auswählen können."
+        },
+        {
+          "question": "Ist dieses Armband für ein Neugeborenes geeignet?",
+          "answer": "Ja, es ist für ein Neugeborenes konzipiert, mit kleiner Größe und leichtem Aufbau für die Verwendung bei Säuglingen."
+        }
+      ],
+      "pricing": {
+        "price": "0.52",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.52"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Mini-Rosenkranz-Armband als Taufgeschenk für Neugeborene",
+          "description": "Dieses Mini-Rosenkranz-Armband hat ein Zehner-Rosenkranz-Design mit katholischem Stil, speziell für Neugeborene. Erhältlich in neun Farbvarianten, ist es ein durchdachtes Geschenk zur Taufe oder Erstkommunion.",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd329e984d26747cd8c17f33e68fc9644g.jpg",
+            "https://sc04.alicdn.com/kf/Hd3579347a1394c349cd5194bc66b8e78j.jpg",
+            "https://sc04.alicdn.com/kf/H6870ddbfd62d4d05a4e5b68da17d2462P.jpg",
+            "https://sc04.alicdn.com/kf/Ha71b3e069dcb4305a0416126527ef14dc.jpg",
+            "https://sc04.alicdn.com/kf/Haa8bbb7bc62147938442f2caab3becf7F.jpg",
+            "https://sc04.alicdn.com/kf/Hef8e636570cd40e48abedf53e0511f032.jpg"
+          ],
+          "category": "Rosenkranz-Armbänder",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Katholisch"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Typ",
+              "value": "Rosenkranz-Armband"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianten",
+              "value": "9 Farboptionen"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.52",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.52",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wie viele Perlen hat dieses Armband?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dies ist ein Mini-Zehner-Rosenkranz, das heißt, er hat einen Satz von zehn Perlen, ideal als kompakte Gebetshilfe."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Farboptionen sind verfügbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Es gibt neun Farbvarianten, gekennzeichnet von Farbe1 bis Farbe9, sodass Sie einen bevorzugten Farbton auswählen können."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieses Armband für ein Neugeborenes geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, es ist für ein Neugeborenes konzipiert, mit kleiner Größe und leichtem Aufbau für die Verwendung bei Säuglingen."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+            "contentHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:50.200Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+            "contentHash": "28b7e4edc1abf9cebaa6f821669a52070e859cd596b960c3b6a235e5a1448a8b",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:07:18.712Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEcTG7BAOVioqqEY6eYM2Jr",
+      "sourceId": "AAEcTG7BAOVioqqEY6eYM2Jr",
+      "sourceFingerprint": "61e16346ee9266ee5df203bfd6226fb8e2fb829f9c3108d558f7db8195d40846",
+      "locale": "de",
+      "slug": "250ml-plastic-holy-water-bottle-with-cross-pattern-eym2jr",
+      "title": "250ml Plastikflasche für Weihwasser mit Kreuzmuster",
+      "eyebrow": "Plastikflasche für Weihwasser mit Kreuzmuster",
+      "summary": "Eine 250ml HDPE-Weihwasserflasche mit weißem Kreuzmuster und schützender PP-Kappe. Mit 30,7g und 16,5cm Höhe ist sie eine leichte Option für Zeremonien, Geschenke und den persönlichen Gebrauch.",
+      "description": "Diese 250ml Weihwasserflasche wird aus hochdichtem Polyethylen (HDPE) für hohe Stoßfestigkeit geformt, während die Polypropylen (PP)-Kappe einen zuverlässigen Verschluss bietet. Ihr weißer Körper trägt ein geprägtes Kreuzdesign, was sie zu einem klaren Andachtssymbol macht. Die Höhe von 16,5cm und das Gewicht von 30,7g machen sie leicht zu tragen oder zu lagern, ob für persönliches Gebet oder kirchliche Veranstaltungen.",
+      "catholicContext": "In der katholischen Praxis wird Weihwasser für Segnungen und Andachtsgesten verwendet, und ein Kreuz ist ein zentrales Symbol des Glaubens; diese Flasche ist für solche Zwecke geformt.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Christbaumschmuck",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
+      "imageAlt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
+          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1880c36feab49ee8e28277936e31bfck.webp",
+          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haece68d37fc146569cc2fa18df81b2731.webp",
+          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd7e209e67eb24fddb3d1db370fd159e8q.webp",
+          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc79f02828fb46fdab2002a45f2ffe5aa.webp",
+          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H50e34a9b22ad4fb8b7294056b92d11f5b.webp",
+          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#7a6d92",
+      "features": [
+        "250ml Fassungsvermögen hält eine praktische Menge Weihwasser",
+        "Hergestellt aus HDPE-Kunststoff für hohe Schutzwirkung",
+        "Weiße Farbe mit Kreuzmuster im Relief",
+        "PP-Klappdeckel für einfaches Öffnen und sicheres Verschließen",
+        "Kompakte Größe: 16,5 x 5 x 5 cm, nur 30,7g schwer"
+      ],
+      "specifications": [
+        {
+          "name": "Fassungsvermögen",
+          "value": "250ml"
+        },
+        {
+          "name": "Größe",
+          "value": "16,5 x 5 x 5 cm"
+        },
+        {
+          "name": "Gewicht",
+          "value": "30,7g"
+        },
+        {
+          "name": "Flaschenmaterial",
+          "value": "HDPE (hochdichtes Polyethylen)"
+        },
+        {
+          "name": "Kappenmaterial",
+          "value": "PP (Polypropylen)"
+        },
+        {
+          "name": "Farbe",
+          "value": "Weiß"
+        },
+        {
+          "name": "Muster",
+          "value": "Kreuz"
+        }
+      ],
+      "applications": [
+        "Aufbewahrung von Weihwasser für das Gebet zu Hause",
+        "Religiöse Zeremonien und Taufsegnungen",
+        "Andachtsgeschenke zu Ostern oder anderen Feiertagen",
+        "Pädagogischer Einsatz im Religionsunterricht"
+      ],
+      "faq": [
+        {
+          "question": "Woraus besteht die Flasche und ist sie langlebig?",
+          "answer": "Die Flasche besteht aus HDPE (hochdichtem Polyethylen), was ihr eine hohe Schutzwirkung gegen Stöße verleiht und sie für den täglichen Gebrauch geeignet macht."
+        },
+        {
+          "question": "Was sind die Abmessungen und das Fassungsvermögen?",
+          "answer": "Die Flasche misst 16,5 x 5 x 5 cm und fasst 250ml Flüssigkeit. Sie wiegt nur 30,7g, ist also leicht und tragbar."
+        },
+        {
+          "question": "Ist eine Kappe enthalten?",
+          "answer": "Ja, sie hat eine PP-Kappe (Polypropylen), die aufklappt und einen sicheren Verschluss bietet, um Auslaufen zu verhindern."
+        }
+      ],
+      "pricing": {
+        "price": "0.39",
+        "regularPrice": "0.39",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.35",
+          "max": "0.39"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "250ml Plastikflasche für Weihwasser mit Kreuzmuster",
+          "description": "Eine 250ml HDPE-Weihwasserflasche mit weißem Kreuzmuster und schützender PP-Kappe. Mit 30,7g und 16,5cm Höhe ist sie eine leichte Option für Zeremonien, Geschenke und den persönlichen Gebrauch.",
+          "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
+          "image": [
+            "https://sc04.alicdn.com/kf/H54de41f1e8b94a1da6846ff578113e9fw.jpg",
+            "https://sc04.alicdn.com/kf/Hd1880c36feab49ee8e28277936e31bfck.jpg",
+            "https://sc04.alicdn.com/kf/Haece68d37fc146569cc2fa18df81b2731.jpg",
+            "https://sc04.alicdn.com/kf/Hd7e209e67eb24fddb3d1db370fd159e8q.jpg",
+            "https://sc04.alicdn.com/kf/Hbc79f02828fb46fdab2002a45f2ffe5aa.jpg",
+            "https://sc04.alicdn.com/kf/H50e34a9b22ad4fb8b7294056b92d11f5b.jpg"
+          ],
+          "category": "Christbaumschmuck",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Fassungsvermögen",
+              "value": "250ml"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Größe",
+              "value": "16,5 x 5 x 5 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gewicht",
+              "value": "30,7g"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Flaschenmaterial",
+              "value": "HDPE (hochdichtes Polyethylen)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kappenmaterial",
+              "value": "PP (Polypropylen)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Farbe",
+              "value": "Weiß"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Muster",
+              "value": "Kreuz"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.35",
+              "maxPrice": "0.39",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Woraus besteht die Flasche und ist sie langlebig?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Flasche besteht aus HDPE (hochdichtem Polyethylen), was ihr eine hohe Schutzwirkung gegen Stöße verleiht und sie für den täglichen Gebrauch geeignet macht."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was sind die Abmessungen und das Fassungsvermögen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Flasche misst 16,5 x 5 x 5 cm und fasst 250ml Flüssigkeit. Sie wiegt nur 30,7g, ist also leicht und tragbar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist eine Kappe enthalten?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, sie hat eine PP-Kappe (Polypropylen), die aufklappt und einen sicheren Verschluss bietet, um Auslaufen zu verhindern."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "contentHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:35.706Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "contentHash": "0cb3d3528bc5384f39c9f03a0787f78dcb334e202d7a4ead479b7056d8e36dd7",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:07:25.930Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHMTG7BAOVioqqEY6eBS0mz",
+      "sourceId": "AAHMTG7BAOVioqqEY6eBS0mz",
+      "sourceFingerprint": "2327b4fd97998cb1810e67392a13ede064a75cc1f0db2e787218d5fadaeaecbe",
+      "locale": "de",
+      "slug": "virgin-mary-enamel-brooch-with-cross-design-ebs0mz",
+      "title": "Marien-Brosche mit Emaille und Kreuzdesign",
+      "eyebrow": "Marianische Emaille-Brosche",
+      "summary": "Eine Brosche aus Zinklegierung mit detailreichem Emaille-Bild der Jungfrau Maria und Kreuzmuster. Besetzt mit Prinzessschliff-Steinen und Kunstperlen verleiht sie Mänteln und Schals eine klassische Note. Unisex-Design, geeignet für den Alltag oder als Geschenk.",
+      "description": "Diese Marianische Brosche verbindet eine kreuzförmige Silhouette mit einem detailreichen Emaille-Porträt der Jungfrau Maria. Der Körper aus Zinklegierung ist mit Prinzessschliff-Steinen und Kunstperlen im Kanalfassungsverfahren besetzt, was dem Stück ein sauberes, fertiges Aussehen verleiht. Mit etwa der Größe einer typischen Anstecknadel eignet sie sich gut für Mantelaufschläge, Schals oder Blazer. Die Brosche ist für Unisex-Nutzung konzipiert und wird als Einzelstück geliefert. Da sie ein Kreuz und Maria zeigt, könnte sie für Personen interessant sein, die nach dezentem religiösem Schmuck suchen.",
+      "catholicContext": "Marianisch bezieht sich auf die Jungfrau Maria, eine zentrale Figur in der katholischen Frömmigkeit, und Kreuze sind häufige Symbole in christlichem Schmuck.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "210",
+          "name": "Brosche",
+          "slug": "brooch"
+        }
+      ],
+      "sku": "ALI-AAHMTG7BAOVioqqEY6eBS0mz",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H109c693f84ff4af4acad9879b9c39708B.webp",
+      "imageAlt": "Marien-Brosche mit Emaille und Kreuzdesign",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H109c693f84ff4af4acad9879b9c39708B.webp",
+          "alt": "Marien-Brosche mit Emaille und Kreuzdesign"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbdd230e09aa647149acd9814f3aac0e0v.webp",
+          "alt": "Marien-Brosche mit Emaille und Kreuzdesign"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1ed527cb39454a5d81d9b03b6528cb98A.webp",
+          "alt": "Marien-Brosche mit Emaille und Kreuzdesign"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H05b8882b3c3244b1a46e032d432539a81.webp",
+          "alt": "Marien-Brosche mit Emaille und Kreuzdesign"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2e8f72a2e3ca4544aec7a10563128763z.webp",
+          "alt": "Marien-Brosche mit Emaille und Kreuzdesign"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Konstruktion aus Zinklegierung",
+        "Emaille-Detail mit Bild der Jungfrau Maria",
+        "Kreuzförmiges Design",
+        "Prinzessschliff-Steine (Imitation) und Kunstperlen",
+        "Kanalfassung für Steine",
+        "Unisex-Broschenstil"
+      ],
+      "specifications": [
+        {
+          "name": "Hauptmaterial",
+          "value": "Zinklegierung"
+        },
+        {
+          "name": "Steinschliff",
+          "value": "Prinzessschliff"
+        },
+        {
+          "name": "Steinart",
+          "value": "Imitation (kein Hauptstein)"
+        },
+        {
+          "name": "Perlenart",
+          "value": "Kunstperle"
+        },
+        {
+          "name": "Fassungstechnik",
+          "value": "Kanalfassung"
+        },
+        {
+          "name": "Geschlecht",
+          "value": "Unisex"
+        }
+      ],
+      "applications": [
+        "Dekoration am Mantelaufschlag",
+        "Schal- oder Tuchnadel",
+        "Akzent an Blazer oder Jacke",
+        "Geschenkartikel"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchem Material besteht diese Brosche?",
+          "answer": "Die Brosche besteht aus Zinklegierung."
+        },
+        {
+          "question": "Enthält diese Brosche echte Perlen oder Diamanten?",
+          "answer": "Nein, die Perlen sind Kunstperlen und die Steine sind Prinzessschliff-Imitationen. Das Hauptsteinmerkmal ist als 'keiner' aufgeführt."
+        },
+        {
+          "question": "Ist die Brosche für Männer und Frauen geeignet?",
+          "answer": "Ja, die Brosche ist als Unisex-Design konzipiert."
+        }
+      ],
+      "pricing": {
+        "price": "0.39",
+        "regularPrice": "0.39",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.32",
+          "max": "0.39"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Marien-Brosche mit Emaille und Kreuzdesign",
+          "description": "Eine Brosche aus Zinklegierung mit detailreichem Emaille-Bild der Jungfrau Maria und Kreuzmuster. Besetzt mit Prinzessschliff-Steinen und Kunstperlen verleiht sie Mänteln und Schals eine klassische Note. Unisex-Design, geeignet für den Alltag oder als Geschenk.",
+          "sku": "ALI-AAHMTG7BAOVioqqEY6eBS0mz",
+          "image": [
+            "https://sc04.alicdn.com/kf/H109c693f84ff4af4acad9879b9c39708B.jpg",
+            "https://sc04.alicdn.com/kf/Hbdd230e09aa647149acd9814f3aac0e0v.jpg",
+            "https://sc04.alicdn.com/kf/H1ed527cb39454a5d81d9b03b6528cb98A.jpg",
+            "https://sc04.alicdn.com/kf/H05b8882b3c3244b1a46e032d432539a81.jpg",
+            "https://sc04.alicdn.com/kf/H2e8f72a2e3ca4544aec7a10563128763z.jpg"
+          ],
+          "category": "Brosche",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Hauptmaterial",
+              "value": "Zinklegierung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Steinschliff",
+              "value": "Prinzessschliff"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Steinart",
+              "value": "Imitation (kein Hauptstein)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Perlenart",
+              "value": "Kunstperle"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Fassungstechnik",
+              "value": "Kanalfassung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Geschlecht",
+              "value": "Unisex"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.32",
+              "maxPrice": "0.39",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchem Material besteht diese Brosche?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Brosche besteht aus Zinklegierung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Enthält diese Brosche echte Perlen oder Diamanten?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein, die Perlen sind Kunstperlen und die Steine sind Prinzessschliff-Imitationen. Das Hauptsteinmerkmal ist als 'keiner' aufgeführt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist die Brosche für Männer und Frauen geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, die Brosche ist als Unisex-Design konzipiert."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+            "contentHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:39.889Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+            "contentHash": "2e7454ac86ef60cd4b8725fb05022b8c1fa533ca4baa60691786dc3d28f9933f",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:07:33.175Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "sourceId": "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "sourceFingerprint": "9d1a86f5893bebcc85eeb711d44af6122351806c2e3d7c311e3792e0fb7a91b7",
+      "locale": "de",
+      "slug": "antique-silver-plated-wooden-chaplet-rosary-ebrceq",
+      "title": "Antiker silberner hölzerner Kranz-Rosenkranz",
+      "eyebrow": "Hölzerner Kranz-Rosenkranz als Halskette",
+      "summary": "Dieser hölzerne Kranz-Rosenkranz besteht aus roten Perlen und einem antik versilberten Kreuz, handgefertigt für die katholische Andacht. Die Konstruktion aus Zinklegierung und Holz macht ihn zu einer langlebigen, religiösen Geschenk-Halskette.",
+      "description": "Dieser handgefertigte Kranz-Rosenkranz besteht aus roten Holzperlen und einem antik versilberten Kreuz aus Zinklegierung. Das Design mit Perlen und Kette eignet sich für persönliches Gebet oder als religiöses Geschenk. Die antike Silberoberfläche verleiht ihm einen klassischen Look. Der Rosenkranz ist ein traditionelles katholisches Gebetshilfsmittel, und dieses Stück ist für den devotionalen Gebrauch konzipiert. Die Holz- und Metallkonstruktion bietet ein stabiles, taktiles Gefühl. Die roten Perlen und die antike Beschichtung machen ihn zu einer unverwechselbaren Wahl für diejenigen, die einen Rosenkranz im Kranz-Stil als Halskette suchen.",
+      "catholicContext": "Der Rosenkranz ist ein katholisches Gebet, das sich auf die Betrachtung von Ereignissen im Leben Jesu Christi und der Jungfrau Maria konzentriert.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Katholische Rosenkränze",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAGbTG7BAOVioqqEY6eBRcEQ",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Had5fa3f8bee847038f70701622cbe52fR.webp",
+      "imageAlt": "Antiker silberner hölzerner Kranz-Rosenkranz",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Had5fa3f8bee847038f70701622cbe52fR.webp",
+          "alt": "Antiker silberner hölzerner Kranz-Rosenkranz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He8bb3fcc74564076a7345ed3ef85735fy.webp",
+          "alt": "Antiker silberner hölzerner Kranz-Rosenkranz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H502eece11f994206b3064b9b4aab5833j.webp",
+          "alt": "Antiker silberner hölzerner Kranz-Rosenkranz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc10cb766471e40ff916a0914cf4fd33dF.webp",
+          "alt": "Antiker silberner hölzerner Kranz-Rosenkranz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb792c271d8dc4a3ab241604d4f613e9aU.webp",
+          "alt": "Antiker silberner hölzerner Kranz-Rosenkranz"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Rote Holzperlen",
+        "Antik versilbertes Kreuz aus Zinklegierung",
+        "Handgefertigte Konstruktion",
+        "Perlenketten-Stil",
+        "Katholisches religiöses Design"
+      ],
+      "specifications": [
+        {
+          "name": "Hauptmaterial",
+          "value": "Holz"
+        },
+        {
+          "name": "Metalltyp",
+          "value": "Zinklegierung"
+        },
+        {
+          "name": "Beschichtung",
+          "value": "Antikes Silber"
+        },
+        {
+          "name": "Stil",
+          "value": "Religiös"
+        },
+        {
+          "name": "Schmucktyp",
+          "value": "Halskette"
+        },
+        {
+          "name": "Modellnummer",
+          "value": "P8-R-0009"
+        }
+      ],
+      "applications": [
+        "Persönliches Gebet und Andacht",
+        "Religiöses Geschenk",
+        "Als Halskette getragen",
+        "Ausdruck des katholischen Glaubens"
+      ],
+      "faq": [
+        {
+          "question": "Welche Materialien werden für diesen Kranz-Rosenkranz verwendet?",
+          "answer": "Die Perlen bestehen aus Holz, und das Kreuz besteht aus Zinklegierung mit antiker Silberbeschichtung."
+        },
+        {
+          "question": "Ist dieser Rosenkranz ein Kruzifix oder ein schlichtes Kreuz?",
+          "answer": "Die Produktbeschreibung erwähnt ein Kreuz, nicht ein Kruzifix, daher hat es wahrscheinlich ein schlichtes Kreuz ohne Korpus."
+        },
+        {
+          "question": "Welchen Stil hat dieser Rosenkranz?",
+          "answer": "Es ist ein Perlenketten-Stil, handgefertigt mit roten Holzperlen und einem antik versilberten Kreuz, für den katholischen religiösen Gebrauch bestimmt."
+        }
+      ],
+      "pricing": {
+        "price": "1.20",
+        "regularPrice": "1.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.98",
+          "max": "1.20"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Antiker silberner hölzerner Kranz-Rosenkranz",
+          "description": "Dieser hölzerne Kranz-Rosenkranz besteht aus roten Perlen und einem antik versilberten Kreuz, handgefertigt für die katholische Andacht. Die Konstruktion aus Zinklegierung und Holz macht ihn zu einer langlebigen, religiösen Geschenk-Halskette.",
+          "sku": "ALI-AAGbTG7BAOVioqqEY6eBRcEQ",
+          "image": [
+            "https://sc04.alicdn.com/kf/Had5fa3f8bee847038f70701622cbe52fR.jpg",
+            "https://sc04.alicdn.com/kf/He8bb3fcc74564076a7345ed3ef85735fy.jpg",
+            "https://sc04.alicdn.com/kf/H502eece11f994206b3064b9b4aab5833j.jpg",
+            "https://sc04.alicdn.com/kf/Hc10cb766471e40ff916a0914cf4fd33dF.jpg",
+            "https://sc04.alicdn.com/kf/Hb792c271d8dc4a3ab241604d4f613e9aU.jpg"
+          ],
+          "category": "Katholische Rosenkränze",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Hauptmaterial",
+              "value": "Holz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Metalltyp",
+              "value": "Zinklegierung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Beschichtung",
+              "value": "Antikes Silber"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Religiös"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Schmucktyp",
+              "value": "Halskette"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Modellnummer",
+              "value": "P8-R-0009"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.98",
+              "maxPrice": "1.20",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Materialien werden für diesen Kranz-Rosenkranz verwendet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Perlen bestehen aus Holz, und das Kreuz besteht aus Zinklegierung mit antiker Silberbeschichtung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieser Rosenkranz ein Kruzifix oder ein schlichtes Kreuz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Produktbeschreibung erwähnt ein Kreuz, nicht ein Kruzifix, daher hat es wahrscheinlich ein schlichtes Kreuz ohne Korpus."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welchen Stil hat dieser Rosenkranz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Es ist ein Perlenketten-Stil, handgefertigt mit roten Holzperlen und einem antik versilberten Kreuz, für den katholischen religiösen Gebrauch bestimmt."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+            "contentHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:39.520Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+            "contentHash": "a9b532006fa7418f50d41b478b563b2112ff0d2982256006fed12ba9355bbbed",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:07:40.602Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "sourceId": "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "sourceFingerprint": "ed3093004da5460e050631b2e96446e16268322861dadb694a72d6c478296a82",
+      "locale": "de",
+      "slug": "st-benedict-medallion-christmas-ornament-ebt4pn",
+      "title": "Weihnachtsbaum-Anhänger mit St. Benedikt Medaille",
+      "eyebrow": "Weihnachtsbaum-Anhänger mit St. Benedikt Medaille",
+      "summary": "Dieser Weihnachtsbaum-Anhänger mit St. Benedikt Medaille besteht aus Legierung und ist in Gold oder Silber erhältlich. Er kann an Weihnachtsbäumen, Rückspiegeln im Auto oder Türgriffen aufgehängt werden und verleiht Ihrer Weihnachtsdekoration eine andächtige Note.",
+      "description": "Bringen Sie einen Hauch von Glauben an Ihren Weihnachtsbaum mit diesem Anhänger mit St. Benedikt Medaille. Hergestellt aus langlebiger Legierung, ist er in Gold- oder Silberausführung erhältlich, passend zu Ihrer Dekoration. Die Medaille zeigt das klassische St.-Benedikt-Design, ein beliebtes Symbol christlicher Hingabe. Verwenden Sie ihn, um Ihr Zuhause, Ihr Auto oder Ihre Tür zu schmücken – ein vielseitiges Stück für die Weihnachtszeit. Ob als Geschenk oder persönliches Andenken, er dient als bedeutungsvolle Erinnerung an den Glauben während Weihnachten.",
+      "catholicContext": "Die St.-Benedikt-Medaille ist ein beliebter Andachtsgegenstand in der katholischen Tradition und wird oft als Ausdruck persönlicher Frömmigkeit verwendet.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Christbaumschmuck",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H80887ad2ddfd4ae198082c9ada992fe3T.webp",
+      "imageAlt": "Weihnachtsbaum-Anhänger mit St. Benedikt Medaille",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H80887ad2ddfd4ae198082c9ada992fe3T.webp",
+          "alt": "Weihnachtsbaum-Anhänger mit St. Benedikt Medaille"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfec3e96ad1054295be259baa475cbbafi.webp",
+          "alt": "Weihnachtsbaum-Anhänger mit St. Benedikt Medaille"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He1958c25414f43408c0cd63bdbc99a18u.webp",
+          "alt": "Weihnachtsbaum-Anhänger mit St. Benedikt Medaille"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H07d6a91f993e44279cd7b46ac5723782h.webp",
+          "alt": "Weihnachtsbaum-Anhänger mit St. Benedikt Medaille"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc86f775b4d3b4da2b9beaaa02fb2501cR.webp",
+          "alt": "Weihnachtsbaum-Anhänger mit St. Benedikt Medaille - Gold",
+          "label": "Gold",
+          "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha33e6d9bdef1413f8fd9d9e6fbee8c58y.webp",
+          "alt": "Weihnachtsbaum-Anhänger mit St. Benedikt Medaille - Silber",
+          "label": "Silber",
+          "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn-V-3460547"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Gefertigt aus Legierung für Langlebigkeit",
+        "Erhältlich in Gold- und Silbervarianten",
+        "Mit St.-Benedikt-Medaillen-Design",
+        "Geeignet für Autos, Türen und Hausdekoration",
+        "Leichtgewichtig und einfach aufzuhängen"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Legierung"
+        },
+        {
+          "name": "Variante",
+          "value": "Gold oder Silber"
+        }
+      ],
+      "applications": [
+        "Weihnachtsbaum-Schmuck",
+        "Auto-Rückspiegel-Anhänger",
+        "Türgriff-Dekoration",
+        "Innenraumdekoration"
+      ],
+      "faq": [
+        {
+          "question": "Welche Materialien werden für diesen Anhänger mit St. Benedikt Medaille verwendet?",
+          "answer": "Der Anhänger ist aus Legierung gefertigt, was Langlebigkeit und einen metallischen Glanz bietet."
+        },
+        {
+          "question": "Welche Farboptionen sind verfügbar?",
+          "answer": "Der Anhänger mit St. Benedikt Medaille ist in Gold- und Silbervarianten erhältlich."
+        },
+        {
+          "question": "Kann dieser Anhänger im Auto verwendet werden?",
+          "answer": "Ja, er ist für Autos geeignet, da er an Spiegeln oder anderen Innenvorrichtungen aufgehängt werden kann."
+        }
+      ],
+      "pricing": {
+        "price": "3.25",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.80",
+          "max": "3.25"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Weihnachtsbaum-Anhänger mit St. Benedikt Medaille",
+          "description": "Dieser Weihnachtsbaum-Anhänger mit St. Benedikt Medaille besteht aus Legierung und ist in Gold oder Silber erhältlich. Er kann an Weihnachtsbäumen, Rückspiegeln im Auto oder Türgriffen aufgehängt werden und verleiht Ihrer Weihnachtsdekoration eine andächtige Note.",
+          "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn",
+          "image": [
+            "https://sc04.alicdn.com/kf/H80887ad2ddfd4ae198082c9ada992fe3T.jpg",
+            "https://sc04.alicdn.com/kf/Hfec3e96ad1054295be259baa475cbbafi.jpg",
+            "https://sc04.alicdn.com/kf/He1958c25414f43408c0cd63bdbc99a18u.jpg",
+            "https://sc04.alicdn.com/kf/H07d6a91f993e44279cd7b46ac5723782h.jpg"
+          ],
+          "category": "Christbaumschmuck",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Legierung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Gold oder Silber"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "3.25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.80",
+              "maxPrice": "3.25",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Materialien werden für diesen Anhänger mit St. Benedikt Medaille verwendet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Anhänger ist aus Legierung gefertigt, was Langlebigkeit und einen metallischen Glanz bietet."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Farboptionen sind verfügbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Anhänger mit St. Benedikt Medaille ist in Gold- und Silbervarianten erhältlich."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann dieser Anhänger im Auto verwendet werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, er ist für Autos geeignet, da er an Spiegeln oder anderen Innenvorrichtungen aufgehängt werden kann."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+            "contentHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:40.577Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+            "contentHash": "e1de0700ee2709a7bcd59f37e5d7c22cb1842e257a56da8bea2134596411055b",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:07:47.571Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHdTG7BAOVioqqEY6eCHasP",
+      "sourceId": "AAHdTG7BAOVioqqEY6eCHasP",
+      "sourceFingerprint": "9731db0ae53ecf7a6561a3c5871897833fd72ac61dbe8455621efe40cbcf95f1",
+      "locale": "de",
+      "slug": "flower-bead-rosary-necklace-with-alloy-cross-echasp",
+      "title": "Rosenkranz-Halskette mit Blumenperlen und Kreuz aus Legierung",
+      "eyebrow": "Katholische Rosenkranz-Halskette",
+      "summary": "Diese Rosenkranz-Halskette kombiniert farbenfrohe 10-mm-Kunststoff-Blumenperlen mit einem Kreuz und Mittelstück aus Legierung. Mit einem Umfang von etwa 72 cm und einer Länge von 54 cm als Halskette bietet sie eine leichte, farbenfrohe Option für persönliches Gebet oder als Geschenk.",
+      "description": "Die blumenförmigen Perlen verleihen diesem Rosenkranz ein helles, dekoratives Aussehen, das ihn von schlichten runden Perlen Designs unterscheidet. Das Kreuz aus Legierung misst 2,6 x 5 cm, und das Mittelstück setzt das Blumenthema fort, wodurch ein abgestimmtes visuelles Bild vom Kreuz bis zum Anhänger entsteht.\n\nMit einem Umfang von etwa 72 cm kann er als vollständiger Rosenkranz dienen, während die Halskettenlänge von 54 cm das Tragen erleichtert. Mit einem Gewicht von etwa 34,5 g bleibt er leicht am Hals. Das Unisex-Design passt zu verschiedenen Geschmäckern, und das Kreuz aus Zinklegierung setzt einen dezenten metallischen Kontrast zu den Kunststoffperlen.",
+      "catholicContext": "Der Rosenkranz ist ein katholisches Gebet, das sich auf die Betrachtung von Ereignissen im Leben Jesu Christi und der Jungfrau Maria konzentriert.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Katholische Rosenkränze",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHdTG7BAOVioqqEY6eCHasP",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/He4f22c2b4e5644299a5ff3647436c015P.webp",
+      "imageAlt": "Rosenkranz-Halskette mit Blumenperlen und Kreuz aus Legierung",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4f22c2b4e5644299a5ff3647436c015P.webp",
+          "alt": "Rosenkranz-Halskette mit Blumenperlen und Kreuz aus Legierung"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5e19bc4575d347b990aeb25afb43a05c0.webp",
+          "alt": "Rosenkranz-Halskette mit Blumenperlen und Kreuz aus Legierung"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf74e085b67224160bded2be0b3792162z.webp",
+          "alt": "Rosenkranz-Halskette mit Blumenperlen und Kreuz aus Legierung"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H76eb7e51b992463f8dfa1861fc29cedeD.webp",
+          "alt": "Rosenkranz-Halskette mit Blumenperlen und Kreuz aus Legierung"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdcdcddfebfa34201ba4af586c10b47eec.webp",
+          "alt": "Rosenkranz-Halskette mit Blumenperlen und Kreuz aus Legierung"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H402a3d4219344e84ba022a2c6d324ac7g.webp",
+          "alt": "Rosenkranz-Halskette mit Blumenperlen und Kreuz aus Legierung"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "10-mm-Kunststoffperlen in Blumenform",
+        "Kreuz und Mittelstück aus Legierung (Kreuzgröße: 2,6 * 5 cm)",
+        "Umfang etwa 72 cm; Halskettenlänge etwa 54 cm",
+        "Gesamtgewicht etwa 34,5 g",
+        "Unisex-religiöser Schmuck mit Kanalfassungs-Besatz"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Kunststoffperlen; Kreuz und Mittelstück aus Zinklegierung"
+        },
+        {
+          "name": "Kreuzgröße",
+          "value": "2,6 * 5 cm"
+        },
+        {
+          "name": "Anhängerlänge",
+          "value": "Etwa 18 cm"
+        },
+        {
+          "name": "Umfang",
+          "value": "Etwa 72 cm"
+        },
+        {
+          "name": "Halskettenlänge",
+          "value": "Etwa 54 cm"
+        },
+        {
+          "name": "Gewicht",
+          "value": "Etwa 34,5 g"
+        }
+      ],
+      "applications": [
+        "Persönliches Gebet und Andacht",
+        "Katholisches Geschenk",
+        "Tägliches Tragen als religiöser Schmuck",
+        "Als Halsketten-Accessoire getragen"
+      ],
+      "faq": [
+        {
+          "question": "Wie lang ist diese Rosenkranz-Halskette insgesamt?",
+          "answer": "Der Umfang beträgt etwa 72 cm, und wenn sie als Halskette getragen wird, beträgt die Länge etwa 54 cm. Der Anhänger fügt etwa 18 cm hinzu, sodass die Gesamtlänge etwa 72 cm beträgt."
+        },
+        {
+          "question": "Sind die Perlen aus Kunststoff oder einem anderen Material?",
+          "answer": "Die Perlen sind aus Kunststoff, speziell 10-mm-blumenförmige Perlen. Das Kreuz und das Mittelstück sind aus Zinklegierung."
+        },
+        {
+          "question": "Ist dieser Rosenkranz für Männer und Frauen geeignet?",
+          "answer": "Ja, er ist als Unisex-Design konzipiert und für jeden geeignet. Die farbenfrohen Blumenperlen und die leichte Konstruktion machen ihn zu einer vielseitigen Wahl."
+        }
+      ],
+      "pricing": {
+        "price": "0.66",
+        "regularPrice": "0.66",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.58",
+          "max": "0.66"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Rosenkranz-Halskette mit Blumenperlen und Kreuz aus Legierung",
+          "description": "Diese Rosenkranz-Halskette kombiniert farbenfrohe 10-mm-Kunststoff-Blumenperlen mit einem Kreuz und Mittelstück aus Legierung. Mit einem Umfang von etwa 72 cm und einer Länge von 54 cm als Halskette bietet sie eine leichte, farbenfrohe Option für persönliches Gebet oder als Geschenk.",
+          "sku": "ALI-AAHdTG7BAOVioqqEY6eCHasP",
+          "image": [
+            "https://sc04.alicdn.com/kf/He4f22c2b4e5644299a5ff3647436c015P.jpg",
+            "https://sc04.alicdn.com/kf/H5e19bc4575d347b990aeb25afb43a05c0.jpg",
+            "https://sc04.alicdn.com/kf/Hf74e085b67224160bded2be0b3792162z.jpg",
+            "https://sc04.alicdn.com/kf/H76eb7e51b992463f8dfa1861fc29cedeD.jpg",
+            "https://sc04.alicdn.com/kf/Hdcdcddfebfa34201ba4af586c10b47eec.jpg",
+            "https://sc04.alicdn.com/kf/H402a3d4219344e84ba022a2c6d324ac7g.jpg"
+          ],
+          "category": "Katholische Rosenkränze",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Kunststoffperlen; Kreuz und Mittelstück aus Zinklegierung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kreuzgröße",
+              "value": "2,6 * 5 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Anhängerlänge",
+              "value": "Etwa 18 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Umfang",
+              "value": "Etwa 72 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Halskettenlänge",
+              "value": "Etwa 54 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gewicht",
+              "value": "Etwa 34,5 g"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.66",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.58",
+              "maxPrice": "0.66",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wie lang ist diese Rosenkranz-Halskette insgesamt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Umfang beträgt etwa 72 cm, und wenn sie als Halskette getragen wird, beträgt die Länge etwa 54 cm. Der Anhänger fügt etwa 18 cm hinzu, sodass die Gesamtlänge etwa 72 cm beträgt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Sind die Perlen aus Kunststoff oder einem anderen Material?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Perlen sind aus Kunststoff, speziell 10-mm-blumenförmige Perlen. Das Kreuz und das Mittelstück sind aus Zinklegierung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieser Rosenkranz für Männer und Frauen geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, er ist als Unisex-Design konzipiert und für jeden geeignet. Die farbenfrohen Blumenperlen und die leichte Konstruktion machen ihn zu einer vielseitigen Wahl."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+            "contentHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:52.997Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+            "contentHash": "6cec3c2678c6da54c0aa40c5ef4745969209705050b15a04b4576ee0c0e11a99",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:07:55.608Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHWTG7BAOVioqqEY6eBRiXm",
+      "sourceId": "AAHWTG7BAOVioqqEY6eBRiXm",
+      "sourceFingerprint": "99e29509da16db1a2fba5b5b94b6251b92a49f4c8b3451556e175f7b4c8955cc",
+      "locale": "de",
+      "slug": "handmade-wooden-cross-wall-hanging-11x21cm-ebrixm",
+      "title": "Handgefertigtes Holzkreuz zum Aufhängen 11x21cm",
+      "eyebrow": "Holzwandkreuz",
+      "summary": "Dieses handgefertigte Holzkreuz misst 11x21cm und ist zum Aufhängen an der Wand gedacht. Seine natürliche Holzoberfläche und die Schnitttechnik verleihen ihm ein schlichtes, traditionelles Aussehen, das sich für Kirche, Zuhause oder Feiertagsdekoration eignet.",
+      "description": "Dieses 11x21cm große Kreuz ist aus Holz gefertigt und ein handgefertigtes Wandhängestück. Die Schnitttechnik verleiht ihm saubere Linien und eine natürliche Textur. Seine kompakte Größe passt gut in Eingangsbereiche, Gebetsecken oder über einen Kaminsims.\n\nAls Andachtsgegenstand dient es als visuelle Erinnerung an den Glauben. Verwenden Sie es zur persönlichen Besinnung oder als Geschenk für religiöse Anlässe wie Weihnachten. Das schlichte Kreuzdesign ohne Korpus ist für diejenigen geeignet, die eine einfache Darstellung bevorzugen.",
+      "catholicContext": "Das Kreuz ist ein zentrales Symbol des christlichen Glaubens, das oft in der persönlichen Andacht und bei der Heimdekoration verwendet wird.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Christbaumschmuck",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHWTG7BAOVioqqEY6eBRiXm",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc56aa8e40a54494c8743f76d7641e3a8Z.webp",
+      "imageAlt": "Handgefertigtes Holzkreuz zum Aufhängen 11x21cm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc56aa8e40a54494c8743f76d7641e3a8Z.webp",
+          "alt": "Handgefertigtes Holzkreuz zum Aufhängen 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5cb1fb8c484f4ce5a7b4360c3aea866bx.webp",
+          "alt": "Handgefertigtes Holzkreuz zum Aufhängen 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H934d4049cc20485a819d2697b5f68df9I.webp",
+          "alt": "Handgefertigtes Holzkreuz zum Aufhängen 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ecf7c421b4f484eb756caa7c3b842d5N.webp",
+          "alt": "Handgefertigtes Holzkreuz zum Aufhängen 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9900dab1002447c38b84fd990a3adffa7.webp",
+          "alt": "Handgefertigtes Holzkreuz zum Aufhängen 11x21cm"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#9a6b63",
+      "features": [
+        "Hergestellt aus Holz",
+        "Handgefertigte Konstruktion",
+        "Gesamtabmessungen 11x21cm",
+        "Wandhängestil",
+        "Schnitttechnik für die Formgebung"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Holz"
+        },
+        {
+          "name": "Größe",
+          "value": "11x21cm"
+        },
+        {
+          "name": "Stil",
+          "value": "Religiös"
+        },
+        {
+          "name": "Dekoration",
+          "value": "Wandhängend"
+        },
+        {
+          "name": "Merkmal",
+          "value": "Handgefertigt"
+        }
+      ],
+      "applications": [
+        "Heimdekoration",
+        "Kirchendekoration",
+        "Feiertagsgeschenk",
+        "Souvenir"
+      ],
+      "faq": [
+        {
+          "question": "Welche Abmessungen hat dieses Holzkreuz?",
+          "answer": "Das Kreuz misst 11x21cm und ist damit ein kompaktes Wandhängestück, das für kleine Räume geeignet ist."
+        },
+        {
+          "question": "Ist dieses Kreuz handgefertigt?",
+          "answer": "Ja, das Produkt ist als handgefertigt gekennzeichnet, und die Schnitttechnik wird zur Formung des Holzes verwendet."
+        },
+        {
+          "question": "Kann dieses Kreuz für die Weihnachtsdekoration verwendet werden?",
+          "answer": "Ja, es ist unter Feiertagsdekoration und Geschenkanwendungen einschließlich Weihnachten aufgeführt und kann während der Saison als dekoratives Stück dienen."
+        }
+      ],
+      "pricing": {
+        "price": "0.75",
+        "regularPrice": "0.75",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.60",
+          "max": "0.75"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Handgefertigtes Holzkreuz zum Aufhängen 11x21cm",
+          "description": "Dieses handgefertigte Holzkreuz misst 11x21cm und ist zum Aufhängen an der Wand gedacht. Seine natürliche Holzoberfläche und die Schnitttechnik verleihen ihm ein schlichtes, traditionelles Aussehen, das sich für Kirche, Zuhause oder Feiertagsdekoration eignet.",
+          "sku": "ALI-AAHWTG7BAOVioqqEY6eBRiXm",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc56aa8e40a54494c8743f76d7641e3a8Z.jpg",
+            "https://sc04.alicdn.com/kf/H5cb1fb8c484f4ce5a7b4360c3aea866bx.jpg",
+            "https://sc04.alicdn.com/kf/H934d4049cc20485a819d2697b5f68df9I.jpg",
+            "https://sc04.alicdn.com/kf/H6ecf7c421b4f484eb756caa7c3b842d5N.png",
+            "https://sc04.alicdn.com/kf/H9900dab1002447c38b84fd990a3adffa7.jpg"
+          ],
+          "category": "Christbaumschmuck",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Holz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Größe",
+              "value": "11x21cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Religiös"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Dekoration",
+              "value": "Wandhängend"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Merkmal",
+              "value": "Handgefertigt"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.75",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.60",
+              "maxPrice": "0.75",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Abmessungen hat dieses Holzkreuz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Kreuz misst 11x21cm und ist damit ein kompaktes Wandhängestück, das für kleine Räume geeignet ist."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieses Kreuz handgefertigt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, das Produkt ist als handgefertigt gekennzeichnet, und die Schnitttechnik wird zur Formung des Holzes verwendet."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann dieses Kreuz für die Weihnachtsdekoration verwendet werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, es ist unter Feiertagsdekoration und Geschenkanwendungen einschließlich Weihnachten aufgeführt und kann während der Saison als dekoratives Stück dienen."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+            "contentHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:44.336Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+            "contentHash": "8cf471f1ddf6d91977d91743177f727bdefaed6f9c590e9468d80c85cc42c033",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:08:02.008Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHaTG7BAOVioqqEY6e7LbS6",
+      "sourceId": "AAHaTG7BAOVioqqEY6e7LbS6",
+      "sourceFingerprint": "c5f0e73fd4325711982ae9c1d47214349fb6245a2c1278ec5af7071e44ff71ed",
+      "locale": "de",
+      "slug": "geometric-cross-natural-stone-bracelet-e7lbs6",
+      "title": "Geometrisches Kreuz Armband aus Naturstein",
+      "eyebrow": "Geometrisches Kreuz Armband aus Naturstein",
+      "summary": "Ein geometrisches Kreuz Armband aus Naturstein, entworfen für den täglichen Gebrauch. Das elastische Band passt zu den meisten Handgelenken, und die Natursteinperlen bieten einen minimalistischen Look. Wählen Sie zwischen schwarzen oder weißen Varianten, passend zu Ihrem Stil.",
+      "description": "Dieses geometrische Kreuz Armband kombiniert Natursteinperlen mit einem schlichten Kreuzanhänger und schafft so ein Accessoire, das gut zu lässiger oder halbformeller Kleidung passt. Die elastische Konstruktion ermöglicht ein einfaches An- und Ausziehen, und das Unisex-Design passt sowohl Männern als auch Frauen. Erhältlich in Schwarz und Weiß, eignet es sich als Einzelstück oder zum Kombinieren mit anderen Armbändern. Das Kreuzmotiv spricht diejenigen an, die einen dezenten Ausdruck des Glaubens im Alltag suchen.",
+      "catholicContext": "Ein schlichtes Kreuz ohne Korpus ist ein christliches Glaubenssymbol und kann als Andachtserinnerung getragen werden, ist jedoch kein Sakramentale, es sei denn, es wurde von der Kirche gesegnet.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosenkranz-Armbänder",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H9221bada29ce456ea649470ba162a406g.webp",
+      "imageAlt": "Geometrisches Kreuz Armband aus Naturstein",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9221bada29ce456ea649470ba162a406g.webp",
+          "alt": "Geometrisches Kreuz Armband aus Naturstein"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0c5290dd7244afc959eed373a694ba4U.webp",
+          "alt": "Geometrisches Kreuz Armband aus Naturstein"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8e0c2299e1d2437f8f7328934a7eb020S.webp",
+          "alt": "Geometrisches Kreuz Armband aus Naturstein"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0b683bb5b484920b7201c43d6864df8p.webp",
+          "alt": "Geometrisches Kreuz Armband aus Naturstein"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb7d2c9c8bd4e4c9b8de429012818553cd.webp",
+          "alt": "Geometrisches Kreuz Armband aus Naturstein"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4bb4ed573bc43ee9ebc465940b2890d7.webp",
+          "alt": "Geometrisches Kreuz Armband aus Naturstein"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H10e798c0a5264c20a31877a1f2b9dcb9J.webp",
+          "alt": "Geometrisches Kreuz Armband aus Naturstein - schwarz",
+          "label": "schwarz",
+          "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ee28342967c4320aeb5ba9c448530d3o.webp",
+          "alt": "Geometrisches Kreuz Armband aus Naturstein - weiß",
+          "label": "weiß",
+          "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6-V--2"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Natursteinperlen",
+        "Geometrisches Kreuzdesign",
+        "Elastisches Band für einfaches Tragen",
+        "Unisex-Stil",
+        "Erhältlich in Schwarz und Weiß"
+      ],
+      "specifications": [
+        {
+          "name": "Variante",
+          "value": "Schwarz, Weiß"
+        }
+      ],
+      "applications": [
+        "Tägliche Freizeitkleidung",
+        "Kombination mit anderen Armbändern",
+        "Geschenk für Freunde oder Familie",
+        "Religiöser oder spiritueller Ausdruck"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchen Materialien besteht dieses Armband?",
+          "answer": "Das Armband besteht aus Natursteinperlen und einem elastischen Band. Weitere Materialdetails sind nicht angegeben."
+        },
+        {
+          "question": "Ist dieses Armband für Männer und Frauen geeignet?",
+          "answer": "Das Produkt wird als Unisex beschrieben und ist für Männer und Frauen geeignet, obwohl keine spezifischen Handgelenksgrößen angegeben sind."
+        },
+        {
+          "question": "Hat das Armband einen Verschluss?",
+          "answer": "Nein, das Armband ist elastisch, sodass es ohne Verschluss über die Hand gestreift werden kann."
+        }
+      ],
+      "pricing": {
+        "price": "0.42",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.36",
+          "max": "0.42"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Geometrisches Kreuz Armband aus Naturstein",
+          "description": "Ein geometrisches Kreuz Armband aus Naturstein, entworfen für den täglichen Gebrauch. Das elastische Band passt zu den meisten Handgelenken, und die Natursteinperlen bieten einen minimalistischen Look. Wählen Sie zwischen schwarzen oder weißen Varianten, passend zu Ihrem Stil.",
+          "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6",
+          "image": [
+            "https://sc04.alicdn.com/kf/H9221bada29ce456ea649470ba162a406g.png",
+            "https://sc04.alicdn.com/kf/Hb0c5290dd7244afc959eed373a694ba4U.png",
+            "https://sc04.alicdn.com/kf/H8e0c2299e1d2437f8f7328934a7eb020S.png",
+            "https://sc04.alicdn.com/kf/Hb0b683bb5b484920b7201c43d6864df8p.png",
+            "https://sc04.alicdn.com/kf/Hb7d2c9c8bd4e4c9b8de429012818553cd.png",
+            "https://sc04.alicdn.com/kf/He4bb4ed573bc43ee9ebc465940b2890d7.png"
+          ],
+          "category": "Rosenkranz-Armbänder",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Schwarz, Weiß"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.42",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.36",
+              "maxPrice": "0.42",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchen Materialien besteht dieses Armband?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Armband besteht aus Natursteinperlen und einem elastischen Band. Weitere Materialdetails sind nicht angegeben."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieses Armband für Männer und Frauen geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Produkt wird als Unisex beschrieben und ist für Männer und Frauen geeignet, obwohl keine spezifischen Handgelenksgrößen angegeben sind."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hat das Armband einen Verschluss?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein, das Armband ist elastisch, sodass es ohne Verschluss über die Hand gestreift werden kann."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+            "contentHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:45.609Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+            "contentHash": "7e328a1f5dc8242840711bcad28903256262920f4ebbd864499a013f0b099c2b",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:08:08.835Z",
             "model": "deepseek-v4-flash"
           }
         }

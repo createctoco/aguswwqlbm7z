@@ -2,23 +2,23 @@
   "schemaVersion": 3,
   "locale": "pt",
   "sourceLocale": "en",
-  "sourceCatalogHash": "132a1461bfc864f021282db7aca692fb068bf2f638530e533a00ece3904840de",
-  "generatedAt": "2026-08-17T03:09:42.917Z",
+  "sourceCatalogHash": "98fdd7a8ed86cd0b4d87d27ed3b8010eb959b35e9ab070f92027dcdc47ed01d3",
+  "generatedAt": "2026-08-18T03:05:57.975Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAEzTG7BAOVioqqEY6e1C4Bv",
-      "AAEITG7BAOVioqqEY6e6dEIU",
-      "AAG_TG7BAOVioqqEY6eBSvb6",
-      "AAHXTG7BAOVioqqEY6eBSMpA",
-      "AAHkTG7BAOVioqqEY6eDnVDw",
-      "AAGwTG7BAOVioqqEY6edxhO2",
-      "AAH1TG7BAOVioqqEY6eM_RBY",
-      "AAGJTG7BAOVioqqEY6eEqkiP",
-      "AAGqTG7BAOVioqqEY6eBSJLL",
-      "AAF7TG7BAOVioqqEY6eBTD5s"
+      "AAHRTG7BAOVioqqEY6e7sF2F",
+      "AAE_TG7BAOVioqqEY6eBTjU3",
+      "AAGOTG7BAOVioqqEY6eBtUmL",
+      "AAEcTG7BAOVioqqEY6eYM2Jr",
+      "AAHMTG7BAOVioqqEY6eBS0mz",
+      "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "AAHdTG7BAOVioqqEY6eCHasP",
+      "AAHWTG7BAOVioqqEY6eBRiXm",
+      "AAHaTG7BAOVioqqEY6e7LbS6"
     ],
     "deletedProductIds": []
   },
@@ -36,25 +36,28 @@
   },
   "categoryGlossarySourceHash": "b6c56a83072314b56383fbfa434e33dfc4e91cf06a3a3e3c5578f25bc7ae98a6",
   "translationSummary": {
-    "ready": 268,
-    "skipped": 2,
+    "ready": 277,
+    "skipped": 3,
     "skippedProductIds": [
       "AAGxTG7BAOVioqqEY6e7uzWC",
-      "AAEDTG7BAOVioqqEY6erMoEh"
+      "AAEDTG7BAOVioqqEY6erMoEh",
+      "AAEcTG7BAOVioqqEY6eYM2Jr"
     ],
-    "reused": 258,
-    "generated": 10,
+    "reused": 265,
+    "generated": 12,
     "generatedProductIds": [
       "AAEzTG7BAOVioqqEY6e1C4Bv",
-      "AAEITG7BAOVioqqEY6e6dEIU",
-      "AAG_TG7BAOVioqqEY6eBSvb6",
-      "AAHXTG7BAOVioqqEY6eBSMpA",
       "AAHkTG7BAOVioqqEY6eDnVDw",
-      "AAGwTG7BAOVioqqEY6edxhO2",
-      "AAH1TG7BAOVioqqEY6eM_RBY",
-      "AAGJTG7BAOVioqqEY6eEqkiP",
-      "AAGqTG7BAOVioqqEY6eBSJLL",
-      "AAF7TG7BAOVioqqEY6eBTD5s"
+      "AAF7TG7BAOVioqqEY6eBTD5s",
+      "AAHRTG7BAOVioqqEY6e7sF2F",
+      "AAE_TG7BAOVioqqEY6eBTjU3",
+      "AAGOTG7BAOVioqqEY6eBtUmL",
+      "AAHMTG7BAOVioqqEY6eBS0mz",
+      "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "AAHdTG7BAOVioqqEY6eCHasP",
+      "AAHWTG7BAOVioqqEY6eBRiXm",
+      "AAHaTG7BAOVioqqEY6e7LbS6"
     ],
     "retriedBacklog": 2,
     "glossaryReused": true
@@ -904,6 +907,235 @@
             "contentHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
             "attempts": 0,
             "updatedAt": "2026-08-14T04:12:50.913Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEcTG7BAOVioqqEY6eYM2Jr",
+      "sourceId": "AAEcTG7BAOVioqqEY6eYM2Jr",
+      "sourceFingerprint": "61e16346ee9266ee5df203bfd6226fb8e2fb829f9c3108d558f7db8195d40846",
+      "locale": "en",
+      "slug": "250ml-plastic-holy-water-bottle-with-cross-pattern-eym2jr",
+      "title": "250ml Plastic Holy Water Bottle with Cross Pattern",
+      "eyebrow": "Plastic Cross Pattern Holy Water Bottle",
+      "summary": "A 250ml HDPE holy water bottle with a white cross pattern and a protective PP cap. At 30.7g and 16.5cm tall, it's a lightweight option for ceremonies, gifts, and personal use.",
+      "description": "This 250ml holy water bottle is molded from high-density polyethylene (HDPE) for durability against impacts, while the polypropylene (PP) cap offers a reliable seal. Its white body carries an embossed cross design, making it a clear devotional symbol. The 16.5cm height and 30.7g weight make it easy to carry or store, whether for personal prayer or church-related events.",
+      "catholicContext": "In Catholic practice, holy water is used for blessings and devotional gestures, and a cross is a central symbol of the faith; this bottle is shaped for such use.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
+      "imageAlt": "250ml Plastic Holy Water Bottle with Cross Pattern",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1880c36feab49ee8e28277936e31bfck.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haece68d37fc146569cc2fa18df81b2731.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd7e209e67eb24fddb3d1db370fd159e8q.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc79f02828fb46fdab2002a45f2ffe5aa.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H50e34a9b22ad4fb8b7294056b92d11f5b.webp",
+          "alt": "250ml Plastic Holy Water Bottle with Cross Pattern"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#7a6d92",
+      "features": [
+        "250ml capacity holds a practical amount of holy water",
+        "Made from HDPE plastic for high protective strength",
+        "White color with cross pattern in raised relief",
+        "PP flip cap for easy opening and secure closing",
+        "Compact size: 16.5 x 5 x 5 cm, weighing only 30.7g"
+      ],
+      "specifications": [
+        {
+          "name": "Capacity",
+          "value": "250ml"
+        },
+        {
+          "name": "Size",
+          "value": "16.5 x 5 x 5 cm"
+        },
+        {
+          "name": "Weight",
+          "value": "30.7g"
+        },
+        {
+          "name": "Bottle material",
+          "value": "HDPE (high-density polyethylene)"
+        },
+        {
+          "name": "Cap material",
+          "value": "PP (polypropylene)"
+        },
+        {
+          "name": "Color",
+          "value": "White"
+        },
+        {
+          "name": "Pattern",
+          "value": "Cross"
+        }
+      ],
+      "applications": [
+        "Holding holy water for prayer at home",
+        "Religious ceremonies and baptism blessings",
+        "Devotional gifts for Easter or other feast days",
+        "Educational use in faith formation classes"
+      ],
+      "faq": [
+        {
+          "question": "What is the bottle made of and is it durable?",
+          "answer": "The bottle is made from HDPE (high-density polyethylene), which gives it high protective strength against impacts, making it suitable for everyday handling."
+        },
+        {
+          "question": "What are the dimensions and capacity?",
+          "answer": "The bottle measures 16.5 x 5 x 5 cm and holds 250ml of liquid. It weighs just 30.7g, so it's lightweight and portable."
+        },
+        {
+          "question": "Does it come with a cap?",
+          "answer": "Yes, it has a PP (polypropylene) cap that flips open, providing a secure closure to prevent spills."
+        }
+      ],
+      "pricing": {
+        "price": "0.39",
+        "regularPrice": "0.39",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.35",
+          "max": "0.39"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "250ml Plastic Holy Water Bottle with Cross Pattern",
+          "description": "HDPE plastic holy water bottle, 250ml, cross pattern, white, with PP flip cap. Lightweight and protective, suitable for religious ceremonies and gifts.",
+          "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
+          "image": [
+            "https://sc04.alicdn.com/kf/H54de41f1e8b94a1da6846ff578113e9fw.jpg",
+            "https://sc04.alicdn.com/kf/Hd1880c36feab49ee8e28277936e31bfck.jpg",
+            "https://sc04.alicdn.com/kf/Haece68d37fc146569cc2fa18df81b2731.jpg",
+            "https://sc04.alicdn.com/kf/Hd7e209e67eb24fddb3d1db370fd159e8q.jpg",
+            "https://sc04.alicdn.com/kf/Hbc79f02828fb46fdab2002a45f2ffe5aa.jpg",
+            "https://sc04.alicdn.com/kf/H50e34a9b22ad4fb8b7294056b92d11f5b.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Capacity",
+              "value": "250ml"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Size",
+              "value": "16.5 x 5 x 5 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Weight",
+              "value": "30.7g"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bottle material",
+              "value": "HDPE (high-density polyethylene)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Cap material",
+              "value": "PP (polypropylene)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color",
+              "value": "White"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pattern",
+              "value": "Cross"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.35",
+              "maxPrice": "0.39",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the bottle made of and is it durable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bottle is made from HDPE (high-density polyethylene), which gives it high protective strength against impacts, making it suitable for everyday handling."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the dimensions and capacity?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bottle measures 16.5 x 5 x 5 cm and holds 250ml of liquid. It weighs just 30.7g, so it's lightweight and portable."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does it come with a cap?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it has a PP (polypropylene) cap that flips open, providing a secure closure to prevent spills."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "contentHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:35.706Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -57483,10 +57715,10 @@
       "sourceFingerprint": "c044c1bc843c659f9fa0de2a763749042fbab9668b5ca9b4aaf4294a3bc993aa",
       "locale": "pt",
       "slug": "customizable-cross-charm-pendant-for-children-e1c4bv",
-      "title": "Pingente de Crucifixo Personalizável para Crianças",
-      "eyebrow": "pingente de crucifixo personalizável",
-      "summary": "Um pingente de crucifixo feito de liga metálica, projetado para crianças. Seu texto e padrões personalizáveis o tornam adequado para presentes religiosos, aniversários ou lembranças pessoais. Serviços de moldes e amostras estão disponíveis para pedidos por atacado.",
-      "description": "Este pingente de crucifixo é feito de liga metálica, oferecendo uma base durável para um design que pode ser personalizado com nomes ou palavras. O pingente apresenta um padrão de cruz, alinhado com seu estilo religioso católico. Originário de Zhejiang, China, este item é posicionado para compra direta de fábrica no atacado.\n\nPara compradores que precisam de designs personalizados, são oferecidos serviços de moldes e amostras, permitindo a personalização de texto, padrões ou imagens. O pingente é categorizado sob escapulários católicos, embora funcione como um pingente ou amuleto, tornando-o versátil para várias aplicações devocionais ou de presente.\n\nEspecífico para crianças, este pingente pode servir como um acessório significativo para os pequenos em marcos religiosos como Primeira Comunhão ou Batismo, embora seu uso não seja limitado a tais eventos.",
+      "title": "Pingente de Cruz Personalizável para Crianças",
+      "eyebrow": "pingente de cruz personalizável",
+      "summary": "Um pingente de cruz feito de liga metálica, projetado para crianças. Sua personalização de texto e padrões o torna adequado para presentes religiosos, aniversários ou lembranças pessoais. Serviços de criação de molde e amostra estão disponíveis para pedidos de atacado.",
+      "description": "Este pingente de cruz é feito de liga metálica, oferecendo uma base durável para um design que pode ser personalizado com nomes ou palavras. O pingente apresenta um padrão de cruz, alinhado ao seu estilo religioso católico. Originário de Zhejiang, na China, este item é posicionado para compra direta de fábrica no atacado.\n\nPara compradores que precisam de designs personalizados, são oferecidos serviços de criação de molde e amostra, permitindo a personalização de texto, padrões ou imagens. O pingente é categorizado sob escapulários católicos, embora funcione como um pingente ou amuleto, tornando-o versátil para várias aplicações devocionais ou de presente.\n\nEspecífico para crianças, este pingente pode servir como um acessório significativo para os pequenos em marcos religiosos como Primeira Comunhão ou Batismo, embora seu uso não se limite a tais eventos.",
       "catholicContext": "A cruz é um símbolo central da fé cristã, e os artigos devocionais católicos frequentemente apresentam a cruz como um lembrete do sacrifício de Cristo.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -57498,27 +57730,27 @@
       ],
       "sku": "ALI-AAEzTG7BAOVioqqEY6e1C4Bv",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H00bd6dffb0884b6a86dc0d9a4282ccbeg.webp",
-      "imageAlt": "Pingente de Crucifixo Personalizável para Crianças",
+      "imageAlt": "Pingente de Cruz Personalizável para Crianças",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/08/H00bd6dffb0884b6a86dc0d9a4282ccbeg.webp",
-          "alt": "Pingente de Crucifixo Personalizável para Crianças"
+          "alt": "Pingente de Cruz Personalizável para Crianças"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/08/H8d03ab187e6e4ecf83ac3785f368be5aP.webp",
-          "alt": "Pingente de Crucifixo Personalizável para Crianças"
+          "alt": "Pingente de Cruz Personalizável para Crianças"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/08/H73b492da923449ebb55578d487378f02v.webp",
-          "alt": "Pingente de Crucifixo Personalizável para Crianças"
+          "alt": "Pingente de Cruz Personalizável para Crianças"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf61d4d18f4eb4f83bd8b9a9d9672b305i.webp",
-          "alt": "Pingente de Crucifixo Personalizável para Crianças"
+          "alt": "Pingente de Cruz Personalizável para Crianças"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha9db3f33aa4a45ebb43db13b398668b3o.webp",
-          "alt": "Pingente de Crucifixo Personalizável para Crianças"
+          "alt": "Pingente de Cruz Personalizável para Crianças"
         }
       ],
       "variantImages": [],
@@ -57526,9 +57758,9 @@
       "features": [
         "Material: Liga metálica para durabilidade",
         "Texto e padrões personalizáveis (nome ou palavras)",
-        "Formato/padrão cruz, estilo religioso",
+        "Formato/padrão de cruz, estilo religioso",
         "Projetado para crianças",
-        "Serviços de moldes e amostras disponíveis",
+        "Serviços de criação de molde e amostra disponíveis",
         "Local de origem: Zhejiang, China (CN;ZHE)"
       ],
       "specifications": [
@@ -57562,7 +57794,7 @@
         },
         {
           "name": "Serviços Adicionais",
-          "value": "Serviços de moldes e amostras"
+          "value": "Criação de molde e amostra"
         }
       ],
       "applications": [
@@ -57573,7 +57805,7 @@
       ],
       "faq": [
         {
-          "question": "De que materiais é feito este pingente de cruz?",
+          "question": "De qual material é feito este pingente de cruz?",
           "answer": "Este pingente de cruz é feito de liga metálica, conforme especificado nos atributos do produto."
         },
         {
@@ -57581,8 +57813,8 @@
           "answer": "Sim, os atributos do produto indicam que a personalização de nome ou palavras está disponível, e o design pode ser adaptado às suas necessidades."
         },
         {
-          "question": "Há serviços adicionais para criar moldes ou amostras personalizados?",
-          "answer": "Sim, a listagem do produto inclui serviços de moldes e amostras, permitindo que você desenvolva padrões ou textos personalizados para pedidos por atacado."
+          "question": "Existem serviços adicionais para criar moldes ou amostras personalizados?",
+          "answer": "Sim, a listagem do produto inclui serviços de criação de molde e amostra, permitindo que você desenvolva padrões ou textos personalizados para pedidos de atacado."
         }
       ],
       "pricing": {
@@ -57599,8 +57831,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Pingente de Crucifixo Personalizável para Crianças",
-          "description": "Um pingente de crucifixo feito de liga metálica, projetado para crianças. Seu texto e padrões personalizáveis o tornam adequado para presentes religiosos, aniversários ou lembranças pessoais. Serviços de moldes e amostras estão disponíveis para pedidos por atacado.",
+          "name": "Pingente de Cruz Personalizável para Crianças",
+          "description": "Um pingente de cruz feito de liga metálica, projetado para crianças. Sua personalização de texto e padrões o torna adequado para presentes religiosos, aniversários ou lembranças pessoais. Serviços de criação de molde e amostra estão disponíveis para pedidos de atacado.",
           "sku": "ALI-AAEzTG7BAOVioqqEY6e1C4Bv",
           "image": [
             "https://sc04.alicdn.com/kf/H00bd6dffb0884b6a86dc0d9a4282ccbeg.png",
@@ -57649,7 +57881,7 @@
             {
               "@type": "PropertyValue",
               "name": "Serviços Adicionais",
-              "value": "Serviços de moldes e amostras"
+              "value": "Criação de molde e amostra"
             }
           ],
           "offers": {
@@ -57671,7 +57903,7 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "De que materiais é feito este pingente de cruz?",
+              "name": "De qual material é feito este pingente de cruz?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Este pingente de cruz é feito de liga metálica, conforme especificado nos atributos do produto."
@@ -57687,10 +57919,10 @@
             },
             {
               "@type": "Question",
-              "name": "Há serviços adicionais para criar moldes ou amostras personalizados?",
+              "name": "Existem serviços adicionais para criar moldes ou amostras personalizados?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Sim, a listagem do produto inclui serviços de moldes e amostras, permitindo que você desenvolva padrões ou textos personalizados para pedidos por atacado."
+                "text": "Sim, a listagem do produto inclui serviços de criação de molde e amostra, permitindo que você desenvolva padrões ou textos personalizados para pedidos de atacado."
               }
             }
           ]
@@ -57698,22 +57930,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
+        "sourceHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
-            "contentHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
+            "sourceHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
+            "contentHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
             "attempts": 0,
             "updatedAt": "2026-08-17T03:04:23.427Z",
             "model": "deepseek-v4-flash"
           },
           "pt": {
             "status": "ready",
-            "sourceHash": "7e021d4ec0c3c19ec50f96fb0425a144a7977ff6fb2d8b846dabce5883acbb8b",
-            "contentHash": "6bd94cc93b45f542daa126b1b788a1948c6bfed07064b359665cfb7f34a8ca4c",
+            "sourceHash": "cf9b0d0dec4fdcf595fd93ce964e64ce40bb8fcdc236c3a1fcfe411bbfff811f",
+            "contentHash": "120ae45c6b2ff329cd2001e6c25be4f50b70b891e38b9d952de56a716f7c0124",
             "attempts": 1,
-            "updatedAt": "2026-08-17T03:08:41.813Z",
+            "updatedAt": "2026-08-18T03:03:55.004Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -58404,8 +58636,8 @@
       "slug": "10mm-bead-plastic-rosary-with-cross-ednvdw",
       "title": "Terço de Plástico com Contas de 10mm e Cruz",
       "eyebrow": "Terço",
-      "summary": "Um terço de plástico com contas de 10mm e cruz, oferecido em quatro variantes de cor. Leve e durável, adequado para oração pessoal, uso catequético ou como presente para ocasiões religiosas.",
-      "description": "Este terço de plástico é confeccionado com contas de 10mm e inclui uma cruz. Disponível em Bege, Preto, Branco e Azul. O design segue o formato tradicional do terço, típico para a oração católica. Sua construção em plástico oferece durabilidade e uma sensação de leveza. Adequado para devoção individual, ambientes de educação religiosa ou como presente significativo para eventos como a Primeira Comunhão.",
+      "summary": "Um terço de plástico com contas de 10mm e cruz, disponível em quatro variações de cor. Leve e durável, adequado para oração pessoal, uso catequético ou como presente para ocasiões religiosas.",
+      "description": "Este terço de plástico é construído com contas de 10mm e inclui uma cruz. Disponível em Bege, Preto, Branco e Azul. O design segue o formato tradicional do terço, típico para a oração católica. Sua construção em plástico oferece durabilidade e uma sensação de leveza. Adequado para devoção individual, ambientes de educação religiosa ou como presente significativo para eventos como a Primeira Comunhão.",
       "catholicContext": "O Terço é uma oração católica centrada na contemplação dos eventos da vida de Jesus Cristo e da Virgem Maria.",
       "catholicRelevance": "devotional_context",
       "categories": [
@@ -58472,11 +58704,11 @@
       ],
       "accent": "#8b6b4a",
       "features": [
-        "Tamanho da conta: 10mm",
+        "Tamanho da conta de 10mm",
         "Construção em plástico",
         "Cruz incluída",
-        "Variantes de cor: Bege, Preto, Branco, Azul",
-        "Design tradicional de terço"
+        "Variações de cor: Bege, Preto, Branco, Azul",
+        "Design tradicional do terço"
       ],
       "specifications": [
         {
@@ -58497,10 +58729,10 @@
         }
       ],
       "applications": [
-        "Oração e devoção pessoal",
+        "Oração pessoal e devoção",
         "Educação religiosa e catequese",
         "Presente para ocasiões sacramentais como a Primeira Comunhão",
-        "Suprimento para igrejas ou ministérios"
+        "Suprimento para igreja ou ministério"
       ],
       "faq": [
         {
@@ -58530,7 +58762,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Terço de Plástico com Contas de 10mm e Cruz",
-          "description": "Um terço de plástico com contas de 10mm e cruz, oferecido em quatro variantes de cor. Leve e durável, adequado para oração pessoal, uso catequético ou como presente para ocasiões religiosas.",
+          "description": "Um terço de plástico com contas de 10mm e cruz, disponível em quatro variações de cor. Leve e durável, adequado para oração pessoal, uso catequético ou como presente para ocasiões religiosas.",
           "sku": "ALI-AAHkTG7BAOVioqqEY6eDnVDw",
           "image": [
             "https://sc04.alicdn.com/kf/H91acfa23878847d3a7cee42d39f724d9A.jpg",
@@ -58609,22 +58841,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
+        "sourceHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
-            "contentHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
+            "sourceHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
+            "contentHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
             "attempts": 0,
             "updatedAt": "2026-08-17T03:04:26.169Z",
             "model": "deepseek-v4-flash"
           },
           "pt": {
             "status": "ready",
-            "sourceHash": "973994b4ed04d225b3c6c201fe79dd2c4977ed889b4b884584d01912cc520b1f",
-            "contentHash": "bb71c68cf06a5c1a6ed44c254432ea423529e0a8a403d440429094145a9b0c78",
+            "sourceHash": "10edd936b525ce3c9f59be0787c34609df0ffea34137ba3ea146ba92a1953ada",
+            "contentHash": "d584e00a0dbf0e43b84c6d9f88f9201513772d5c3fb5f2c4e4a54e1dac2c0b94",
             "attempts": 1,
-            "updatedAt": "2026-08-17T03:09:14.604Z",
+            "updatedAt": "2026-08-18T03:04:00.945Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -59539,10 +59771,10 @@
       "sourceFingerprint": "e532b0b71da1ec5cb006c414491da1e13a8fd1edcd19cf520075368b7cca238b",
       "locale": "pt",
       "slug": "zinc-alloy-cross-wall-hanging-medal-ebtd5s",
-      "title": "Medalha de Cruz Suspensa em Parede de Liga de Zinco",
+      "title": "Medalha de Cruz de Parede em Liga de Zinco",
       "eyebrow": "medalha de cruz decorativa",
-      "summary": "Uma medalha de cruz em liga de zinco com tamanho de retrato de 8,8x6 cm. Pode ser pendurada na parede ou apoiada em uma superfície, sendo versátil para decoração de casa, cantos de oração ou como presente.",
-      "description": "Esta medalha de cruz de parede é fundida em liga de zinco com acabamento banhado. A superfície apresenta um design recortado com forma de cruz 2D. Mede aproximadamente 8,8 cm por 6 cm, com uma pequena placa de liga quadrada de 3 cm por 2,5 cm. O design de dupla finalidade permite que seja pendurada na parede ou colocada em um suporte.\n\nO tamanho compacto e o acabamento metálico da medalha a tornam adequada para várias configurações de exibição. Seu motivo religioso está alinhado com as práticas devocionais católicas, onde cruzes são comumente usadas em espaços de oração domésticos.",
+      "summary": "Uma medalha de cruz em liga de zinco com tamanho de retrato de 8,8x6 cm. Pode ser pendurada na parede ou apoiada em uma superfície, tornando-a versátil para decoração de casa, cantos de oração ou como presente.",
+      "description": "Esta medalha de cruz de parede é fundida em liga de zinco com acabamento folheado. A superfície apresenta um design recortado com formato de cruz 2D. Mede aproximadamente 8,8 cm por 6 cm, com uma pequena placa quadrada de liga de 3 cm por 2,5 cm. O design de dupla finalidade permite que seja pendurada na parede ou colocada em um suporte.\n\nO tamanho compacto da medalha e o acabamento metálico a tornam adequada para diversos ambientes de exibição. Seu motivo religioso está alinhado com as práticas devocionais católicas, onde cruzes são comumente usadas em espaços de oração domésticos.",
       "catholicContext": "A cruz é um símbolo central da fé cristã, representando a crucificação de Jesus Cristo.",
       "catholicRelevance": "explicit",
       "categories": [
@@ -59554,38 +59786,38 @@
       ],
       "sku": "ALI-AAF7TG7BAOVioqqEY6eBTD5s",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H309eea3954b94281aeb3b86d0e10991fw.webp",
-      "imageAlt": "Medalha de Cruz Suspensa em Parede de Liga de Zinco",
+      "imageAlt": "Medalha de Cruz de Parede em Liga de Zinco",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H309eea3954b94281aeb3b86d0e10991fw.webp",
-          "alt": "Medalha de Cruz Suspensa em Parede de Liga de Zinco"
+          "alt": "Medalha de Cruz de Parede em Liga de Zinco"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbfe605c7f23847feb2588ba3fa3e89beL.webp",
-          "alt": "Medalha de Cruz Suspensa em Parede de Liga de Zinco"
+          "alt": "Medalha de Cruz de Parede em Liga de Zinco"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Haef0f33219d145dea635983eb72141c6d.webp",
-          "alt": "Medalha de Cruz Suspensa em Parede de Liga de Zinco"
+          "alt": "Medalha de Cruz de Parede em Liga de Zinco"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H250bb97895454fa68b32517115be54618.webp",
-          "alt": "Medalha de Cruz Suspensa em Parede de Liga de Zinco"
+          "alt": "Medalha de Cruz de Parede em Liga de Zinco"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc57ad1a864d24bdb82e850353b2d7c13U.webp",
-          "alt": "Medalha de Cruz Suspensa em Parede de Liga de Zinco"
+          "alt": "Medalha de Cruz de Parede em Liga de Zinco"
         }
       ],
       "variantImages": [],
       "accent": "#6d7887",
       "features": [
         "Material: liga de zinco",
-        "Acabamento banhado",
+        "Acabamento folheado",
         "Técnica de impressão por recorte",
-        "Dupla finalidade: pendurar na parede ou apoio",
-        "Tamanho do retrato: 8,8 cm x 6 cm",
-        "Inclui uma placa de liga quadrada de 3 cm x 2,5 cm"
+        "Dupla finalidade: pendurar na parede ou apoiar",
+        "Tamanho de retrato: 8,8 cm x 6 cm",
+        "Inclui uma placa quadrada de liga de 3 cm x 2,5 cm"
       ],
       "specifications": [
         {
@@ -59597,36 +59829,36 @@
           "value": "Cruz (2D)"
         },
         {
-          "name": "Tamanho do retrato",
+          "name": "Tamanho de retrato",
           "value": "8,8 cm x 6 cm"
         },
         {
-          "name": "Placa de liga quadrada",
+          "name": "Placa quadrada de liga",
           "value": "3 cm x 2,5 cm"
         },
         {
           "name": "Técnica",
-          "value": "Banhado"
+          "value": "Folheado"
         },
         {
           "name": "Impressão",
-          "value": "Impressão por Recorte"
+          "value": "Impressão por recorte"
         }
       ],
       "applications": [
         "Decoração de casa",
-        "Exposição em canto de oração",
+        "Exibição em canto de oração",
         "Lembrança religiosa",
-        "Item para feriados ou presentes"
+        "Item de feriado ou presente"
       ],
       "faq": [
         {
           "question": "De que material é feita esta medalha de cruz?",
-          "answer": "Esta medalha de cruz é feita de metal, especificamente liga de zinco, com acabamento banhado."
+          "answer": "Esta medalha de cruz é feita de metal, especificamente liga de zinco, com acabamento folheado."
         },
         {
           "question": "Quais são as dimensões desta medalha de cruz?",
-          "answer": "O tamanho principal do retrato é 8,8 cm por 6 cm, e inclui uma placa de liga quadrada adicional medindo 3 cm por 2,5 cm."
+          "answer": "O tamanho principal do retrato é 8,8 cm por 6 cm, e inclui uma placa adicional quadrada de liga medindo 3 cm por 2,5 cm."
         },
         {
           "question": "Esta cruz pode ser exibida em pé?",
@@ -59647,8 +59879,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Medalha de Cruz Suspensa em Parede de Liga de Zinco",
-          "description": "Uma medalha de cruz em liga de zinco com tamanho de retrato de 8,8x6 cm. Pode ser pendurada na parede ou apoiada em uma superfície, sendo versátil para decoração de casa, cantos de oração ou como presente.",
+          "name": "Medalha de Cruz de Parede em Liga de Zinco",
+          "description": "Uma medalha de cruz em liga de zinco com tamanho de retrato de 8,8x6 cm. Pode ser pendurada na parede ou apoiada em uma superfície, tornando-a versátil para decoração de casa, cantos de oração ou como presente.",
           "sku": "ALI-AAF7TG7BAOVioqqEY6eBTD5s",
           "image": [
             "https://sc04.alicdn.com/kf/H309eea3954b94281aeb3b86d0e10991fw.jpg",
@@ -59671,23 +59903,23 @@
             },
             {
               "@type": "PropertyValue",
-              "name": "Tamanho do retrato",
+              "name": "Tamanho de retrato",
               "value": "8,8 cm x 6 cm"
             },
             {
               "@type": "PropertyValue",
-              "name": "Placa de liga quadrada",
+              "name": "Placa quadrada de liga",
               "value": "3 cm x 2,5 cm"
             },
             {
               "@type": "PropertyValue",
               "name": "Técnica",
-              "value": "Banhado"
+              "value": "Folheado"
             },
             {
               "@type": "PropertyValue",
               "name": "Impressão",
-              "value": "Impressão por Recorte"
+              "value": "Impressão por recorte"
             }
           ],
           "offers": {
@@ -59712,7 +59944,7 @@
               "name": "De que material é feita esta medalha de cruz?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Esta medalha de cruz é feita de metal, especificamente liga de zinco, com acabamento banhado."
+                "text": "Esta medalha de cruz é feita de metal, especificamente liga de zinco, com acabamento folheado."
               }
             },
             {
@@ -59720,7 +59952,7 @@
               "name": "Quais são as dimensões desta medalha de cruz?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "O tamanho principal do retrato é 8,8 cm por 6 cm, e inclui uma placa de liga quadrada adicional medindo 3 cm por 2,5 cm."
+                "text": "O tamanho principal do retrato é 8,8 cm por 6 cm, e inclui uma placa adicional quadrada de liga medindo 3 cm por 2,5 cm."
               }
             },
             {
@@ -59736,22 +59968,2006 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
+        "sourceHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
-            "contentHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
+            "sourceHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
+            "contentHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
             "attempts": 0,
             "updatedAt": "2026-08-17T03:04:35.879Z",
             "model": "deepseek-v4-flash"
           },
           "pt": {
             "status": "ready",
-            "sourceHash": "4634d8f6a783b09735f8a72ba07902d20036e09ec442c2d98e890e4aa03e9bd3",
-            "contentHash": "4183fc71199cf07252c7491dc540060c93a3049a27340a0db563ca5e9de35c7c",
+            "sourceHash": "4436bcafbd6d790670532523c00c67927129a276fe996c284ad303c0a1a7958f",
+            "contentHash": "2ed308f3a0aeeb9858556510b2196ad7b292152e435a5302146615f23bd33c99",
             "attempts": 1,
-            "updatedAt": "2026-08-17T03:09:42.916Z",
+            "updatedAt": "2026-08-18T03:04:08.059Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHRTG7BAOVioqqEY6e7sF2F",
+      "sourceId": "AAHRTG7BAOVioqqEY6e7sF2F",
+      "sourceFingerprint": "cb894ec9c7a48373fd207cb12dd39b17fb088c7691b9d53a570daa46bb6c76ea",
+      "locale": "pt",
+      "slug": "prayer-cross-couple-ring-for-men-and-women-e7sf2f",
+      "title": "Anel de Casal Cruz de Oração para Homens e Mulheres",
+      "eyebrow": "Anel de Casal Cruz",
+      "summary": "Este anel de casal unissex apresenta um design aberto com padrão de cruz de oração, feito de liga metálica com acabamento semelhante ao titânio. É um acessório religioso elegante, adequado para presentear ou uso pessoal.",
+      "description": "O Anel de Casal Cruz de Oração apresenta uma silhueta aberta moderna com motivo de cruz, atraindo aqueles que buscam joias religiosas. Feito de liga metálica sem banho, oferece um visual metálico cru que se adequa a ambientes casuais e formais. Seu design unissex o torna adequado tanto para homens quanto para mulheres, e a construção aberta permite ajustes fáceis de tamanho.\n\nEste anel é categorizado como estilo religioso com o catolicismo como tipo religioso, indicando sua conexão pretendida com a devoção católica. Como anel de casal, pode servir como acessório correspondente para parceiros, embora não se limite a esse uso. Seu design minimalista o torna uma adição versátil a qualquer coleção de joias.",
+      "catholicContext": "A cruz é um símbolo central do cristianismo, representando a crucificação de Jesus Cristo.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Anéis",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAHRTG7BAOVioqqEY6e7sF2F",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H1fd824cb8b7c416aae421cfd4c6ca701k.webp",
+      "imageAlt": "Anel de Casal Cruz de Oração para Homens e Mulheres",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1fd824cb8b7c416aae421cfd4c6ca701k.webp",
+          "alt": "Anel de Casal Cruz de Oração para Homens e Mulheres"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31bdaaa91b304a09a9387461922f0b94a.webp",
+          "alt": "Anel de Casal Cruz de Oração para Homens e Mulheres"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H328c265afb9947aeb4abacb55daf44e3i.webp",
+          "alt": "Anel de Casal Cruz de Oração para Homens e Mulheres"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hce733088ec9f46f99214507eef587473a.webp",
+          "alt": "Anel de Casal Cruz de Oração para Homens e Mulheres"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha91c8313fe9c4d6aa8076cf8723c9c7ei.webp",
+          "alt": "Anel de Casal Cruz de Oração para Homens e Mulheres"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hadd2db4089d940c1a1f94845d75155c4v.webp",
+          "alt": "Anel de Casal Cruz de Oração para Homens e Mulheres"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Feito de liga metálica com aparência semelhante ao titânio",
+        "Design de anel aberto para fácil ajuste",
+        "Estilo unissex adequado para homens e mulheres",
+        "Padrão de cruz de oração como motivo central",
+        "Sem banho para um acabamento metálico natural",
+        "Categorizado como joia religiosa com catolicismo como tipo religioso"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Liga metálica"
+        },
+        {
+          "name": "Banho",
+          "value": "Nenhum"
+        },
+        {
+          "name": "Gênero",
+          "value": "Unissex"
+        },
+        {
+          "name": "Estilo",
+          "value": "Religioso"
+        },
+        {
+          "name": "Tipo de Anel",
+          "value": "Anel de Casal"
+        },
+        {
+          "name": "Número do Modelo",
+          "value": "A306-- Prayer Cross Ring"
+        }
+      ],
+      "applications": [
+        "Presente para parceiro ou ente querido",
+        "Alternativa para aliança de casamento ou noivado",
+        "Joia religiosa para uso pessoal",
+        "Acessório para festas ou chá de cozinha"
+      ],
+      "faq": [
+        {
+          "question": "De que material é feito o Anel de Casal Cruz de Oração?",
+          "answer": "O anel é feito de liga metálica e não possui banho, conferindo-lhe um aspecto metálico natural."
+        },
+        {
+          "question": "Este anel é adequado para homens e mulheres?",
+          "answer": "Sim, o anel é projetado como unissex, portanto pode ser usado por qualquer pessoa, independentemente do gênero."
+        },
+        {
+          "question": "O anel tem design aberto?",
+          "answer": "Sim, o anel apresenta um design aberto, o que permite alguma flexibilidade no tamanho."
+        }
+      ],
+      "pricing": {
+        "price": "0.28",
+        "regularPrice": "0.28",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.20",
+          "max": "0.28"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Anel de Casal Cruz de Oração para Homens e Mulheres",
+          "description": "Este anel de casal unissex apresenta um design aberto com padrão de cruz de oração, feito de liga metálica com acabamento semelhante ao titânio. É um acessório religioso elegante, adequado para presentear ou uso pessoal.",
+          "sku": "ALI-AAHRTG7BAOVioqqEY6e7sF2F",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1fd824cb8b7c416aae421cfd4c6ca701k.png",
+            "https://sc04.alicdn.com/kf/H31bdaaa91b304a09a9387461922f0b94a.png",
+            "https://sc04.alicdn.com/kf/H328c265afb9947aeb4abacb55daf44e3i.png",
+            "https://sc04.alicdn.com/kf/Hce733088ec9f46f99214507eef587473a.png",
+            "https://sc04.alicdn.com/kf/Ha91c8313fe9c4d6aa8076cf8723c9c7ei.png",
+            "https://sc04.alicdn.com/kf/Hadd2db4089d940c1a1f94845d75155c4v.png"
+          ],
+          "category": "Anéis",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Liga metálica"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Banho",
+              "value": "Nenhum"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gênero",
+              "value": "Unissex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Religioso"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de Anel",
+              "value": "Anel de Casal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Número do Modelo",
+              "value": "A306-- Prayer Cross Ring"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.28",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.20",
+              "maxPrice": "0.28",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "De que material é feito o Anel de Casal Cruz de Oração?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O anel é feito de liga metálica e não possui banho, conferindo-lhe um aspecto metálico natural."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Este anel é adequado para homens e mulheres?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, o anel é projetado como unissex, portanto pode ser usado por qualquer pessoa, independentemente do gênero."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "O anel tem design aberto?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, o anel apresenta um design aberto, o que permite alguma flexibilidade no tamanho."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+            "contentHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:34.628Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pt": {
+            "status": "ready",
+            "sourceHash": "f7ca7b6203ff81262b19924420f4dfc596b7916ab3ff232f19010679120d0fed",
+            "contentHash": "f387efd4b3220ac519f8d502feaf357e0c43fee868f98ef243312702a5ef9822",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:04:15.178Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE_TG7BAOVioqqEY6eBTjU3",
+      "sourceId": "AAE_TG7BAOVioqqEY6eBTjU3",
+      "sourceFingerprint": "1f8426326390c5ffb4befb287be8502b42de3e116d8e986e6704372e5e3dfcf9",
+      "locale": "pt",
+      "slug": "18k-gold-plated-virgin-mary-pendant-rosary-bracelet-ebtju3",
+      "title": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K",
+      "eyebrow": "Pulseira de terço com medalhão mariano",
+      "summary": "Esta pulseira de terço apresenta um medalhão da Virgem Maria banhado a ouro 18K com pedras de zircônia CZ, combinado com contas de corda vermelhas. A pulseira é ajustável para um ajuste confortável. Adequada para devoção pessoal ou como presente atencioso.",
+      "description": "Confeccionada com medalhão de metal banhado a ouro 18K, esta pulseira exibe uma figura detalhada da Virgem Maria adornada com pedras de zircônia CZ. As contas de corda vermelhas proporcionam um visual clássico de terço, e a pulseira ajustável garante um ajuste seguro para vários tamanhos de pulso. Escolha entre duas variantes de vermelho para atender à sua preferência.\n\nComo item devocional mariano, pode ser usada para oração ou como lembrete de fé. A construção durável a torna adequada para uso diário.",
+      "catholicContext": "O medalhão retrata a Virgem Maria, figura central na devoção católica e no Rosário.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Pulseiras de Terço",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
+      "imageAlt": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
+          "alt": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3e29e26989ff43c7967ecbf4dd29389f2.webp",
+          "alt": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H198b853667da4f65a06618384ab016c8k.webp",
+          "alt": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9b3170d7184448c4af54fddc99bb5469W.webp",
+          "alt": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H183744a16ef144578d42d63bac98854aU.webp",
+          "alt": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H820864580a7a478c955bcde6be496de2W.webp",
+          "alt": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha615dcc292184c358f9bf6d62632192fM.webp",
+          "alt": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K - vermelho1",
+          "label": "red1",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc946704894a404d814a15e0080c3761i.webp",
+          "alt": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K - vermelho2",
+          "label": "red2",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--5"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Medalhão da Virgem Maria banhado a ouro 18K",
+        "Detalhes em pedras de zircônia CZ",
+        "Contas de corda vermelhas",
+        "Pulseira ajustável",
+        "Duas variantes de vermelho disponíveis"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Metal banhado a ouro 18K, zircônia CZ, corda"
+        },
+        {
+          "name": "Design",
+          "value": "Medalhão da Virgem Maria com contas de corda vermelhas"
+        },
+        {
+          "name": "Fecho",
+          "value": "Pulseira ajustável"
+        },
+        {
+          "name": "Variantes",
+          "value": "Red1, Red2"
+        }
+      ],
+      "applications": [
+        "Oração e devoção pessoal",
+        "Presente religioso para festas marianas",
+        "Acessório do dia a dia com significado religioso",
+        "Presente para Crisma ou Primeira Comunhão"
+      ],
+      "faq": [
+        {
+          "question": "De quais materiais é feita esta pulseira?",
+          "answer": "A pulseira apresenta um medalhão de metal banhado a ouro 18K com pedras de zircônia CZ e contas de corda vermelhas. A pulseira é ajustável."
+        },
+        {
+          "question": "A pulseira é ajustável?",
+          "answer": "Sim, a pulseira é ajustável, permitindo um ajuste confortável em diferentes tamanhos de pulso."
+        },
+        {
+          "question": "Existem opções de cores?",
+          "answer": "Sim, esta pulseira está disponível em duas variantes de vermelho: Red1 e Red2."
+        }
+      ],
+      "pricing": {
+        "price": "2.53",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.10",
+          "max": "2.53"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Pulseira de Terço com Medalhão da Virgem Maria Banhada a Ouro 18K",
+          "description": "Esta pulseira de terço apresenta um medalhão da Virgem Maria banhado a ouro 18K com pedras de zircônia CZ, combinado com contas de corda vermelhas. A pulseira é ajustável para um ajuste confortável. Adequada para devoção pessoal ou como presente atencioso.",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
+          "image": [
+            "https://sc04.alicdn.com/kf/H456a8129460349df94b61797ab0f1c4cS.jpg",
+            "https://sc04.alicdn.com/kf/H3e29e26989ff43c7967ecbf4dd29389f2.jpg",
+            "https://sc04.alicdn.com/kf/H198b853667da4f65a06618384ab016c8k.jpg",
+            "https://sc04.alicdn.com/kf/H9b3170d7184448c4af54fddc99bb5469W.jpg",
+            "https://sc04.alicdn.com/kf/H183744a16ef144578d42d63bac98854aU.jpg",
+            "https://sc04.alicdn.com/kf/H820864580a7a478c955bcde6be496de2W.jpg"
+          ],
+          "category": "Pulseiras de Terço",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Metal banhado a ouro 18K, zircônia CZ, corda"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Medalhão da Virgem Maria com contas de corda vermelhas"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Fecho",
+              "value": "Pulseira ajustável"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variantes",
+              "value": "Red1, Red2"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.53",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.10",
+              "maxPrice": "2.53",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "De quais materiais é feita esta pulseira?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A pulseira apresenta um medalhão de metal banhado a ouro 18K com pedras de zircônia CZ e contas de corda vermelhas. A pulseira é ajustável."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "A pulseira é ajustável?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, a pulseira é ajustável, permitindo um ajuste confortável em diferentes tamanhos de pulso."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Existem opções de cores?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, esta pulseira está disponível em duas variantes de vermelho: Red1 e Red2."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "contentHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:33.900Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pt": {
+            "status": "ready",
+            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "contentHash": "85c228a67c6f7a0ca8a86c245cb3c8a13558750ec0d8833be222a33c85162c1a",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:04:22.784Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGOTG7BAOVioqqEY6eBtUmL",
+      "sourceId": "AAGOTG7BAOVioqqEY6eBtUmL",
+      "sourceFingerprint": "03cce82bf1a95a268b3f499fcc31ebaeae63196d2d1b50a53726b87f9865ea54",
+      "locale": "pt",
+      "slug": "mini-rosary-charm-bracelet-for-newborn-baptism-gift-ebtuml",
+      "title": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido",
+      "eyebrow": "Pulseira de terço com pingente",
+      "summary": "Esta mini pulseira de terço com pingente apresenta um design denário com estilo católico, feita para bebês recém-nascidos. Disponível em nove variações de cor, é um presente atencioso para batismo ou primeira comunhão.",
+      "description": "Esta mini pulseira de terço traz um motivo católico clássico em pequena escala, projetada para caber no pulso de um recém-nascido. A estrutura denária—dez contas—oferece uma forma compacta do terço tradicional, tornando-a uma introdução acessível à oração. A pulseira está disponível em nove variações de cor, permitindo combinar com a preferência da família ou a paleta de uma ocasião especial. Seu design leve é adequado para bebês, e o pingente adiciona um suave ponto focal visual. Seja dada como lembrança de batismo ou primeira comunhão, esta pulseira serve como uma recordação que carrega uma associação significativa com a fé católica.",
+      "catholicContext": "O Terço é uma oração católica centrada na contemplação dos eventos da vida de Jesus Cristo e da Virgem Maria.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Pulseiras de Terço",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd329e984d26747cd8c17f33e68fc9644g.webp",
+      "imageAlt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd329e984d26747cd8c17f33e68fc9644g.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd3579347a1394c349cd5194bc66b8e78j.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6870ddbfd62d4d05a4e5b68da17d2462P.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha71b3e069dcb4305a0416126527ef14dc.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Haa8bbb7bc62147938442f2caab3becf7F.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hef8e636570cd40e48abedf53e0511f032.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He23c93126d6d4a0f8827d482edc908e3n.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido - colored7",
+          "label": "colored7",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5776e58eaa14d22aec3525785620fd2w.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido - colored3",
+          "label": "colored3",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbb65e12ec32047a99e89c8a903477e75O.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido - colored9",
+          "label": "colored9",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H89e982a2cca1466999a52c8a47a9ffdc8.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido - colored4",
+          "label": "colored4",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha52733793bf24056ba9b011eae372c1ff.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido - colored6",
+          "label": "colored6",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63f39f72b299482eae813af6cceb53c3e.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido - colored2",
+          "label": "colored2",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0f801aea58549128aba496454e00182V.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido - colored5",
+          "label": "colored5",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2ac370675eb24b728814c8ae6b5c2a43J.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido - colored8",
+          "label": "colored8",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hab53d52139f84de1bb96256f77dd99dcH.webp",
+          "alt": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido - colored1",
+          "label": "colored1",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL-V--10"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Mini terço denário com dez contas, adequado para o pulso de um recém-nascido",
+        "Tema de design católico, refletindo a devoção tradicional ao terço",
+        "Disponível em nove variações de cor para preferência pessoal",
+        "Compacto e leve, destinado ao uso infantil",
+        "Estilo pulseira com pingente pequeno semelhante a um charme"
+      ],
+      "specifications": [
+        {
+          "name": "Design",
+          "value": "Católico"
+        },
+        {
+          "name": "Tipo",
+          "value": "Pulseira de terço"
+        },
+        {
+          "name": "Variações",
+          "value": "9 opções de cor"
+        }
+      ],
+      "applications": [
+        "Presente para batismo de recém-nascido",
+        "Lembrança para primeira comunhão",
+        "Acessório infantil para famílias católicas",
+        "Terço de bolso para viagem ou uso diário"
+      ],
+      "faq": [
+        {
+          "question": "Quantas contas esta pulseira tem?",
+          "answer": "Este é um mini terço denário, ou seja, tem um conjunto de dez contas, ideal para um auxílio de oração compacto."
+        },
+        {
+          "question": "Quais opções de cor estão disponíveis?",
+          "answer": "Existem nove variações de cor, rotuladas de colored1 a colored9, permitindo que você selecione o tom preferido."
+        },
+        {
+          "question": "Esta pulseira é adequada para um recém-nascido?",
+          "answer": "Sim, é projetada para um bebê recém-nascido, com pequena escala e construção leve para uso infantil."
+        }
+      ],
+      "pricing": {
+        "price": "0.52",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.40",
+          "max": "0.52"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Pulseira de Terço Mini com Pingente para Presente de Batismo de Recém-Nascido",
+          "description": "Esta mini pulseira de terço com pingente apresenta um design denário com estilo católico, feita para bebês recém-nascidos. Disponível em nove variações de cor, é um presente atencioso para batismo ou primeira comunhão.",
+          "sku": "ALI-AAGOTG7BAOVioqqEY6eBtUmL",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd329e984d26747cd8c17f33e68fc9644g.jpg",
+            "https://sc04.alicdn.com/kf/Hd3579347a1394c349cd5194bc66b8e78j.jpg",
+            "https://sc04.alicdn.com/kf/H6870ddbfd62d4d05a4e5b68da17d2462P.jpg",
+            "https://sc04.alicdn.com/kf/Ha71b3e069dcb4305a0416126527ef14dc.jpg",
+            "https://sc04.alicdn.com/kf/Haa8bbb7bc62147938442f2caab3becf7F.jpg",
+            "https://sc04.alicdn.com/kf/Hef8e636570cd40e48abedf53e0511f032.jpg"
+          ],
+          "category": "Pulseiras de Terço",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Católico"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo",
+              "value": "Pulseira de terço"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variações",
+              "value": "9 opções de cor"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.52",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.40",
+              "maxPrice": "0.52",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quantas contas esta pulseira tem?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Este é um mini terço denário, ou seja, tem um conjunto de dez contas, ideal para um auxílio de oração compacto."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quais opções de cor estão disponíveis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Existem nove variações de cor, rotuladas de colored1 a colored9, permitindo que você selecione o tom preferido."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Esta pulseira é adequada para um recém-nascido?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, é projetada para um bebê recém-nascido, com pequena escala e construção leve para uso infantil."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+            "contentHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:50.200Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pt": {
+            "status": "ready",
+            "sourceHash": "51cb5f78136443856ee11c774e828dd385010dd72c2f0250c0767c3f2ac3c9d5",
+            "contentHash": "0d7731c4c9812c8bcbf38099aacf0c65070644d68a698371ed51ebe9ffb28b81",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:04:30.021Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHMTG7BAOVioqqEY6eBS0mz",
+      "sourceId": "AAHMTG7BAOVioqqEY6eBS0mz",
+      "sourceFingerprint": "2327b4fd97998cb1810e67392a13ede064a75cc1f0db2e787218d5fadaeaecbe",
+      "locale": "pt",
+      "slug": "virgin-mary-enamel-brooch-with-cross-design-ebs0mz",
+      "title": "Broche de Esmalte da Virgem Maria com Desenho de Cruz",
+      "eyebrow": "Broche mariano de esmalte",
+      "summary": "Um broche de liga de zinco com uma imagem detalhada de esmalte da Virgem Maria e padrão de cruz. Decorado com pedras lapidadas em formato princesa e pérolas imitadas, adiciona um toque clássico a casacos e lenços. Design unissex adequado para uso diário ou presente.",
+      "description": "Este broche mariano combina uma silhueta em forma de cruz com um retrato detalhado em esmalte da Virgem Maria. O corpo de liga de zinco é decorado com pedras lapidadas em formato princesa e pérolas imitadas, fixadas em cravação canal, dando à peça um acabamento limpo e elegante. Com aproximadamente o tamanho de um broche de lapela típico, funciona bem em lapelas de casacos, lenços ou blazers. O broche é feito para uso unissex e vem como uma peça única. Por apresentar uma cruz e Maria, pode atrair aqueles que procuram joias religiosas discretas.",
+      "catholicContext": "Mariano refere-se à Virgem Maria, uma figura central na devoção católica, e cruzes são símbolos comuns em joias cristãs.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "210",
+          "name": "Broche",
+          "slug": "brooch"
+        }
+      ],
+      "sku": "ALI-AAHMTG7BAOVioqqEY6eBS0mz",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H109c693f84ff4af4acad9879b9c39708B.webp",
+      "imageAlt": "Broche de Esmalte da Virgem Maria com Desenho de Cruz",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H109c693f84ff4af4acad9879b9c39708B.webp",
+          "alt": "Broche de Esmalte da Virgem Maria com Desenho de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbdd230e09aa647149acd9814f3aac0e0v.webp",
+          "alt": "Broche de Esmalte da Virgem Maria com Desenho de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1ed527cb39454a5d81d9b03b6528cb98A.webp",
+          "alt": "Broche de Esmalte da Virgem Maria com Desenho de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H05b8882b3c3244b1a46e032d432539a81.webp",
+          "alt": "Broche de Esmalte da Virgem Maria com Desenho de Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2e8f72a2e3ca4544aec7a10563128763z.webp",
+          "alt": "Broche de Esmalte da Virgem Maria com Desenho de Cruz"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Construção em liga de zinco",
+        "Detalhes em esmalte com imagem da Virgem Maria",
+        "Design em forma de cruz",
+        "Pedras lapidadas em formato princesa (imitadas) e pérolas imitadas",
+        "Cravação canal para pedras",
+        "Estilo de broche unissex"
+      ],
+      "specifications": [
+        {
+          "name": "Material Principal",
+          "value": "Liga de Zinco"
+        },
+        {
+          "name": "Formato da Pedra",
+          "value": "Princesa"
+        },
+        {
+          "name": "Tipo de Pedra",
+          "value": "Imitação (nenhuma como pedra principal)"
+        },
+        {
+          "name": "Tipo de Pérola",
+          "value": "Pérola Imitada"
+        },
+        {
+          "name": "Técnica de Cravação",
+          "value": "Cravação Canal"
+        },
+        {
+          "name": "Gênero",
+          "value": "Unissex"
+        }
+      ],
+      "applications": [
+        "Decoração de lapela de casaco",
+        "Alfinete para lenço ou xale",
+        "Acento para blazer ou jaqueta",
+        "Item para presente"
+      ],
+      "faq": [
+        {
+          "question": "De que material é feito este broche?",
+          "answer": "O broche é feito de liga de zinco."
+        },
+        {
+          "question": "Este broche inclui pérolas ou diamantes reais?",
+          "answer": "Não, as pérolas são imitadas, e as pedras são imitações lapidadas em formato princesa. O atributo de pedra principal é listado como nenhum."
+        },
+        {
+          "question": "O broche é adequado para homens e mulheres?",
+          "answer": "Sim, o broche é projetado como unissex."
+        }
+      ],
+      "pricing": {
+        "price": "0.39",
+        "regularPrice": "0.39",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.32",
+          "max": "0.39"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Broche de Esmalte da Virgem Maria com Desenho de Cruz",
+          "description": "Um broche de liga de zinco com uma imagem detalhada de esmalte da Virgem Maria e padrão de cruz. Decorado com pedras lapidadas em formato princesa e pérolas imitadas, adiciona um toque clássico a casacos e lenços. Design unissex adequado para uso diário ou presente.",
+          "sku": "ALI-AAHMTG7BAOVioqqEY6eBS0mz",
+          "image": [
+            "https://sc04.alicdn.com/kf/H109c693f84ff4af4acad9879b9c39708B.jpg",
+            "https://sc04.alicdn.com/kf/Hbdd230e09aa647149acd9814f3aac0e0v.jpg",
+            "https://sc04.alicdn.com/kf/H1ed527cb39454a5d81d9b03b6528cb98A.jpg",
+            "https://sc04.alicdn.com/kf/H05b8882b3c3244b1a46e032d432539a81.jpg",
+            "https://sc04.alicdn.com/kf/H2e8f72a2e3ca4544aec7a10563128763z.jpg"
+          ],
+          "category": "Broche",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material Principal",
+              "value": "Liga de Zinco"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Formato da Pedra",
+              "value": "Princesa"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de Pedra",
+              "value": "Imitação (nenhuma como pedra principal)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de Pérola",
+              "value": "Pérola Imitada"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Técnica de Cravação",
+              "value": "Cravação Canal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gênero",
+              "value": "Unissex"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.32",
+              "maxPrice": "0.39",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "De que material é feito este broche?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O broche é feito de liga de zinco."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Este broche inclui pérolas ou diamantes reais?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Não, as pérolas são imitadas, e as pedras são imitações lapidadas em formato princesa. O atributo de pedra principal é listado como nenhum."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "O broche é adequado para homens e mulheres?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, o broche é projetado como unissex."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+            "contentHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:39.889Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pt": {
+            "status": "ready",
+            "sourceHash": "57a8abfb2253fa1b57375178b56b6eec91ee4bc7bd6396bf9ea47b826ad09845",
+            "contentHash": "c8e9e2cbe34232b90171ccf446531c818f1404e42f20a79597766eb1906a04ab",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:05:27.354Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "sourceId": "AAGbTG7BAOVioqqEY6eBRcEQ",
+      "sourceFingerprint": "9d1a86f5893bebcc85eeb711d44af6122351806c2e3d7c311e3792e0fb7a91b7",
+      "locale": "pt",
+      "slug": "antique-silver-plated-wooden-chaplet-rosary-ebrceq",
+      "title": "Terço de Madeira Banhado a Prata Antiga",
+      "eyebrow": "Colar de terço de madeira",
+      "summary": "Este terço de madeira apresenta contas vermelhas e uma cruz banhada a prata antiga, artesanal para devoção católica. A construção em liga de zinco e madeira torna-o um colar religioso durável, perfeito para presente.",
+      "description": "Este terço artesanal é feito com contas de madeira vermelhas e uma cruz de liga de zinco banhada a prata antiga. O design de contas e corrente é adequado para oração pessoal ou como presente religioso. Seu acabamento prateado antigo confere um visual clássico. O terço é um auxílio tradicional de oração católica, e esta peça é projetada para uso devocional. A construção em madeira e metal oferece uma sensação firme e tátil. As contas vermelhas e o banho antigo tornam-no uma escolha distinta para aqueles que buscam um colar de terço em estilo capela.",
+      "catholicContext": "O Terço é uma oração católica centrada na contemplação dos mistérios da vida de Jesus Cristo e da Virgem Maria.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Terços Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAGbTG7BAOVioqqEY6eBRcEQ",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Had5fa3f8bee847038f70701622cbe52fR.webp",
+      "imageAlt": "Terço de Madeira Banhado a Prata Antiga",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Had5fa3f8bee847038f70701622cbe52fR.webp",
+          "alt": "Terço de Madeira Banhado a Prata Antiga"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He8bb3fcc74564076a7345ed3ef85735fy.webp",
+          "alt": "Terço de Madeira Banhado a Prata Antiga"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H502eece11f994206b3064b9b4aab5833j.webp",
+          "alt": "Terço de Madeira Banhado a Prata Antiga"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc10cb766471e40ff916a0914cf4fd33dF.webp",
+          "alt": "Terço de Madeira Banhado a Prata Antiga"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb792c271d8dc4a3ab241604d4f613e9aU.webp",
+          "alt": "Terço de Madeira Banhado a Prata Antiga"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Contas de madeira vermelhas",
+        "Cruz de liga de zinco banhada a prata antiga",
+        "Construção artesanal",
+        "Estilo colar de contas",
+        "Design religioso católico"
+      ],
+      "specifications": [
+        {
+          "name": "Material Principal",
+          "value": "Madeira"
+        },
+        {
+          "name": "Tipo de Metal",
+          "value": "Liga de Zinco"
+        },
+        {
+          "name": "Banho",
+          "value": "Prata Antiga"
+        },
+        {
+          "name": "Estilo",
+          "value": "Religioso"
+        },
+        {
+          "name": "Tipo de Jóia",
+          "value": "Colar"
+        },
+        {
+          "name": "Número do Modelo",
+          "value": "P8-R-0009"
+        }
+      ],
+      "applications": [
+        "Oração e devoção pessoal",
+        "Presente religioso",
+        "Uso como colar",
+        "Expressão de fé católica"
+      ],
+      "faq": [
+        {
+          "question": "Quais materiais são usados neste terço?",
+          "answer": "As contas são feitas de madeira e a cruz é feita de liga de zinco com banho de prata antiga."
+        },
+        {
+          "question": "Este terço tem crucifixo ou apenas cruz?",
+          "answer": "A descrição do produto menciona uma cruz, não um crucifixo, então provavelmente apresenta uma cruz simples sem o corpo de Cristo."
+        },
+        {
+          "question": "Qual é o estilo deste terço?",
+          "answer": "É um estilo colar de contas, artesanal com contas de madeira vermelhas e uma cruz banhada a prata antiga, destinado ao uso religioso católico."
+        }
+      ],
+      "pricing": {
+        "price": "1.20",
+        "regularPrice": "1.20",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.98",
+          "max": "1.20"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Terço de Madeira Banhado a Prata Antiga",
+          "description": "Este terço de madeira apresenta contas vermelhas e uma cruz banhada a prata antiga, artesanal para devoção católica. A construção em liga de zinco e madeira torna-o um colar religioso durável, perfeito para presente.",
+          "sku": "ALI-AAGbTG7BAOVioqqEY6eBRcEQ",
+          "image": [
+            "https://sc04.alicdn.com/kf/Had5fa3f8bee847038f70701622cbe52fR.jpg",
+            "https://sc04.alicdn.com/kf/He8bb3fcc74564076a7345ed3ef85735fy.jpg",
+            "https://sc04.alicdn.com/kf/H502eece11f994206b3064b9b4aab5833j.jpg",
+            "https://sc04.alicdn.com/kf/Hc10cb766471e40ff916a0914cf4fd33dF.jpg",
+            "https://sc04.alicdn.com/kf/Hb792c271d8dc4a3ab241604d4f613e9aU.jpg"
+          ],
+          "category": "Terços Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material Principal",
+              "value": "Madeira"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de Metal",
+              "value": "Liga de Zinco"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Banho",
+              "value": "Prata Antiga"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Religioso"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de Jóia",
+              "value": "Colar"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Número do Modelo",
+              "value": "P8-R-0009"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.98",
+              "maxPrice": "1.20",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quais materiais são usados neste terço?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As contas são feitas de madeira e a cruz é feita de liga de zinco com banho de prata antiga."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Este terço tem crucifixo ou apenas cruz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A descrição do produto menciona uma cruz, não um crucifixo, então provavelmente apresenta uma cruz simples sem o corpo de Cristo."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Qual é o estilo deste terço?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "É um estilo colar de contas, artesanal com contas de madeira vermelhas e uma cruz banhada a prata antiga, destinado ao uso religioso católico."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+            "contentHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:39.520Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pt": {
+            "status": "ready",
+            "sourceHash": "f5ca18b6743213f323b1efb3415136d50d0996e1d32e23178ee4812059944bf5",
+            "contentHash": "0b9b25573b62858274efb369fa901e7d35a419fb55b196fe74fdcf70866d1d4e",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:05:33.545Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "sourceId": "AAG-TG7BAOVioqqEY6eBT4Pn",
+      "sourceFingerprint": "ed3093004da5460e050631b2e96446e16268322861dadb694a72d6c478296a82",
+      "locale": "pt",
+      "slug": "st-benedict-medallion-christmas-ornament-ebt4pn",
+      "title": "Enfeite de Natal com Medalhão de São Bento",
+      "eyebrow": "Enfeite de Natal com medalhão de São Bento",
+      "summary": "Este enfeite de medalhão de São Bento é feito de liga metálica e está disponível em dourado ou prateado. Pode ser pendurado em árvores de Natal, retrovisores de carro ou maçanetas, adicionando um toque devocional à sua decoração de fim de ano.",
+      "description": "Adicione um toque de fé à sua árvore de Natal com este enfeite de medalhão de São Bento. Feito de liga metálica resistente, está disponível em acabamentos dourado ou prateado para combinar com a sua decoração. O medalhão apresenta o clássico design de São Bento, um símbolo popular de devoção cristã. Use-o para adornar sua casa, carro ou porta, tornando-o uma peça versátil para a temporada de festas. Seja como presente ou lembrança pessoal, serve como um lembrete significativo de fé durante o Natal.",
+      "catholicContext": "A medalha de São Bento é um artigo devocional popular na tradição católica, frequentemente usado como forma de piedade pessoal.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Enfeites",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H80887ad2ddfd4ae198082c9ada992fe3T.webp",
+      "imageAlt": "Enfeite de Natal com Medalhão de São Bento",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H80887ad2ddfd4ae198082c9ada992fe3T.webp",
+          "alt": "Enfeite de Natal com Medalhão de São Bento"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfec3e96ad1054295be259baa475cbbafi.webp",
+          "alt": "Enfeite de Natal com Medalhão de São Bento"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He1958c25414f43408c0cd63bdbc99a18u.webp",
+          "alt": "Enfeite de Natal com Medalhão de São Bento"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H07d6a91f993e44279cd7b46ac5723782h.webp",
+          "alt": "Enfeite de Natal com Medalhão de São Bento"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc86f775b4d3b4da2b9beaaa02fb2501cR.webp",
+          "alt": "Enfeite de Natal com Medalhão de São Bento - dourado",
+          "label": "dourado",
+          "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha33e6d9bdef1413f8fd9d9e6fbee8c58y.webp",
+          "alt": "Enfeite de Natal com Medalhão de São Bento - prateado",
+          "label": "prateado",
+          "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn-V-3460547"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Feito de liga metálica para durabilidade",
+        "Disponível nas variantes dourado e prateado",
+        "Apresenta design de medalhão de São Bento",
+        "Adequado para carros, portas e decoração de casa",
+        "Leve e fácil de pendurar"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Liga metálica"
+        },
+        {
+          "name": "Variante",
+          "value": "Dourado ou Prateado"
+        }
+      ],
+      "applications": [
+        "Enfeite de árvore de Natal",
+        "Charme para retrovisor de carro",
+        "Decoração de maçaneta",
+        "Decoração de interiores"
+      ],
+      "faq": [
+        {
+          "question": "Quais materiais são usados neste enfeite de medalhão de São Bento?",
+          "answer": "O enfeite é feito de liga metálica, o que proporciona durabilidade e um acabamento metálico."
+        },
+        {
+          "question": "Quais opções de cores estão disponíveis?",
+          "answer": "O enfeite de medalhão de São Bento está disponível nas variantes dourado e prateado."
+        },
+        {
+          "question": "Este enfeite pode ser usado em um carro?",
+          "answer": "Sim, é adequado para carros, pois pode ser pendurado em retrovisores ou outros acessórios internos."
+        }
+      ],
+      "pricing": {
+        "price": "3.25",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.80",
+          "max": "3.25"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Enfeite de Natal com Medalhão de São Bento",
+          "description": "Este enfeite de medalhão de São Bento é feito de liga metálica e está disponível em dourado ou prateado. Pode ser pendurado em árvores de Natal, retrovisores de carro ou maçanetas, adicionando um toque devocional à sua decoração de fim de ano.",
+          "sku": "ALI-AAG-TG7BAOVioqqEY6eBT4Pn",
+          "image": [
+            "https://sc04.alicdn.com/kf/H80887ad2ddfd4ae198082c9ada992fe3T.jpg",
+            "https://sc04.alicdn.com/kf/Hfec3e96ad1054295be259baa475cbbafi.jpg",
+            "https://sc04.alicdn.com/kf/He1958c25414f43408c0cd63bdbc99a18u.jpg",
+            "https://sc04.alicdn.com/kf/H07d6a91f993e44279cd7b46ac5723782h.jpg"
+          ],
+          "category": "Enfeites",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Liga metálica"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Dourado ou Prateado"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "3.25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.80",
+              "maxPrice": "3.25",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quais materiais são usados neste enfeite de medalhão de São Bento?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O enfeite é feito de liga metálica, o que proporciona durabilidade e um acabamento metálico."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quais opções de cores estão disponíveis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O enfeite de medalhão de São Bento está disponível nas variantes dourado e prateado."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Este enfeite pode ser usado em um carro?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, é adequado para carros, pois pode ser pendurado em retrovisores ou outros acessórios internos."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+            "contentHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:40.577Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pt": {
+            "status": "ready",
+            "sourceHash": "6823b71ab84fad0a970de5906216dcc2c9e3bc745b24dc2b0c6115abf3c3817b",
+            "contentHash": "43013c84acffe29c109999fa6f502959b5ea31c206a14e673a7284d1fb441b77",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:05:39.750Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHdTG7BAOVioqqEY6eCHasP",
+      "sourceId": "AAHdTG7BAOVioqqEY6eCHasP",
+      "sourceFingerprint": "9731db0ae53ecf7a6561a3c5871897833fd72ac61dbe8455621efe40cbcf95f1",
+      "locale": "pt",
+      "slug": "flower-bead-rosary-necklace-with-alloy-cross-echasp",
+      "title": "Colar de Terço com Contas de Flor e Cruz de Liga",
+      "eyebrow": "Colar de terço católico",
+      "summary": "Este colar de terço combina contas de flor de plástico coloridas de 10mm com uma cruz e peça central de liga. Com cerca de 72cm de perímetro e 54cm como colar, oferece uma opção leve e colorida para oração pessoal ou presente.",
+      "description": "As contas em formato de flor introduzem um visual brilhante e decorativo a este terço, distinguindo-o dos designs de contas redondas lisas. A cruz de liga mede 2,6 por 5cm, e a peça central continua o tema floral, criando um visual coordenado da cruz ao pingente.\n\nCom aproximadamente 72cm de perímetro, pode servir como um terço completo, enquanto o comprimento de 54cm como colar facilita o uso. Pesando cerca de 34,5g, permanece leve ao redor do pescoço. O design unissex agrada a diversos gostos, e a cruz de liga de zinco adiciona um contraste metálico sutil às contas de plástico.",
+      "catholicContext": "O Terço é uma oração católica centrada na contemplação dos eventos da vida de Jesus Cristo e da Virgem Maria.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Terços Católicos",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHdTG7BAOVioqqEY6eCHasP",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/He4f22c2b4e5644299a5ff3647436c015P.webp",
+      "imageAlt": "Colar de Terço com Contas de Flor e Cruz de Liga",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4f22c2b4e5644299a5ff3647436c015P.webp",
+          "alt": "Colar de Terço com Contas de Flor e Cruz de Liga"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5e19bc4575d347b990aeb25afb43a05c0.webp",
+          "alt": "Colar de Terço com Contas de Flor e Cruz de Liga"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf74e085b67224160bded2be0b3792162z.webp",
+          "alt": "Colar de Terço com Contas de Flor e Cruz de Liga"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H76eb7e51b992463f8dfa1861fc29cedeD.webp",
+          "alt": "Colar de Terço com Contas de Flor e Cruz de Liga"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdcdcddfebfa34201ba4af586c10b47eec.webp",
+          "alt": "Colar de Terço com Contas de Flor e Cruz de Liga"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H402a3d4219344e84ba022a2c6d324ac7g.webp",
+          "alt": "Colar de Terço com Contas de Flor e Cruz de Liga"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Contas de plástico de 10mm em formato de flor",
+        "Cruz e peça central de liga (tamanho da cruz: 2,6*5cm)",
+        "Perímetro de cerca de 72cm; comprimento do colar de cerca de 54cm",
+        "Peso total de cerca de 34,5g",
+        "Joia religiosa unissex com cravação em canal"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Contas de plástico; cruz e peça central de liga de zinco"
+        },
+        {
+          "name": "Tamanho da cruz",
+          "value": "2,6*5cm"
+        },
+        {
+          "name": "Comprimento do pingente",
+          "value": "Cerca de 18cm"
+        },
+        {
+          "name": "Perímetro",
+          "value": "Cerca de 72cm"
+        },
+        {
+          "name": "Comprimento do colar",
+          "value": "Cerca de 54cm"
+        },
+        {
+          "name": "Peso",
+          "value": "Cerca de 34,5g"
+        }
+      ],
+      "applications": [
+        "Oração pessoal e uso devocional",
+        "Presente católico",
+        "Uso diário como joia religiosa",
+        "Usado como acessório de colar"
+      ],
+      "faq": [
+        {
+          "question": "Qual é o comprimento total deste colar de terço?",
+          "answer": "O perímetro é de cerca de 72cm, e quando usado como colar, o comprimento é de cerca de 54cm. O pingente adiciona cerca de 18cm, totalizando aproximadamente 72cm."
+        },
+        {
+          "question": "As contas são feitas de plástico ou outro material?",
+          "answer": "As contas são feitas de plástico, especificamente contas em formato de flor de 10mm. A cruz e a peça central são feitas de liga de zinco."
+        },
+        {
+          "question": "Este terço é adequado para homens e mulheres?",
+          "answer": "Sim, é projetado como unissex, adequado para qualquer pessoa. As contas de flor coloridas e a construção leve o tornam uma escolha versátil."
+        }
+      ],
+      "pricing": {
+        "price": "0.66",
+        "regularPrice": "0.66",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.58",
+          "max": "0.66"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Colar de Terço com Contas de Flor e Cruz de Liga",
+          "description": "Este colar de terço combina contas de flor de plástico coloridas de 10mm com uma cruz e peça central de liga. Com cerca de 72cm de perímetro e 54cm como colar, oferece uma opção leve e colorida para oração pessoal ou presente.",
+          "sku": "ALI-AAHdTG7BAOVioqqEY6eCHasP",
+          "image": [
+            "https://sc04.alicdn.com/kf/He4f22c2b4e5644299a5ff3647436c015P.jpg",
+            "https://sc04.alicdn.com/kf/H5e19bc4575d347b990aeb25afb43a05c0.jpg",
+            "https://sc04.alicdn.com/kf/Hf74e085b67224160bded2be0b3792162z.jpg",
+            "https://sc04.alicdn.com/kf/H76eb7e51b992463f8dfa1861fc29cedeD.jpg",
+            "https://sc04.alicdn.com/kf/Hdcdcddfebfa34201ba4af586c10b47eec.jpg",
+            "https://sc04.alicdn.com/kf/H402a3d4219344e84ba022a2c6d324ac7g.jpg"
+          ],
+          "category": "Terços Católicos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Contas de plástico; cruz e peça central de liga de zinco"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tamanho da cruz",
+              "value": "2,6*5cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Comprimento do pingente",
+              "value": "Cerca de 18cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Perímetro",
+              "value": "Cerca de 72cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Comprimento do colar",
+              "value": "Cerca de 54cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Peso",
+              "value": "Cerca de 34,5g"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.66",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.58",
+              "maxPrice": "0.66",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Qual é o comprimento total deste colar de terço?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O perímetro é de cerca de 72cm, e quando usado como colar, o comprimento é de cerca de 54cm. O pingente adiciona cerca de 18cm, totalizando aproximadamente 72cm."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "As contas são feitas de plástico ou outro material?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "As contas são feitas de plástico, especificamente contas em formato de flor de 10mm. A cruz e a peça central são feitas de liga de zinco."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Este terço é adequado para homens e mulheres?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, é projetado como unissex, adequado para qualquer pessoa. As contas de flor coloridas e a construção leve o tornam uma escolha versátil."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+            "contentHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:52.997Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pt": {
+            "status": "ready",
+            "sourceHash": "b316b15fc3db9facb8b28892e7d028837dadb5d95f261864e18ec49b194d3235",
+            "contentHash": "d75e1ef881a86a5819415b15af6795c6719c810d09214c33730172fc8ff3833a",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:05:46.510Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHWTG7BAOVioqqEY6eBRiXm",
+      "sourceId": "AAHWTG7BAOVioqqEY6eBRiXm",
+      "sourceFingerprint": "99e29509da16db1a2fba5b5b94b6251b92a49f4c8b3451556e175f7b4c8955cc",
+      "locale": "pt",
+      "slug": "handmade-wooden-cross-wall-hanging-11x21cm-ebrixm",
+      "title": "Cruz de Madeira Artesanal para Pendurar na Parede 11x21cm",
+      "eyebrow": "Cruz de Parede em Madeira",
+      "summary": "Esta cruz de madeira artesanal mede 11x21cm e é projetada para pendurar na parede. Seu acabamento em madeira natural e técnica de corte conferem um visual simples e tradicional, adequado para decoração de igreja, casa ou feriados.",
+      "description": "Feita de madeira, esta cruz de 11x21cm é uma peça artesanal para pendurar na parede. A técnica de corte proporciona linhas limpas e textura natural. Seu tamanho compacto se encaixa bem em entradas, cantos de oração ou acima de uma lareira.\n\nComo objeto devocional, serve como um lembrete visual da fé. Use-a para reflexão pessoal ou como presente para ocasiões religiosas como o Natal. O design de cruz simples sem corpo atende aqueles que preferem uma representação sóbria.",
+      "catholicContext": "A cruz é um símbolo central da fé cristã, frequentemente usado na devoção pessoal e na decoração de lares.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Enfeites",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHWTG7BAOVioqqEY6eBRiXm",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hc56aa8e40a54494c8743f76d7641e3a8Z.webp",
+      "imageAlt": "Cruz de Madeira Artesanal para Pendurar na Parede 11x21cm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc56aa8e40a54494c8743f76d7641e3a8Z.webp",
+          "alt": "Cruz de Madeira Artesanal para Pendurar na Parede 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5cb1fb8c484f4ce5a7b4360c3aea866bx.webp",
+          "alt": "Cruz de Madeira Artesanal para Pendurar na Parede 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H934d4049cc20485a819d2697b5f68df9I.webp",
+          "alt": "Cruz de Madeira Artesanal para Pendurar na Parede 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ecf7c421b4f484eb756caa7c3b842d5N.webp",
+          "alt": "Cruz de Madeira Artesanal para Pendurar na Parede 11x21cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9900dab1002447c38b84fd990a3adffa7.webp",
+          "alt": "Cruz de Madeira Artesanal para Pendurar na Parede 11x21cm"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#9a6b63",
+      "features": [
+        "Feita de madeira",
+        "Construção artesanal",
+        "Dimensões totais de 11x21cm",
+        "Estilo para pendurar na parede",
+        "Técnica de corte para modelagem"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Madeira"
+        },
+        {
+          "name": "Tamanho",
+          "value": "11x21cm"
+        },
+        {
+          "name": "Estilo",
+          "value": "Religioso"
+        },
+        {
+          "name": "Decoração",
+          "value": "Pendurar na parede"
+        },
+        {
+          "name": "Característica",
+          "value": "Artesanal"
+        }
+      ],
+      "applications": [
+        "Decoração de casa",
+        "Decoração de igreja",
+        "Presente de feriado",
+        "Lembrança"
+      ],
+      "faq": [
+        {
+          "question": "Quais são as dimensões desta cruz de madeira?",
+          "answer": "A cruz mede 11x21cm, sendo um pendente de parede compacto adequado para pequenos espaços."
+        },
+        {
+          "question": "Esta cruz é artesanal?",
+          "answer": "Sim, o produto é rotulado como artesanal, e a técnica de corte é usada para modelar a madeira."
+        },
+        {
+          "question": "Esta cruz pode ser usada para decoração de Natal?",
+          "answer": "Sim, está listada nas aplicações de decoração de feriados e presentes, incluindo o Natal, e pode servir como peça decorativa durante a temporada."
+        }
+      ],
+      "pricing": {
+        "price": "0.75",
+        "regularPrice": "0.75",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.60",
+          "max": "0.75"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Cruz de Madeira Artesanal para Pendurar na Parede 11x21cm",
+          "description": "Esta cruz de madeira artesanal mede 11x21cm e é projetada para pendurar na parede. Seu acabamento em madeira natural e técnica de corte conferem um visual simples e tradicional, adequado para decoração de igreja, casa ou feriados.",
+          "sku": "ALI-AAHWTG7BAOVioqqEY6eBRiXm",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hc56aa8e40a54494c8743f76d7641e3a8Z.jpg",
+            "https://sc04.alicdn.com/kf/H5cb1fb8c484f4ce5a7b4360c3aea866bx.jpg",
+            "https://sc04.alicdn.com/kf/H934d4049cc20485a819d2697b5f68df9I.jpg",
+            "https://sc04.alicdn.com/kf/H6ecf7c421b4f484eb756caa7c3b842d5N.png",
+            "https://sc04.alicdn.com/kf/H9900dab1002447c38b84fd990a3adffa7.jpg"
+          ],
+          "category": "Enfeites",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Madeira"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tamanho",
+              "value": "11x21cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Religioso"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Decoração",
+              "value": "Pendurar na parede"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Característica",
+              "value": "Artesanal"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.75",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.60",
+              "maxPrice": "0.75",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quais são as dimensões desta cruz de madeira?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A cruz mede 11x21cm, sendo um pendente de parede compacto adequado para pequenos espaços."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Esta cruz é artesanal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, o produto é rotulado como artesanal, e a técnica de corte é usada para modelar a madeira."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Esta cruz pode ser usada para decoração de Natal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim, está listada nas aplicações de decoração de feriados e presentes, incluindo o Natal, e pode servir como peça decorativa durante a temporada."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+            "contentHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:44.336Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pt": {
+            "status": "ready",
+            "sourceHash": "e7e636db5de1b7dfadd084ba1017920b3523c12dd70829a3a8331921d1f5a2b4",
+            "contentHash": "b763ec7faa7e6845076be263a6bd77ce414fd8832b1a0276fb7c62a1d99a0265",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:05:52.263Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHaTG7BAOVioqqEY6e7LbS6",
+      "sourceId": "AAHaTG7BAOVioqqEY6e7LbS6",
+      "sourceFingerprint": "c5f0e73fd4325711982ae9c1d47214349fb6245a2c1278ec5af7071e44ff71ed",
+      "locale": "pt",
+      "slug": "geometric-cross-natural-stone-bracelet-e7lbs6",
+      "title": "Pulseira de Pedra Natural com Cruz Geométrica",
+      "eyebrow": "Pulseira de pedra natural com cruz geométrica",
+      "summary": "Uma pulseira de pedra natural com cruz geométrica, projetada para uso diário. O elástico se ajusta à maioria dos pulsos, e as contas de pedra natural oferecem um visual minimalista. Escolha entre as variantes preta ou branca para combinar com seu estilo.",
+      "description": "Esta pulseira de cruz geométrica combina contas de pedra natural com um pingente de cruz simples, criando um acessório que combina bem com trajes casuais ou semi-formais. A construção elástica permite colocar e tirar facilmente, e o design unissex serve tanto para homens quanto para mulheres. Disponível em preto e branco, funciona como peça única ou para combinar com outras pulseiras. O motivo da cruz atrai aqueles que buscam uma expressão sutil de fé no uso diário.",
+      "catholicContext": "Uma cruz simples, sem corpo, é um símbolo cristão de fé e pode ser usada como lembrete devocional, embora não seja um sacramental a menos que seja abençoada pela Igreja.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Pulseiras de Terço",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H9221bada29ce456ea649470ba162a406g.webp",
+      "imageAlt": "Pulseira de Pedra Natural com Cruz Geométrica",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9221bada29ce456ea649470ba162a406g.webp",
+          "alt": "Pulseira de Pedra Natural com Cruz Geométrica"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0c5290dd7244afc959eed373a694ba4U.webp",
+          "alt": "Pulseira de Pedra Natural com Cruz Geométrica"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8e0c2299e1d2437f8f7328934a7eb020S.webp",
+          "alt": "Pulseira de Pedra Natural com Cruz Geométrica"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0b683bb5b484920b7201c43d6864df8p.webp",
+          "alt": "Pulseira de Pedra Natural com Cruz Geométrica"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb7d2c9c8bd4e4c9b8de429012818553cd.webp",
+          "alt": "Pulseira de Pedra Natural com Cruz Geométrica"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4bb4ed573bc43ee9ebc465940b2890d7.webp",
+          "alt": "Pulseira de Pedra Natural com Cruz Geométrica"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H10e798c0a5264c20a31877a1f2b9dcb9J.webp",
+          "alt": "Pulseira de Pedra Natural com Cruz Geométrica - preta",
+          "label": "preto",
+          "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ee28342967c4320aeb5ba9c448530d3o.webp",
+          "alt": "Pulseira de Pedra Natural com Cruz Geométrica - branca",
+          "label": "branco",
+          "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6-V--2"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Contas de pedra natural",
+        "Design de cruz geométrica",
+        "Elástico para fácil uso",
+        "Estilo unissex",
+        "Disponível em preto e branco"
+      ],
+      "specifications": [
+        {
+          "name": "Variante",
+          "value": "Preto, Branco"
+        }
+      ],
+      "applications": [
+        "Uso casual diário",
+        "Combinação com outras pulseiras",
+        "Presente para amigos ou familiares",
+        "Expressão religiosa ou espiritual"
+      ],
+      "faq": [
+        {
+          "question": "De quais materiais esta pulseira é feita?",
+          "answer": "A pulseira apresenta contas de pedra natural e um elástico. Detalhes adicionais sobre os materiais não são especificados."
+        },
+        {
+          "question": "Esta pulseira serve para homens e mulheres?",
+          "answer": "O produto é descrito como unissex e adequado para homens e mulheres, embora as medidas específicas do pulso não sejam fornecidas."
+        },
+        {
+          "question": "A pulseira tem fecho?",
+          "answer": "Não, a pulseira é elástica, então estica sobre a mão sem fecho."
+        }
+      ],
+      "pricing": {
+        "price": "0.42",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.36",
+          "max": "0.42"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Pulseira de Pedra Natural com Cruz Geométrica",
+          "description": "Uma pulseira de pedra natural com cruz geométrica, projetada para uso diário. O elástico se ajusta à maioria dos pulsos, e as contas de pedra natural oferecem um visual minimalista. Escolha entre as variantes preta ou branca para combinar com seu estilo.",
+          "sku": "ALI-AAHaTG7BAOVioqqEY6e7LbS6",
+          "image": [
+            "https://sc04.alicdn.com/kf/H9221bada29ce456ea649470ba162a406g.png",
+            "https://sc04.alicdn.com/kf/Hb0c5290dd7244afc959eed373a694ba4U.png",
+            "https://sc04.alicdn.com/kf/H8e0c2299e1d2437f8f7328934a7eb020S.png",
+            "https://sc04.alicdn.com/kf/Hb0b683bb5b484920b7201c43d6864df8p.png",
+            "https://sc04.alicdn.com/kf/Hb7d2c9c8bd4e4c9b8de429012818553cd.png",
+            "https://sc04.alicdn.com/kf/He4bb4ed573bc43ee9ebc465940b2890d7.png"
+          ],
+          "category": "Pulseiras de Terço",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Preto, Branco"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.42",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.36",
+              "maxPrice": "0.42",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "De quais materiais esta pulseira é feita?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A pulseira apresenta contas de pedra natural e um elástico. Detalhes adicionais sobre os materiais não são especificados."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Esta pulseira serve para homens e mulheres?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O produto é descrito como unissex e adequado para homens e mulheres, embora as medidas específicas do pulso não sejam fornecidas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "A pulseira tem fecho?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Não, a pulseira é elástica, então estica sobre a mão sem fecho."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+            "contentHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+            "attempts": 0,
+            "updatedAt": "2026-08-18T02:59:45.609Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pt": {
+            "status": "ready",
+            "sourceHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
+            "contentHash": "0de4b247c899f0917e30ce0d7da45e31166166cb581c82ecab87e48c014fecf1",
+            "attempts": 1,
+            "updatedAt": "2026-08-18T03:05:57.974Z",
             "model": "deepseek-v4-flash"
           }
         }

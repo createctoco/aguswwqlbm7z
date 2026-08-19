@@ -1,0 +1,37 @@
+name: D1 health monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 15 minutes. Detects D1 corruption quickly and auto-restores the
+    # database to a recent Time Travel point so the site self-heals without a
+    # manual outage window.
+    - cron: '*/15 * * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Configure production D1 database
+        env:
+          D1_DATABASE_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
+        run: >-
+          node --input-type=module -e "import fs from 'node:fs';
+          if(!process.env.D1_DATABASE_ID) throw new Error('CLOUDFLARE_D1_DATABASE_ID is required');
+          const path='wrangler.jsonc'; const value=fs.readFileSync(path,'utf8').replace('00000000-0000-0000-0000-000000000000',process.env.D1_DATABASE_ID);
+          fs.writeFileSync(path,value);"
+      - name: Verify and auto-restore D1
+        run: node scripts/monitor-d1.mjs

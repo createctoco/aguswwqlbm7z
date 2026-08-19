@@ -2,6 +2,11 @@ name: Deploy Cloudflare hybrid catalog
 
 on:
   workflow_dispatch:
+    inputs:
+      skip_d1_import:
+        description: 'Skip D1 migrations and catalog imports (for recovery when D1 is already healthy)'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -44,12 +49,30 @@ jobs:
           if(!process.env.D1_DATABASE_ID) throw new Error('CLOUDFLARE_D1_DATABASE_ID is required');
           const path='wrangler.jsonc'; const value=fs.readFileSync(path,'utf8').replace('00000000-0000-0000-0000-000000000000',process.env.D1_DATABASE_ID);
           fs.writeFileSync(path,value);"
-      # D1 is the serving database for product/collection pages. It is populated
-      # by a controlled manual import (scripts/build-d1-import.mjs + wrangler d1
-      # execute) and must NOT be written from this workflow: CI-run D1 imports
-      # have repeatedly triggered Cloudflare's D1 storage error (code 7500) and
-      # corrupted the database. This step only verifies the database is healthy
-      # before Workers are deployed against it.
+      - name: Capture D1 restore point
+        if: ${{ !(github.event.inputs.skip_d1_import == 'true') }}
+        run: node scripts/capture-d1-bookmark.mjs
+      - name: Apply D1 migrations
+        if: ${{ !(github.event.inputs.skip_d1_import == 'true') }}
+        run: npx wrangler d1 migrations apply ouooo-catalog --remote
+      - name: Import English catalog
+        if: ${{ !(github.event.inputs.skip_d1_import == 'true') }}
+        env:
+          OUOOO_LOCALE: en
+        run: npm run prepare:d1 && npx wrangler d1 execute ouooo-catalog --remote --file .d1/import-en.sql
+      - name: Import published localized catalogs
+        if: ${{ !(github.event.inputs.skip_d1_import == 'true') }}
+        shell: bash
+        run: |
+          for catalog in src/data/i18n/*/site-catalog.json; do
+            [ -f "$catalog" ] || continue
+            locale="$(basename "$(dirname "$catalog")")"
+            OUOOO_LOCALE="$locale" npm run prepare:d1
+            npx wrangler d1 execute ouooo-catalog --remote --file ".d1/import-$locale.sql"
+          done
+      # Safety net: after imports, verify D1 is healthy; on failure, restore the
+      # pre-import bookmark and stop so Workers are never deployed onto a broken
+      # database. Runs read-only when skip_d1_import is used.
       - name: Verify D1 catalog health
         run: node scripts/verify-d1-health.mjs
       - name: Build and deploy English plus 13 language Workers

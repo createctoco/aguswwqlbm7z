@@ -41,31 +41,52 @@ for (const product of products) {
   productIdsBySlug.set(slug, productId);
 }
 const uniqueProducts = [...productsById.values()];
-const statements = ['PRAGMA foreign_keys = ON;'];
+const batchSize = Math.max(1, Math.min(100, Number(process.env.OUOOO_D1_BATCH_SIZE || 25)));
+const header = ['PRAGMA foreign_keys = ON;'];
 
-for (const product of uniqueProducts) {
+// One statement block per product so we can emit both a single full file (used
+// by reconcile-d1) and smaller batch files (used by the deploy). Large single
+// requests to D1 have occasionally triggered Cloudflare's D1 storage error
+// (code 7500); small batches keep each request well under the size that has
+// been implicated in those incidents.
+const productBlocks = uniqueProducts.map((product) => {
   const productId = String(product.productId);
-  statements.push(
+  const block = [
     `INSERT INTO products (product_id, locale, slug, source_hash, updated_at, content_json) VALUES (${quote(productId)}, ${quote(locale)}, ${quote(product.slug)}, ${quote(product.localization?.sourceHash || '')}, ${quote(catalog.generatedAt || new Date().toISOString())}, ${quote(JSON.stringify(product))}) ON CONFLICT(product_id, locale) DO UPDATE SET slug=excluded.slug, source_hash=excluded.source_hash, updated_at=excluded.updated_at, content_json=excluded.content_json;`,
-    `DELETE FROM product_categories WHERE product_id=${quote(productId)} AND locale=${quote(locale)};`
-  );
+    `DELETE FROM product_categories WHERE product_id=${quote(productId)} AND locale=${quote(locale)};`,
+  ];
   const categoriesBySlug = new Map(
     (product.categories || []).filter((category) => category?.slug).map((category) => [String(category.slug), category])
   );
   for (const category of categoriesBySlug.values()) {
-    statements.push(
+    block.push(
       `INSERT INTO product_categories (product_id, locale, category_slug, category_name) VALUES (${quote(productId)}, ${quote(locale)}, ${quote(category.slug)}, ${quote(category.name)});`
     );
   }
-}
+  return block;
+});
 
 const deletedProductIds = [...new Set((catalog.sync?.deletedProductIds || []).map(String))];
-for (const productId of deletedProductIds) {
-  statements.push(`DELETE FROM products WHERE product_id=${quote(productId)} AND locale=${quote(locale)};`);
-}
+const deleteStatements = deletedProductIds.map(
+  (productId) => `DELETE FROM products WHERE product_id=${quote(productId)} AND locale=${quote(locale)};`
+);
 
 await mkdir(dirname(outputFile), { recursive: true });
-await writeFile(outputFile, `${statements.join('\n')}\n`, 'utf8');
+
+// Full single-file import (kept for reconcile-d1 which executes the whole file).
+await writeFile(outputFile, `${[...header, ...productBlocks.flat(), ...deleteStatements].join('\n')}\n`, 'utf8');
+
+// Small batch files (used by the deploy to keep each D1 request small).
+let batchCount = 0;
+for (let index = 0; index < productBlocks.length; index += batchSize) {
+  batchCount += 1;
+  const chunk = productBlocks.slice(index, index + batchSize);
+  const batchStatements = [...header, ...chunk.flat(), ...(batchCount === 1 ? deleteStatements : [])];
+  const batchBase = outputFile.endsWith('.sql') ? outputFile.slice(0, -4) : outputFile;
+  const batchFile = `${batchBase}-${String(batchCount).padStart(3, '0')}.sql`;
+  await writeFile(batchFile, `${batchStatements.join('\n')}\n`, 'utf8');
+}
+
 process.stdout.write(
-  `D1 import prepared for ${locale}: ${uniqueProducts.length} unique upserts, ${deletedProductIds.length} deletes, ${duplicateProductIds} duplicate input rows collapsed.\n`
+  `D1 import prepared for ${locale}: ${uniqueProducts.length} unique upserts in ${batchCount} batches of ${batchSize}, ${deletedProductIds.length} deletes, ${duplicateProductIds} duplicate input rows collapsed.\n`
 );

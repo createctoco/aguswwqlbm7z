@@ -5,6 +5,15 @@ import { resolve } from 'node:path';
 const inputFile = resolve(process.env.OUOOO_ENRICHED_OUTPUT || 'src/data/enriched-catalog.json');
 const outputFile = resolve(process.env.OUOOO_SITE_CATALOG_OUTPUT || 'src/data/site-catalog.json');
 const accents = ['#8b6b4a', '#6f7c72', '#9a6b63', '#7a6d92', '#8a7b55', '#6d7887'];
+// Curated category fixes applied at build time, keyed by the stable site slug
+// (product AAHJTG7BAOVioqqEY6e0b9PP). The MECRT source assigns this product to
+// "Uncategorized"; we move it into the existing Jewelry Packaging collection.
+// Keeping the id/name/slug identical to the target collection makes the product
+// merge into it. Because this runs during every catalog build, the fix survives
+// source-data syncs instead of being overwritten by the next sync.
+const CATEGORY_OVERRIDES = {
+  'knitted-coin-pouch-backpack-charm-e0b9pp': [{ id: '122', name: 'Jewelry Packaging', slug: 'jewelry-packaging' }],
+};
 const unsuitableClaim =
   /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
 const replaceSourceBrand = (value = '') => {
@@ -208,6 +217,8 @@ function mapProduct(product, index, existingSlugs) {
   const faq = buyerFaq(product.ai.faq);
   const suffix = String(product.source_id).slice(-6).toLowerCase();
   const productId = String(product.source_id);
+  const slug = existingSlugs.get(productId) || `${slugify(product.ai.title)}-${suffix}`;
+  const categoryOverride = CATEGORY_OVERRIDES[slug];
   const sourceHash = sourceContentHash(product);
   const updatedAt = product.ai.generated_at || new Date().toISOString();
   const pricing = extractPricing(product);
@@ -216,14 +227,14 @@ function mapProduct(product, index, existingSlugs) {
     sourceId: productId,
     sourceFingerprint: product.ai.source_fingerprint || '',
     locale: 'en',
-    slug: existingSlugs.get(productId) || `${slugify(product.ai.title)}-${suffix}`,
+    slug,
     title: product.ai.title,
     eyebrow: product.ai.product_type,
     summary: product.ai.short_description,
     description: cleanEditorialText(product.ai.description),
     catholicContext: product.ai.catholic_context,
     catholicRelevance: product.ai.catholic_relevance,
-    categories: categoryList(product),
+    categories: categoryOverride || categoryList(product),
     sku: product.sku || `OUO-${suffix.toUpperCase()}`,
     imageUrl: gallery[0]?.url || '',
     imageAlt: gallery[0]?.alt || product.ai.title,

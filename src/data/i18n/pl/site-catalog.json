@@ -2,65 +2,65 @@
   "schemaVersion": 3,
   "locale": "pl",
   "sourceLocale": "en",
-  "sourceCatalogHash": "98fdd7a8ed86cd0b4d87d27ed3b8010eb959b35e9ab070f92027dcdc47ed01d3",
-  "generatedAt": "2026-08-18T03:09:35.978Z",
+  "sourceCatalogHash": "a9f91cdcc25a9326e85e0e9275ac28656f88bcc37137b7827ae46afbb72e6c89",
+  "generatedAt": "2026-08-19T03:17:06.292Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAHRTG7BAOVioqqEY6e7sF2F",
-      "AAE_TG7BAOVioqqEY6eBTjU3",
-      "AAGOTG7BAOVioqqEY6eBtUmL",
-      "AAEcTG7BAOVioqqEY6eYM2Jr",
-      "AAHMTG7BAOVioqqEY6eBS0mz",
-      "AAGbTG7BAOVioqqEY6eBRcEQ",
-      "AAG-TG7BAOVioqqEY6eBT4Pn",
-      "AAHdTG7BAOVioqqEY6eCHasP",
-      "AAHWTG7BAOVioqqEY6eBRiXm",
-      "AAHaTG7BAOVioqqEY6e7LbS6"
+      "AAE3TG7BAOVioqqEY6eo-9E_",
+      "AAHCTG7BAOVioqqEY6eo-oaW",
+      "AAHxTG7BAOVioqqEY6e0cceB",
+      "AAFjTG7BAOVioqqEY6e0bn1A",
+      "AAHJTG7BAOVioqqEY6e0b9PP",
+      "AAHsTG7BAOVioqqEY6e0w0ar",
+      "AAEwTG7BAOVioqqEY6e6dfkE",
+      "AAE1TG7BAOVioqqEY6e5gBlf",
+      "AAE_TG7BAOVioqqEY6eBRoJy",
+      "AAH5TG7BAOVioqqEY6eBRycG"
     ],
     "deletedProductIds": []
   },
   "categoryGlossary": {
-    "rings": "Pierścionki",
+    "jewelry-accessories": "Akcesoria",
+    "fashion-necklace": "Naszyjnik modowy",
+    "rings": "Pierścienie",
     "ornaments": "Ozdoby",
     "rosary-bracelets": "Bransoletki różańcowe",
     "catholic-rosaries": "Różańce katolickie",
     "keychains": "Breloki",
-    "jewelry-accessories": "Akcesoria jubilerskie",
-    "jewelry-packaging": "Opakowania jubilerskie",
-    "fashion-necklace": "Naszyjniki modowe",
+    "jewelry-packaging": "Opakowania na biżuterię",
     "catholic-scapulars": "Szkaplerze katolickie",
-    "brooch": "Broszki"
+    "brooch": "Broszka",
+    "uncategorized": "Bez kategorii"
   },
-  "categoryGlossarySourceHash": "b6c56a83072314b56383fbfa434e33dfc4e91cf06a3a3e3c5578f25bc7ae98a6",
+  "categoryGlossarySourceHash": "0e99f5252c8eeb1572f1ec1dda0e3fcfaddc7c74beda4eaac1926a3dcb07b2ef",
   "translationSummary": {
-    "ready": 278,
+    "ready": 288,
     "skipped": 2,
     "skippedProductIds": [
       "AAGxTG7BAOVioqqEY6e7uzWC",
       "AAEDTG7BAOVioqqEY6erMoEh"
     ],
-    "reused": 265,
-    "generated": 13,
+    "reused": 276,
+    "generated": 12,
     "generatedProductIds": [
-      "AAEzTG7BAOVioqqEY6e1C4Bv",
-      "AAHkTG7BAOVioqqEY6eDnVDw",
-      "AAF7TG7BAOVioqqEY6eBTD5s",
-      "AAHRTG7BAOVioqqEY6e7sF2F",
       "AAE_TG7BAOVioqqEY6eBTjU3",
-      "AAGOTG7BAOVioqqEY6eBtUmL",
       "AAEcTG7BAOVioqqEY6eYM2Jr",
-      "AAHMTG7BAOVioqqEY6eBS0mz",
-      "AAGbTG7BAOVioqqEY6eBRcEQ",
-      "AAG-TG7BAOVioqqEY6eBT4Pn",
-      "AAHdTG7BAOVioqqEY6eCHasP",
-      "AAHWTG7BAOVioqqEY6eBRiXm",
-      "AAHaTG7BAOVioqqEY6e7LbS6"
+      "AAE3TG7BAOVioqqEY6eo-9E_",
+      "AAHCTG7BAOVioqqEY6eo-oaW",
+      "AAHxTG7BAOVioqqEY6e0cceB",
+      "AAFjTG7BAOVioqqEY6e0bn1A",
+      "AAHJTG7BAOVioqqEY6e0b9PP",
+      "AAHsTG7BAOVioqqEY6e0w0ar",
+      "AAEwTG7BAOVioqqEY6e6dfkE",
+      "AAE1TG7BAOVioqqEY6e5gBlf",
+      "AAE_TG7BAOVioqqEY6eBRoJy",
+      "AAH5TG7BAOVioqqEY6eBRycG"
     ],
     "retriedBacklog": 2,
-    "glossaryReused": true
+    "glossaryReused": false
   },
   "translationBacklog": [
     {
@@ -59995,11 +59995,11 @@
       "sourceFingerprint": "1f8426326390c5ffb4befb287be8502b42de3e116d8e986e6704372e5e3dfcf9",
       "locale": "pl",
       "slug": "18k-gold-plated-virgin-mary-pendant-rosary-bracelet-ebtju3",
-      "title": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K",
-      "eyebrow": "Różaniec na rękę z wizerunkiem Maryi",
-      "summary": "Ta bransoletka różańcowa ma pozłacany wisiorek z Matką Boską, ozdobiony cyrkoniami, oraz czerwone koraliki w formie sznurka. Pasek jest regulowany dla wygodnego dopasowania. Idealna do osobistej modlitwy lub jako przemyślany prezent.",
-      "description": "Wykonana z pozłacanego metalu, ta bransoletka prezentuje wizerunek Matki Boskiej z cyrkoniami. Czerwone koraliki nadają klasyczny wygląd różańca, a regulowany pasek zapewnia pewne dopasowanie na różnych obwodach nadgarstka. Dostępne są dwa odcienie czerwieni.\n\nJako przedmiot pobożności maryjnej, może być używana do modlitwy lub jako przypomnienie wiary. Solidne wykonanie sprawia, że nadaje się do codziennego noszenia.",
-      "catholicContext": "Wisiorek przedstawia Matkę Boską, kluczową postać w katolickiej pobożności i Różańcu.",
+      "title": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem",
+      "eyebrow": "Bransoletka różańcowa z wisiorkiem maryjnym",
+      "summary": "Ta bransoletka różańcowa ma wisiorek Matki Bożej powlekany 18-karatowym złotem, ozdobiony cyrkoniami, w połączeniu z czerwonymi koralikami ze sznurka. Pasek na rękę jest regulowany, co zapewnia wygodne dopasowanie. Nadaje się do osobistej modlitwy lub jako przemyślany prezent.",
+      "description": "Wykonana z metalowego wisiorka powlekanego 18-karatowym złotem, ta bransoletka przedstawia szczegółową figurkę Matki Bożej ozdobioną cyrkoniami. Czerwone koraliki ze sznurka nadają klasyczny wygląd różańca, a regulowany pasek na rękę zapewnia pewne dopasowanie dla różnych rozmiarów nadgarstka. Dostępna w dwóch wariantach czerwieni, aby dopasować się do preferencji.\n\nJako przedmiot pobożności maryjnej, może być używana do modlitwy lub jako przypomnienie wiary. Trwała konstrukcja sprawia, że nadaje się do codziennego noszenia.",
+      "catholicContext": "Wisiorek przedstawia Matkę Bożą, centralną postać w katolickiej pobożności i Różańcu.",
       "catholicRelevance": "explicit",
       "categories": [
         {
@@ -60010,67 +60010,67 @@
       ],
       "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
-      "imageAlt": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K",
+      "imageAlt": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
-          "alt": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K"
+          "alt": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H3e29e26989ff43c7967ecbf4dd29389f2.webp",
-          "alt": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K"
+          "alt": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H198b853667da4f65a06618384ab016c8k.webp",
-          "alt": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K"
+          "alt": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H9b3170d7184448c4af54fddc99bb5469W.webp",
-          "alt": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K"
+          "alt": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H183744a16ef144578d42d63bac98854aU.webp",
-          "alt": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K"
+          "alt": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H820864580a7a478c955bcde6be496de2W.webp",
-          "alt": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K"
+          "alt": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem"
         }
       ],
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha615dcc292184c358f9bf6d62632192fM.webp",
-          "alt": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K - czerwony1",
+          "alt": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem - czerwony1",
           "label": "czerwony1",
           "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--4"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc946704894a404d814a15e0080c3761i.webp",
-          "alt": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K - czerwony2",
+          "alt": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem - czerwony2",
           "label": "czerwony2",
           "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--5"
         }
       ],
       "accent": "#6f7c72",
       "features": [
-        "Pozłacany wisiorek z Matką Boską",
-        "Akcenty z cyrkonii",
-        "Czerwone koraliki",
-        "Regulowany pasek",
-        "Dostępne dwa odcienie czerwieni"
+        "Wisiorek Matki Bożej powlekany 18-karatowym złotem",
+        "Ozdobiony cyrkoniami",
+        "Czerwone koraliki ze sznurka",
+        "Regulowany pasek na rękę",
+        "Dostępne dwa warianty czerwieni"
       ],
       "specifications": [
         {
           "name": "Materiał",
-          "value": "Metal pozłacany 18K, cyrkonie, sznurek"
+          "value": "Metal powlekany 18-karatowym złotem, cyrkonie, sznurek"
         },
         {
           "name": "Wzór",
-          "value": "Wisiorek z Matką Boską i czerwone koraliki"
+          "value": "Wisiorek Matki Bożej z czerwonymi koralikami ze sznurka"
         },
         {
           "name": "Zapięcie",
-          "value": "Regulowany pasek"
+          "value": "Regulowany pasek na rękę"
         },
         {
           "name": "Warianty",
@@ -60081,20 +60081,20 @@
         "Osobista modlitwa i pobożność",
         "Religijny prezent na święta maryjne",
         "Codzienny dodatek o znaczeniu religijnym",
-        "Prezent na bierzmowanie lub Pierwszą Komunię"
+        "Prezent na bierzmowanie lub pierwszą komunię"
       ],
       "faq": [
         {
           "question": "Z jakich materiałów wykonana jest ta bransoletka?",
-          "answer": "Bransoletka ma pozłacany wisiorek z metalu z cyrkoniami oraz czerwone koraliki. Pasek jest regulowany."
+          "answer": "Bransoletka ma wisiorek z metalu powlekanego 18-karatowym złotem z cyrkoniami oraz czerwone koraliki ze sznurka. Pasek jest regulowany."
         },
         {
           "question": "Czy bransoletka jest regulowana?",
-          "answer": "Tak, pasek jest regulowany, co pozwala na wygodne dopasowanie do różnych obwodów nadgarstka."
+          "answer": "Tak, pasek na rękę jest regulowany, co pozwala na wygodne dopasowanie do różnych rozmiarów nadgarstka."
         },
         {
-          "question": "Czy są dostępne warianty kolorystyczne?",
-          "answer": "Tak, bransoletka jest dostępna w dwóch odcieniach czerwieni: Czerwony1 i Czerwony2."
+          "question": "Czy są dostępne opcje kolorystyczne?",
+          "answer": "Tak, ta bransoletka jest dostępna w dwóch wariantach czerwieni: Czerwony1 i Czerwony2."
         }
       ],
       "pricing": {
@@ -60110,8 +60110,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Bransoletka różańcowa z wisiorkiem Matki Boskiej, pozłacana 18K",
-          "description": "Ta bransoletka różańcowa ma pozłacany wisiorek z Matką Boską, ozdobiony cyrkoniami, oraz czerwone koraliki w formie sznurka. Pasek jest regulowany dla wygodnego dopasowania. Idealna do osobistej modlitwy lub jako przemyślany prezent.",
+          "name": "Bransoletka różańcowa z wisiorkiem Matki Bożej, powlekana 18-karatowym złotem",
+          "description": "Ta bransoletka różańcowa ma wisiorek Matki Bożej powlekany 18-karatowym złotem, ozdobiony cyrkoniami, w połączeniu z czerwonymi koralikami ze sznurka. Pasek na rękę jest regulowany, co zapewnia wygodne dopasowanie. Nadaje się do osobistej modlitwy lub jako przemyślany prezent.",
           "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
           "image": [
             "https://sc04.alicdn.com/kf/H456a8129460349df94b61797ab0f1c4cS.jpg",
@@ -60126,17 +60126,17 @@
             {
               "@type": "PropertyValue",
               "name": "Materiał",
-              "value": "Metal pozłacany 18K, cyrkonie, sznurek"
+              "value": "Metal powlekany 18-karatowym złotem, cyrkonie, sznurek"
             },
             {
               "@type": "PropertyValue",
               "name": "Wzór",
-              "value": "Wisiorek z Matką Boską i czerwone koraliki"
+              "value": "Wisiorek Matki Bożej z czerwonymi koralikami ze sznurka"
             },
             {
               "@type": "PropertyValue",
               "name": "Zapięcie",
-              "value": "Regulowany pasek"
+              "value": "Regulowany pasek na rękę"
             },
             {
               "@type": "PropertyValue",
@@ -60166,7 +60166,7 @@
               "name": "Z jakich materiałów wykonana jest ta bransoletka?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Bransoletka ma pozłacany wisiorek z metalu z cyrkoniami oraz czerwone koraliki. Pasek jest regulowany."
+                "text": "Bransoletka ma wisiorek z metalu powlekanego 18-karatowym złotem z cyrkoniami oraz czerwone koraliki ze sznurka. Pasek jest regulowany."
               }
             },
             {
@@ -60174,15 +60174,15 @@
               "name": "Czy bransoletka jest regulowana?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Tak, pasek jest regulowany, co pozwala na wygodne dopasowanie do różnych obwodów nadgarstka."
+                "text": "Tak, pasek na rękę jest regulowany, co pozwala na wygodne dopasowanie do różnych rozmiarów nadgarstka."
               }
             },
             {
               "@type": "Question",
-              "name": "Czy są dostępne warianty kolorystyczne?",
+              "name": "Czy są dostępne opcje kolorystyczne?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Tak, bransoletka jest dostępna w dwóch odcieniach czerwieni: Czerwony1 i Czerwony2."
+                "text": "Tak, ta bransoletka jest dostępna w dwóch wariantach czerwieni: Czerwony1 i Czerwony2."
               }
             }
           ]
@@ -60190,22 +60190,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+        "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
-            "contentHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
+            "contentHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
             "attempts": 0,
             "updatedAt": "2026-08-18T02:59:33.900Z",
             "model": "deepseek-v4-flash"
           },
           "pl": {
             "status": "ready",
-            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
-            "contentHash": "b1cfdb53a74afb7e8b75a01eb75814177bcf0f37ae112ebea5fe6a289ea46814",
+            "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
+            "contentHash": "3b1cf172755db3877c9c43574a224d2663c921b3f0fb10f90eb590054cc406c3",
             "attempts": 1,
-            "updatedAt": "2026-08-18T03:08:24.867Z",
+            "updatedAt": "2026-08-19T03:15:18.931Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -60472,10 +60472,10 @@
       "sourceFingerprint": "61e16346ee9266ee5df203bfd6226fb8e2fb829f9c3108d558f7db8195d40846",
       "locale": "pl",
       "slug": "250ml-plastic-holy-water-bottle-with-cross-pattern-eym2jr",
-      "title": "Plastikowa butelka na wodę święconą 250ml ze wzorem krzyża",
-      "eyebrow": "Plastikowa butelka na wodę święconą z krzyżem",
-      "summary": "Butelka na wodę święconą 250ml z HDPE z białym wzorem krzyża i ochronną nakrętką z PP. Waży 30,7g i ma 16,5cm wysokości, co czyni ją lekką opcją do ceremonii, prezentów i użytku osobistego.",
-      "description": "Ta butelka na wodę święconą o pojemności 250ml jest wykonana z polietylenu o wysokiej gęstości (HDPE), co zapewnia odporność na uderzenia, a nakrętka z polipropylenu (PP) gwarantuje niezawodne zamknięcie. Biały korpus z wytłoczonym wzorem krzyża jest czytelnym symbolem dewocyjnym. Wysokość 16,5cm i waga 30,7g sprawiają, że łatwo ją przenosić i przechowywać, czy to do osobistej modlitwy, czy na wydarzenia kościelne.",
+      "title": "Plastikowa butelka na wodę święconą 250 ml z wzorem krzyża",
+      "eyebrow": "Plastikowa butelka na wodę święconą z wzorem krzyża",
+      "summary": "Butelka na wodę święconą o pojemności 250 ml wykonana z HDPE, z białym wzorem krzyża i ochronną nakrętką PP. Waży 30,7 g i ma 16,5 cm wysokości – to lekka opcja na ceremonie, prezenty i użytek osobisty.",
+      "description": "Ta butelka na wodę święconą o pojemności 250 ml jest formowana z polietylenu o wysokiej gęstości (HDPE), co zapewnia odporność na uderzenia, a nakrętka z polipropylenu (PP) gwarantuje niezawodne zamknięcie. Biały korpus ma wytłoczony wzór krzyża, co czyni ją czytelnym symbolem dewocyjnym. Wysokość 16,5 cm i waga 30,7 g sprawiają, że można ją łatwo przenosić lub przechowywać, zarówno do osobistej modlitwy, jak i na wydarzenia kościelne.",
       "catholicContext": "W praktyce katolickiej woda święcona jest używana do błogosławieństw i gestów pobożnościowych, a krzyż jest centralnym symbolem wiary; ta butelka jest przeznaczona do takiego użytku.",
       "catholicRelevance": "devotional_context",
       "categories": [
@@ -60487,46 +60487,46 @@
       ],
       "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
-      "imageAlt": "Plastikowa butelka na wodę święconą 250ml ze wzorem krzyża",
+      "imageAlt": "Plastikowa butelka na wodę święconą 250 ml z wzorem krzyża",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
-          "alt": "Plastikowa butelka na wodę święconą 250ml ze wzorem krzyża"
+          "alt": "Plastikowa butelka na wodę święconą 250 ml z wzorem krzyża"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1880c36feab49ee8e28277936e31bfck.webp",
-          "alt": "Plastikowa butelka na wodę święconą 250ml ze wzorem krzyża"
+          "alt": "Plastikowa butelka na wodę święconą 250 ml z wzorem krzyża"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Haece68d37fc146569cc2fa18df81b2731.webp",
-          "alt": "Plastikowa butelka na wodę święconą 250ml ze wzorem krzyża"
+          "alt": "Plastikowa butelka na wodę święconą 250 ml z wzorem krzyża"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd7e209e67eb24fddb3d1db370fd159e8q.webp",
-          "alt": "Plastikowa butelka na wodę święconą 250ml ze wzorem krzyża"
+          "alt": "Plastikowa butelka na wodę święconą 250 ml z wzorem krzyża"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc79f02828fb46fdab2002a45f2ffe5aa.webp",
-          "alt": "Plastikowa butelka na wodę święconą 250ml ze wzorem krzyża"
+          "alt": "Plastikowa butelka na wodę święconą 250 ml z wzorem krzyża"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H50e34a9b22ad4fb8b7294056b92d11f5b.webp",
-          "alt": "Plastikowa butelka na wodę święconą 250ml ze wzorem krzyża"
+          "alt": "Plastikowa butelka na wodę święconą 250 ml z wzorem krzyża"
         }
       ],
       "variantImages": [],
       "accent": "#7a6d92",
       "features": [
-        "Pojemność 250ml mieści praktyczną ilość wody święconej",
-        "Wykonana z HDPE dla wysokiej odporności mechanicznej",
+        "Pojemność 250 ml mieści praktyczną ilość wody święconej",
+        "Wykonana z HDPE dla wysokiej wytrzymałości ochronnej",
         "Biały kolor z wzorem krzyża w reliefie",
-        "Nakrętka typu flip-top z PP do łatwego otwierania i bezpiecznego zamykania",
-        "Kompaktowy rozmiar: 16,5 x 5 x 5 cm, waga tylko 30,7g"
+        "Nakrętka PP otwierana do góry dla łatwego otwierania i bezpiecznego zamykania",
+        "Kompaktowy rozmiar: 16,5 x 5 x 5 cm, waga tylko 30,7 g"
       ],
       "specifications": [
         {
           "name": "Pojemność",
-          "value": "250ml"
+          "value": "250 ml"
         },
         {
           "name": "Rozmiar",
@@ -60534,7 +60534,7 @@
         },
         {
           "name": "Waga",
-          "value": "30,7g"
+          "value": "30,7 g"
         },
         {
           "name": "Materiał butelki",
@@ -60555,22 +60555,22 @@
       ],
       "applications": [
         "Przechowywanie wody święconej do modlitwy w domu",
-        "Ceremonie religijne i błogosławieństwa podczas chrztu",
+        "Ceremonie religijne i błogosławieństwa chrzcielne",
         "Prezenty dewocyjne na Wielkanoc lub inne święta",
-        "Użytek edukacyjny na zajęciach formacji wiary"
+        "Zastosowanie edukacyjne na lekcjach formacji wiary"
       ],
       "faq": [
         {
           "question": "Z czego wykonana jest butelka i czy jest trwała?",
-          "answer": "Butelka jest wykonana z HDPE (polietylen o wysokiej gęstości), co zapewnia wysoką odporność na uderzenia, dzięki czemu nadaje się do codziennego użytku."
+          "answer": "Butelka jest wykonana z HDPE (polietylenu o wysokiej gęstości), co zapewnia wysoką wytrzymałość ochronną na uderzenia, dzięki czemu nadaje się do codziennego użytku."
         },
         {
           "question": "Jakie są wymiary i pojemność?",
-          "answer": "Butelka ma wymiary 16,5 x 5 x 5 cm i pojemność 250ml. Waży tylko 30,7g, więc jest lekka i poręczna."
+          "answer": "Butelka ma wymiary 16,5 x 5 x 5 cm i mieści 250 ml płynu. Waży zaledwie 30,7 g, więc jest lekka i poręczna."
         },
         {
-          "question": "Czy butelka ma zakrętkę?",
-          "answer": "Tak, posiada zakrętkę z PP (polipropylen), która otwiera się przez odchylenie, zapewniając bezpieczne zamknięcie zapobiegające wyciekom."
+          "question": "Czy butelka jest wyposażona w nakrętkę?",
+          "answer": "Tak, ma nakrętkę PP (polipropylenową), która otwiera się do góry, zapewniając bezpieczne zamknięcie zapobiegające rozlaniu."
         }
       ],
       "pricing": {
@@ -60587,8 +60587,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Plastikowa butelka na wodę święconą 250ml ze wzorem krzyża",
-          "description": "Butelka na wodę święconą 250ml z HDPE z białym wzorem krzyża i ochronną nakrętką z PP. Waży 30,7g i ma 16,5cm wysokości, co czyni ją lekką opcją do ceremonii, prezentów i użytku osobistego.",
+          "name": "Plastikowa butelka na wodę święconą 250 ml z wzorem krzyża",
+          "description": "Butelka na wodę święconą o pojemności 250 ml wykonana z HDPE, z białym wzorem krzyża i ochronną nakrętką PP. Waży 30,7 g i ma 16,5 cm wysokości – to lekka opcja na ceremonie, prezenty i użytek osobisty.",
           "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
           "image": [
             "https://sc04.alicdn.com/kf/H54de41f1e8b94a1da6846ff578113e9fw.jpg",
@@ -60603,7 +60603,7 @@
             {
               "@type": "PropertyValue",
               "name": "Pojemność",
-              "value": "250ml"
+              "value": "250 ml"
             },
             {
               "@type": "PropertyValue",
@@ -60613,7 +60613,7 @@
             {
               "@type": "PropertyValue",
               "name": "Waga",
-              "value": "30,7g"
+              "value": "30,7 g"
             },
             {
               "@type": "PropertyValue",
@@ -60658,7 +60658,7 @@
               "name": "Z czego wykonana jest butelka i czy jest trwała?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Butelka jest wykonana z HDPE (polietylen o wysokiej gęstości), co zapewnia wysoką odporność na uderzenia, dzięki czemu nadaje się do codziennego użytku."
+                "text": "Butelka jest wykonana z HDPE (polietylenu o wysokiej gęstości), co zapewnia wysoką wytrzymałość ochronną na uderzenia, dzięki czemu nadaje się do codziennego użytku."
               }
             },
             {
@@ -60666,15 +60666,15 @@
               "name": "Jakie są wymiary i pojemność?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Butelka ma wymiary 16,5 x 5 x 5 cm i pojemność 250ml. Waży tylko 30,7g, więc jest lekka i poręczna."
+                "text": "Butelka ma wymiary 16,5 x 5 x 5 cm i mieści 250 ml płynu. Waży zaledwie 30,7 g, więc jest lekka i poręczna."
               }
             },
             {
               "@type": "Question",
-              "name": "Czy butelka ma zakrętkę?",
+              "name": "Czy butelka jest wyposażona w nakrętkę?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Tak, posiada zakrętkę z PP (polipropylen), która otwiera się przez odchylenie, zapewniając bezpieczne zamknięcie zapobiegające wyciekom."
+                "text": "Tak, ma nakrętkę PP (polipropylenową), która otwiera się do góry, zapewniając bezpieczne zamknięcie zapobiegające rozlaniu."
               }
             }
           ]
@@ -60682,22 +60682,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+        "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
-            "contentHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
+            "contentHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
             "attempts": 0,
             "updatedAt": "2026-08-18T02:59:35.706Z",
             "model": "deepseek-v4-flash"
           },
           "pl": {
             "status": "ready",
-            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
-            "contentHash": "f16440b0035f64584ce235b547c35f816bdcbf8cd814dac49dcf042376178e91",
+            "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
+            "contentHash": "1f101c78fec6c5165256a808297ad8dd14c40142aa37b3ef9e5d6dd6b136c7ab",
             "attempts": 1,
-            "updatedAt": "2026-08-18T03:08:46.611Z",
+            "updatedAt": "2026-08-19T03:15:28.109Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -61976,6 +61976,2381 @@
             "contentHash": "ac68a9c51b4155bc58860a509768f6e605b1bad664700c966beb4d60cab92ae1",
             "attempts": 1,
             "updatedAt": "2026-08-18T03:09:35.978Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE3TG7BAOVioqqEY6eo-9E_",
+      "sourceId": "AAE3TG7BAOVioqqEY6eo-9E_",
+      "sourceFingerprint": "4da268df76b9c5f23644219edf0c0a4584ff1dcf9bf72fa193337dcadfc7ab04",
+      "locale": "pl",
+      "slug": "vintage-red-zircon-cross-pendant-earrings-eo-9e_",
+      "title": "Wiszące kolczyki z czerwonym cyrkoniem w kształcie krzyża",
+      "eyebrow": "wiszące kolczyki z czerwonym cyrkoniem",
+      "summary": "Wiszące kolczyki w stylu vintage z czerwonym cyrkoniem w kształcie krzyża z gotyckimi płomieniami. Wykonane z mosiądzu platerowanego miedzią, te kolczyki o tematyce religijnej są idealne dla hurtowników poszukujących wyrazistych dodatków z motywem dewocyjnym.",
+      "description": "Te wiszące kolczyki łączą estetykę vintage z motywem krzyża. Głównym kamieniem jest cyrkonia w głębokim czerwonym kolorze, osadzona w ramie z mosiądzu platerowanego miedzią. Gotycki wzór płomienia dodaje dramatycznego charakteru, zachowując religijny wydźwięk. Kolczyki w formie wiszącej zwisają poniżej płatka ucha, co czyni je zauważalnym dodatkiem na co dzień lub na specjalne okazje. Stop metalu zapewnia trwałość, a miedziane platerowanie nadaje ciepły, antyczny wygląd. Idealne dla sprzedawców detalicznych lub dystrybutorów dodających biżuterię inspirowaną wiarą do swojej oferty.",
+      "catholicContext": "W tradycji chrześcijańskiej krzyż symbolizuje odkupienie przez ofiarę Chrystusa i jest często noszony jako osobisty wyraz wiary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Pierścienie",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAE3TG7BAOVioqqEY6eo-9E_",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Hf2eef34e9cdf418781dc4871d3f2c85c3.webp",
+      "imageAlt": "Wiszące kolczyki z czerwonym cyrkoniem w kształcie krzyża",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf2eef34e9cdf418781dc4871d3f2c85c3.webp",
+          "alt": "Wiszące kolczyki z czerwonym cyrkoniem w kształcie krzyża"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6923198e05f44a43bcaa411b8b0a97bbR.webp",
+          "alt": "Wiszące kolczyki z czerwonym cyrkoniem w kształcie krzyża"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H44b7fcf9f2a34d639dd164dc43545eeeO.webp",
+          "alt": "Wiszące kolczyki z czerwonym cyrkoniem w kształcie krzyża"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He0bd8de630854bc7ad59d78296851dabf.webp",
+          "alt": "Wiszące kolczyki z czerwonym cyrkoniem w kształcie krzyża"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3b77945e2fc94bad8b8cd9eb5d52bcb0a.webp",
+          "alt": "Wiszące kolczyki z czerwonym cyrkoniem w kształcie krzyża"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Konstrukcja z mosiądzu platerowanego miedzią dla antycznego wyglądu",
+        "Główny kamień: czerwona cyrkonia",
+        "Wiszący styl kolczyków",
+        "Religijny wzór krzyża z gotyckimi płomieniami",
+        "Estetyka inspirowana stylem vintage"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał główny",
+          "value": "Stop metali (stop cynku)"
+        },
+        {
+          "name": "Platerowanie",
+          "value": "Miedź"
+        },
+        {
+          "name": "Kamień główny",
+          "value": "Cyrkonia"
+        },
+        {
+          "name": "Styl",
+          "value": "Religijny"
+        },
+        {
+          "name": "Typ kolczyków",
+          "value": "Wiszące"
+        }
+      ],
+      "applications": [
+        "Kolekcje biżuterii o tematyce religijnej",
+        "Stylizacje gotyckie lub vintage",
+        "Prezenty na okazje związane z wiarą",
+        "Ekspozycja detaliczna w sklepach z dodatkami"
+      ],
+      "faq": [
+        {
+          "question": "Z jakich materiałów wykonane są te kolczyki?",
+          "answer": "Kolczyki są wykonane ze stopu cynku z miedzianym platerowaniem i posiadają czerwony kamień cyrkonowy."
+        },
+        {
+          "question": "Jaki styl reprezentują te kolczyki?",
+          "answer": "Są sklasyfikowane jako religijne, z motywem krzyża i gotyckimi płomieniami."
+        },
+        {
+          "question": "Czy te kolczyki nadają się do zamówień hurtowych?",
+          "answer": "Tak, są oferowane jako produkty hurtowe, ale szczegółowe informacje dotyczące zamówień można uzyskać kontaktując się z nami."
+        }
+      ],
+      "pricing": {
+        "price": "2.34",
+        "regularPrice": "2.34",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.69",
+          "max": "2.34"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wiszące kolczyki z czerwonym cyrkoniem w kształcie krzyża",
+          "description": "Wiszące kolczyki w stylu vintage z czerwonym cyrkoniem w kształcie krzyża z gotyckimi płomieniami. Wykonane z mosiądzu platerowanego miedzią, te kolczyki o tematyce religijnej są idealne dla hurtowników poszukujących wyrazistych dodatków z motywem dewocyjnym.",
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eo-9E_",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf2eef34e9cdf418781dc4871d3f2c85c3.jpg",
+            "https://sc04.alicdn.com/kf/H6923198e05f44a43bcaa411b8b0a97bbR.jpg",
+            "https://sc04.alicdn.com/kf/H44b7fcf9f2a34d639dd164dc43545eeeO.jpg",
+            "https://sc04.alicdn.com/kf/He0bd8de630854bc7ad59d78296851dabf.jpg",
+            "https://sc04.alicdn.com/kf/H3b77945e2fc94bad8b8cd9eb5d52bcb0a.jpg"
+          ],
+          "category": "Pierścienie",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał główny",
+              "value": "Stop metali (stop cynku)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Platerowanie",
+              "value": "Miedź"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kamień główny",
+              "value": "Cyrkonia"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Styl",
+              "value": "Religijny"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Typ kolczyków",
+              "value": "Wiszące"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.34",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.69",
+              "maxPrice": "2.34",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Z jakich materiałów wykonane są te kolczyki?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kolczyki są wykonane ze stopu cynku z miedzianym platerowaniem i posiadają czerwony kamień cyrkonowy."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jaki styl reprezentują te kolczyki?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Są sklasyfikowane jako religijne, z motywem krzyża i gotyckimi płomieniami."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy te kolczyki nadają się do zamówień hurtowych?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, są oferowane jako produkty hurtowe, ale szczegółowe informacje dotyczące zamówień można uzyskać kontaktując się z nami."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "contentHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:50.815Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "contentHash": "a02deda88e72f34c513d7074b033ae1d72bbd7268de70ff81ffc33b35f9d85a2",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:15:37.226Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHCTG7BAOVioqqEY6eo-oaW",
+      "sourceId": "AAHCTG7BAOVioqqEY6eo-oaW",
+      "sourceFingerprint": "059e0f81d1068767a49a0034f0eee32659905dfe19bf3e64b2a449bd05b5a8d3",
+      "locale": "pl",
+      "slug": "colorful-acrylic-cross-beads-for-diy-jewelry-eo-oaw",
+      "title": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY",
+      "eyebrow": "Akrylowe koraliki krzyżyki",
+      "summary": "Te akrylowe koraliki krzyżyki występują w siedmiu kolorach: czarnym, zielonym, błękitnym jeziora, różowym, fioletowym, królewskim niebieskim i białym. Są przeznaczone do wyrobu bransoletek i naszyjników, oferując lekką opcję do projektów biżuterii DIY.",
+      "description": "Wybierając koraliki do linii biżuterii inspirowanej wiarą, ważne są opcje kolorystyczne i spójność materiału. Te akrylowe koraliki krzyżyki są dostępne w siedmiu różnych kolorach, co pozwala dopasować je do różnych palet projektowych.\n\nKażdy koralik ma kształt krzyża i jest wykonany z akrylu, lekkiego plastiku, który sprawia, że gotowe elementy są wygodne w noszeniu. Oferta obejmuje kolory: czarny, zielony, błękit jeziora, różowy, fioletowy, królewski niebieski i biały, dzięki czemu można tworzyć skoordynowane zestawy lub mieszać odcienie dla kontrastu.\n\nPonieważ są to koraliki, można je nawlec na sznurek, drut lub gumkę, aby skomponować bransoletki i naszyjniki. Jeśli Twój projekt wymaga konkretnego dopasowania, skontaktuj się z nami w celu weryfikacji rozmiaru otworu i wymiarów koralików.",
+      "catholicContext": "Zwykły krzyż jest uznanym symbolem chrześcijańskim, choć odróżnia się od krucyfiksu, który nosi ciało Chrystusa.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Akcesoria",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2122e629547f465da08a08eff736de51K.webp",
+      "imageAlt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2122e629547f465da08a08eff736de51K.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7c975c1affc44cda8829fa65207d641ee.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H68f966edc2754e39a272dea3f15e7633t.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfcac0af432c34862b5803b56f6f5b23fY.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd99f59bc400642eb83584adaa6133d79m.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hca7fdefa164c4be6bed05c26a0f0ede2l.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY - czarny-krzyż",
+          "label": "black-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd7fe7665cb6a4cd4a9e95628da6a95a2U.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY - fioletowy-krzyż",
+          "label": "purple-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H71bf91ad66d740b29d877cb4472f676bC.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY - biały-krzyż",
+          "label": "white-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H678380395557479c9eadb0b46b9fb30b2.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY - królewski-niebieski-krzyż",
+          "label": "royal-blue-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H70da3455c2924dcf9b003d2d8ae68b5bZ.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY - zielony-krzyż",
+          "label": "green-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hae0edea135d74db6a3f1a5e74e3a6f6fQ.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY - błękitny-jeziora-krzyż",
+          "label": "lake-blue-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1458c8c1cbb74137b83e62dbf342b860d.webp",
+          "alt": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY - różowy-krzyż",
+          "label": "pink-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--1"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Dostępne w 7 kolorach: czarny, zielony, błękit jeziora, różowy, fioletowy, królewski niebieski, biały",
+        "Wykonane z akrylu, lekkiego materiału",
+        "Kształt krzyża odpowiedni do biżuterii religijnej lub dekoracyjnej",
+        "Przeznaczone do tworzenia bransoletek i naszyjników metodą DIY",
+        "Ilości hurtowe do masowego tworzenia"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Akryl"
+        },
+        {
+          "name": "Kształt",
+          "value": "Krzyż"
+        },
+        {
+          "name": "Dostępne kolory",
+          "value": "Czarny, Zielony, Błękit Jeziora, Różowy, Fioletowy, Królewski Niebieski, Biały"
+        }
+      ],
+      "applications": [
+        "Tworzenie bransoletek",
+        "Tworzenie naszyjników",
+        "Akcesoria do biżuterii DIY",
+        "Projekty masowego tworzenia"
+      ],
+      "faq": [
+        {
+          "question": "Jakie kolory są dostępne dla tych akrylowych koralików krzyżyków?",
+          "answer": "Koraliki są dostępne w siedmiu kolorach: czarnym, zielonym, błękicie jeziora, różowym, fioletowym, królewskim niebieskim i białym."
+        },
+        {
+          "question": "Z jakiego materiału są wykonane te koraliki krzyżyki?",
+          "answer": "Są wykonane z akrylu, lekkiego plastiku często używanego w jubilerstwie."
+        },
+        {
+          "question": "Czy te koraliki mogą być używane zarówno do bransoletek, jak i naszyjników?",
+          "answer": "Tak, są przeznaczone do tworzenia bransoletek i naszyjników metodą DIY, choć warto sprawdzić rozmiar otworu, aby upewnić się, że pasuje do sznurka lub drutu."
+        }
+      ],
+      "pricing": {
+        "price": "0.04",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.02",
+          "max": "0.04"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Kolorowe akrylowe koraliki krzyżyki do biżuterii DIY",
+          "description": "Te akrylowe koraliki krzyżyki występują w siedmiu kolorach: czarnym, zielonym, błękitnym jeziora, różowym, fioletowym, królewskim niebieskim i białym. Są przeznaczone do wyrobu bransoletek i naszyjników, oferując lekką opcję do projektów biżuterii DIY.",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2122e629547f465da08a08eff736de51K.jpg",
+            "https://sc04.alicdn.com/kf/H7c975c1affc44cda8829fa65207d641ee.jpg",
+            "https://sc04.alicdn.com/kf/H68f966edc2754e39a272dea3f15e7633t.jpg",
+            "https://sc04.alicdn.com/kf/Hfcac0af432c34862b5803b56f6f5b23fY.jpg",
+            "https://sc04.alicdn.com/kf/Hd99f59bc400642eb83584adaa6133d79m.jpg"
+          ],
+          "category": "Akcesoria",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Akryl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kształt",
+              "value": "Krzyż"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Dostępne kolory",
+              "value": "Czarny, Zielony, Błękit Jeziora, Różowy, Fioletowy, Królewski Niebieski, Biały"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.04",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.02",
+              "maxPrice": "0.04",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jakie kolory są dostępne dla tych akrylowych koralików krzyżyków?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Koraliki są dostępne w siedmiu kolorach: czarnym, zielonym, błękicie jeziora, różowym, fioletowym, królewskim niebieskim i białym."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Z jakiego materiału są wykonane te koraliki krzyżyki?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Są wykonane z akrylu, lekkiego plastiku często używanego w jubilerstwie."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy te koraliki mogą być używane zarówno do bransoletek, jak i naszyjników?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, są przeznaczone do tworzenia bransoletek i naszyjników metodą DIY, choć warto sprawdzić rozmiar otworu, aby upewnić się, że pasuje do sznurka lub drutu."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "contentHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:41.031Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "contentHash": "1a0cde50e55347eb720edcc7e9f0a7b4dd79abb869c91d2f02b31b39895fef9f",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:15:48.230Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHxTG7BAOVioqqEY6e0cceB",
+      "sourceId": "AAHxTG7BAOVioqqEY6e0cceB",
+      "sourceFingerprint": "083475860d3b7bd1dc0b4e8d122a50c0b5b850544fffd1c2d1d55b09b9eb6297",
+      "locale": "pl",
+      "slug": "metal-st-benedict-commemorative-badge-e0cceb",
+      "title": "Metalowa odznaka pamiątkowa św. Benedykta",
+      "eyebrow": "Odznaka pamiątkowa św. Benedykta",
+      "summary": "Odznaka w stylu vintage wykonana z metalu, przedstawiająca św. Benedykta, odpowiednia jako ozdoba samochodu lub dekoracja biurka. Dostępna w dwóch rozmiarach, ta pamiątkowa odznaka dodaje tradycyjnego charakteru każdej przestrzeni.",
+      "description": "Wykonana z metalu z wykończeniem w stylu vintage, ta pamiątkowa odznaka św. Benedykta stanowi charakterystyczny akcent do wnętrz samochodów lub na biurko. Jej design odzwierciedla klasyczną estetykę, co czyni ją wszechstronnym elementem dekoracyjnym dla osób ceniących tradycyjne wizerunki religijne. Dostępna w dwóch rozmiarach, możesz wybrać wariant najlepiej pasujący do miejsca, w którym planujesz ją umieścić. Trwała metalowa konstrukcja zapewnia długowieczność, a pamiątkowy charakter czyni z niej znaczący dodatek do osobistej kolekcji lub przemyślany prezent dla osób czczących św. Benedykta.",
+      "catholicContext": "Medalik św. Benedykta jest tradycyjnym przedmiotem dewocyjnym w katolicyzmie, często kojarzonym z ochroną przed złem, choć szczegółowe cechy tej odznaki nie są opisane.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ozdoby",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Ha0a13cba25904345a3b471eda1b5bb4ff.webp",
+      "imageAlt": "Metalowa odznaka pamiątkowa św. Benedykta",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha0a13cba25904345a3b471eda1b5bb4ff.webp",
+          "alt": "Metalowa odznaka pamiątkowa św. Benedykta"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hef84e10971c142f590b6362c1d330eafI.webp",
+          "alt": "Metalowa odznaka pamiątkowa św. Benedykta"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1fd05e8e0c9d4cf7b31646b8af3c6090R.webp",
+          "alt": "Metalowa odznaka pamiątkowa św. Benedykta"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf2fa18001ac44afd8981e1b2f866a384G.webp",
+          "alt": "Metalowa odznaka pamiątkowa św. Benedykta"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf942ecb2560f486a9d456fc2a225ca14e.webp",
+          "alt": "Metalowa odznaka pamiątkowa św. Benedykta"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hdee017ad60e54b07a821b2e7ee0bd823x.webp",
+          "alt": "Metalowa odznaka pamiątkowa św. Benedykta"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc4fb426118da4d01bd6495e2c268569ba.webp",
+          "alt": "Metalowa odznaka pamiątkowa św. Benedykta - mała",
+          "label": "mała",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha09b0d5f3f77470bb9446efee9b0be177.webp",
+          "alt": "Metalowa odznaka pamiątkowa św. Benedykta - duża",
+          "label": "duża",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB-V--1"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Metalowa konstrukcja w stylu vintage",
+        "Pamiątkowy wizerunek św. Benedykta",
+        "Dostępna w wersji dużej i małej",
+        "Odpowiednia do samochodu lub na biurko"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Metal"
+        },
+        {
+          "name": "Styl",
+          "value": "Vintage"
+        },
+        {
+          "name": "Warianty",
+          "value": "Duży rozmiar, mały"
+        }
+      ],
+      "applications": [
+        "Ozdoba samochodu",
+        "Dekoracja biurka",
+        "Ekspozycja w domowym ołtarzyku lub kąciku modlitewnym",
+        "Przedmiot kolekcjonerski"
+      ],
+      "faq": [
+        {
+          "question": "Jakie rozmiary są dostępne dla tej odznaki św. Benedykta?",
+          "answer": "Odznaka jest dostępna w dwóch wariantach: duża i mała. Wybierz w zależności od preferencji dotyczących miejsca umieszczenia."
+        },
+        {
+          "question": "Z jakiego materiału wykonana jest ta odznaka?",
+          "answer": "Jest wykonana z metalu z wykończeniem w stylu vintage, zgodnie ze specyfikacją."
+        },
+        {
+          "question": "Czy ta odznaka nadaje się do użytku na zewnątrz, np. w samochodzie?",
+          "answer": "Chociaż jest przeznaczona jako ozdoba samochodu, należy pamiętać, że nie podano szczegółowych informacji na temat odporności na warunki atmosferyczne. Aby zapewnić trwałość, rozważ umieszczenie jej w pomieszczeniu lub w miejscu chronionym."
+        }
+      ],
+      "pricing": {
+        "price": "0.68",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.68",
+          "max": "1.18"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Metalowa odznaka pamiątkowa św. Benedykta",
+          "description": "Odznaka w stylu vintage wykonana z metalu, przedstawiająca św. Benedykta, odpowiednia jako ozdoba samochodu lub dekoracja biurka. Dostępna w dwóch rozmiarach, ta pamiątkowa odznaka dodaje tradycyjnego charakteru każdej przestrzeni.",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB",
+          "image": [
+            "https://sc04.alicdn.com/kf/Ha0a13cba25904345a3b471eda1b5bb4ff.png",
+            "https://sc04.alicdn.com/kf/Hef84e10971c142f590b6362c1d330eafI.png",
+            "https://sc04.alicdn.com/kf/H1fd05e8e0c9d4cf7b31646b8af3c6090R.png",
+            "https://sc04.alicdn.com/kf/Hf2fa18001ac44afd8981e1b2f866a384G.png",
+            "https://sc04.alicdn.com/kf/Hf942ecb2560f486a9d456fc2a225ca14e.png",
+            "https://sc04.alicdn.com/kf/Hdee017ad60e54b07a821b2e7ee0bd823x.png"
+          ],
+          "category": "Ozdoby",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Styl",
+              "value": "Vintage"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Warianty",
+              "value": "Duży rozmiar, mały"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.68",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.68",
+              "maxPrice": "1.18",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jakie rozmiary są dostępne dla tej odznaki św. Benedykta?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Odznaka jest dostępna w dwóch wariantach: duża i mała. Wybierz w zależności od preferencji dotyczących miejsca umieszczenia."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Z jakiego materiału wykonana jest ta odznaka?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Jest wykonana z metalu z wykończeniem w stylu vintage, zgodnie ze specyfikacją."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy ta odznaka nadaje się do użytku na zewnątrz, np. w samochodzie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chociaż jest przeznaczona jako ozdoba samochodu, należy pamiętać, że nie podano szczegółowych informacji na temat odporności na warunki atmosferyczne. Aby zapewnić trwałość, rozważ umieszczenie jej w pomieszczeniu lub w miejscu chronionym."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "contentHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:33.091Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "contentHash": "ba050b51e16d220ece1b390ac7b5eae54c3898cb6d764f0477ec6bad4645af98",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:15:57.153Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFjTG7BAOVioqqEY6e0bn1A",
+      "sourceId": "AAFjTG7BAOVioqqEY6e0bn1A",
+      "sourceFingerprint": "36c1d2f73db3767bfef5d2f965658ed24059df5233d4c6ff45a28b05ee195ea0",
+      "locale": "pl",
+      "slug": "hand-painted-enamel-metal-car-ornament-e0bn1a",
+      "title": "Ozdoba samochodowa z emaliowanego metalu, ręcznie malowana",
+      "eyebrow": "Emaliowana metalowa ozdoba samochodowa",
+      "summary": "Ta ręcznie malowana emaliowana metalowa ozdoba dodaje kolorowego akcentu do wnętrza Twojego samochodu. Dostępna w kolorze imitującym złoto lub białym, nadaje się do ekspozycji na desce rozdzielczej, zawieszenia na lusterku wstecznym lub jako świąteczna dekoracja bożonarodzeniowa.",
+      "description": "Wykonana z metalu pokrytego emalią, ta ozdoba posiada ręcznie malowane wykończenie, które podkreśla drobne detale. Wybierz pomiędzy wariantem imitującym złoto a białym, aby dopasować go do swojego stylu. Kompaktowy rozmiar i lekka konstrukcja sprawiają, że łatwo umieścić ją na desce rozdzielczej, zawiesić na lusterku wstecznym lub włączyć do dekoracji świątecznych. Trwała emaliowana powierzchnia odporna na blaknięcie zapewnia długotrwały kolor. Dla odbiorców hurtowych ta ozdoba stanowi wszechstronną opcję dla linii akcesoriów samochodowych lub sezonowych zestawów prezentowych. Jej ręcznie malowana jakość dodaje charakterystycznego akcentu, którego często brakuje masowo produkowanym przedmiotom.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ozdoby",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H1c5cf1b80aa24437b5146f1af14c43904.webp",
+      "imageAlt": "Ręcznie malowana emaliowana metalowa ozdoba samochodowa",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1c5cf1b80aa24437b5146f1af14c43904.webp",
+          "alt": "Ręcznie malowana emaliowana metalowa ozdoba samochodowa"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H312bf1d9a2374846bf859ada0fec8276J.webp",
+          "alt": "Ręcznie malowana emaliowana metalowa ozdoba samochodowa"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H53c4fe5756b446a2b2907b12316e3e99P.webp",
+          "alt": "Ręcznie malowana emaliowana metalowa ozdoba samochodowa"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H73e825e83d244736ad8dddd3d98fe8d1d.webp",
+          "alt": "Ręcznie malowana emaliowana metalowa ozdoba samochodowa"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha7f757a10b0a4ca59dbbd8a201b606feg.webp",
+          "alt": "Ręcznie malowana emaliowana metalowa ozdoba samochodowa"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1b74e8c46c764385a6a5fdf1837fb447V.webp",
+          "alt": "Ręcznie malowana emaliowana metalowa ozdoba samochodowa - biała",
+          "label": "white-k",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb5cf2eca305042d198bcf479fcde060bl.webp",
+          "alt": "Ręcznie malowana emaliowana metalowa ozdoba samochodowa - imitująca złoto",
+          "label": "imitation-gold",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A-V--1"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Ręcznie malowana emaliowana powłoka dla szczegółowego koloru",
+        "Metalowa konstrukcja zapewniająca trwałość",
+        "Dostępna w wariantach imitujących złoto i białym",
+        "Kompaktowy rozmiar odpowiedni do wnętrza samochodu",
+        "Może być używana jako akcesorium samochodowe lub ozdoba"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Metal pokryty emalią"
+        },
+        {
+          "name": "Wariant",
+          "value": "Imitujący złoto, Biały"
+        },
+        {
+          "name": "Kategoria",
+          "value": "Ozdoby"
+        }
+      ],
+      "applications": [
+        "Ozdoba na deskę rozdzielczą",
+        "Dekoracja zawieszana na lusterku wstecznym",
+        "Ozdoba choinkowa lub świąteczna",
+        "Akcent wnętrza pojazdu"
+      ],
+      "faq": [
+        {
+          "question": "Z jakich materiałów wykonana jest ta ozdoba?",
+          "answer": "Ozdoba wykonana jest z metalu z emaliowaną powłoką, co zapewnia trwałe i kolorowe wykończenie."
+        },
+        {
+          "question": "Jakie warianty kolorystyczne są dostępne?",
+          "answer": "Ozdoba dostępna jest w dwóch wariantach: imitującym złoto i białym."
+        },
+        {
+          "question": "Jak można używać tej ozdoby?",
+          "answer": "Można ją umieścić na desce rozdzielczej, zawiesić na lusterku wstecznym lub użyć jako część dekoracji bożonarodzeniowych lub świątecznych."
+        }
+      ],
+      "pricing": {
+        "price": "1.25",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.85",
+          "max": "1.25"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Ozdoba samochodowa z emaliowanego metalu, ręcznie malowana",
+          "description": "Ta ręcznie malowana emaliowana metalowa ozdoba dodaje kolorowego akcentu do wnętrza Twojego samochodu. Dostępna w kolorze imitującym złoto lub białym, nadaje się do ekspozycji na desce rozdzielczej, zawieszenia na lusterku wstecznym lub jako świąteczna dekoracja bożonarodzeniowa.",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1c5cf1b80aa24437b5146f1af14c43904.png",
+            "https://sc04.alicdn.com/kf/H312bf1d9a2374846bf859ada0fec8276J.png",
+            "https://sc04.alicdn.com/kf/H53c4fe5756b446a2b2907b12316e3e99P.png",
+            "https://sc04.alicdn.com/kf/H73e825e83d244736ad8dddd3d98fe8d1d.png",
+            "https://sc04.alicdn.com/kf/Ha7f757a10b0a4ca59dbbd8a201b606feg.png"
+          ],
+          "category": "Ozdoby",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Metal pokryty emalią"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Wariant",
+              "value": "Imitujący złoto, Biały"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kategoria",
+              "value": "Ozdoby"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.85",
+              "maxPrice": "1.25",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Z jakich materiałów wykonana jest ta ozdoba?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ozdoba wykonana jest z metalu z emaliowaną powłoką, co zapewnia trwałe i kolorowe wykończenie."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jakie warianty kolorystyczne są dostępne?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ozdoba dostępna jest w dwóch wariantach: imitującym złoto i białym."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jak można używać tej ozdoby?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Można ją umieścić na desce rozdzielczej, zawiesić na lusterku wstecznym lub użyć jako część dekoracji bożonarodzeniowych lub świątecznych."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "contentHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:01.968Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "contentHash": "ac4442a4c7cc1d6ec1cc95f5c21a82f605a46ee939342250ff6900d66ede8375",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:16:05.466Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHJTG7BAOVioqqEY6e0b9PP",
+      "sourceId": "AAHJTG7BAOVioqqEY6e0b9PP",
+      "sourceFingerprint": "6a49dd30c63a8242cf55dbe3606a7c06b1d5b42242e988a8f77f3a5add53f87c",
+      "locale": "pl",
+      "slug": "knitted-coin-pouch-backpack-charm-e0b9pp",
+      "title": "Dzianinowy woreczek na monety – brelok do plecaka",
+      "eyebrow": "dzianinowy woreczek na monety – brelok do plecaka",
+      "summary": "Kwadratowy dzianinowy woreczek na monety, który służy również jako kreatywny brelok do plecaka. Dostępny w 11 wariantach kolorystycznych. Kompaktowe przechowywanie monet lub drobnych przedmiotów, w kreatywnym stylu zawieszki. Idealny jako upominki na przyjęcia lub do toreb prezentowych.",
+      "description": "Ten dzianinowy woreczek na monety wnosi zabawowy, ręcznie robiony charakter do codziennego noszenia. Jego kwadratowy kształt i styl inspirowany kreskówkami wyróżniają go jako brelok do plecaka, a wnętrze woreczka oferuje proste miejsce na monety lub drobiazgi. Dostępny w 11 wariantach kolorystycznych, nadaje się do ekspozycji w sklepach, jako upominki na przyjęcia lub gadżety na wydarzenia. Dzianinowa konstrukcja zapewnia miękką teksturę, a dołączona pętla umożliwia zawieszenie na torbach, brelokach lub zamkach błyskawicznych. Dla nabywców hurtowych różnorodność kolorów wspiera zamówienia mieszane. Produkt nie zawiera łańcuszka ani klipsa; sposób zawieszenia zależy od pętli.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "160",
+          "name": "Bez kategorii",
+          "slug": "uncategorized"
+        }
+      ],
+      "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
+      "imageAlt": "Dzianinowy woreczek na monety – brelok do plecaka",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc83b4d77db3241b5a04ace4fe0f12ae8k.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd6673f9211b4dc7b288672d5dfaefb6P.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H19ac6e14de64435d8a39503de3addd693.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfb561fcf008e4629a75b4ae35550689bX.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H44c7c47d5b0048c58b56947b79870c269.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He246024cb5104523a85accbb04ca0307N.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-11",
+          "label": "kolor-11",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6c9a668329ea49e892f92de2e6c6ed0da.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-10",
+          "label": "kolor-10",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd27f11b7a5446b2aca4832e252e9a83U.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-9",
+          "label": "kolor-9",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0856c8c365004274b9bdaed95f3325ecw.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-8",
+          "label": "kolor-8",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3af22ce9854e43e3bf52345c2e0d4897X.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-7",
+          "label": "kolor-7",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd314beb742bf47069b2cc928556a5a41d.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-6",
+          "label": "kolor-6",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha5eee002736b4335bf46af9083ccb2a1V.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-5",
+          "label": "kolor-5",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfadfc67210cf41ceac95de8c915e26cc5.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-4",
+          "label": "kolor-4",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H56e5611199c948318e7da714b5a2cb020.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-3",
+          "label": "kolor-3",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd4492b36e1ae4984b3afc64c03408effS.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-2",
+          "label": "kolor-2",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc2ab6231904b4b16aa2b1a1676e63833j.webp",
+          "alt": "Dzianinowy woreczek na monety – brelok do plecaka – kolor-1",
+          "label": "kolor-1",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--1"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Dzianinowa konstrukcja o kwadratowym kształcie",
+        "Kreatywny styl zawieszki inspirowany kreskówkami",
+        "Dostępny w 11 różnych wariantach kolorystycznych",
+        "Otwarcie woreczka do przechowywania monet lub drobnych przedmiotów",
+        "Pętla do mocowania do plecaków, toreb lub breloków",
+        "Opakowanie hurtowe na upominki na przyjęcia lub do sprzedaży detalicznej"
+      ],
+      "specifications": [
+        {
+          "name": "Warianty kolorystyczne",
+          "value": "11 opcji (Kolor 1 – Kolor 11)"
+        },
+        {
+          "name": "Styl",
+          "value": "Kwadratowy, inspirowany kreskówkami wisiorek"
+        },
+        {
+          "name": "Główny materiał",
+          "value": "Dzianina tekstylna"
+        }
+      ],
+      "applications": [
+        "Przymocuj do plecaka jako ozdobny brelok",
+        "Przechowuj monety lub drobne przedmioty w woreczku",
+        "Użyj jako upominek na przyjęcie lub wypełnienie toreb prezentowych",
+        "Wyeksponuj w sklepie lub na straganie jako nowość"
+      ],
+      "faq": [
+        {
+          "question": "Jakie są dostępne opcje kolorystyczne?",
+          "answer": "Ten dzianinowy woreczek na monety jest dostępny w 11 wariantach kolorystycznych, oznaczonych jako Kolor 1 – Kolor 11. Nie podano konkretnych nazw odcieni, więc skontaktuj się z nami, aby uzyskać dokładne informacje o kolorach."
+        },
+        {
+          "question": "Jak woreczek mocuje się do plecaka?",
+          "answer": "Woreczek posiada pętlę, którą można przewlec przez uchwyt torby, suwak lub brelok. Nie jest dołączony osobny klips ani łańcuszek, więc w zależności od punktu mocowania może być konieczne dokupienie własnego."
+        },
+        {
+          "question": "Czy ten produkt jest sprzedawany pojedynczo czy w zestawach?",
+          "answer": "Oferta wskazuje na dostępność hurtową, ale dokładna liczba sztuk w zamówieniu nie jest określona. Skontaktuj się z nami, aby uzyskać szczegóły dotyczące opakowania i minimalnej ilości zamówienia."
+        }
+      ],
+      "pricing": {
+        "price": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.43",
+          "max": "0.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Dzianinowy woreczek na monety – brelok do plecaka",
+          "description": "Kwadratowy dzianinowy woreczek na monety, który służy również jako kreatywny brelok do plecaka. Dostępny w 11 wariantach kolorystycznych. Kompaktowe przechowywanie monet lub drobnych przedmiotów, w kreatywnym stylu zawieszki. Idealny jako upominki na przyjęcia lub do toreb prezentowych.",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
+          "image": [
+            "https://sc04.alicdn.com/kf/H92a7c5fb923345d091a1c6a0d147b3fcS.png",
+            "https://sc04.alicdn.com/kf/Hc83b4d77db3241b5a04ace4fe0f12ae8k.png",
+            "https://sc04.alicdn.com/kf/Hcd6673f9211b4dc7b288672d5dfaefb6P.png",
+            "https://sc04.alicdn.com/kf/H19ac6e14de64435d8a39503de3addd693.png",
+            "https://sc04.alicdn.com/kf/Hfb561fcf008e4629a75b4ae35550689bX.png",
+            "https://sc04.alicdn.com/kf/H44c7c47d5b0048c58b56947b79870c269.png"
+          ],
+          "category": "Bez kategorii",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Warianty kolorystyczne",
+              "value": "11 opcji (Kolor 1 – Kolor 11)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Styl",
+              "value": "Kwadratowy, inspirowany kreskówkami wisiorek"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Główny materiał",
+              "value": "Dzianina tekstylna"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.43",
+              "maxPrice": "0.45",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jakie są dostępne opcje kolorystyczne?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ten dzianinowy woreczek na monety jest dostępny w 11 wariantach kolorystycznych, oznaczonych jako Kolor 1 – Kolor 11. Nie podano konkretnych nazw odcieni, więc skontaktuj się z nami, aby uzyskać dokładne informacje o kolorach."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jak woreczek mocuje się do plecaka?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Woreczek posiada pętlę, którą można przewlec przez uchwyt torby, suwak lub brelok. Nie jest dołączony osobny klips ani łańcuszek, więc w zależności od punktu mocowania może być konieczne dokupienie własnego."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy ten produkt jest sprzedawany pojedynczo czy w zestawach?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oferta wskazuje na dostępność hurtową, ale dokładna liczba sztuk w zamówieniu nie jest określona. Skontaktuj się z nami, aby uzyskać szczegóły dotyczące opakowania i minimalnej ilości zamówienia."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "contentHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:39.882Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "contentHash": "d5a905826368bcb69de7119cd7caaa822ca043991741eda0ecfc33be71f3a6ac",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:16:18.707Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHsTG7BAOVioqqEY6e0w0ar",
+      "sourceId": "AAHsTG7BAOVioqqEY6e0w0ar",
+      "sourceFingerprint": "84366b9d77cdfcf42118fd2a867418b08a4a48508d8639a84d60e9865318e8e4",
+      "locale": "pl",
+      "slug": "retro-electroplated-religious-keychain-e0w0ar",
+      "title": "Retro Brelok Religijny Elektrolitowany",
+      "eyebrow": "Brelok Religijny",
+      "summary": "Ten retro brelok ma elektrolitowane metalowe korpus z tłoczonym wzorem inspirowanym religijnie i przezroczystym wykończeniem epoksydowym. Dostępny w wielu wariantach stylistycznych i opcjach albumów, nadaje się do dystrybucji hurtowej dla sklepów z prezentami i sprzedawców nowości.",
+      "description": "Ten brelok łączy metalową bazę w stylu vintage z elektrolitem i szczegółowym tłoczonym wzorem, wykończony ochronną warstwą epoksydową. Wzór jest kreatywny i o tematyce religijnej, co czyni go wyrazistym akcesorium.\n\nWybierz spośród różnych wariantów, w tym różnych zestawów albumów (Album-4, Album-6, Album-7, Album-8, Album-10) oraz konkretnych modeli, takich jak Gd, Qdzs, Sz01 i Sz02. Różnorodność wspiera mieszane zamówienia hurtowe.\n\nKompaktowy rozmiar i trwała konstrukcja czynią go praktycznym w codziennym użytkowaniu, a retro estetyka przemawia do kolekcjonerów i kupujących prezenty.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "83",
+          "name": "Breloki",
+          "slug": "keychains"
+        }
+      ],
+      "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H720ad721160442a1b196ffbaf27352af5.webp",
+      "imageAlt": "Retro Brelok Religijny Elektrolitowany",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H720ad721160442a1b196ffbaf27352af5.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha91760064f344a1b881c66943d47e7aa2.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd30b496ddfcb47c78cd03c1221ddafa8F.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Heddb48b63e2b473ca21bab6413406151M.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H89e17ae874e64f25b23a09a98b48a7f86.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H76c8f06b2ba64217a81d4c39d303a569p.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H48fd441765174d43b9585d99b5cec601f.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - qdzs-keychain",
+          "label": "qdzs-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H505331eac5954828ac7fb1964d59cf4co.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - qdzs",
+          "label": "qdzs",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb03838d299c04f56a649d4562e90c53aU.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - gd-keychain",
+          "label": "gd-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--19"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H29c1415392fc4dda9e6ab2265ad669cdT.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - gd",
+          "label": "gd",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--20"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3019f0cdbb04461e95d768eb3992b6eak.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - photo-album-1",
+          "label": "photo-album-1",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9217061f3fe2419bad89dece77d309a1I.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - photo-album-2",
+          "label": "photo-album-2",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7042755f74cd4d3492a78ddc86012454i.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - photo-album-3",
+          "label": "photo-album-3",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H37685d16d3274bfe9a0bc07fc4e5fa9f2.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - album-4",
+          "label": "album-4",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3cb169d8d19e41e3a7a7af8d6db40d3ax.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - photo-album-5",
+          "label": "photo-album-5",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5b134da4d8024b5785bcba82a2cecb329.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - album-6",
+          "label": "album-6",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H55eec7330d9b4571b75de39a641fcad1R.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - album-7",
+          "label": "album-7",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7b14e086c07948e78b7da22e909e39d1O.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - album-8",
+          "label": "album-8",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H359bae7f463347b6b04c12fec80424f59.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - photo-album-9",
+          "label": "photo-album-9",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hae36d021c6ec4f7d9a71daa943f21d90q.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - album-10",
+          "label": "album-10",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H75d0a04d87d54d5cbc6d8c6b76264bbf6.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - photo-album-11",
+          "label": "photo-album-11",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hed94969b362f4b6d9295952f7595cc74X.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - photo-album-12",
+          "label": "photo-album-12",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H39f462ff8af4436b83aabd82ed1d15734.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - sz01-keychain",
+          "label": "sz01-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H153cfff0be014028a3e16486cef30af0s.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - sz01",
+          "label": "sz01",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3e8fbeea301c4251a6d042a7bde674e6m.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - sz02-keychain",
+          "label": "sz02-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9206e6706db04a9abfae99249d11a3a03.webp",
+          "alt": "Retro Brelok Religijny Elektrolitowany - sz02",
+          "label": "sz02",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--16"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Metalowa konstrukcja elektrolitowana dla trwałego, błyszczącego wykończenia",
+        "Tłoczony wzór dodaje tekstury i wizualnego detalu",
+        "Powłoka epoksydowa chroni wzór i zwiększa połysk",
+        "Kreatywny wzór inspirowany rosyjską religijnością",
+        "Wiele wariantów i zestawów albumów do wyboru"
+      ],
+      "specifications": [
+        {
+          "name": "Główny materiał",
+          "value": "Metal"
+        },
+        {
+          "name": "Wykończenie",
+          "value": "Elektrolitowane i pokryte epoksydem"
+        },
+        {
+          "name": "Wzór",
+          "value": "Tłoczony motyw religijny"
+        },
+        {
+          "name": "Warianty",
+          "value": "Album-4, Album-6, Album-7, Album-8, Album-10, Gd, Qdzs, Sz01, Sz02 i inne"
+        }
+      ],
+      "applications": [
+        "Brelok jako akcesorium osobiste",
+        "Towar detaliczny w sklepach z prezentami",
+        "Przedmiot kolekcjonerski dla entuzjastów",
+        "Prezent promocyjny lub pamiątka"
+      ],
+      "faq": [
+        {
+          "question": "Jakie materiały są użyte w tym breloku?",
+          "answer": "Brelok jest wykonany z metalu z wykończeniem elektrolitowanym i ochronną powłoką epoksydową na tłoczonym wzorze."
+        },
+        {
+          "question": "Jaki wzór znajduje się na tym breloku?",
+          "answer": "Wzór to retro, inspirowany religijnie motyw z tłoczonym wzorem, opisany w informacjach o produkcie jako 'kreatywny rosyjski wzór'."
+        },
+        {
+          "question": "Jakie warianty są dostępne dla tego breloka?",
+          "answer": "Dostępne warianty obejmują zestawy albumów, takie jak Album-4, Album-6, Album-7, Album-8 i Album-10, a także pojedyncze modele, takie jak Gd, Qdzs, Sz01 i Sz02."
+        }
+      ],
+      "pricing": {
+        "price": "0.37",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.30",
+          "max": "0.37"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Retro Brelok Religijny Elektrolitowany",
+          "description": "Ten retro brelok ma elektrolitowane metalowe korpus z tłoczonym wzorem inspirowanym religijnie i przezroczystym wykończeniem epoksydowym. Dostępny w wielu wariantach stylistycznych i opcjach albumów, nadaje się do dystrybucji hurtowej dla sklepów z prezentami i sprzedawców nowości.",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar",
+          "image": [
+            "https://sc04.alicdn.com/kf/H720ad721160442a1b196ffbaf27352af5.png",
+            "https://sc04.alicdn.com/kf/Ha91760064f344a1b881c66943d47e7aa2.png",
+            "https://sc04.alicdn.com/kf/Hd30b496ddfcb47c78cd03c1221ddafa8F.png",
+            "https://sc04.alicdn.com/kf/Heddb48b63e2b473ca21bab6413406151M.png",
+            "https://sc04.alicdn.com/kf/H89e17ae874e64f25b23a09a98b48a7f86.png",
+            "https://sc04.alicdn.com/kf/H76c8f06b2ba64217a81d4c39d303a569p.png"
+          ],
+          "category": "Breloki",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Główny materiał",
+              "value": "Metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Wykończenie",
+              "value": "Elektrolitowane i pokryte epoksydem"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Wzór",
+              "value": "Tłoczony motyw religijny"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Warianty",
+              "value": "Album-4, Album-6, Album-7, Album-8, Album-10, Gd, Qdzs, Sz01, Sz02 i inne"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.37",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.30",
+              "maxPrice": "0.37",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jakie materiały są użyte w tym breloku?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Brelok jest wykonany z metalu z wykończeniem elektrolitowanym i ochronną powłoką epoksydową na tłoczonym wzorze."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jaki wzór znajduje się na tym breloku?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wzór to retro, inspirowany religijnie motyw z tłoczonym wzorem, opisany w informacjach o produkcie jako 'kreatywny rosyjski wzór'."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jakie warianty są dostępne dla tego breloka?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dostępne warianty obejmują zestawy albumów, takie jak Album-4, Album-6, Album-7, Album-8 i Album-10, a także pojedyncze modele, takie jak Gd, Qdzs, Sz01 i Sz02."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "contentHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:14.413Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "contentHash": "a9fa70c71bd1f82bc34175be76ac85f0ae0650f0e801fe8ef4525e8f3521b954",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:16:29.517Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEwTG7BAOVioqqEY6e6dfkE",
+      "sourceId": "AAEwTG7BAOVioqqEY6e6dfkE",
+      "sourceFingerprint": "43c74a33721fcd6e9808bc7edfec530b6f92f0393b7c526aa8d8aa2cb69a856b",
+      "locale": "pl",
+      "slug": "cross-border-middle-eastern-copper-micro-inlaid-diamond-bamboo-e6dfke",
+      "title": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni",
+      "eyebrow": "Akcesoria",
+      "summary": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni, sportowy, premium, modny, popularny, ażurowy, uniwersalny",
+      "description": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni, sportowy, premium, modny, popularny, ażurowy, uniwersalny",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Akcesoria",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
+      "imageAlt": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
+          "alt": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H66b1f2886bb14245b185aff88ef37e36B.webp",
+          "alt": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf645ae0acb5540faaed47cb274db792fg.webp",
+          "alt": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbb45184635494625a08c06fc9c9756abU.webp",
+          "alt": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hec9f09231885445cad2c18380ad97e9cr.webp",
+          "alt": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1d01ac755a6e40e08139f95891c0c504K.webp",
+          "alt": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbcdea57f4dd1452db16503cf47564b34Y.webp",
+          "alt": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni - owalny kolorowy cyrkon + naszyjnik ze stali tytanowej 55, pakowany w torebkę OPP",
+          "label": "oval-colored-zirconium55-titanium-steel-necklace-opp-packaging",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha2cd3328f40e4e75a0a6b50fb08c8379D.webp",
+          "alt": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni - owalny biały cyrkon + naszyjnik ze stali tytanowej 55, pakowany w torebkę OPP",
+          "label": "oval-white-zirconium-55-titanium-steel-necklace-opp-packaging",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--1"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Wariant: Owalny kolorowy cyrkon + naszyjnik ze stali tytanowej 55 - pakowanie OPP, Owalny biały cyrkon + naszyjnik ze stali tytanowej 55 - pakowanie OPP"
+      ],
+      "specifications": [
+        {
+          "name": "Wariant",
+          "value": "Owalny kolorowy cyrkon + naszyjnik ze stali tytanowej 55 - pakowanie OPP, Owalny biały cyrkon + naszyjnik ze stali tytanowej 55 - pakowanie OPP"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.71",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.24",
+          "max": "1.71"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni",
+          "description": "Miedziany naszyjnik z bambusem z mikrowkładami diamentowymi, styl bliskowschodni, sportowy, premium, modny, popularny, ażurowy, uniwersalny",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
+          "image": [
+            "https://sc04.alicdn.com/kf/H320df553fb0a4aac8624dc8865272ec8e.png",
+            "https://sc04.alicdn.com/kf/H66b1f2886bb14245b185aff88ef37e36B.png",
+            "https://sc04.alicdn.com/kf/Hf645ae0acb5540faaed47cb274db792fg.png",
+            "https://sc04.alicdn.com/kf/Hbb45184635494625a08c06fc9c9756abU.png",
+            "https://sc04.alicdn.com/kf/Hec9f09231885445cad2c18380ad97e9cr.png",
+            "https://sc04.alicdn.com/kf/H1d01ac755a6e40e08139f95891c0c504K.png"
+          ],
+          "category": "Akcesoria",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Wariant",
+              "value": "Owalny kolorowy cyrkon + naszyjnik ze stali tytanowej 55 - pakowanie OPP, Owalny biały cyrkon + naszyjnik ze stali tytanowej 55 - pakowanie OPP"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.71",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.24",
+              "maxPrice": "1.71",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "contentHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:16.430Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "contentHash": "b3aa80a24b542c1a6e10922d16175f930b34954e0da17149bf79187d8fda00bb",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:16:34.802Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE1TG7BAOVioqqEY6e5gBlf",
+      "sourceId": "AAE1TG7BAOVioqqEY6e5gBlf",
+      "sourceFingerprint": "a4f836fa97f47d16e6c7bb13b33b6b29d3d3b2d7d8a39caf8494aed2ca5abe68",
+      "locale": "pl",
+      "slug": "bohemian-cross-beaded-elastic-bracelet-e5gblf",
+      "title": "Bransoletka elastyczna z koralików z krzyżem w stylu boho",
+      "eyebrow": "bransoletka z koralików z krzyżem",
+      "summary": "Ta bransoletka dla kobiet ma wzór krzyża z akcentami z pirytu żelaznego i koralikami akrylowymi. Elastyczna opaska rozciąga się, co ułatwia zakładanie, co czyni ją uniwersalnym prezentem dla osób poszukujących biżuterii o tematyce religijnej.",
+      "description": "Szukasz bransoletki z krzyżem, która łączy codzienny styl z designem opartym na wierze? Ta cygańska bransoletka z koralików łączy wzór krzyża z ziemistymi kamieniami z pirytu żelaznego i akrylowymi koralikami w elastycznej linii. Została zaprojektowana dla kobiet i sklasyfikowana jako biżuteria religijna, ale jej swobodny wygląd dobrze komponuje się zarówno z dżinsami, jak i sukienkami. Każda bransoletka jest lekka i dostępna w różnych kolorach, jednak konkretne odcienie mogą się różnić w zależności od partii. Materiały akrylowe i żywiczne zapewniają trwałość podczas codziennego użytkowania, a elastyczny sznurek umożliwia łatwe zakładanie bez zapięcia. Jako prezent nadaje się na urodziny, chrzciny lub po prostu jako przemyślany znak wiary.",
+      "catholicContext": "Krzyż jest centralnym symbolem wiary katolickiej, reprezentującym ofiarę Jezusa Chrystusa.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Bransoletki różańcowe",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAE1TG7BAOVioqqEY6e5gBlf",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hccd9cc58d7da455bb40ab6403c549108Y.webp",
+      "imageAlt": "Bransoletka elastyczna z koralików z krzyżem w stylu boho",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hccd9cc58d7da455bb40ab6403c549108Y.webp",
+          "alt": "Bransoletka elastyczna z koralików z krzyżem w stylu boho"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ca42d33a9434ccbadaee464e708d062X.webp",
+          "alt": "Bransoletka elastyczna z koralików z krzyżem w stylu boho"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc53b762434524799b5f0542e9a67ac09H.webp",
+          "alt": "Bransoletka elastyczna z koralików z krzyżem w stylu boho"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0b0c7c8948b14e59811671601d9781f8m.webp",
+          "alt": "Bransoletka elastyczna z koralików z krzyżem w stylu boho"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H56adf5cf509b48bdb25a635bfc5c6d3bH.webp",
+          "alt": "Bransoletka elastyczna z koralików z krzyżem w stylu boho"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H66ea2f7344eb45f6a414af7789816425G.webp",
+          "alt": "Bransoletka elastyczna z koralików z krzyżem w stylu boho"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Bransoletka z koralików ze wzorem krzyża",
+        "Główne materiały: akryl, żywica i lucite",
+        "Zawiera akcenty z pirytu żelaznego",
+        "Elastyczna opaska, rozciągliwa, bez zapięcia",
+        "Biżuteria damska, sklasyfikowana jako styl boho"
+      ],
+      "specifications": [
+        {
+          "name": "Materiały",
+          "value": "Akryl, żywica, lucite, piryt żelazny"
+        },
+        {
+          "name": "Typ bransoletki",
+          "value": "Koralikowa, elastyczna"
+        },
+        {
+          "name": "Styl",
+          "value": "Religijny, boho"
+        },
+        {
+          "name": "Wzór",
+          "value": "Krzyż"
+        },
+        {
+          "name": "Numer modelu",
+          "value": "QT-S24052502"
+        },
+        {
+          "name": "Płeć",
+          "value": "Damska"
+        },
+        {
+          "name": "Pochodzenie",
+          "value": "Guangzhou"
+        }
+      ],
+      "applications": [
+        "Codzienne noszenie jako dodatek inspirowany wiarą",
+        "Prezent na okazje religijne, takie jak chrzest lub bierzmowanie",
+        "Warstwowanie z innymi bransoletkami dla stylu boho",
+        "Spotkania kościelne lub wydarzenia religijne"
+      ],
+      "faq": [
+        {
+          "question": "Z jakich materiałów wykonana jest ta bransoletka z krzyżem?",
+          "answer": "Bransoletka jest wykonana z koralików akrylowych, żywicznych i lucite, a także zawiera akcenty z pirytu żelaznego dla metalicznego połysku."
+        },
+        {
+          "question": "Czy bransoletka jest regulowana?",
+          "answer": "Ma elastyczną opaskę, więc rozciąga się, aby dopasować się do większości rozmiarów nadgarstka bez zapięcia, łatwo zakładając i zdejmując."
+        },
+        {
+          "question": "W jakich stylach dostępna jest ta bransoletka?",
+          "answer": "Jest sklasyfikowana jako styl boho z religijnym wzorem krzyża, odpowiednia do codziennego noszenia lub na tematy związane z wiarą. Konkretne opcje kolorystyczne mogą się różnić."
+        }
+      ],
+      "pricing": {
+        "price": "1.13",
+        "regularPrice": "1.13",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Bransoletka elastyczna z koralików z krzyżem w stylu boho",
+          "description": "Ta bransoletka dla kobiet ma wzór krzyża z akcentami z pirytu żelaznego i koralikami akrylowymi. Elastyczna opaska rozciąga się, co ułatwia zakładanie, co czyni ją uniwersalnym prezentem dla osób poszukujących biżuterii o tematyce religijnej.",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6e5gBlf",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hccd9cc58d7da455bb40ab6403c549108Y.png",
+            "https://sc04.alicdn.com/kf/H6ca42d33a9434ccbadaee464e708d062X.png",
+            "https://sc04.alicdn.com/kf/Hc53b762434524799b5f0542e9a67ac09H.png",
+            "https://sc04.alicdn.com/kf/H0b0c7c8948b14e59811671601d9781f8m.png",
+            "https://sc04.alicdn.com/kf/H56adf5cf509b48bdb25a635bfc5c6d3bH.png",
+            "https://sc04.alicdn.com/kf/H66ea2f7344eb45f6a414af7789816425G.png"
+          ],
+          "category": "Bransoletki różańcowe",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiały",
+              "value": "Akryl, żywica, lucite, piryt żelazny"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Typ bransoletki",
+              "value": "Koralikowa, elastyczna"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Styl",
+              "value": "Religijny, boho"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Wzór",
+              "value": "Krzyż"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Numer modelu",
+              "value": "QT-S24052502"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Płeć",
+              "value": "Damska"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pochodzenie",
+              "value": "Guangzhou"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.13",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Z jakich materiałów wykonana jest ta bransoletka z krzyżem?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bransoletka jest wykonana z koralików akrylowych, żywicznych i lucite, a także zawiera akcenty z pirytu żelaznego dla metalicznego połysku."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy bransoletka jest regulowana?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ma elastyczną opaskę, więc rozciąga się, aby dopasować się do większości rozmiarów nadgarstka bez zapięcia, łatwo zakładając i zdejmując."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "W jakich stylach dostępna jest ta bransoletka?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Jest sklasyfikowana jako styl boho z religijnym wzorem krzyża, odpowiednia do codziennego noszenia lub na tematy związane z wiarą. Konkretne opcje kolorystyczne mogą się różnić."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "contentHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:31.059Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "contentHash": "7d6e9da3008bef43ce289874a567860c324e744b038487b3ae666c17514146ae",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:16:45.219Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE_TG7BAOVioqqEY6eBRoJy",
+      "sourceId": "AAE_TG7BAOVioqqEY6eBRoJy",
+      "sourceFingerprint": "5d2c76a8cb21aa149d7cf79e4276f1106c700632ffdd7fbffa436deff8e290cb",
+      "locale": "pl",
+      "slug": "zinc-alloy-catholic-saint-charm-pendant-ebrojy",
+      "title": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku",
+      "eyebrow": "Katolicki wisiorek z wizerunkiem świętego",
+      "summary": "Ten wisiorek ze stopu cynku prezentuje okrągłe motywy religijne, w tym Jezusa, anioła i Madonnę. Dostępny w 20 numerowanych wariantach, nadaje się do tworzenia biżuterii i osobistych akcesoriów dewocyjnych. Praktyczny wybór dla sprzedawców poszukujących różnorodnych katolickich charmsów.",
+      "description": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku to kompaktowy religijny akcesorium o okrągłym kształcie. Jego wzory przedstawiają rozpoznawalne postacie chrześcijańskie: Jezusa, anioła i Madonnę, co czyni go wszechstronnym dodatkiem do kolekcji biżuterii o tematyce katolickiej. Wisiorek jest wykonany ze stopu cynku, materiału znanego ze swojej trwałości i drobnych detali. Dostępny jest w 20 wariantach, ponumerowanych od 1 do 20, co pozwala kupującym wybrać konkretne motywy lub oferować kompletny zestaw. Niezależnie od tego, czy używany do tworzenia różańców, naszyjników czy bransoletek, ten charm zapewnia prosty sposób na włączenie dewocyjnych wizerunków do przedmiotów noszonych na sobie.",
+      "catholicContext": "Takie religijne wisiorki nawiązują do powszechnej pobożności katolickiej, którą Katechizm opisuje jako rozszerzającą, ale nie zastępującą liturgicznego życia Kościoła.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Akcesoria",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb1cc07c8732c468c885fa2f8a541c2f9c.webp",
+      "imageAlt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb1cc07c8732c468c885fa2f8a541c2f9c.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H85202657e5fc4a249462784b9a40fd00F.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5fab23bc08ec4fb186ea395b63420147U.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc544b91a02e14ff0a609833efd3d6d255.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H935fef7e0dc74d0a8a290ed9bc890152D.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H93bdc20a2caf4aac824c79637bff0cc4E.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hef28f55f11e44d549554d0d902347bfcm.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 10",
+          "label": "10",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7c49a47e10b3484e9e5d381e44fdc8c28.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 8",
+          "label": "8",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0c9dd500630a4bb49bbc4841bea3aaedY.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 17",
+          "label": "17",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H60aec1be728a4cd7b0e59e9c8d0bae64k.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 7",
+          "label": "7",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--16"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6136679e0963425a99af5a6557bf5ae3g.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 1",
+          "label": "1",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--21"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a7e8b1657b84ec2ab88a88fc532c099A.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 2",
+          "label": "2",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--19"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8b26ba35bf2b48518a456b7ba62c5decr.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 12",
+          "label": "12",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--20"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6be80b221a044f15a08555eb054ef09cG.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 20",
+          "label": "20",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0b9940e8a1c24dd4994a7b72e88036b4L.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 5",
+          "label": "5",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ad98e664fe342908c65c6de560e357aW.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 14",
+          "label": "14",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9044d5e2bb614f8a8d2f7a129fa3868bb.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 18",
+          "label": "18",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf1cd75f811524881974fad5cf6d2a335n.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 16",
+          "label": "16",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H32a538bde24947239eb8b756d326c3e5N.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 11",
+          "label": "11",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfa0c9e04b318401282e936c072f349b2W.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 15",
+          "label": "15",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9ee02e3b2b2c4fdea99980ce6897b038j.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 6",
+          "label": "6",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H46f75e895fbc4a62b5d33037e94f34d5C.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 4",
+          "label": "4",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0218d68400c4aab9beb4f12414f39b6O.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 13",
+          "label": "13",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hae01cab2731347508243d55f539555b22.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 19",
+          "label": "19",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7efa2788e5e043049f4136da1b467d09L.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 9",
+          "label": "9",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfb039cfc288d4f6f8450657cea97b904X.webp",
+          "alt": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku - 3",
+          "label": "3",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--4"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Wykonany ze stopu cynku, trwałego metalu odpowiedniego do codziennego noszenia",
+        "Posiada okrągłe motywy religijne, w tym Jezusa, anioła i Madonnę",
+        "Dostępny w 20 różnych wariantach, ponumerowanych 1–20",
+        "Kompaktowy rozmiar idealny do bransoletek charms, naszyjników lub breloków",
+        "Katolicki design odpowiedni do biżuterii dewocyjnej"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Stop cynku"
+        },
+        {
+          "name": "Kształt",
+          "value": "Okrągły"
+        },
+        {
+          "name": "Wzór",
+          "value": "Motywy religijne: Jezus, Anioł, Madonna"
+        },
+        {
+          "name": "Warianty",
+          "value": "20 numerowanych wariantów (1-20)"
+        }
+      ],
+      "applications": [
+        "Tworzenie naszyjników lub wisiorków o tematyce katolickiej",
+        "Dodawanie religijnych charmsów do bransoletek",
+        "Wytwarzanie biżuterii dewocyjnej do użytku osobistego",
+        "Pozyskiwanie komponentów dla firm zajmujących się wyrobem biżuterii"
+      ],
+      "faq": [
+        {
+          "question": "Z jakiego materiału wykonany jest ten wisiorek?",
+          "answer": "Wisiorek jest wykonany ze stopu cynku, który zapewnia trwałą i niedrogą bazę dla szczegółowych motywów religijnych."
+        },
+        {
+          "question": "Jakie wzory są dostępne?",
+          "answer": "Wisiorek posiada okrągłe motywy religijne, w tym wizerunki Jezusa, anioła i Madonny. Dostępnych jest 20 różnych wariantów, ponumerowanych od 1 do 20, prawdopodobnie różniących się konkretnym wzorem lub wykończeniem."
+        },
+        {
+          "question": "Czy mogę wybrać konkretny wariant przy zamówieniu?",
+          "answer": "Tak, produkt jest oferowany w 20 numerowanych wariantach, co pozwala wybrać wzór najlepiej odpowiadający Twoim potrzebom lub zakupić mieszankę dla różnorodności."
+        }
+      ],
+      "pricing": {
+        "price": "0.28",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.22",
+          "max": "0.28"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wisiorek z wizerunkiem świętego katolickiego ze stopu cynku",
+          "description": "Ten wisiorek ze stopu cynku prezentuje okrągłe motywy religijne, w tym Jezusa, anioła i Madonnę. Dostępny w 20 numerowanych wariantach, nadaje się do tworzenia biżuterii i osobistych akcesoriów dewocyjnych. Praktyczny wybór dla sprzedawców poszukujących różnorodnych katolickich charmsów.",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hb1cc07c8732c468c885fa2f8a541c2f9c.jpg",
+            "https://sc04.alicdn.com/kf/H85202657e5fc4a249462784b9a40fd00F.jpg",
+            "https://sc04.alicdn.com/kf/H5fab23bc08ec4fb186ea395b63420147U.jpg",
+            "https://sc04.alicdn.com/kf/Hc544b91a02e14ff0a609833efd3d6d255.jpg",
+            "https://sc04.alicdn.com/kf/H935fef7e0dc74d0a8a290ed9bc890152D.jpg",
+            "https://sc04.alicdn.com/kf/H93bdc20a2caf4aac824c79637bff0cc4E.jpg"
+          ],
+          "category": "Akcesoria",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Stop cynku"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kształt",
+              "value": "Okrągły"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Wzór",
+              "value": "Motywy religijne: Jezus, Anioł, Madonna"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Warianty",
+              "value": "20 numerowanych wariantów (1-20)"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.28",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.22",
+              "maxPrice": "0.28",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Z jakiego materiału wykonany jest ten wisiorek?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wisiorek jest wykonany ze stopu cynku, który zapewnia trwałą i niedrogą bazę dla szczegółowych motywów religijnych."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jakie wzory są dostępne?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wisiorek posiada okrągłe motywy religijne, w tym wizerunki Jezusa, anioła i Madonny. Dostępnych jest 20 różnych wariantów, ponumerowanych od 1 do 20, prawdopodobnie różniących się konkretnym wzorem lub wykończeniem."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy mogę wybrać konkretny wariant przy zamówieniu?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, produkt jest oferowany w 20 numerowanych wariantach, co pozwala wybrać wzór najlepiej odpowiadający Twoim potrzebom lub zakupić mieszankę dla różnorodności."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "contentHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:09.259Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "contentHash": "6224d958ae082cdab090611c5fb63e080b3525101a2535251c978cca0814ac8d",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:16:58.881Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH5TG7BAOVioqqEY6eBRycG",
+      "sourceId": "AAH5TG7BAOVioqqEY6eBRycG",
+      "sourceFingerprint": "4cfa27fc0a886f3d6b623b3fd11b91e116cc53aef8486c0d59cf7407123ba23e",
+      "locale": "pl",
+      "slug": "gold-plated-cross-pendant-with-jesus-ebrycg",
+      "title": "Pozłacany krzyż z Jezusem",
+      "eyebrow": "Pozłacany metalowy krzyżyk",
+      "summary": "Pozłacany krzyżyk o wymiarach 5,8 na 12 cm, wykonany ze stopu metalu z galwanicznym wykończeniem. Ten dekoracyjny krzyż może służyć jako pomoc modlitewna, ozdoba lub przemyślany prezent na różne okazje.",
+      "description": "Ten pozłacany krzyżyk ma klasyczny, tradycyjny kształt krzyża w kompaktowym rozmiarze. Mierzący 5,8 na 12 cm, wykonany jest ze stopu metalu z galwanicznym wykończeniem, co nadaje mu wypolerowany wygląd. Wzór jest prosty i uniwersalny, nadaje się do użytku w dekoracji domu, jako ozdoba świąteczna lub pamiątka. Jego wymiary ułatwiają ekspozycję na ścianie, stojaku lub półce. Niezależnie od tego, czy używany do osobistej pobożności, czy jako prezent, ten krzyż zapewnia rozpoznawalny symbol wiary chrześcijańskiej. Galwanizowana konstrukcja metalowa zapewnia trwałość podczas użytkowania i ekspozycji. Rozważ go na Boże Narodzenie, Wielkanoc lub inne okazje do obdarowywania religijnego.",
+      "catholicContext": "Krzyżyk może służyć jako widoczny wyraz wiary chrześcijańskiej, chociaż nie jest automatycznie sakramentalią, dopóki nie zostanie pobłogosławiony przez Kościół.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ozdoby",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAH5TG7BAOVioqqEY6eBRycG",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H6204fe4a266944529a41b59077832c49W.webp",
+      "imageAlt": "Pozłacany krzyżyk z Jezusem",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6204fe4a266944529a41b59077832c49W.webp",
+          "alt": "Pozłacany krzyżyk z Jezusem"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7081a2ed9c6d432281abd70db1ba1d6b8.webp",
+          "alt": "Pozłacany krzyżyk z Jezusem"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3f2405277408405b9812239d7ee5cafb1.webp",
+          "alt": "Pozłacany krzyżyk z Jezusem"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63ac6777acfe49839acdf230b9c82c76k.webp",
+          "alt": "Pozłacany krzyżyk z Jezusem"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H08d1b54a97d6497bafd7ebca69c4a9acu.webp",
+          "alt": "Pozłacany krzyżyk z Jezusem"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Pozłacane wykończenie dla błyszczącego wyglądu",
+        "Wymiary 5,8 x 12 cm",
+        "Wykonany ze stopu metalu",
+        "Kształt krzyża",
+        "Nadaje się do wielu zastosowań, w tym dekoracji domu i prezentów"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Stop metalu"
+        },
+        {
+          "name": "Powłoka",
+          "value": "Złocona"
+        },
+        {
+          "name": "Wymiary",
+          "value": "5,8 x 12 cm"
+        },
+        {
+          "name": "Typ produktu",
+          "value": "Model / ozdoba"
+        }
+      ],
+      "applications": [
+        "Dekoracja domu",
+        "Ozdoba świąteczna i prezent",
+        "Pomoc modlitewna",
+        "Pamiątka"
+      ],
+      "faq": [
+        {
+          "question": "Jakie są wymiary tego krzyżyka?",
+          "answer": "Krzyżyk mierzy 5,8 na 12 cm, co czyni go kompaktowym rozmiarem odpowiednim do ekspozycji lub trzymania."
+        },
+        {
+          "question": "Z jakiego materiału wykonany jest ten krzyżyk?",
+          "answer": "Jest wykonany ze stopu metalu z pozłacanym wykończeniem."
+        },
+        {
+          "question": "Czy ten krzyżyk może być używany na wiele okazji?",
+          "answer": "Tak, nadaje się do różnych zastosowań, w tym do dekoracji domu, prezentów świątecznych, pamiątek i osobistej modlitwy."
+        }
+      ],
+      "pricing": {
+        "price": "0.65",
+        "regularPrice": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.65"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Pozłacany krzyż z Jezusem",
+          "description": "Pozłacany krzyżyk o wymiarach 5,8 na 12 cm, wykonany ze stopu metalu z galwanicznym wykończeniem. Ten dekoracyjny krzyż może służyć jako pomoc modlitewna, ozdoba lub przemyślany prezent na różne okazje.",
+          "sku": "ALI-AAH5TG7BAOVioqqEY6eBRycG",
+          "image": [
+            "https://sc04.alicdn.com/kf/H6204fe4a266944529a41b59077832c49W.jpg",
+            "https://sc04.alicdn.com/kf/H7081a2ed9c6d432281abd70db1ba1d6b8.jpg",
+            "https://sc04.alicdn.com/kf/H3f2405277408405b9812239d7ee5cafb1.jpg",
+            "https://sc04.alicdn.com/kf/H63ac6777acfe49839acdf230b9c82c76k.jpg",
+            "https://sc04.alicdn.com/kf/H08d1b54a97d6497bafd7ebca69c4a9acu.jpg"
+          ],
+          "category": "Ozdoby",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Stop metalu"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Powłoka",
+              "value": "Złocona"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Wymiary",
+              "value": "5,8 x 12 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Typ produktu",
+              "value": "Model / ozdoba"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jakie są wymiary tego krzyżyka?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Krzyżyk mierzy 5,8 na 12 cm, co czyni go kompaktowym rozmiarem odpowiednim do ekspozycji lub trzymania."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Z jakiego materiału wykonany jest ten krzyżyk?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Jest wykonany ze stopu metalu z pozłacanym wykończeniem."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy ten krzyżyk może być używany na wiele okazji?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, nadaje się do różnych zastosowań, w tym do dekoracji domu, prezentów świątecznych, pamiątek i osobistej modlitwy."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "contentHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:15.408Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "contentHash": "0d6396f4ba7e3bf6f6114eab145ba71df641c0fa4e6561970a57f498b78d414a",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:17:06.291Z",
             "model": "deepseek-v4-flash"
           }
         }

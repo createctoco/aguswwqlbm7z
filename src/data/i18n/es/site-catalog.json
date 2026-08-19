@@ -2,64 +2,64 @@
   "schemaVersion": 3,
   "locale": "es",
   "sourceLocale": "en",
-  "sourceCatalogHash": "98fdd7a8ed86cd0b4d87d27ed3b8010eb959b35e9ab070f92027dcdc47ed01d3",
-  "generatedAt": "2026-08-18T03:03:41.569Z",
+  "sourceCatalogHash": "a9f91cdcc25a9326e85e0e9275ac28656f88bcc37137b7827ae46afbb72e6c89",
+  "generatedAt": "2026-08-19T03:06:44.029Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAHRTG7BAOVioqqEY6e7sF2F",
-      "AAE_TG7BAOVioqqEY6eBTjU3",
-      "AAGOTG7BAOVioqqEY6eBtUmL",
-      "AAEcTG7BAOVioqqEY6eYM2Jr",
-      "AAHMTG7BAOVioqqEY6eBS0mz",
-      "AAGbTG7BAOVioqqEY6eBRcEQ",
-      "AAG-TG7BAOVioqqEY6eBT4Pn",
-      "AAHdTG7BAOVioqqEY6eCHasP",
-      "AAHWTG7BAOVioqqEY6eBRiXm",
-      "AAHaTG7BAOVioqqEY6e7LbS6"
+      "AAE3TG7BAOVioqqEY6eo-9E_",
+      "AAHCTG7BAOVioqqEY6eo-oaW",
+      "AAHxTG7BAOVioqqEY6e0cceB",
+      "AAFjTG7BAOVioqqEY6e0bn1A",
+      "AAHJTG7BAOVioqqEY6e0b9PP",
+      "AAHsTG7BAOVioqqEY6e0w0ar",
+      "AAEwTG7BAOVioqqEY6e6dfkE",
+      "AAE1TG7BAOVioqqEY6e5gBlf",
+      "AAE_TG7BAOVioqqEY6eBRoJy",
+      "AAH5TG7BAOVioqqEY6eBRycG"
     ],
     "deletedProductIds": []
   },
   "categoryGlossary": {
+    "jewelry-accessories": "Accesorios",
     "rings": "Anillos",
     "ornaments": "Adornos",
-    "rosary-bracelets": "Pulseras de Rosario",
-    "catholic-rosaries": "Rosarios Católicos",
+    "rosary-bracelets": "Pulseras de rosario",
+    "catholic-rosaries": "Rosarios católicos",
     "keychains": "Llaveros",
-    "jewelry-accessories": "Accesorios de Joyería",
-    "jewelry-packaging": "Empaques de Joyería",
-    "fashion-necklace": "Collares de Moda",
-    "catholic-scapulars": "Escapularios Católicos",
-    "brooch": "Broches"
+    "jewelry-packaging": "Empaques de joyería",
+    "fashion-necklace": "Collares de moda",
+    "catholic-scapulars": "Escapularios católicos",
+    "brooch": "Broches",
+    "uncategorized": "Sin categorizar"
   },
-  "categoryGlossarySourceHash": "69c58b580fac55644532e4210a9b02c21cf7feb641cc8250cf5b4673088ed847",
+  "categoryGlossarySourceHash": "c67d3b14a4f50e4bc50d4a053f4270e7ad9a33ac2bc8ee38af7aba41640e02a1",
   "translationSummary": {
-    "ready": 279,
-    "skipped": 1,
+    "ready": 287,
+    "skipped": 3,
     "skippedProductIds": [
-      "AAGxTG7BAOVioqqEY6e7uzWC"
+      "AAGxTG7BAOVioqqEY6e7uzWC",
+      "AAHJTG7BAOVioqqEY6e0b9PP",
+      "AAEwTG7BAOVioqqEY6e6dfkE"
     ],
-    "reused": 266,
-    "generated": 13,
+    "reused": 277,
+    "generated": 10,
     "generatedProductIds": [
-      "AAEzTG7BAOVioqqEY6e1C4Bv",
-      "AAHkTG7BAOVioqqEY6eDnVDw",
-      "AAF7TG7BAOVioqqEY6eBTD5s",
-      "AAHRTG7BAOVioqqEY6e7sF2F",
       "AAE_TG7BAOVioqqEY6eBTjU3",
-      "AAGOTG7BAOVioqqEY6eBtUmL",
       "AAEcTG7BAOVioqqEY6eYM2Jr",
-      "AAHMTG7BAOVioqqEY6eBS0mz",
-      "AAGbTG7BAOVioqqEY6eBRcEQ",
-      "AAG-TG7BAOVioqqEY6eBT4Pn",
-      "AAHdTG7BAOVioqqEY6eCHasP",
-      "AAHWTG7BAOVioqqEY6eBRiXm",
-      "AAHaTG7BAOVioqqEY6e7LbS6"
+      "AAE3TG7BAOVioqqEY6eo-9E_",
+      "AAHCTG7BAOVioqqEY6eo-oaW",
+      "AAHxTG7BAOVioqqEY6e0cceB",
+      "AAFjTG7BAOVioqqEY6e0bn1A",
+      "AAHsTG7BAOVioqqEY6e0w0ar",
+      "AAE1TG7BAOVioqqEY6e5gBlf",
+      "AAE_TG7BAOVioqqEY6eBRoJy",
+      "AAH5TG7BAOVioqqEY6eBRycG"
     ],
     "retriedBacklog": 1,
-    "glossaryReused": true
+    "glossaryReused": false
   },
   "translationBacklog": [
     {
@@ -545,6 +545,401 @@
             "contentHash": "ea7adc1644caf3e7501ab5e89ec80a6f207c7926d1888414221ce0d9af85aa32",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:55:06.338Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHJTG7BAOVioqqEY6e0b9PP",
+      "sourceId": "AAHJTG7BAOVioqqEY6e0b9PP",
+      "sourceFingerprint": "6a49dd30c63a8242cf55dbe3606a7c06b1d5b42242e988a8f77f3a5add53f87c",
+      "locale": "en",
+      "slug": "knitted-coin-pouch-backpack-charm-e0b9pp",
+      "title": "Knitted Coin Pouch Backpack Charm",
+      "eyebrow": "knitted coin pouch backpack charm",
+      "summary": "A square knitted coin pouch that doubles as a cartoon backpack charm. Available in 11 color variants. Compact storage for coins or small items, with a creative pendant style. Suitable for party favors or gift bags.",
+      "description": "This knitted coin pouch brings a playful, handcrafted look to everyday carry. Its square shape and cartoon-inspired style make it stand out as a backpack charm, while the pouch interior offers a simple spot for coins or tiny essentials. Offered in 11 color variants, it suits retail displays, party favors, or event giveaways. The knitted construction gives it a soft texture, and the attached loop allows it to hang from bags, keyrings, or zippers. For wholesale buyers, the variety of colors supports mix-and-match ordering. This product does not include a chain or clip; the hanging method depends on the loop design.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "160",
+          "name": "未分类",
+          "slug": "uncategorized"
+        }
+      ],
+      "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
+      "imageAlt": "Knitted Coin Pouch Backpack Charm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc83b4d77db3241b5a04ace4fe0f12ae8k.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd6673f9211b4dc7b288672d5dfaefb6P.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H19ac6e14de64435d8a39503de3addd693.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfb561fcf008e4629a75b4ae35550689bX.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H44c7c47d5b0048c58b56947b79870c269.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He246024cb5104523a85accbb04ca0307N.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-11",
+          "label": "color-11",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6c9a668329ea49e892f92de2e6c6ed0da.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-10",
+          "label": "color-10",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd27f11b7a5446b2aca4832e252e9a83U.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-9",
+          "label": "color-9",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0856c8c365004274b9bdaed95f3325ecw.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-8",
+          "label": "color-8",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3af22ce9854e43e3bf52345c2e0d4897X.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-7",
+          "label": "color-7",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd314beb742bf47069b2cc928556a5a41d.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-6",
+          "label": "color-6",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha5eee002736b4335bf46af9083ccb2a1V.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-5",
+          "label": "color-5",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfadfc67210cf41ceac95de8c915e26cc5.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-4",
+          "label": "color-4",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H56e5611199c948318e7da714b5a2cb020.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-3",
+          "label": "color-3",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd4492b36e1ae4984b3afc64c03408effS.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-2",
+          "label": "color-2",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc2ab6231904b4b16aa2b1a1676e63833j.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-1",
+          "label": "color-1",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--1"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Knitted construction with a square shape",
+        "Cartoon-inspired creative pendant style",
+        "Available in 11 distinct color variants",
+        "Pouch opening for storing coins or small items",
+        "Loop for attaching to backpacks, bags, or keyrings",
+        "Wholesale packaging for party favors or retail"
+      ],
+      "specifications": [
+        {
+          "name": "Color variants",
+          "value": "11 options (Color 1 through Color 11)"
+        },
+        {
+          "name": "Style",
+          "value": "Square, cartoon-inspired pendant"
+        },
+        {
+          "name": "Primary material",
+          "value": "Knitted textile"
+        }
+      ],
+      "applications": [
+        "Attach to backpack as a decorative charm",
+        "Store coins or small items in the pouch",
+        "Use as party favor or gift bag filler",
+        "Display in retail or market stalls as a novelty item"
+      ],
+      "faq": [
+        {
+          "question": "What are the available color options?",
+          "answer": "This knitted coin pouch is available in 11 color variants, listed as Color 1 through Color 11. Specific shade names are not provided, so contact us for exact color details."
+        },
+        {
+          "question": "How does the pouch attach to a backpack?",
+          "answer": "The pouch includes a loop that can be threaded through a bag handle, zipper pull, or keyring. It does not come with a separate clip or chain, so you may need to add your own depending on the attachment point."
+        },
+        {
+          "question": "Is this item sold individually or in sets?",
+          "answer": "The listing indicates wholesale availability, but the exact unit quantity per order isn't specified. Contact us for packaging and MOQ details."
+        }
+      ],
+      "pricing": {
+        "price": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.43",
+          "max": "0.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Knitted Coin Pouch Backpack Charm",
+          "description": "Wholesale knitted coin pouch backpack charm in 11 colors. Square creative pendant, party gift. Compact coin storage for bags, keys, or backpacks.",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
+          "image": [
+            "https://sc04.alicdn.com/kf/H92a7c5fb923345d091a1c6a0d147b3fcS.png",
+            "https://sc04.alicdn.com/kf/Hc83b4d77db3241b5a04ace4fe0f12ae8k.png",
+            "https://sc04.alicdn.com/kf/Hcd6673f9211b4dc7b288672d5dfaefb6P.png",
+            "https://sc04.alicdn.com/kf/H19ac6e14de64435d8a39503de3addd693.png",
+            "https://sc04.alicdn.com/kf/Hfb561fcf008e4629a75b4ae35550689bX.png",
+            "https://sc04.alicdn.com/kf/H44c7c47d5b0048c58b56947b79870c269.png"
+          ],
+          "category": "未分类",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "11 options (Color 1 through Color 11)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Square, cartoon-inspired pendant"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Primary material",
+              "value": "Knitted textile"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.43",
+              "maxPrice": "0.45",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the available color options?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This knitted coin pouch is available in 11 color variants, listed as Color 1 through Color 11. Specific shade names are not provided, so contact us for exact color details."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does the pouch attach to a backpack?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pouch includes a loop that can be threaded through a bag handle, zipper pull, or keyring. It does not come with a separate clip or chain, so you may need to add your own depending on the attachment point."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this item sold individually or in sets?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The listing indicates wholesale availability, but the exact unit quantity per order isn't specified. Contact us for packaging and MOQ details."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "contentHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:39.882Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEwTG7BAOVioqqEY6e6dfkE",
+      "sourceId": "AAEwTG7BAOVioqqEY6e6dfkE",
+      "sourceFingerprint": "43c74a33721fcd6e9808bc7edfec530b6f92f0393b7c526aa8d8aa2cb69a856b",
+      "locale": "en",
+      "slug": "cross-border-middle-eastern-copper-micro-inlaid-diamond-bamboo-e6dfke",
+      "title": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo",
+      "eyebrow": "Accessories",
+      "summary": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo Sporty Premium Fashionable Popular Hollowed-Out All-Match",
+      "description": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo Sporty Premium Fashionable Popular Hollowed-Out All-Match",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
+      "imageAlt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H66b1f2886bb14245b185aff88ef37e36B.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf645ae0acb5540faaed47cb274db792fg.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbb45184635494625a08c06fc9c9756abU.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hec9f09231885445cad2c18380ad97e9cr.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1d01ac755a6e40e08139f95891c0c504K.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbcdea57f4dd1452db16503cf47564b34Y.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo - oval-colored-zirconium55-titanium-steel-necklace-opp-packaging",
+          "label": "oval-colored-zirconium55-titanium-steel-necklace-opp-packaging",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha2cd3328f40e4e75a0a6b50fb08c8379D.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo - oval-white-zirconium-55-titanium-steel-necklace-opp-packaging",
+          "label": "oval-white-zirconium-55-titanium-steel-necklace-opp-packaging",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--1"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Variant: Oval colored zirconium+55 titanium steel necklace-opp packaging, Oval white zirconium + 55 titanium steel necklace-opp packaging"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Oval colored zirconium+55 titanium steel necklace-opp packaging, Oval white zirconium + 55 titanium steel necklace-opp packaging"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.71",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.24",
+          "max": "1.71"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo",
+          "description": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo Sporty Premium Fashionable Popular Hollowed-Out All-Match",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
+          "image": [
+            "https://sc04.alicdn.com/kf/H320df553fb0a4aac8624dc8865272ec8e.png",
+            "https://sc04.alicdn.com/kf/H66b1f2886bb14245b185aff88ef37e36B.png",
+            "https://sc04.alicdn.com/kf/Hf645ae0acb5540faaed47cb274db792fg.png",
+            "https://sc04.alicdn.com/kf/Hbb45184635494625a08c06fc9c9756abU.png",
+            "https://sc04.alicdn.com/kf/Hec9f09231885445cad2c18380ad97e9cr.png",
+            "https://sc04.alicdn.com/kf/H1d01ac755a6e40e08139f95891c0c504K.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Oval colored zirconium+55 titanium steel necklace-opp packaging, Oval white zirconium + 55 titanium steel necklace-opp packaging"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.71",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.24",
+              "maxPrice": "1.71",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "contentHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:16.430Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -60002,66 +60397,66 @@
       "sourceFingerprint": "1f8426326390c5ffb4befb287be8502b42de3e116d8e986e6704372e5e3dfcf9",
       "locale": "es",
       "slug": "18k-gold-plated-virgin-mary-pendant-rosary-bracelet-ebtju3",
-      "title": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K",
-      "eyebrow": "Pulsera de rosario con dije mariano",
-      "summary": "Esta pulsera de rosario presenta un dije de la Virgen María bañado en oro 18K engastado con piedras de circonita cúbica (CZ), combinado con cuentas de cuerda rojas. La correa de mano es ajustable para un ajuste cómodo. Adecuada para devoción personal o como regalo pensado.",
-      "description": "Elaborada con un dije de metal bañado en oro 18K, esta pulsera muestra una figura detallada de la Virgen María acentuada con piedras de circonita cúbica (CZ). Las cuentas de cuerda rojas proporcionan un aspecto clásico de rosario, y la correa de mano ajustable asegura un ajuste seguro para varios tamaños de muñeca. Elija entre dos variantes de color rojo para adaptarse a su preferencia.\n\nComo artículo devocional mariano, puede usarse para oración o como recordatorio de fe. La construcción duradera la hace adecuada para el uso diario.",
-      "catholicContext": "El dije representa a la Virgen María, figura central en la devoción católica y el Rosario.",
+      "title": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K",
+      "eyebrow": "Pulsera de rosario con colgante mariano",
+      "summary": "Esta pulsera de rosario presenta un colgante de la Virgen María bañado en oro 18K con piedras de circonio cúbico (CZ), combinado con cuentas de cuerda rojas. La correa de mano es ajustable para un ajuste cómodo. Adecuada para devoción personal o como regalo significativo.",
+      "description": "Elaborada con un colgante de metal bañado en oro 18K, esta pulsera muestra una figura detallada de la Virgen María acentuada con piedras de circonio cúbico (CZ). Las cuentas de cuerda rojas proporcionan un aspecto clásico de rosario, y la correa de mano ajustable asegura un ajuste seguro para varios tamaños de muñeca. Elija entre dos variantes de color rojo para adaptarse a su preferencia.\n\nComo artículo devocional mariano, puede usarse para la oración o como recordatorio de fe. La construcción duradera la hace adecuada para el uso diario.",
+      "catholicContext": "El colgante representa a la Virgen María, una figura central en la devoción católica y el Rosario.",
       "catholicRelevance": "explicit",
       "categories": [
         {
           "id": "20",
-          "name": "Pulseras de Rosario",
+          "name": "Pulseras de rosario",
           "slug": "rosary-bracelets"
         }
       ],
       "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
-      "imageAlt": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K",
+      "imageAlt": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
-          "alt": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K"
+          "alt": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H3e29e26989ff43c7967ecbf4dd29389f2.webp",
-          "alt": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K"
+          "alt": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H198b853667da4f65a06618384ab016c8k.webp",
-          "alt": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K"
+          "alt": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H9b3170d7184448c4af54fddc99bb5469W.webp",
-          "alt": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K"
+          "alt": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H183744a16ef144578d42d63bac98854aU.webp",
-          "alt": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K"
+          "alt": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H820864580a7a478c955bcde6be496de2W.webp",
-          "alt": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K"
+          "alt": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K"
         }
       ],
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha615dcc292184c358f9bf6d62632192fM.webp",
-          "alt": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K - rojo1",
+          "alt": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K - rojo1",
           "label": "rojo1",
           "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--4"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc946704894a404d814a15e0080c3761i.webp",
-          "alt": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K - rojo2",
+          "alt": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K - rojo2",
           "label": "rojo2",
           "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--5"
         }
       ],
       "accent": "#6f7c72",
       "features": [
-        "Dije de la Virgen María bañado en oro 18K",
-        "Acentos de circonita cúbica (CZ)",
+        "Colgante de la Virgen María bañado en oro 18K",
+        "Acentos de piedras de circonio cúbico (CZ)",
         "Cuentas de cuerda rojas",
         "Correa de mano ajustable",
         "Dos variantes rojas disponibles"
@@ -60069,11 +60464,11 @@
       "specifications": [
         {
           "name": "Material",
-          "value": "Metal bañado en oro 18K, circonita cúbica, cuerda"
+          "value": "Metal bañado en oro 18K, circonio cúbico, cuerda"
         },
         {
           "name": "Diseño",
-          "value": "Dije de la Virgen María con cuentas de cuerda rojas"
+          "value": "Colgante de la Virgen María con cuentas de cuerda rojas"
         },
         {
           "name": "Cierre",
@@ -60088,12 +60483,12 @@
         "Oración y devoción personal",
         "Regalo religioso para fiestas marianas",
         "Accesorio diario con significado religioso",
-        "Regalo para Confirmación o Primera Comunión"
+        "Regalo de Confirmación o Primera Comunión"
       ],
       "faq": [
         {
           "question": "¿De qué materiales está hecha esta pulsera?",
-          "answer": "La pulsera presenta un dije de metal bañado en oro 18K con piedras de circonita cúbica (CZ) y cuentas de cuerda rojas. La correa es ajustable."
+          "answer": "La pulsera presenta un colgante de metal bañado en oro 18K con piedras de circonio cúbico y cuentas de cuerda rojas. La correa es ajustable."
         },
         {
           "question": "¿Es ajustable la pulsera?",
@@ -60101,7 +60496,7 @@
         },
         {
           "question": "¿Hay opciones de color?",
-          "answer": "Sí, esta pulsera está disponible en dos variantes de rojo: Rojo1 y Rojo2."
+          "answer": "Sí, esta pulsera está disponible en dos variantes rojas: Rojo1 y Rojo2."
         }
       ],
       "pricing": {
@@ -60117,8 +60512,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Pulsera de Rosario con Dije de la Virgen María Bañada en Oro 18K",
-          "description": "Esta pulsera de rosario presenta un dije de la Virgen María bañado en oro 18K engastado con piedras de circonita cúbica (CZ), combinado con cuentas de cuerda rojas. La correa de mano es ajustable para un ajuste cómodo. Adecuada para devoción personal o como regalo pensado.",
+          "name": "Pulsera de Rosario con Colgante de la Virgen María Bañada en Oro 18K",
+          "description": "Esta pulsera de rosario presenta un colgante de la Virgen María bañado en oro 18K con piedras de circonio cúbico (CZ), combinado con cuentas de cuerda rojas. La correa de mano es ajustable para un ajuste cómodo. Adecuada para devoción personal o como regalo significativo.",
           "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
           "image": [
             "https://sc04.alicdn.com/kf/H456a8129460349df94b61797ab0f1c4cS.jpg",
@@ -60128,17 +60523,17 @@
             "https://sc04.alicdn.com/kf/H183744a16ef144578d42d63bac98854aU.jpg",
             "https://sc04.alicdn.com/kf/H820864580a7a478c955bcde6be496de2W.jpg"
           ],
-          "category": "Pulseras de Rosario",
+          "category": "Pulseras de rosario",
           "additionalProperty": [
             {
               "@type": "PropertyValue",
               "name": "Material",
-              "value": "Metal bañado en oro 18K, circonita cúbica, cuerda"
+              "value": "Metal bañado en oro 18K, circonio cúbico, cuerda"
             },
             {
               "@type": "PropertyValue",
               "name": "Diseño",
-              "value": "Dije de la Virgen María con cuentas de cuerda rojas"
+              "value": "Colgante de la Virgen María con cuentas de cuerda rojas"
             },
             {
               "@type": "PropertyValue",
@@ -60173,7 +60568,7 @@
               "name": "¿De qué materiales está hecha esta pulsera?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "La pulsera presenta un dije de metal bañado en oro 18K con piedras de circonita cúbica (CZ) y cuentas de cuerda rojas. La correa es ajustable."
+                "text": "La pulsera presenta un colgante de metal bañado en oro 18K con piedras de circonio cúbico y cuentas de cuerda rojas. La correa es ajustable."
               }
             },
             {
@@ -60189,7 +60584,7 @@
               "name": "¿Hay opciones de color?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Sí, esta pulsera está disponible en dos variantes de rojo: Rojo1 y Rojo2."
+                "text": "Sí, esta pulsera está disponible en dos variantes rojas: Rojo1 y Rojo2."
               }
             }
           ]
@@ -60197,22 +60592,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+        "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
-            "contentHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
+            "contentHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
             "attempts": 0,
             "updatedAt": "2026-08-18T02:59:33.900Z",
             "model": "deepseek-v4-flash"
           },
           "es": {
             "status": "ready",
-            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
-            "contentHash": "40d80461a27da047acd4fb0f8c5fe6d005596f0693f2e3f923dfbbae640ac3ed",
+            "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
+            "contentHash": "cfff2dae4a3faa796f00abd2ee79127e1f600a9b765401a344c92043124c14be",
             "attempts": 1,
-            "updatedAt": "2026-08-18T03:02:48.958Z",
+            "updatedAt": "2026-08-19T03:04:43.258Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -60479,11 +60874,11 @@
       "sourceFingerprint": "61e16346ee9266ee5df203bfd6226fb8e2fb829f9c3108d558f7db8195d40846",
       "locale": "es",
       "slug": "250ml-plastic-holy-water-bottle-with-cross-pattern-eym2jr",
-      "title": "Botella de Agua Bendita de Plástico de 250ml con Patrón de Cruz",
+      "title": "Botella de Agua Bendita de Plástico 250ml con Patrón de Cruz",
       "eyebrow": "Botella de Agua Bendita de Plástico con Patrón de Cruz",
-      "summary": "Una botella de agua bendita de HDPE de 250ml con un patrón de cruz blanco y una tapa protectora de PP. Con 30,7g y 16,5cm de altura, es una opción ligera para ceremonias, regalos y uso personal.",
-      "description": "Esta botella de agua bendita de 250ml está moldeada en polietileno de alta densidad (HDPE) para ofrecer durabilidad frente a impactos, mientras que la tapa de polipropileno (PP) ofrece un sellado fiable. Su cuerpo blanco lleva un diseño de cruz en relieve, lo que la convierte en un símbolo devocional claro. La altura de 16,5cm y el peso de 30,7g hacen que sea fácil de transportar o almacenar, ya sea para la oración personal o para eventos relacionados con la iglesia.",
-      "catholicContext": "En la práctica católica, el agua bendita se utiliza para bendiciones y gestos devocionales, y la cruz es un símbolo central de la fe; esta botella está diseñada para tal uso.",
+      "summary": "Una botella de agua bendita de HDPE de 250ml con un patrón de cruz blanco y una tapa protectora de PP. Con 30,7 g y 16,5 cm de alto, es una opción ligera para ceremonias, regalos y uso personal.",
+      "description": "Esta botella de agua bendita de 250 ml está moldeada en polietileno de alta densidad (HDPE) para una durabilidad contra impactos, mientras que la tapa de polipropileno (PP) ofrece un sellado confiable. Su cuerpo blanco lleva un diseño de cruz en relieve, lo que la convierte en un claro símbolo devocional. La altura de 16,5 cm y el peso de 30,7 g la hacen fácil de llevar o almacenar, ya sea para oración personal o eventos relacionados con la iglesia.",
+      "catholicContext": "En la práctica católica, el agua bendita se utiliza para bendiciones y gestos devocionales, y la cruz es un símbolo central de la fe; esta botella está diseñada para ese uso.",
       "catholicRelevance": "devotional_context",
       "categories": [
         {
@@ -60494,41 +60889,41 @@
       ],
       "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
-      "imageAlt": "Botella de Agua Bendita de Plástico de 250ml con Patrón de Cruz",
+      "imageAlt": "Botella de Agua Bendita de Plástico 250ml con Patrón de Cruz",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
-          "alt": "Botella de Agua Bendita de Plástico de 250ml con Patrón de Cruz"
+          "alt": "Botella de Agua Bendita de Plástico 250ml con Patrón de Cruz"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1880c36feab49ee8e28277936e31bfck.webp",
-          "alt": "Botella de Agua Bendita de Plástico de 250ml con Patrón de Cruz"
+          "alt": "Botella de Agua Bendita de Plástico 250ml con Patrón de Cruz"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Haece68d37fc146569cc2fa18df81b2731.webp",
-          "alt": "Botella de Agua Bendita de Plástico de 250ml con Patrón de Cruz"
+          "alt": "Botella de Agua Bendita de Plástico 250ml con Patrón de Cruz"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd7e209e67eb24fddb3d1db370fd159e8q.webp",
-          "alt": "Botella de Agua Bendita de Plástico de 250ml con Patrón de Cruz"
+          "alt": "Botella de Agua Bendita de Plástico 250ml con Patrón de Cruz"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc79f02828fb46fdab2002a45f2ffe5aa.webp",
-          "alt": "Botella de Agua Bendita de Plástico de 250ml con Patrón de Cruz"
+          "alt": "Botella de Agua Bendita de Plástico 250ml con Patrón de Cruz"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H50e34a9b22ad4fb8b7294056b92d11f5b.webp",
-          "alt": "Botella de Agua Bendita de Plástico de 250ml con Patrón de Cruz"
+          "alt": "Botella de Agua Bendita de Plástico 250ml con Patrón de Cruz"
         }
       ],
       "variantImages": [],
       "accent": "#7a6d92",
       "features": [
-        "Capacidad de 250ml que contiene una cantidad práctica de agua bendita",
+        "Capacidad de 250 ml que contiene una cantidad práctica de agua bendita",
         "Fabricada en plástico HDPE para una alta resistencia protectora",
         "Color blanco con patrón de cruz en relieve",
         "Tapa abatible de PP para apertura fácil y cierre seguro",
-        "Tamaño compacto: 16,5 x 5 x 5 cm, con un peso de solo 30,7g"
+        "Tamaño compacto: 16,5 x 5 x 5 cm, con solo 30,7 g de peso"
       ],
       "specifications": [
         {
@@ -60561,7 +60956,7 @@
         }
       ],
       "applications": [
-        "Contener agua bendita para la oración en casa",
+        "Contener agua bendita para oración en el hogar",
         "Ceremonias religiosas y bendiciones bautismales",
         "Regalos devocionales para Pascua u otras festividades",
         "Uso educativo en clases de formación de fe"
@@ -60573,7 +60968,7 @@
         },
         {
           "question": "¿Cuáles son las dimensiones y la capacidad?",
-          "answer": "La botella mide 16,5 x 5 x 5 cm y tiene una capacidad de 250ml de líquido. Pesa solo 30,7g, por lo que es ligera y portátil."
+          "answer": "La botella mide 16,5 x 5 x 5 cm y contiene 250 ml de líquido. Pesa solo 30,7 g, por lo que es ligera y portátil."
         },
         {
           "question": "¿Viene con tapa?",
@@ -60594,8 +60989,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Botella de Agua Bendita de Plástico de 250ml con Patrón de Cruz",
-          "description": "Una botella de agua bendita de HDPE de 250ml con un patrón de cruz blanco y una tapa protectora de PP. Con 30,7g y 16,5cm de altura, es una opción ligera para ceremonias, regalos y uso personal.",
+          "name": "Botella de Agua Bendita de Plástico 250ml con Patrón de Cruz",
+          "description": "Una botella de agua bendita de HDPE de 250ml con un patrón de cruz blanco y una tapa protectora de PP. Con 30,7 g y 16,5 cm de alto, es una opción ligera para ceremonias, regalos y uso personal.",
           "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
           "image": [
             "https://sc04.alicdn.com/kf/H54de41f1e8b94a1da6846ff578113e9fw.jpg",
@@ -60673,7 +61068,7 @@
               "name": "¿Cuáles son las dimensiones y la capacidad?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "La botella mide 16,5 x 5 x 5 cm y tiene una capacidad de 250ml de líquido. Pesa solo 30,7g, por lo que es ligera y portátil."
+                "text": "La botella mide 16,5 x 5 x 5 cm y contiene 250 ml de líquido. Pesa solo 30,7 g, por lo que es ligera y portátil."
               }
             },
             {
@@ -60689,22 +61084,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+        "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
-            "contentHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
+            "contentHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
             "attempts": 0,
             "updatedAt": "2026-08-18T02:59:35.706Z",
             "model": "deepseek-v4-flash"
           },
           "es": {
             "status": "ready",
-            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
-            "contentHash": "3e7d1a230b675e52befd3d56df98fdc08208634204bfec1d13d9db4a1dc0fd34",
+            "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
+            "contentHash": "2ddab735e389e83f785e66706024b8c3045a8a6739f281dbd58f42a1a1054226",
             "attempts": 1,
-            "updatedAt": "2026-08-18T03:03:05.449Z",
+            "updatedAt": "2026-08-19T03:04:54.289Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -61983,6 +62378,1970 @@
             "contentHash": "afa60016260bb249b2a3f7c7fe598d57c02129034226ee4eaec30fdaa6fa57ec",
             "attempts": 1,
             "updatedAt": "2026-08-18T03:03:41.568Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE3TG7BAOVioqqEY6eo-9E_",
+      "sourceId": "AAE3TG7BAOVioqqEY6eo-9E_",
+      "sourceFingerprint": "4da268df76b9c5f23644219edf0c0a4584ff1dcf9bf72fa193337dcadfc7ab04",
+      "locale": "es",
+      "slug": "vintage-red-zircon-cross-pendant-earrings-eo-9e_",
+      "title": "Pendientes de Cruz Antiguos con Zircón Rojo",
+      "eyebrow": "pendientes de cruz antiguos con zircón rojo",
+      "summary": "Pendientes colgantes de estilo antiguo con una cruz de zircón rojo y detalles de llamas góticas. Fabricados en aleación de zinc bañada en cobre, estos pendientes de temática religiosa son adecuados para compradores mayoristas que buscan accesorios llamativos con motivo devocional.",
+      "description": "Estos pendientes colgantes combinan una estética antigua con un motivo de cruz. La piedra principal es circonio en un rojo intenso, engastado en un marco de aleación de zinc bañado en cobre. El diseño de llamas góticas añade un toque dramático manteniendo el carácter religioso. Al ser de estilo colgante, cuelgan por debajo del lóbulo de la oreja, lo que los convierte en un accesorio llamativo para uso diario u ocasiones especiales. La base de aleación ofrece durabilidad, mientras que el baño de cobre proporciona un aspecto cálido y antiguo. Ideal para minoristas o distribuidores que añadan joyería inspirada en la fe a su catálogo.",
+      "catholicContext": "En la tradición cristiana, la cruz simboliza la redención mediante el sacrificio de Cristo y a menudo se lleva como expresión personal de fe.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Anillos",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAE3TG7BAOVioqqEY6eo-9E_",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Hf2eef34e9cdf418781dc4871d3f2c85c3.webp",
+      "imageAlt": "Pendientes de Cruz Antiguos con Zircón Rojo",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf2eef34e9cdf418781dc4871d3f2c85c3.webp",
+          "alt": "Pendientes de Cruz Antiguos con Zircón Rojo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6923198e05f44a43bcaa411b8b0a97bbR.webp",
+          "alt": "Pendientes de Cruz Antiguos con Zircón Rojo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H44b7fcf9f2a34d639dd164dc43545eeeO.webp",
+          "alt": "Pendientes de Cruz Antiguos con Zircón Rojo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He0bd8de630854bc7ad59d78296851dabf.webp",
+          "alt": "Pendientes de Cruz Antiguos con Zircón Rojo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3b77945e2fc94bad8b8cd9eb5d52bcb0a.webp",
+          "alt": "Pendientes de Cruz Antiguos con Zircón Rojo"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Construcción de aleación de zinc bañada en cobre para un aspecto antiguo",
+        "Piedra principal de circonio rojo",
+        "Estilo de pendiente colgante",
+        "Diseño de cruz religiosa con acentos de llamas góticas",
+        "Estética inspirada en lo antiguo"
+      ],
+      "specifications": [
+        {
+          "name": "Material principal",
+          "value": "Aleación (aleación de zinc)"
+        },
+        {
+          "name": "Baño",
+          "value": "Cobre"
+        },
+        {
+          "name": "Piedra principal",
+          "value": "Circonio"
+        },
+        {
+          "name": "Estilo",
+          "value": "Religioso"
+        },
+        {
+          "name": "Tipo de pendiente",
+          "value": "Colgante"
+        }
+      ],
+      "applications": [
+        "Colecciones de joyería de temática religiosa",
+        "Conjuntos de moda gótica o vintage",
+        "Artículos de regalo para ocasiones basadas en la fe",
+        "Exhibición minorista en tiendas de accesorios"
+      ],
+      "faq": [
+        {
+          "question": "¿De qué materiales están hechos estos pendientes?",
+          "answer": "Los pendientes están hechos de aleación de zinc con baño de cobre y presentan una piedra de circonio rojo."
+        },
+        {
+          "question": "¿Qué estilo representan estos pendientes?",
+          "answer": "Se clasifican como estilo religioso, con diseño de cruz y llamas góticas."
+        },
+        {
+          "question": "¿Son adecuados estos pendientes para pedidos al por mayor?",
+          "answer": "Sí, se listan como artículos al por mayor, pero los detalles específicos del pedido se pueden obtener contactándonos."
+        }
+      ],
+      "pricing": {
+        "price": "2.34",
+        "regularPrice": "2.34",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.69",
+          "max": "2.34"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Pendientes de Cruz Antiguos con Zircón Rojo",
+          "description": "Pendientes colgantes de estilo antiguo con una cruz de zircón rojo y detalles de llamas góticas. Fabricados en aleación de zinc bañada en cobre, estos pendientes de temática religiosa son adecuados para compradores mayoristas que buscan accesorios llamativos con motivo devocional.",
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eo-9E_",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf2eef34e9cdf418781dc4871d3f2c85c3.jpg",
+            "https://sc04.alicdn.com/kf/H6923198e05f44a43bcaa411b8b0a97bbR.jpg",
+            "https://sc04.alicdn.com/kf/H44b7fcf9f2a34d639dd164dc43545eeeO.jpg",
+            "https://sc04.alicdn.com/kf/He0bd8de630854bc7ad59d78296851dabf.jpg",
+            "https://sc04.alicdn.com/kf/H3b77945e2fc94bad8b8cd9eb5d52bcb0a.jpg"
+          ],
+          "category": "Anillos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material principal",
+              "value": "Aleación (aleación de zinc)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Baño",
+              "value": "Cobre"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Piedra principal",
+              "value": "Circonio"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Religioso"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de pendiente",
+              "value": "Colgante"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.34",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.69",
+              "maxPrice": "2.34",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿De qué materiales están hechos estos pendientes?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Los pendientes están hechos de aleación de zinc con baño de cobre y presentan una piedra de circonio rojo."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué estilo representan estos pendientes?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Se clasifican como estilo religioso, con diseño de cruz y llamas góticas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Son adecuados estos pendientes para pedidos al por mayor?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, se listan como artículos al por mayor, pero los detalles específicos del pedido se pueden obtener contactándonos."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "contentHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:50.815Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "contentHash": "911ddfed9010bffd1346dbe570c698a2f1617919aab49101c79815fd0ff9fcb5",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:05:00.473Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHCTG7BAOVioqqEY6eo-oaW",
+      "sourceId": "AAHCTG7BAOVioqqEY6eo-oaW",
+      "sourceFingerprint": "059e0f81d1068767a49a0034f0eee32659905dfe19bf3e64b2a449bd05b5a8d3",
+      "locale": "es",
+      "slug": "colorful-acrylic-cross-beads-for-diy-jewelry-eo-oaw",
+      "title": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY",
+      "eyebrow": "Cuentas de Cruz de Acrílico",
+      "summary": "Estas cuentas de cruz de acrílico están disponibles en siete colores: negro, verde, azul lago, rosa, púrpura, azul real y blanco. Están diseñadas para hacer pulseras y collares, ofreciendo una opción ligera para proyectos de joyería DIY.",
+      "description": "Al buscar cuentas para líneas de joyería de inspiración religiosa, las opciones de color y la consistencia del material son importantes. Estas cuentas de cruz de acrílico están disponibles en siete colores distintos, lo que le permite combinar una variedad de paletas de diseño.\n\nCada cuenta tiene forma de cruz y está hecha de acrílico, un plástico ligero que mantiene las piezas terminadas cómodas de llevar. La gama incluye negro, verde, azul lago, rosa, púrpura, azul real y blanco, para que pueda crear conjuntos coordinados o mezclar tonos para contrastar.\n\nComo son cuentas, se pueden ensartar con cordón, alambre o elástico para armar pulseras y collares. Verifique el tamaño del agujero y las dimensiones de las cuentas con nosotros si su diseño requiere un ajuste específico.",
+      "catholicContext": "Una cruz simple es un símbolo cristiano reconocido, aunque es distinta de un crucifijo que lleva el cuerpo de Cristo.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accesorios",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2122e629547f465da08a08eff736de51K.webp",
+      "imageAlt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2122e629547f465da08a08eff736de51K.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7c975c1affc44cda8829fa65207d641ee.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H68f966edc2754e39a272dea3f15e7633t.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfcac0af432c34862b5803b56f6f5b23fY.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd99f59bc400642eb83584adaa6133d79m.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hca7fdefa164c4be6bed05c26a0f0ede2l.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY - cruz negra",
+          "label": "cruz negra",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd7fe7665cb6a4cd4a9e95628da6a95a2U.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY - cruz púrpura",
+          "label": "cruz púrpura",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H71bf91ad66d740b29d877cb4472f676bC.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY - cruz blanca",
+          "label": "cruz blanca",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H678380395557479c9eadb0b46b9fb30b2.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY - cruz azul real",
+          "label": "cruz azul real",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H70da3455c2924dcf9b003d2d8ae68b5bZ.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY - cruz verde",
+          "label": "cruz verde",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hae0edea135d74db6a3f1a5e74e3a6f6fQ.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY - cruz azul lago",
+          "label": "cruz azul lago",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1458c8c1cbb74137b83e62dbf342b860d.webp",
+          "alt": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY - cruz rosa",
+          "label": "cruz rosa",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--1"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Disponible en 7 colores: negro, verde, azul lago, rosa, púrpura, azul real, blanco",
+        "Hecho de acrílico, un material ligero",
+        "Forma de cruz adecuada para joyería religiosa o decorativa",
+        "Diseñado para hacer pulseras y collares DIY",
+        "Cantidad al por mayor para proyectos de manualidades en volumen"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Acrílico"
+        },
+        {
+          "name": "Forma",
+          "value": "Cruz"
+        },
+        {
+          "name": "Colores disponibles",
+          "value": "Negro, Verde, Azul Lago, Rosa, Púrpura, Azul Real, Blanco"
+        }
+      ],
+      "applications": [
+        "Elaboración de pulseras",
+        "Elaboración de collares",
+        "Accesorios de joyería DIY",
+        "Proyectos de manualidades al por mayor"
+      ],
+      "faq": [
+        {
+          "question": "¿Qué colores están disponibles para estas cuentas de cruz de acrílico?",
+          "answer": "Las cuentas vienen en siete colores: negro, verde, azul lago, rosa, púrpura, azul real y blanco."
+        },
+        {
+          "question": "¿De qué material están hechas estas cuentas de cruz?",
+          "answer": "Están hechas de acrílico, un plástico ligero comúnmente utilizado en la fabricación de joyería."
+        },
+        {
+          "question": "¿Se pueden usar estas cuentas tanto para pulseras como para collares?",
+          "answer": "Sí, están diseñadas para hacer pulseras y collares DIY, aunque puede que necesite verificar el tamaño del agujero de la cuenta para asegurar la compatibilidad con su cordón o alambre."
+        }
+      ],
+      "pricing": {
+        "price": "0.04",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.02",
+          "max": "0.04"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Cuentas de Cruz de Acrílico Multicolor para Joyería DIY",
+          "description": "Estas cuentas de cruz de acrílico están disponibles en siete colores: negro, verde, azul lago, rosa, púrpura, azul real y blanco. Están diseñadas para hacer pulseras y collares, ofreciendo una opción ligera para proyectos de joyería DIY.",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2122e629547f465da08a08eff736de51K.jpg",
+            "https://sc04.alicdn.com/kf/H7c975c1affc44cda8829fa65207d641ee.jpg",
+            "https://sc04.alicdn.com/kf/H68f966edc2754e39a272dea3f15e7633t.jpg",
+            "https://sc04.alicdn.com/kf/Hfcac0af432c34862b5803b56f6f5b23fY.jpg",
+            "https://sc04.alicdn.com/kf/Hd99f59bc400642eb83584adaa6133d79m.jpg"
+          ],
+          "category": "Accesorios",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Acrílico"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Forma",
+              "value": "Cruz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Colores disponibles",
+              "value": "Negro, Verde, Azul Lago, Rosa, Púrpura, Azul Real, Blanco"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.04",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.02",
+              "maxPrice": "0.04",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Qué colores están disponibles para estas cuentas de cruz de acrílico?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Las cuentas vienen en siete colores: negro, verde, azul lago, rosa, púrpura, azul real y blanco."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿De qué material están hechas estas cuentas de cruz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Están hechas de acrílico, un plástico ligero comúnmente utilizado en la fabricación de joyería."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Se pueden usar estas cuentas tanto para pulseras como para collares?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, están diseñadas para hacer pulseras y collares DIY, aunque puede que necesite verificar el tamaño del agujero de la cuenta para asegurar la compatibilidad con su cordón o alambre."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "contentHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:41.031Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "contentHash": "3061f0070b56e898b427937cbc348d24af9d7edaa3cad0f9ab8fa9ef3c272c5f",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:05:07.701Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHxTG7BAOVioqqEY6e0cceB",
+      "sourceId": "AAHxTG7BAOVioqqEY6e0cceB",
+      "sourceFingerprint": "083475860d3b7bd1dc0b4e8d122a50c0b5b850544fffd1c2d1d55b09b9eb6297",
+      "locale": "es",
+      "slug": "metal-st-benedict-commemorative-badge-e0cceb",
+      "title": "Insignia Conmemorativa de San Benito de Metal",
+      "eyebrow": "Insignia conmemorativa de San Benito",
+      "summary": "Una insignia de metal de estilo vintage que representa a San Benito, adecuada como adorno para automóvil o decoración de escritorio. Disponible en variantes grande y pequeña, esta pieza conmemorativa añade un toque tradicional a cualquier espacio.",
+      "description": "Elaborada en metal con acabado vintage, esta insignia conmemorativa de San Benito sirve como un distintivo acento para interiores de automóvil o exhibiciones de escritorio. Su diseño refleja una estética clásica, lo que la convierte en un artículo decorativo versátil para aquellos que aprecian las imágenes religiosas tradicionales. Disponible en dos tamaños, puede elegir la variante que mejor se adapte a la ubicación prevista. La construcción de metal duradero garantiza su longevidad, mientras que su naturaleza conmemorativa la convierte en una adición significativa a una colección personal o como un regalo reflexivo para aquellos que honran a San Benito.",
+      "catholicContext": "La medalla de San Benito es un objeto devocional tradicional en el catolicismo, a menudo asociado con la protección contra el mal, aunque las características específicas de esta insignia no están detalladas.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Adornos",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Ha0a13cba25904345a3b471eda1b5bb4ff.webp",
+      "imageAlt": "Insignia conmemorativa de San Benito de metal",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha0a13cba25904345a3b471eda1b5bb4ff.webp",
+          "alt": "Insignia conmemorativa de San Benito de metal"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hef84e10971c142f590b6362c1d330eafI.webp",
+          "alt": "Insignia conmemorativa de San Benito de metal"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1fd05e8e0c9d4cf7b31646b8af3c6090R.webp",
+          "alt": "Insignia conmemorativa de San Benito de metal"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf2fa18001ac44afd8981e1b2f866a384G.webp",
+          "alt": "Insignia conmemorativa de San Benito de metal"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf942ecb2560f486a9d456fc2a225ca14e.webp",
+          "alt": "Insignia conmemorativa de San Benito de metal"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hdee017ad60e54b07a821b2e7ee0bd823x.webp",
+          "alt": "Insignia conmemorativa de San Benito de metal"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc4fb426118da4d01bd6495e2c268569ba.webp",
+          "alt": "Insignia conmemorativa de San Benito de metal - pequeña",
+          "label": "pequeña",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha09b0d5f3f77470bb9446efee9b0be177.webp",
+          "alt": "Insignia conmemorativa de San Benito de metal - tamaño grande",
+          "label": "tamaño grande",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB-V--1"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Construcción de metal de estilo vintage",
+        "Diseño conmemorativo de San Benito",
+        "Disponible en tamaños grande y pequeño",
+        "Adecuado para uso en automóvil o escritorio"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Metal"
+        },
+        {
+          "name": "Estilo",
+          "value": "Vintage"
+        },
+        {
+          "name": "Variantes",
+          "value": "Tamaño grande, pequeño"
+        }
+      ],
+      "applications": [
+        "Adorno para automóvil",
+        "Decoración de escritorio",
+        "Exhibición en un altar doméstico o rincón de oración",
+        "Artículo de colección"
+      ],
+      "faq": [
+        {
+          "question": "¿Qué tamaños están disponibles para esta insignia de San Benito?",
+          "answer": "La insignia se ofrece en dos variantes: tamaño grande y pequeño. Elija según su preferencia de ubicación."
+        },
+        {
+          "question": "¿De qué material está hecha esta insignia?",
+          "answer": "Está hecha de metal con acabado de estilo vintage, como se especifica."
+        },
+        {
+          "question": "¿Es adecuada esta insignia para uso exterior en un automóvil?",
+          "answer": "Aunque está diseñada como adorno para automóvil, tenga en cuenta que no se proporciona información detallada sobre resistencia a la intemperie. Considere la colocación en interiores o en un lugar protegido para mayor durabilidad."
+        }
+      ],
+      "pricing": {
+        "price": "0.68",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.68",
+          "max": "1.18"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Insignia Conmemorativa de San Benito de Metal",
+          "description": "Una insignia de metal de estilo vintage que representa a San Benito, adecuada como adorno para automóvil o decoración de escritorio. Disponible en variantes grande y pequeña, esta pieza conmemorativa añade un toque tradicional a cualquier espacio.",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB",
+          "image": [
+            "https://sc04.alicdn.com/kf/Ha0a13cba25904345a3b471eda1b5bb4ff.png",
+            "https://sc04.alicdn.com/kf/Hef84e10971c142f590b6362c1d330eafI.png",
+            "https://sc04.alicdn.com/kf/H1fd05e8e0c9d4cf7b31646b8af3c6090R.png",
+            "https://sc04.alicdn.com/kf/Hf2fa18001ac44afd8981e1b2f866a384G.png",
+            "https://sc04.alicdn.com/kf/Hf942ecb2560f486a9d456fc2a225ca14e.png",
+            "https://sc04.alicdn.com/kf/Hdee017ad60e54b07a821b2e7ee0bd823x.png"
+          ],
+          "category": "Adornos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Vintage"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variantes",
+              "value": "Tamaño grande, pequeño"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.68",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.68",
+              "maxPrice": "1.18",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Qué tamaños están disponibles para esta insignia de San Benito?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La insignia se ofrece en dos variantes: tamaño grande y pequeño. Elija según su preferencia de ubicación."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿De qué material está hecha esta insignia?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Está hecha de metal con acabado de estilo vintage, como se especifica."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Es adecuada esta insignia para uso exterior en un automóvil?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Aunque está diseñada como adorno para automóvil, tenga en cuenta que no se proporciona información detallada sobre resistencia a la intemperie. Considere la colocación en interiores o en un lugar protegido para mayor durabilidad."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "contentHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:33.091Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "contentHash": "d19f8463a517a47a5e8d45558a036542da53507576e6e7bd7dd8cc5c7bb2a6a2",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:05:25.518Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFjTG7BAOVioqqEY6e0bn1A",
+      "sourceId": "AAFjTG7BAOVioqqEY6e0bn1A",
+      "sourceFingerprint": "36c1d2f73db3767bfef5d2f965658ed24059df5233d4c6ff45a28b05ee195ea0",
+      "locale": "es",
+      "slug": "hand-painted-enamel-metal-car-ornament-e0bn1a",
+      "title": "Adorno de metal con esmalte pintado a mano para automóvil",
+      "eyebrow": "Adorno de metal esmaltado para accesorio de automóvil",
+      "summary": "Este adorno de metal con esmalte pintado a mano añade un toque de color al interior de su automóvil. Disponible en acabado imitación oro o blanco, es adecuado para exhibidores en el tablero, colgarlo del espejo retrovisor o decoración navideña.",
+      "description": "Fabricado en metal esmaltado, este adorno presenta un acabado pintado a mano que resalta los detalles finos. Elija entre las variantes imitación oro o blanco para que combine con su estilo. Su tamaño compacto y su construcción ligera facilitan colocarlo en el tablero, colgarlo del espejo retrovisor o incorporarlo a la decoración navideña. La superficie de esmalte duradero resiste la decoloración, asegurando un color duradero. Para compradores al por mayor, este adorno ofrece una opción versátil para líneas de accesorios automotrices o juegos de regalo de temporada. Su calidad pintada a mano añade un toque distintivo que a menudo falta en los productos producidos en masa.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Adornos",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H1c5cf1b80aa24437b5146f1af14c43904.webp",
+      "imageAlt": "Adorno de metal con esmalte pintado a mano para automóvil",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1c5cf1b80aa24437b5146f1af14c43904.webp",
+          "alt": "Adorno de metal con esmalte pintado a mano para automóvil"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H312bf1d9a2374846bf859ada0fec8276J.webp",
+          "alt": "Adorno de metal con esmalte pintado a mano para automóvil"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H53c4fe5756b446a2b2907b12316e3e99P.webp",
+          "alt": "Adorno de metal con esmalte pintado a mano para automóvil"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H73e825e83d244736ad8dddd3d98fe8d1d.webp",
+          "alt": "Adorno de metal con esmalte pintado a mano para automóvil"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha7f757a10b0a4ca59dbbd8a201b606feg.webp",
+          "alt": "Adorno de metal con esmalte pintado a mano para automóvil"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1b74e8c46c764385a6a5fdf1837fb447V.webp",
+          "alt": "Adorno de metal con esmalte pintado a mano para automóvil - blanco-k",
+          "label": "blanco-k",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb5cf2eca305042d198bcf479fcde060bl.webp",
+          "alt": "Adorno de metal con esmalte pintado a mano para automóvil - imitación oro",
+          "label": "imitación-oro",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A-V--1"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Capa de esmalte pintado a mano para color detallado",
+        "Construcción de metal para durabilidad",
+        "Disponible en variantes imitación oro y blanco",
+        "Tamaño compacto adecuado para interiores de automóviles",
+        "Se puede usar como accesorio de automóvil o adorno"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Metal recubierto de esmalte"
+        },
+        {
+          "name": "Variante",
+          "value": "Imitación oro, Blanco"
+        },
+        {
+          "name": "Categoría",
+          "value": "Adornos"
+        }
+      ],
+      "applications": [
+        "Adorno de tablero",
+        "Decoración colgante para espejo retrovisor",
+        "Decoración para árbol de Navidad o festividades",
+        "Acento interior para vehículos"
+      ],
+      "faq": [
+        {
+          "question": "¿De qué materiales está hecho este adorno?",
+          "answer": "El adorno está hecho de metal con un recubrimiento de esmalte, proporcionando un acabado duradero y colorido."
+        },
+        {
+          "question": "¿Qué variantes de color están disponibles?",
+          "answer": "El adorno viene en dos variantes: imitación oro y blanco."
+        },
+        {
+          "question": "¿Cómo se puede usar este adorno?",
+          "answer": "Se puede colocar en el tablero, colgar del espejo retrovisor o usar como parte de decoraciones navideñas o festivas."
+        }
+      ],
+      "pricing": {
+        "price": "1.25",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.85",
+          "max": "1.25"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Adorno de metal con esmalte pintado a mano para automóvil",
+          "description": "Este adorno de metal con esmalte pintado a mano añade un toque de color al interior de su automóvil. Disponible en acabado imitación oro o blanco, es adecuado para exhibidores en el tablero, colgarlo del espejo retrovisor o decoración navideña.",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1c5cf1b80aa24437b5146f1af14c43904.png",
+            "https://sc04.alicdn.com/kf/H312bf1d9a2374846bf859ada0fec8276J.png",
+            "https://sc04.alicdn.com/kf/H53c4fe5756b446a2b2907b12316e3e99P.png",
+            "https://sc04.alicdn.com/kf/H73e825e83d244736ad8dddd3d98fe8d1d.png",
+            "https://sc04.alicdn.com/kf/Ha7f757a10b0a4ca59dbbd8a201b606feg.png"
+          ],
+          "category": "Adornos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Metal recubierto de esmalte"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Imitación oro, Blanco"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Categoría",
+              "value": "Adornos"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.85",
+              "maxPrice": "1.25",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿De qué materiales está hecho este adorno?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El adorno está hecho de metal con un recubrimiento de esmalte, proporcionando un acabado duradero y colorido."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué variantes de color están disponibles?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El adorno viene en dos variantes: imitación oro y blanco."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo se puede usar este adorno?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Se puede colocar en el tablero, colgar del espejo retrovisor o usar como parte de decoraciones navideñas o festivas."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "contentHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:01.968Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "contentHash": "02c66b553f226be7f063e637ecabad6507f40eb0581415d5d4a501437fd3b2e0",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:05:31.473Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHsTG7BAOVioqqEY6e0w0ar",
+      "sourceId": "AAHsTG7BAOVioqqEY6e0w0ar",
+      "sourceFingerprint": "84366b9d77cdfcf42118fd2a867418b08a4a48508d8639a84d60e9865318e8e4",
+      "locale": "es",
+      "slug": "retro-electroplated-religious-keychain-e0w0ar",
+      "title": "Llavero Religioso Retro Electroplateado",
+      "eyebrow": "Llavero Religioso",
+      "summary": "Este llavero retro presenta un cuerpo de metal electroplateado con un diseño religioso en relieve y un acabado de epoxi transparente. Disponible en múltiples variantes y opciones de álbum, es adecuado para distribución al por mayor para tiendas de regalos y minoristas de novedades.",
+      "description": "Este llavero combina una base de metal electroplateado de estilo vintage con un patrón detallado en relieve, acabado con una capa protectora de epoxi. El diseño es creativo y de temática religiosa, lo que lo convierte en un accesorio distintivo.\n\nElija entre una gama de variantes, incluidos diferentes conjuntos de álbumes (Álbum-4, Álbum-6, Álbum-7, Álbum-8, Álbum-10) y modelos específicos como Gd, Qdzs, Sz01 y Sz02. La variedad es compatible con pedidos al por mayor mixtos.\n\nEl tamaño compacto y la construcción duradera lo hacen práctico para el uso diario, mientras que la estética retro atrae a coleccionistas y compradores de regalos por igual.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "83",
+          "name": "Llaveros",
+          "slug": "keychains"
+        }
+      ],
+      "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H720ad721160442a1b196ffbaf27352af5.webp",
+      "imageAlt": "Llavero Religioso Retro Electroplateado",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H720ad721160442a1b196ffbaf27352af5.webp",
+          "alt": "Llavero Religioso Retro Electroplateado"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha91760064f344a1b881c66943d47e7aa2.webp",
+          "alt": "Llavero Religioso Retro Electroplateado"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd30b496ddfcb47c78cd03c1221ddafa8F.webp",
+          "alt": "Llavero Religioso Retro Electroplateado"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Heddb48b63e2b473ca21bab6413406151M.webp",
+          "alt": "Llavero Religioso Retro Electroplateado"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H89e17ae874e64f25b23a09a98b48a7f86.webp",
+          "alt": "Llavero Religioso Retro Electroplateado"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H76c8f06b2ba64217a81d4c39d303a569p.webp",
+          "alt": "Llavero Religioso Retro Electroplateado"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H48fd441765174d43b9585d99b5cec601f.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - qdzs-keychain",
+          "label": "qdzs-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H505331eac5954828ac7fb1964d59cf4co.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - qdzs",
+          "label": "qdzs",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb03838d299c04f56a649d4562e90c53aU.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - gd-keychain",
+          "label": "gd-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--19"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H29c1415392fc4dda9e6ab2265ad669cdT.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - gd",
+          "label": "gd",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--20"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3019f0cdbb04461e95d768eb3992b6eak.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - photo-album-1",
+          "label": "photo-album-1",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9217061f3fe2419bad89dece77d309a1I.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - photo-album-2",
+          "label": "photo-album-2",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7042755f74cd4d3492a78ddc86012454i.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - photo-album-3",
+          "label": "photo-album-3",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H37685d16d3274bfe9a0bc07fc4e5fa9f2.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - album-4",
+          "label": "album-4",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3cb169d8d19e41e3a7a7af8d6db40d3ax.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - photo-album-5",
+          "label": "photo-album-5",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5b134da4d8024b5785bcba82a2cecb329.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - album-6",
+          "label": "album-6",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H55eec7330d9b4571b75de39a641fcad1R.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - album-7",
+          "label": "album-7",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7b14e086c07948e78b7da22e909e39d1O.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - album-8",
+          "label": "album-8",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H359bae7f463347b6b04c12fec80424f59.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - photo-album-9",
+          "label": "photo-album-9",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hae36d021c6ec4f7d9a71daa943f21d90q.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - album-10",
+          "label": "album-10",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H75d0a04d87d54d5cbc6d8c6b76264bbf6.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - photo-album-11",
+          "label": "photo-album-11",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hed94969b362f4b6d9295952f7595cc74X.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - photo-album-12",
+          "label": "photo-album-12",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H39f462ff8af4436b83aabd82ed1d15734.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - sz01-keychain",
+          "label": "sz01-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H153cfff0be014028a3e16486cef30af0s.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - sz01",
+          "label": "sz01",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3e8fbeea301c4251a6d042a7bde674e6m.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - sz02-keychain",
+          "label": "sz02-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9206e6706db04a9abfae99249d11a3a03.webp",
+          "alt": "Llavero Religioso Retro Electroplateado - sz02",
+          "label": "sz02",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--16"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Construcción de metal electroplateado para un acabado duradero y brillante",
+        "Patrón en relieve que agrega textura y detalle visual",
+        "Recubrimiento de epoxi que protege el diseño y realza el brillo",
+        "Diseño religioso creativo inspirado en Rusia",
+        "Múltiples variantes y conjuntos de álbumes para elegir"
+      ],
+      "specifications": [
+        {
+          "name": "Material principal",
+          "value": "Metal"
+        },
+        {
+          "name": "Acabado",
+          "value": "Electroplateado y recubierto de epoxi"
+        },
+        {
+          "name": "Diseño",
+          "value": "Motivo religioso en relieve"
+        },
+        {
+          "name": "Variantes",
+          "value": "Álbum-4, Álbum-6, Álbum-7, Álbum-8, Álbum-10, Gd, Qdzs, Sz01, Sz02 y más"
+        }
+      ],
+      "applications": [
+        "Accesorio de llavero para uso personal",
+        "Mercancía al por menor en tiendas de regalos",
+        "Artículo de colección para entusiastas",
+        "Obsequio promocional o recuerdo"
+      ],
+      "faq": [
+        {
+          "question": "¿Qué materiales se utilizan en este llavero?",
+          "answer": "El llavero está hecho de metal con un acabado electroplateado y una capa protectora de epoxi sobre el diseño en relieve."
+        },
+        {
+          "question": "¿Qué diseño presenta este llavero?",
+          "answer": "El diseño es un motivo religioso retro con un patrón en relieve, descrito como 'diseño creativo de Rusia' en la información del producto."
+        },
+        {
+          "question": "¿Qué variantes están disponibles para este llavero?",
+          "answer": "Las variantes disponibles incluyen conjuntos de álbumes como Álbum-4, Álbum-6, Álbum-7, Álbum-8 y Álbum-10, así como modelos individuales como Gd, Qdzs, Sz01 y Sz02."
+        }
+      ],
+      "pricing": {
+        "price": "0.37",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.30",
+          "max": "0.37"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Llavero Religioso Retro Electroplateado",
+          "description": "Este llavero retro presenta un cuerpo de metal electroplateado con un diseño religioso en relieve y un acabado de epoxi transparente. Disponible en múltiples variantes y opciones de álbum, es adecuado para distribución al por mayor para tiendas de regalos y minoristas de novedades.",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar",
+          "image": [
+            "https://sc04.alicdn.com/kf/H720ad721160442a1b196ffbaf27352af5.png",
+            "https://sc04.alicdn.com/kf/Ha91760064f344a1b881c66943d47e7aa2.png",
+            "https://sc04.alicdn.com/kf/Hd30b496ddfcb47c78cd03c1221ddafa8F.png",
+            "https://sc04.alicdn.com/kf/Heddb48b63e2b473ca21bab6413406151M.png",
+            "https://sc04.alicdn.com/kf/H89e17ae874e64f25b23a09a98b48a7f86.png",
+            "https://sc04.alicdn.com/kf/H76c8f06b2ba64217a81d4c39d303a569p.png"
+          ],
+          "category": "Llaveros",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material principal",
+              "value": "Metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Acabado",
+              "value": "Electroplateado y recubierto de epoxi"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Diseño",
+              "value": "Motivo religioso en relieve"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variantes",
+              "value": "Álbum-4, Álbum-6, Álbum-7, Álbum-8, Álbum-10, Gd, Qdzs, Sz01, Sz02 y más"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.37",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.30",
+              "maxPrice": "0.37",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Qué materiales se utilizan en este llavero?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El llavero está hecho de metal con un acabado electroplateado y una capa protectora de epoxi sobre el diseño en relieve."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué diseño presenta este llavero?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El diseño es un motivo religioso retro con un patrón en relieve, descrito como 'diseño creativo de Rusia' en la información del producto."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué variantes están disponibles para este llavero?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Las variantes disponibles incluyen conjuntos de álbumes como Álbum-4, Álbum-6, Álbum-7, Álbum-8 y Álbum-10, así como modelos individuales como Gd, Qdzs, Sz01 y Sz02."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "contentHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:14.413Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "contentHash": "2a2f665a18ce034df25b9165b5f7736326f326bab5070c2e70e168ba33e9340a",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:05:49.485Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE1TG7BAOVioqqEY6e5gBlf",
+      "sourceId": "AAE1TG7BAOVioqqEY6e5gBlf",
+      "sourceFingerprint": "a4f836fa97f47d16e6c7bb13b33b6b29d3d3b2d7d8a39caf8494aed2ca5abe68",
+      "locale": "es",
+      "slug": "bohemian-cross-beaded-elastic-bracelet-e5gblf",
+      "title": "Pulsera Elástica Bohemia con Cuentas y Cruz",
+      "eyebrow": "pulsera de cuentas con cruz",
+      "summary": "Esta pulsera para mujer presenta un patrón de cruz con acentos de pirita de hierro y cuentas de acrílico. La banda elástica se estira para facilitar su uso, convirtiéndola en una opción de regalo versátil para quienes buscan joyería religiosa.",
+      "description": "¿Buscas una pulsera de cruz que equilibre el estilo cotidiano con un diseño basado en la fe? Esta pulsera bohemia de cuentas combina un patrón de cruz con piedras de pirita de hierro terrosas y cuentas de acrílico en una línea elástica ajustable. Está hecha para mujeres y clasificada como joyería religiosa, pero su aspecto casual combina bien tanto con vaqueros como con vestidos. Cada pulsera pesa poco y viene en una gama de opciones de color, aunque los tonos específicos pueden variar según el lote. Los materiales de acrílico y resina la hacen duradera para el uso regular, mientras que el cordón elástico permite ponerla y quitarla fácilmente sin cierre. Como regalo, es adecuada para ocasiones como cumpleaños, bautizos o simplemente como un detalle reflexivo de fe.",
+      "catholicContext": "La cruz es un símbolo central de la fe católica, que representa el sacrificio de Jesucristo.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Pulseras de rosario",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAE1TG7BAOVioqqEY6e5gBlf",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hccd9cc58d7da455bb40ab6403c549108Y.webp",
+      "imageAlt": "Pulsera Elástica Bohemia con Cuentas y Cruz",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hccd9cc58d7da455bb40ab6403c549108Y.webp",
+          "alt": "Pulsera Elástica Bohemia con Cuentas y Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ca42d33a9434ccbadaee464e708d062X.webp",
+          "alt": "Pulsera Elástica Bohemia con Cuentas y Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc53b762434524799b5f0542e9a67ac09H.webp",
+          "alt": "Pulsera Elástica Bohemia con Cuentas y Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0b0c7c8948b14e59811671601d9781f8m.webp",
+          "alt": "Pulsera Elástica Bohemia con Cuentas y Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H56adf5cf509b48bdb25a635bfc5c6d3bH.webp",
+          "alt": "Pulsera Elástica Bohemia con Cuentas y Cruz"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H66ea2f7344eb45f6a414af7789816425G.webp",
+          "alt": "Pulsera Elástica Bohemia con Cuentas y Cruz"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Pulsera de cuentas con patrón de cruz",
+        "Materiales principales: acrílico, resina y lucita",
+        "Incluye piedras de acento de pirita de hierro",
+        "Banda elástica para un ajuste flexible, sin cierre",
+        "Tipo de joyería para mujer, clasificada como estilo bohemio"
+      ],
+      "specifications": [
+        {
+          "name": "Materiales",
+          "value": "Acrílico, resina, lucita, pirita de hierro"
+        },
+        {
+          "name": "Tipo de pulsera",
+          "value": "De cuentas, línea elástica"
+        },
+        {
+          "name": "Estilo",
+          "value": "Religioso, bohemio"
+        },
+        {
+          "name": "Patrón",
+          "value": "Cruz"
+        },
+        {
+          "name": "Número de modelo",
+          "value": "QT-S24052502"
+        },
+        {
+          "name": "Género",
+          "value": "Mujer"
+        },
+        {
+          "name": "Origen",
+          "value": "Guangzhou"
+        }
+      ],
+      "applications": [
+        "Uso diario personal como accesorio inspirado en la fe",
+        "Regalo para ocasiones religiosas como bautizos o confirmaciones",
+        "Combinar con otras pulseras para un look bohemio",
+        "Reuniones casuales en la iglesia o eventos de fe"
+      ],
+      "faq": [
+        {
+          "question": "¿De qué materiales está hecha esta pulsera de cruz?",
+          "answer": "La pulsera está hecha de cuentas de acrílico, resina y lucita, e incluye acentos de pirita de hierro para un brillo metálico."
+        },
+        {
+          "question": "¿Es ajustable la pulsera?",
+          "answer": "Tiene una banda elástica, por lo que se estira para adaptarse a la mayoría de los tamaños de muñeca sin cierre, deslizándose fácilmente."
+        },
+        {
+          "question": "¿Qué estilos tiene esta pulsera?",
+          "answer": "Está clasificada como estilo bohemio con un patrón religioso de cruz, adecuada para uso diario o temático de fe. Las opciones de color pueden variar."
+        }
+      ],
+      "pricing": {
+        "price": "1.13",
+        "regularPrice": "1.13",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Pulsera Elástica Bohemia con Cuentas y Cruz",
+          "description": "Esta pulsera para mujer presenta un patrón de cruz con acentos de pirita de hierro y cuentas de acrílico. La banda elástica se estira para facilitar su uso, convirtiéndola en una opción de regalo versátil para quienes buscan joyería religiosa.",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6e5gBlf",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hccd9cc58d7da455bb40ab6403c549108Y.png",
+            "https://sc04.alicdn.com/kf/H6ca42d33a9434ccbadaee464e708d062X.png",
+            "https://sc04.alicdn.com/kf/Hc53b762434524799b5f0542e9a67ac09H.png",
+            "https://sc04.alicdn.com/kf/H0b0c7c8948b14e59811671601d9781f8m.png",
+            "https://sc04.alicdn.com/kf/H56adf5cf509b48bdb25a635bfc5c6d3bH.png",
+            "https://sc04.alicdn.com/kf/H66ea2f7344eb45f6a414af7789816425G.png"
+          ],
+          "category": "Pulseras de rosario",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiales",
+              "value": "Acrílico, resina, lucita, pirita de hierro"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de pulsera",
+              "value": "De cuentas, línea elástica"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Religioso, bohemio"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Patrón",
+              "value": "Cruz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Número de modelo",
+              "value": "QT-S24052502"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Género",
+              "value": "Mujer"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Origen",
+              "value": "Guangzhou"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.13",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿De qué materiales está hecha esta pulsera de cruz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La pulsera está hecha de cuentas de acrílico, resina y lucita, e incluye acentos de pirita de hierro para un brillo metálico."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Es ajustable la pulsera?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tiene una banda elástica, por lo que se estira para adaptarse a la mayoría de los tamaños de muñeca sin cierre, deslizándose fácilmente."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué estilos tiene esta pulsera?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Está clasificada como estilo bohemio con un patrón religioso de cruz, adecuada para uso diario o temático de fe. Las opciones de color pueden variar."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "contentHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:31.059Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "contentHash": "6b604d76815a89df51b6092efaef7589b164f44bd90fce1e10d69c5a8bb52a59",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:06:09.995Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE_TG7BAOVioqqEY6eBRoJy",
+      "sourceId": "AAE_TG7BAOVioqqEY6eBRoJy",
+      "sourceFingerprint": "5d2c76a8cb21aa149d7cf79e4276f1106c700632ffdd7fbffa436deff8e290cb",
+      "locale": "es",
+      "slug": "zinc-alloy-catholic-saint-charm-pendant-ebrojy",
+      "title": "Dije de Santo Católico en Aleación de Zinc",
+      "eyebrow": "Dije de santo católico",
+      "summary": "Este dije de aleación de zinc presenta imágenes religiosas redondas, incluyendo a Jesús, un ángel y la Virgen. Se ofrece en 20 variantes numeradas, adecuado para la elaboración de joyería y accesorios devocionales personales. Una elección práctica para minoristas que buscan una gama de dijes de temática católica.",
+      "description": "El Dije de Santo Católico en Aleación de Zinc es un accesorio religioso compacto con forma redonda. Sus diseños presentan figuras cristianas reconocibles: Jesús, un ángel y la Virgen, lo que lo convierte en una adición versátil a colecciones de joyería de temática católica. El dije está hecho de aleación de zinc, un material conocido por su durabilidad y fino detalle. Viene en 20 variantes, numeradas del 1 al 20, lo que permite a los compradores seleccionar motivos específicos u ofrecer un set completo. Ya sea para elaborar rosarios, collares o pulseras, este dije proporciona una manera sencilla de incorporar imágenes devocionales en artículos portátiles.",
+      "catholicContext": "Tales dijes religiosos se relacionan con la devoción popular católica, que el Catecismo describe como algo que extiende pero no reemplaza la vida litúrgica de la Iglesia.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accesorios",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb1cc07c8732c468c885fa2f8a541c2f9c.webp",
+      "imageAlt": "Dije de Santo Católico en Aleación de Zinc",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb1cc07c8732c468c885fa2f8a541c2f9c.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H85202657e5fc4a249462784b9a40fd00F.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5fab23bc08ec4fb186ea395b63420147U.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc544b91a02e14ff0a609833efd3d6d255.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H935fef7e0dc74d0a8a290ed9bc890152D.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H93bdc20a2caf4aac824c79637bff0cc4E.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hef28f55f11e44d549554d0d902347bfcm.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 10",
+          "label": "10",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7c49a47e10b3484e9e5d381e44fdc8c28.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 8",
+          "label": "8",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0c9dd500630a4bb49bbc4841bea3aaedY.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 17",
+          "label": "17",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H60aec1be728a4cd7b0e59e9c8d0bae64k.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 7",
+          "label": "7",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--16"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6136679e0963425a99af5a6557bf5ae3g.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 1",
+          "label": "1",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--21"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a7e8b1657b84ec2ab88a88fc532c099A.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 2",
+          "label": "2",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--19"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8b26ba35bf2b48518a456b7ba62c5decr.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 12",
+          "label": "12",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--20"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6be80b221a044f15a08555eb054ef09cG.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 20",
+          "label": "20",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0b9940e8a1c24dd4994a7b72e88036b4L.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 5",
+          "label": "5",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ad98e664fe342908c65c6de560e357aW.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 14",
+          "label": "14",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9044d5e2bb614f8a8d2f7a129fa3868bb.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 18",
+          "label": "18",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf1cd75f811524881974fad5cf6d2a335n.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 16",
+          "label": "16",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H32a538bde24947239eb8b756d326c3e5N.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 11",
+          "label": "11",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfa0c9e04b318401282e936c072f349b2W.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 15",
+          "label": "15",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9ee02e3b2b2c4fdea99980ce6897b038j.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 6",
+          "label": "6",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H46f75e895fbc4a62b5d33037e94f34d5C.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 4",
+          "label": "4",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0218d68400c4aab9beb4f12414f39b6O.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 13",
+          "label": "13",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hae01cab2731347508243d55f539555b22.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 19",
+          "label": "19",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7efa2788e5e043049f4136da1b467d09L.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 9",
+          "label": "9",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfb039cfc288d4f6f8450657cea97b904X.webp",
+          "alt": "Dije de Santo Católico en Aleación de Zinc - 3",
+          "label": "3",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--4"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Fabricado en aleación de zinc, un metal duradero adecuado para uso diario",
+        "Presenta motivos religiosos redondos incluyendo a Jesús, un ángel y la Virgen",
+        "Disponible en 20 variantes distintas, numeradas del 1 al 20",
+        "Tamaño compacto ideal para pulseras de dijes, collares o llaveros",
+        "Diseño de temática católica adecuado para joyería devocional"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Aleación de zinc"
+        },
+        {
+          "name": "Forma",
+          "value": "Redonda"
+        },
+        {
+          "name": "Diseño",
+          "value": "Motivos religiosos: Jesús, Ángel, Virgen"
+        },
+        {
+          "name": "Variantes",
+          "value": "20 variantes numeradas (1-20)"
+        }
+      ],
+      "applications": [
+        "Creación de collares o dijes de temática católica",
+        "Añadir dijes religiosos a pulseras",
+        "Elaboración de joyería devocional para uso personal",
+        "Abastecimiento de componentes para negocios de fabricación de joyería"
+      ],
+      "faq": [
+        {
+          "question": "¿De qué materiales está hecho este dije?",
+          "answer": "El dije está elaborado en aleación de zinc, que proporciona una base duradera y asequible para imágenes religiosas detalladas."
+        },
+        {
+          "question": "¿Qué diseños están disponibles?",
+          "answer": "El dije presenta motivos religiosos redondos, incluyendo representaciones de Jesús, un ángel y la Virgen. Hay 20 variantes diferentes, numeradas del 1 al 20, que probablemente difieren en la imaginería específica o el acabado."
+        },
+        {
+          "question": "¿Puedo elegir una variante específica al hacer un pedido?",
+          "answer": "Sí, el producto se ofrece en 20 variantes numeradas, lo que le permite seleccionar el diseño que mejor se adapte a sus necesidades o comprar una mezcla para variedad."
+        }
+      ],
+      "pricing": {
+        "price": "0.28",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.22",
+          "max": "0.28"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Dije de Santo Católico en Aleación de Zinc",
+          "description": "Este dije de aleación de zinc presenta imágenes religiosas redondas, incluyendo a Jesús, un ángel y la Virgen. Se ofrece en 20 variantes numeradas, adecuado para la elaboración de joyería y accesorios devocionales personales. Una elección práctica para minoristas que buscan una gama de dijes de temática católica.",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hb1cc07c8732c468c885fa2f8a541c2f9c.jpg",
+            "https://sc04.alicdn.com/kf/H85202657e5fc4a249462784b9a40fd00F.jpg",
+            "https://sc04.alicdn.com/kf/H5fab23bc08ec4fb186ea395b63420147U.jpg",
+            "https://sc04.alicdn.com/kf/Hc544b91a02e14ff0a609833efd3d6d255.jpg",
+            "https://sc04.alicdn.com/kf/H935fef7e0dc74d0a8a290ed9bc890152D.jpg",
+            "https://sc04.alicdn.com/kf/H93bdc20a2caf4aac824c79637bff0cc4E.jpg"
+          ],
+          "category": "Accesorios",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Aleación de zinc"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Forma",
+              "value": "Redonda"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Diseño",
+              "value": "Motivos religiosos: Jesús, Ángel, Virgen"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variantes",
+              "value": "20 variantes numeradas (1-20)"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.28",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.22",
+              "maxPrice": "0.28",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿De qué materiales está hecho este dije?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El dije está elaborado en aleación de zinc, que proporciona una base duradera y asequible para imágenes religiosas detalladas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué diseños están disponibles?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El dije presenta motivos religiosos redondos, incluyendo representaciones de Jesús, un ángel y la Virgen. Hay 20 variantes diferentes, numeradas del 1 al 20, que probablemente difieren en la imaginería específica o el acabado."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Puedo elegir una variante específica al hacer un pedido?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, el producto se ofrece en 20 variantes numeradas, lo que le permite seleccionar el diseño que mejor se adapte a sus necesidades o comprar una mezcla para variedad."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "contentHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:09.259Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "contentHash": "568303ecfe13a2123671b1f1f0d6d56dfc22ab72eb61ef196e82528d182b67c7",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:06:35.809Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH5TG7BAOVioqqEY6eBRycG",
+      "sourceId": "AAH5TG7BAOVioqqEY6eBRycG",
+      "sourceFingerprint": "4cfa27fc0a886f3d6b623b3fd11b91e116cc53aef8486c0d59cf7407123ba23e",
+      "locale": "es",
+      "slug": "gold-plated-cross-pendant-with-jesus-ebrycg",
+      "title": "Collar Cruz Dorado con Jesús",
+      "eyebrow": "Collar de cruz de metal bañado en oro",
+      "summary": "Un collar de cruz bañado en oro que mide 5.8 por 12 cm, elaborado en aleación de metal con acabado bañado. Esta cruz decorativa puede servir como ayuda de oración, adorno o regalo reflexivo para diversas ocasiones.",
+      "description": "Este collar de cruz bañado en oro ofrece una forma de cruz tradicional y clara en un tamaño compacto. Mide 5.8 por 12 cm, está hecho de aleación de metal con acabado bañado, lo que le da una apariencia pulida. El diseño es simple y versátil, adecuado para decoración del hogar, adorno navideño o souvenir. Sus dimensiones facilitan su exhibición en una pared, soporte o estante. Ya sea para devoción personal o como regalo, esta cruz proporciona un símbolo reconocible de la fe cristiana. La construcción de metal bañado garantiza durabilidad para manejo y exhibición. Considérelo para Navidad, Pascua u otras ocasiones de regalos religiosos.",
+      "catholicContext": "Un collar de cruz puede servir como una expresión visible de la fe cristiana, aunque no es automáticamente un sacramental a menos que sea bendecido por la Iglesia.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Adornos",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAH5TG7BAOVioqqEY6eBRycG",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H6204fe4a266944529a41b59077832c49W.webp",
+      "imageAlt": "Collar de Cruz Dorado con Jesús",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6204fe4a266944529a41b59077832c49W.webp",
+          "alt": "Collar de Cruz Dorado con Jesús"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7081a2ed9c6d432281abd70db1ba1d6b8.webp",
+          "alt": "Collar de Cruz Dorado con Jesús"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3f2405277408405b9812239d7ee5cafb1.webp",
+          "alt": "Collar de Cruz Dorado con Jesús"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63ac6777acfe49839acdf230b9c82c76k.webp",
+          "alt": "Collar de Cruz Dorado con Jesús"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H08d1b54a97d6497bafd7ebca69c4a9acu.webp",
+          "alt": "Collar de Cruz Dorado con Jesús"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Acabado bañado en oro para una apariencia brillante",
+        "Mide 5.8 x 12 cm",
+        "Hecho de aleación de metal",
+        "Diseño en forma de cruz",
+        "Adecuado para múltiples aplicaciones, incluyendo decoración del hogar y regalos"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Aleación de metal"
+        },
+        {
+          "name": "Baño",
+          "value": "Bañado en oro"
+        },
+        {
+          "name": "Dimensiones",
+          "value": "5.8 x 12 cm"
+        },
+        {
+          "name": "Tipo de producto",
+          "value": "Modelo / adorno"
+        }
+      ],
+      "applications": [
+        "Decoración del hogar",
+        "Decoración y regalo navideño",
+        "Ayuda de oración",
+        "Souvenir"
+      ],
+      "faq": [
+        {
+          "question": "¿Cuáles son las dimensiones de este collar de cruz?",
+          "answer": "El collar de cruz mide 5.8 por 12 cm, lo que lo hace de tamaño compacto adecuado para exhibición o manejo."
+        },
+        {
+          "question": "¿De qué material está hecho este collar de cruz?",
+          "answer": "Está hecho de aleación de metal con acabado bañado en oro."
+        },
+        {
+          "question": "¿Puede este collar de cruz ser utilizado para múltiples ocasiones?",
+          "answer": "Sí, es adecuado para diversas aplicaciones, incluyendo decoración del hogar, regalos navideños, souvenirs y oración personal."
+        }
+      ],
+      "pricing": {
+        "price": "0.65",
+        "regularPrice": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.65"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collar Cruz Dorado con Jesús",
+          "description": "Un collar de cruz bañado en oro que mide 5.8 por 12 cm, elaborado en aleación de metal con acabado bañado. Esta cruz decorativa puede servir como ayuda de oración, adorno o regalo reflexivo para diversas ocasiones.",
+          "sku": "ALI-AAH5TG7BAOVioqqEY6eBRycG",
+          "image": [
+            "https://sc04.alicdn.com/kf/H6204fe4a266944529a41b59077832c49W.jpg",
+            "https://sc04.alicdn.com/kf/H7081a2ed9c6d432281abd70db1ba1d6b8.jpg",
+            "https://sc04.alicdn.com/kf/H3f2405277408405b9812239d7ee5cafb1.jpg",
+            "https://sc04.alicdn.com/kf/H63ac6777acfe49839acdf230b9c82c76k.jpg",
+            "https://sc04.alicdn.com/kf/H08d1b54a97d6497bafd7ebca69c4a9acu.jpg"
+          ],
+          "category": "Adornos",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Aleación de metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Baño",
+              "value": "Bañado en oro"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Dimensiones",
+              "value": "5.8 x 12 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Tipo de producto",
+              "value": "Modelo / adorno"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Cuáles son las dimensiones de este collar de cruz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El collar de cruz mide 5.8 por 12 cm, lo que lo hace de tamaño compacto adecuado para exhibición o manejo."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿De qué material está hecho este collar de cruz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Está hecho de aleación de metal con acabado bañado en oro."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Puede este collar de cruz ser utilizado para múltiples ocasiones?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, es adecuado para diversas aplicaciones, incluyendo decoración del hogar, regalos navideños, souvenirs y oración personal."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "contentHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:15.408Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "contentHash": "d2ba8a2497c70267f1e4702c3111cec8b15d578bce1339067e85912eb9a8d0a3",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:06:44.028Z",
             "model": "deepseek-v4-flash"
           }
         }

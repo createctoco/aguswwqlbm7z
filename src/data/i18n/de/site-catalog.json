@@ -2,65 +2,64 @@
   "schemaVersion": 3,
   "locale": "de",
   "sourceLocale": "en",
-  "sourceCatalogHash": "98fdd7a8ed86cd0b4d87d27ed3b8010eb959b35e9ab070f92027dcdc47ed01d3",
-  "generatedAt": "2026-08-18T03:08:08.836Z",
+  "sourceCatalogHash": "a9f91cdcc25a9326e85e0e9275ac28656f88bcc37137b7827ae46afbb72e6c89",
+  "generatedAt": "2026-08-19T03:15:05.562Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAHRTG7BAOVioqqEY6e7sF2F",
-      "AAE_TG7BAOVioqqEY6eBTjU3",
-      "AAGOTG7BAOVioqqEY6eBtUmL",
-      "AAEcTG7BAOVioqqEY6eYM2Jr",
-      "AAHMTG7BAOVioqqEY6eBS0mz",
-      "AAGbTG7BAOVioqqEY6eBRcEQ",
-      "AAG-TG7BAOVioqqEY6eBT4Pn",
-      "AAHdTG7BAOVioqqEY6eCHasP",
-      "AAHWTG7BAOVioqqEY6eBRiXm",
-      "AAHaTG7BAOVioqqEY6e7LbS6"
+      "AAE3TG7BAOVioqqEY6eo-9E_",
+      "AAHCTG7BAOVioqqEY6eo-oaW",
+      "AAHxTG7BAOVioqqEY6e0cceB",
+      "AAFjTG7BAOVioqqEY6e0bn1A",
+      "AAHJTG7BAOVioqqEY6e0b9PP",
+      "AAHsTG7BAOVioqqEY6e0w0ar",
+      "AAEwTG7BAOVioqqEY6e6dfkE",
+      "AAE1TG7BAOVioqqEY6e5gBlf",
+      "AAE_TG7BAOVioqqEY6eBRoJy",
+      "AAH5TG7BAOVioqqEY6eBRycG"
     ],
     "deletedProductIds": []
   },
   "categoryGlossary": {
+    "jewelry-accessories": "Schmuck & Accessoires",
     "rings": "Ringe",
-    "ornaments": "Christbaumschmuck",
+    "ornaments": "Schmuckstücke",
     "rosary-bracelets": "Rosenkranz-Armbänder",
     "catholic-rosaries": "Katholische Rosenkränze",
     "keychains": "Schlüsselanhänger",
-    "jewelry-accessories": "Schmuckzubehör",
     "jewelry-packaging": "Schmuckverpackung",
-    "fashion-necklace": "Modische Halsketten",
+    "fashion-necklace": "Mode-Halsketten",
     "catholic-scapulars": "Katholische Skapuliere",
-    "brooch": "Brosche"
+    "brooch": "Brosche",
+    "uncategorized": "Unkategorisiert"
   },
-  "categoryGlossarySourceHash": "b6c56a83072314b56383fbfa434e33dfc4e91cf06a3a3e3c5578f25bc7ae98a6",
+  "categoryGlossarySourceHash": "c67d3b14a4f50e4bc50d4a053f4270e7ad9a33ac2bc8ee38af7aba41640e02a1",
   "translationSummary": {
-    "ready": 279,
+    "ready": 289,
     "skipped": 1,
     "skippedProductIds": [
       "AAGxTG7BAOVioqqEY6e7uzWC"
     ],
-    "reused": 265,
-    "generated": 14,
+    "reused": 277,
+    "generated": 12,
     "generatedProductIds": [
-      "AAEDTG7BAOVioqqEY6erMoEh",
-      "AAEzTG7BAOVioqqEY6e1C4Bv",
-      "AAHkTG7BAOVioqqEY6eDnVDw",
-      "AAF7TG7BAOVioqqEY6eBTD5s",
-      "AAHRTG7BAOVioqqEY6e7sF2F",
       "AAE_TG7BAOVioqqEY6eBTjU3",
-      "AAGOTG7BAOVioqqEY6eBtUmL",
       "AAEcTG7BAOVioqqEY6eYM2Jr",
-      "AAHMTG7BAOVioqqEY6eBS0mz",
-      "AAGbTG7BAOVioqqEY6eBRcEQ",
-      "AAG-TG7BAOVioqqEY6eBT4Pn",
-      "AAHdTG7BAOVioqqEY6eCHasP",
-      "AAHWTG7BAOVioqqEY6eBRiXm",
-      "AAHaTG7BAOVioqqEY6e7LbS6"
+      "AAE3TG7BAOVioqqEY6eo-9E_",
+      "AAHCTG7BAOVioqqEY6eo-oaW",
+      "AAHxTG7BAOVioqqEY6e0cceB",
+      "AAFjTG7BAOVioqqEY6e0bn1A",
+      "AAHJTG7BAOVioqqEY6e0b9PP",
+      "AAHsTG7BAOVioqqEY6e0w0ar",
+      "AAEwTG7BAOVioqqEY6e6dfkE",
+      "AAE1TG7BAOVioqqEY6e5gBlf",
+      "AAE_TG7BAOVioqqEY6eBRoJy",
+      "AAH5TG7BAOVioqqEY6eBRycG"
     ],
-    "retriedBacklog": 2,
-    "glossaryReused": true
+    "retriedBacklog": 1,
+    "glossaryReused": false
   },
   "translationBacklog": [
     {
@@ -60003,11 +60002,11 @@
       "sourceFingerprint": "1f8426326390c5ffb4befb287be8502b42de3e116d8e986e6704372e5e3dfcf9",
       "locale": "de",
       "slug": "18k-gold-plated-virgin-mary-pendant-rosary-bracelet-ebtju3",
-      "title": "Rosenkranz-Armband mit 18K vergoldetem Marien-Anhänger",
-      "eyebrow": "Rosenkranz-Armband mit Marien-Anhänger",
-      "summary": "Dieses Rosenkranz-Armband verfügt über einen 18K vergoldeten Marien-Anhänger mit Zirkonia-Steinen (CZ), kombiniert mit roten Kordelperlen. Das Armband ist verstellbar für einen bequemen Sitz. Geeignet für die persönliche Andacht oder als durchdachtes Geschenk.",
-      "description": "Gefertigt mit einem 18K vergoldeten Metall-Anhänger, zeigt dieses Armband eine detaillierte Marienfigur, verziert mit Zirkonia-Steinen (CZ). Die roten Kordelperlen verleihen ihm den klassischen Rosenkranz-Look, und das verstellbare Armband sorgt für einen sicheren Sitz bei verschiedenen Handgelenkgrößen. Wählen Sie zwischen zwei roten Farbvarianten.\n\nAls marianischer Andachtsgegenstand kann es zum Gebet oder als Erinnerung an den Glauben verwendet werden. Die langlebige Konstruktion macht es für den täglichen Gebrauch geeignet.",
-      "catholicContext": "Der Anhänger zeigt die Jungfrau Maria, eine zentrale Figur in der katholischen Frömmigkeit und im Rosenkranz.",
+      "title": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet",
+      "eyebrow": "Marian pendant rosary bracelet",
+      "summary": "Dieses Rosenkranz-Armband verfügt über einen 18K goldplattierten Virgin-Mary-Anhänger mit Zirkonia-CZ-Steinen, kombiniert mit roten Kordelperlen. Das Handband ist verstellbar für eine bequeme Passform. Geeignet für persönliche Andacht oder als durchdachtes Geschenk.",
+      "description": "Gefertigt mit einem 18K goldplattierten Metallanhänger, zeigt dieses Armband eine detaillierte Jungfrau-Maria-Figur, verziert mit Zirkonia-CZ-Steinen. Die roten Kordelperlen verleihen ihm einen klassischen Rosenkranz-Look, und das verstellbare Handband sorgt für einen sicheren Sitz bei verschiedenen Handgelenkgrößen. Wählen Sie zwischen zwei roten Farbvarianten, je nach Vorliebe.\n\nAls marianischer Andachtsgegenstand kann es zum Gebet oder als Erinnerung an den Glauben verwendet werden. Die langlebige Konstruktion macht es für den täglichen Gebrauch geeignet.",
+      "catholicContext": "Der Anhänger zeigt die Jungfrau Maria, eine zentrale Figur in der katholischen Andacht und im Rosenkranzgebet.",
       "catholicRelevance": "explicit",
       "categories": [
         {
@@ -60018,91 +60017,91 @@
       ],
       "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
-      "imageAlt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger",
+      "imageAlt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H456a8129460349df94b61797ab0f1c4cS.webp",
-          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H3e29e26989ff43c7967ecbf4dd29389f2.webp",
-          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H198b853667da4f65a06618384ab016c8k.webp",
-          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H9b3170d7184448c4af54fddc99bb5469W.webp",
-          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H183744a16ef144578d42d63bac98854aU.webp",
-          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H820864580a7a478c955bcde6be496de2W.webp",
-          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger"
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet"
         }
       ],
       "variantImages": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha615dcc292184c358f9bf6d62632192fM.webp",
-          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger - rot1",
-          "label": "rot1",
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet - Red1",
+          "label": "Red1",
           "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--4"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcc946704894a404d814a15e0080c3761i.webp",
-          "alt": "18K vergoldetes Rosenkranz-Armband mit Marien-Anhänger - rot2",
-          "label": "rot2",
+          "alt": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet - Red2",
+          "label": "Red2",
           "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3-V--5"
         }
       ],
       "accent": "#6f7c72",
       "features": [
-        "18K vergoldeter Marien-Anhänger",
-        "Zirkonia-Steine (CZ) Akzente",
+        "18K goldplattierter Virgin-Mary-Anhänger",
+        "Zirkonia-CZ-Steinverzierungen",
         "Rote Kordelperlen",
-        "Verstellbares Armband",
+        "Verstellbares Handband",
         "Zwei rote Varianten erhältlich"
       ],
       "specifications": [
         {
           "name": "Material",
-          "value": "18K vergoldetes Metall, Zirkonia (CZ), Kordel"
+          "value": "18K goldplattiertes Metall, Zirkonia CZ, Kordel"
         },
         {
           "name": "Design",
-          "value": "Marien-Anhänger mit roten Kordelperlen"
+          "value": "Virgin-Mary-Anhänger mit roten Kordelperlen"
         },
         {
           "name": "Verschluss",
-          "value": "Verstellbares Armband"
+          "value": "Verstellbares Handband"
         },
         {
           "name": "Varianten",
-          "value": "Rot1, Rot2"
+          "value": "Red1, Red2"
         }
       ],
       "applications": [
         "Persönliches Gebet und Andacht",
-        "Religiöses Geschenk für Marienfeste",
+        "Religiöses Geschenk zu marianischen Festen",
         "Alltagsaccessoire mit religiöser Bedeutung",
         "Geschenk zur Firmung oder Erstkommunion"
       ],
       "faq": [
         {
           "question": "Aus welchen Materialien besteht dieses Armband?",
-          "answer": "Das Armband besteht aus einem 18K vergoldeten Metall-Anhänger mit Zirkonia-Steinen (CZ) und roten Kordelperlen. Das Band ist verstellbar."
+          "answer": "Das Armband verfügt über einen 18K goldplattierten Metallanhänger mit Zirkonia-CZ-Steinen und rote Kordelperlen. Das Band ist verstellbar."
         },
         {
           "question": "Ist das Armband verstellbar?",
-          "answer": "Ja, das Armband ist verstellbar und passt sich verschiedenen Handgelenkgrößen bequem an."
+          "answer": "Ja, das Handband ist verstellbar und ermöglicht eine bequeme Passform für verschiedene Handgelenkgrößen."
         },
         {
           "question": "Gibt es Farboptionen?",
-          "answer": "Ja, dieses Armband ist in zwei roten Varianten erhältlich: Rot1 und Rot2."
+          "answer": "Ja, dieses Armband ist in zwei roten Varianten erhältlich: Red1 und Red2."
         }
       ],
       "pricing": {
@@ -60118,8 +60117,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "Rosenkranz-Armband mit 18K vergoldetem Marien-Anhänger",
-          "description": "Dieses Rosenkranz-Armband verfügt über einen 18K vergoldeten Marien-Anhänger mit Zirkonia-Steinen (CZ), kombiniert mit roten Kordelperlen. Das Armband ist verstellbar für einen bequemen Sitz. Geeignet für die persönliche Andacht oder als durchdachtes Geschenk.",
+          "name": "18K Gold-Plated Virgin Mary Pendant Rosary Bracelet",
+          "description": "Dieses Rosenkranz-Armband verfügt über einen 18K goldplattierten Virgin-Mary-Anhänger mit Zirkonia-CZ-Steinen, kombiniert mit roten Kordelperlen. Das Handband ist verstellbar für eine bequeme Passform. Geeignet für persönliche Andacht oder als durchdachtes Geschenk.",
           "sku": "ALI-AAE_TG7BAOVioqqEY6eBTjU3",
           "image": [
             "https://sc04.alicdn.com/kf/H456a8129460349df94b61797ab0f1c4cS.jpg",
@@ -60134,22 +60133,22 @@
             {
               "@type": "PropertyValue",
               "name": "Material",
-              "value": "18K vergoldetes Metall, Zirkonia (CZ), Kordel"
+              "value": "18K goldplattiertes Metall, Zirkonia CZ, Kordel"
             },
             {
               "@type": "PropertyValue",
               "name": "Design",
-              "value": "Marien-Anhänger mit roten Kordelperlen"
+              "value": "Virgin-Mary-Anhänger mit roten Kordelperlen"
             },
             {
               "@type": "PropertyValue",
               "name": "Verschluss",
-              "value": "Verstellbares Armband"
+              "value": "Verstellbares Handband"
             },
             {
               "@type": "PropertyValue",
               "name": "Varianten",
-              "value": "Rot1, Rot2"
+              "value": "Red1, Red2"
             }
           ],
           "offers": {
@@ -60174,7 +60173,7 @@
               "name": "Aus welchen Materialien besteht dieses Armband?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Das Armband besteht aus einem 18K vergoldeten Metall-Anhänger mit Zirkonia-Steinen (CZ) und roten Kordelperlen. Das Band ist verstellbar."
+                "text": "Das Armband verfügt über einen 18K goldplattierten Metallanhänger mit Zirkonia-CZ-Steinen und rote Kordelperlen. Das Band ist verstellbar."
               }
             },
             {
@@ -60182,7 +60181,7 @@
               "name": "Ist das Armband verstellbar?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, das Armband ist verstellbar und passt sich verschiedenen Handgelenkgrößen bequem an."
+                "text": "Ja, das Handband ist verstellbar und ermöglicht eine bequeme Passform für verschiedene Handgelenkgrößen."
               }
             },
             {
@@ -60190,7 +60189,7 @@
               "name": "Gibt es Farboptionen?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, dieses Armband ist in zwei roten Varianten erhältlich: Rot1 und Rot2."
+                "text": "Ja, dieses Armband ist in zwei roten Varianten erhältlich: Red1 und Red2."
               }
             }
           ]
@@ -60198,22 +60197,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+        "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
-            "contentHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
+            "contentHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
             "attempts": 0,
             "updatedAt": "2026-08-18T02:59:33.900Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
-            "contentHash": "d6cb52504fffd3aa634c0e1c31ad8973bca3409ebb0d465fa31661001e24bb60",
+            "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
+            "contentHash": "1351a36fc50531d12cdc98c84b5ebab18833f70160bf519ad6bb56723cc83f74",
             "attempts": 1,
-            "updatedAt": "2026-08-18T03:07:08.958Z",
+            "updatedAt": "2026-08-19T03:13:33.842Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -60480,56 +60479,56 @@
       "sourceFingerprint": "61e16346ee9266ee5df203bfd6226fb8e2fb829f9c3108d558f7db8195d40846",
       "locale": "de",
       "slug": "250ml-plastic-holy-water-bottle-with-cross-pattern-eym2jr",
-      "title": "250ml Plastikflasche für Weihwasser mit Kreuzmuster",
-      "eyebrow": "Plastikflasche für Weihwasser mit Kreuzmuster",
-      "summary": "Eine 250ml HDPE-Weihwasserflasche mit weißem Kreuzmuster und schützender PP-Kappe. Mit 30,7g und 16,5cm Höhe ist sie eine leichte Option für Zeremonien, Geschenke und den persönlichen Gebrauch.",
-      "description": "Diese 250ml Weihwasserflasche wird aus hochdichtem Polyethylen (HDPE) für hohe Stoßfestigkeit geformt, während die Polypropylen (PP)-Kappe einen zuverlässigen Verschluss bietet. Ihr weißer Körper trägt ein geprägtes Kreuzdesign, was sie zu einem klaren Andachtssymbol macht. Die Höhe von 16,5cm und das Gewicht von 30,7g machen sie leicht zu tragen oder zu lagern, ob für persönliches Gebet oder kirchliche Veranstaltungen.",
-      "catholicContext": "In der katholischen Praxis wird Weihwasser für Segnungen und Andachtsgesten verwendet, und ein Kreuz ist ein zentrales Symbol des Glaubens; diese Flasche ist für solche Zwecke geformt.",
+      "title": "250ml Plastik-Weihwasserflasche mit Kreuzmuster",
+      "eyebrow": "Plastik-Weihwasserflasche mit Kreuzmuster",
+      "summary": "Eine 250ml HDPE-Weihwasserflasche mit weißem Kreuzmuster und schützendem PP-Deckel. Mit 30,7g Gewicht und 16,5cm Höhe ist sie eine leichte Option für Zeremonien, Geschenke und den persönlichen Gebrauch.",
+      "description": "Diese 250ml Weihwasserflasche wird aus hochdichtem Polyethylen (HDPE) geformt, das stoßfest und langlebig ist, während der Polypropylen (PP)-Deckel einen zuverlässigen Verschluss bietet. Der weiße Korpus trägt ein geprägtes Kreuzdesign, das ein klares Glaubenssymbol darstellt. Die Höhe von 16,5cm und das Gewicht von 30,7g machen sie leicht zu tragen oder zu lagern, ob für persönliche Gebete oder kirchliche Veranstaltungen.",
+      "catholicContext": "In der katholischen Praxis wird Weihwasser für Segnungen und Andachtsgesten verwendet, und das Kreuz ist ein zentrales Symbol des Glaubens; diese Flasche ist für solche Zwecke geformt.",
       "catholicRelevance": "devotional_context",
       "categories": [
         {
           "id": "84",
-          "name": "Christbaumschmuck",
+          "name": "Schmuckstücke",
           "slug": "ornaments"
         }
       ],
       "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
       "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
-      "imageAlt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster",
+      "imageAlt": "250ml Plastik-Weihwasserflasche mit Kreuzmuster",
       "gallery": [
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H54de41f1e8b94a1da6846ff578113e9fw.webp",
-          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+          "alt": "250ml Plastik-Weihwasserflasche mit Kreuzmuster"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd1880c36feab49ee8e28277936e31bfck.webp",
-          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+          "alt": "250ml Plastik-Weihwasserflasche mit Kreuzmuster"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Haece68d37fc146569cc2fa18df81b2731.webp",
-          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+          "alt": "250ml Plastik-Weihwasserflasche mit Kreuzmuster"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd7e209e67eb24fddb3d1db370fd159e8q.webp",
-          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+          "alt": "250ml Plastik-Weihwasserflasche mit Kreuzmuster"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc79f02828fb46fdab2002a45f2ffe5aa.webp",
-          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+          "alt": "250ml Plastik-Weihwasserflasche mit Kreuzmuster"
         },
         {
           "url": "https://mecrt.com/wp-content/uploads/2026/06/H50e34a9b22ad4fb8b7294056b92d11f5b.webp",
-          "alt": "250ml Plastikflasche für Weihwasser mit Kreuzmuster"
+          "alt": "250ml Plastik-Weihwasserflasche mit Kreuzmuster"
         }
       ],
       "variantImages": [],
       "accent": "#7a6d92",
       "features": [
-        "250ml Fassungsvermögen hält eine praktische Menge Weihwasser",
+        "250ml Fassungsvermögen für eine praktische Menge Weihwasser",
         "Hergestellt aus HDPE-Kunststoff für hohe Schutzwirkung",
         "Weiße Farbe mit Kreuzmuster im Relief",
-        "PP-Klappdeckel für einfaches Öffnen und sicheres Verschließen",
-        "Kompakte Größe: 16,5 x 5 x 5 cm, nur 30,7g schwer"
+        "PP-Klappdeckel für einfaches Öffnen und sicheres Schließen",
+        "Kompakte Größe: 16,5 x 5 x 5 cm, Gewicht nur 30,7g"
       ],
       "specifications": [
         {
@@ -60546,10 +60545,10 @@
         },
         {
           "name": "Flaschenmaterial",
-          "value": "HDPE (hochdichtes Polyethylen)"
+          "value": "HDPE (Polyethylen hoher Dichte)"
         },
         {
-          "name": "Kappenmaterial",
+          "name": "Deckelmaterial",
           "value": "PP (Polypropylen)"
         },
         {
@@ -60564,21 +60563,21 @@
       "applications": [
         "Aufbewahrung von Weihwasser für das Gebet zu Hause",
         "Religiöse Zeremonien und Taufsegnungen",
-        "Andachtsgeschenke zu Ostern oder anderen Feiertagen",
-        "Pädagogischer Einsatz im Religionsunterricht"
+        "Andachtsgeschenke zu Ostern oder anderen Festtagen",
+        "Verwendung im Unterricht zur Glaubensbildung"
       ],
       "faq": [
         {
-          "question": "Woraus besteht die Flasche und ist sie langlebig?",
-          "answer": "Die Flasche besteht aus HDPE (hochdichtem Polyethylen), was ihr eine hohe Schutzwirkung gegen Stöße verleiht und sie für den täglichen Gebrauch geeignet macht."
+          "question": "Aus welchem Material besteht die Flasche und ist sie langlebig?",
+          "answer": "Die Flasche besteht aus HDPE (Polyethylen hoher Dichte), das eine hohe Schutzwirkung gegen Stöße bietet und sich daher für den täglichen Gebrauch eignet."
         },
         {
-          "question": "Was sind die Abmessungen und das Fassungsvermögen?",
+          "question": "Wie sind die Maße und das Fassungsvermögen?",
           "answer": "Die Flasche misst 16,5 x 5 x 5 cm und fasst 250ml Flüssigkeit. Sie wiegt nur 30,7g, ist also leicht und tragbar."
         },
         {
-          "question": "Ist eine Kappe enthalten?",
-          "answer": "Ja, sie hat eine PP-Kappe (Polypropylen), die aufklappt und einen sicheren Verschluss bietet, um Auslaufen zu verhindern."
+          "question": "Wird ein Deckel mitgeliefert?",
+          "answer": "Ja, sie hat einen PP-Deckel (Polypropylen), der aufklappbar ist und einen sicheren Verschluss bietet, um ein Auslaufen zu verhindern."
         }
       ],
       "pricing": {
@@ -60595,8 +60594,8 @@
         "product": {
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "250ml Plastikflasche für Weihwasser mit Kreuzmuster",
-          "description": "Eine 250ml HDPE-Weihwasserflasche mit weißem Kreuzmuster und schützender PP-Kappe. Mit 30,7g und 16,5cm Höhe ist sie eine leichte Option für Zeremonien, Geschenke und den persönlichen Gebrauch.",
+          "name": "250ml Plastik-Weihwasserflasche mit Kreuzmuster",
+          "description": "Eine 250ml HDPE-Weihwasserflasche mit weißem Kreuzmuster und schützendem PP-Deckel. Mit 30,7g Gewicht und 16,5cm Höhe ist sie eine leichte Option für Zeremonien, Geschenke und den persönlichen Gebrauch.",
           "sku": "ALI-AAEcTG7BAOVioqqEY6eYM2Jr",
           "image": [
             "https://sc04.alicdn.com/kf/H54de41f1e8b94a1da6846ff578113e9fw.jpg",
@@ -60606,7 +60605,7 @@
             "https://sc04.alicdn.com/kf/Hbc79f02828fb46fdab2002a45f2ffe5aa.jpg",
             "https://sc04.alicdn.com/kf/H50e34a9b22ad4fb8b7294056b92d11f5b.jpg"
           ],
-          "category": "Christbaumschmuck",
+          "category": "Schmuckstücke",
           "additionalProperty": [
             {
               "@type": "PropertyValue",
@@ -60626,11 +60625,11 @@
             {
               "@type": "PropertyValue",
               "name": "Flaschenmaterial",
-              "value": "HDPE (hochdichtes Polyethylen)"
+              "value": "HDPE (Polyethylen hoher Dichte)"
             },
             {
               "@type": "PropertyValue",
-              "name": "Kappenmaterial",
+              "name": "Deckelmaterial",
               "value": "PP (Polypropylen)"
             },
             {
@@ -60663,15 +60662,15 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Woraus besteht die Flasche und ist sie langlebig?",
+              "name": "Aus welchem Material besteht die Flasche und ist sie langlebig?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Die Flasche besteht aus HDPE (hochdichtem Polyethylen), was ihr eine hohe Schutzwirkung gegen Stöße verleiht und sie für den täglichen Gebrauch geeignet macht."
+                "text": "Die Flasche besteht aus HDPE (Polyethylen hoher Dichte), das eine hohe Schutzwirkung gegen Stöße bietet und sich daher für den täglichen Gebrauch eignet."
               }
             },
             {
               "@type": "Question",
-              "name": "Was sind die Abmessungen und das Fassungsvermögen?",
+              "name": "Wie sind die Maße und das Fassungsvermögen?",
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Die Flasche misst 16,5 x 5 x 5 cm und fasst 250ml Flüssigkeit. Sie wiegt nur 30,7g, ist also leicht und tragbar."
@@ -60679,10 +60678,10 @@
             },
             {
               "@type": "Question",
-              "name": "Ist eine Kappe enthalten?",
+              "name": "Wird ein Deckel mitgeliefert?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Ja, sie hat eine PP-Kappe (Polypropylen), die aufklappt und einen sicheren Verschluss bietet, um Auslaufen zu verhindern."
+                "text": "Ja, sie hat einen PP-Deckel (Polypropylen), der aufklappbar ist und einen sicheren Verschluss bietet, um ein Auslaufen zu verhindern."
               }
             }
           ]
@@ -60690,22 +60689,22 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+        "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
-            "contentHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
+            "contentHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
             "attempts": 0,
             "updatedAt": "2026-08-18T02:59:35.706Z",
             "model": "deepseek-v4-flash"
           },
           "de": {
             "status": "ready",
-            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
-            "contentHash": "0cb3d3528bc5384f39c9f03a0787f78dcb334e202d7a4ead479b7056d8e36dd7",
+            "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
+            "contentHash": "6e11d2674723d8706a1b1cd7e05f9c93671227d613d271f08f1ed7961ee78ef9",
             "attempts": 1,
-            "updatedAt": "2026-08-18T03:07:25.930Z",
+            "updatedAt": "2026-08-19T03:13:41.280Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -61984,6 +61983,2381 @@
             "contentHash": "7e328a1f5dc8242840711bcad28903256262920f4ebbd864499a013f0b099c2b",
             "attempts": 1,
             "updatedAt": "2026-08-18T03:08:08.835Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE3TG7BAOVioqqEY6eo-9E_",
+      "sourceId": "AAE3TG7BAOVioqqEY6eo-9E_",
+      "sourceFingerprint": "4da268df76b9c5f23644219edf0c0a4584ff1dcf9bf72fa193337dcadfc7ab04",
+      "locale": "de",
+      "slug": "vintage-red-zircon-cross-pendant-earrings-eo-9e_",
+      "title": "Vintage Ohrringe mit rotem Zirkon-Kreuz-Anhänger",
+      "eyebrow": "Vintage rote Zirkon-Anhängerohrringe",
+      "summary": "Vintage-Anhängerohrringe mit einem roten Zirkon-Kreuz und gotischen Flammenverzierungen. Hergestellt aus kupferbeschichteter Zinklegierung, eignen sich diese religiös gestalteten Ohrringe für Großhandelskäufer, die auffällige Accessoires mit andächtigem Motiv suchen.",
+      "description": "Diese Anhängerohrringe vereinen eine Vintage-Ästhetik mit einem Kreuzmotiv. Der Hauptstein ist Zirkon in tiefem Rot, eingefasst in einen Rahmen aus kupferbeschichteter Zinklegierung. Das gotische Flammendesign verleiht eine dramatische Note und bewahrt gleichzeitig einen religiösen Charakter. Als Anhänger hängen sie unterhalb des Ohrläppchens und sind so ein auffälliges Accessoire für den Alltag oder besondere Anlässe. Die Legierungsbasis bietet Langlebigkeit, während die Kupferbeschichtung einen warmen, antiken Look verleiht. Ideal für Einzelhändler oder Distributoren, die glaubensinspirierten Schmuck in ihr Sortiment aufnehmen möchten.",
+      "catholicContext": "In der christlichen Tradition symbolisiert das Kreuz die Erlösung durch das Opfer Christi und wird oft als persönlicher Ausdruck des Glaubens getragen.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Ringe",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAE3TG7BAOVioqqEY6eo-9E_",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Hf2eef34e9cdf418781dc4871d3f2c85c3.webp",
+      "imageAlt": "Vintage rote Zirkon-Kreuz-Anhängerohrringe",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf2eef34e9cdf418781dc4871d3f2c85c3.webp",
+          "alt": "Vintage rote Zirkon-Kreuz-Anhängerohrringe"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6923198e05f44a43bcaa411b8b0a97bbR.webp",
+          "alt": "Vintage rote Zirkon-Kreuz-Anhängerohrringe"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H44b7fcf9f2a34d639dd164dc43545eeeO.webp",
+          "alt": "Vintage rote Zirkon-Kreuz-Anhängerohrringe"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He0bd8de630854bc7ad59d78296851dabf.webp",
+          "alt": "Vintage rote Zirkon-Kreuz-Anhängerohrringe"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3b77945e2fc94bad8b8cd9eb5d52bcb0a.webp",
+          "alt": "Vintage rote Zirkon-Kreuz-Anhängerohrringe"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Kupferbeschichtete Zinklegierung für einen antiken Look",
+        "Roter Zirkon als Hauptstein",
+        "Anhänger-Ohrring-Stil",
+        "Religiöses Kreuzdesign mit gotischen Flammenakzenten",
+        "Vintage-inspirierte Ästhetik"
+      ],
+      "specifications": [
+        {
+          "name": "Hauptmaterial",
+          "value": "Legierung (Zinklegierung)"
+        },
+        {
+          "name": "Beschichtung",
+          "value": "Kupfer"
+        },
+        {
+          "name": "Hauptstein",
+          "value": "Zirkon"
+        },
+        {
+          "name": "Stil",
+          "value": "Religiös"
+        },
+        {
+          "name": "Ohrring-Typ",
+          "value": "Anhänger"
+        }
+      ],
+      "applications": [
+        "Religiös gestaltete Schmuckkollektionen",
+        "Gothic- oder Vintage-Mode-Outfits",
+        "Geschenkartikel für glaubensbasierte Anlässe",
+        "Einzelhandelspräsentation in Accessoire-Geschäften"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchen Materialien bestehen diese Ohrringe?",
+          "answer": "Die Ohrringe bestehen aus Zinklegierung mit Kupferbeschichtung und haben einen roten Zirkonstein."
+        },
+        {
+          "question": "Welchen Stil repräsentieren diese Ohrringe?",
+          "answer": "Sie sind als religiöser Stil kategorisiert, mit einem Kreuz- und gotischen Flammendesign."
+        },
+        {
+          "question": "Sind diese Ohrringe für Großbestellungen geeignet?",
+          "answer": "Ja, sie sind als Großhandelsartikel gelistet, aber spezifische Bestelldetails erhalten Sie, wenn Sie uns kontaktieren."
+        }
+      ],
+      "pricing": {
+        "price": "2.34",
+        "regularPrice": "2.34",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.69",
+          "max": "2.34"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Vintage Ohrringe mit rotem Zirkon-Kreuz-Anhänger",
+          "description": "Vintage-Anhängerohrringe mit einem roten Zirkon-Kreuz und gotischen Flammenverzierungen. Hergestellt aus kupferbeschichteter Zinklegierung, eignen sich diese religiös gestalteten Ohrringe für Großhandelskäufer, die auffällige Accessoires mit andächtigem Motiv suchen.",
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eo-9E_",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf2eef34e9cdf418781dc4871d3f2c85c3.jpg",
+            "https://sc04.alicdn.com/kf/H6923198e05f44a43bcaa411b8b0a97bbR.jpg",
+            "https://sc04.alicdn.com/kf/H44b7fcf9f2a34d639dd164dc43545eeeO.jpg",
+            "https://sc04.alicdn.com/kf/He0bd8de630854bc7ad59d78296851dabf.jpg",
+            "https://sc04.alicdn.com/kf/H3b77945e2fc94bad8b8cd9eb5d52bcb0a.jpg"
+          ],
+          "category": "Ringe",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Hauptmaterial",
+              "value": "Legierung (Zinklegierung)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Beschichtung",
+              "value": "Kupfer"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Hauptstein",
+              "value": "Zirkon"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Religiös"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Ohrring-Typ",
+              "value": "Anhänger"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.34",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.69",
+              "maxPrice": "2.34",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchen Materialien bestehen diese Ohrringe?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Ohrringe bestehen aus Zinklegierung mit Kupferbeschichtung und haben einen roten Zirkonstein."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welchen Stil repräsentieren diese Ohrringe?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sie sind als religiöser Stil kategorisiert, mit einem Kreuz- und gotischen Flammendesign."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Sind diese Ohrringe für Großbestellungen geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, sie sind als Großhandelsartikel gelistet, aber spezifische Bestelldetails erhalten Sie, wenn Sie uns kontaktieren."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "contentHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:50.815Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "contentHash": "9258261a389720ad14b937b8adbefe60188682109fc5ab9b12e838f9d0a4f845",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:13:51.065Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHCTG7BAOVioqqEY6eo-oaW",
+      "sourceId": "AAHCTG7BAOVioqqEY6eo-oaW",
+      "sourceFingerprint": "059e0f81d1068767a49a0034f0eee32659905dfe19bf3e64b2a449bd05b5a8d3",
+      "locale": "de",
+      "slug": "colorful-acrylic-cross-beads-for-diy-jewelry-eo-oaw",
+      "title": "Bunte Acryl-Kreuzperlen für DIY-Schmuck",
+      "eyebrow": "Acryl-Kreuzperlen",
+      "summary": "Diese Acryl-Kreuzperlen sind in sieben Farben erhältlich, darunter Schwarz, Grün, Seeblau, Pink, Lila, Königsblau und Weiß. Sie eignen sich für die Herstellung von Armbändern und Halsketten und bieten eine leichte Option für DIY-Schmuckprojekte.",
+      "description": "Bei der Beschaffung von Perlen für glaubensbasierte Schmucklinien sind Farboptionen und Materialkonsistenz wichtig. Diese Acryl-Kreuzperlen sind in sieben verschiedenen Farben erhältlich, sodass Sie eine Vielzahl von Designpaletten abdecken können.\n\nJede Perle hat die Form eines Kreuzes und besteht aus Acryl, einem leichten Kunststoff, der dafür sorgt, dass fertige Stücke angenehm zu tragen sind. Das Sortiment umfasst Schwarz, Grün, Seeblau, Pink, Lila, Königsblau und Weiß, sodass Sie aufeinander abgestimmte Sets erstellen oder Farbtöne für Kontraste mischen können.\n\nDa es sich um Perlen handelt, können sie mit Kordel, Draht oder Gummiband aufgefädelt werden, um Armbänder und Halsketten zusammenzusetzen. Bitte überprüfen Sie Lochgröße und Perlenabmessungen mit uns, wenn Ihr Design eine spezifische Passung erfordert.",
+      "catholicContext": "Ein schlichtes Kreuz ist ein anerkanntes christliches Symbol, unterscheidet sich jedoch von einem Kruzifix, das den Leib Christi trägt.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Schmuck & Accessoires",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2122e629547f465da08a08eff736de51K.webp",
+      "imageAlt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2122e629547f465da08a08eff736de51K.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7c975c1affc44cda8829fa65207d641ee.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H68f966edc2754e39a272dea3f15e7633t.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfcac0af432c34862b5803b56f6f5b23fY.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd99f59bc400642eb83584adaa6133d79m.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hca7fdefa164c4be6bed05c26a0f0ede2l.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck - schwarzes Kreuz",
+          "label": "black-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd7fe7665cb6a4cd4a9e95628da6a95a2U.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck - lila Kreuz",
+          "label": "purple-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H71bf91ad66d740b29d877cb4472f676bC.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck - weißes Kreuz",
+          "label": "white-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H678380395557479c9eadb0b46b9fb30b2.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck - königsblaues Kreuz",
+          "label": "royal-blue-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H70da3455c2924dcf9b003d2d8ae68b5bZ.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck - grünes Kreuz",
+          "label": "green-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hae0edea135d74db6a3f1a5e74e3a6f6fQ.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck - seelblaues Kreuz",
+          "label": "lake-blue-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1458c8c1cbb74137b83e62dbf342b860d.webp",
+          "alt": "Bunte Acryl-Kreuzperlen für DIY-Schmuck - pinkes Kreuz",
+          "label": "pink-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--1"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Erhältlich in 7 Farben: Schwarz, Grün, Seeblau, Pink, Lila, Königsblau, Weiß",
+        "Hergestellt aus Acryl, einem leichten Material",
+        "Kreuzform geeignet für glaubensbasierte oder dekorative Schmuckstücke",
+        "Für DIY-Armband- und Halskettenherstellung gedacht",
+        "Großhandelsmenge für Bastelprojekte in großen Mengen"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Acryl"
+        },
+        {
+          "name": "Form",
+          "value": "Kreuz"
+        },
+        {
+          "name": "Verfügbare Farben",
+          "value": "Schwarz, Grün, Seeblau, Pink, Lila, Königsblau, Weiß"
+        }
+      ],
+      "applications": [
+        "Armbandherstellung",
+        "Halskettenherstellung",
+        "DIY-Schmuckzubehör",
+        "Bastelprojekte in großen Mengen"
+      ],
+      "faq": [
+        {
+          "question": "Welche Farben sind für diese Acryl-Kreuzperlen erhältlich?",
+          "answer": "Die Perlen sind in sieben Farben erhältlich: Schwarz, Grün, Seeblau, Pink, Lila, Königsblau und Weiß."
+        },
+        {
+          "question": "Aus welchem Material bestehen diese Kreuzperlen?",
+          "answer": "Sie bestehen aus Acryl, einem leichten Kunststoff, der häufig in der Schmuckherstellung verwendet wird."
+        },
+        {
+          "question": "Können diese Perlen sowohl für Armbänder als auch für Halsketten verwendet werden?",
+          "answer": "Ja, sie sind für DIY-Armband- und Halskettenherstellung gedacht. Möglicherweise müssen Sie jedoch die Lochgröße der Perlen überprüfen, um die Kompatibilität mit Ihrer Kordel oder Ihrem Draht sicherzustellen."
+        }
+      ],
+      "pricing": {
+        "price": "0.04",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.02",
+          "max": "0.04"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Bunte Acryl-Kreuzperlen für DIY-Schmuck",
+          "description": "Diese Acryl-Kreuzperlen sind in sieben Farben erhältlich, darunter Schwarz, Grün, Seeblau, Pink, Lila, Königsblau und Weiß. Sie eignen sich für die Herstellung von Armbändern und Halsketten und bieten eine leichte Option für DIY-Schmuckprojekte.",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2122e629547f465da08a08eff736de51K.jpg",
+            "https://sc04.alicdn.com/kf/H7c975c1affc44cda8829fa65207d641ee.jpg",
+            "https://sc04.alicdn.com/kf/H68f966edc2754e39a272dea3f15e7633t.jpg",
+            "https://sc04.alicdn.com/kf/Hfcac0af432c34862b5803b56f6f5b23fY.jpg",
+            "https://sc04.alicdn.com/kf/Hd99f59bc400642eb83584adaa6133d79m.jpg"
+          ],
+          "category": "Schmuck & Accessoires",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Acryl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Form",
+              "value": "Kreuz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Verfügbare Farben",
+              "value": "Schwarz, Grün, Seeblau, Pink, Lila, Königsblau, Weiß"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.04",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.02",
+              "maxPrice": "0.04",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Farben sind für diese Acryl-Kreuzperlen erhältlich?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Perlen sind in sieben Farben erhältlich: Schwarz, Grün, Seeblau, Pink, Lila, Königsblau und Weiß."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Aus welchem Material bestehen diese Kreuzperlen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sie bestehen aus Acryl, einem leichten Kunststoff, der häufig in der Schmuckherstellung verwendet wird."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Können diese Perlen sowohl für Armbänder als auch für Halsketten verwendet werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, sie sind für DIY-Armband- und Halskettenherstellung gedacht. Möglicherweise müssen Sie jedoch die Lochgröße der Perlen überprüfen, um die Kompatibilität mit Ihrer Kordel oder Ihrem Draht sicherzustellen."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "contentHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:41.031Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "contentHash": "561191965b0ad767544629982a574aae365bd79f62bf4c91acbee6f381cc9cd7",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:13:59.261Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHxTG7BAOVioqqEY6e0cceB",
+      "sourceId": "AAHxTG7BAOVioqqEY6e0cceB",
+      "sourceFingerprint": "083475860d3b7bd1dc0b4e8d122a50c0b5b850544fffd1c2d1d55b09b9eb6297",
+      "locale": "de",
+      "slug": "metal-st-benedict-commemorative-badge-e0cceb",
+      "title": "Metall-Abzeichen des Heiligen Benedikt",
+      "eyebrow": "Gedenkabzeichen des Heiligen Benedikt",
+      "summary": "Ein Metallabzeichen im Vintage-Stil mit dem Heiligen Benedikt, geeignet als Auto-Schmuck oder Tischdekoration. Erhältlich in großer und kleiner Variante, verleiht dieses Gedenkstück jedem Raum eine traditionelle Note.",
+      "description": "Dieses Gedenkabzeichen des Heiligen Benedikt, gefertigt aus Metall mit Vintage-Oberfläche, dient als markantes Accessoire für Auto-Innenräume oder Schreibtisch-Arrangements. Sein Design spiegelt eine klassische Ästhetik wider und macht es zu einem vielseitigen Dekorationsgegenstand für alle, die traditionelle religiöse Bildsprache schätzen. In zwei Größen erhältlich, können Sie die Variante wählen, die am besten zu Ihrem Verwendungszweck passt. Die robuste Metallkonstruktion gewährleistet Langlebigkeit, während sein Gedenkcharakter es zu einer bedeutungsvollen Ergänzung einer persönlichen Sammlung oder als durchdachtes Geschenk für diejenigen macht, die den Heiligen Benedikt ehren.",
+      "catholicContext": "Die Benediktus-Medaille ist ein traditioneller Andachtsgegenstand im Katholizismus, der oft mit Schutz vor dem Bösen assoziiert wird, obwohl die spezifischen Merkmale dieses Abzeichens nicht im Detail beschrieben sind.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Schmuckstücke",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Ha0a13cba25904345a3b471eda1b5bb4ff.webp",
+      "imageAlt": "Metall-Gedenkabzeichen des Heiligen Benedikt",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha0a13cba25904345a3b471eda1b5bb4ff.webp",
+          "alt": "Metall-Gedenkabzeichen des Heiligen Benedikt"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hef84e10971c142f590b6362c1d330eafI.webp",
+          "alt": "Metall-Gedenkabzeichen des Heiligen Benedikt"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1fd05e8e0c9d4cf7b31646b8af3c6090R.webp",
+          "alt": "Metall-Gedenkabzeichen des Heiligen Benedikt"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf2fa18001ac44afd8981e1b2f866a384G.webp",
+          "alt": "Metall-Gedenkabzeichen des Heiligen Benedikt"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf942ecb2560f486a9d456fc2a225ca14e.webp",
+          "alt": "Metall-Gedenkabzeichen des Heiligen Benedikt"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hdee017ad60e54b07a821b2e7ee0bd823x.webp",
+          "alt": "Metall-Gedenkabzeichen des Heiligen Benedikt"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc4fb426118da4d01bd6495e2c268569ba.webp",
+          "alt": "Metall-Gedenkabzeichen des Heiligen Benedikt - klein",
+          "label": "klein",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha09b0d5f3f77470bb9446efee9b0be177.webp",
+          "alt": "Metall-Gedenkabzeichen des Heiligen Benedikt - groß",
+          "label": "groß",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB-V--1"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Metallkonstruktion im Vintage-Stil",
+        "Gedenkdesign des Heiligen Benedikt",
+        "Erhältlich in großen und kleinen Größen",
+        "Geeignet für Auto oder Schreibtisch"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Metall"
+        },
+        {
+          "name": "Stil",
+          "value": "Vintage"
+        },
+        {
+          "name": "Varianten",
+          "value": "Große Größe, klein"
+        }
+      ],
+      "applications": [
+        "Auto-Schmuck",
+        "Schreibtisch-Dekoration",
+        "Ausstellung in einem Hausaltar oder Gebetsecke",
+        "Sammlerstück"
+      ],
+      "faq": [
+        {
+          "question": "Welche Größen sind für dieses Benedikt-Abzeichen erhältlich?",
+          "answer": "Das Abzeichen wird in zwei Varianten angeboten: groß und klein. Wählen Sie je nach Platzierungspräferenz."
+        },
+        {
+          "question": "Aus welchem Material besteht dieses Abzeichen?",
+          "answer": "Es besteht aus Metall mit Vintage-Oberfläche, wie angegeben."
+        },
+        {
+          "question": "Ist dieses Abzeichen für den Außeneinsatz am Auto geeignet?",
+          "answer": "Obwohl es als Auto-Schmuck konzipiert ist, beachten Sie bitte, dass keine detaillierten Informationen zur Wetterbeständigkeit vorliegen. Für Langlebigkeit empfiehlt sich eine Innenaufstellung oder geschützter Einsatz."
+        }
+      ],
+      "pricing": {
+        "price": "0.68",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.68",
+          "max": "1.18"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Metall-Abzeichen des Heiligen Benedikt",
+          "description": "Ein Metallabzeichen im Vintage-Stil mit dem Heiligen Benedikt, geeignet als Auto-Schmuck oder Tischdekoration. Erhältlich in großer und kleiner Variante, verleiht dieses Gedenkstück jedem Raum eine traditionelle Note.",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB",
+          "image": [
+            "https://sc04.alicdn.com/kf/Ha0a13cba25904345a3b471eda1b5bb4ff.png",
+            "https://sc04.alicdn.com/kf/Hef84e10971c142f590b6362c1d330eafI.png",
+            "https://sc04.alicdn.com/kf/H1fd05e8e0c9d4cf7b31646b8af3c6090R.png",
+            "https://sc04.alicdn.com/kf/Hf2fa18001ac44afd8981e1b2f866a384G.png",
+            "https://sc04.alicdn.com/kf/Hf942ecb2560f486a9d456fc2a225ca14e.png",
+            "https://sc04.alicdn.com/kf/Hdee017ad60e54b07a821b2e7ee0bd823x.png"
+          ],
+          "category": "Schmuckstücke",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Metall"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Vintage"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianten",
+              "value": "Große Größe, klein"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.68",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.68",
+              "maxPrice": "1.18",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Größen sind für dieses Benedikt-Abzeichen erhältlich?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Abzeichen wird in zwei Varianten angeboten: groß und klein. Wählen Sie je nach Platzierungspräferenz."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Aus welchem Material besteht dieses Abzeichen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Es besteht aus Metall mit Vintage-Oberfläche, wie angegeben."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist dieses Abzeichen für den Außeneinsatz am Auto geeignet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Obwohl es als Auto-Schmuck konzipiert ist, beachten Sie bitte, dass keine detaillierten Informationen zur Wetterbeständigkeit vorliegen. Für Langlebigkeit empfiehlt sich eine Innenaufstellung oder geschützter Einsatz."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "contentHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:33.091Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "contentHash": "8af37f6210bea6439dc4da1b5685ac66b5d4b6732a74b114e016df8e78ea50bf",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:14:06.390Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFjTG7BAOVioqqEY6e0bn1A",
+      "sourceId": "AAFjTG7BAOVioqqEY6e0bn1A",
+      "sourceFingerprint": "36c1d2f73db3767bfef5d2f965658ed24059df5233d4c6ff45a28b05ee195ea0",
+      "locale": "de",
+      "slug": "hand-painted-enamel-metal-car-ornament-e0bn1a",
+      "title": "Handbemalter Emaill-Metall-Autoanhänger",
+      "eyebrow": "Emaillierter Autoanhänger aus Metall",
+      "summary": "Dieser handbemalte Emaillieranhänger aus Metall setzt einen farbenfrohen Akzent in Ihrem Autoinnenraum. Erhältlich in den Ausführungen Imitationsgold oder Weiß, eignet er sich für Armaturenbretter, Rückspiegel oder festliche Weihnachtsdekoration.",
+      "description": "Dieser Anhänger aus emailliertem Metall besticht durch eine handbemalte Oberfläche, die feine Details hervorhebt. Wählen Sie zwischen Imitationsgold und Weiß, passend zu Ihrem Stil. Dank seiner kompakten Größe und des geringen Gewichts lässt er sich leicht auf dem Armaturenbrett platzieren, am Rückspiegel aufhängen oder in die Weihnachtsdekoration integrieren. Die strapazierfähige Emailleschicht ist farbbeständig und sorgt für langanhaltende Farbintensität. Für Großhändler bietet dieser Anhänger eine vielseitige Option für Autozubehör-Sortimente oder saisonale Geschenksets. Die handbemalte Qualität verleiht ihm eine besondere Note, die Massenware oft vermissen lässt.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Schmuckstücke",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H1c5cf1b80aa24437b5146f1af14c43904.webp",
+      "imageAlt": "Handbemalter Emaill-Metall-Autoanhänger",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1c5cf1b80aa24437b5146f1af14c43904.webp",
+          "alt": "Handbemalter Emaill-Metall-Autoanhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H312bf1d9a2374846bf859ada0fec8276J.webp",
+          "alt": "Handbemalter Emaill-Metall-Autoanhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H53c4fe5756b446a2b2907b12316e3e99P.webp",
+          "alt": "Handbemalter Emaill-Metall-Autoanhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H73e825e83d244736ad8dddd3d98fe8d1d.webp",
+          "alt": "Handbemalter Emaill-Metall-Autoanhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha7f757a10b0a4ca59dbbd8a201b606feg.webp",
+          "alt": "Handbemalter Emaill-Metall-Autoanhänger"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1b74e8c46c764385a6a5fdf1837fb447V.webp",
+          "alt": "Handbemalter Emaill-Metall-Autoanhänger - weiß",
+          "label": "weiß",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb5cf2eca305042d198bcf479fcde060bl.webp",
+          "alt": "Handbemalter Emaill-Metall-Autoanhänger - Imitationsgold",
+          "label": "Imitationsgold",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A-V--1"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Handbemalte Emailleschicht für detailreiche Farben",
+        "Metallkonstruktion für Langlebigkeit",
+        "Erhältlich in Imitationsgold und Weiß",
+        "Kompakte Größe, geeignet für Autoinnenräume",
+        "Kann als Autoaccessoire oder Anhänger verwendet werden"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Emailliertes Metall"
+        },
+        {
+          "name": "Ausführung",
+          "value": "Imitationsgold, Weiß"
+        },
+        {
+          "name": "Kategorie",
+          "value": "Schmuckstücke"
+        }
+      ],
+      "applications": [
+        "Armaturenbrett-Dekoration",
+        "Dekoration zum Aufhängen am Rückspiegel",
+        "Weihnachtsbaum- oder Feiertagsdekoration",
+        "Innenraumakzent für Fahrzeuge"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchen Materialien besteht dieser Anhänger?",
+          "answer": "Der Anhänger besteht aus Metall mit einer Emailleschicht, die eine strapazierfähige und farbenfrohe Oberfläche bietet."
+        },
+        {
+          "question": "Welche Farbvarianten sind verfügbar?",
+          "answer": "Der Anhänger ist in zwei Varianten erhältlich: Imitationsgold und Weiß."
+        },
+        {
+          "question": "Wie kann dieser Anhänger verwendet werden?",
+          "answer": "Er kann auf dem Armaturenbrett platziert, am Rückspiegel aufgehängt oder als Teil der Weihnachts- oder Feiertagsdekoration verwendet werden."
+        }
+      ],
+      "pricing": {
+        "price": "1.25",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.85",
+          "max": "1.25"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Handbemalter Emaill-Metall-Autoanhänger",
+          "description": "Dieser handbemalte Emaillieranhänger aus Metall setzt einen farbenfrohen Akzent in Ihrem Autoinnenraum. Erhältlich in den Ausführungen Imitationsgold oder Weiß, eignet er sich für Armaturenbretter, Rückspiegel oder festliche Weihnachtsdekoration.",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1c5cf1b80aa24437b5146f1af14c43904.png",
+            "https://sc04.alicdn.com/kf/H312bf1d9a2374846bf859ada0fec8276J.png",
+            "https://sc04.alicdn.com/kf/H53c4fe5756b446a2b2907b12316e3e99P.png",
+            "https://sc04.alicdn.com/kf/H73e825e83d244736ad8dddd3d98fe8d1d.png",
+            "https://sc04.alicdn.com/kf/Ha7f757a10b0a4ca59dbbd8a201b606feg.png"
+          ],
+          "category": "Schmuckstücke",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Emailliertes Metall"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Ausführung",
+              "value": "Imitationsgold, Weiß"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kategorie",
+              "value": "Schmuckstücke"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.85",
+              "maxPrice": "1.25",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchen Materialien besteht dieser Anhänger?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Anhänger besteht aus Metall mit einer Emailleschicht, die eine strapazierfähige und farbenfrohe Oberfläche bietet."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Farbvarianten sind verfügbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Anhänger ist in zwei Varianten erhältlich: Imitationsgold und Weiß."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie kann dieser Anhänger verwendet werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Er kann auf dem Armaturenbrett platziert, am Rückspiegel aufgehängt oder als Teil der Weihnachts- oder Feiertagsdekoration verwendet werden."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "contentHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:01.968Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "contentHash": "a52c9eb26d7ea0a947e27b1957d461d1a3a0a0b9642d020d0c95e26ba7389340",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:14:13.499Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHJTG7BAOVioqqEY6e0b9PP",
+      "sourceId": "AAHJTG7BAOVioqqEY6e0b9PP",
+      "sourceFingerprint": "6a49dd30c63a8242cf55dbe3606a7c06b1d5b42242e988a8f77f3a5add53f87c",
+      "locale": "de",
+      "slug": "knitted-coin-pouch-backpack-charm-e0b9pp",
+      "title": "Gestrickter Münzbeutel Rucksack-Anhänger",
+      "eyebrow": "gestrickter Münzbeutel Rucksack-Anhänger",
+      "summary": "Ein quadratischer gestrickter Münzbeutel, der auch als cartoonartiger Rucksack-Anhänger dient. Erhältlich in 11 Farbvarianten. Kompakte Aufbewahrung für Münzen oder kleine Gegenstände, mit kreativem Anhänger-Stil. Geeignet für Partygeschenke oder Geschenktüten.",
+      "description": "Dieser gestrickte Münzbeutel verleiht dem Alltag einen verspielten, handgefertigten Look. Seine quadratische Form und der cartoonartige Stil heben ihn als Rucksack-Anhänger hervor, während das Innere des Beutels einen einfachen Platz für Münzen oder kleine Utensilien bietet. Erhältlich in 11 Farbvarianten eignet er sich für den Einzelhandel, Partygeschenke oder Veranstaltungs-Giveaways. Die Strickkonstruktion verleiht ihm eine weiche Textur, und die angebrachte Schlaufe ermöglicht das Aufhängen an Taschen, Schlüsselringen oder Reißverschlüssen. Für Großhandelskäufer unterstützt die Farbvielfalt gemischte Bestellungen. Dieses Produkt enthält keine Kette oder Clip; die Aufhängemethode hängt vom Schlaufendesign ab.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "160",
+          "name": "Unkategorisiert",
+          "slug": "uncategorized"
+        }
+      ],
+      "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
+      "imageAlt": "Gestrickter Münzbeutel Rucksack-Anhänger",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc83b4d77db3241b5a04ace4fe0f12ae8k.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd6673f9211b4dc7b288672d5dfaefb6P.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H19ac6e14de64435d8a39503de3addd693.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfb561fcf008e4629a75b4ae35550689bX.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H44c7c47d5b0048c58b56947b79870c269.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He246024cb5104523a85accbb04ca0307N.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-11",
+          "label": "Farbe-11",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6c9a668329ea49e892f92de2e6c6ed0da.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-10",
+          "label": "Farbe-10",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd27f11b7a5446b2aca4832e252e9a83U.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-9",
+          "label": "Farbe-9",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0856c8c365004274b9bdaed95f3325ecw.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-8",
+          "label": "Farbe-8",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3af22ce9854e43e3bf52345c2e0d4897X.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-7",
+          "label": "Farbe-7",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd314beb742bf47069b2cc928556a5a41d.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-6",
+          "label": "Farbe-6",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha5eee002736b4335bf46af9083ccb2a1V.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-5",
+          "label": "Farbe-5",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfadfc67210cf41ceac95de8c915e26cc5.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-4",
+          "label": "Farbe-4",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H56e5611199c948318e7da714b5a2cb020.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-3",
+          "label": "Farbe-3",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd4492b36e1ae4984b3afc64c03408effS.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-2",
+          "label": "Farbe-2",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc2ab6231904b4b16aa2b1a1676e63833j.webp",
+          "alt": "Gestrickter Münzbeutel Rucksack-Anhänger - Farbe-1",
+          "label": "Farbe-1",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--1"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Gestrickte Konstruktion mit quadratischer Form",
+        "Cartoonartiger, kreativer Anhänger-Stil",
+        "In 11 verschiedenen Farbvarianten erhältlich",
+        "Beutelöffnung zur Aufbewahrung von Münzen oder kleinen Gegenständen",
+        "Schlaufe zum Anbringen an Rucksäcken, Taschen oder Schlüsselringen",
+        "Großhandelsverpackung für Partygeschenke oder den Einzelhandel"
+      ],
+      "specifications": [
+        {
+          "name": "Farbvarianten",
+          "value": "11 Optionen (Farbe 1 bis Farbe 11)"
+        },
+        {
+          "name": "Stil",
+          "value": "Quadratisch, cartoonartiger Anhänger"
+        },
+        {
+          "name": "Hauptmaterial",
+          "value": "Gestrickter Textilstoff"
+        }
+      ],
+      "applications": [
+        "Als dekorativer Anhänger am Rucksack befestigen",
+        "Münzen oder kleine Gegenstände im Beutel aufbewahren",
+        "Als Partygeschenk oder Geschenktütenfüller verwenden",
+        "Im Einzelhandel oder auf Märkten als Neuheitsartikel präsentieren"
+      ],
+      "faq": [
+        {
+          "question": "Welche Farboptionen sind verfügbar?",
+          "answer": "Dieser gestrickte Münzbeutel ist in 11 Farbvarianten erhältlich, die als Farbe 1 bis Farbe 11 aufgeführt sind. Spezifische Farbnamen werden nicht angegeben; kontaktieren Sie uns für genaue Farbdetails."
+        },
+        {
+          "question": "Wie wird der Beutel an einem Rucksack befestigt?",
+          "answer": "Der Beutel hat eine Schlaufe, die durch einen Tragegriff, einen Reißverschluss oder einen Schlüsselring gefädelt werden kann. Es ist kein separater Clip oder Kette enthalten; je nach Befestigungspunkt müssen Sie möglicherweise Ihren eigenen hinzufügen."
+        },
+        {
+          "question": "Wird dieser Artikel einzeln oder im Set verkauft?",
+          "answer": "Das Angebot weist auf Großhandelsverfügbarkeit hin, aber die genaue Stückzahl pro Bestellung ist nicht angegeben. Kontaktieren Sie uns für Verpackungs- und Mindestbestellmengen-Details."
+        }
+      ],
+      "pricing": {
+        "price": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.43",
+          "max": "0.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gestrickter Münzbeutel Rucksack-Anhänger",
+          "description": "Ein quadratischer gestrickter Münzbeutel, der auch als cartoonartiger Rucksack-Anhänger dient. Erhältlich in 11 Farbvarianten. Kompakte Aufbewahrung für Münzen oder kleine Gegenstände, mit kreativem Anhänger-Stil. Geeignet für Partygeschenke oder Geschenktüten.",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
+          "image": [
+            "https://sc04.alicdn.com/kf/H92a7c5fb923345d091a1c6a0d147b3fcS.png",
+            "https://sc04.alicdn.com/kf/Hc83b4d77db3241b5a04ace4fe0f12ae8k.png",
+            "https://sc04.alicdn.com/kf/Hcd6673f9211b4dc7b288672d5dfaefb6P.png",
+            "https://sc04.alicdn.com/kf/H19ac6e14de64435d8a39503de3addd693.png",
+            "https://sc04.alicdn.com/kf/Hfb561fcf008e4629a75b4ae35550689bX.png",
+            "https://sc04.alicdn.com/kf/H44c7c47d5b0048c58b56947b79870c269.png"
+          ],
+          "category": "Unkategorisiert",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Farbvarianten",
+              "value": "11 Optionen (Farbe 1 bis Farbe 11)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Quadratisch, cartoonartiger Anhänger"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Hauptmaterial",
+              "value": "Gestrickter Textilstoff"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.43",
+              "maxPrice": "0.45",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Farboptionen sind verfügbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dieser gestrickte Münzbeutel ist in 11 Farbvarianten erhältlich, die als Farbe 1 bis Farbe 11 aufgeführt sind. Spezifische Farbnamen werden nicht angegeben; kontaktieren Sie uns für genaue Farbdetails."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie wird der Beutel an einem Rucksack befestigt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Beutel hat eine Schlaufe, die durch einen Tragegriff, einen Reißverschluss oder einen Schlüsselring gefädelt werden kann. Es ist kein separater Clip oder Kette enthalten; je nach Befestigungspunkt müssen Sie möglicherweise Ihren eigenen hinzufügen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wird dieser Artikel einzeln oder im Set verkauft?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Angebot weist auf Großhandelsverfügbarkeit hin, aber die genaue Stückzahl pro Bestellung ist nicht angegeben. Kontaktieren Sie uns für Verpackungs- und Mindestbestellmengen-Details."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "contentHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:39.882Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "contentHash": "9b138ea99d73bbb88d2440e6930b0bf44ddadd683610137ffdebea77050e84c3",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:14:23.090Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHsTG7BAOVioqqEY6e0w0ar",
+      "sourceId": "AAHsTG7BAOVioqqEY6e0w0ar",
+      "sourceFingerprint": "84366b9d77cdfcf42118fd2a867418b08a4a48508d8639a84d60e9865318e8e4",
+      "locale": "de",
+      "slug": "retro-electroplated-religious-keychain-e0w0ar",
+      "title": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv",
+      "eyebrow": "Religiöser Schlüsselanhänger",
+      "summary": "Dieser Retro-Schlüsselanhänger verfügt über einen galvanisierten Metallkörper mit einem geprägten, religiös inspirierten Design und einer klaren Epoxidharz-Beschichtung. In mehreren Varianten und Album-Optionen erhältlich, eignet er sich für den Großhandelsvertrieb an Geschenk- und Neuheitenläden.",
+      "description": "Dieser Schlüsselanhänger kombiniert eine Vintage-inspirierte, galvanisierte Metallbasis mit einem detaillierten Prägemuster, das mit einer schützenden Epoxidharzschicht überzogen ist. Das Design ist kreativ und religiös thematisiert, was ihn zu einem unverwechselbaren Accessoire macht.\n\nWählen Sie aus einer Reihe von Varianten, darunter verschiedene Album-Sets (Album-4, Album-6, Album-7, Album-8, Album-10) und spezifische Modelle wie Gd, Qdzs, Sz01 und Sz02. Die Vielfalt unterstützt gemischte Großhandelsbestellungen.\n\nDie kompakte Größe und die robuste Konstruktion machen ihn für den täglichen Gebrauch praktisch, während die Retro-Ästhetik Sammler und Geschenkkäufer gleichermaßen anspricht.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "83",
+          "name": "Schlüsselanhänger",
+          "slug": "keychains"
+        }
+      ],
+      "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H720ad721160442a1b196ffbaf27352af5.webp",
+      "imageAlt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H720ad721160442a1b196ffbaf27352af5.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha91760064f344a1b881c66943d47e7aa2.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd30b496ddfcb47c78cd03c1221ddafa8F.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Heddb48b63e2b473ca21bab6413406151M.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H89e17ae874e64f25b23a09a98b48a7f86.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H76c8f06b2ba64217a81d4c39d303a569p.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H48fd441765174d43b9585d99b5cec601f.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - qdzs-keychain",
+          "label": "qdzs-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H505331eac5954828ac7fb1964d59cf4co.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - qdzs",
+          "label": "qdzs",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb03838d299c04f56a649d4562e90c53aU.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - gd-keychain",
+          "label": "gd-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--19"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H29c1415392fc4dda9e6ab2265ad669cdT.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - gd",
+          "label": "gd",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--20"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3019f0cdbb04461e95d768eb3992b6eak.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - photo-album-1",
+          "label": "photo-album-1",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9217061f3fe2419bad89dece77d309a1I.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - photo-album-2",
+          "label": "photo-album-2",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7042755f74cd4d3492a78ddc86012454i.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - photo-album-3",
+          "label": "photo-album-3",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H37685d16d3274bfe9a0bc07fc4e5fa9f2.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - album-4",
+          "label": "album-4",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3cb169d8d19e41e3a7a7af8d6db40d3ax.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - photo-album-5",
+          "label": "photo-album-5",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5b134da4d8024b5785bcba82a2cecb329.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - album-6",
+          "label": "album-6",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H55eec7330d9b4571b75de39a641fcad1R.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - album-7",
+          "label": "album-7",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7b14e086c07948e78b7da22e909e39d1O.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - album-8",
+          "label": "album-8",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H359bae7f463347b6b04c12fec80424f59.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - photo-album-9",
+          "label": "photo-album-9",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hae36d021c6ec4f7d9a71daa943f21d90q.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - album-10",
+          "label": "album-10",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H75d0a04d87d54d5cbc6d8c6b76264bbf6.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - photo-album-11",
+          "label": "photo-album-11",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hed94969b362f4b6d9295952f7595cc74X.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - photo-album-12",
+          "label": "photo-album-12",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H39f462ff8af4436b83aabd82ed1d15734.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - sz01-keychain",
+          "label": "sz01-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H153cfff0be014028a3e16486cef30af0s.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - sz01",
+          "label": "sz01",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3e8fbeea301c4251a6d042a7bde674e6m.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - sz02-keychain",
+          "label": "sz02-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9206e6706db04a9abfae99249d11a3a03.webp",
+          "alt": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv - sz02",
+          "label": "sz02",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--16"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Galvanisierte Metallkonstruktion für eine langlebige, glänzende Oberfläche",
+        "Geprägtes Muster verleiht Textur und visuelle Details",
+        "Epoxidharz-Beschichtung schützt das Design und verstärkt den Glanz",
+        "Kreatives, russisch inspiriertes religiöses Design",
+        "Mehrere Varianten und Album-Sets zur Auswahl"
+      ],
+      "specifications": [
+        {
+          "name": "Hauptmaterial",
+          "value": "Metall"
+        },
+        {
+          "name": "Oberfläche",
+          "value": "Galvanisiert und epoxidbeschichtet"
+        },
+        {
+          "name": "Design",
+          "value": "Geprägtes religiöses Motiv"
+        },
+        {
+          "name": "Varianten",
+          "value": "Album-4, Album-6, Album-7, Album-8, Album-10, Gd, Qdzs, Sz01, Sz02 und mehr"
+        }
+      ],
+      "applications": [
+        "Schlüsselanhänger für den persönlichen Gebrauch",
+        "Handelsware in Geschenkartikelläden",
+        "Sammlerstück für Enthusiasten",
+        "Werbegeschenk oder Souvenir"
+      ],
+      "faq": [
+        {
+          "question": "Welche Materialien werden für diesen Schlüsselanhänger verwendet?",
+          "answer": "Der Schlüsselanhänger besteht aus Metall mit einer galvanisierten Oberfläche und einer schützenden Epoxidharz-Beschichtung über dem geprägten Design."
+        },
+        {
+          "question": "Welches Design ist auf diesem Schlüsselanhänger abgebildet?",
+          "answer": "Das Design ist ein Retro-, religiös inspiriertes Motiv mit einem geprägten Muster, das in den Produktinformationen als 'kreatives Russland-Design' beschrieben wird."
+        },
+        {
+          "question": "Welche Varianten sind für diesen Schlüsselanhänger erhältlich?",
+          "answer": "Erhältliche Varianten umfassen Album-Sets wie Album-4, Album-6, Album-7, Album-8 und Album-10 sowie einzelne Modelle wie Gd, Qdzs, Sz01 und Sz02."
+        }
+      ],
+      "pricing": {
+        "price": "0.37",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.30",
+          "max": "0.37"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Retro Schlüsselanhänger mit galvanischer Beschichtung und religiösem Motiv",
+          "description": "Dieser Retro-Schlüsselanhänger verfügt über einen galvanisierten Metallkörper mit einem geprägten, religiös inspirierten Design und einer klaren Epoxidharz-Beschichtung. In mehreren Varianten und Album-Optionen erhältlich, eignet er sich für den Großhandelsvertrieb an Geschenk- und Neuheitenläden.",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar",
+          "image": [
+            "https://sc04.alicdn.com/kf/H720ad721160442a1b196ffbaf27352af5.png",
+            "https://sc04.alicdn.com/kf/Ha91760064f344a1b881c66943d47e7aa2.png",
+            "https://sc04.alicdn.com/kf/Hd30b496ddfcb47c78cd03c1221ddafa8F.png",
+            "https://sc04.alicdn.com/kf/Heddb48b63e2b473ca21bab6413406151M.png",
+            "https://sc04.alicdn.com/kf/H89e17ae874e64f25b23a09a98b48a7f86.png",
+            "https://sc04.alicdn.com/kf/H76c8f06b2ba64217a81d4c39d303a569p.png"
+          ],
+          "category": "Schlüsselanhänger",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Hauptmaterial",
+              "value": "Metall"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Oberfläche",
+              "value": "Galvanisiert und epoxidbeschichtet"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Geprägtes religiöses Motiv"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianten",
+              "value": "Album-4, Album-6, Album-7, Album-8, Album-10, Gd, Qdzs, Sz01, Sz02 und mehr"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.37",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.30",
+              "maxPrice": "0.37",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Materialien werden für diesen Schlüsselanhänger verwendet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Schlüsselanhänger besteht aus Metall mit einer galvanisierten Oberfläche und einer schützenden Epoxidharz-Beschichtung über dem geprägten Design."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welches Design ist auf diesem Schlüsselanhänger abgebildet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Design ist ein Retro-, religiös inspiriertes Motiv mit einem geprägten Muster, das in den Produktinformationen als 'kreatives Russland-Design' beschrieben wird."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Varianten sind für diesen Schlüsselanhänger erhältlich?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Erhältliche Varianten umfassen Album-Sets wie Album-4, Album-6, Album-7, Album-8 und Album-10 sowie einzelne Modelle wie Gd, Qdzs, Sz01 und Sz02."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "contentHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:14.413Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "contentHash": "3babadef69168eb25b282c92935fa3758be3b811ddf78c67534082daade9be35",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:14:33.974Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEwTG7BAOVioqqEY6e6dfkE",
+      "sourceId": "AAEwTG7BAOVioqqEY6e6dfkE",
+      "sourceFingerprint": "43c74a33721fcd6e9808bc7edfec530b6f92f0393b7c526aa8d8aa2cb69a856b",
+      "locale": "de",
+      "slug": "cross-border-middle-eastern-copper-micro-inlaid-diamond-bamboo-e6dfke",
+      "title": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus",
+      "eyebrow": "Accessoires",
+      "summary": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus Sportlich Premium Modern Beliebt Durchbrochen Allrounder",
+      "description": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus Sportlich Premium Modern Beliebt Durchbrochen Allrounder",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Schmuck & Accessoires",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
+      "imageAlt": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
+          "alt": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H66b1f2886bb14245b185aff88ef37e36B.webp",
+          "alt": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf645ae0acb5540faaed47cb274db792fg.webp",
+          "alt": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbb45184635494625a08c06fc9c9756abU.webp",
+          "alt": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hec9f09231885445cad2c18380ad97e9cr.webp",
+          "alt": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1d01ac755a6e40e08139f95891c0c504K.webp",
+          "alt": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbcdea57f4dd1452db16503cf47564b34Y.webp",
+          "alt": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus - oval-farbig-zirkonium55-titanstahl-halskette-opp-verpackung",
+          "label": "oval-farbig-zirkonium55-titanstahl-halskette-opp-verpackung",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha2cd3328f40e4e75a0a6b50fb08c8379D.webp",
+          "alt": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus - oval-weiß-zirkonium-55-titanstahl-halskette-opp-verpackung",
+          "label": "oval-weiß-zirkonium-55-titanstahl-halskette-opp-verpackung",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--1"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Variante: Oval-farbig Zirkonium+55 Titanstahl Halskette-opp Verpackung, Oval-weiß Zirkonium + 55 Titanstahl Halskette-opp Verpackung"
+      ],
+      "specifications": [
+        {
+          "name": "Variante",
+          "value": "Oval-farbig Zirkonium+55 Titanstahl Halskette-opp Verpackung, Oval-weiß Zirkonium + 55 Titanstahl Halskette-opp Verpackung"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.71",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.24",
+          "max": "1.71"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus",
+          "description": "Grenzüberschreitender nahöstlicher Kupfer-Mikro-Inlay-Diamant-Bambus Sportlich Premium Modern Beliebt Durchbrochen Allrounder",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
+          "image": [
+            "https://sc04.alicdn.com/kf/H320df553fb0a4aac8624dc8865272ec8e.png",
+            "https://sc04.alicdn.com/kf/H66b1f2886bb14245b185aff88ef37e36B.png",
+            "https://sc04.alicdn.com/kf/Hf645ae0acb5540faaed47cb274db792fg.png",
+            "https://sc04.alicdn.com/kf/Hbb45184635494625a08c06fc9c9756abU.png",
+            "https://sc04.alicdn.com/kf/Hec9f09231885445cad2c18380ad97e9cr.png",
+            "https://sc04.alicdn.com/kf/H1d01ac755a6e40e08139f95891c0c504K.png"
+          ],
+          "category": "Schmuck & Accessoires",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Oval-farbig Zirkonium+55 Titanstahl Halskette-opp Verpackung, Oval-weiß Zirkonium + 55 Titanstahl Halskette-opp Verpackung"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.71",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.24",
+              "maxPrice": "1.71",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "contentHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:16.430Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "contentHash": "3a19f37dc9c60bcd440f3ee2003510c79700c9ee21b2ec01507d4add1fcb38ea",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:14:38.660Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE1TG7BAOVioqqEY6e5gBlf",
+      "sourceId": "AAE1TG7BAOVioqqEY6e5gBlf",
+      "sourceFingerprint": "a4f836fa97f47d16e6c7bb13b33b6b29d3d3b2d7d8a39caf8494aed2ca5abe68",
+      "locale": "de",
+      "slug": "bohemian-cross-beaded-elastic-bracelet-e5gblf",
+      "title": "Böhmisches Kreuz-Armband mit Perlen, elastisch",
+      "eyebrow": "Kreuz-Armband mit Perlen",
+      "summary": "Dieses Damenarmband zeichnet sich durch ein Kreuzmuster mit Eisenpyrit-Akzenten und Acrylperlen aus. Das elastische Band dehnt sich für ein bequemes Tragen und ist eine vielseitige Geschenkoption für religiös orientierten Schmuck.",
+      "description": "Auf der Suche nach einem Kreuzarmband, das Alltagsstil mit glaubensbasiertem Design verbindet? Dieses böhmische Perlenarmband kombiniert ein Kreuzmuster mit erdigen Eisenpyrit-Steinen und Acrylperlen in einem elastischen Band. Es ist für Frauen gefertigt und als religiöser Schmuck kategorisiert, aber sein lässiger Look passt sowohl zu Jeans als auch zu Kleidern. Jedes Armband ist leicht und in verschiedenen Farbvarianten erhältlich, wobei die genauen Farbtöne je nach Charge variieren können. Die Materialien Acryl und Harz sorgen für Langlebigkeit im täglichen Gebrauch, während das elastische Band ein einfaches Überstreifen ohne Verschluss ermöglicht. Als Geschenk eignet es sich für Anlässe wie Geburtstage, Taufen oder einfach als aufmerksames Zeichen des Glaubens.",
+      "catholicContext": "Das Kreuz ist ein zentrales Symbol des katholischen Glaubens und repräsentiert das Opfer Jesu Christi.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosenkranz-Armbänder",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAE1TG7BAOVioqqEY6e5gBlf",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hccd9cc58d7da455bb40ab6403c549108Y.webp",
+      "imageAlt": "Böhmisches Kreuz-Armband mit Perlen, elastisch",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hccd9cc58d7da455bb40ab6403c549108Y.webp",
+          "alt": "Böhmisches Kreuz-Armband mit Perlen, elastisch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ca42d33a9434ccbadaee464e708d062X.webp",
+          "alt": "Böhmisches Kreuz-Armband mit Perlen, elastisch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc53b762434524799b5f0542e9a67ac09H.webp",
+          "alt": "Böhmisches Kreuz-Armband mit Perlen, elastisch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0b0c7c8948b14e59811671601d9781f8m.webp",
+          "alt": "Böhmisches Kreuz-Armband mit Perlen, elastisch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H56adf5cf509b48bdb25a635bfc5c6d3bH.webp",
+          "alt": "Böhmisches Kreuz-Armband mit Perlen, elastisch"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H66ea2f7344eb45f6a414af7789816425G.webp",
+          "alt": "Böhmisches Kreuz-Armband mit Perlen, elastisch"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Perlenarmband mit Kreuzmuster",
+        "Hauptmaterialien: Acryl, Harz und Lucite",
+        "Mit Eisenpyrit-Akzentsteinen",
+        "Elastisches Band für eine dehnbare Passform, ohne Verschluss",
+        "Damen-Jewelry-Typ, im böhmischen Stil kategorisiert"
+      ],
+      "specifications": [
+        {
+          "name": "Materialien",
+          "value": "Acryl, Harz, Lucite, Eisenpyrit"
+        },
+        {
+          "name": "Armbandtyp",
+          "value": "Perlen, elastisch"
+        },
+        {
+          "name": "Stil",
+          "value": "Religiös, böhmisch"
+        },
+        {
+          "name": "Muster",
+          "value": "Kreuz"
+        },
+        {
+          "name": "Modellnummer",
+          "value": "QT-S24052502"
+        },
+        {
+          "name": "Geschlecht",
+          "value": "Damen"
+        },
+        {
+          "name": "Herkunft",
+          "value": "Guangzhou"
+        }
+      ],
+      "applications": [
+        "Tägliches Tragen als glaubensinspiriertes Accessoire",
+        "Geschenk für religiöse Anlässe wie Taufe oder Firmung",
+        "Kombinierbar mit anderen Armbändern für einen böhmischen Look",
+        "Lässige kirchliche Zusammenkünfte oder glaubensbasierte Veranstaltungen"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchen Materialien besteht dieses Kreuzarmband?",
+          "answer": "Das Armband ist aus Acryl-, Harz- und Lucite-Perlen gefertigt und enthält Eisenpyrit-Akzente für einen metallischen Glanz."
+        },
+        {
+          "question": "Ist das Armband verstellbar?",
+          "answer": "Es hat ein elastisches Band, das sich den meisten Handgelenkgrößen anpasst, ohne Verschluss, und lässt sich leicht überstreifen."
+        },
+        {
+          "question": "In welchen Stilen ist dieses Armband erhältlich?",
+          "answer": "Es ist im böhmischen Stil mit einem religiösen Kreuzmuster kategorisiert und für den Alltag oder glaubensbezogene Anlässe geeignet. Die Farbvarianten können variieren."
+        }
+      ],
+      "pricing": {
+        "price": "1.13",
+        "regularPrice": "1.13",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Böhmisches Kreuz-Armband mit Perlen, elastisch",
+          "description": "Dieses Damenarmband zeichnet sich durch ein Kreuzmuster mit Eisenpyrit-Akzenten und Acrylperlen aus. Das elastische Band dehnt sich für ein bequemes Tragen und ist eine vielseitige Geschenkoption für religiös orientierten Schmuck.",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6e5gBlf",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hccd9cc58d7da455bb40ab6403c549108Y.png",
+            "https://sc04.alicdn.com/kf/H6ca42d33a9434ccbadaee464e708d062X.png",
+            "https://sc04.alicdn.com/kf/Hc53b762434524799b5f0542e9a67ac09H.png",
+            "https://sc04.alicdn.com/kf/H0b0c7c8948b14e59811671601d9781f8m.png",
+            "https://sc04.alicdn.com/kf/H56adf5cf509b48bdb25a635bfc5c6d3bH.png",
+            "https://sc04.alicdn.com/kf/H66ea2f7344eb45f6a414af7789816425G.png"
+          ],
+          "category": "Rosenkranz-Armbänder",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materialien",
+              "value": "Acryl, Harz, Lucite, Eisenpyrit"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Armbandtyp",
+              "value": "Perlen, elastisch"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stil",
+              "value": "Religiös, böhmisch"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Muster",
+              "value": "Kreuz"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Modellnummer",
+              "value": "QT-S24052502"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Geschlecht",
+              "value": "Damen"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Herkunft",
+              "value": "Guangzhou"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.13",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchen Materialien besteht dieses Kreuzarmband?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Armband ist aus Acryl-, Harz- und Lucite-Perlen gefertigt und enthält Eisenpyrit-Akzente für einen metallischen Glanz."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist das Armband verstellbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Es hat ein elastisches Band, das sich den meisten Handgelenkgrößen anpasst, ohne Verschluss, und lässt sich leicht überstreifen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "In welchen Stilen ist dieses Armband erhältlich?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Es ist im böhmischen Stil mit einem religiösen Kreuzmuster kategorisiert und für den Alltag oder glaubensbezogene Anlässe geeignet. Die Farbvarianten können variieren."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "contentHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:31.059Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "contentHash": "5eb5690fe33022360fa6765312aad5996a68e5a925c237441ebe624bbbef2264",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:14:47.218Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE_TG7BAOVioqqEY6eBRoJy",
+      "sourceId": "AAE_TG7BAOVioqqEY6eBRoJy",
+      "sourceFingerprint": "5d2c76a8cb21aa149d7cf79e4276f1106c700632ffdd7fbffa436deff8e290cb",
+      "locale": "de",
+      "slug": "zinc-alloy-catholic-saint-charm-pendant-ebrojy",
+      "title": "Katholischer Heiligen-Anhänger aus Zinklegierung",
+      "eyebrow": "Katholischer Heiligen-Anhänger",
+      "summary": "Dieser Anhänger aus Zinklegierung zeigt runde religiöse Motive, darunter Jesus, einen Engel und die Madonna. Er ist in 20 nummerierten Varianten erhältlich und eignet sich für die Schmuckherstellung sowie persönliche Andachtsaccessoires. Eine praktische Wahl für Einzelhändler, die eine Auswahl an katholisch geprägten Anhängern suchen.",
+      "description": "Der Katholische Heiligen-Anhänger aus Zinklegierung ist ein kompaktes religiöses Accessoire mit runder Form. Seine Designs zeigen bekannte christliche Figuren: Jesus, einen Engel und die Madonna, was ihn zu einer vielseitigen Ergänzung für katholisch geprägte Schmuckkollektionen macht. Der Anhänger besteht aus Zinklegierung, einem Material, das für seine Haltbarkeit und feine Detailgenauigkeit bekannt ist. Er ist in 20 Varianten (nummeriert von 1 bis 20) erhältlich, sodass Käufer bestimmte Motive auswählen oder ein komplettes Set anbieten können. Ob zur Herstellung von Rosenkränzen, Halsketten oder Armbändern – dieser Anhänger bietet eine unkomplizierte Möglichkeit, Andachtsbilder in tragbare Gegenstände zu integrieren.",
+      "catholicContext": "Solche religiösen Anhänger stehen in Beziehung zur populären katholischen Frömmigkeit, die der Katechismus als eine Erweiterung, nicht als Ersatz des liturgischen Lebens der Kirche beschreibt.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Schmuck & Accessoires",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb1cc07c8732c468c885fa2f8a541c2f9c.webp",
+      "imageAlt": "Katholischer Heiligen-Anhänger aus Zinklegierung",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb1cc07c8732c468c885fa2f8a541c2f9c.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H85202657e5fc4a249462784b9a40fd00F.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5fab23bc08ec4fb186ea395b63420147U.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc544b91a02e14ff0a609833efd3d6d255.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H935fef7e0dc74d0a8a290ed9bc890152D.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H93bdc20a2caf4aac824c79637bff0cc4E.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hef28f55f11e44d549554d0d902347bfcm.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 10",
+          "label": "10",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7c49a47e10b3484e9e5d381e44fdc8c28.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 8",
+          "label": "8",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0c9dd500630a4bb49bbc4841bea3aaedY.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 17",
+          "label": "17",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H60aec1be728a4cd7b0e59e9c8d0bae64k.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 7",
+          "label": "7",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--16"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6136679e0963425a99af5a6557bf5ae3g.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 1",
+          "label": "1",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--21"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a7e8b1657b84ec2ab88a88fc532c099A.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 2",
+          "label": "2",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--19"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8b26ba35bf2b48518a456b7ba62c5decr.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 12",
+          "label": "12",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--20"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6be80b221a044f15a08555eb054ef09cG.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 20",
+          "label": "20",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0b9940e8a1c24dd4994a7b72e88036b4L.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 5",
+          "label": "5",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ad98e664fe342908c65c6de560e357aW.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 14",
+          "label": "14",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9044d5e2bb614f8a8d2f7a129fa3868bb.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 18",
+          "label": "18",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf1cd75f811524881974fad5cf6d2a335n.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 16",
+          "label": "16",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H32a538bde24947239eb8b756d326c3e5N.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 11",
+          "label": "11",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfa0c9e04b318401282e936c072f349b2W.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 15",
+          "label": "15",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9ee02e3b2b2c4fdea99980ce6897b038j.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 6",
+          "label": "6",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H46f75e895fbc4a62b5d33037e94f34d5C.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 4",
+          "label": "4",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0218d68400c4aab9beb4f12414f39b6O.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 13",
+          "label": "13",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hae01cab2731347508243d55f539555b22.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 19",
+          "label": "19",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7efa2788e5e043049f4136da1b467d09L.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 9",
+          "label": "9",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfb039cfc288d4f6f8450657cea97b904X.webp",
+          "alt": "Katholischer Heiligen-Anhänger aus Zinklegierung - 3",
+          "label": "3",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--4"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Hergestellt aus Zinklegierung, einem langlebigen Metall für den täglichen Gebrauch",
+        "Runde religiöse Motive mit Jesus, einem Engel und der Madonna",
+        "Erhältlich in 20 verschiedenen Varianten, nummeriert von 1 bis 20",
+        "Kompakte Größe, ideal für Charm-Armbänder, Halsketten oder Schlüsselanhänger",
+        "Katholisches Design, geeignet für Andachtsschmuck"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinklegierung"
+        },
+        {
+          "name": "Form",
+          "value": "Rund"
+        },
+        {
+          "name": "Design",
+          "value": "Religiöse Motive: Jesus, Engel, Madonna"
+        },
+        {
+          "name": "Varianten",
+          "value": "20 nummerierte Varianten (1-20)"
+        }
+      ],
+      "applications": [
+        "Herstellung von katholisch geprägten Halsketten oder Anhängern",
+        "Hinzufügen religiöser Charms zu Armbändern",
+        "Fertigung von Andachtsschmuck für den persönlichen Gebrauch",
+        "Beschaffung von Komponenten für Schmuckherstellungsunternehmen"
+      ],
+      "faq": [
+        {
+          "question": "Aus welchem Material besteht dieser Anhänger?",
+          "answer": "Der Anhänger ist aus Zinklegierung gefertigt, was eine haltbare und kostengünstige Basis für detaillierte religiöse Darstellungen bietet."
+        },
+        {
+          "question": "Welche Designs sind verfügbar?",
+          "answer": "Der Anhänger zeigt runde religiöse Motive, darunter Darstellungen von Jesus, einem Engel und der Madonna. Es gibt 20 verschiedene Varianten, nummeriert von 1 bis 20, die sich wahrscheinlich im spezifischen Bild oder der Oberfläche unterscheiden."
+        },
+        {
+          "question": "Kann ich bei der Bestellung eine bestimmte Variante auswählen?",
+          "answer": "Ja, das Produkt ist in 20 nummerierten Varianten erhältlich, sodass Sie das Design auswählen können, das am besten zu Ihren Bedürfnissen passt, oder eine Mischung für Abwechslung kaufen können."
+        }
+      ],
+      "pricing": {
+        "price": "0.28",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.22",
+          "max": "0.28"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Katholischer Heiligen-Anhänger aus Zinklegierung",
+          "description": "Dieser Anhänger aus Zinklegierung zeigt runde religiöse Motive, darunter Jesus, einen Engel und die Madonna. Er ist in 20 nummerierten Varianten erhältlich und eignet sich für die Schmuckherstellung sowie persönliche Andachtsaccessoires. Eine praktische Wahl für Einzelhändler, die eine Auswahl an katholisch geprägten Anhängern suchen.",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hb1cc07c8732c468c885fa2f8a541c2f9c.jpg",
+            "https://sc04.alicdn.com/kf/H85202657e5fc4a249462784b9a40fd00F.jpg",
+            "https://sc04.alicdn.com/kf/H5fab23bc08ec4fb186ea395b63420147U.jpg",
+            "https://sc04.alicdn.com/kf/Hc544b91a02e14ff0a609833efd3d6d255.jpg",
+            "https://sc04.alicdn.com/kf/H935fef7e0dc74d0a8a290ed9bc890152D.jpg",
+            "https://sc04.alicdn.com/kf/H93bdc20a2caf4aac824c79637bff0cc4E.jpg"
+          ],
+          "category": "Schmuck & Accessoires",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinklegierung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Form",
+              "value": "Rund"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Religiöse Motive: Jesus, Engel, Madonna"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Varianten",
+              "value": "20 nummerierte Varianten (1-20)"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.28",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.22",
+              "maxPrice": "0.28",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Aus welchem Material besteht dieser Anhänger?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Anhänger ist aus Zinklegierung gefertigt, was eine haltbare und kostengünstige Basis für detaillierte religiöse Darstellungen bietet."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Designs sind verfügbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Anhänger zeigt runde religiöse Motive, darunter Darstellungen von Jesus, einem Engel und der Madonna. Es gibt 20 verschiedene Varianten, nummeriert von 1 bis 20, die sich wahrscheinlich im spezifischen Bild oder der Oberfläche unterscheiden."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich bei der Bestellung eine bestimmte Variante auswählen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, das Produkt ist in 20 nummerierten Varianten erhältlich, sodass Sie das Design auswählen können, das am besten zu Ihren Bedürfnissen passt, oder eine Mischung für Abwechslung kaufen können."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "contentHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:09.259Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "contentHash": "1dcaf8afbd14682a4f5a5168a709b7a9b87ee2fb8947b7228aaa17739159fb28",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:14:58.714Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH5TG7BAOVioqqEY6eBRycG",
+      "sourceId": "AAH5TG7BAOVioqqEY6eBRycG",
+      "sourceFingerprint": "4cfa27fc0a886f3d6b623b3fd11b91e116cc53aef8486c0d59cf7407123ba23e",
+      "locale": "de",
+      "slug": "gold-plated-cross-pendant-with-jesus-ebrycg",
+      "title": "Vergoldetes Kreuz-Anhänger mit Jesus",
+      "eyebrow": "Vergoldetes Metallkreuz-Anhänger",
+      "summary": "Ein vergoldetes Kreuz-Anhänger mit den Maßen 5,8 x 12 cm, gefertigt aus Metalllegierung mit vergoldeter Oberfläche. Dieses dekorative Kreuz kann als Gebetshilfe, Schmuckstück oder durchdachtes Geschenk für verschiedene Anlässe dienen.",
+      "description": "Dieses vergoldete Kreuz-Anhänger bietet eine klare, traditionelle Kreuzform in kompakter Größe. Mit den Maßen 5,8 x 12 cm ist es aus Metalllegierung mit vergoldeter Oberfläche gefertigt, was ihm ein poliertes Aussehen verleiht. Das Design ist schlicht und vielseitig, geeignet für die Verwendung als Wohnkultur, Weihnachtsschmuck oder Souvenir. Seine Abmessungen ermöglichen eine einfache Präsentation an einer Wand, auf einem Ständer oder Regal. Ob für persönliche Andacht oder als Geschenk, dieses Kreuz bietet ein erkennbares Symbol des christlichen Glaubens. Die vergoldete Metallkonstruktion gewährleistet Langlebigkeit für Handhabung und Präsentation. Betrachten Sie es für Weihnachten, Ostern oder andere religiöse Geschenkanlässe.",
+      "catholicContext": "Ein Kreuz-Anhänger kann als sichtbarer Ausdruck des christlichen Glaubens dienen, ist aber nicht automatisch ein Sakramentale, es sei denn, es wurde von der Kirche gesegnet.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Schmuckstücke",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAH5TG7BAOVioqqEY6eBRycG",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H6204fe4a266944529a41b59077832c49W.webp",
+      "imageAlt": "Vergoldetes Kreuz-Anhänger mit Jesus",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6204fe4a266944529a41b59077832c49W.webp",
+          "alt": "Vergoldetes Kreuz-Anhänger mit Jesus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7081a2ed9c6d432281abd70db1ba1d6b8.webp",
+          "alt": "Vergoldetes Kreuz-Anhänger mit Jesus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3f2405277408405b9812239d7ee5cafb1.webp",
+          "alt": "Vergoldetes Kreuz-Anhänger mit Jesus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63ac6777acfe49839acdf230b9c82c76k.webp",
+          "alt": "Vergoldetes Kreuz-Anhänger mit Jesus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H08d1b54a97d6497bafd7ebca69c4a9acu.webp",
+          "alt": "Vergoldetes Kreuz-Anhänger mit Jesus"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Vergoldete Oberfläche für ein glänzendes Aussehen",
+        "Maße: 5,8 x 12 cm",
+        "Hergestellt aus Metalllegierung",
+        "Kreuzform-Design",
+        "Geeignet für mehrere Anwendungen, einschließlich Innendekoration und Geschenke"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Metalllegierung"
+        },
+        {
+          "name": "Beschichtung",
+          "value": "Vergoldet"
+        },
+        {
+          "name": "Abmessungen",
+          "value": "5,8 x 12 cm"
+        },
+        {
+          "name": "Produkttyp",
+          "value": "Modell / Ornament"
+        }
+      ],
+      "applications": [
+        "Innendekoration",
+        "Weihnachtsdekoration und Geschenk",
+        "Gebetshilfe",
+        "Souvenir"
+      ],
+      "faq": [
+        {
+          "question": "Was sind die Abmessungen dieses Kreuz-Anhängers?",
+          "answer": "Das Kreuz-Anhänger misst 5,8 x 12 cm und ist damit eine kompakte Größe, die sich für Präsentation oder Handhabung eignet."
+        },
+        {
+          "question": "Aus welchem Material besteht dieses Kreuz-Anhänger?",
+          "answer": "Es besteht aus Metalllegierung mit vergoldeter Oberfläche."
+        },
+        {
+          "question": "Kann dieses Kreuz-Anhänger für mehrere Anlässe verwendet werden?",
+          "answer": "Ja, es ist für verschiedene Anwendungen geeignet, einschließlich Innendekoration, Weihnachtsgeschenke, Souvenirs und persönliche Gebete."
+        }
+      ],
+      "pricing": {
+        "price": "0.65",
+        "regularPrice": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.65"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Vergoldetes Kreuz-Anhänger mit Jesus",
+          "description": "Ein vergoldetes Kreuz-Anhänger mit den Maßen 5,8 x 12 cm, gefertigt aus Metalllegierung mit vergoldeter Oberfläche. Dieses dekorative Kreuz kann als Gebetshilfe, Schmuckstück oder durchdachtes Geschenk für verschiedene Anlässe dienen.",
+          "sku": "ALI-AAH5TG7BAOVioqqEY6eBRycG",
+          "image": [
+            "https://sc04.alicdn.com/kf/H6204fe4a266944529a41b59077832c49W.jpg",
+            "https://sc04.alicdn.com/kf/H7081a2ed9c6d432281abd70db1ba1d6b8.jpg",
+            "https://sc04.alicdn.com/kf/H3f2405277408405b9812239d7ee5cafb1.jpg",
+            "https://sc04.alicdn.com/kf/H63ac6777acfe49839acdf230b9c82c76k.jpg",
+            "https://sc04.alicdn.com/kf/H08d1b54a97d6497bafd7ebca69c4a9acu.jpg"
+          ],
+          "category": "Schmuckstücke",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Metalllegierung"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Beschichtung",
+              "value": "Vergoldet"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Abmessungen",
+              "value": "5,8 x 12 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Produkttyp",
+              "value": "Modell / Ornament"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Was sind die Abmessungen dieses Kreuz-Anhängers?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Kreuz-Anhänger misst 5,8 x 12 cm und ist damit eine kompakte Größe, die sich für Präsentation oder Handhabung eignet."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Aus welchem Material besteht dieses Kreuz-Anhänger?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Es besteht aus Metalllegierung mit vergoldeter Oberfläche."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann dieses Kreuz-Anhänger für mehrere Anlässe verwendet werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, es ist für verschiedene Anwendungen geeignet, einschließlich Innendekoration, Weihnachtsgeschenke, Souvenirs und persönliche Gebete."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "contentHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:15.408Z",
+            "model": "deepseek-v4-flash"
+          },
+          "de": {
+            "status": "ready",
+            "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "contentHash": "e741d1ce271bb15cfb7755dc16ec9f11430a6114c368724b822554ccae4df0b0",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T03:15:05.560Z",
             "model": "deepseek-v4-flash"
           }
         }

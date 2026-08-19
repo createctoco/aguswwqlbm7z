@@ -1,29 +1,29 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-18T02:59:53.357Z",
+  "generatedAt": "2026-08-19T03:02:31.441Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAHRTG7BAOVioqqEY6e7sF2F",
-      "AAE_TG7BAOVioqqEY6eBTjU3",
-      "AAGOTG7BAOVioqqEY6eBtUmL",
-      "AAEcTG7BAOVioqqEY6eYM2Jr",
-      "AAHMTG7BAOVioqqEY6eBS0mz",
-      "AAGbTG7BAOVioqqEY6eBRcEQ",
-      "AAG-TG7BAOVioqqEY6eBT4Pn",
-      "AAHdTG7BAOVioqqEY6eCHasP",
-      "AAHWTG7BAOVioqqEY6eBRiXm",
-      "AAHaTG7BAOVioqqEY6e7LbS6"
+      "AAE3TG7BAOVioqqEY6eo-9E_",
+      "AAHCTG7BAOVioqqEY6eo-oaW",
+      "AAHxTG7BAOVioqqEY6e0cceB",
+      "AAFjTG7BAOVioqqEY6e0bn1A",
+      "AAHJTG7BAOVioqqEY6e0b9PP",
+      "AAHsTG7BAOVioqqEY6e0w0ar",
+      "AAEwTG7BAOVioqqEY6e6dfkE",
+      "AAE1TG7BAOVioqqEY6e5gBlf",
+      "AAE_TG7BAOVioqqEY6eBRoJy",
+      "AAH5TG7BAOVioqqEY6eBRycG"
     ],
     "deletedProductIds": []
   },
   "enrichmentSummary": {
-    "generated": 10,
-    "reused": 270,
-    "source_fallback": 0
+    "generated": 9,
+    "reused": 280,
+    "source_fallback": 1
   },
   "products": [
     {
@@ -58014,12 +58014,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+        "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
-            "contentHash": "92ea111fe153f2f57c4c7087335cf2982696d8b4019767c8e6cee5f5d0ec81ca",
+            "sourceHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
+            "contentHash": "5822c826dec19ac68d48f8c8f3cb61474c2c2048e33ea7539cf6876bf1fa10b6",
             "attempts": 0,
             "updatedAt": "2026-08-18T02:59:33.900Z",
             "model": "deepseek-v4-flash"
@@ -58490,12 +58490,12 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+        "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
-            "contentHash": "45baf38c72050c2da253fa65e25ae94a41713565134ba71b40ded131e7ab59d9",
+            "sourceHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
+            "contentHash": "2e5730eae67abf0996a7aa84ffc75621a2dd9c2ae17c7953c4ec76b45e2be857",
             "attempts": 0,
             "updatedAt": "2026-08-18T02:59:35.706Z",
             "model": "deepseek-v4-flash"
@@ -59728,6 +59728,2301 @@
             "contentHash": "40382b634a4c087220f56d848f8648a36775aff1cff74fc59bde13077819cd5f",
             "attempts": 0,
             "updatedAt": "2026-08-18T02:59:45.609Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE3TG7BAOVioqqEY6eo-9E_",
+      "sourceId": "AAE3TG7BAOVioqqEY6eo-9E_",
+      "sourceFingerprint": "4da268df76b9c5f23644219edf0c0a4584ff1dcf9bf72fa193337dcadfc7ab04",
+      "locale": "en",
+      "slug": "vintage-red-zircon-cross-pendant-earrings-eo-9e_",
+      "title": "Vintage Red Zircon Cross Pendant Earrings",
+      "eyebrow": "vintage red zircon pendant earrings",
+      "summary": "Vintage-style pendant earrings featuring a red zircon cross with gothic flame detailing. Made from copper-plated zinc alloy, these religious-themed earrings suit wholesale buyers seeking statement accessories with a devotional motif.",
+      "description": "These pendant earrings combine a vintage aesthetic with a cross motif. The main stone is zircon in a deep red, set within a copper-plated zinc alloy frame. The gothic flame design adds a dramatic edge while maintaining a religious character. As a pendant style, they hang below the earlobe, making them a noticeable accessory for daily wear or special occasions. The alloy base offers durability, while the copper plating provides a warm, antique look. Ideal for retailers or distributors adding faith-inspired jewelry to their catalog.",
+      "catholicContext": "In Christian tradition, the cross symbolizes the redemption through Christ’s sacrifice and is often worn as a personal expression of faith.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "161",
+          "name": "Rings",
+          "slug": "rings"
+        }
+      ],
+      "sku": "ALI-AAE3TG7BAOVioqqEY6eo-9E_",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Hf2eef34e9cdf418781dc4871d3f2c85c3.webp",
+      "imageAlt": "Vintage Red Zircon Cross Pendant Earrings",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf2eef34e9cdf418781dc4871d3f2c85c3.webp",
+          "alt": "Vintage Red Zircon Cross Pendant Earrings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6923198e05f44a43bcaa411b8b0a97bbR.webp",
+          "alt": "Vintage Red Zircon Cross Pendant Earrings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H44b7fcf9f2a34d639dd164dc43545eeeO.webp",
+          "alt": "Vintage Red Zircon Cross Pendant Earrings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He0bd8de630854bc7ad59d78296851dabf.webp",
+          "alt": "Vintage Red Zircon Cross Pendant Earrings"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3b77945e2fc94bad8b8cd9eb5d52bcb0a.webp",
+          "alt": "Vintage Red Zircon Cross Pendant Earrings"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Copper-plated zinc alloy construction for an antique look",
+        "Red zircon main stone",
+        "Pendant earring style",
+        "Religious cross design with gothic flame accents",
+        "Vintage-inspired aesthetic"
+      ],
+      "specifications": [
+        {
+          "name": "Main Material",
+          "value": "Alloy (zinc alloy)"
+        },
+        {
+          "name": "Plating",
+          "value": "Copper"
+        },
+        {
+          "name": "Main Stone",
+          "value": "Zircon"
+        },
+        {
+          "name": "Style",
+          "value": "Religious"
+        },
+        {
+          "name": "Earring Type",
+          "value": "Pendant"
+        }
+      ],
+      "applications": [
+        "Religious-themed jewelry collections",
+        "Gothic or vintage fashion ensembles",
+        "Gift items for faith-based occasions",
+        "Retail display in accessory stores"
+      ],
+      "faq": [
+        {
+          "question": "What materials are these earrings made of?",
+          "answer": "The earrings are made of zinc alloy with a copper plating, and feature a red zircon stone."
+        },
+        {
+          "question": "What style do these earrings represent?",
+          "answer": "They are categorized as religious style, with a cross and gothic flame design."
+        },
+        {
+          "question": "Are these earrings suitable for wholesale orders?",
+          "answer": "Yes, they are listed as wholesale items, but specific order details can be obtained by contacting us."
+        }
+      ],
+      "pricing": {
+        "price": "2.34",
+        "regularPrice": "2.34",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.69",
+          "max": "2.34"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Vintage Red Zircon Cross Pendant Earrings",
+          "description": "Vintage-style red zircon cross pendant earrings in copper-plated zinc alloy. Gothic flame motif, religious style, hypoallergenic? Wholesale available.",
+          "sku": "ALI-AAE3TG7BAOVioqqEY6eo-9E_",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf2eef34e9cdf418781dc4871d3f2c85c3.jpg",
+            "https://sc04.alicdn.com/kf/H6923198e05f44a43bcaa411b8b0a97bbR.jpg",
+            "https://sc04.alicdn.com/kf/H44b7fcf9f2a34d639dd164dc43545eeeO.jpg",
+            "https://sc04.alicdn.com/kf/He0bd8de630854bc7ad59d78296851dabf.jpg",
+            "https://sc04.alicdn.com/kf/H3b77945e2fc94bad8b8cd9eb5d52bcb0a.jpg"
+          ],
+          "category": "Rings",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Main Material",
+              "value": "Alloy (zinc alloy)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Copper"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "Zircon"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Earring Type",
+              "value": "Pendant"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.34",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.69",
+              "maxPrice": "2.34",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are these earrings made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The earrings are made of zinc alloy with a copper plating, and feature a red zircon stone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What style do these earrings represent?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "They are categorized as religious style, with a cross and gothic flame design."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are these earrings suitable for wholesale orders?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, they are listed as wholesale items, but specific order details can be obtained by contacting us."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "contentHash": "0c10d7eac3ddffa4afccc025af23d090468d610b1d7851a358edaf9948efb4fd",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:50.815Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHCTG7BAOVioqqEY6eo-oaW",
+      "sourceId": "AAHCTG7BAOVioqqEY6eo-oaW",
+      "sourceFingerprint": "059e0f81d1068767a49a0034f0eee32659905dfe19bf3e64b2a449bd05b5a8d3",
+      "locale": "en",
+      "slug": "colorful-acrylic-cross-beads-for-diy-jewelry-eo-oaw",
+      "title": "Colorful Acrylic Cross Beads for DIY Jewelry",
+      "eyebrow": "Acrylic Cross Beads",
+      "summary": "These acrylic cross beads come in seven colors, including black, green, lake blue, pink, purple, royal blue, and white. They are sized for bracelet and necklace making, offering a lightweight option for DIY jewelry projects.",
+      "description": "When sourcing beads for faith-based jewelry lines, color options and material consistency matter. These acrylic cross beads are available in seven distinct colors, allowing you to match a variety of design palettes.\n\nEach bead is shaped as a cross and made from acrylic, a lightweight plastic that keeps finished pieces comfortable to wear. The range includes black, green, lake blue, pink, purple, royal blue, and white, so you can create coordinated sets or mix shades for contrast.\n\nBecause they are beads, they can be strung with cord, wire, or elastic to assemble bracelets and necklaces. Verify hole size and bead dimensions with us if your design requires specific fitting.",
+      "catholicContext": "A plain cross is a recognized Christian symbol, though it is distinct from a crucifix which bears the corpus of Christ.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2122e629547f465da08a08eff736de51K.webp",
+      "imageAlt": "Colorful Acrylic Cross Beads for DIY Jewelry",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2122e629547f465da08a08eff736de51K.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7c975c1affc44cda8829fa65207d641ee.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H68f966edc2754e39a272dea3f15e7633t.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfcac0af432c34862b5803b56f6f5b23fY.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd99f59bc400642eb83584adaa6133d79m.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hca7fdefa164c4be6bed05c26a0f0ede2l.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry - black-cross",
+          "label": "black-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd7fe7665cb6a4cd4a9e95628da6a95a2U.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry - purple-cross",
+          "label": "purple-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H71bf91ad66d740b29d877cb4472f676bC.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry - white-cross",
+          "label": "white-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H678380395557479c9eadb0b46b9fb30b2.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry - royal-blue-cross",
+          "label": "royal-blue-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H70da3455c2924dcf9b003d2d8ae68b5bZ.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry - green-cross",
+          "label": "green-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hae0edea135d74db6a3f1a5e74e3a6f6fQ.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry - lake-blue-cross",
+          "label": "lake-blue-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1458c8c1cbb74137b83e62dbf342b860d.webp",
+          "alt": "Colorful Acrylic Cross Beads for DIY Jewelry - pink-cross",
+          "label": "pink-cross",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW-V--1"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Available in 7 colors: black, green, lake blue, pink, purple, royal blue, white",
+        "Made of acrylic, a lightweight material",
+        "Cross shape suitable for faith-based or decorative jewelry",
+        "Intended for DIY bracelet and necklace making",
+        "Wholesale quantity for bulk crafting"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Acrylic"
+        },
+        {
+          "name": "Shape",
+          "value": "Cross"
+        },
+        {
+          "name": "Available colors",
+          "value": "Black, Green, Lake Blue, Pink, Purple, Royal Blue, White"
+        }
+      ],
+      "applications": [
+        "Bracelet making",
+        "Necklace making",
+        "DIY jewelry accessories",
+        "Bulk crafting projects"
+      ],
+      "faq": [
+        {
+          "question": "What colors are available for these acrylic cross beads?",
+          "answer": "The beads come in seven colors: black, green, lake blue, pink, purple, royal blue, and white."
+        },
+        {
+          "question": "What material are these cross beads made of?",
+          "answer": "They are made of acrylic, a lightweight plastic commonly used in jewelry making."
+        },
+        {
+          "question": "Can these beads be used for both bracelets and necklaces?",
+          "answer": "Yes, they are designed for DIY bracelet and necklace making, though you may need to check the bead hole size to ensure compatibility with your cord or wire."
+        }
+      ],
+      "pricing": {
+        "price": "0.04",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.02",
+          "max": "0.04"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Colorful Acrylic Cross Beads for DIY Jewelry",
+          "description": "Wholesale acrylic cross beads in 7 colors. Ideal for making bracelets, necklaces, and other DIY jewelry. Choose from black, green, pink, and more.",
+          "sku": "ALI-AAHCTG7BAOVioqqEY6eo-oaW",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2122e629547f465da08a08eff736de51K.jpg",
+            "https://sc04.alicdn.com/kf/H7c975c1affc44cda8829fa65207d641ee.jpg",
+            "https://sc04.alicdn.com/kf/H68f966edc2754e39a272dea3f15e7633t.jpg",
+            "https://sc04.alicdn.com/kf/Hfcac0af432c34862b5803b56f6f5b23fY.jpg",
+            "https://sc04.alicdn.com/kf/Hd99f59bc400642eb83584adaa6133d79m.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Acrylic"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Available colors",
+              "value": "Black, Green, Lake Blue, Pink, Purple, Royal Blue, White"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.04",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.02",
+              "maxPrice": "0.04",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What colors are available for these acrylic cross beads?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads come in seven colors: black, green, lake blue, pink, purple, royal blue, and white."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material are these cross beads made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "They are made of acrylic, a lightweight plastic commonly used in jewelry making."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can these beads be used for both bracelets and necklaces?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, they are designed for DIY bracelet and necklace making, though you may need to check the bead hole size to ensure compatibility with your cord or wire."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "contentHash": "45833b30b12187e449afc6e80ef1e2853f19c94345e1f6c3e89f334e6119df2c",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:41.031Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHxTG7BAOVioqqEY6e0cceB",
+      "sourceId": "AAHxTG7BAOVioqqEY6e0cceB",
+      "sourceFingerprint": "083475860d3b7bd1dc0b4e8d122a50c0b5b850544fffd1c2d1d55b09b9eb6297",
+      "locale": "en",
+      "slug": "metal-st-benedict-commemorative-badge-e0cceb",
+      "title": "Metal St. Benedict Commemorative Badge",
+      "eyebrow": "St. Benedict commemorative badge",
+      "summary": "A vintage-style metal badge featuring St. Benedict, suitable as a car ornament or desktop decoration. Offered in large and small variants, this commemorative piece adds a traditional touch to any space.",
+      "description": "Crafted from metal with a vintage finish, this St. Benedict commemorative badge serves as a distinctive accent for car interiors or desktop displays. Its design reflects a classic aesthetic, making it a versatile decorative item for those who appreciate traditional religious imagery. Available in two sizes, you can choose the variant that best fits your intended placement. The badge's durable metal construction ensures longevity, while its commemorative nature makes it a meaningful addition to a personal collection or as a thoughtful gift for those who honor St. Benedict.",
+      "catholicContext": "The St. Benedict medal is a traditional devotional object in Catholicism, often associated with protection against evil, though this badge's specific features are not detailed.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/Ha0a13cba25904345a3b471eda1b5bb4ff.webp",
+      "imageAlt": "Metal St. Benedict Commemorative Badge",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha0a13cba25904345a3b471eda1b5bb4ff.webp",
+          "alt": "Metal St. Benedict Commemorative Badge"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hef84e10971c142f590b6362c1d330eafI.webp",
+          "alt": "Metal St. Benedict Commemorative Badge"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1fd05e8e0c9d4cf7b31646b8af3c6090R.webp",
+          "alt": "Metal St. Benedict Commemorative Badge"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf2fa18001ac44afd8981e1b2f866a384G.webp",
+          "alt": "Metal St. Benedict Commemorative Badge"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf942ecb2560f486a9d456fc2a225ca14e.webp",
+          "alt": "Metal St. Benedict Commemorative Badge"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hdee017ad60e54b07a821b2e7ee0bd823x.webp",
+          "alt": "Metal St. Benedict Commemorative Badge"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc4fb426118da4d01bd6495e2c268569ba.webp",
+          "alt": "Metal St. Benedict Commemorative Badge - small",
+          "label": "small",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha09b0d5f3f77470bb9446efee9b0be177.webp",
+          "alt": "Metal St. Benedict Commemorative Badge - large-size",
+          "label": "large-size",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB-V--1"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Vintage-style metal construction",
+        "Commemorative St. Benedict design",
+        "Available in large and small sizes",
+        "Suitable for car or desktop use"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Metal"
+        },
+        {
+          "name": "Style",
+          "value": "Vintage"
+        },
+        {
+          "name": "Variants",
+          "value": "Large size, small"
+        }
+      ],
+      "applications": [
+        "Car ornament",
+        "Desktop decoration",
+        "Display in a home shrine or prayer corner",
+        "Collectible item"
+      ],
+      "faq": [
+        {
+          "question": "What sizes are available for this St. Benedict badge?",
+          "answer": "The badge is offered in two variants: large size and small. Choose based on your placement preference."
+        },
+        {
+          "question": "What material is this badge made of?",
+          "answer": "It is made of metal with a vintage-style finish, as specified."
+        },
+        {
+          "question": "Is this badge suitable for outdoor use on a car?",
+          "answer": "While it is designed as a car ornament, please note that detailed weather-resistance information is not provided. Consider indoor or protected placement for longevity."
+        }
+      ],
+      "pricing": {
+        "price": "0.68",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.68",
+          "max": "1.18"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Metal St. Benedict Commemorative Badge",
+          "description": "Vintage-style metal St. Benedict commemorative badge for car or desktop decoration. Available in large and small sizes. Ideal for devotional display.",
+          "sku": "ALI-AAHxTG7BAOVioqqEY6e0cceB",
+          "image": [
+            "https://sc04.alicdn.com/kf/Ha0a13cba25904345a3b471eda1b5bb4ff.png",
+            "https://sc04.alicdn.com/kf/Hef84e10971c142f590b6362c1d330eafI.png",
+            "https://sc04.alicdn.com/kf/H1fd05e8e0c9d4cf7b31646b8af3c6090R.png",
+            "https://sc04.alicdn.com/kf/Hf2fa18001ac44afd8981e1b2f866a384G.png",
+            "https://sc04.alicdn.com/kf/Hf942ecb2560f486a9d456fc2a225ca14e.png",
+            "https://sc04.alicdn.com/kf/Hdee017ad60e54b07a821b2e7ee0bd823x.png"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Vintage"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "Large size, small"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.68",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.68",
+              "maxPrice": "1.18",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What sizes are available for this St. Benedict badge?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The badge is offered in two variants: large size and small. Choose based on your placement preference."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material is this badge made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is made of metal with a vintage-style finish, as specified."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this badge suitable for outdoor use on a car?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "While it is designed as a car ornament, please note that detailed weather-resistance information is not provided. Consider indoor or protected placement for longevity."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "contentHash": "2ee447ac197ca75526e668cf5d29a7510fbc91022426e77f14d574f97e4eaf0f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:33.091Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFjTG7BAOVioqqEY6e0bn1A",
+      "sourceId": "AAFjTG7BAOVioqqEY6e0bn1A",
+      "sourceFingerprint": "36c1d2f73db3767bfef5d2f965658ed24059df5233d4c6ff45a28b05ee195ea0",
+      "locale": "en",
+      "slug": "hand-painted-enamel-metal-car-ornament-e0bn1a",
+      "title": "Hand Painted Enamel Metal Car Ornament",
+      "eyebrow": "Enamel metal car accessory ornament",
+      "summary": "This hand painted enamel metal ornament adds a colorful accent to your car interior. Available in imitation gold or white finish, it suits dashboard displays, rearview mirror hanging, or festive Christmas decor.",
+      "description": "Crafted from enamel-coated metal, this ornament features a hand painted finish that brings out fine details. Choose between imitation gold or white variants to match your style. Its compact size and lightweight build make it easy to place on a dashboard, hang from a rearview mirror, or incorporate into holiday decorations. The durable enamel surface resists fading, ensuring long-lasting color. For wholesale buyers, this ornament offers a versatile option for automotive accessory lines or seasonal gift sets. Its hand painted quality adds a distinctive touch that mass-produced items often lack.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H1c5cf1b80aa24437b5146f1af14c43904.webp",
+      "imageAlt": "Hand Painted Enamel Metal Car Ornament",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1c5cf1b80aa24437b5146f1af14c43904.webp",
+          "alt": "Hand Painted Enamel Metal Car Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H312bf1d9a2374846bf859ada0fec8276J.webp",
+          "alt": "Hand Painted Enamel Metal Car Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H53c4fe5756b446a2b2907b12316e3e99P.webp",
+          "alt": "Hand Painted Enamel Metal Car Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H73e825e83d244736ad8dddd3d98fe8d1d.webp",
+          "alt": "Hand Painted Enamel Metal Car Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha7f757a10b0a4ca59dbbd8a201b606feg.webp",
+          "alt": "Hand Painted Enamel Metal Car Ornament"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1b74e8c46c764385a6a5fdf1837fb447V.webp",
+          "alt": "Hand Painted Enamel Metal Car Ornament - white-k",
+          "label": "white-k",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb5cf2eca305042d198bcf479fcde060bl.webp",
+          "alt": "Hand Painted Enamel Metal Car Ornament - imitation-gold",
+          "label": "imitation-gold",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A-V--1"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Hand painted enamel coating for detailed color",
+        "Metal construction for durability",
+        "Available in imitation gold and white variants",
+        "Compact size suitable for car interiors",
+        "Can be used as a car accessory or ornament"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Enamel coated metal"
+        },
+        {
+          "name": "Variant",
+          "value": "Imitation gold, White"
+        },
+        {
+          "name": "Category",
+          "value": "Ornaments"
+        }
+      ],
+      "applications": [
+        "Dashboard ornament",
+        "Rearview mirror hanging decoration",
+        "Christmas tree or holiday decor",
+        "Interior accent for vehicles"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this ornament made of?",
+          "answer": "The ornament is made of metal with an enamel coating, providing a durable and colorful finish."
+        },
+        {
+          "question": "What color variants are available?",
+          "answer": "The ornament comes in two variants: imitation gold and white."
+        },
+        {
+          "question": "How can this ornament be used?",
+          "answer": "It can be placed on a dashboard, hung from a rearview mirror, or used as part of Christmas or holiday decorations."
+        }
+      ],
+      "pricing": {
+        "price": "1.25",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.85",
+          "max": "1.25"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Hand Painted Enamel Metal Car Ornament",
+          "description": "Hand painted enamel metal car ornament with imitation gold or white finish. A colorful accessory for dashboards, rearview mirrors, or Christmas decor.",
+          "sku": "ALI-AAFjTG7BAOVioqqEY6e0bn1A",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1c5cf1b80aa24437b5146f1af14c43904.png",
+            "https://sc04.alicdn.com/kf/H312bf1d9a2374846bf859ada0fec8276J.png",
+            "https://sc04.alicdn.com/kf/H53c4fe5756b446a2b2907b12316e3e99P.png",
+            "https://sc04.alicdn.com/kf/H73e825e83d244736ad8dddd3d98fe8d1d.png",
+            "https://sc04.alicdn.com/kf/Ha7f757a10b0a4ca59dbbd8a201b606feg.png"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Enamel coated metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Imitation gold, White"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Ornaments"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.85",
+              "maxPrice": "1.25",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this ornament made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ornament is made of metal with an enamel coating, providing a durable and colorful finish."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color variants are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ornament comes in two variants: imitation gold and white."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can this ornament be used?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It can be placed on a dashboard, hung from a rearview mirror, or used as part of Christmas or holiday decorations."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "contentHash": "1a1d11a72492f4161ddc15a8f505258aa9ec3f726298ef4769002501a46395ef",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:01.968Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHJTG7BAOVioqqEY6e0b9PP",
+      "sourceId": "AAHJTG7BAOVioqqEY6e0b9PP",
+      "sourceFingerprint": "6a49dd30c63a8242cf55dbe3606a7c06b1d5b42242e988a8f77f3a5add53f87c",
+      "locale": "en",
+      "slug": "knitted-coin-pouch-backpack-charm-e0b9pp",
+      "title": "Knitted Coin Pouch Backpack Charm",
+      "eyebrow": "knitted coin pouch backpack charm",
+      "summary": "A square knitted coin pouch that doubles as a cartoon backpack charm. Available in 11 color variants. Compact storage for coins or small items, with a creative pendant style. Suitable for party favors or gift bags.",
+      "description": "This knitted coin pouch brings a playful, handcrafted look to everyday carry. Its square shape and cartoon-inspired style make it stand out as a backpack charm, while the pouch interior offers a simple spot for coins or tiny essentials. Offered in 11 color variants, it suits retail displays, party favors, or event giveaways. The knitted construction gives it a soft texture, and the attached loop allows it to hang from bags, keyrings, or zippers. For wholesale buyers, the variety of colors supports mix-and-match ordering. This product does not include a chain or clip; the hanging method depends on the loop design.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "160",
+          "name": "未分类",
+          "slug": "uncategorized"
+        }
+      ],
+      "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
+      "imageAlt": "Knitted Coin Pouch Backpack Charm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc83b4d77db3241b5a04ace4fe0f12ae8k.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd6673f9211b4dc7b288672d5dfaefb6P.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H19ac6e14de64435d8a39503de3addd693.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfb561fcf008e4629a75b4ae35550689bX.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H44c7c47d5b0048c58b56947b79870c269.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He246024cb5104523a85accbb04ca0307N.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-11",
+          "label": "color-11",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6c9a668329ea49e892f92de2e6c6ed0da.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-10",
+          "label": "color-10",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd27f11b7a5446b2aca4832e252e9a83U.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-9",
+          "label": "color-9",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0856c8c365004274b9bdaed95f3325ecw.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-8",
+          "label": "color-8",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3af22ce9854e43e3bf52345c2e0d4897X.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-7",
+          "label": "color-7",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd314beb742bf47069b2cc928556a5a41d.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-6",
+          "label": "color-6",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha5eee002736b4335bf46af9083ccb2a1V.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-5",
+          "label": "color-5",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfadfc67210cf41ceac95de8c915e26cc5.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-4",
+          "label": "color-4",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H56e5611199c948318e7da714b5a2cb020.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-3",
+          "label": "color-3",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd4492b36e1ae4984b3afc64c03408effS.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-2",
+          "label": "color-2",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc2ab6231904b4b16aa2b1a1676e63833j.webp",
+          "alt": "Knitted Coin Pouch Backpack Charm - color-1",
+          "label": "color-1",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--1"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Knitted construction with a square shape",
+        "Cartoon-inspired creative pendant style",
+        "Available in 11 distinct color variants",
+        "Pouch opening for storing coins or small items",
+        "Loop for attaching to backpacks, bags, or keyrings",
+        "Wholesale packaging for party favors or retail"
+      ],
+      "specifications": [
+        {
+          "name": "Color variants",
+          "value": "11 options (Color 1 through Color 11)"
+        },
+        {
+          "name": "Style",
+          "value": "Square, cartoon-inspired pendant"
+        },
+        {
+          "name": "Primary material",
+          "value": "Knitted textile"
+        }
+      ],
+      "applications": [
+        "Attach to backpack as a decorative charm",
+        "Store coins or small items in the pouch",
+        "Use as party favor or gift bag filler",
+        "Display in retail or market stalls as a novelty item"
+      ],
+      "faq": [
+        {
+          "question": "What are the available color options?",
+          "answer": "This knitted coin pouch is available in 11 color variants, listed as Color 1 through Color 11. Specific shade names are not provided, so contact us for exact color details."
+        },
+        {
+          "question": "How does the pouch attach to a backpack?",
+          "answer": "The pouch includes a loop that can be threaded through a bag handle, zipper pull, or keyring. It does not come with a separate clip or chain, so you may need to add your own depending on the attachment point."
+        },
+        {
+          "question": "Is this item sold individually or in sets?",
+          "answer": "The listing indicates wholesale availability, but the exact unit quantity per order isn't specified. Contact us for packaging and MOQ details."
+        }
+      ],
+      "pricing": {
+        "price": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.43",
+          "max": "0.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Knitted Coin Pouch Backpack Charm",
+          "description": "Wholesale knitted coin pouch backpack charm in 11 colors. Square creative pendant, party gift. Compact coin storage for bags, keys, or backpacks.",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
+          "image": [
+            "https://sc04.alicdn.com/kf/H92a7c5fb923345d091a1c6a0d147b3fcS.png",
+            "https://sc04.alicdn.com/kf/Hc83b4d77db3241b5a04ace4fe0f12ae8k.png",
+            "https://sc04.alicdn.com/kf/Hcd6673f9211b4dc7b288672d5dfaefb6P.png",
+            "https://sc04.alicdn.com/kf/H19ac6e14de64435d8a39503de3addd693.png",
+            "https://sc04.alicdn.com/kf/Hfb561fcf008e4629a75b4ae35550689bX.png",
+            "https://sc04.alicdn.com/kf/H44c7c47d5b0048c58b56947b79870c269.png"
+          ],
+          "category": "未分类",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "11 options (Color 1 through Color 11)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Square, cartoon-inspired pendant"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Primary material",
+              "value": "Knitted textile"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.43",
+              "maxPrice": "0.45",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the available color options?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This knitted coin pouch is available in 11 color variants, listed as Color 1 through Color 11. Specific shade names are not provided, so contact us for exact color details."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does the pouch attach to a backpack?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pouch includes a loop that can be threaded through a bag handle, zipper pull, or keyring. It does not come with a separate clip or chain, so you may need to add your own depending on the attachment point."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this item sold individually or in sets?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The listing indicates wholesale availability, but the exact unit quantity per order isn't specified. Contact us for packaging and MOQ details."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "contentHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:39.882Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHsTG7BAOVioqqEY6e0w0ar",
+      "sourceId": "AAHsTG7BAOVioqqEY6e0w0ar",
+      "sourceFingerprint": "84366b9d77cdfcf42118fd2a867418b08a4a48508d8639a84d60e9865318e8e4",
+      "locale": "en",
+      "slug": "retro-electroplated-religious-keychain-e0w0ar",
+      "title": "Retro Electroplated Religious Keychain",
+      "eyebrow": "Religious Keychain",
+      "summary": "This retro keychain features an electroplated metal body with an embossed religious-inspired design and a clear epoxy finish. Available in multiple style variants and album options, it suits wholesale distribution for gift shops and novelty retailers.",
+      "description": "This keychain combines a vintage-style electroplated metal base with a detailed embossed pattern, finished with a protective epoxy layer. The design is creative and religious-themed, making it a distinctive accessory.\n\nChoose from a range of variants, including different album sets (Album-4, Album-6, Album-7, Album-8, Album-10) and specific models like Gd, Qdzs, Sz01, and Sz02. The variety supports mixed wholesale ordering.\n\nThe compact size and durable construction make it practical for everyday use, while the retro aesthetic appeals to collectors and gift buyers alike.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "83",
+          "name": "Keychains",
+          "slug": "keychains"
+        }
+      ],
+      "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H720ad721160442a1b196ffbaf27352af5.webp",
+      "imageAlt": "Retro Electroplated Religious Keychain",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H720ad721160442a1b196ffbaf27352af5.webp",
+          "alt": "Retro Electroplated Religious Keychain"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha91760064f344a1b881c66943d47e7aa2.webp",
+          "alt": "Retro Electroplated Religious Keychain"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd30b496ddfcb47c78cd03c1221ddafa8F.webp",
+          "alt": "Retro Electroplated Religious Keychain"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Heddb48b63e2b473ca21bab6413406151M.webp",
+          "alt": "Retro Electroplated Religious Keychain"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H89e17ae874e64f25b23a09a98b48a7f86.webp",
+          "alt": "Retro Electroplated Religious Keychain"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H76c8f06b2ba64217a81d4c39d303a569p.webp",
+          "alt": "Retro Electroplated Religious Keychain"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H48fd441765174d43b9585d99b5cec601f.webp",
+          "alt": "Retro Electroplated Religious Keychain - qdzs-keychain",
+          "label": "qdzs-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H505331eac5954828ac7fb1964d59cf4co.webp",
+          "alt": "Retro Electroplated Religious Keychain - qdzs",
+          "label": "qdzs",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb03838d299c04f56a649d4562e90c53aU.webp",
+          "alt": "Retro Electroplated Religious Keychain - gd-keychain",
+          "label": "gd-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--19"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H29c1415392fc4dda9e6ab2265ad669cdT.webp",
+          "alt": "Retro Electroplated Religious Keychain - gd",
+          "label": "gd",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--20"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3019f0cdbb04461e95d768eb3992b6eak.webp",
+          "alt": "Retro Electroplated Religious Keychain - photo-album-1",
+          "label": "photo-album-1",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9217061f3fe2419bad89dece77d309a1I.webp",
+          "alt": "Retro Electroplated Religious Keychain - photo-album-2",
+          "label": "photo-album-2",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7042755f74cd4d3492a78ddc86012454i.webp",
+          "alt": "Retro Electroplated Religious Keychain - photo-album-3",
+          "label": "photo-album-3",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H37685d16d3274bfe9a0bc07fc4e5fa9f2.webp",
+          "alt": "Retro Electroplated Religious Keychain - album-4",
+          "label": "album-4",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3cb169d8d19e41e3a7a7af8d6db40d3ax.webp",
+          "alt": "Retro Electroplated Religious Keychain - photo-album-5",
+          "label": "photo-album-5",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5b134da4d8024b5785bcba82a2cecb329.webp",
+          "alt": "Retro Electroplated Religious Keychain - album-6",
+          "label": "album-6",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H55eec7330d9b4571b75de39a641fcad1R.webp",
+          "alt": "Retro Electroplated Religious Keychain - album-7",
+          "label": "album-7",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7b14e086c07948e78b7da22e909e39d1O.webp",
+          "alt": "Retro Electroplated Religious Keychain - album-8",
+          "label": "album-8",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H359bae7f463347b6b04c12fec80424f59.webp",
+          "alt": "Retro Electroplated Religious Keychain - photo-album-9",
+          "label": "photo-album-9",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hae36d021c6ec4f7d9a71daa943f21d90q.webp",
+          "alt": "Retro Electroplated Religious Keychain - album-10",
+          "label": "album-10",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H75d0a04d87d54d5cbc6d8c6b76264bbf6.webp",
+          "alt": "Retro Electroplated Religious Keychain - photo-album-11",
+          "label": "photo-album-11",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hed94969b362f4b6d9295952f7595cc74X.webp",
+          "alt": "Retro Electroplated Religious Keychain - photo-album-12",
+          "label": "photo-album-12",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H39f462ff8af4436b83aabd82ed1d15734.webp",
+          "alt": "Retro Electroplated Religious Keychain - sz01-keychain",
+          "label": "sz01-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H153cfff0be014028a3e16486cef30af0s.webp",
+          "alt": "Retro Electroplated Religious Keychain - sz01",
+          "label": "sz01",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3e8fbeea301c4251a6d042a7bde674e6m.webp",
+          "alt": "Retro Electroplated Religious Keychain - sz02-keychain",
+          "label": "sz02-keychain",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H9206e6706db04a9abfae99249d11a3a03.webp",
+          "alt": "Retro Electroplated Religious Keychain - sz02",
+          "label": "sz02",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar-V--16"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Electroplated metal construction for a durable, shiny finish",
+        "Embossed pattern adds texture and visual detail",
+        "Epoxy coating protects the design and enhances gloss",
+        "Creative Russia-inspired religious design",
+        "Multiple variants and album sets for selection"
+      ],
+      "specifications": [
+        {
+          "name": "Primary material",
+          "value": "Metal"
+        },
+        {
+          "name": "Finish",
+          "value": "Electroplated and epoxy coated"
+        },
+        {
+          "name": "Design",
+          "value": "Embossed religious motif"
+        },
+        {
+          "name": "Variants",
+          "value": "Album-4, Album-6, Album-7, Album-8, Album-10, Gd, Qdzs, Sz01, Sz02 and more"
+        }
+      ],
+      "applications": [
+        "Keychain accessory for personal use",
+        "Retail merchandise in gift shops",
+        "Collectible item for enthusiasts",
+        "Promotional giveaway or souvenir"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this keychain?",
+          "answer": "The keychain is made of metal with an electroplated finish and a protective epoxy coating over the embossed design."
+        },
+        {
+          "question": "What design is featured on this keychain?",
+          "answer": "The design is a retro, religious-inspired motif with an embossed pattern, described as 'creative Russia design' in the product information."
+        },
+        {
+          "question": "What variants are available for this keychain?",
+          "answer": "Available variants include album sets such as Album-4, Album-6, Album-7, Album-8, and Album-10, as well as individual models like Gd, Qdzs, Sz01, and Sz02."
+        }
+      ],
+      "pricing": {
+        "price": "0.37",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.30",
+          "max": "0.37"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Retro Electroplated Religious Keychain",
+          "description": "Retro electroplated metal keychain with embossed design and epoxy coating. Wholesale in varied albums and styles for bulk orders.",
+          "sku": "ALI-AAHsTG7BAOVioqqEY6e0w0ar",
+          "image": [
+            "https://sc04.alicdn.com/kf/H720ad721160442a1b196ffbaf27352af5.png",
+            "https://sc04.alicdn.com/kf/Ha91760064f344a1b881c66943d47e7aa2.png",
+            "https://sc04.alicdn.com/kf/Hd30b496ddfcb47c78cd03c1221ddafa8F.png",
+            "https://sc04.alicdn.com/kf/Heddb48b63e2b473ca21bab6413406151M.png",
+            "https://sc04.alicdn.com/kf/H89e17ae874e64f25b23a09a98b48a7f86.png",
+            "https://sc04.alicdn.com/kf/H76c8f06b2ba64217a81d4c39d303a569p.png"
+          ],
+          "category": "Keychains",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Primary material",
+              "value": "Metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Finish",
+              "value": "Electroplated and epoxy coated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Embossed religious motif"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "Album-4, Album-6, Album-7, Album-8, Album-10, Gd, Qdzs, Sz01, Sz02 and more"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.37",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.30",
+              "maxPrice": "0.37",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this keychain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The keychain is made of metal with an electroplated finish and a protective epoxy coating over the embossed design."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What design is featured on this keychain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The design is a retro, religious-inspired motif with an embossed pattern, described as 'creative Russia design' in the product information."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What variants are available for this keychain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Available variants include album sets such as Album-4, Album-6, Album-7, Album-8, and Album-10, as well as individual models like Gd, Qdzs, Sz01, and Sz02."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "contentHash": "e181628f729a1954c68b7b6acbca547bc8ad21f923b02f1569f2bdecbadced0f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:14.413Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEwTG7BAOVioqqEY6e6dfkE",
+      "sourceId": "AAEwTG7BAOVioqqEY6e6dfkE",
+      "sourceFingerprint": "43c74a33721fcd6e9808bc7edfec530b6f92f0393b7c526aa8d8aa2cb69a856b",
+      "locale": "en",
+      "slug": "cross-border-middle-eastern-copper-micro-inlaid-diamond-bamboo-e6dfke",
+      "title": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo",
+      "eyebrow": "Accessories",
+      "summary": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo Sporty Premium Fashionable Popular Hollowed-Out All-Match",
+      "description": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo Sporty Premium Fashionable Popular Hollowed-Out All-Match",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
+      "imageAlt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H66b1f2886bb14245b185aff88ef37e36B.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf645ae0acb5540faaed47cb274db792fg.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbb45184635494625a08c06fc9c9756abU.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hec9f09231885445cad2c18380ad97e9cr.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1d01ac755a6e40e08139f95891c0c504K.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbcdea57f4dd1452db16503cf47564b34Y.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo - oval-colored-zirconium55-titanium-steel-necklace-opp-packaging",
+          "label": "oval-colored-zirconium55-titanium-steel-necklace-opp-packaging",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha2cd3328f40e4e75a0a6b50fb08c8379D.webp",
+          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo - oval-white-zirconium-55-titanium-steel-necklace-opp-packaging",
+          "label": "oval-white-zirconium-55-titanium-steel-necklace-opp-packaging",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--1"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Variant: Oval colored zirconium+55 titanium steel necklace-opp packaging, Oval white zirconium + 55 titanium steel necklace-opp packaging"
+      ],
+      "specifications": [
+        {
+          "name": "Variant",
+          "value": "Oval colored zirconium+55 titanium steel necklace-opp packaging, Oval white zirconium + 55 titanium steel necklace-opp packaging"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.71",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.24",
+          "max": "1.71"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo",
+          "description": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo Sporty Premium Fashionable Popular Hollowed-Out All-Match",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
+          "image": [
+            "https://sc04.alicdn.com/kf/H320df553fb0a4aac8624dc8865272ec8e.png",
+            "https://sc04.alicdn.com/kf/H66b1f2886bb14245b185aff88ef37e36B.png",
+            "https://sc04.alicdn.com/kf/Hf645ae0acb5540faaed47cb274db792fg.png",
+            "https://sc04.alicdn.com/kf/Hbb45184635494625a08c06fc9c9756abU.png",
+            "https://sc04.alicdn.com/kf/Hec9f09231885445cad2c18380ad97e9cr.png",
+            "https://sc04.alicdn.com/kf/H1d01ac755a6e40e08139f95891c0c504K.png"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Oval colored zirconium+55 titanium steel necklace-opp packaging, Oval white zirconium + 55 titanium steel necklace-opp packaging"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.71",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.24",
+              "maxPrice": "1.71",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "contentHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:16.430Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE1TG7BAOVioqqEY6e5gBlf",
+      "sourceId": "AAE1TG7BAOVioqqEY6e5gBlf",
+      "sourceFingerprint": "a4f836fa97f47d16e6c7bb13b33b6b29d3d3b2d7d8a39caf8494aed2ca5abe68",
+      "locale": "en",
+      "slug": "bohemian-cross-beaded-elastic-bracelet-e5gblf",
+      "title": "Bohemian Cross Beaded Elastic Bracelet",
+      "eyebrow": "cross beaded bracelet",
+      "summary": "This women's bracelet features a cross pattern with iron pyrite accents and acrylic beads. The elastic band stretches for easy wear, making it a versatile gift option for religious-themed jewelry seekers.",
+      "description": "Looking for a cross bracelet that balances everyday style with faith-based design? This bohemian beaded bracelet combines a cross pattern with earthy iron pyrite stones and acrylic beads in a stretch-fit elastic line. It's crafted for women and categorized under religious-style jewelry, yet its casual look pairs well with both jeans and dresses. Each bracelet weighs lightly and comes in a range of color options, though specific hues may vary by batch. The acrylic and resin materials keep it durable for regular use, while the elastic cord allows for easy slip-on without a clasp. As a gift, it suits occasions like birthdays, baptisms, or simply as a thoughtful token of faith.",
+      "catholicContext": "The cross is a central symbol of the Catholic faith, representing the sacrifice of Jesus Christ.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAE1TG7BAOVioqqEY6e5gBlf",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hccd9cc58d7da455bb40ab6403c549108Y.webp",
+      "imageAlt": "Bohemian Cross Beaded Elastic Bracelet",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hccd9cc58d7da455bb40ab6403c549108Y.webp",
+          "alt": "Bohemian Cross Beaded Elastic Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ca42d33a9434ccbadaee464e708d062X.webp",
+          "alt": "Bohemian Cross Beaded Elastic Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc53b762434524799b5f0542e9a67ac09H.webp",
+          "alt": "Bohemian Cross Beaded Elastic Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0b0c7c8948b14e59811671601d9781f8m.webp",
+          "alt": "Bohemian Cross Beaded Elastic Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H56adf5cf509b48bdb25a635bfc5c6d3bH.webp",
+          "alt": "Bohemian Cross Beaded Elastic Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H66ea2f7344eb45f6a414af7789816425G.webp",
+          "alt": "Bohemian Cross Beaded Elastic Bracelet"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Beaded bracelet with cross pattern",
+        "Main materials: acrylic, resin, and lucite",
+        "Features iron pyrite accent stones",
+        "Elastic band for a stretch fit, no clasp needed",
+        "Women's jewelry type, categorized as bohemian style"
+      ],
+      "specifications": [
+        {
+          "name": "Materials",
+          "value": "Acrylic, Resin, Lucite, iron pyrite"
+        },
+        {
+          "name": "Bracelet Type",
+          "value": "Beaded, elastic line"
+        },
+        {
+          "name": "Style",
+          "value": "Religious, bohemian"
+        },
+        {
+          "name": "Pattern",
+          "value": "Cross"
+        },
+        {
+          "name": "Model Number",
+          "value": "QT-S24052502"
+        },
+        {
+          "name": "Gender",
+          "value": "Women's"
+        },
+        {
+          "name": "Origin",
+          "value": "Guangzhou"
+        }
+      ],
+      "applications": [
+        "Personal everyday wear as a faith-inspired accessory",
+        "Gift for religious occasions like baptism or confirmation",
+        "Layering with other bracelets for a bohemian look",
+        "Casual church gatherings or faith-based events"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this cross bracelet made of?",
+          "answer": "The bracelet is crafted from acrylic, resin, and lucite beads, and includes iron pyrite accents for a metallic sheen."
+        },
+        {
+          "question": "Is the bracelet adjustable?",
+          "answer": "It has an elastic band, so it stretches to fit most wrist sizes without a clasp, sliding on and off easily."
+        },
+        {
+          "question": "What styles does this bracelet come in?",
+          "answer": "It is categorized as bohemian style with a religious cross pattern, suitable for everyday or faith-themed wear. Specific color options may vary."
+        }
+      ],
+      "pricing": {
+        "price": "1.13",
+        "regularPrice": "1.13",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Bohemian Cross Beaded Elastic Bracelet",
+          "description": "Bohemian-style cross beaded bracelet with iron pyrite and acrylic beads, elastic stretch fit, women's gift jewelry. Available in various colors.",
+          "sku": "ALI-AAE1TG7BAOVioqqEY6e5gBlf",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hccd9cc58d7da455bb40ab6403c549108Y.png",
+            "https://sc04.alicdn.com/kf/H6ca42d33a9434ccbadaee464e708d062X.png",
+            "https://sc04.alicdn.com/kf/Hc53b762434524799b5f0542e9a67ac09H.png",
+            "https://sc04.alicdn.com/kf/H0b0c7c8948b14e59811671601d9781f8m.png",
+            "https://sc04.alicdn.com/kf/H56adf5cf509b48bdb25a635bfc5c6d3bH.png",
+            "https://sc04.alicdn.com/kf/H66ea2f7344eb45f6a414af7789816425G.png"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materials",
+              "value": "Acrylic, Resin, Lucite, iron pyrite"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bracelet Type",
+              "value": "Beaded, elastic line"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Religious, bohemian"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Pattern",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Model Number",
+              "value": "QT-S24052502"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Women's"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Origin",
+              "value": "Guangzhou"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.13",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this cross bracelet made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet is crafted from acrylic, resin, and lucite beads, and includes iron pyrite accents for a metallic sheen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the bracelet adjustable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It has an elastic band, so it stretches to fit most wrist sizes without a clasp, sliding on and off easily."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What styles does this bracelet come in?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is categorized as bohemian style with a religious cross pattern, suitable for everyday or faith-themed wear. Specific color options may vary."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "contentHash": "d4469e7933bcd86d930b024e35df2b788571a7664c31d2af1759252a3b63fe5f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:31.059Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAE_TG7BAOVioqqEY6eBRoJy",
+      "sourceId": "AAE_TG7BAOVioqqEY6eBRoJy",
+      "sourceFingerprint": "5d2c76a8cb21aa149d7cf79e4276f1106c700632ffdd7fbffa436deff8e290cb",
+      "locale": "en",
+      "slug": "zinc-alloy-catholic-saint-charm-pendant-ebrojy",
+      "title": "Zinc Alloy Catholic Saint Charm Pendant",
+      "eyebrow": "Catholic saint charm pendant",
+      "summary": "This zinc alloy pendant presents round religious imagery, including Jesus, an angel, and the Madonna. Offered in 20 numbered variants, it suits jewelry crafting and personal devotional accessories. A practical choice for retailers seeking a range of Catholic-themed charms.",
+      "description": "The Zinc Alloy Catholic Saint Charm Pendant is a compact religious accessory with a round shape. Its designs feature recognizable Christian figures: Jesus, an angel, and the Madonna, making it a versatile addition to Catholic-themed jewelry collections. The pendant is made from zinc alloy, a material known for its durability and fine detail. It comes in 20 variants, numbered 1 through 20, allowing buyers to select specific motifs or offer a complete set. Whether used for crafting rosaries, necklaces, or bracelets, this charm provides a straightforward way to incorporate devotional imagery into wearable items.",
+      "catholicContext": "Such religious pendants relate to popular Catholic devotion, which the Catechism describes as extending but not replacing the Church's liturgical life.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hb1cc07c8732c468c885fa2f8a541c2f9c.webp",
+      "imageAlt": "Zinc Alloy Catholic Saint Charm Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb1cc07c8732c468c885fa2f8a541c2f9c.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H85202657e5fc4a249462784b9a40fd00F.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5fab23bc08ec4fb186ea395b63420147U.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc544b91a02e14ff0a609833efd3d6d255.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H935fef7e0dc74d0a8a290ed9bc890152D.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H93bdc20a2caf4aac824c79637bff0cc4E.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hef28f55f11e44d549554d0d902347bfcm.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 10",
+          "label": "10",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--17"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7c49a47e10b3484e9e5d381e44fdc8c28.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 8",
+          "label": "8",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--18"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0c9dd500630a4bb49bbc4841bea3aaedY.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 17",
+          "label": "17",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H60aec1be728a4cd7b0e59e9c8d0bae64k.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 7",
+          "label": "7",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--16"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6136679e0963425a99af5a6557bf5ae3g.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 1",
+          "label": "1",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--21"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8a7e8b1657b84ec2ab88a88fc532c099A.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 2",
+          "label": "2",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--19"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8b26ba35bf2b48518a456b7ba62c5decr.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 12",
+          "label": "12",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--20"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6be80b221a044f15a08555eb054ef09cG.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 20",
+          "label": "20",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0b9940e8a1c24dd4994a7b72e88036b4L.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 5",
+          "label": "5",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4ad98e664fe342908c65c6de560e357aW.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 14",
+          "label": "14",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9044d5e2bb614f8a8d2f7a129fa3868bb.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 18",
+          "label": "18",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf1cd75f811524881974fad5cf6d2a335n.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 16",
+          "label": "16",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H32a538bde24947239eb8b756d326c3e5N.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 11",
+          "label": "11",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfa0c9e04b318401282e936c072f349b2W.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 15",
+          "label": "15",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9ee02e3b2b2c4fdea99980ce6897b038j.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 6",
+          "label": "6",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H46f75e895fbc4a62b5d33037e94f34d5C.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 4",
+          "label": "4",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0218d68400c4aab9beb4f12414f39b6O.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 13",
+          "label": "13",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hae01cab2731347508243d55f539555b22.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 19",
+          "label": "19",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7efa2788e5e043049f4136da1b467d09L.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 9",
+          "label": "9",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfb039cfc288d4f6f8450657cea97b904X.webp",
+          "alt": "Zinc Alloy Catholic Saint Charm Pendant - 3",
+          "label": "3",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy-V--4"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "Made from zinc alloy, a durable metal suitable for everyday wear",
+        "Features round religious motifs including Jesus, an angel, and the Madonna",
+        "Available in 20 distinct variants, numbered 1–20",
+        "Compact size ideal for charm bracelets, necklaces, or keychains",
+        "Catholic-themed design suitable for devotional jewelry"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc alloy"
+        },
+        {
+          "name": "Shape",
+          "value": "Round"
+        },
+        {
+          "name": "Design",
+          "value": "Religious motifs: Jesus, Angel, Madonna"
+        },
+        {
+          "name": "Variants",
+          "value": "20 numbered variants (1-20)"
+        }
+      ],
+      "applications": [
+        "Creating Catholic-themed necklaces or pendants",
+        "Adding religious charms to bracelets",
+        "Crafting devotional jewelry for personal use",
+        "Sourcing components for jewelry-making businesses"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this pendant made from?",
+          "answer": "The pendant is crafted from zinc alloy, which provides a durable and affordable base for detailed religious imagery."
+        },
+        {
+          "question": "What designs are available?",
+          "answer": "The pendant features round religious motifs, including depictions of Jesus, an angel, and the Madonna. There are 20 different variants, numbered 1 through 20, likely differing in the specific imagery or finish."
+        },
+        {
+          "question": "Can I choose a specific variant when ordering?",
+          "answer": "Yes, the product is offered in 20 numbered variants, allowing you to select the design that best fits your needs or to purchase a mix for variety."
+        }
+      ],
+      "pricing": {
+        "price": "0.28",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.22",
+          "max": "0.28"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Zinc Alloy Catholic Saint Charm Pendant",
+          "description": "Zinc alloy pendant featuring round religious motifs with Jesus, Angel, and Madonna images. Available in 20 variants. Ideal for jewelry making and devotional use.",
+          "sku": "ALI-AAE_TG7BAOVioqqEY6eBRoJy",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hb1cc07c8732c468c885fa2f8a541c2f9c.jpg",
+            "https://sc04.alicdn.com/kf/H85202657e5fc4a249462784b9a40fd00F.jpg",
+            "https://sc04.alicdn.com/kf/H5fab23bc08ec4fb186ea395b63420147U.jpg",
+            "https://sc04.alicdn.com/kf/Hc544b91a02e14ff0a609833efd3d6d255.jpg",
+            "https://sc04.alicdn.com/kf/H935fef7e0dc74d0a8a290ed9bc890152D.jpg",
+            "https://sc04.alicdn.com/kf/H93bdc20a2caf4aac824c79637bff0cc4E.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Round"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Religious motifs: Jesus, Angel, Madonna"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "20 numbered variants (1-20)"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.28",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.22",
+              "maxPrice": "0.28",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this pendant made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is crafted from zinc alloy, which provides a durable and affordable base for detailed religious imagery."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What designs are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant features round religious motifs, including depictions of Jesus, an angel, and the Madonna. There are 20 different variants, numbered 1 through 20, likely differing in the specific imagery or finish."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I choose a specific variant when ordering?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product is offered in 20 numbered variants, allowing you to select the design that best fits your needs or to purchase a mix for variety."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "contentHash": "a1251f54f3d3014ce9596f5837e13db63e6824c9c8ba1cfa0bf77bca7fb82b96",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:09.259Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH5TG7BAOVioqqEY6eBRycG",
+      "sourceId": "AAH5TG7BAOVioqqEY6eBRycG",
+      "sourceFingerprint": "4cfa27fc0a886f3d6b623b3fd11b91e116cc53aef8486c0d59cf7407123ba23e",
+      "locale": "en",
+      "slug": "gold-plated-cross-pendant-with-jesus-ebrycg",
+      "title": "Gold Plated Cross Pendant with Jesus",
+      "eyebrow": "Gold plated metal cross pendant",
+      "summary": "A gold plated cross pendant measuring 5.8 by 12 cm, crafted from metal alloy with a plated finish. This decorative cross can serve as a prayer aid, ornament, or thoughtful gift for various occasions.",
+      "description": "This gold plated cross pendant offers a clear, traditional cross shape in a compact size. Measuring 5.8 by 12 cm, it is made of metal alloy with a plated finish, giving it a polished appearance. The design is simple and versatile, suitable for use in home decoration, as a holiday ornament, or as a souvenir. Its dimensions make it easy to display on a wall, stand, or shelf. Whether used for personal devotion or as a gift, this cross provides a recognizable symbol of Christian faith. The plated metal construction ensures durability for handling and display. Consider it for Christmas, Easter, or other religious gift-giving occasions.",
+      "catholicContext": "A cross pendant may serve as a visible expression of Christian faith, though it is not automatically a sacramental unless blessed by the Church.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAH5TG7BAOVioqqEY6eBRycG",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H6204fe4a266944529a41b59077832c49W.webp",
+      "imageAlt": "Gold Plated Cross Pendant with Jesus",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6204fe4a266944529a41b59077832c49W.webp",
+          "alt": "Gold Plated Cross Pendant with Jesus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7081a2ed9c6d432281abd70db1ba1d6b8.webp",
+          "alt": "Gold Plated Cross Pendant with Jesus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3f2405277408405b9812239d7ee5cafb1.webp",
+          "alt": "Gold Plated Cross Pendant with Jesus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63ac6777acfe49839acdf230b9c82c76k.webp",
+          "alt": "Gold Plated Cross Pendant with Jesus"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H08d1b54a97d6497bafd7ebca69c4a9acu.webp",
+          "alt": "Gold Plated Cross Pendant with Jesus"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6f7c72",
+      "features": [
+        "Gold plated finish for a shiny appearance",
+        "Measures 5.8 x 12 cm",
+        "Made of metal alloy",
+        "Cross shape design",
+        "Suitable for multiple applications including home decoration and gifts"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Metal alloy"
+        },
+        {
+          "name": "Plating",
+          "value": "Gold plated"
+        },
+        {
+          "name": "Dimensions",
+          "value": "5.8 x 12 cm"
+        },
+        {
+          "name": "Product type",
+          "value": "Model / ornament"
+        }
+      ],
+      "applications": [
+        "Home decoration",
+        "Holiday decoration and gift",
+        "Prayer aid",
+        "Souvenir"
+      ],
+      "faq": [
+        {
+          "question": "What are the dimensions of this cross pendant?",
+          "answer": "The cross pendant measures 5.8 by 12 cm, making it a compact size suitable for display or handling."
+        },
+        {
+          "question": "What material is this cross pendant made from?",
+          "answer": "It is made of metal alloy with a gold plated finish."
+        },
+        {
+          "question": "Can this cross pendant be used for multiple occasions?",
+          "answer": "Yes, it is suitable for various applications including home decoration, holiday gifts, souvenirs, and personal prayer."
+        }
+      ],
+      "pricing": {
+        "price": "0.65",
+        "regularPrice": "0.65",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.50",
+          "max": "0.65"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gold Plated Cross Pendant with Jesus",
+          "description": "Gold plated cross pendant, 5.8 x 12 cm, metal alloy with plated finish. Suitable for prayer, decoration, gifts. Explore OUOOO.",
+          "sku": "ALI-AAH5TG7BAOVioqqEY6eBRycG",
+          "image": [
+            "https://sc04.alicdn.com/kf/H6204fe4a266944529a41b59077832c49W.jpg",
+            "https://sc04.alicdn.com/kf/H7081a2ed9c6d432281abd70db1ba1d6b8.jpg",
+            "https://sc04.alicdn.com/kf/H3f2405277408405b9812239d7ee5cafb1.jpg",
+            "https://sc04.alicdn.com/kf/H63ac6777acfe49839acdf230b9c82c76k.jpg",
+            "https://sc04.alicdn.com/kf/H08d1b54a97d6497bafd7ebca69c4a9acu.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Metal alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Gold plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Dimensions",
+              "value": "5.8 x 12 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Product type",
+              "value": "Model / ornament"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.65",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.50",
+              "maxPrice": "0.65",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the dimensions of this cross pendant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The cross pendant measures 5.8 by 12 cm, making it a compact size suitable for display or handling."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material is this cross pendant made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is made of metal alloy with a gold plated finish."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this cross pendant be used for multiple occasions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is suitable for various applications including home decoration, holiday gifts, souvenirs, and personal prayer."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "contentHash": "0b45000c7b7c2f76a7e6dfd241ebf061e4552d0a69b3bb6ce9926f20a57d99e2",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:15.408Z",
             "model": "deepseek-v4-flash"
           }
         }

@@ -44,33 +44,12 @@ jobs:
           if(!process.env.D1_DATABASE_ID) throw new Error('CLOUDFLARE_D1_DATABASE_ID is required');
           const path='wrangler.jsonc'; const value=fs.readFileSync(path,'utf8').replace('00000000-0000-0000-0000-000000000000',process.env.D1_DATABASE_ID);
           fs.writeFileSync(path,value);"
-      - name: Capture D1 restore point
-        if: ${{ !(github.event.inputs.skip_d1_import == 'true') }}
-        run: node scripts/capture-d1-bookmark.mjs
-      - name: Apply D1 migrations
-        run: npx wrangler d1 migrations apply ouooo-catalog --remote
-      - name: Import English catalog
-        env:
-          OUOOO_LOCALE: en
-        shell: bash
-        run: |
-          npm run prepare:d1
-          for batch in .d1/import-en-*.sql; do
-            echo "Importing $batch"
-            npx wrangler d1 execute ouooo-catalog --remote --file "$batch" || exit 1
-          done
-      - name: Import published localized catalogs
-        shell: bash
-        run: |
-          for catalog in src/data/i18n/*/site-catalog.json; do
-            [ -f "$catalog" ] || continue
-            locale="$(basename "$(dirname "$catalog")")"
-            OUOOO_LOCALE="$locale" npm run prepare:d1
-            for batch in .d1/import-$locale-*.sql; do
-              echo "Importing $batch"
-              npx wrangler d1 execute ouooo-catalog --remote --file "$batch" || exit 1
-            done
-          done
+      # D1 is the serving database for product/collection pages. It is populated
+      # by a controlled manual import (scripts/build-d1-import.mjs + wrangler d1
+      # execute) and must NOT be written from this workflow: CI-run D1 imports
+      # have repeatedly triggered Cloudflare's D1 storage error (code 7500) and
+      # corrupted the database. This step only verifies the database is healthy
+      # before Workers are deployed against it.
       - name: Verify D1 catalog health
         run: node scripts/verify-d1-health.mjs
       - name: Build and deploy English plus 13 language Workers
@@ -87,4 +66,3 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_PURGE_TOKEN: ${{ secrets.CLOUDFLARE_PURGE_TOKEN }}
         run: node scripts/purge-cloudflare-cache.mjs
-

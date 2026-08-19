@@ -40,4 +40,4 @@ jobs:
           name: d1-backup
           path: .d1/backups/
           if-no-files-found: error
-          retention-days: 30
+          retention-days: 3

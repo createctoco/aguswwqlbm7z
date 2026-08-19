@@ -1,0 +1,43 @@
+name: D1 backup
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 04:00 UTC daily — after the nightly catalog sync (02:00) + deploy settle,
+    # so the backup contains the latest catalog. Also triggerable manually.
+    - cron: '0 4 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Configure production D1 database
+        env:
+          D1_DATABASE_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
+        run: >-
+          node --input-type=module -e "import fs from 'node:fs';
+          if(!process.env.D1_DATABASE_ID) throw new Error('CLOUDFLARE_D1_DATABASE_ID is required');
+          const path='wrangler.jsonc'; const value=fs.readFileSync(path,'utf8').replace('00000000-0000-0000-0000-000000000000',process.env.D1_DATABASE_ID);
+          fs.writeFileSync(path,value);"
+      - name: Export D1 backup
+        run: node scripts/export-d1-backup.mjs
+      - name: Upload backup artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: d1-backup
+          path: .d1/backups/
+          if-no-files-found: error
+          retention-days: 30

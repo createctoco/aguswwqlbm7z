@@ -3,7 +3,7 @@
   "locale": "es",
   "sourceLocale": "en",
   "sourceCatalogHash": "a9f91cdcc25a9326e85e0e9275ac28656f88bcc37137b7827ae46afbb72e6c89",
-  "generatedAt": "2026-08-19T03:06:44.029Z",
+  "generatedAt": "2026-08-19T12:57:21.065Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
@@ -35,31 +35,21 @@
     "brooch": "Broches",
     "uncategorized": "Sin categorizar"
   },
-  "categoryGlossarySourceHash": "c67d3b14a4f50e4bc50d4a053f4270e7ad9a33ac2bc8ee38af7aba41640e02a1",
+  "categoryGlossarySourceHash": "f4ede59fe4aa19c91b1f7fd908fa2dbaacea97259cd7521fd338c10cce44f678",
   "translationSummary": {
-    "ready": 287,
-    "skipped": 3,
+    "ready": 289,
+    "skipped": 1,
     "skippedProductIds": [
-      "AAGxTG7BAOVioqqEY6e7uzWC",
+      "AAGxTG7BAOVioqqEY6e7uzWC"
+    ],
+    "reused": 287,
+    "generated": 2,
+    "generatedProductIds": [
       "AAHJTG7BAOVioqqEY6e0b9PP",
       "AAEwTG7BAOVioqqEY6e6dfkE"
     ],
-    "reused": 277,
-    "generated": 10,
-    "generatedProductIds": [
-      "AAE_TG7BAOVioqqEY6eBTjU3",
-      "AAEcTG7BAOVioqqEY6eYM2Jr",
-      "AAE3TG7BAOVioqqEY6eo-9E_",
-      "AAHCTG7BAOVioqqEY6eo-oaW",
-      "AAHxTG7BAOVioqqEY6e0cceB",
-      "AAFjTG7BAOVioqqEY6e0bn1A",
-      "AAHsTG7BAOVioqqEY6e0w0ar",
-      "AAE1TG7BAOVioqqEY6e5gBlf",
-      "AAE_TG7BAOVioqqEY6eBRoJy",
-      "AAH5TG7BAOVioqqEY6eBRycG"
-    ],
-    "retriedBacklog": 1,
-    "glossaryReused": false
+    "retriedBacklog": 3,
+    "glossaryReused": true
   },
   "translationBacklog": [
     {
@@ -545,401 +535,6 @@
             "contentHash": "ea7adc1644caf3e7501ab5e89ec80a6f207c7926d1888414221ce0d9af85aa32",
             "attempts": 0,
             "updatedAt": "2026-08-10T18:55:06.338Z",
-            "model": "deepseek-v4-flash"
-          }
-        }
-      }
-    },
-    {
-      "productId": "AAHJTG7BAOVioqqEY6e0b9PP",
-      "sourceId": "AAHJTG7BAOVioqqEY6e0b9PP",
-      "sourceFingerprint": "6a49dd30c63a8242cf55dbe3606a7c06b1d5b42242e988a8f77f3a5add53f87c",
-      "locale": "en",
-      "slug": "knitted-coin-pouch-backpack-charm-e0b9pp",
-      "title": "Knitted Coin Pouch Backpack Charm",
-      "eyebrow": "knitted coin pouch backpack charm",
-      "summary": "A square knitted coin pouch that doubles as a cartoon backpack charm. Available in 11 color variants. Compact storage for coins or small items, with a creative pendant style. Suitable for party favors or gift bags.",
-      "description": "This knitted coin pouch brings a playful, handcrafted look to everyday carry. Its square shape and cartoon-inspired style make it stand out as a backpack charm, while the pouch interior offers a simple spot for coins or tiny essentials. Offered in 11 color variants, it suits retail displays, party favors, or event giveaways. The knitted construction gives it a soft texture, and the attached loop allows it to hang from bags, keyrings, or zippers. For wholesale buyers, the variety of colors supports mix-and-match ordering. This product does not include a chain or clip; the hanging method depends on the loop design.",
-      "catholicContext": "",
-      "catholicRelevance": "none",
-      "categories": [
-        {
-          "id": "160",
-          "name": "未分类",
-          "slug": "uncategorized"
-        }
-      ],
-      "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
-      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
-      "imageAlt": "Knitted Coin Pouch Backpack Charm",
-      "gallery": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc83b4d77db3241b5a04ace4fe0f12ae8k.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd6673f9211b4dc7b288672d5dfaefb6P.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H19ac6e14de64435d8a39503de3addd693.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfb561fcf008e4629a75b4ae35550689bX.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H44c7c47d5b0048c58b56947b79870c269.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm"
-        }
-      ],
-      "variantImages": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/He246024cb5104523a85accbb04ca0307N.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-11",
-          "label": "color-11",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--11"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6c9a668329ea49e892f92de2e6c6ed0da.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-10",
-          "label": "color-10",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--10"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd27f11b7a5446b2aca4832e252e9a83U.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-9",
-          "label": "color-9",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--9"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0856c8c365004274b9bdaed95f3325ecw.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-8",
-          "label": "color-8",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--8"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3af22ce9854e43e3bf52345c2e0d4897X.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-7",
-          "label": "color-7",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--7"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd314beb742bf47069b2cc928556a5a41d.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-6",
-          "label": "color-6",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--6"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha5eee002736b4335bf46af9083ccb2a1V.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-5",
-          "label": "color-5",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--5"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfadfc67210cf41ceac95de8c915e26cc5.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-4",
-          "label": "color-4",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--4"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H56e5611199c948318e7da714b5a2cb020.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-3",
-          "label": "color-3",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--3"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd4492b36e1ae4984b3afc64c03408effS.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-2",
-          "label": "color-2",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--2"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc2ab6231904b4b16aa2b1a1676e63833j.webp",
-          "alt": "Knitted Coin Pouch Backpack Charm - color-1",
-          "label": "color-1",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--1"
-        }
-      ],
-      "accent": "#9a6b63",
-      "features": [
-        "Knitted construction with a square shape",
-        "Cartoon-inspired creative pendant style",
-        "Available in 11 distinct color variants",
-        "Pouch opening for storing coins or small items",
-        "Loop for attaching to backpacks, bags, or keyrings",
-        "Wholesale packaging for party favors or retail"
-      ],
-      "specifications": [
-        {
-          "name": "Color variants",
-          "value": "11 options (Color 1 through Color 11)"
-        },
-        {
-          "name": "Style",
-          "value": "Square, cartoon-inspired pendant"
-        },
-        {
-          "name": "Primary material",
-          "value": "Knitted textile"
-        }
-      ],
-      "applications": [
-        "Attach to backpack as a decorative charm",
-        "Store coins or small items in the pouch",
-        "Use as party favor or gift bag filler",
-        "Display in retail or market stalls as a novelty item"
-      ],
-      "faq": [
-        {
-          "question": "What are the available color options?",
-          "answer": "This knitted coin pouch is available in 11 color variants, listed as Color 1 through Color 11. Specific shade names are not provided, so contact us for exact color details."
-        },
-        {
-          "question": "How does the pouch attach to a backpack?",
-          "answer": "The pouch includes a loop that can be threaded through a bag handle, zipper pull, or keyring. It does not come with a separate clip or chain, so you may need to add your own depending on the attachment point."
-        },
-        {
-          "question": "Is this item sold individually or in sets?",
-          "answer": "The listing indicates wholesale availability, but the exact unit quantity per order isn't specified. Contact us for packaging and MOQ details."
-        }
-      ],
-      "pricing": {
-        "price": "0.45",
-        "currency": "USD",
-        "onSale": false,
-        "priceRange": {
-          "min": "0.43",
-          "max": "0.45"
-        }
-      },
-      "structuredData": {
-        "product": {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "Knitted Coin Pouch Backpack Charm",
-          "description": "Wholesale knitted coin pouch backpack charm in 11 colors. Square creative pendant, party gift. Compact coin storage for bags, keys, or backpacks.",
-          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
-          "image": [
-            "https://sc04.alicdn.com/kf/H92a7c5fb923345d091a1c6a0d147b3fcS.png",
-            "https://sc04.alicdn.com/kf/Hc83b4d77db3241b5a04ace4fe0f12ae8k.png",
-            "https://sc04.alicdn.com/kf/Hcd6673f9211b4dc7b288672d5dfaefb6P.png",
-            "https://sc04.alicdn.com/kf/H19ac6e14de64435d8a39503de3addd693.png",
-            "https://sc04.alicdn.com/kf/Hfb561fcf008e4629a75b4ae35550689bX.png",
-            "https://sc04.alicdn.com/kf/H44c7c47d5b0048c58b56947b79870c269.png"
-          ],
-          "category": "未分类",
-          "additionalProperty": [
-            {
-              "@type": "PropertyValue",
-              "name": "Color variants",
-              "value": "11 options (Color 1 through Color 11)"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Style",
-              "value": "Square, cartoon-inspired pendant"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Primary material",
-              "value": "Knitted textile"
-            }
-          ],
-          "offers": {
-            "@type": "Offer",
-            "price": "0.45",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "minPrice": "0.43",
-              "maxPrice": "0.45",
-              "priceCurrency": "USD"
-            }
-          }
-        },
-        "faq": {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What are the available color options?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "This knitted coin pouch is available in 11 color variants, listed as Color 1 through Color 11. Specific shade names are not provided, so contact us for exact color details."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How does the pouch attach to a backpack?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The pouch includes a loop that can be threaded through a bag handle, zipper pull, or keyring. It does not come with a separate clip or chain, so you may need to add your own depending on the attachment point."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is this item sold individually or in sets?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The listing indicates wholesale availability, but the exact unit quantity per order isn't specified. Contact us for packaging and MOQ details."
-              }
-            }
-          ]
-        }
-      },
-      "localization": {
-        "sourceLocale": "en",
-        "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
-        "translations": {
-          "en": {
-            "status": "source",
-            "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
-            "contentHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
-            "attempts": 0,
-            "updatedAt": "2026-08-19T03:01:39.882Z",
-            "model": "deepseek-v4-flash"
-          }
-        }
-      }
-    },
-    {
-      "productId": "AAEwTG7BAOVioqqEY6e6dfkE",
-      "sourceId": "AAEwTG7BAOVioqqEY6e6dfkE",
-      "sourceFingerprint": "43c74a33721fcd6e9808bc7edfec530b6f92f0393b7c526aa8d8aa2cb69a856b",
-      "locale": "en",
-      "slug": "cross-border-middle-eastern-copper-micro-inlaid-diamond-bamboo-e6dfke",
-      "title": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo",
-      "eyebrow": "Accessories",
-      "summary": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo Sporty Premium Fashionable Popular Hollowed-Out All-Match",
-      "description": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo Sporty Premium Fashionable Popular Hollowed-Out All-Match",
-      "catholicContext": "",
-      "catholicRelevance": "devotional_context",
-      "categories": [
-        {
-          "id": "45",
-          "name": "Accessories",
-          "slug": "jewelry-accessories"
-        }
-      ],
-      "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
-      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
-      "imageAlt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo",
-      "gallery": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
-          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H66b1f2886bb14245b185aff88ef37e36B.webp",
-          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf645ae0acb5540faaed47cb274db792fg.webp",
-          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbb45184635494625a08c06fc9c9756abU.webp",
-          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hec9f09231885445cad2c18380ad97e9cr.webp",
-          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1d01ac755a6e40e08139f95891c0c504K.webp",
-          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo"
-        }
-      ],
-      "variantImages": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbcdea57f4dd1452db16503cf47564b34Y.webp",
-          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo - oval-colored-zirconium55-titanium-steel-necklace-opp-packaging",
-          "label": "oval-colored-zirconium55-titanium-steel-necklace-opp-packaging",
-          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--2"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha2cd3328f40e4e75a0a6b50fb08c8379D.webp",
-          "alt": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo - oval-white-zirconium-55-titanium-steel-necklace-opp-packaging",
-          "label": "oval-white-zirconium-55-titanium-steel-necklace-opp-packaging",
-          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--1"
-        }
-      ],
-      "accent": "#8a7b55",
-      "features": [
-        "Variant: Oval colored zirconium+55 titanium steel necklace-opp packaging, Oval white zirconium + 55 titanium steel necklace-opp packaging"
-      ],
-      "specifications": [
-        {
-          "name": "Variant",
-          "value": "Oval colored zirconium+55 titanium steel necklace-opp packaging, Oval white zirconium + 55 titanium steel necklace-opp packaging"
-        }
-      ],
-      "applications": [],
-      "faq": [],
-      "pricing": {
-        "price": "1.71",
-        "currency": "USD",
-        "onSale": false,
-        "priceRange": {
-          "min": "1.24",
-          "max": "1.71"
-        }
-      },
-      "structuredData": {
-        "product": {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo",
-          "description": "Cross-border Middle Eastern Copper Micro-Inlaid Diamond Bamboo Sporty Premium Fashionable Popular Hollowed-Out All-Match",
-          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
-          "image": [
-            "https://sc04.alicdn.com/kf/H320df553fb0a4aac8624dc8865272ec8e.png",
-            "https://sc04.alicdn.com/kf/H66b1f2886bb14245b185aff88ef37e36B.png",
-            "https://sc04.alicdn.com/kf/Hf645ae0acb5540faaed47cb274db792fg.png",
-            "https://sc04.alicdn.com/kf/Hbb45184635494625a08c06fc9c9756abU.png",
-            "https://sc04.alicdn.com/kf/Hec9f09231885445cad2c18380ad97e9cr.png",
-            "https://sc04.alicdn.com/kf/H1d01ac755a6e40e08139f95891c0c504K.png"
-          ],
-          "category": "Accessories",
-          "additionalProperty": [
-            {
-              "@type": "PropertyValue",
-              "name": "Variant",
-              "value": "Oval colored zirconium+55 titanium steel necklace-opp packaging, Oval white zirconium + 55 titanium steel necklace-opp packaging"
-            }
-          ],
-          "offers": {
-            "@type": "Offer",
-            "price": "1.71",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "minPrice": "1.24",
-              "maxPrice": "1.71",
-              "priceCurrency": "USD"
-            }
-          }
-        }
-      },
-      "localization": {
-        "sourceLocale": "en",
-        "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
-        "translations": {
-          "en": {
-            "status": "source",
-            "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
-            "contentHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
-            "attempts": 0,
-            "updatedAt": "2026-08-19T03:02:16.430Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -64342,6 +63937,417 @@
             "contentHash": "d2ba8a2497c70267f1e4702c3111cec8b15d578bce1339067e85912eb9a8d0a3",
             "attempts": 1,
             "updatedAt": "2026-08-19T03:06:44.028Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHJTG7BAOVioqqEY6e0b9PP",
+      "sourceId": "AAHJTG7BAOVioqqEY6e0b9PP",
+      "sourceFingerprint": "6a49dd30c63a8242cf55dbe3606a7c06b1d5b42242e988a8f77f3a5add53f87c",
+      "locale": "es",
+      "slug": "knitted-coin-pouch-backpack-charm-e0b9pp",
+      "title": "Monedero tejido con encanto para mochila",
+      "eyebrow": "monedero tejido con encanto para mochila",
+      "summary": "Un monedero tejido cuadrado que también sirve como encanto de mochila tipo caricatura. Disponible en 11 variantes de color. Almacenamiento compacto para monedas o artículos pequeños, con un estilo de colgante creativo. Adecuado para favores de fiesta o bolsas de regalo.",
+      "description": "Este monedero tejido aporta un aspecto lúdico y artesanal al uso diario. Su forma cuadrada y su estilo inspirado en caricaturas lo hacen destacar como encanto de mochila, mientras que el interior del monedero ofrece un lugar sencillo para monedas o pequeños artículos. Ofrecido en 11 variantes de color, se adapta a exhibiciones minoristas, favores de fiesta o obsequios para eventos. La construcción tejida le da una textura suave, y el lazo adjunto permite colgarlo de bolsos, llaveros o cremalleras. Para compradores al por mayor, la variedad de colores favorece pedidos combinados. Este producto no incluye cadena ni clip; el método de suspensión depende del diseño del lazo.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "122",
+          "name": "Empaques de joyería",
+          "slug": "jewelry-packaging"
+        }
+      ],
+      "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
+      "imageAlt": "Monedero tejido con encanto para mochila",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H92a7c5fb923345d091a1c6a0d147b3fcS.webp",
+          "alt": "Monedero tejido con encanto para mochila"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc83b4d77db3241b5a04ace4fe0f12ae8k.webp",
+          "alt": "Monedero tejido con encanto para mochila"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd6673f9211b4dc7b288672d5dfaefb6P.webp",
+          "alt": "Monedero tejido con encanto para mochila"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H19ac6e14de64435d8a39503de3addd693.webp",
+          "alt": "Monedero tejido con encanto para mochila"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfb561fcf008e4629a75b4ae35550689bX.webp",
+          "alt": "Monedero tejido con encanto para mochila"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H44c7c47d5b0048c58b56947b79870c269.webp",
+          "alt": "Monedero tejido con encanto para mochila"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He246024cb5104523a85accbb04ca0307N.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-11",
+          "label": "color-11",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H6c9a668329ea49e892f92de2e6c6ed0da.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-10",
+          "label": "color-10",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcd27f11b7a5446b2aca4832e252e9a83U.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-9",
+          "label": "color-9",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0856c8c365004274b9bdaed95f3325ecw.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-8",
+          "label": "color-8",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H3af22ce9854e43e3bf52345c2e0d4897X.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-7",
+          "label": "color-7",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd314beb742bf47069b2cc928556a5a41d.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-6",
+          "label": "color-6",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha5eee002736b4335bf46af9083ccb2a1V.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-5",
+          "label": "color-5",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hfadfc67210cf41ceac95de8c915e26cc5.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-4",
+          "label": "color-4",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H56e5611199c948318e7da714b5a2cb020.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-3",
+          "label": "color-3",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hd4492b36e1ae4984b3afc64c03408effS.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-2",
+          "label": "color-2",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc2ab6231904b4b16aa2b1a1676e63833j.webp",
+          "alt": "Monedero tejido con encanto para mochila - color-1",
+          "label": "color-1",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP-V--1"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Construcción tejida con forma cuadrada",
+        "Estilo de colgante creativo inspirado en caricaturas",
+        "Disponible en 11 variantes de color distintas",
+        "Apertura del monedero para guardar monedas o artículos pequeños",
+        "Lazo para fijar a mochilas, bolsos o llaveros",
+        "Empaque al por mayor para favores de fiesta o venta minorista"
+      ],
+      "specifications": [
+        {
+          "name": "Variantes de color",
+          "value": "11 opciones (Color 1 a Color 11)"
+        },
+        {
+          "name": "Estilo",
+          "value": "Cuadrado, colgante inspirado en caricaturas"
+        },
+        {
+          "name": "Material principal",
+          "value": "Textil tejido"
+        }
+      ],
+      "applications": [
+        "Fijar a la mochila como encanto decorativo",
+        "Guardar monedas o artículos pequeños en el monedero",
+        "Usar como favor de fiesta o relleno de bolsa de regalo",
+        "Exhibir en tiendas o puestos de mercado como artículo novedoso"
+      ],
+      "faq": [
+        {
+          "question": "¿Cuáles son las opciones de color disponibles?",
+          "answer": "Este monedero tejido está disponible en 11 variantes de color, enumeradas como Color 1 a Color 11. No se proporcionan nombres de tonos específicos, así que contáctenos para obtener detalles exactos de color."
+        },
+        {
+          "question": "¿Cómo se fija el monedero a una mochila?",
+          "answer": "El monedero incluye un lazo que se puede pasar a través de la asa del bolso, la cremallera o un llavero. No viene con un clip o cadena separados, por lo que es posible que deba agregar el suyo según el punto de fijación."
+        },
+        {
+          "question": "¿Este artículo se vende individualmente o en juegos?",
+          "answer": "El anuncio indica disponibilidad al por mayor, pero la cantidad exacta por pedido no se especifica. Contáctenos para obtener detalles de empaque y cantidad mínima de pedido."
+        }
+      ],
+      "pricing": {
+        "price": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.43",
+          "max": "0.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Monedero tejido con encanto para mochila",
+          "description": "Un monedero tejido cuadrado que también sirve como encanto de mochila tipo caricatura. Disponible en 11 variantes de color. Almacenamiento compacto para monedas o artículos pequeños, con un estilo de colgante creativo. Adecuado para favores de fiesta o bolsas de regalo.",
+          "sku": "ALI-AAHJTG7BAOVioqqEY6e0b9PP",
+          "image": [
+            "https://sc04.alicdn.com/kf/H92a7c5fb923345d091a1c6a0d147b3fcS.png",
+            "https://sc04.alicdn.com/kf/Hc83b4d77db3241b5a04ace4fe0f12ae8k.png",
+            "https://sc04.alicdn.com/kf/Hcd6673f9211b4dc7b288672d5dfaefb6P.png",
+            "https://sc04.alicdn.com/kf/H19ac6e14de64435d8a39503de3addd693.png",
+            "https://sc04.alicdn.com/kf/Hfb561fcf008e4629a75b4ae35550689bX.png",
+            "https://sc04.alicdn.com/kf/H44c7c47d5b0048c58b56947b79870c269.png"
+          ],
+          "category": "Empaques de joyería",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variantes de color",
+              "value": "11 opciones (Color 1 a Color 11)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Estilo",
+              "value": "Cuadrado, colgante inspirado en caricaturas"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material principal",
+              "value": "Textil tejido"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.43",
+              "maxPrice": "0.45",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Cuáles son las opciones de color disponibles?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Este monedero tejido está disponible en 11 variantes de color, enumeradas como Color 1 a Color 11. No se proporcionan nombres de tonos específicos, así que contáctenos para obtener detalles exactos de color."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo se fija el monedero a una mochila?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El monedero incluye un lazo que se puede pasar a través de la asa del bolso, la cremallera o un llavero. No viene con un clip o cadena separados, por lo que es posible que deba agregar el suyo según el punto de fijación."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Este artículo se vende individualmente o en juegos?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "El anuncio indica disponibilidad al por mayor, pero la cantidad exacta por pedido no se especifica. Contáctenos para obtener detalles de empaque y cantidad mínima de pedido."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "contentHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:01:39.882Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "954f3529b123899d177730defe35e82b62e153c0803cf996fc09a86f204537eb",
+            "contentHash": "3f5d2ed4b39ada4e3ea16ac8385ef7b52522ba82161384b3b69918376c66e57b",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T12:57:16.294Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEwTG7BAOVioqqEY6e6dfkE",
+      "sourceId": "AAEwTG7BAOVioqqEY6e6dfkE",
+      "sourceFingerprint": "43c74a33721fcd6e9808bc7edfec530b6f92f0393b7c526aa8d8aa2cb69a856b",
+      "locale": "es",
+      "slug": "cross-border-middle-eastern-copper-micro-inlaid-diamond-bamboo-e6dfke",
+      "title": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú",
+      "eyebrow": "Accesorios",
+      "summary": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú, deportivo, premium, moderno, popular, calado y versátil.",
+      "description": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú, deportivo, premium, moderno, popular, calado y versátil.",
+      "catholicContext": "",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accesorios",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
+      "imageAlt": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H320df553fb0a4aac8624dc8865272ec8e.webp",
+          "alt": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H66b1f2886bb14245b185aff88ef37e36B.webp",
+          "alt": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf645ae0acb5540faaed47cb274db792fg.webp",
+          "alt": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbb45184635494625a08c06fc9c9756abU.webp",
+          "alt": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hec9f09231885445cad2c18380ad97e9cr.webp",
+          "alt": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1d01ac755a6e40e08139f95891c0c504K.webp",
+          "alt": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbcdea57f4dd1452db16503cf47564b34Y.webp",
+          "alt": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú - collar de acero de titanio ovalado con circonio de color 55 - empaque opuesto",
+          "label": "collar-ovalado-circonio-color-55-acero-titanio-empaque-opuesto",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Ha2cd3328f40e4e75a0a6b50fb08c8379D.webp",
+          "alt": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú - collar de acero de titanio ovalado con circonio blanco 55 - empaque opuesto",
+          "label": "collar-ovalado-circonio-blanco-55-acero-titanio-empaque-opuesto",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE-V--1"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Variante: Collar de acero de titanio ovalado con circonio de color 55 - empaque opuesto, Collar de acero de titanio ovalado con circonio blanco 55 - empaque opuesto"
+      ],
+      "specifications": [
+        {
+          "name": "Variante",
+          "value": "Collar de acero de titanio ovalado con circonio de color 55 - empaque opuesto, Collar de acero de titanio ovalado con circonio blanco 55 - empaque opuesto"
+        }
+      ],
+      "applications": [],
+      "faq": [],
+      "pricing": {
+        "price": "1.71",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.24",
+          "max": "1.71"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú",
+          "description": "Collar de cobre de Oriente Medio con microincrustaciones de diamante y bambú, deportivo, premium, moderno, popular, calado y versátil.",
+          "sku": "ALI-AAEwTG7BAOVioqqEY6e6dfkE",
+          "image": [
+            "https://sc04.alicdn.com/kf/H320df553fb0a4aac8624dc8865272ec8e.png",
+            "https://sc04.alicdn.com/kf/H66b1f2886bb14245b185aff88ef37e36B.png",
+            "https://sc04.alicdn.com/kf/Hf645ae0acb5540faaed47cb274db792fg.png",
+            "https://sc04.alicdn.com/kf/Hbb45184635494625a08c06fc9c9756abU.png",
+            "https://sc04.alicdn.com/kf/Hec9f09231885445cad2c18380ad97e9cr.png",
+            "https://sc04.alicdn.com/kf/H1d01ac755a6e40e08139f95891c0c504K.png"
+          ],
+          "category": "Accesorios",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Variante",
+              "value": "Collar de acero de titanio ovalado con circonio de color 55 - empaque opuesto, Collar de acero de titanio ovalado con circonio blanco 55 - empaque opuesto"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.71",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.24",
+              "maxPrice": "1.71",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "contentHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "attempts": 0,
+            "updatedAt": "2026-08-19T03:02:16.430Z",
+            "model": "deepseek-v4-flash"
+          },
+          "es": {
+            "status": "ready",
+            "sourceHash": "f32b8e6d33f48cbe876e5544ef847334c7cbc53270e017dd024cbef0dbc1059f",
+            "contentHash": "fb6b64f99f99f5c26a90d1ca66cf97460e1b38568ff98e0d7ebe020abd894212",
+            "attempts": 1,
+            "updatedAt": "2026-08-19T12:57:21.061Z",
             "model": "deepseek-v4-flash"
           }
         }

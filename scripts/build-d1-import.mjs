@@ -67,9 +67,10 @@ const productBlocks = uniqueProducts.map((product) => {
 });
 
 const deletedProductIds = [...new Set((catalog.sync?.deletedProductIds || []).map(String))];
-const deleteStatements = deletedProductIds.map(
-  (productId) => `DELETE FROM products WHERE product_id=${quote(productId)} AND locale=${quote(locale)};`
-);
+const deleteStatements = deletedProductIds.flatMap((productId) => [
+  `DELETE FROM product_categories WHERE product_id=${quote(productId)} AND locale=${quote(locale)};`,
+  `DELETE FROM products WHERE product_id=${quote(productId)} AND locale=${quote(locale)};`,
+]);
 
 await mkdir(dirname(outputFile), { recursive: true });
 

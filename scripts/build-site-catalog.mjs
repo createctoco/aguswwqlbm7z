@@ -14,6 +14,12 @@ const accents = ['#8b6b4a', '#6f7c72', '#9a6b63', '#7a6d92', '#8a7b55', '#6d7887
 const CATEGORY_OVERRIDES = {
   'knitted-coin-pouch-backpack-charm-e0b9pp': [{ id: '122', name: 'Jewelry Packaging', slug: 'jewelry-packaging' }],
 };
+
+// Products to remove from the published site entirely (stale rows were left in
+// D1 after the source catalog dropped them). Keyed by source id; enforced on
+// every catalog build so a source re-add cannot resurrect them, and folded
+// into sync.deletedProductIds so D1 imports delete their rows.
+const DELETED_PRODUCT_IDS = new Set(['AAHyTG7BAOVioqqEY6eonUzd']);
 const unsuitableClaim =
   /\b(bless(?:ed|ing)?|consecrat(?:e|ed|ion)|miracul(?:ous|ously)|spiritual protection|church approv(?:al|ed))\b/i;
 const replaceSourceBrand = (value = '') => {
@@ -274,10 +280,12 @@ try {
   const existingSlugs = new Map(
     (existingCatalog.products || []).map((product) => [String(product.productId || product.sourceId), product.slug])
   );
-  const products = catalog.products.map((product, index) => mapProduct(product, index, existingSlugs));
+  const products = catalog.products
+    .filter((product) => !DELETED_PRODUCT_IDS.has(String(product.source_id || product.product_id)))
+    .map((product, index) => mapProduct(product, index, existingSlugs));
   await writeFile(
     temporaryFile,
-    `${JSON.stringify(sanitizeSourceBrand({ schemaVersion: 3, locale: 'en', generatedAt: new Date().toISOString(), selection: catalog.selection, sync: { mode: catalog.sync_mode, cursor: catalog.sync_cursor, modifiedAfter: catalog.modified_after, changedProductIds: catalog.changed_source_ids || [], deletedProductIds: catalog.deleted_source_ids || [] }, enrichmentSummary: catalog.enrichment_summary, products }), null, 2)}\n`,
+    `${JSON.stringify(sanitizeSourceBrand({ schemaVersion: 3, locale: 'en', generatedAt: new Date().toISOString(), selection: catalog.selection, sync: { mode: catalog.sync_mode, cursor: catalog.sync_cursor, modifiedAfter: catalog.modified_after, changedProductIds: catalog.changed_source_ids || [], deletedProductIds: [...new Set([...(catalog.deleted_source_ids || []), ...DELETED_PRODUCT_IDS])] }, enrichmentSummary: catalog.enrichment_summary, products }), null, 2)}\n`,
     'utf8'
   );
   await rename(temporaryFile, outputFile);

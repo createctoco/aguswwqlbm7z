@@ -1,31 +1,31 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-20T03:02:03.196Z",
+  "generatedAt": "2026-08-20T14:06:52.608Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAHOTG7BAOVioqqEY6eonVyp",
-      "AAH2TG7BAOVioqqEY6eon6kC",
-      "AAG8TG7BAOVioqqEY6eonbm6",
-      "AAHyTG7BAOVioqqEY6eonUzd",
-      "AAGTTG7BAOVioqqEY6eoncSG",
-      "AAEcTG7BAOVioqqEY6eon60k",
-      "AAHFTG7BAOVioqqEY6eBSeeQ",
-      "AAEITG7BAOVioqqEY6eN2yd1",
-      "AAHBTG7BAOVioqqEY6eBTtoU",
-      "AAEMTG7BAOVioqqEY6e3pJgV"
+      "AAH-TG7BAOVioqqEY6eBSrxz",
+      "AAF9TG7BAOVioqqEY6eA3R5-",
+      "AAEETG7BAOVioqqEY6eGNyAj",
+      "AAG7TG7BAOVioqqEY6edjPcX",
+      "AAFHTG7BAOVioqqEY6eBTTRB",
+      "AAHMTG7BAOVioqqEY6e0kzXM",
+      "AAGbTG7BAOVioqqEY6eGImuE",
+      "AAHtTG7BAOVioqqEY6eftw8E",
+      "AAHZTG7BAOVioqqEY6eyZZKs",
+      "AAEATG7BAOVioqqEY6eBSY2l"
     ],
     "deletedProductIds": [
       "AAHyTG7BAOVioqqEY6eonUzd"
     ]
   },
   "enrichmentSummary": {
-    "generated": 8,
-    "reused": 300,
-    "source_fallback": 2
+    "generated": 11,
+    "reused": 309,
+    "source_fallback": 0
   },
   "products": [
     {
@@ -64611,7 +64611,7 @@
           "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6-V--2"
         }
       ],
-      "accent": "#7a6d92",
+      "accent": "#9a6b63",
       "features": [
         "Zinc alloy construction with 18K gold plating",
         "Rhinestone embellishments on the crown pendant",
@@ -64820,7 +64820,7 @@
           "sku": "ALI-AAEcTG7BAOVioqqEY6eon60k-V--2"
         }
       ],
-      "accent": "#8a7b55",
+      "accent": "#7a6d92",
       "features": [
         "Zinc alloy construction for durability",
         "Rhinestone charm for decorative appeal",
@@ -65024,7 +65024,7 @@
           "sku": "ALI-AAGTTG7BAOVioqqEY6eoncSG-V--2"
         }
       ],
-      "accent": "#6d7887",
+      "accent": "#8a7b55",
       "features": [
         "Copper base with real gold or silver plating option",
         "Oval character avatar design with zircon stones",
@@ -65261,7 +65261,7 @@
           "sku": "ALI-AAEITG7BAOVioqqEY6eN2yd1-V--6"
         }
       ],
-      "accent": "#8b6b4a",
+      "accent": "#6d7887",
       "features": [
         "Available in six variants: double-faced dark green, double-sided light green, double-sided black, single-sided black, single-sided dark green, and single-sided light green",
         "Glass construction for a smooth, clear appearance",
@@ -65447,7 +65447,7 @@
           "sku": "ALI-AAHFTG7BAOVioqqEY6eBSeeQ-V--2"
         }
       ],
-      "accent": "#6f7c72",
+      "accent": "#8b6b4a",
       "features": [
         "Variant: 1, 2",
         "Design: Pendant"
@@ -65592,7 +65592,7 @@
           "sku": "ALI-AAEMTG7BAOVioqqEY6e3pJgV-V-3327837"
         }
       ],
-      "accent": "#9a6b63",
+      "accent": "#6f7c72",
       "features": [
         "Natural wood beads in brown or black finish",
         "Includes an Orthodox cross pendant",
@@ -65827,7 +65827,7 @@
           "sku": "ALI-AAHBTG7BAOVioqqEY6eBTtoU-V-216016296"
         }
       ],
-      "accent": "#7a6d92",
+      "accent": "#9a6b63",
       "features": [
         "Natural semi-precious stone beads",
         "Stretch cord construction for easy wear",
@@ -65966,14 +65966,2174 @@
       },
       "localization": {
         "sourceLocale": "en",
-        "sourceHash": "26d62f16c0878a6a8476dd77fd4b4c7a9077e392658025019f8d27d2b2c6498f",
+        "sourceHash": "e8e2a4e652c298b311bc32410823da473638ad9039a24269e6f9bc0c5673036f",
         "translations": {
           "en": {
             "status": "source",
-            "sourceHash": "26d62f16c0878a6a8476dd77fd4b4c7a9077e392658025019f8d27d2b2c6498f",
-            "contentHash": "26d62f16c0878a6a8476dd77fd4b4c7a9077e392658025019f8d27d2b2c6498f",
+            "sourceHash": "e8e2a4e652c298b311bc32410823da473638ad9039a24269e6f9bc0c5673036f",
+            "contentHash": "e8e2a4e652c298b311bc32410823da473638ad9039a24269e6f9bc0c5673036f",
             "attempts": 0,
             "updatedAt": "2026-08-20T03:01:52.338Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAF9TG7BAOVioqqEY6eA3R5-",
+      "sourceId": "AAF9TG7BAOVioqqEY6eA3R5-",
+      "sourceFingerprint": "c3c156e7e024eee3586d6ffd7439710098e94e3ed9e1ac70ccf68ee3b863ffd1",
+      "locale": "en",
+      "slug": "vintage-children-s-cross-pendant-green-brown-silver-ea3r5-",
+      "title": "Vintage Children's Cross Pendant - Green, Brown, Silver",
+      "eyebrow": "Vintage-style children's cross pendant",
+      "summary": "A vintage-style children's cross pendant in zinc alloy, available in green, brown, or silver. The ancient bronze finish gives it an old-world look. Suitable for DIY jewelry making and accessory crafting.",
+      "description": "This vintage-style cross pendant is designed for children and features an ancient bronze finish over zinc alloy construction. Available in three color variants—green, brown, and silver—the pendant offers flexibility for various creative projects. Its lightweight design makes it suitable for children's accessories, though it does not include a chain. This cross pendant is a plain cross, without a corpus, and may serve as a symbolic accessory for personal use or gift-giving.",
+      "catholicContext": "A plain cross (without a corpus) is a common Christian symbol, distinct from a crucifix which bears the image of Christ.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAF9TG7BAOVioqqEY6eA3R5-",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Ha8927395adc244e48631f613c2dafc26w.webp",
+      "imageAlt": "Vintage Children's Cross Pendant - Green, Brown, Silver",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha8927395adc244e48631f613c2dafc26w.webp",
+          "alt": "Vintage Children's Cross Pendant - Green, Brown, Silver"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Had53f6ba762f44fdb27cd1cdeed54251h.webp",
+          "alt": "Vintage Children's Cross Pendant - Green, Brown, Silver"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8bac0cfb5857471b85d2a855ef493323X.webp",
+          "alt": "Vintage Children's Cross Pendant - Green, Brown, Silver"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5e58d88e0dc44c9c8fb54c4aa972593aH.webp",
+          "alt": "Vintage Children's Cross Pendant - Green, Brown, Silver"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H191c33f9a8074539970bfbf45777171bd.webp",
+          "alt": "Vintage Children's Cross Pendant - Green, Brown, Silver"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd4f357e9b53f459d8832d45a74d81f3cM.webp",
+          "alt": "Vintage Children's Cross Pendant - Green, Brown, Silver"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf02d0ce84ca149bc8a1ebdd90e3ab7d0L.webp",
+          "alt": "Vintage Children's Cross Pendant - Green, Brown, Silver - green",
+          "label": "green",
+          "sku": "ALI-AAF9TG7BAOVioqqEY6eA3R5--V-216016296"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9382071b79d24f13aabf673505c3a8b6p.webp",
+          "alt": "Vintage Children's Cross Pendant - Green, Brown, Silver - brown",
+          "label": "brown",
+          "sku": "ALI-AAF9TG7BAOVioqqEY6eA3R5--V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H597a54be2b2041f39bfc555822b425dcd.webp",
+          "alt": "Vintage Children's Cross Pendant - Green, Brown, Silver - silver",
+          "label": "silver",
+          "sku": "ALI-AAF9TG7BAOVioqqEY6eA3R5--V-3460547"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Vintage-style design with ancient bronze finish",
+        "Made of zinc alloy",
+        "Available in green, brown, and silver color variants",
+        "Designed for children's accessories",
+        "Suitable for DIY jewelry making"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc alloy"
+        },
+        {
+          "name": "Color Variants",
+          "value": "Green, Brown, Silver"
+        },
+        {
+          "name": "Style",
+          "value": "Vintage, ancient bronze finish"
+        },
+        {
+          "name": "Target Audience",
+          "value": "Children"
+        }
+      ],
+      "applications": [
+        "DIY necklace or bracelet making",
+        "Children's accessory crafting",
+        "Religious-themed jewelry projects",
+        "Gift-making for personal use"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this pendant made of?",
+          "answer": "The pendant is made of zinc alloy with an ancient bronze finish, giving it a vintage appearance."
+        },
+        {
+          "question": "What color options are available?",
+          "answer": "This pendant comes in three color variants: green, brown, and silver."
+        },
+        {
+          "question": "Does the pendant come with a chain?",
+          "answer": "No chain is included; the pendant is sold as a single item for use in DIY projects or with your own chain."
+        }
+      ],
+      "pricing": {
+        "price": "0.06",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.05",
+          "max": "0.06"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Vintage Children's Cross Pendant - Green, Brown, Silver",
+          "description": "Vintage-style children's cross pendant in green, brown, or silver. Made of zinc alloy with an ancient bronze finish. Ideal for DIY jewelry and accessory projects.",
+          "sku": "ALI-AAF9TG7BAOVioqqEY6eA3R5-",
+          "image": [
+            "https://sc04.alicdn.com/kf/Ha8927395adc244e48631f613c2dafc26w.jpg",
+            "https://sc04.alicdn.com/kf/Had53f6ba762f44fdb27cd1cdeed54251h.jpg",
+            "https://sc04.alicdn.com/kf/H8bac0cfb5857471b85d2a855ef493323X.jpg",
+            "https://sc04.alicdn.com/kf/H5e58d88e0dc44c9c8fb54c4aa972593aH.jpg",
+            "https://sc04.alicdn.com/kf/H191c33f9a8074539970bfbf45777171bd.jpg",
+            "https://sc04.alicdn.com/kf/Hd4f357e9b53f459d8832d45a74d81f3cM.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color Variants",
+              "value": "Green, Brown, Silver"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Vintage, ancient bronze finish"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Target Audience",
+              "value": "Children"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.06",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.05",
+              "maxPrice": "0.06",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is made of zinc alloy with an ancient bronze finish, giving it a vintage appearance."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This pendant comes in three color variants: green, brown, and silver."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the pendant come with a chain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No chain is included; the pendant is sold as a single item for use in DIY projects or with your own chain."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "7e672f507c37601e8c90e65a05ff7281c266be84655dd78975d390a4a3cb4ec7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "7e672f507c37601e8c90e65a05ff7281c266be84655dd78975d390a4a3cb4ec7",
+            "contentHash": "7e672f507c37601e8c90e65a05ff7281c266be84655dd78975d390a4a3cb4ec7",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T14:06:32.448Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH-TG7BAOVioqqEY6eBSrxz",
+      "sourceId": "AAH-TG7BAOVioqqEY6eBSrxz",
+      "sourceFingerprint": "5e492eab0fc4bef424596d0388c76bf04a434c73baa6493c0509e564f482c0af",
+      "locale": "en",
+      "slug": "silver-plated-crystal-bead-rosary-necklace-ebsrxz",
+      "title": "Silver Plated Crystal Bead Rosary Necklace",
+      "eyebrow": "Catholic Rosary Necklace",
+      "summary": "A silver plated rosary necklace with princess cut crystal beads and a cross pendant, crafted from zinc alloy. Unisex beaded design, suited for devotional use or as a Catholic gift.",
+      "description": "This rosary necklace pairs a polished silver plating with sparkling princess cut crystal beads, creating a piece that catches light with each movement. The cross pendant anchors the design, making its religious symbolism immediately visible.\n\nConstructed from zinc alloy with a beaded chain, it is built for everyday wear. The unisex style suits both men and women, and the channel setting technique keeps the stones securely in place. Whether used for personal prayer or given as a gift, its classic look fits a variety of settings.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAH-TG7BAOVioqqEY6eBSrxz",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H5cd06490919e44b0893029d721ccaef5V.webp",
+      "imageAlt": "Silver Plated Crystal Bead Rosary Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5cd06490919e44b0893029d721ccaef5V.webp",
+          "alt": "Silver Plated Crystal Bead Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H07346fc91d7847e9bc2f593334295505r.webp",
+          "alt": "Silver Plated Crystal Bead Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H04dabec0a5724085a6d9a5f1f13b0a03y.webp",
+          "alt": "Silver Plated Crystal Bead Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7f482d7e7dfc4e7d9333f0d7afe8616bF.webp",
+          "alt": "Silver Plated Crystal Bead Rosary Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7e86f49b1f114b959d3fb431e7d0062eX.webp",
+          "alt": "Silver Plated Crystal Bead Rosary Necklace"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8a7b55",
+      "features": [
+        "Silver plated zinc alloy construction",
+        "Princess cut crystal beads for sparkle",
+        "Cross pendant design",
+        "Beaded necklace style",
+        "Channel setting for stones",
+        "Unisex design"
+      ],
+      "specifications": [
+        {
+          "name": "Primary Material",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Plating",
+          "value": "Silver Plated"
+        },
+        {
+          "name": "Bead Shape",
+          "value": "Princess Cut"
+        },
+        {
+          "name": "Stone Type",
+          "value": "Crystal (Other)"
+        },
+        {
+          "name": "Setting Technique",
+          "value": "Channel Setting"
+        },
+        {
+          "name": "Chain Type",
+          "value": "Beads"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        }
+      ],
+      "applications": [
+        "Personal devotional prayer",
+        "Catholic gift giving",
+        "Religious jewelry accessory",
+        "Everyday wear"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this rosary necklace made of?",
+          "answer": "The necklace is made of zinc alloy with silver plating, and features crystal beads in a princess cut."
+        },
+        {
+          "question": "Is this necklace designed for both men and women?",
+          "answer": "Yes, the necklace is unisex, making it suitable for both men and women."
+        },
+        {
+          "question": "How are the crystal beads set?",
+          "answer": "The crystal beads are set using channel setting, which holds each stone securely in place."
+        }
+      ],
+      "pricing": {
+        "price": "1.20",
+        "regularPrice": "1.20",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Silver Plated Crystal Bead Rosary Necklace",
+          "description": "Discover this silver plated zinc alloy rosary necklace with princess cut crystal beads, featuring a cross pendant. Unisex, beaded design, ideal for Catholic gifts.",
+          "sku": "ALI-AAH-TG7BAOVioqqEY6eBSrxz",
+          "image": [
+            "https://sc04.alicdn.com/kf/H5cd06490919e44b0893029d721ccaef5V.jpg",
+            "https://sc04.alicdn.com/kf/H07346fc91d7847e9bc2f593334295505r.jpg",
+            "https://sc04.alicdn.com/kf/H04dabec0a5724085a6d9a5f1f13b0a03y.jpg",
+            "https://sc04.alicdn.com/kf/H7f482d7e7dfc4e7d9333f0d7afe8616bF.jpg",
+            "https://sc04.alicdn.com/kf/H7e86f49b1f114b959d3fb431e7d0062eX.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Primary Material",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Silver Plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bead Shape",
+              "value": "Princess Cut"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stone Type",
+              "value": "Crystal (Other)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Setting Technique",
+              "value": "Channel Setting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain Type",
+              "value": "Beads"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.20",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this rosary necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace is made of zinc alloy with silver plating, and features crystal beads in a princess cut."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this necklace designed for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the necklace is unisex, making it suitable for both men and women."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How are the crystal beads set?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The crystal beads are set using channel setting, which holds each stone securely in place."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b17a872f5b46053bc9c7f54e8bb5595ccbc959a26d266b9e713ef94c17066939",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b17a872f5b46053bc9c7f54e8bb5595ccbc959a26d266b9e713ef94c17066939",
+            "contentHash": "b17a872f5b46053bc9c7f54e8bb5595ccbc959a26d266b9e713ef94c17066939",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T14:06:15.836Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEETG7BAOVioqqEY6eGNyAj",
+      "sourceId": "AAEETG7BAOVioqqEY6eGNyAj",
+      "sourceFingerprint": "a608456d075b8432e990a7b138b1d079c44e760257816cb9535a33db6c798620",
+      "locale": "en",
+      "slug": "wooden-oval-bead-rosary-necklace-with-bronze-cross-egnyaj",
+      "title": "Wooden Oval Bead Rosary Necklace with Bronze Cross",
+      "eyebrow": "Catholic Rosary Beads Necklace",
+      "summary": "This wooden rosary necklace features 8x10mm oval beads and an antique bronze plated cross, available in Coffee or Brown. Designed as a prayer aid for Catholic devotion, it combines traditional rosary structure with a wearable necklace format.",
+      "description": "The Wooden Oval Bead Rosary Necklace is crafted for daily prayer, featuring 8x10mm oval beads that provide a comfortable grip during recitation. The antique bronze plated cross serves as a focal point, distinguishing this rosary as a devotional item. Available in Coffee and Brown variants, the natural wood tones offer a warm, understated aesthetic suitable for personal use or as a gift for those who practice the Rosary. As a Catholic prayer aid, it supports the traditional recitation of the Rosary, a devotion centered on the lives of Jesus and Mary.",
+      "catholicContext": "The Rosary is a traditional Catholic prayer devotion centered on the contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAEETG7BAOVioqqEY6eGNyAj",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H0a82768a15404df5b5bf19350adef029J.webp",
+      "imageAlt": "Wooden Oval Bead Rosary Necklace with Bronze Cross",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0a82768a15404df5b5bf19350adef029J.webp",
+          "alt": "Wooden Oval Bead Rosary Necklace with Bronze Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H472500fa55cf485b9cc258a3e9751154P.webp",
+          "alt": "Wooden Oval Bead Rosary Necklace with Bronze Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5dbeb83ba6504072b5ed814106e31ad62-scaled.webp",
+          "alt": "Wooden Oval Bead Rosary Necklace with Bronze Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfcb7f419e6854ed7a90bcfe8508205f2h.webp",
+          "alt": "Wooden Oval Bead Rosary Necklace with Bronze Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfe289feb28fd47768e9de557808cab9fu.webp",
+          "alt": "Wooden Oval Bead Rosary Necklace with Bronze Cross"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H24156c1b3a7e441c9c7c8fedc63df578F.webp",
+          "alt": "Wooden Oval Bead Rosary Necklace with Bronze Cross"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hce3e5c90f2b5424e8e61c430042e089el.webp",
+          "alt": "Wooden Oval Bead Rosary Necklace with Bronze Cross - brown",
+          "label": "brown",
+          "sku": "ALI-AAEETG7BAOVioqqEY6eGNyAj-V-3399503"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb0de1c67797b4fe9a633e78177d666adm.webp",
+          "alt": "Wooden Oval Bead Rosary Necklace with Bronze Cross - coffee",
+          "label": "coffee",
+          "sku": "ALI-AAEETG7BAOVioqqEY6eGNyAj-V-3778969"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "8x10mm oval wooden beads",
+        "Antique bronze plated cross",
+        "Available in Coffee and Brown color variants",
+        "Designed as a rosary for Catholic prayer",
+        "Necklace style for wearability"
+      ],
+      "specifications": [
+        {
+          "name": "Design",
+          "value": "Rosary"
+        },
+        {
+          "name": "Bead size",
+          "value": "8x10mm"
+        },
+        {
+          "name": "Bead shape",
+          "value": "Oval"
+        },
+        {
+          "name": "Color variants",
+          "value": "Coffee, Brown"
+        }
+      ],
+      "applications": [
+        "Personal prayer and recitation of the Rosary",
+        "Catholic devotional gift for confirmations or birthdays",
+        "Worn as a religious necklace",
+        "Used in group prayer settings"
+      ],
+      "faq": [
+        {
+          "question": "What are the dimensions of the beads on this rosary?",
+          "answer": "The beads are oval-shaped and measure 8x10mm, providing a comfortable size for handling during prayer."
+        },
+        {
+          "question": "What color options are available for this rosary?",
+          "answer": "This rosary is available in two color variants: Coffee and Brown."
+        },
+        {
+          "question": "Is the cross on this rosary a crucifix?",
+          "answer": "The product specifies an antique bronze plated cross; it does not indicate a corpus, so it is a plain cross, not a crucifix."
+        }
+      ],
+      "pricing": {
+        "price": "0.42",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.30",
+          "max": "0.42"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Wooden Oval Bead Rosary Necklace with Bronze Cross",
+          "description": "Wooden rosary beads necklace with 8x10mm oval beads and antique bronze plated cross, available in Coffee and Brown variants. A prayer aid for Catholic devotion.",
+          "sku": "ALI-AAEETG7BAOVioqqEY6eGNyAj",
+          "image": [
+            "https://sc04.alicdn.com/kf/H0a82768a15404df5b5bf19350adef029J.jpg",
+            "https://sc04.alicdn.com/kf/H472500fa55cf485b9cc258a3e9751154P.jpg",
+            "https://sc04.alicdn.com/kf/H5dbeb83ba6504072b5ed814106e31ad62.jpg",
+            "https://sc04.alicdn.com/kf/Hfcb7f419e6854ed7a90bcfe8508205f2h.jpg",
+            "https://sc04.alicdn.com/kf/Hfe289feb28fd47768e9de557808cab9fu.jpg",
+            "https://sc04.alicdn.com/kf/H24156c1b3a7e441c9c7c8fedc63df578F.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Rosary"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bead size",
+              "value": "8x10mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bead shape",
+              "value": "Oval"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Coffee, Brown"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.42",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.30",
+              "maxPrice": "0.42",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the dimensions of the beads on this rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are oval-shaped and measure 8x10mm, providing a comfortable size for handling during prayer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color options are available for this rosary?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This rosary is available in two color variants: Coffee and Brown."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the cross on this rosary a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product specifies an antique bronze plated cross; it does not indicate a corpus, so it is a plain cross, not a crucifix."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "23e374a4357fc83360f48547ffbe7405b5cbcd1538f35119ee80a12334f014e5",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "23e374a4357fc83360f48547ffbe7405b5cbcd1538f35119ee80a12334f014e5",
+            "contentHash": "23e374a4357fc83360f48547ffbe7405b5cbcd1538f35119ee80a12334f014e5",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T14:06:43.105Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAG7TG7BAOVioqqEY6edjPcX",
+      "sourceId": "AAG7TG7BAOVioqqEY6edjPcX",
+      "sourceFingerprint": "c2eb3435dbc37b773daf07c45c3d39a2f8f3e9b24b47e5f4ee678c1951d3f54b",
+      "locale": "en",
+      "slug": "natural-shell-bone-coral-cross-beads-13x18mm-edjpcx",
+      "title": "Natural Shell Bone Coral Cross Beads 13x18mm",
+      "eyebrow": "Loose cross-shaped shell, bone, and coral beads",
+      "summary": "These loose cross beads are cut from natural shell, bone, and coral, each in a 13x18mm cross shape. Their natural color variations make them suitable for handmade necklaces and other DIY accessories with a Christian theme.",
+      "description": "These cross-shaped beads combine shell, bone, and coral in their natural tones. At 13x18mm, they are sized for use in necklaces, bracelets, rosary-style projects, or other jewelry compositions. Because the material is natural, expect subtle color and texture differences between beads.\n\nEach bead is drilled as a loose component, giving you full control over design and stringing. They can be mixed with other beads or used alone to create a simple, recognizable Christian emblem. The cross form is a traditional symbol in Catholic devotion, distinct from a crucifix which includes the body of Christ.",
+      "catholicContext": "A plain cross is a common devotional symbol in Christian traditions, though it is distinct from a crucifix, which includes the body of Christ.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAG7TG7BAOVioqqEY6edjPcX",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H93ebb576bc974eecb0af9e5158ae44895.webp",
+      "imageAlt": "Natural Shell Bone Coral Cross Beads 13x18mm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H93ebb576bc974eecb0af9e5158ae44895.webp",
+          "alt": "Natural Shell Bone Coral Cross Beads 13x18mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf9c708a959b741979748ce523beccd78S.webp",
+          "alt": "Natural Shell Bone Coral Cross Beads 13x18mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H549e2f521f854b01bb06af2e7a3e933cD.webp",
+          "alt": "Natural Shell Bone Coral Cross Beads 13x18mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hca5d335ca01b40c0b08f00c9608cc120X.webp",
+          "alt": "Natural Shell Bone Coral Cross Beads 13x18mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hcb3a21383315432e86f2e62b58e22197U.webp",
+          "alt": "Natural Shell Bone Coral Cross Beads 13x18mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4dcb9f26459482e97462dacf742e879P.webp",
+          "alt": "Natural Shell Bone Coral Cross Beads 13x18mm"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Cross-shaped loose beads made from natural shell, bone, and coral",
+        "Dimensions: 13x18mm",
+        "Natural color variations consistent with natural materials",
+        "Suitable for beading and jewelry making",
+        "Available in model numbers 12x16mm and 13x18mm"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Shell, bone, coral"
+        },
+        {
+          "name": "Shape",
+          "value": "Cross"
+        },
+        {
+          "name": "Size",
+          "value": "13x18mm"
+        },
+        {
+          "name": "Color",
+          "value": "Natural colors"
+        }
+      ],
+      "applications": [
+        "Designing handmade necklaces",
+        "Creating bracelets or anklets",
+        "Adding Christian-themed accents to jewelry",
+        "Using in art or craft projects requiring cross-shaped beads"
+      ],
+      "faq": [
+        {
+          "question": "What materials are these cross beads made from?",
+          "answer": "These beads are made from natural shell, bone, and coral, as indicated in the product attributes."
+        },
+        {
+          "question": "What are the color variations like?",
+          "value": "The color is described as natural, which means you can expect slight variations in shade and texture between individual beads due to the natural materials."
+        },
+        {
+          "question": "Are these beads sold individually or in a pack?",
+          "answer": "The product information specifies that they are loose beads, but the quantity per package is not provided. For exact counts, contact us."
+        }
+      ],
+      "pricing": {
+        "price": "1.00",
+        "regularPrice": "1.00",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.90",
+          "max": "1.00"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Natural Shell Bone Coral Cross Beads 13x18mm",
+          "description": "Loose cross-shaped beads made of natural shell, bone, and coral. 13x18mm size for DIY necklaces and accessories. Natural colors. Ideal for religious jewelry making.",
+          "sku": "ALI-AAG7TG7BAOVioqqEY6edjPcX",
+          "image": [
+            "https://sc04.alicdn.com/kf/H93ebb576bc974eecb0af9e5158ae44895.jpg",
+            "https://sc04.alicdn.com/kf/Hf9c708a959b741979748ce523beccd78S.jpg",
+            "https://sc04.alicdn.com/kf/H549e2f521f854b01bb06af2e7a3e933cD.jpg",
+            "https://sc04.alicdn.com/kf/Hca5d335ca01b40c0b08f00c9608cc120X.jpg",
+            "https://sc04.alicdn.com/kf/Hcb3a21383315432e86f2e62b58e22197U.jpg",
+            "https://sc04.alicdn.com/kf/He4dcb9f26459482e97462dacf742e879P.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Shell, bone, coral"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Cross"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Size",
+              "value": "13x18mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color",
+              "value": "Natural colors"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.00",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.90",
+              "maxPrice": "1.00",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are these cross beads made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "These beads are made from natural shell, bone, and coral, as indicated in the product attributes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the color variations like?",
+              "acceptedAnswer": {
+                "@type": "Answer"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are these beads sold individually or in a pack?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product information specifies that they are loose beads, but the quantity per package is not provided. For exact counts, contact us."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "9115b9138b9a53713818475f8f087349151c0215577f2a19cbc07781a534e43a",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "9115b9138b9a53713818475f8f087349151c0215577f2a19cbc07781a534e43a",
+            "contentHash": "9115b9138b9a53713818475f8f087349151c0215577f2a19cbc07781a534e43a",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T14:06:21.432Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFHTG7BAOVioqqEY6eBTTRB",
+      "sourceId": "AAFHTG7BAOVioqqEY6eBTTRB",
+      "sourceFingerprint": "a4ce041c1c275f9af514fff811925aada5dd893d969d653c1117cca54f55fcb8",
+      "locale": "en",
+      "slug": "religious-alloy-cross-pendant-with-inside-image-for-rosary-ebttrb",
+      "title": "Religious Alloy Cross Pendant with Inside Image for Rosary",
+      "eyebrow": "Alloy cross pendant with inside image",
+      "summary": "This alloy cross pendant features an inside image on one side and a single hole for easy attachment, making it a practical component for rosary assembly or religious jewelry crafting. Choose from three variant options to match your design needs.",
+      "description": "This pendant is a cast alloy cross with an embedded image visible inside the frame. The one-hole construction allows simple stringing onto rosary chains or cords. It is offered in three variations, so you can select the finish or style that fits your product line.\n\nThe compact size suits mass-production rosaries and devotional accessories. As a Marian-themed cross, it references the Virgin Mary, commonly venerated in Catholic tradition. The design combines a cross shape with a Marian image, serving as a discreet devotional element for personal use or gift items.",
+      "catholicContext": "The pendant is designed for use with rosaries, a Catholic prayer practice centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAFHTG7BAOVioqqEY6eBTTRB",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hda1de71501df43dfadd446520112339dZ.webp",
+      "imageAlt": "Religious Alloy Cross Pendant with Inside Image for Rosary",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hda1de71501df43dfadd446520112339dZ.webp",
+          "alt": "Religious Alloy Cross Pendant with Inside Image for Rosary"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H60b2aaafbcda4d09bbf1dddc9973472cq.webp",
+          "alt": "Religious Alloy Cross Pendant with Inside Image for Rosary"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0a241cbb32aa4242811f5a82989046ff9.webp",
+          "alt": "Religious Alloy Cross Pendant with Inside Image for Rosary"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd70f5662f3d542d5ba033f68b39a13a0j.webp",
+          "alt": "Religious Alloy Cross Pendant with Inside Image for Rosary"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5afe25f8bc7c45fca7b792ae965b21b7B.webp",
+          "alt": "Religious Alloy Cross Pendant with Inside Image for Rosary - 3",
+          "label": "3",
+          "sku": "ALI-AAFHTG7BAOVioqqEY6eBTTRB-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd35156c3fce04b05986675d4d7174252h.webp",
+          "alt": "Religious Alloy Cross Pendant with Inside Image for Rosary - 1",
+          "label": "1",
+          "sku": "ALI-AAFHTG7BAOVioqqEY6eBTTRB-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8b31aa13cfca4e00bfc2cb8b0558b95b2.webp",
+          "alt": "Religious Alloy Cross Pendant with Inside Image for Rosary - 2",
+          "label": "2",
+          "sku": "ALI-AAFHTG7BAOVioqqEY6eBTTRB-V--1"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Alloy construction for durability",
+        "Inside image of the Virgin Mary",
+        "Single hole for attachment",
+        "Three variants available",
+        "Designed for rosary use"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Alloy"
+        },
+        {
+          "name": "Design",
+          "value": "Cross with inside image"
+        },
+        {
+          "name": "Attachment",
+          "value": "One hole"
+        },
+        {
+          "name": "Variants",
+          "value": "3"
+        }
+      ],
+      "applications": [
+        "Rosary construction",
+        "Religious jewelry making",
+        "Pendant for necklaces or bracelets",
+        "Devotional accessory crafting"
+      ],
+      "faq": [
+        {
+          "question": "Does this cross pendant depict a crucifix?",
+          "answer": "No, it is described as a cross with an inside image, not a crucifix. A crucifix specifically shows the body of Christ."
+        },
+        {
+          "question": "Is the pendant suitable for rosary making?",
+          "answer": "Yes, its single-hole design allows it to be attached to rosary chains or cords, and it is explicitly intended for rosary use."
+        },
+        {
+          "question": "What are the available variants?",
+          "answer": "The product is offered in three variants, typically differing in finish or style, but the exact details are not specified."
+        }
+      ],
+      "pricing": {
+        "price": "0.45",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.38",
+          "max": "0.45"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Religious Alloy Cross Pendant with Inside Image for Rosary",
+          "description": "Alloy cross pendant with an inside image of the Virgin Mary, one hole for attachment, available in three variants for rosary making and religious accessories.",
+          "sku": "ALI-AAFHTG7BAOVioqqEY6eBTTRB",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hda1de71501df43dfadd446520112339dZ.jpg",
+            "https://sc04.alicdn.com/kf/H60b2aaafbcda4d09bbf1dddc9973472cq.jpg",
+            "https://sc04.alicdn.com/kf/H0a241cbb32aa4242811f5a82989046ff9.jpg",
+            "https://sc04.alicdn.com/kf/Hd70f5662f3d542d5ba033f68b39a13a0j.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Cross with inside image"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Attachment",
+              "value": "One hole"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "3"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.45",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.38",
+              "maxPrice": "0.45",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does this cross pendant depict a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, it is described as a cross with an inside image, not a crucifix. A crucifix specifically shows the body of Christ."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the pendant suitable for rosary making?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, its single-hole design allows it to be attached to rosary chains or cords, and it is explicitly intended for rosary use."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the available variants?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product is offered in three variants, typically differing in finish or style, but the exact details are not specified."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "0cfb5b7652c2a108c23090f9f0b505694643d525cbd5ed311d6eab38b092ce5c",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "0cfb5b7652c2a108c23090f9f0b505694643d525cbd5ed311d6eab38b092ce5c",
+            "contentHash": "0cfb5b7652c2a108c23090f9f0b505694643d525cbd5ed311d6eab38b092ce5c",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T14:06:22.141Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHMTG7BAOVioqqEY6e0kzXM",
+      "sourceId": "AAHMTG7BAOVioqqEY6e0kzXM",
+      "sourceFingerprint": "a5fa4cf78597622e318d1411c1851ea0f10eb8c4b146fa90931b6757f80a6ecb",
+      "locale": "en",
+      "slug": "alloy-sliding-car-keychain-4-section-key-holder-e0kzxm",
+      "title": "Alloy Sliding Car Keychain 4-Section Key Holder",
+      "eyebrow": "Alloy sliding car keychain",
+      "summary": "A lightweight alloy sliding keychain with a 4-section chain and metal key ring. Available in silver or gold finishes. Ideal for keeping car keys organized or as a DIY pendant base.",
+      "description": "This keychain features a sliding alloy head and a 4-section chain, providing flexible key organization. The metal key ring securely attaches your keys, while the lightweight build makes it easy to carry. Choose from silver or gold finishes to match your style. The compact design also lends itself to DIY pendant projects, allowing you to personalize it with charms or small decorations. A practical accessory for everyday use or as a promotional giveaway.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHMTG7BAOVioqqEY6e0kzXM",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hebcb6c005a5a46ae9caa6d94ddcde819K.webp",
+      "imageAlt": "Alloy Sliding Car Keychain 4-Section Key Holder",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hebcb6c005a5a46ae9caa6d94ddcde819K.webp",
+          "alt": "Alloy Sliding Car Keychain 4-Section Key Holder"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f2bfc4f8dfa48c7a78ce5179616d1f25.webp",
+          "alt": "Alloy Sliding Car Keychain 4-Section Key Holder"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha0ce2e550fb34967815b76603fda63d8x.webp",
+          "alt": "Alloy Sliding Car Keychain 4-Section Key Holder"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8bc1d0f7a60b483b82389ade384a843fH.webp",
+          "alt": "Alloy Sliding Car Keychain 4-Section Key Holder"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H643a7568fa7244cd8493fea93d5cdc48A.webp",
+          "alt": "Alloy Sliding Car Keychain 4-Section Key Holder"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hccd8714b136f4286bcf80c93e6aa3799a.webp",
+          "alt": "Alloy Sliding Car Keychain 4-Section Key Holder"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd167cd619cc5401e89858ec9c6ce72b0v.webp",
+          "alt": "Alloy Sliding Car Keychain 4-Section Key Holder - sliver2",
+          "label": "sliver2",
+          "sku": "ALI-AAHMTG7BAOVioqqEY6e0kzXM-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He4d6d9cbc7b24262b16ad4034fedc6dfh.webp",
+          "alt": "Alloy Sliding Car Keychain 4-Section Key Holder - sliver",
+          "label": "sliver",
+          "sku": "ALI-AAHMTG7BAOVioqqEY6e0kzXM-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He50b1dadd72d4ea4bd12e8d36ded6860e.webp",
+          "alt": "Alloy Sliding Car Keychain 4-Section Key Holder - gold",
+          "label": "gold",
+          "sku": "ALI-AAHMTG7BAOVioqqEY6e0kzXM-V-3331116"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Sliding alloy head design",
+        "4-section chain for versatile key attachment",
+        "Durable metal key ring",
+        "Lightweight construction for portability",
+        "Available in silver and gold variants"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Alloy and metal"
+        },
+        {
+          "name": "Chain sections",
+          "value": "4"
+        },
+        {
+          "name": "Available colors",
+          "value": "Silver, Silver2, Gold"
+        }
+      ],
+      "applications": [
+        "Car key holder",
+        "Everyday keychain",
+        "DIY pendant base",
+        "Promotional gift"
+      ],
+      "faq": [
+        {
+          "question": "What are the available color options for this keychain?",
+          "answer": "The keychain comes in three variants: Silver, Silver2, and Gold."
+        },
+        {
+          "question": "How many sections are in the chain?",
+          "answer": "The chain has four sections, providing multiple points for attaching keys or small items."
+        },
+        {
+          "question": "Can this keychain be used for DIY projects?",
+          "answer": "Yes, the sliding head and chain design allow for customization with pendants or charms, making it suitable for DIY crafts."
+        }
+      ],
+      "pricing": {
+        "price": "0.10",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.07",
+          "max": "0.10"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Alloy Sliding Car Keychain 4-Section Key Holder",
+          "description": "Lightweight alloy sliding car keychain with 4-section chain and key ring. Metal key holder in silver or gold. Ideal for DIY pendants and gifts.",
+          "sku": "ALI-AAHMTG7BAOVioqqEY6e0kzXM",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hebcb6c005a5a46ae9caa6d94ddcde819K.png",
+            "https://sc04.alicdn.com/kf/H8f2bfc4f8dfa48c7a78ce5179616d1f25.jpg",
+            "https://sc04.alicdn.com/kf/Ha0ce2e550fb34967815b76603fda63d8x.png",
+            "https://sc04.alicdn.com/kf/H8bc1d0f7a60b483b82389ade384a843fH.jpg",
+            "https://sc04.alicdn.com/kf/H643a7568fa7244cd8493fea93d5cdc48A.jpg",
+            "https://sc04.alicdn.com/kf/Hccd8714b136f4286bcf80c93e6aa3799a.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Alloy and metal"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain sections",
+              "value": "4"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Available colors",
+              "value": "Silver, Silver2, Gold"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.10",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.07",
+              "maxPrice": "0.10",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the available color options for this keychain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The keychain comes in three variants: Silver, Silver2, and Gold."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How many sections are in the chain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The chain has four sections, providing multiple points for attaching keys or small items."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can this keychain be used for DIY projects?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the sliding head and chain design allow for customization with pendants or charms, making it suitable for DIY crafts."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "a4ea042b0440e85467eba15063beb9b929d588ec0086a2202e70f41ea509a3a7",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "a4ea042b0440e85467eba15063beb9b929d588ec0086a2202e70f41ea509a3a7",
+            "contentHash": "a4ea042b0440e85467eba15063beb9b929d588ec0086a2202e70f41ea509a3a7",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T14:06:42.557Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGbTG7BAOVioqqEY6eGImuE",
+      "sourceId": "AAGbTG7BAOVioqqEY6eGImuE",
+      "sourceFingerprint": "54de279b78084ac14cf80e7e32db2a255156ed3f0efbf533ff1d450bd9618a0a",
+      "locale": "en",
+      "slug": "zinc-alloy-cross-pendant-for-jewelry-making-egimue",
+      "title": "Zinc Alloy Cross Pendant for Jewelry Making",
+      "eyebrow": "Zinc alloy cross pendant",
+      "summary": "This zinc alloy cross pendant includes an INRI plaque and channel-set stones, giving it a detailed religious look. It is designed for use in rosaries, necklaces, or other devotional jewelry. With a unisex style, it suits a range of projects. We offer wholesale sourcing and sample making.",
+      "description": "The pendant is made from zinc alloy and features a cross shape with an INRI plaque, a detail commonly seen on crucifixes. Small stones are set along the cross using channel setting, adding texture without a center stone. The finish is categorized as other, which may vary. As a themed pendant, it fits Catholic jewelry lines and custom pieces.\n\nBecause the item is sold as a pendant only, you will need to supply your own chain or cord. Its unisex design works for both adults and children. We can help with sample making if you want to test the piece before a larger order. Contact us for sourcing details.",
+      "catholicContext": "The cross is a central symbol of the Christian faith, recalling the crucifixion of Jesus Christ.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGbTG7BAOVioqqEY6eGImuE",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hf74e4a66f58e4aaba4741c2be2e7c213r.webp",
+      "imageAlt": "Zinc Alloy Cross Pendant for Jewelry Making",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf74e4a66f58e4aaba4741c2be2e7c213r.webp",
+          "alt": "Zinc Alloy Cross Pendant for Jewelry Making"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hafa97b10f36844eeaf5a4a42d243c7e5B.webp",
+          "alt": "Zinc Alloy Cross Pendant for Jewelry Making"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5565ee8ee29d4c55aafc4e4a0947f4d94.webp",
+          "alt": "Zinc Alloy Cross Pendant for Jewelry Making"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd7b142ae06484d20b5c9c90e8f178071q.webp",
+          "alt": "Zinc Alloy Cross Pendant for Jewelry Making"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He2d68ecce7594316818b2115800d36e7S.webp",
+          "alt": "Zinc Alloy Cross Pendant for Jewelry Making"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H768bd7cda12d4c59a92c674fdc269426u.webp",
+          "alt": "Zinc Alloy Cross Pendant for Jewelry Making"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#7a6d92",
+      "features": [
+        "Zinc alloy construction",
+        "Cross shape with INRI plaque",
+        "Channel-set stones (main stone: none)",
+        "Unisex design for men, women, and children",
+        "Themed pendant style for religious jewelry"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Plating",
+          "value": "Other"
+        },
+        {
+          "name": "Main Stone",
+          "value": "None"
+        },
+        {
+          "name": "Inlay Technology",
+          "value": "Channel Setting"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex"
+        },
+        {
+          "name": "Brand",
+          "value": "OUOOO"
+        }
+      ],
+      "applications": [
+        "Rosary-making components",
+        "Religious necklace pendants",
+        "Catholic gift crafting",
+        "Jewelry design projects"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this cross pendant made of?",
+          "answer": "The pendant is made from zinc alloy, a common base metal for costume jewelry and religious accessories."
+        },
+        {
+          "question": "Is this a crucifix or a cross?",
+          "answer": "The product is described as a cross pendant with an INRI plaque, which is often seen on crucifixes. However, since the presence of a corpus is not specified, we refer to it as a cross."
+        },
+        {
+          "question": "Can I request a sample before ordering in bulk?",
+          "answer": "Yes, sample making service is available. Contact us to discuss sample requests and ordering details."
+        }
+      ],
+      "pricing": {
+        "price": "0.16",
+        "regularPrice": "0.16",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.14",
+          "max": "0.16"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Zinc Alloy Cross Pendant for Jewelry Making",
+          "description": "Wholesale zinc alloy cross pendant with INRI plaque and channel-set stones. Suitable for rosary making and religious jewelry. Sample making available.",
+          "sku": "ALI-AAGbTG7BAOVioqqEY6eGImuE",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf74e4a66f58e4aaba4741c2be2e7c213r.jpg",
+            "https://sc04.alicdn.com/kf/Hafa97b10f36844eeaf5a4a42d243c7e5B.jpg",
+            "https://sc04.alicdn.com/kf/H5565ee8ee29d4c55aafc4e4a0947f4d94.jpg",
+            "https://sc04.alicdn.com/kf/Hd7b142ae06484d20b5c9c90e8f178071q.jpg",
+            "https://sc04.alicdn.com/kf/He2d68ecce7594316818b2115800d36e7S.jpg",
+            "https://sc04.alicdn.com/kf/H768bd7cda12d4c59a92c674fdc269426u.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Other"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "None"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Inlay Technology",
+              "value": "Channel Setting"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Brand",
+              "value": "OUOOO"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.16",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.14",
+              "maxPrice": "0.16",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this cross pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is made from zinc alloy, a common base metal for costume jewelry and religious accessories."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this a crucifix or a cross?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product is described as a cross pendant with an INRI plaque, which is often seen on crucifixes. However, since the presence of a corpus is not specified, we refer to it as a cross."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I request a sample before ordering in bulk?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, sample making service is available. Contact us to discuss sample requests and ordering details."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "16e797b62f8bf6d19fc7892bd66416d754161fd75bc3ed7ff4fa26425d150e83",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "16e797b62f8bf6d19fc7892bd66416d754161fd75bc3ed7ff4fa26425d150e83",
+            "contentHash": "16e797b62f8bf6d19fc7892bd66416d754161fd75bc3ed7ff4fa26425d150e83",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T14:06:37.434Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHtTG7BAOVioqqEY6eftw8E",
+      "sourceId": "AAHtTG7BAOVioqqEY6eftw8E",
+      "sourceFingerprint": "73ce6cc34c9b7336bf895d7da2677a2787fcf9465eeef0516f0437e058f6cec5",
+      "locale": "en",
+      "slug": "handmade-wooden-bead-rosary-necklace-with-cross-pendant-eftw8e",
+      "title": "Handmade Wooden Bead Rosary Necklace with Cross Pendant",
+      "eyebrow": "handmade wooden bead rosary necklace",
+      "summary": "A handmade rosary necklace with natural wood beads and a cross pendant, offered in five colorways. Its unisex design suits daily wear and devotional use. A practical choice for Catholic gift sourcing.",
+      "description": "This handmade rosary necklace pairs natural wood beads with a cross pendant, giving it a warm, organic look. The visible grain and subtle color variation of the wood make each piece distinct. Five color variants—coffee, brown, beige, black, and red—allow for easy matching with personal style or themed gift sets. The neutral palette and simple construction suit both men and women.\n\nDesigned for everyday use, the rosary can accompany personal prayer or serve as a quiet reminder of faith. Its lightweight build and sturdy stringing support regular handling. For retailers, the multiple color options make it a versatile addition to religious goods inventory, and the handmade quality offers a point of differentiation from mass-produced alternatives.",
+      "catholicContext": "The Rosary is a Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "15",
+          "name": "Catholic Rosaries",
+          "slug": "catholic-rosaries"
+        }
+      ],
+      "sku": "ALI-AAHtTG7BAOVioqqEY6eftw8E",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H77a0d0bb734247e5aa997665ec9473f41.webp",
+      "imageAlt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H77a0d0bb734247e5aa997665ec9473f41.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb9e2e18a978049d688856138a69011f6L.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb8ac5cc1a5ef4a50a890214cd490156aB.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H05ca2c51475140469fbb62b16227db02y.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H73561c17d604455597149ffce29955d9N.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfcc2561627ff4ab3a9609097e2f747af9.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H35074e1a1557482f9b5f42bdcfe38762M.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant - coffee",
+          "label": "coffee",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6eftw8E-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H28b090c12b5442d4954323d093dc7337g.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant - beige",
+          "label": "beige",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6eftw8E-V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7e4198c4f16046c785db935baf3804der.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant - black",
+          "label": "black",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6eftw8E-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8b76008476694c98b30c55e302ebeab9N.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant - red",
+          "label": "red",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6eftw8E-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd6d7c7c8943241ad9b1a0bde44a0fda6l.webp",
+          "alt": "Handmade Wooden Bead Rosary Necklace with Cross Pendant - brown",
+          "label": "brown",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6eftw8E-V-3399503"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Handmade natural wood beads for a unique, organic texture",
+        "Cross pendant included on the necklace",
+        "Available in five color variants: coffee, brown, beige, black, red",
+        "Unisex design suitable for all genders",
+        "Sourced as a Catholic rosary item"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Natural wood"
+        },
+        {
+          "name": "Color variants",
+          "value": "Coffee, brown, beige, black, red"
+        },
+        {
+          "name": "Product type",
+          "value": "Rosary necklace with cross pendant"
+        }
+      ],
+      "applications": [
+        "Personal prayer and devotional use",
+        "Religious jewelry for everyday wear",
+        "Wholesale inventory for Catholic gift shops",
+        "Thoughtful religious gift for individuals"
+      ],
+      "faq": [
+        {
+          "question": "Does this rosary necklace come in different colors?",
+          "answer": "Yes, the rosary necklace is available in five color variants: coffee, brown, beige, black, and red."
+        },
+        {
+          "question": "Is the rosary made of real wood?",
+          "answer": "Yes, the beads are made from natural wood, giving each piece a distinctive grain pattern."
+        },
+        {
+          "question": "Is this rosary suitable for both men and women?",
+          "answer": "Yes, the design is unisex, making it appropriate for anyone to wear or use."
+        }
+      ],
+      "pricing": {
+        "price": "0.30",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.23",
+          "max": "0.30"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Handmade Wooden Bead Rosary Necklace with Cross Pendant",
+          "description": "Handmade wooden bead rosary necklace with cross pendant, available in five color variants. Ideal for personal devotion and religious jewelry wholesale.",
+          "sku": "ALI-AAHtTG7BAOVioqqEY6eftw8E",
+          "image": [
+            "https://sc04.alicdn.com/kf/H77a0d0bb734247e5aa997665ec9473f41.jpg",
+            "https://sc04.alicdn.com/kf/Hb9e2e18a978049d688856138a69011f6L.jpg",
+            "https://sc04.alicdn.com/kf/Hb8ac5cc1a5ef4a50a890214cd490156aB.jpg",
+            "https://sc04.alicdn.com/kf/H05ca2c51475140469fbb62b16227db02y.jpg",
+            "https://sc04.alicdn.com/kf/H73561c17d604455597149ffce29955d9N.jpg",
+            "https://sc04.alicdn.com/kf/Hfcc2561627ff4ab3a9609097e2f747af9.jpg"
+          ],
+          "category": "Catholic Rosaries",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Natural wood"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Coffee, brown, beige, black, red"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Product type",
+              "value": "Rosary necklace with cross pendant"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.30",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.23",
+              "maxPrice": "0.30",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does this rosary necklace come in different colors?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the rosary necklace is available in five color variants: coffee, brown, beige, black, and red."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the rosary made of real wood?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the beads are made from natural wood, giving each piece a distinctive grain pattern."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this rosary suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the design is unisex, making it appropriate for anyone to wear or use."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "ba561f32b4d6f239ee22d6d003d61d7254e3d36945e0b6b0c81ff1036daca769",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "ba561f32b4d6f239ee22d6d003d61d7254e3d36945e0b6b0c81ff1036daca769",
+            "contentHash": "ba561f32b4d6f239ee22d6d003d61d7254e3d36945e0b6b0c81ff1036daca769",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T14:06:38.959Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEATG7BAOVioqqEY6eBSY2l",
+      "sourceId": "AAEATG7BAOVioqqEY6eBSY2l",
+      "sourceFingerprint": "faf294f975a3ec6ae228cdd0f7a304d1875bbf95588c4454ba98475bea9365d4",
+      "locale": "en",
+      "slug": "zinc-alloy-rose-cross-bead-bracelet-ebsy2l",
+      "title": "Zinc Alloy Rose Cross Bead Bracelet",
+      "eyebrow": "Religious beaded bracelet",
+      "summary": "This beaded bracelet from OUOOO combines a zinc alloy rose-shaped cross with imitation pearl beads. It is designed as a unisex religious accessory, suitable for gift occasions such as Catholic baptisms or communions. The bracelet uses a channel setting for the cross details, offering a distinct look in religious jewelry.",
+      "description": "The Metal Rose Flower Shaped Cross Beads Religious Catholic Bracelet is a beaded bracelet featuring a zinc alloy cross with a rose-shaped design. Princess-cut and channel-set details add texture, while imitation pearl beads create contrast. The bracelet is categorized under rosary bracelets, reflecting its devotional styling.\n\nIts unisex design makes it versatile for various recipients. Intended as a gift item, it suits occasions like baptisms or communions where cross-themed jewelry is commonly exchanged. The zinc alloy construction offers a lightweight, accessible option for everyday wear.\n\nOUOOO includes this piece in its sourcing catalog for retailers looking to stock Catholic-themed accessories. Contact us for ordering details.",
+      "catholicContext": "Crosses are widely used in Catholic devotional jewelry to symbolize faith, though this item is not described as a blessed or consecrated sacramental.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAEATG7BAOVioqqEY6eBSY2l",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H2aa84f96c65c4a74aa633d5e642772e4z.webp",
+      "imageAlt": "Zinc Alloy Rose Cross Bead Bracelet",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2aa84f96c65c4a74aa633d5e642772e4z.webp",
+          "alt": "Zinc Alloy Rose Cross Bead Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6ba41a4f793b41cc8ab83d4251d74341j.webp",
+          "alt": "Zinc Alloy Rose Cross Bead Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H138760d93d744591be9e09ef00b4c9abX.webp",
+          "alt": "Zinc Alloy Rose Cross Bead Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6e3b93ea4c174db388694f72f2db80f29.webp",
+          "alt": "Zinc Alloy Rose Cross Bead Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4073bf0b29f04a61a3047c083a88a968L.webp",
+          "alt": "Zinc Alloy Rose Cross Bead Bracelet"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#6d7887",
+      "features": [
+        "Zinc alloy construction",
+        "Rose-shaped cross design",
+        "Imitation pearl beads",
+        "Princess-cut and channel-set details",
+        "Unisex beaded bracelet style",
+        "Religious Catholic-themed gift item"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc Alloy"
+        },
+        {
+          "name": "Jewelry Type",
+          "value": "Bracelet"
+        },
+        {
+          "name": "Style",
+          "value": "Beaded"
+        },
+        {
+          "name": "Clasp Type",
+          "value": "Not specified"
+        },
+        {
+          "name": "Length",
+          "value": "Not specified"
+        },
+        {
+          "name": "Bead Material",
+          "value": "Imitation Pearl"
+        }
+      ],
+      "applications": [
+        "Catholic baptism gifts",
+        "Communion remembrances",
+        "Religious jewelry retail",
+        "Faith-themed accessory collections"
+      ],
+      "faq": [
+        {
+          "question": "What materials are used in this bracelet?",
+          "answer": "The bracelet is made from zinc alloy with imitation pearl beads, as specified by the product attributes. The cross features a rose-shaped design."
+        },
+        {
+          "question": "Is this bracelet suitable for both men and women?",
+          "answer": "Yes, the product is marked as unisex, making it suitable for all genders."
+        },
+        {
+          "question": "What occasions is this bracelet intended for?",
+          "answer": "The product is listed under occasion 'Gift' and is associated with Catholic baptism or communion, suggesting it as a religious gift item."
+        }
+      ],
+      "pricing": {
+        "price": "0.97",
+        "regularPrice": "0.97",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.88",
+          "max": "0.97"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Zinc Alloy Rose Cross Bead Bracelet",
+          "description": "Zinc alloy beaded bracelet with rose-shaped cross and imitation pearl accents. Unisex religious jewelry for Catholic gift giving.",
+          "sku": "ALI-AAEATG7BAOVioqqEY6eBSY2l",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2aa84f96c65c4a74aa633d5e642772e4z.jpg",
+            "https://sc04.alicdn.com/kf/H6ba41a4f793b41cc8ab83d4251d74341j.jpg",
+            "https://sc04.alicdn.com/kf/H138760d93d744591be9e09ef00b4c9abX.jpg",
+            "https://sc04.alicdn.com/kf/H6e3b93ea4c174db388694f72f2db80f29.jpg",
+            "https://sc04.alicdn.com/kf/H4073bf0b29f04a61a3047c083a88a968L.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Jewelry Type",
+              "value": "Bracelet"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Style",
+              "value": "Beaded"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Clasp Type",
+              "value": "Not specified"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Length",
+              "value": "Not specified"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bead Material",
+              "value": "Imitation Pearl"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.97",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.88",
+              "maxPrice": "0.97",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials are used in this bracelet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet is made from zinc alloy with imitation pearl beads, as specified by the product attributes. The cross features a rose-shaped design."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the product is marked as unisex, making it suitable for all genders."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What occasions is this bracelet intended for?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product is listed under occasion 'Gift' and is associated with Catholic baptism or communion, suggesting it as a religious gift item."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "12f843a453ab55fb046903fd1d2cfbe6029f96ba8362765e9286c2efdecd6320",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "12f843a453ab55fb046903fd1d2cfbe6029f96ba8362765e9286c2efdecd6320",
+            "contentHash": "12f843a453ab55fb046903fd1d2cfbe6029f96ba8362765e9286c2efdecd6320",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T14:06:52.288Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHZTG7BAOVioqqEY6eyZZKs",
+      "sourceId": "AAHZTG7BAOVioqqEY6eyZZKs",
+      "sourceFingerprint": "6881394b82d7c83bcd950942083da67f2473c2e657be587f01d5c15d607539c3",
+      "locale": "en",
+      "slug": "gold-plated-virgin-mary-pendant-necklace-eyzzks",
+      "title": "Gold Plated Virgin Mary Pendant Necklace",
+      "eyebrow": "Virgin Mary pendant necklace",
+      "summary": "This gold plated pendant necklace features a Virgin Mary motif with zircon stones in an oval cut. Made from copper alloy with a link chain, it offers a light luxury look suitable for unisex wear, ideal for religious jewelry buyers.",
+      "description": "A pendant necklace that pairs a Marian motif with light luxury styling. The main stone is natural zircon, set with micro insert technology in an oval cut, adding a subtle sparkle against the gold plated copper base. The link chain is included, and the piece is designed to be unisex, appealing to both men and women. Whether for personal wear or as part of a devotional jewelry line, this necklace provides a practical option for those seeking a tasteful religious accessory.",
+      "catholicContext": "Marian devotion holds a significant place in Catholic piety, and a pendant depicting the Virgin Mary can serve as a personal expression of that devotion.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAHZTG7BAOVioqqEY6eyZZKs",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hdb4015eace4540de8819cf7ad7b831a6V.webp",
+      "imageAlt": "Gold Plated Virgin Mary Pendant Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hdb4015eace4540de8819cf7ad7b831a6V.webp",
+          "alt": "Gold Plated Virgin Mary Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc2fe35d9a99a4cf1b5d5efc76cfa5b18j.webp",
+          "alt": "Gold Plated Virgin Mary Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1c0c8d8808ce4fcda9a268a229dcda1bh.webp",
+          "alt": "Gold Plated Virgin Mary Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f33a516d2794f53920f3c4fd68ee738T.webp",
+          "alt": "Gold Plated Virgin Mary Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H99af8d8678be4b98968e41d25e4e43778.webp",
+          "alt": "Gold Plated Virgin Mary Pendant Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He224412c41444e28820189cad2b1f1726.webp",
+          "alt": "Gold Plated Virgin Mary Pendant Necklace"
+        }
+      ],
+      "variantImages": [],
+      "accent": "#8b6b4a",
+      "features": [
+        "Gold plated copper alloy construction",
+        "Natural zircon main stone, oval cut",
+        "Micro insert inlay technology",
+        "Link chain included",
+        "Unisex design, suitable for men and women",
+        "Virgin Mary shape/pattern"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Copper Alloy"
+        },
+        {
+          "name": "Plating",
+          "value": "Gold plated"
+        },
+        {
+          "name": "Main Stone",
+          "value": "Zircon"
+        },
+        {
+          "name": "Stone Shape",
+          "value": "Oval"
+        },
+        {
+          "name": "Chain Type",
+          "value": "Link Chain"
+        },
+        {
+          "name": "Gender",
+          "value": "Unisex; Men's; Women's"
+        },
+        {
+          "name": "Religious Type",
+          "value": "Catholicism"
+        }
+      ],
+      "applications": [
+        "Everyday wear as a personal accessory",
+        "Gift for religious occasions such as anniversaries",
+        "Wholesale for religious goods stores",
+        "Use in jewelry collections with Catholic themes"
+      ],
+      "faq": [
+        {
+          "question": "What material is this necklace made of?",
+          "answer": "The pendant necklace is made of copper alloy and is gold plated. The main stone is natural zircon."
+        },
+        {
+          "question": "Is this necklace suitable for both men and women?",
+          "answer": "Yes, it is designed as unisex, and the listed gender includes Men's, Women's, and Unisex."
+        },
+        {
+          "question": "Does the necklace come with a chain?",
+          "answer": "Yes, it includes a link chain, as specified in the product attributes."
+        }
+      ],
+      "pricing": {
+        "price": "1.48",
+        "regularPrice": "1.48",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.25",
+          "max": "1.48"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Gold Plated Virgin Mary Pendant Necklace",
+          "description": "Find wholesale gold plated copper Virgin Mary pendant necklace with zircon stones, oval cut. Unisex design, link chain. Ideal for Catholic religious jewelry.",
+          "sku": "ALI-AAHZTG7BAOVioqqEY6eyZZKs",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hdb4015eace4540de8819cf7ad7b831a6V.png",
+            "https://sc04.alicdn.com/kf/Hc2fe35d9a99a4cf1b5d5efc76cfa5b18j.png",
+            "https://sc04.alicdn.com/kf/H1c0c8d8808ce4fcda9a268a229dcda1bh.png",
+            "https://sc04.alicdn.com/kf/H8f33a516d2794f53920f3c4fd68ee738T.png",
+            "https://sc04.alicdn.com/kf/H99af8d8678be4b98968e41d25e4e43778.png",
+            "https://sc04.alicdn.com/kf/He224412c41444e28820189cad2b1f1726.png"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Copper Alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "Gold plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Main Stone",
+              "value": "Zircon"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stone Shape",
+              "value": "Oval"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chain Type",
+              "value": "Link Chain"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gender",
+              "value": "Unisex; Men's; Women's"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Religious Type",
+              "value": "Catholicism"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.48",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.25",
+              "maxPrice": "1.48",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant necklace is made of copper alloy and is gold plated. The main stone is natural zircon."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this necklace suitable for both men and women?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is designed as unisex, and the listed gender includes Men's, Women's, and Unisex."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the necklace come with a chain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it includes a link chain, as specified in the product attributes."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "cf265e3545fbcc020f0e3fbd419552579859a2a06bcbf3fbbab88dba79257c4b",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "cf265e3545fbcc020f0e3fbd419552579859a2a06bcbf3fbbab88dba79257c4b",
+            "contentHash": "cf265e3545fbcc020f0e3fbd419552579859a2a06bcbf3fbbab88dba79257c4b",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T14:06:45.099Z",
             "model": "deepseek-v4-flash"
           }
         }

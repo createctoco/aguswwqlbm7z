@@ -2,8 +2,8 @@
   "schemaVersion": 3,
   "locale": "pl",
   "sourceLocale": "en",
-  "sourceCatalogHash": "c487e3c03d74f00603edc51604f63f6b2087310c30943f9012ade3c79abc025d",
-  "generatedAt": "2026-08-20T03:10:35.550Z",
+  "sourceCatalogHash": "b7ab34074c7c7127eb9ef0fdb2ad5eb9b6959cd64c89f9fe1990bb444ba40d32",
+  "generatedAt": "2026-08-20T14:11:19.025Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
@@ -39,27 +39,19 @@
   },
   "categoryGlossarySourceHash": "b6c56a83072314b56383fbfa434e33dfc4e91cf06a3a3e3c5578f25bc7ae98a6",
   "translationSummary": {
-    "ready": 306,
-    "skipped": 4,
+    "ready": 307,
+    "skipped": 2,
     "skippedProductIds": [
       "AAGxTG7BAOVioqqEY6e7uzWC",
-      "AAEDTG7BAOVioqqEY6erMoEh",
+      "AAEDTG7BAOVioqqEY6erMoEh"
+    ],
+    "reused": 305,
+    "generated": 2,
+    "generatedProductIds": [
       "AAH2TG7BAOVioqqEY6eon6kC",
       "AAG8TG7BAOVioqqEY6eonbm6"
     ],
-    "reused": 298,
-    "generated": 8,
-    "generatedProductIds": [
-      "AAHOTG7BAOVioqqEY6eonVyp",
-      "AAHyTG7BAOVioqqEY6eonUzd",
-      "AAEcTG7BAOVioqqEY6eon60k",
-      "AAGTTG7BAOVioqqEY6eoncSG",
-      "AAEITG7BAOVioqqEY6eN2yd1",
-      "AAHFTG7BAOVioqqEY6eBSeeQ",
-      "AAEMTG7BAOVioqqEY6e3pJgV",
-      "AAHBTG7BAOVioqqEY6eBTtoU"
-    ],
-    "retriedBacklog": 2,
+    "retriedBacklog": 4,
     "glossaryReused": true
   },
   "translationBacklog": [
@@ -907,513 +899,6 @@
             "contentHash": "9fc9b69fdcca68e97081a3e260897b155e62a45694adc60f5af0472994011ef7",
             "attempts": 0,
             "updatedAt": "2026-08-14T04:12:50.913Z",
-            "model": "deepseek-v4-flash"
-          }
-        }
-      }
-    },
-    {
-      "productId": "AAH2TG7BAOVioqqEY6eon6kC",
-      "sourceId": "AAH2TG7BAOVioqqEY6eon6kC",
-      "sourceFingerprint": "d6bf803a07d53688777eb2c29431a5c89f18e29f7b773b2e176b356a93b70afb",
-      "locale": "en",
-      "slug": "acrylic-sports-ball-beads-for-jewelry-making-eon6kc",
-      "title": "Acrylic Sports Ball Beads for Jewelry Making",
-      "eyebrow": "Acrylic sports ball beads",
-      "summary": "Acrylic sports ball beads in baseball, basketball, football, golf, tennis, and volleyball shapes. Choose from packs of 20, 50, or 100. Ideal for bracelets, necklaces, and other DIY jewelry projects.",
-      "description": "These acrylic beads are shaped like popular sports balls, including baseballs, basketballs, footballs, golf balls, tennis balls, and volleyballs. They come in packs of 20, 50, or 100 depending on the style, with multiple color options for baseballs and volleyballs. The beads are lightweight and suitable for jewelry making and other crafts. Use them to create themed bracelets, necklaces, or keychains. Each pack contains a single bead type and size, making it easy to order the exact quantity and style you need for your project.",
-      "catholicContext": "",
-      "catholicRelevance": "none",
-      "categories": [
-        {
-          "id": "45",
-          "name": "Accessories",
-          "slug": "jewelry-accessories"
-        }
-      ],
-      "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC",
-      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H494452e04eb2469ca1d7d987179645caF.webp",
-      "imageAlt": "Acrylic Sports Ball Beads for Jewelry Making",
-      "gallery": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H494452e04eb2469ca1d7d987179645caF.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/He43f2c3dff9c4c838fd9b4e30a3cd833s.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb41afa0d219a45a99a43e902b272f6e5U.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H38cee5eaf550451084a48db7ed35c9fd0.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H50f33b179f834feca2b6de5e22164672v.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcb5ef02684ff437297f175b23f7d82262.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making"
-        }
-      ],
-      "variantImages": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2eee34bafce241aa997bcc8ca8a07e2aB.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-yellow-baseballs",
-          "label": "a-pack-of-100-yellow-baseballs",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--8"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/He1fa06e2945f479d9c2f352fc5094dffk.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-volleyball-balls",
-          "label": "a-pack-of-100-volleyball-balls",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--7"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H84da1e892fbc4b19ae4e313f9554c2adK.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-colored-baseballs",
-          "label": "a-pack-of-100-colored-baseballs",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--10"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H57ec0e5f7ef549bfbf8803746cc4d3d8F.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-colored-volleyball-balls",
-          "label": "a-pack-of-100-colored-volleyball-balls",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--9"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb6a9b9aafa4543dea223ea4ed48830c58.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-white-baseballs",
-          "label": "a-pack-of-100-white-baseballs",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--12"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H03db50d76d16436bb8948bf27c2ea0b5D.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-20-footballs",
-          "label": "a-pack-of-20-footballs",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--11"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1d298828f8a9488faeedb8fe5517d7c5X.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-black-volleyball-balls",
-          "label": "a-pack-of-100-black-volleyball-balls",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--14"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2f67d9518d9c411596e9ddbd645df261M.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-black-baseballs",
-          "label": "a-pack-of-100-black-baseballs",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--13"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/He7f07fdecffc46178c82274d8940b85cd.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-golf-balls",
-          "label": "a-pack-of-100-golf-balls",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--15"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H901316ed0d024761805908da43667bb5i.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-white-basketballs",
-          "label": "a-pack-of-100-white-basketballs",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--2"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5de31c3c4174457e80bea2503344fa3eh.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-brown-basketballs",
-          "label": "a-pack-of-100-brown-basketballs",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--1"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf9a69f681101472aad0f64516c86b25cs.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - 50-rugby-balls-in-a-pack",
-          "label": "50-rugby-balls-in-a-pack",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--4"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbdb3b2ccfe58407d910580e30d49c942G.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - baseball-100-in-a-pack",
-          "label": "baseball-100-in-a-pack",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--3"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7337ef27fed54813870136f8ad4351b75.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-tennis-balls",
-          "label": "a-pack-of-100-tennis-balls",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--6"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H68c07fdbf65e42a9805d494bbf21a345H.webp",
-          "alt": "Acrylic Sports Ball Beads for Jewelry Making - a-pack-of-100-white-footballs",
-          "label": "a-pack-of-100-white-footballs",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--5"
-        }
-      ],
-      "accent": "#6f7c72",
-      "features": [
-        "Acrylic construction",
-        "Sports ball shapes: baseball, basketball, football, golf, tennis, volleyball",
-        "Pack options: 20, 50, or 100 beads",
-        "Color variants: black, brown, colored, white, yellow",
-        "Suitable for bracelets, necklaces, and DIY crafts"
-      ],
-      "specifications": [
-        {
-          "name": "Material",
-          "value": "Acrylic"
-        },
-        {
-          "name": "Bead shape",
-          "value": "Sports balls (baseball, basketball, football, golf, tennis, volleyball)"
-        },
-        {
-          "name": "Pack sizes",
-          "value": "20, 50, or 100 beads per pack"
-        },
-        {
-          "name": "Color variants",
-          "value": "Black, brown, colored, white, yellow"
-        }
-      ],
-      "applications": [
-        "Bracelet making",
-        "Necklace making",
-        "DIY jewelry projects",
-        "Craft supplies"
-      ],
-      "faq": [
-        {
-          "question": "What sports ball shapes are available?",
-          "answer": "The beads come in shapes of baseballs, basketballs, footballs, golf balls, tennis balls, and volleyballs."
-        },
-        {
-          "question": "How many beads are in each pack?",
-          "answer": "Pack sizes vary by style: 20, 50, or 100 beads per pack. For example, footballs come in packs of 20 or 100, while baseballs, basketballs, golf balls, and tennis balls are available in packs of 100."
-        },
-        {
-          "question": "Are these beads suitable for making bracelets and necklaces?",
-          "answer": "Yes, these acrylic beads are designed for DIY jewelry making, including bracelets and necklaces, and are also suitable for other craft projects."
-        }
-      ],
-      "pricing": {
-        "price": "1.12",
-        "currency": "USD",
-        "onSale": false,
-        "priceRange": {
-          "min": "1.12",
-          "max": "1.21"
-        }
-      },
-      "structuredData": {
-        "product": {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "Acrylic Sports Ball Beads for Jewelry Making",
-          "description": "Acrylic sports ball beads in baseball, basketball, football, golf, tennis, and volleyball shapes. Packs of 20, 50, or 100 for bracelets, necklaces, and crafts.",
-          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC",
-          "image": [
-            "https://sc04.alicdn.com/kf/H494452e04eb2469ca1d7d987179645caF.jpg",
-            "https://sc04.alicdn.com/kf/He43f2c3dff9c4c838fd9b4e30a3cd833s.jpg",
-            "https://sc04.alicdn.com/kf/Hb41afa0d219a45a99a43e902b272f6e5U.jpg",
-            "https://sc04.alicdn.com/kf/H38cee5eaf550451084a48db7ed35c9fd0.jpg",
-            "https://sc04.alicdn.com/kf/H50f33b179f834feca2b6de5e22164672v.jpg",
-            "https://sc04.alicdn.com/kf/Hcb5ef02684ff437297f175b23f7d82262.jpg"
-          ],
-          "category": "Accessories",
-          "additionalProperty": [
-            {
-              "@type": "PropertyValue",
-              "name": "Material",
-              "value": "Acrylic"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Bead shape",
-              "value": "Sports balls (baseball, basketball, football, golf, tennis, volleyball)"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Pack sizes",
-              "value": "20, 50, or 100 beads per pack"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Color variants",
-              "value": "Black, brown, colored, white, yellow"
-            }
-          ],
-          "offers": {
-            "@type": "Offer",
-            "price": "1.12",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "minPrice": "1.12",
-              "maxPrice": "1.21",
-              "priceCurrency": "USD"
-            }
-          }
-        },
-        "faq": {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What sports ball shapes are available?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The beads come in shapes of baseballs, basketballs, footballs, golf balls, tennis balls, and volleyballs."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How many beads are in each pack?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Pack sizes vary by style: 20, 50, or 100 beads per pack. For example, footballs come in packs of 20 or 100, while baseballs, basketballs, golf balls, and tennis balls are available in packs of 100."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are these beads suitable for making bracelets and necklaces?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes, these acrylic beads are designed for DIY jewelry making, including bracelets and necklaces, and are also suitable for other craft projects."
-              }
-            }
-          ]
-        }
-      },
-      "localization": {
-        "sourceLocale": "en",
-        "sourceHash": "38c217800b063bfc73cbb527f011486ffb59d5c5f0bfcdd521bf5cd7ed06a7ba",
-        "translations": {
-          "en": {
-            "status": "source",
-            "sourceHash": "38c217800b063bfc73cbb527f011486ffb59d5c5f0bfcdd521bf5cd7ed06a7ba",
-            "contentHash": "38c217800b063bfc73cbb527f011486ffb59d5c5f0bfcdd521bf5cd7ed06a7ba",
-            "attempts": 0,
-            "updatedAt": "2026-08-20T03:01:16.285Z",
-            "model": "deepseek-v4-flash"
-          }
-        }
-      }
-    },
-    {
-      "productId": "AAG8TG7BAOVioqqEY6eonbm6",
-      "sourceId": "AAG8TG7BAOVioqqEY6eonbm6",
-      "sourceFingerprint": "718ba0009d450e1e916caa040ab59514df66959620137bd3140f2acd4dae802c",
-      "locale": "en",
-      "slug": "18k-gold-plated-crown-pendant-necklace-with-rhinestones-eonbm6",
-      "title": "18K Gold Plated Crown Pendant Necklace with Rhinestones",
-      "eyebrow": "crown pendant necklace",
-      "summary": "This crown pendant necklace is made of zinc alloy with an 18K gold plated finish and rhinestone embellishments. Offered in three variants: Gold A, Gold B, and Gold-C. Suitable for fashion accessory retail and gifting.",
-      "description": "This crown pendant necklace features a crown-shaped pendant crafted from zinc alloy with an 18K gold plated finish and rhinestone accents. The pendant hangs on a chain, making it a ready-to-wear accessory. It is available in three variants: Gold A, Gold B, and Gold-C, allowing buyers to choose a style that suits their inventory. The design references a regal crown, which may appeal to customers looking for a bold or symbolic accessory. As a wholesale item, it is suited for fashion jewelry retailers or gift shops seeking a distinctive piece.",
-      "catholicContext": "",
-      "catholicRelevance": "none",
-      "categories": [
-        {
-          "id": "209",
-          "name": "Fashion Necklace",
-          "slug": "fashion-necklace"
-        }
-      ],
-      "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6",
-      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2323ad09a140426e8997c0df852f7d2eC.webp",
-      "imageAlt": "18K Gold Plated Crown Pendant Necklace with Rhinestones",
-      "gallery": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2323ad09a140426e8997c0df852f7d2eC.webp",
-          "alt": "18K Gold Plated Crown Pendant Necklace with Rhinestones"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7570c0758c0146569ce97c7d09dd4d87H.webp",
-          "alt": "18K Gold Plated Crown Pendant Necklace with Rhinestones"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H807ecb50c7bb4501b850c9132fb34bbds.webp",
-          "alt": "18K Gold Plated Crown Pendant Necklace with Rhinestones"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0820437d245542bd9c542b59da59dfcfx.webp",
-          "alt": "18K Gold Plated Crown Pendant Necklace with Rhinestones"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7520ec5948a84ca083ddc8b23697ce33m.webp",
-          "alt": "18K Gold Plated Crown Pendant Necklace with Rhinestones"
-        }
-      ],
-      "variantImages": [
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H8639655bfd6b4185b8ad5375097ae057g.webp",
-          "alt": "18K Gold Plated Crown Pendant Necklace with Rhinestones - gold-a",
-          "label": "gold-a",
-          "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6-V--1"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc8b163d83e264ddb8f62e3a74057e70aj.webp",
-          "alt": "18K Gold Plated Crown Pendant Necklace with Rhinestones - gold-c",
-          "label": "gold-c",
-          "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6-V--3"
-        },
-        {
-          "url": "https://mecrt.com/wp-content/uploads/2026/08/H64b96c77d46441dfa2badc0eac815adaF.webp",
-          "alt": "18K Gold Plated Crown Pendant Necklace with Rhinestones - gold-b",
-          "label": "gold-b",
-          "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6-V--2"
-        }
-      ],
-      "accent": "#7a6d92",
-      "features": [
-        "Zinc alloy construction with 18K gold plating",
-        "Rhinestone embellishments on the crown pendant",
-        "Available in three variants: Gold A, Gold B, Gold-C",
-        "Necklace style with pendant",
-        "Sourced for wholesale purchasing"
-      ],
-      "specifications": [
-        {
-          "name": "Material",
-          "value": "Zinc alloy with 18K gold plating"
-        },
-        {
-          "name": "Style",
-          "value": "Crown pendant necklace"
-        },
-        {
-          "name": "Embellishment",
-          "value": "Rhinestones"
-        },
-        {
-          "name": "Variants",
-          "value": "Gold A, Gold B, Gold-C"
-        }
-      ],
-      "applications": [
-        "Fashion accessory retail",
-        "Gift merchandise",
-        "Costume jewelry collections",
-        "Themed events or parties"
-      ],
-      "faq": [
-        {
-          "question": "What materials are used in this crown pendant necklace?",
-          "answer": "The pendant is made of zinc alloy with an 18K gold plated finish, and it features rhinestone embellishments."
-        },
-        {
-          "question": "What variants are available for this necklace?",
-          "answer": "The necklace is offered in three variants: Gold A, Gold B, and Gold-C."
-        },
-        {
-          "question": "Is this necklace suitable for retail or wholesale?",
-          "answer": "This product is listed for wholesale, making it suitable for retailers or distributors looking to stock fashion jewelry."
-        }
-      ],
-      "pricing": {
-        "price": "5.55",
-        "currency": "USD",
-        "onSale": false,
-        "priceRange": {
-          "min": "4.01",
-          "max": "5.55"
-        }
-      },
-      "structuredData": {
-        "product": {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "18K Gold Plated Crown Pendant Necklace with Rhinestones",
-          "description": "Wholesale 18K gold plated zinc alloy crown pendant necklace with rhinestones, available in three variants for fashion and gift use.",
-          "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6",
-          "image": [
-            "https://sc04.alicdn.com/kf/H2323ad09a140426e8997c0df852f7d2eC.jpg",
-            "https://sc04.alicdn.com/kf/H7570c0758c0146569ce97c7d09dd4d87H.jpg",
-            "https://sc04.alicdn.com/kf/H807ecb50c7bb4501b850c9132fb34bbds.jpg",
-            "https://sc04.alicdn.com/kf/H0820437d245542bd9c542b59da59dfcfx.jpg",
-            "https://sc04.alicdn.com/kf/H7520ec5948a84ca083ddc8b23697ce33m.jpg"
-          ],
-          "category": "Fashion Necklace",
-          "additionalProperty": [
-            {
-              "@type": "PropertyValue",
-              "name": "Material",
-              "value": "Zinc alloy with 18K gold plating"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Style",
-              "value": "Crown pendant necklace"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Embellishment",
-              "value": "Rhinestones"
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Variants",
-              "value": "Gold A, Gold B, Gold-C"
-            }
-          ],
-          "offers": {
-            "@type": "Offer",
-            "price": "5.55",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "minPrice": "4.01",
-              "maxPrice": "5.55",
-              "priceCurrency": "USD"
-            }
-          }
-        },
-        "faq": {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What materials are used in this crown pendant necklace?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The pendant is made of zinc alloy with an 18K gold plated finish, and it features rhinestone embellishments."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What variants are available for this necklace?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The necklace is offered in three variants: Gold A, Gold B, and Gold-C."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is this necklace suitable for retail or wholesale?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "This product is listed for wholesale, making it suitable for retailers or distributors looking to stock fashion jewelry."
-              }
-            }
-          ]
-        }
-      },
-      "localization": {
-        "sourceLocale": "en",
-        "sourceHash": "b0daea89131ebec485438f3645649f313150970f946d5dc60a9d34a985743f5e",
-        "translations": {
-          "en": {
-            "status": "source",
-            "sourceHash": "b0daea89131ebec485438f3645649f313150970f946d5dc60a9d34a985743f5e",
-            "contentHash": "b0daea89131ebec485438f3645649f313150970f946d5dc60a9d34a985743f5e",
-            "attempts": 0,
-            "updatedAt": "2026-08-20T03:01:15.946Z",
             "model": "deepseek-v4-flash"
           }
         }
@@ -68436,6 +67921,529 @@
             "contentHash": "2d726a8a0ecbb63be9e878e0cd22c91a02b33a2f0f7a0da7629005183c237ac6",
             "attempts": 1,
             "updatedAt": "2026-08-20T03:10:35.548Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH2TG7BAOVioqqEY6eon6kC",
+      "sourceId": "AAH2TG7BAOVioqqEY6eon6kC",
+      "sourceFingerprint": "d6bf803a07d53688777eb2c29431a5c89f18e29f7b773b2e176b356a93b70afb",
+      "locale": "pl",
+      "slug": "acrylic-sports-ball-beads-for-jewelry-making-eon6kc",
+      "title": "Koraliki akrylowe w kształcie piłek sportowych do tworzenia biżuterii",
+      "eyebrow": "Akrylowe koraliki w kształcie piłek sportowych",
+      "summary": "Akrylowe koraliki w kształcie piłek do baseballa, koszykówki, futbolu, golfa, tenisa i siatkówki. Do wyboru opakowania po 20, 50 lub 100 sztuk. Idealne do bransoletek, naszyjników i innych projektów DIY z biżuterią.",
+      "description": "Te akrylowe koraliki mają kształty popularnych piłek sportowych, w tym baseballowych, koszykarskich, futbolowych, golfowych, tenisowych i siatkarskich. Dostępne są w opakowaniach po 20, 50 lub 100 sztuk, w zależności od stylu, z wieloma wariantami kolorystycznymi dla piłek baseballowych i siatkarskich. Koraliki są lekkie i nadają się do wyrobu biżuterii i innych prac rękodzielniczych. Użyj ich do stworzenia bransoletek, naszyjników lub breloczków o określonej tematyce. Każde opakowanie zawiera jeden rodzaj i rozmiar koralików, co ułatwia zamówienie dokładnej ilości i stylu potrzebnego do projektu.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Akcesoria",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H494452e04eb2469ca1d7d987179645caF.webp",
+      "imageAlt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H494452e04eb2469ca1d7d987179645caF.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He43f2c3dff9c4c838fd9b4e30a3cd833s.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb41afa0d219a45a99a43e902b272f6e5U.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H38cee5eaf550451084a48db7ed35c9fd0.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H50f33b179f834feca2b6de5e22164672v.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hcb5ef02684ff437297f175b23f7d82262.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2eee34bafce241aa997bcc8ca8a07e2aB.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 żółtych piłek baseballowych",
+          "label": "a-pack-of-100-yellow-baseballs",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--8"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He1fa06e2945f479d9c2f352fc5094dffk.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 piłek do siatkówki",
+          "label": "a-pack-of-100-volleyball-balls",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--7"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H84da1e892fbc4b19ae4e313f9554c2adK.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 kolorowych piłek baseballowych",
+          "label": "a-pack-of-100-colored-baseballs",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--10"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H57ec0e5f7ef549bfbf8803746cc4d3d8F.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 kolorowych piłek do siatkówki",
+          "label": "a-pack-of-100-colored-volleyball-balls",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--9"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hb6a9b9aafa4543dea223ea4ed48830c58.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 białych piłek baseballowych",
+          "label": "a-pack-of-100-white-baseballs",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--12"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H03db50d76d16436bb8948bf27c2ea0b5D.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 20 piłek futbolowych",
+          "label": "a-pack-of-20-footballs",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--11"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H1d298828f8a9488faeedb8fe5517d7c5X.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 czarnych piłek do siatkówki",
+          "label": "a-pack-of-100-black-volleyball-balls",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--14"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2f67d9518d9c411596e9ddbd645df261M.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 czarnych piłek baseballowych",
+          "label": "a-pack-of-100-black-baseballs",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--13"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/He7f07fdecffc46178c82274d8940b85cd.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 piłek golfowych",
+          "label": "a-pack-of-100-golf-balls",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--15"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H901316ed0d024761805908da43667bb5i.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 białych piłek do koszykówki",
+          "label": "a-pack-of-100-white-basketballs",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H5de31c3c4174457e80bea2503344fa3eh.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 brązowych piłek do koszykówki",
+          "label": "a-pack-of-100-brown-basketballs",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hf9a69f681101472aad0f64516c86b25cs.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 50 piłek do rugby",
+          "label": "50-rugby-balls-in-a-pack",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hbdb3b2ccfe58407d910580e30d49c942G.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 piłek baseballowych",
+          "label": "baseball-100-in-a-pack",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7337ef27fed54813870136f8ad4351b75.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 piłek tenisowych",
+          "label": "a-pack-of-100-tennis-balls",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--6"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H68c07fdbf65e42a9805d494bbf21a345H.webp",
+          "alt": "Akrylowe koraliki w kształcie piłek sportowych do tworzenia biżuterii - opakowanie 100 białych piłek futbolowych",
+          "label": "a-pack-of-100-white-footballs",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC-V--5"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Wykonane z akrylu",
+        "Kształty piłek sportowych: baseball, koszykówka, futbol, golf, tenis, siatkówka",
+        "Opcje opakowań: 20, 50 lub 100 koralików",
+        "Warianty kolorystyczne: czarny, brązowy, kolorowy, biały, żółty",
+        "Nadają się do bransoletek, naszyjników i prac DIY"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Akryl"
+        },
+        {
+          "name": "Kształt koralików",
+          "value": "Piłki sportowe (baseball, koszykówka, futbol, golf, tenis, siatkówka)"
+        },
+        {
+          "name": "Rozmiary opakowań",
+          "value": "20, 50 lub 100 koralików w opakowaniu"
+        },
+        {
+          "name": "Warianty kolorystyczne",
+          "value": "Czarny, brązowy, kolorowy, biały, żółty"
+        }
+      ],
+      "applications": [
+        "Tworzenie bransoletek",
+        "Tworzenie naszyjników",
+        "Projekty biżuterii DIY",
+        "Materiały rękodzielnicze"
+      ],
+      "faq": [
+        {
+          "question": "Jakie kształty piłek sportowych są dostępne?",
+          "answer": "Koraliki mają kształty piłek do baseballa, koszykówki, futbolu, golfa, tenisa i siatkówki."
+        },
+        {
+          "question": "Ile koralików jest w każdym opakowaniu?",
+          "answer": "Rozmiary opakowań różnią się w zależności od stylu: 20, 50 lub 100 koralików w opakowaniu. Na przykład piłki futbolowe są dostępne w opakowaniach po 20 lub 100 sztuk, podczas gdy piłki baseballowe, koszykarskie, golfowe i tenisowe są dostępne w opakowaniach po 100 sztuk."
+        },
+        {
+          "question": "Czy te koraliki nadają się do robienia bransoletek i naszyjników?",
+          "answer": "Tak, te akrylowe koraliki są przeznaczone do tworzenia biżuterii DIY, w tym bransoletek i naszyjników, a także nadają się do innych projektów rękodzielniczych."
+        }
+      ],
+      "pricing": {
+        "price": "1.12",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.12",
+          "max": "1.21"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Koraliki akrylowe w kształcie piłek sportowych do tworzenia biżuterii",
+          "description": "Akrylowe koraliki w kształcie piłek do baseballa, koszykówki, futbolu, golfa, tenisa i siatkówki. Do wyboru opakowania po 20, 50 lub 100 sztuk. Idealne do bransoletek, naszyjników i innych projektów DIY z biżuterią.",
+          "sku": "ALI-AAH2TG7BAOVioqqEY6eon6kC",
+          "image": [
+            "https://sc04.alicdn.com/kf/H494452e04eb2469ca1d7d987179645caF.jpg",
+            "https://sc04.alicdn.com/kf/He43f2c3dff9c4c838fd9b4e30a3cd833s.jpg",
+            "https://sc04.alicdn.com/kf/Hb41afa0d219a45a99a43e902b272f6e5U.jpg",
+            "https://sc04.alicdn.com/kf/H38cee5eaf550451084a48db7ed35c9fd0.jpg",
+            "https://sc04.alicdn.com/kf/H50f33b179f834feca2b6de5e22164672v.jpg",
+            "https://sc04.alicdn.com/kf/Hcb5ef02684ff437297f175b23f7d82262.jpg"
+          ],
+          "category": "Akcesoria",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Akryl"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Kształt koralików",
+              "value": "Piłki sportowe (baseball, koszykówka, futbol, golf, tenis, siatkówka)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Rozmiary opakowań",
+              "value": "20, 50 lub 100 koralików w opakowaniu"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Warianty kolorystyczne",
+              "value": "Czarny, brązowy, kolorowy, biały, żółty"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.12",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.12",
+              "maxPrice": "1.21",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jakie kształty piłek sportowych są dostępne?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Koraliki mają kształty piłek do baseballa, koszykówki, futbolu, golfa, tenisa i siatkówki."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ile koralików jest w każdym opakowaniu?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Rozmiary opakowań różnią się w zależności od stylu: 20, 50 lub 100 koralików w opakowaniu. Na przykład piłki futbolowe są dostępne w opakowaniach po 20 lub 100 sztuk, podczas gdy piłki baseballowe, koszykarskie, golfowe i tenisowe są dostępne w opakowaniach po 100 sztuk."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy te koraliki nadają się do robienia bransoletek i naszyjników?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tak, te akrylowe koraliki są przeznaczone do tworzenia biżuterii DIY, w tym bransoletek i naszyjników, a także nadają się do innych projektów rękodzielniczych."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "38c217800b063bfc73cbb527f011486ffb59d5c5f0bfcdd521bf5cd7ed06a7ba",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "38c217800b063bfc73cbb527f011486ffb59d5c5f0bfcdd521bf5cd7ed06a7ba",
+            "contentHash": "38c217800b063bfc73cbb527f011486ffb59d5c5f0bfcdd521bf5cd7ed06a7ba",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T03:01:16.285Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "38c217800b063bfc73cbb527f011486ffb59d5c5f0bfcdd521bf5cd7ed06a7ba",
+            "contentHash": "a95170d45bcedd671ae0941a47a6d803961cb9bc0e3ede13d123fbb406893e11",
+            "attempts": 1,
+            "updatedAt": "2026-08-20T14:11:10.129Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAG8TG7BAOVioqqEY6eonbm6",
+      "sourceId": "AAG8TG7BAOVioqqEY6eonbm6",
+      "sourceFingerprint": "718ba0009d450e1e916caa040ab59514df66959620137bd3140f2acd4dae802c",
+      "locale": "pl",
+      "slug": "18k-gold-plated-crown-pendant-necklace-with-rhinestones-eonbm6",
+      "title": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami",
+      "eyebrow": "naszyjnik z wisiorem koroną",
+      "summary": "Ten naszyjnik z wisiorem koroną jest wykonany ze stopu cynku z wykończeniem w kolorze złotym 18K i ozdobiony cyrkoniami. Dostępny w trzech wariantach: Gold A, Gold B i Gold-C. Odpowiedni do sprzedaży detalicznej akcesoriów modowych i jako prezent.",
+      "description": "Ten naszyjnik z wisiorem koroną ma wisiorek w kształcie korony wykonany ze stopu cynku z wykończeniem w kolorze złotym 18K i akcentami z cyrkonii. Wisiorek jest zawieszony na łańcuszku, co czyni go gotowym do noszenia akcesorium. Dostępny jest w trzech wariantach: Gold A, Gold B i Gold-C, co pozwala kupującym wybrać styl pasujący do ich asortymentu. Projekt nawiązuje do królewskiej korony, co może przemawiać do klientów poszukujących wyrazistego lub symbolicznego dodatku. Jako produkt hurtowy, nadaje się dla sprzedawców detalicznych biżuterii modowej lub sklepów z prezentami, poszukujących charakterystycznego elementu.",
+      "catholicContext": "",
+      "catholicRelevance": "none",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Naszyjnik modowy",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/08/H2323ad09a140426e8997c0df852f7d2eC.webp",
+      "imageAlt": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H2323ad09a140426e8997c0df852f7d2eC.webp",
+          "alt": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7570c0758c0146569ce97c7d09dd4d87H.webp",
+          "alt": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H807ecb50c7bb4501b850c9132fb34bbds.webp",
+          "alt": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H0820437d245542bd9c542b59da59dfcfx.webp",
+          "alt": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H7520ec5948a84ca083ddc8b23697ce33m.webp",
+          "alt": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H8639655bfd6b4185b8ad5375097ae057g.webp",
+          "alt": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami - złoty A",
+          "label": "złoty A",
+          "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/Hc8b163d83e264ddb8f62e3a74057e70aj.webp",
+          "alt": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami - złoty C",
+          "label": "złoty C",
+          "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/08/H64b96c77d46441dfa2badc0eac815adaF.webp",
+          "alt": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami - złoty B",
+          "label": "złoty B",
+          "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6-V--2"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Konstrukcja ze stopu cynku z wykończeniem w kolorze złotym 18K",
+        "Ozdoby z cyrkonii na wisiorku w kształcie korony",
+        "Dostępny w trzech wariantach: Gold A, Gold B, Gold-C",
+        "Styl naszyjnika z wisiorem",
+        "Przeznaczony do zakupów hurtowych"
+      ],
+      "specifications": [
+        {
+          "name": "Materiał",
+          "value": "Stop cynku z wykończeniem w kolorze złotym 18K"
+        },
+        {
+          "name": "Styl",
+          "value": "Naszyjnik z wisiorem koroną"
+        },
+        {
+          "name": "Ozdoby",
+          "value": "Cyrkonie"
+        },
+        {
+          "name": "Warianty",
+          "value": "Gold A, Gold B, Gold-C"
+        }
+      ],
+      "applications": [
+        "Sprzedaż detaliczna akcesoriów modowych",
+        "Asortyment prezentowy",
+        "Kolekcje biżuterii kostiumowej",
+        "Wydarzenia tematyczne lub imprezy"
+      ],
+      "faq": [
+        {
+          "question": "Z jakich materiałów wykonany jest ten naszyjnik z wisiorem koroną?",
+          "answer": "Wisiorek jest wykonany ze stopu cynku z wykończeniem w kolorze złotym 18K i ozdobiony cyrkoniami."
+        },
+        {
+          "question": "Jakie warianty są dostępne dla tego naszyjnika?",
+          "answer": "Naszyjnik jest oferowany w trzech wariantach: Gold A, Gold B i Gold-C."
+        },
+        {
+          "question": "Czy ten naszyjnik nadaje się do sprzedaży detalicznej lub hurtowej?",
+          "answer": "Ten produkt jest przeznaczony do sprzedaży hurtowej, co czyni go odpowiednim dla sprzedawców detalicznych lub dystrybutorów, którzy chcą zaopatrzyć się w biżuterię modową."
+        }
+      ],
+      "pricing": {
+        "price": "5.55",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "4.01",
+          "max": "5.55"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Naszyjnik z wisiorem koroną w kolorze złotym 18K z cyrkoniami",
+          "description": "Ten naszyjnik z wisiorem koroną jest wykonany ze stopu cynku z wykończeniem w kolorze złotym 18K i ozdobiony cyrkoniami. Dostępny w trzech wariantach: Gold A, Gold B i Gold-C. Odpowiedni do sprzedaży detalicznej akcesoriów modowych i jako prezent.",
+          "sku": "ALI-AAG8TG7BAOVioqqEY6eonbm6",
+          "image": [
+            "https://sc04.alicdn.com/kf/H2323ad09a140426e8997c0df852f7d2eC.jpg",
+            "https://sc04.alicdn.com/kf/H7570c0758c0146569ce97c7d09dd4d87H.jpg",
+            "https://sc04.alicdn.com/kf/H807ecb50c7bb4501b850c9132fb34bbds.jpg",
+            "https://sc04.alicdn.com/kf/H0820437d245542bd9c542b59da59dfcfx.jpg",
+            "https://sc04.alicdn.com/kf/H7520ec5948a84ca083ddc8b23697ce33m.jpg"
+          ],
+          "category": "Naszyjnik modowy",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Materiał",
+              "value": "Stop cynku z wykończeniem w kolorze złotym 18K"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Styl",
+              "value": "Naszyjnik z wisiorem koroną"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Ozdoby",
+              "value": "Cyrkonie"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Warianty",
+              "value": "Gold A, Gold B, Gold-C"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "5.55",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "4.01",
+              "maxPrice": "5.55",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Z jakich materiałów wykonany jest ten naszyjnik z wisiorem koroną?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wisiorek jest wykonany ze stopu cynku z wykończeniem w kolorze złotym 18K i ozdobiony cyrkoniami."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jakie warianty są dostępne dla tego naszyjnika?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Naszyjnik jest oferowany w trzech wariantach: Gold A, Gold B i Gold-C."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Czy ten naszyjnik nadaje się do sprzedaży detalicznej lub hurtowej?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ten produkt jest przeznaczony do sprzedaży hurtowej, co czyni go odpowiednim dla sprzedawców detalicznych lub dystrybutorów, którzy chcą zaopatrzyć się w biżuterię modową."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "b0daea89131ebec485438f3645649f313150970f946d5dc60a9d34a985743f5e",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "b0daea89131ebec485438f3645649f313150970f946d5dc60a9d34a985743f5e",
+            "contentHash": "b0daea89131ebec485438f3645649f313150970f946d5dc60a9d34a985743f5e",
+            "attempts": 0,
+            "updatedAt": "2026-08-20T03:01:15.946Z",
+            "model": "deepseek-v4-flash"
+          },
+          "pl": {
+            "status": "ready",
+            "sourceHash": "b0daea89131ebec485438f3645649f313150970f946d5dc60a9d34a985743f5e",
+            "contentHash": "0692c9c88938d2a8a1deadf617a51e265572ff1404a86ba5decc918a51676504",
+            "attempts": 1,
+            "updatedAt": "2026-08-20T14:11:19.020Z",
             "model": "deepseek-v4-flash"
           }
         }

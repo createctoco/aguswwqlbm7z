@@ -1,22 +1,22 @@
 {
   "schemaVersion": 3,
   "locale": "en",
-  "generatedAt": "2026-08-20T14:06:52.608Z",
+  "generatedAt": "2026-08-21T03:08:10.179Z",
   "sync": {
     "mode": "incremental",
     "cursor": "2026-08-09T15:58:16.918Z",
     "modifiedAfter": null,
     "changedProductIds": [
-      "AAH-TG7BAOVioqqEY6eBSrxz",
-      "AAF9TG7BAOVioqqEY6eA3R5-",
-      "AAEETG7BAOVioqqEY6eGNyAj",
-      "AAG7TG7BAOVioqqEY6edjPcX",
-      "AAFHTG7BAOVioqqEY6eBTTRB",
-      "AAHMTG7BAOVioqqEY6e0kzXM",
-      "AAGbTG7BAOVioqqEY6eGImuE",
-      "AAHtTG7BAOVioqqEY6eftw8E",
-      "AAHZTG7BAOVioqqEY6eyZZKs",
-      "AAEATG7BAOVioqqEY6eBSY2l"
+      "AAGCTG7BAOVioqqEY6eBSLn8",
+      "AAH4TG7BAOVioqqEY6eBSfez",
+      "AAHKTG7BAOVioqqEY6eDHpKT",
+      "AAErTG7BAOVioqqEY6eBSag1",
+      "AAECTG7BAOVioqqEY6eBRzz6",
+      "AAHrTG7BAOVioqqEY6eeD-XV",
+      "AAFyTG7BAOVioqqEY6eZhXpW",
+      "AAEGTG7BAOVioqqEY6eBTOtK",
+      "AAGLTG7BAOVioqqEY6eN28fY",
+      "AAEnTG7BAOVioqqEY6eBTX7X"
     ],
     "deletedProductIds": [
       "AAHyTG7BAOVioqqEY6eonUzd"
@@ -24,7 +24,7 @@
   },
   "enrichmentSummary": {
     "generated": 11,
-    "reused": 309,
+    "reused": 319,
     "source_fallback": 0
   },
   "products": [
@@ -68134,6 +68134,2103 @@
             "contentHash": "cf265e3545fbcc020f0e3fbd419552579859a2a06bcbf3fbbab88dba79257c4b",
             "attempts": 0,
             "updatedAt": "2026-08-20T14:06:45.099Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGCTG7BAOVioqqEY6eBSLn8",
+      "sourceId": "AAGCTG7BAOVioqqEY6eBSLn8",
+      "sourceFingerprint": "3f703fe7aa54accdce5463dbeef9b04d60c9c85a2f8f86d831fb639c22e4eae5",
+      "locale": "en",
+      "slug": "oval-enamel-our-lady-of-guadalupe-medal-pendant-ebsln8",
+      "title": "Oval Enamel Our Lady of Guadalupe Medal Pendant",
+      "eyebrow": "oval enamel medal pendant",
+      "summary": "A vintage-style oval medal in antique silver alloy featuring an enamel image of Our Lady of Guadalupe. Offered in black, silver, white, and blue variants, this pendant suits devotional jewelry projects or personal wear.",
+      "description": "This oval medal brings a classic Marian image into an antique silver finish. The enamel work renders Our Lady of Guadalupe in blue, white, or black tones depending on the variant you select. The compact oval shape fits neatly into necklace or bracelet designs.\n\nCrafted from antique silver alloy, the medal carries a muted, aged look that pairs with both modern and traditional styles. The color options let you match a specific aesthetic or liturgical season. As a devotional piece, it evokes the popular Marian title without making claims beyond its physical form.",
+      "catholicContext": "Our Lady of Guadalupe is a title of the Virgin Mary, venerated in Catholic tradition.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAGCTG7BAOVioqqEY6eBSLn8",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hf34af74a119547d485fc4bd55691dd57B.webp",
+      "imageAlt": "Oval Enamel Our Lady of Guadalupe Medal Pendant",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf34af74a119547d485fc4bd55691dd57B.webp",
+          "alt": "Oval Enamel Our Lady of Guadalupe Medal Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H27c81174d65b4bbc86a22f735015189b7.webp",
+          "alt": "Oval Enamel Our Lady of Guadalupe Medal Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5ee265714e0465992b41d9841d04d33h.webp",
+          "alt": "Oval Enamel Our Lady of Guadalupe Medal Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8c29915571de4d48aed8de63d202103a9.webp",
+          "alt": "Oval Enamel Our Lady of Guadalupe Medal Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8e90ce427b304aac9bc06c694aaa20c19.webp",
+          "alt": "Oval Enamel Our Lady of Guadalupe Medal Pendant"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H64e6cee401ee4f0fb8a99e4670a786dbR.webp",
+          "alt": "Oval Enamel Our Lady of Guadalupe Medal Pendant"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hed0b6b4e9b0f487cb6a95bff8cfa99ceG.webp",
+          "alt": "Oval Enamel Our Lady of Guadalupe Medal Pendant - silver",
+          "label": "silver",
+          "sku": "ALI-AAGCTG7BAOVioqqEY6eBSLn8-V-3460547"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3124302f65b34923a9ad5b48879f7fb74.webp",
+          "alt": "Oval Enamel Our Lady of Guadalupe Medal Pendant - black",
+          "label": "black",
+          "sku": "ALI-AAGCTG7BAOVioqqEY6eBSLn8-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc216471615f3419591ce5755e27818f56.webp",
+          "alt": "Oval Enamel Our Lady of Guadalupe Medal Pendant - white",
+          "label": "white",
+          "sku": "ALI-AAGCTG7BAOVioqqEY6eBSLn8-V-3331185"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H82d268dba6ba4171860780add2171ffeF.webp",
+          "alt": "Oval Enamel Our Lady of Guadalupe Medal Pendant - blue",
+          "label": "blue",
+          "sku": "ALI-AAGCTG7BAOVioqqEY6eBSLn8-V-123085"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Oval shape with antique silver alloy finish",
+        "Enamel image of Our Lady of Guadalupe",
+        "Available in black, silver, white, and blue variants",
+        "Lightweight design suitable for jewelry making"
+      ],
+      "specifications": [
+        {
+          "name": "Shape",
+          "value": "Oval"
+        },
+        {
+          "name": "Material",
+          "value": "Antique silver alloy"
+        },
+        {
+          "name": "Enamel colors",
+          "value": "Black, silver, white, blue"
+        },
+        {
+          "name": "Category",
+          "value": "Accessories"
+        }
+      ],
+      "applications": [
+        "Devotional pendant for necklaces or bracelets",
+        "Component for religious jewelry crafting",
+        "Gift item for Marian devotions",
+        "Collectible religious accessory"
+      ],
+      "faq": [
+        {
+          "question": "What color variants are available for this medal?",
+          "answer": "The medal comes in four variants: black, silver, white, and blue. Each variant refers to the enamel color used for the image."
+        },
+        {
+          "question": "What material is the medal made from?",
+          "answer": "The medal is made from antique silver alloy, giving it a vintage silver appearance."
+        },
+        {
+          "question": "Is this medal suitable for crafting jewelry?",
+          "answer": "Yes, its oval shape and lightweight design make it suitable for use in necklaces, bracelets, or other jewelry projects."
+        }
+      ],
+      "pricing": {
+        "price": "0.35",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.16",
+          "max": "0.35"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Oval Enamel Our Lady of Guadalupe Medal Pendant",
+          "description": "Antique silver alloy oval medal with blue, white, or black enamel depicting Our Lady of Guadalupe. Choose your color variant. Ideal for devotional jewelry.",
+          "sku": "ALI-AAGCTG7BAOVioqqEY6eBSLn8",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hf34af74a119547d485fc4bd55691dd57B.jpg",
+            "https://sc04.alicdn.com/kf/H27c81174d65b4bbc86a22f735015189b7.jpg",
+            "https://sc04.alicdn.com/kf/He5ee265714e0465992b41d9841d04d33h.jpg",
+            "https://sc04.alicdn.com/kf/H8c29915571de4d48aed8de63d202103a9.jpg",
+            "https://sc04.alicdn.com/kf/H8e90ce427b304aac9bc06c694aaa20c19.jpg",
+            "https://sc04.alicdn.com/kf/H64e6cee401ee4f0fb8a99e4670a786dbR.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Shape",
+              "value": "Oval"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Antique silver alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Enamel colors",
+              "value": "Black, silver, white, blue"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Accessories"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.35",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.16",
+              "maxPrice": "0.35",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What color variants are available for this medal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The medal comes in four variants: black, silver, white, and blue. Each variant refers to the enamel color used for the image."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material is the medal made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The medal is made from antique silver alloy, giving it a vintage silver appearance."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this medal suitable for crafting jewelry?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, its oval shape and lightweight design make it suitable for use in necklaces, bracelets, or other jewelry projects."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "7292eadfe7f939d7060e88e0771eee43befc9c1843d9d2a66a1e70d57422282a",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "7292eadfe7f939d7060e88e0771eee43befc9c1843d9d2a66a1e70d57422282a",
+            "contentHash": "7292eadfe7f939d7060e88e0771eee43befc9c1843d9d2a66a1e70d57422282a",
+            "attempts": 0,
+            "updatedAt": "2026-08-21T03:08:09.783Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAH4TG7BAOVioqqEY6eBSfez",
+      "sourceId": "AAH4TG7BAOVioqqEY6eBSfez",
+      "sourceFingerprint": "dc9d50ad797ea6b36e8b87c18ea30cac7b7647a6f033fd1c8cc883676a9d9881",
+      "locale": "en",
+      "slug": "st-benedict-gold-plated-stainless-steel-beaded-necklace-ebsfez",
+      "title": "St. Benedict Gold Plated Stainless Steel Beaded Necklace",
+      "eyebrow": "St. Benedict gold-plated stainless steel beaded necklace",
+      "summary": "This gold-plated stainless steel beaded necklace includes a St. Benedict charm, available in gold and silver variants. The material choice offers durability and a polished look, making it a practical addition to religious jewelry collections.",
+      "description": "This necklace is constructed from stainless steel with a gold plating, giving it a bright finish that resists tarnishing. The beaded design incorporates a St. Benedict charm, a recognizable symbol in Catholic devotional jewelry. Available in gold or silver variants, the metal construction suits everyday wear without the upkeep of softer metals. For buyers sourcing Catholic-themed accessories, this piece offers a straightforward option that balances appearance and longevity. The St. Its simplicity and material focus make it a practical choice for retail or gift purposes.",
+      "catholicContext": "The St. Benedict medal is a popular devotional item in Catholicism, often associated with protection against evil, though no such claims are made for this product.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAH4TG7BAOVioqqEY6eBSfez",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd106a5505d144efb9aa3c08e2bd0718cs.webp",
+      "imageAlt": "St. Benedict Gold Plated Stainless Steel Beaded Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd106a5505d144efb9aa3c08e2bd0718cs.webp",
+          "alt": "St. Benedict Gold Plated Stainless Steel Beaded Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H3ada98f7d13f49ea8b68e15f484f09fdG.webp",
+          "alt": "St. Benedict Gold Plated Stainless Steel Beaded Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H636451b486a54359baa6ae1106bca67bi.webp",
+          "alt": "St. Benedict Gold Plated Stainless Steel Beaded Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0d67c458cc044da48daef2aefd78deb25.webp",
+          "alt": "St. Benedict Gold Plated Stainless Steel Beaded Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0c5b97ee0d844ae7a2be91cfd7eef580u.webp",
+          "alt": "St. Benedict Gold Plated Stainless Steel Beaded Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc0d09d2bc4034afe8f8daff01cd9981fJ.webp",
+          "alt": "St. Benedict Gold Plated Stainless Steel Beaded Necklace"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc9961a9d40f54b2e8db5aea9c894e5f33.webp",
+          "alt": "St. Benedict Gold Plated Stainless Steel Beaded Necklace - silver",
+          "label": "silver",
+          "sku": "ALI-AAH4TG7BAOVioqqEY6eBSfez-V-3460547"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H0f40547a3d2f4a3b8efe9ea3eddd3b77J.webp",
+          "alt": "St. Benedict Gold Plated Stainless Steel Beaded Necklace - gold",
+          "label": "gold",
+          "sku": "ALI-AAH4TG7BAOVioqqEY6eBSfez-V-3331116"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "Gold-plated stainless steel construction",
+        "St. Benedict charm included",
+        "Available in gold and silver variants",
+        "Beaded necklace design"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Stainless steel with gold plating"
+        },
+        {
+          "name": "Variant",
+          "value": "Gold, Silver"
+        }
+      ],
+      "applications": [
+        "Everyday wear as a religious accessory",
+        "Gift item for Catholic occasions",
+        "Retail inventory for jewelry stores",
+        "Personal devotional reminder"
+      ],
+      "faq": [
+        {
+          "question": "What material is this necklace made of?",
+          "answer": "The necklace is made of stainless steel with a gold plating, offering durability and a polished finish."
+        },
+        {
+          "question": "Does this necklace come in other color options?",
+          "answer": "Yes, it is available in gold and silver variants."
+        },
+        {
+          "question": "Is the St. Benedict charm permanently attached?",
+          "answer": "The product description indicates the charm is included as part of the necklace design; specifics on attachment are not provided."
+        }
+      ],
+      "pricing": {
+        "price": "2.50",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.10",
+          "max": "2.50"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "St. Benedict Gold Plated Stainless Steel Beaded Necklace",
+          "description": "Gold-plated stainless steel beaded necklace featuring a St. Benedict charm. Available in gold and silver variants. A durable choice for religious jewelry.",
+          "sku": "ALI-AAH4TG7BAOVioqqEY6eBSfez",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd106a5505d144efb9aa3c08e2bd0718cs.jpg",
+            "https://sc04.alicdn.com/kf/H3ada98f7d13f49ea8b68e15f484f09fdG.jpg",
+            "https://sc04.alicdn.com/kf/H636451b486a54359baa6ae1106bca67bi.jpg",
+            "https://sc04.alicdn.com/kf/H0d67c458cc044da48daef2aefd78deb25.jpg",
+            "https://sc04.alicdn.com/kf/H0c5b97ee0d844ae7a2be91cfd7eef580u.jpg",
+            "https://sc04.alicdn.com/kf/Hc0d09d2bc4034afe8f8daff01cd9981fJ.jpg"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Stainless steel with gold plating"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Gold, Silver"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.50",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.10",
+              "maxPrice": "2.50",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace is made of stainless steel with a gold plating, offering durability and a polished finish."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does this necklace come in other color options?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, it is available in gold and silver variants."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is the St. Benedict charm permanently attached?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product description indicates the charm is included as part of the necklace design; specifics on attachment are not provided."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "aaf75c9e781fee24b743dc2ff6ec8db04afc6da97c9c693717a621e732eb7fca",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "aaf75c9e781fee24b743dc2ff6ec8db04afc6da97c9c693717a621e732eb7fca",
+            "contentHash": "aaf75c9e781fee24b743dc2ff6ec8db04afc6da97c9c693717a621e732eb7fca",
+            "attempts": 0,
+            "updatedAt": "2026-08-21T03:07:41.481Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHKTG7BAOVioqqEY6eDHpKT",
+      "sourceId": "AAHKTG7BAOVioqqEY6eDHpKT",
+      "sourceFingerprint": "c9d89e8fac676e65bff759c8f262dd7ad4f2cffb282efc58372f35e49c006e74",
+      "locale": "en",
+      "slug": "zinc-alloy-cross-pendant-for-diy-jewelry-edhpkt",
+      "title": "Zinc Alloy Cross Pendant for DIY Jewelry",
+      "eyebrow": "cross pendant",
+      "summary": "This zinc alloy cross pendant comes in Brown, Black, and Silver variants, suited for DIY jewelry projects and wholesale accessory lines. Its classic cross shape makes it a versatile component for religious-themed designs.",
+      "description": "This cross pendant is crafted from zinc alloy, offering a durable metal option for jewelry makers. Available in three color variants—Brown, Black, and Silver—it provides design flexibility for various styles. The pendant features a plain cross form without a corpus, distinguishing it from a crucifix.\n\nIts compact size and pre-finished surface make it suitable for assembly into necklaces, bracelets, or keychains. As an unblessed religious accessory, it serves decorative and symbolic purposes rather than liturgical or sacramental functions. Ideal for bulk purchasing for craft businesses or events.",
+      "catholicContext": "A cross is a central symbol of the Christian faith; however, this product is not described as a crucifix and should not be associated with any blessing or sacramental status.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "45",
+          "name": "Accessories",
+          "slug": "jewelry-accessories"
+        }
+      ],
+      "sku": "ALI-AAHKTG7BAOVioqqEY6eDHpKT",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hda6e81a23a324ab68d4676f93d744a2cf.webp",
+      "imageAlt": "Zinc Alloy Cross Pendant for DIY Jewelry",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hda6e81a23a324ab68d4676f93d744a2cf.webp",
+          "alt": "Zinc Alloy Cross Pendant for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He5e486f6e2aa4abe9184a883ce43d141U.webp",
+          "alt": "Zinc Alloy Cross Pendant for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd9d60df0a071499eb026ced9b767d018I.webp",
+          "alt": "Zinc Alloy Cross Pendant for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H86d94e40e48345e1989b0583fb16440f9.webp",
+          "alt": "Zinc Alloy Cross Pendant for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H92aeb0de971b48f493c000b485911cbfF.webp",
+          "alt": "Zinc Alloy Cross Pendant for DIY Jewelry"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He9b324c0ffd447c78251ac9c416447c0u.webp",
+          "alt": "Zinc Alloy Cross Pendant for DIY Jewelry"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hda6e81a23a324ab68d4676f93d744a2cf.webp",
+          "alt": "Zinc Alloy Cross Pendant for DIY Jewelry - brown",
+          "label": "brown",
+          "sku": "ALI-AAHKTG7BAOVioqqEY6eDHpKT-V-3399503"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Material: zinc alloy",
+        "Color variants: Brown, Black, Silver",
+        "Design: plain cross without corpus",
+        "Category: accessories for jewelry making",
+        "Suitable for DIY projects and wholesale"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Zinc alloy"
+        },
+        {
+          "name": "Available variants",
+          "value": "Brown, Black, Silver"
+        },
+        {
+          "name": "Product type",
+          "value": "Cross pendant"
+        }
+      ],
+      "applications": [
+        "DIY necklace assembly",
+        "Bracelet charm creation",
+        "Keychain decoration",
+        "Religious-themed craft projects"
+      ],
+      "faq": [
+        {
+          "question": "What materials is this cross pendant made of?",
+          "answer": "The pendant is made of zinc alloy."
+        },
+        {
+          "question": "What color variants are available?",
+          "answer": "The pendant comes in Brown, Black, and Silver variants."
+        },
+        {
+          "question": "Is this pendant considered a crucifix?",
+          "answer": "No, it is a plain cross without the corpus of Christ, so it is not a crucifix."
+        }
+      ],
+      "pricing": {
+        "price": "0.06",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Zinc Alloy Cross Pendant for DIY Jewelry",
+          "description": "Zinc alloy cross pendant in Brown, Black, and Silver. Ideal for DIY jewelry making. Wholesale accessory with Catholic cross design.",
+          "sku": "ALI-AAHKTG7BAOVioqqEY6eDHpKT",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hda6e81a23a324ab68d4676f93d744a2cf.jpg",
+            "https://sc04.alicdn.com/kf/He5e486f6e2aa4abe9184a883ce43d141U.jpg",
+            "https://sc04.alicdn.com/kf/Hd9d60df0a071499eb026ced9b767d018I.jpg",
+            "https://sc04.alicdn.com/kf/H86d94e40e48345e1989b0583fb16440f9.jpg",
+            "https://sc04.alicdn.com/kf/H92aeb0de971b48f493c000b485911cbfF.jpg",
+            "https://sc04.alicdn.com/kf/He9b324c0ffd447c78251ac9c416447c0u.jpg"
+          ],
+          "category": "Accessories",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Zinc alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Available variants",
+              "value": "Brown, Black, Silver"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Product type",
+              "value": "Cross pendant"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.06",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is this cross pendant made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant is made of zinc alloy."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color variants are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The pendant comes in Brown, Black, and Silver variants."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this pendant considered a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, it is a plain cross without the corpus of Christ, so it is not a crucifix."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "bca77a02d6ce12ed06a30b51304fcb7336c950fddd7f891b4c5b04e73b8b9951",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "bca77a02d6ce12ed06a30b51304fcb7336c950fddd7f891b4c5b04e73b8b9951",
+            "contentHash": "bca77a02d6ce12ed06a30b51304fcb7336c950fddd7f891b4c5b04e73b8b9951",
+            "attempts": 0,
+            "updatedAt": "2026-08-21T03:07:41.123Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAErTG7BAOVioqqEY6eBSag1",
+      "sourceId": "AAErTG7BAOVioqqEY6eBSag1",
+      "sourceFingerprint": "776d1d0304a4872662400f4345967546ea371baed85d899de8383009b5f57ea5",
+      "locale": "en",
+      "slug": "st-benedict-stainless-steel-beaded-cross-coin-necklace-ebsag1",
+      "title": "St. Benedict Stainless Steel Beaded Cross Coin Necklace",
+      "eyebrow": "St. Benedict stainless steel beaded cross coin necklace",
+      "summary": "A stainless steel pendant necklace featuring a beaded cross design and a St. Benedict coin. Available in gold or silver finishes. A sturdy devotional accessory for everyday wear, suitable for Catholic giftware.",
+      "description": "This necklace makes a visual statement with its coin-shaped pendant and beaded cross detailing. The stainless steel construction, finished in either gold or silver, gives it a lasting metallic sheen. The design pairs a central St. Benedict motif with a surrounding bead texture, offering a distinct look for religious jewelry lines.\n\nAs a devotional article, it reflects popular Catholic piety centered on St. Benedict. While not a sacramental, it serves as a tangible reminder of faith. Choose between two finish options to match customer preferences. Its all-metal build is suited for routine wear without the upkeep of plated pieces.",
+      "catholicContext": "The St. Benedict medal is a popular devotional object within Catholic tradition, often used as an expression of faith.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAErTG7BAOVioqqEY6eBSag1",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H1e813bbeca97457286cfbe64fc1f5fa1o.webp",
+      "imageAlt": "St. Benedict Stainless Steel Beaded Cross Coin Necklace",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H1e813bbeca97457286cfbe64fc1f5fa1o.webp",
+          "alt": "St. Benedict Stainless Steel Beaded Cross Coin Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H04201336d9fd435aa0319f68fa59b5096.webp",
+          "alt": "St. Benedict Stainless Steel Beaded Cross Coin Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hde55f8c2a13c495289c9a8b0b9e4aed7Q.webp",
+          "alt": "St. Benedict Stainless Steel Beaded Cross Coin Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb6b648b504bf4d169107dd6dea2b4fa1n.webp",
+          "alt": "St. Benedict Stainless Steel Beaded Cross Coin Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H2afbb1179c134f18aa5d9b25af8417beo.webp",
+          "alt": "St. Benedict Stainless Steel Beaded Cross Coin Necklace"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H30aa94e3037b47e19a622cc6cde28dfes.webp",
+          "alt": "St. Benedict Stainless Steel Beaded Cross Coin Necklace"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H113c750a55e64cc6a481ef8d4b900dbfY.webp",
+          "alt": "St. Benedict Stainless Steel Beaded Cross Coin Necklace - gold",
+          "label": "gold",
+          "sku": "ALI-AAErTG7BAOVioqqEY6eBSag1-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc6be1b4059c641acae2c465223bae0deF.webp",
+          "alt": "St. Benedict Stainless Steel Beaded Cross Coin Necklace - silver",
+          "label": "silver",
+          "sku": "ALI-AAErTG7BAOVioqqEY6eBSag1-V-3460547"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "Stainless steel construction for durability",
+        "Beaded cross design framing a coin-shaped pendant",
+        "Available in gold or silver finishes",
+        "Religious jewelry piece with St. Benedict theme"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Stainless steel"
+        },
+        {
+          "name": "Design",
+          "value": "Beaded cross with coin pendant"
+        },
+        {
+          "name": "Variant",
+          "value": "Gold or Silver"
+        }
+      ],
+      "applications": [
+        "Catholic gift item",
+        "Devotional necklace for personal wear",
+        "Religious jewelry retail",
+        "Confirmation or baptism gift"
+      ],
+      "faq": [
+        {
+          "question": "What materials is the necklace made from?",
+          "answer": "The necklace is made from stainless steel, which offers resistance to tarnish and corrosion."
+        },
+        {
+          "question": "What finish options are available?",
+          "answer": "The necklace is available in both gold and silver finishes."
+        },
+        {
+          "question": "Does the design include a St. Benedict medal?",
+          "answer": "Yes, the coin-shaped pendant features a St. Benedict design, with a beaded cross accent."
+        }
+      ],
+      "pricing": {
+        "price": "1.99",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "1.72",
+          "max": "1.99"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "St. Benedict Stainless Steel Beaded Cross Coin Necklace",
+          "description": "St. Benedict stainless steel beaded cross coin necklace in gold or silver. A durable, devotional accessory for Catholic jewelry buyers.",
+          "sku": "ALI-AAErTG7BAOVioqqEY6eBSag1",
+          "image": [
+            "https://sc04.alicdn.com/kf/H1e813bbeca97457286cfbe64fc1f5fa1o.jpg",
+            "https://sc04.alicdn.com/kf/H04201336d9fd435aa0319f68fa59b5096.jpg",
+            "https://sc04.alicdn.com/kf/Hde55f8c2a13c495289c9a8b0b9e4aed7Q.jpg",
+            "https://sc04.alicdn.com/kf/Hb6b648b504bf4d169107dd6dea2b4fa1n.jpg",
+            "https://sc04.alicdn.com/kf/H2afbb1179c134f18aa5d9b25af8417beo.jpg",
+            "https://sc04.alicdn.com/kf/H30aa94e3037b47e19a622cc6cde28dfes.jpg"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Stainless steel"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Beaded cross with coin pendant"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant",
+              "value": "Gold or Silver"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "1.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "1.72",
+              "maxPrice": "1.99",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What materials is the necklace made from?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace is made from stainless steel, which offers resistance to tarnish and corrosion."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What finish options are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace is available in both gold and silver finishes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the design include a St. Benedict medal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the coin-shaped pendant features a St. Benedict design, with a beaded cross accent."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "3ff2438b31c117a88884cd8301134e6be5361065d6a8befdef02040b8f527c1f",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "3ff2438b31c117a88884cd8301134e6be5361065d6a8befdef02040b8f527c1f",
+            "contentHash": "3ff2438b31c117a88884cd8301134e6be5361065d6a8befdef02040b8f527c1f",
+            "attempts": 0,
+            "updatedAt": "2026-08-21T03:07:46.605Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAECTG7BAOVioqqEY6eBRzz6",
+      "sourceId": "AAECTG7BAOVioqqEY6eBRzz6",
+      "sourceFingerprint": "59278690b3e674b327128480b9db05de7838d4f624471ebe9d1c228e88b62e6b",
+      "locale": "en",
+      "slug": "metal-plated-jerusalem-cross-rosary-ornament-ebrzz6",
+      "title": "Metal Plated Jerusalem Cross Rosary Ornament",
+      "eyebrow": "Jerusalem cross rosary ornament",
+      "summary": "This metal plated alloy ornament features a Jerusalem cross combined with rosary-style beads. Measuring 22x7 cm, it offers a 3D custom design suitable for holiday decoration or as a devotional reminder.",
+      "description": "Crafted from metal plated alloy, this ornament presents a Jerusalem cross with attached rosary beads, creating a distinctive religious decorative piece. The 3D custom design adds depth, making it suitable for hanging or display.\n\nAt 22x7 cm, it is compact yet noticeable, ideal for adorning a wall, shelf, or Christmas tree. The two available variants offer slight design differences, allowing you to choose according to your preference.\n\nWhether used as a gift or for personal devotion, this ornament serves as a tangible expression of faith.",
+      "catholicContext": "The Jerusalem cross is a Christian symbol associated with the Crusades and the Kingdom of Jerusalem, often used in Catholic devotional items.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAECTG7BAOVioqqEY6eBRzz6",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H61cd7133c53d4f258241d89e220f9275f.webp",
+      "imageAlt": "Metal Plated Jerusalem Cross Rosary Ornament",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H61cd7133c53d4f258241d89e220f9275f.webp",
+          "alt": "Metal Plated Jerusalem Cross Rosary Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H46d1dd6579da4e4b9db6ed9c26fdb04aa.webp",
+          "alt": "Metal Plated Jerusalem Cross Rosary Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H26048e9dd9f54ae7a393ccaa36cb8accc.webp",
+          "alt": "Metal Plated Jerusalem Cross Rosary Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H979a22c3f5c84b38a0496d91add5afa7E.webp",
+          "alt": "Metal Plated Jerusalem Cross Rosary Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H9a8e602df6f0494883c3a3646ca0e90dX.webp",
+          "alt": "Metal Plated Jerusalem Cross Rosary Ornament"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H063d3dfc07064440b8ca8df1b5b3107c0.webp",
+          "alt": "Metal Plated Jerusalem Cross Rosary Ornament"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He8f54d28a3f44ae7b66a5e0e50e00934g.webp",
+          "alt": "Metal Plated Jerusalem Cross Rosary Ornament - 2",
+          "label": "2",
+          "sku": "ALI-AAECTG7BAOVioqqEY6eBRzz6-V--1"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H462317375e2e4adfba7fa0e3429c06c8F.webp",
+          "alt": "Metal Plated Jerusalem Cross Rosary Ornament - 1",
+          "label": "1",
+          "sku": "ALI-AAECTG7BAOVioqqEY6eBRzz6-V--2"
+        }
+      ],
+      "accent": "#6d7887",
+      "features": [
+        "Metal plated alloy construction",
+        "22x7 cm size",
+        "3D custom design",
+        "Jerusalem cross with rosary beads",
+        "Two variant options"
+      ],
+      "specifications": [
+        {
+          "name": "Material",
+          "value": "Metal plated alloy"
+        },
+        {
+          "name": "Size",
+          "value": "22x7 cm"
+        },
+        {
+          "name": "Design",
+          "value": "3D custom"
+        },
+        {
+          "name": "Theme",
+          "value": "Jerusalem cross with rosary"
+        },
+        {
+          "name": "Variants",
+          "value": "Two available"
+        }
+      ],
+      "applications": [
+        "Holiday decoration",
+        "Religious ornament for display",
+        "Christmas tree ornament",
+        "Gift for Catholic occasions"
+      ],
+      "faq": [
+        {
+          "question": "What material is this Jerusalem cross rosary ornament made of?",
+          "answer": "It is made of metal plated alloy, which gives it a metallic finish and durability."
+        },
+        {
+          "question": "What are the dimensions of the ornament?",
+          "answer": "The ornament measures 22x7 cm (approximately 8.7x2.8 inches), making it a compact decorative piece."
+        },
+        {
+          "question": "Are there different design options available?",
+          "answer": "Yes, the ornament comes in two variants, offering slight variations in design. You can choose the one that best suits your preference."
+        }
+      ],
+      "pricing": {
+        "price": "0.55",
+        "currency": "USD",
+        "onSale": false
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Metal Plated Jerusalem Cross Rosary Ornament",
+          "description": "22x7 cm metal plated alloy Jerusalem cross rosary ornament, 3D custom design, suitable for holiday decoration and devotional display.",
+          "sku": "ALI-AAECTG7BAOVioqqEY6eBRzz6",
+          "image": [
+            "https://sc04.alicdn.com/kf/H61cd7133c53d4f258241d89e220f9275f.jpg",
+            "https://sc04.alicdn.com/kf/H46d1dd6579da4e4b9db6ed9c26fdb04aa.jpg",
+            "https://sc04.alicdn.com/kf/H26048e9dd9f54ae7a393ccaa36cb8accc.jpg",
+            "https://sc04.alicdn.com/kf/H979a22c3f5c84b38a0496d91add5afa7E.jpg",
+            "https://sc04.alicdn.com/kf/H9a8e602df6f0494883c3a3646ca0e90dX.jpg",
+            "https://sc04.alicdn.com/kf/H063d3dfc07064440b8ca8df1b5b3107c0.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Material",
+              "value": "Metal plated alloy"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Size",
+              "value": "22x7 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "3D custom"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Theme",
+              "value": "Jerusalem cross with rosary"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "Two available"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.55",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What material is this Jerusalem cross rosary ornament made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is made of metal plated alloy, which gives it a metallic finish and durability."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the dimensions of the ornament?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The ornament measures 22x7 cm (approximately 8.7x2.8 inches), making it a compact decorative piece."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are there different design options available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the ornament comes in two variants, offering slight variations in design. You can choose the one that best suits your preference."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "00bae6d34ccefd4d793f6dd88ac75c2a3bac83b1e7a3b5e6ebbf1af70daad49b",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "00bae6d34ccefd4d793f6dd88ac75c2a3bac83b1e7a3b5e6ebbf1af70daad49b",
+            "contentHash": "00bae6d34ccefd4d793f6dd88ac75c2a3bac83b1e7a3b5e6ebbf1af70daad49b",
+            "attempts": 0,
+            "updatedAt": "2026-08-21T03:07:46.130Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAHrTG7BAOVioqqEY6eeD-XV",
+      "sourceId": "AAHrTG7BAOVioqqEY6eeD-XV",
+      "sourceFingerprint": "0d2cdcea1bc96eac6a58638d1ebc1fec1dec3df00667b37bca4be00825c1f23f",
+      "locale": "en",
+      "slug": "imitation-pearl-cross-bracelet-10mm-eed-xv",
+      "title": "Imitation Pearl Cross Bracelet 10mm",
+      "eyebrow": "imitation pearl cross bracelet",
+      "summary": "This 10mm imitation pearl cross bracelet offers a simple yet elegant design. Choose from Black, White, Pink, or Blue variants. The bracelet features a cross pendant and a secure chain clasp, making it a practical choice for daily wear or gifting.",
+      "description": "The 10mm imitation pearl cross bracelet presents a classic religious motif in a compact form. The cross pendant is paired with imitation pearls, offering a subtle shine suitable for various occasions. Available in four color options—Black, White, Pink, and Blue—this bracelet can match different preferences and styles.\n\nThe bracelet is designed for everyday wear, with a chain-style construction that ensures durability. Its lightweight build makes it comfortable for all-day use. Whether worn alone or stacked with other bracelets, it adds a meaningful touch to any outfit.\n\nAs a devotional item, the cross symbolizes Christian faith. It serves as a personal reminder of one's beliefs, suitable for both personal use and as a thoughtful gift for confirmations, baptisms, or other religious occasions.",
+      "catholicContext": "A cross, distinct from a crucifix, is a recognized Christian symbol that may be worn as an expression of faith.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAHrTG7BAOVioqqEY6eeD-XV",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H7a4a89ff10e047e4ae7a4e3b2e9f397a0.webp",
+      "imageAlt": "Imitation Pearl Cross Bracelet 10mm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7a4a89ff10e047e4ae7a4e3b2e9f397a0.webp",
+          "alt": "Imitation Pearl Cross Bracelet 10mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H913a1f4029214cc59de159769dca0539P.webp",
+          "alt": "Imitation Pearl Cross Bracelet 10mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb2de0e23c4034571a086a05e7d097341n.webp",
+          "alt": "Imitation Pearl Cross Bracelet 10mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hde5fe3f0bc6644c2a2c46b4011ed9de1J.webp",
+          "alt": "Imitation Pearl Cross Bracelet 10mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H70005e66446e4fe08b8ade1ab7883aceR.webp",
+          "alt": "Imitation Pearl Cross Bracelet 10mm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H950d74a55e9943da8ff51d9f21d44ff6n.webp",
+          "alt": "Imitation Pearl Cross Bracelet 10mm"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H88eab933ba3a4ab7b8b44194a3d2249a6.webp",
+          "alt": "Imitation Pearl Cross Bracelet 10mm - blue",
+          "label": "blue",
+          "sku": "ALI-AAHrTG7BAOVioqqEY6eeD-XV-V-123085"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H479c65ed3a8d4361bf152b644194d21ap.webp",
+          "alt": "Imitation Pearl Cross Bracelet 10mm - black",
+          "label": "black",
+          "sku": "ALI-AAHrTG7BAOVioqqEY6eeD-XV-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H7d6134bb57ad4fa59e106d590efc9a69G.webp",
+          "alt": "Imitation Pearl Cross Bracelet 10mm - pink",
+          "label": "pink",
+          "sku": "ALI-AAHrTG7BAOVioqqEY6eeD-XV-V-3328925"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hc2148609eee94639bcc08ede65057cdbe.webp",
+          "alt": "Imitation Pearl Cross Bracelet 10mm - white",
+          "label": "white",
+          "sku": "ALI-AAHrTG7BAOVioqqEY6eeD-XV-V-3331185"
+        }
+      ],
+      "accent": "#8b6b4a",
+      "features": [
+        "10mm imitation pearl beads",
+        "Cross pendant design",
+        "Available in four color variants: Black, White, Pink, Blue",
+        "Chain bracelet construction",
+        "Lightweight for everyday wear"
+      ],
+      "specifications": [
+        {
+          "name": "Bead size",
+          "value": "10mm"
+        },
+        {
+          "name": "Design",
+          "value": "Bracelet with cross pendant"
+        },
+        {
+          "name": "Color options",
+          "value": "Black, White, Pink, Blue"
+        }
+      ],
+      "applications": [
+        "Everyday faith-based accessory",
+        "Gift for baptism or communion",
+        "Personal devotional reminder",
+        "Fashion accessory with religious motif"
+      ],
+      "faq": [
+        {
+          "question": "What colors is this bracelet available in?",
+          "answer": "The 10mm imitation pearl cross bracelet comes in four color variants: Black, White, Pink, and Blue."
+        },
+        {
+          "question": "What material are the beads made of?",
+          "answer": "The beads are imitation pearl, as stated in the product name. Specific material composition is not provided."
+        },
+        {
+          "question": "Is this bracelet adjustable?",
+          "answer": "The bracelet features a chain design, which may be adjustable, but specific adjustability details are not confirmed in the product information."
+        }
+      ],
+      "pricing": {
+        "price": "0.56",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.47",
+          "max": "0.56"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Imitation Pearl Cross Bracelet 10mm",
+          "description": "10mm imitation pearl cross bracelet with adjustable chain, available in Black, White, Pink, and Blue. A versatile religious accessory for everyday wear.",
+          "sku": "ALI-AAHrTG7BAOVioqqEY6eeD-XV",
+          "image": [
+            "https://sc04.alicdn.com/kf/H7a4a89ff10e047e4ae7a4e3b2e9f397a0.jpg",
+            "https://sc04.alicdn.com/kf/H913a1f4029214cc59de159769dca0539P.jpg",
+            "https://sc04.alicdn.com/kf/Hb2de0e23c4034571a086a05e7d097341n.jpg",
+            "https://sc04.alicdn.com/kf/Hde5fe3f0bc6644c2a2c46b4011ed9de1J.jpg",
+            "https://sc04.alicdn.com/kf/H70005e66446e4fe08b8ade1ab7883aceR.jpg",
+            "https://sc04.alicdn.com/kf/H950d74a55e9943da8ff51d9f21d44ff6n.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Bead size",
+              "value": "10mm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Bracelet with cross pendant"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color options",
+              "value": "Black, White, Pink, Blue"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.56",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.47",
+              "maxPrice": "0.56",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What colors is this bracelet available in?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The 10mm imitation pearl cross bracelet comes in four color variants: Black, White, Pink, and Blue."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material are the beads made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The beads are imitation pearl, as stated in the product name. Specific material composition is not provided."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet adjustable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet features a chain design, which may be adjustable, but specific adjustability details are not confirmed in the product information."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "5072807150560f8bfc7b087bc70e9c59ad0352c4fe4de5c5be8523e4f7696b71",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "5072807150560f8bfc7b087bc70e9c59ad0352c4fe4de5c5be8523e4f7696b71",
+            "contentHash": "5072807150560f8bfc7b087bc70e9c59ad0352c4fe4de5c5be8523e4f7696b71",
+            "attempts": 0,
+            "updatedAt": "2026-08-21T03:07:47.310Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAFyTG7BAOVioqqEY6eZhXpW",
+      "sourceId": "AAFyTG7BAOVioqqEY6eZhXpW",
+      "sourceFingerprint": "21ce6de2c8e45e4aaefc5a433066e07f66cb095069d641ba9ea6133b6151ee09",
+      "locale": "en",
+      "slug": "natural-wood-bead-rosary-bracelet-ezhxpw",
+      "title": "Natural Wood Bead Rosary Bracelet",
+      "eyebrow": "Wooden rosary bracelet",
+      "summary": "A natural wood bead rosary bracelet featuring a retro design and available in coffee, beige, black, and red. Crafted for daily wear, it serves as a tangible aid for prayer and a reminder of faith, suitable for personal use or as a thoughtful gift.",
+      "description": "This natural wood rosary bracelet combines simple materials with a retro aesthetic. The beads are made from natural wood, offering a warm, organic feel. Available in four color options—coffee, beige, black, and red—it can match different tastes and styles. As a rosary bracelet, it is designed to be worn on the wrist, making it convenient to carry throughout the day. While it serves as a piece of religious jewelry, its primary function is to support the Catholic practice of praying the Rosary, which involves meditating on key events in the lives of Jesus and Mary. The retro design adds a classic charm, making it suitable for both personal devotion and as a gift for others.",
+      "catholicContext": "The Rosary is a traditional Catholic prayer centered on contemplation of events in the lives of Jesus Christ and the Virgin Mary.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAFyTG7BAOVioqqEY6eZhXpW",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/He6d01a09fd87404b96e2b17e5b3f4834x.webp",
+      "imageAlt": "Natural Wood Bead Rosary Bracelet",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He6d01a09fd87404b96e2b17e5b3f4834x.webp",
+          "alt": "Natural Wood Bead Rosary Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H00da1c8e3a184038853ebbd1c7a0d490Y.webp",
+          "alt": "Natural Wood Bead Rosary Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/He96f7cc7c6ed447294345fda9a68934as.webp",
+          "alt": "Natural Wood Bead Rosary Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfa01f3dd46224742b6ab2fbf31c6ec3ej.webp",
+          "alt": "Natural Wood Bead Rosary Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H590b5ccc39d6403b94fde03fea846cccX.webp",
+          "alt": "Natural Wood Bead Rosary Bracelet"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H68f6fc7d0ad543afbfdfd62a09317839O.webp",
+          "alt": "Natural Wood Bead Rosary Bracelet"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6b48e38142d34bcda9c07b9e70d1c41dZ.webp",
+          "alt": "Natural Wood Bead Rosary Bracelet - coffee",
+          "label": "coffee",
+          "sku": "ALI-AAFyTG7BAOVioqqEY6eZhXpW-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f671d7fe45b4b88ac4f4062d03d43cd3.webp",
+          "alt": "Natural Wood Bead Rosary Bracelet - red",
+          "label": "red",
+          "sku": "ALI-AAFyTG7BAOVioqqEY6eZhXpW-V-3331260"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H98fe1fd1519843f580ddd90802bd2f60o.webp",
+          "alt": "Natural Wood Bead Rosary Bracelet - beige",
+          "label": "beige",
+          "sku": "ALI-AAFyTG7BAOVioqqEY6eZhXpW-V-5715155"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd79115f7c39a42adb633313f7677696aD.webp",
+          "alt": "Natural Wood Bead Rosary Bracelet - black",
+          "label": "black",
+          "sku": "ALI-AAFyTG7BAOVioqqEY6eZhXpW-V-3327837"
+        }
+      ],
+      "accent": "#6f7c72",
+      "features": [
+        "Natural wood beads",
+        "Retro design",
+        "Available in coffee, beige, black, and red",
+        "Wearable bracelet style"
+      ],
+      "specifications": [
+        {
+          "name": "Design",
+          "value": "Retro"
+        },
+        {
+          "name": "Color variants",
+          "value": "Coffee, Beige, Black, Red"
+        }
+      ],
+      "applications": [
+        "Daily prayer and meditation",
+        "Worn as a religious accessory",
+        "Gift for Catholic friends or family",
+        "Personal devotional use"
+      ],
+      "faq": [
+        {
+          "question": "Is this rosary bracelet adjustable?",
+          "answer": "The product facts do not specify an adjustable feature. It is a bracelet designed to be worn on the wrist, but no sizing details are provided."
+        },
+        {
+          "question": "What colors are available for this rosary bracelet?",
+          "answer": "The bracelet comes in four colors: coffee, beige, black, and red."
+        },
+        {
+          "question": "What material is the rosary bracelet made of?",
+          "answer": "The bracelet is made of natural wood, as indicated in the product title."
+        }
+      ],
+      "pricing": {
+        "price": "0.24",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.16",
+          "max": "0.24"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Natural Wood Bead Rosary Bracelet",
+          "description": "Natural wood rosary bracelet in retro design with coffee, beige, black, or red beads, ideal for Catholic devotional use and gift giving.",
+          "sku": "ALI-AAFyTG7BAOVioqqEY6eZhXpW",
+          "image": [
+            "https://sc04.alicdn.com/kf/He6d01a09fd87404b96e2b17e5b3f4834x.jpg",
+            "https://sc04.alicdn.com/kf/H00da1c8e3a184038853ebbd1c7a0d490Y.jpg",
+            "https://sc04.alicdn.com/kf/He96f7cc7c6ed447294345fda9a68934as.jpg",
+            "https://sc04.alicdn.com/kf/Hfa01f3dd46224742b6ab2fbf31c6ec3ej.jpg",
+            "https://sc04.alicdn.com/kf/H590b5ccc39d6403b94fde03fea846cccX.jpg",
+            "https://sc04.alicdn.com/kf/H68f6fc7d0ad543afbfdfd62a09317839O.jpg"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Design",
+              "value": "Retro"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Coffee, Beige, Black, Red"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.24",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.16",
+              "maxPrice": "0.24",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is this rosary bracelet adjustable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The product facts do not specify an adjustable feature. It is a bracelet designed to be worn on the wrist, but no sizing details are provided."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What colors are available for this rosary bracelet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet comes in four colors: coffee, beige, black, and red."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What material is the rosary bracelet made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet is made of natural wood, as indicated in the product title."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "57af016cdab151dc44759f372b967fb5d1a743561949256ae145fba225a7565e",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "57af016cdab151dc44759f372b967fb5d1a743561949256ae145fba225a7565e",
+            "contentHash": "57af016cdab151dc44759f372b967fb5d1a743561949256ae145fba225a7565e",
+            "attempts": 0,
+            "updatedAt": "2026-08-21T03:07:57.333Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEGTG7BAOVioqqEY6eBTOtK",
+      "sourceId": "AAEGTG7BAOVioqqEY6eBTOtK",
+      "sourceFingerprint": "202022dd5d6fc40feebfd6bdbc15f12366c2a4c4e9b1f07b50d5534bfdaa41be",
+      "locale": "en",
+      "slug": "3d-crystal-cross-carved-ornament-5x5x8cm-ebtotk",
+      "title": "3D Crystal Cross Carved Ornament 5x5x8cm",
+      "eyebrow": "3D crystal carved cross ornament",
+      "summary": "This clear crystal ornament features a 3D carved cross inside. It measures 5 by 5 by 8 centimeters, offering a compact decorative piece for display or gifting. Four variants are available.",
+      "description": "A transparent crystal block with a cross etched in 3D detail. At 5 by 5 by 8 centimeters, it works as a desktop ornament, shelf accent, or gift for those who appreciate religious symbols. The carving is visible from all sides. Choose from four different variants to suit your display needs. Its size makes it suitable for home, office, or prayer corner use, though it is not a liturgical item. As a decorative object, it carries the universal symbol of the cross.",
+      "catholicContext": "A cross is a central symbol of the Christian faith, recalling the sacrifice of Christ.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "84",
+          "name": "Ornaments",
+          "slug": "ornaments"
+        }
+      ],
+      "sku": "ALI-AAEGTG7BAOVioqqEY6eBTOtK",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H8d6408c0a59547a4bf9001e31a27056fL.webp",
+      "imageAlt": "3D Crystal Cross Carved Ornament 5x5x8cm",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8d6408c0a59547a4bf9001e31a27056fL.webp",
+          "alt": "3D Crystal Cross Carved Ornament 5x5x8cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H731397cc7cab4ad9bff8b4173bdc9868T.webp",
+          "alt": "3D Crystal Cross Carved Ornament 5x5x8cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Ha3e8e84f0ba8450ead256fab6be59df0I.webp",
+          "alt": "3D Crystal Cross Carved Ornament 5x5x8cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H47798320b97940c28c741e8b4afdc854g.webp",
+          "alt": "3D Crystal Cross Carved Ornament 5x5x8cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H052a8686a9ae420d9adeef1406ff4d383.webp",
+          "alt": "3D Crystal Cross Carved Ornament 5x5x8cm"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd17a8132e3be49dab46a44fb4780b049D.webp",
+          "alt": "3D Crystal Cross Carved Ornament 5x5x8cm"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hddda1fb2c2e04a02a0987ab1006a2561d.webp",
+          "alt": "3D Crystal Cross Carved Ornament 5x5x8cm - kg009-1",
+          "label": "kg009-1",
+          "sku": "ALI-AAEGTG7BAOVioqqEY6eBTOtK-V--5"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H063a04829b3b44018005f8b71a7c03f4M.webp",
+          "alt": "3D Crystal Cross Carved Ornament 5x5x8cm - kg009-4",
+          "label": "kg009-4",
+          "sku": "ALI-AAEGTG7BAOVioqqEY6eBTOtK-V--4"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hfe14749df74d4e40b08e2246b64450b7V.webp",
+          "alt": "3D Crystal Cross Carved Ornament 5x5x8cm - kg009-2",
+          "label": "kg009-2",
+          "sku": "ALI-AAEGTG7BAOVioqqEY6eBTOtK-V--3"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hef428e1deeec4b0fa982499396034379L.webp",
+          "alt": "3D Crystal Cross Carved Ornament 5x5x8cm - kg009-3",
+          "label": "kg009-3",
+          "sku": "ALI-AAEGTG7BAOVioqqEY6eBTOtK-V--1"
+        }
+      ],
+      "accent": "#9a6b63",
+      "features": [
+        "3D carved cross design within a transparent crystal block",
+        "Measures 5 cm x 5 cm x 8 cm",
+        "Available in four variants: KG009-1, KG009-2, KG009-3, KG009-4",
+        "Designed for decorative display"
+      ],
+      "specifications": [
+        {
+          "name": "Dimensions",
+          "value": "5 x 5 x 8 cm"
+        },
+        {
+          "name": "Variants",
+          "value": "KG009-1, KG009-2, KG009-3, KG009-4"
+        }
+      ],
+      "applications": [
+        "Home decoration",
+        "Office desk accent",
+        "Display on shelves or mantels",
+        "Gift for those who value Christian symbols"
+      ],
+      "faq": [
+        {
+          "question": "What are the dimensions of this crystal cross ornament?",
+          "answer": "It measures 5 by 5 by 8 centimeters."
+        },
+        {
+          "question": "What variants are available for this ornament?",
+          "answer": "The variants are KG009-1, KG009-2, KG009-3, and KG009-4."
+        },
+        {
+          "question": "Is this crystal cross a crucifix?",
+          "answer": "No, it is a plain cross, not a crucifix, as it does not include the body of Christ."
+        }
+      ],
+      "pricing": {
+        "price": "3.23",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.62",
+          "max": "3.23"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "3D Crystal Cross Carved Ornament 5x5x8cm",
+          "description": "This 3D crystal cross ornament features an engraved cross design. It measures 5x5x8cm and comes in four variants. For decoration or display.",
+          "sku": "ALI-AAEGTG7BAOVioqqEY6eBTOtK",
+          "image": [
+            "https://sc04.alicdn.com/kf/H8d6408c0a59547a4bf9001e31a27056fL.jpg",
+            "https://sc04.alicdn.com/kf/H731397cc7cab4ad9bff8b4173bdc9868T.jpg",
+            "https://sc04.alicdn.com/kf/Ha3e8e84f0ba8450ead256fab6be59df0I.jpg",
+            "https://sc04.alicdn.com/kf/H47798320b97940c28c741e8b4afdc854g.jpg",
+            "https://sc04.alicdn.com/kf/H052a8686a9ae420d9adeef1406ff4d383.jpg",
+            "https://sc04.alicdn.com/kf/Hd17a8132e3be49dab46a44fb4780b049D.jpg"
+          ],
+          "category": "Ornaments",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Dimensions",
+              "value": "5 x 5 x 8 cm"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variants",
+              "value": "KG009-1, KG009-2, KG009-3, KG009-4"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "3.23",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.62",
+              "maxPrice": "3.23",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What are the dimensions of this crystal cross ornament?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It measures 5 by 5 by 8 centimeters."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What variants are available for this ornament?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The variants are KG009-1, KG009-2, KG009-3, and KG009-4."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this crystal cross a crucifix?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, it is a plain cross, not a crucifix, as it does not include the body of Christ."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "a078ceed53c22aa2798fe70f43b5b0101a0ce3c9001ae5624e9f66901fa98389",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "a078ceed53c22aa2798fe70f43b5b0101a0ce3c9001ae5624e9f66901fa98389",
+            "contentHash": "a078ceed53c22aa2798fe70f43b5b0101a0ce3c9001ae5624e9f66901fa98389",
+            "attempts": 0,
+            "updatedAt": "2026-08-21T03:07:51.472Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAGLTG7BAOVioqqEY6eN28fY",
+      "sourceId": "AAGLTG7BAOVioqqEY6eN28fY",
+      "sourceFingerprint": "6f1fe30db5271ad1fd410818a8f36a517d6f121be2f2880fc8aa767dfccd0656",
+      "locale": "en",
+      "slug": "natural-wood-cross-bracelet-with-beaded-accents-en28fy",
+      "title": "Natural Wood Cross Bracelet with Beaded Accents",
+      "eyebrow": "Wooden Cross Bracelet",
+      "summary": "This wholesale natural wood cross bracelet combines a carved wooden cross with beaded and diamond stone accents. Available in Coffee, Beige, and Black color variants. A simple Christian-style accessory suitable for everyday wear or gift giving.",
+      "description": "This natural wood cross bracelet offers a straightforward way to add a Christian symbol to daily attire. Its design pairs a wooden cross with beaded and diamond stone elements, giving it a subtle, natural look. The bracelet is available in three color variants: Coffee, Beige, and Black.\n\nThe use of natural wood gives each bracelet an organic appearance that may vary slightly from piece to piece. The beaded and diamond stone accents add texture and visual interest. Suitable for personal use or retail, this bracelet is a practical choice for buyers looking for religious-themed jewelry.",
+      "catholicContext": "A cross is a central Christian symbol of faith, though it is distinct from a crucifix which bears the corpus of Christ.",
+      "catholicRelevance": "devotional_context",
+      "categories": [
+        {
+          "id": "20",
+          "name": "Rosary bracelets",
+          "slug": "rosary-bracelets"
+        }
+      ],
+      "sku": "ALI-AAGLTG7BAOVioqqEY6eN28fY",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/H4c0cdd113ec648f9af228e423116a1caB.webp",
+      "imageAlt": "Natural Wood Cross Bracelet with Beaded Accents",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4c0cdd113ec648f9af228e423116a1caB.webp",
+          "alt": "Natural Wood Cross Bracelet with Beaded Accents"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H67c32852951b4406a11e5c53b90db5b8L.webp",
+          "alt": "Natural Wood Cross Bracelet with Beaded Accents"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H4f81a40f58c14ed4b6840c38e4a06294r.webp",
+          "alt": "Natural Wood Cross Bracelet with Beaded Accents"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb6ad3eb1ebdc4b09b1e860ef9f6383bf4.webp",
+          "alt": "Natural Wood Cross Bracelet with Beaded Accents"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hce5cc472d1e1456e9e1e204d228ff8fc6.webp",
+          "alt": "Natural Wood Cross Bracelet with Beaded Accents"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H564a0d6f391c4d45bcc92de17b96f079l.webp",
+          "alt": "Natural Wood Cross Bracelet with Beaded Accents"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H63d2d2086a1e486eaaf4fe0b363ebe60o.webp",
+          "alt": "Natural Wood Cross Bracelet with Beaded Accents - black",
+          "label": "black",
+          "sku": "ALI-AAGLTG7BAOVioqqEY6eN28fY-V-3327837"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf7990ea078cf48b4a0edc3771465698dM.webp",
+          "alt": "Natural Wood Cross Bracelet with Beaded Accents - coffee",
+          "label": "coffee",
+          "sku": "ALI-AAGLTG7BAOVioqqEY6eN28fY-V-3778969"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbc4aea4483d34c0f9404c44749545786T.webp",
+          "alt": "Natural Wood Cross Bracelet with Beaded Accents - beige",
+          "label": "beige",
+          "sku": "ALI-AAGLTG7BAOVioqqEY6eN28fY-V-5715155"
+        }
+      ],
+      "accent": "#7a6d92",
+      "features": [
+        "Natural wood cross centerpiece",
+        "Beaded and diamond stone accents",
+        "Available in Coffee, Beige, and Black variants",
+        "Christian religious style design",
+        "Wholesale quantity available"
+      ],
+      "specifications": [
+        {
+          "name": "Category",
+          "value": "Rosary bracelets"
+        },
+        {
+          "name": "Color variants",
+          "value": "Coffee, Beige, Black"
+        },
+        {
+          "name": "Primary material",
+          "value": "Wood (natural)"
+        },
+        {
+          "name": "Bead material",
+          "value": "Beaded and diamond stone"
+        }
+      ],
+      "applications": [
+        "Everyday religious accessory",
+        "Christian-themed gift item",
+        "Retail jewelry display",
+        "Personal devotion wear"
+      ],
+      "faq": [
+        {
+          "question": "What color variants are available for this cross bracelet?",
+          "answer": "This natural wood cross bracelet comes in three color variants: Coffee, Beige, and Black."
+        },
+        {
+          "question": "What materials are used in the bracelet?",
+          "answer": "The bracelet features a natural wood cross complemented by beaded and diamond stone accents."
+        },
+        {
+          "question": "Is this bracelet intended for Catholic use?",
+          "answer": "The bracelet displays a cross, but it is a general Christian-style accessory. It is not specifically designed as a rosary bracelet."
+        }
+      ],
+      "pricing": {
+        "price": "0.25",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "0.20",
+          "max": "0.25"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Natural Wood Cross Bracelet with Beaded Accents",
+          "description": "Wholesale natural wood cross bracelet with beaded and diamond stone accents. Available in Coffee, Beige, and Black. Religious Christian style jewelry for retail.",
+          "sku": "ALI-AAGLTG7BAOVioqqEY6eN28fY",
+          "image": [
+            "https://sc04.alicdn.com/kf/H4c0cdd113ec648f9af228e423116a1caB.png",
+            "https://sc04.alicdn.com/kf/H67c32852951b4406a11e5c53b90db5b8L.png",
+            "https://sc04.alicdn.com/kf/H4f81a40f58c14ed4b6840c38e4a06294r.png",
+            "https://sc04.alicdn.com/kf/Hb6ad3eb1ebdc4b09b1e860ef9f6383bf4.png",
+            "https://sc04.alicdn.com/kf/Hce5cc472d1e1456e9e1e204d228ff8fc6.png",
+            "https://sc04.alicdn.com/kf/H564a0d6f391c4d45bcc92de17b96f079l.png"
+          ],
+          "category": "Rosary bracelets",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": "Rosary bracelets"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Color variants",
+              "value": "Coffee, Beige, Black"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Primary material",
+              "value": "Wood (natural)"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Bead material",
+              "value": "Beaded and diamond stone"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "0.25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "0.20",
+              "maxPrice": "0.25",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What color variants are available for this cross bracelet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This natural wood cross bracelet comes in three color variants: Coffee, Beige, and Black."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What materials are used in the bracelet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet features a natural wood cross complemented by beaded and diamond stone accents."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this bracelet intended for Catholic use?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The bracelet displays a cross, but it is a general Christian-style accessory. It is not specifically designed as a rosary bracelet."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "06008462914e38724357dfcfc34e3627c832f555b9224a78749e00e14a506fbd",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "06008462914e38724357dfcfc34e3627c832f555b9224a78749e00e14a506fbd",
+            "contentHash": "06008462914e38724357dfcfc34e3627c832f555b9224a78749e00e14a506fbd",
+            "attempts": 0,
+            "updatedAt": "2026-08-21T03:07:52.529Z",
+            "model": "deepseek-v4-flash"
+          }
+        }
+      }
+    },
+    {
+      "productId": "AAEnTG7BAOVioqqEY6eBTX7X",
+      "sourceId": "AAEnTG7BAOVioqqEY6eBTX7X",
+      "sourceFingerprint": "cd15a00d8dfff929d8d1debb3a5eeae29e9e44249c765ada0604a1d2834838eb",
+      "locale": "en",
+      "slug": "18k-gold-plated-oval-mary-medallion-necklace-with-cz-ebtx7x",
+      "title": "18K Gold Plated Oval Mary Medallion Necklace with CZ",
+      "eyebrow": "Catholic oval coin medallion necklace",
+      "summary": "An oval coin medallion necklace featuring a Virgin Mary pendant, 18K gold plated with Cubic Zirconia accents. Available in multiple variants, it pairs a classic Marian motif with a polished finish for everyday wear or gifting.",
+      "description": "The design starts with an oval coin silhouette, a familiar medallion form, finished in 18K gold plating. The pendant bears a relief of the Virgin Mary, complemented by Cubic Zirconia stones that catch the light. Offered in gold and colorful variants, the necklace allows for personal preference in tone and detailing.\n\nThis pendant draws on the long-standing tradition of Marian medals, which many wear as a visible reminder of faith. The compact oval shape and gold-tone finish make it suitable for daily wear. It arrives as a complete necklace, ready to wear.",
+      "catholicContext": "The Virgin Mary is honored in Catholic tradition, and Marian devotional items are a common expression of popular piety.",
+      "catholicRelevance": "explicit",
+      "categories": [
+        {
+          "id": "209",
+          "name": "Fashion Necklace",
+          "slug": "fashion-necklace"
+        }
+      ],
+      "sku": "ALI-AAEnTG7BAOVioqqEY6eBTX7X",
+      "imageUrl": "https://mecrt.com/wp-content/uploads/2026/06/Hd4134458ce0f48258c1dcc44afb7ecbdw.webp",
+      "imageAlt": "18K Gold Plated Oval Mary Medallion Necklace with CZ",
+      "gallery": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hd4134458ce0f48258c1dcc44afb7ecbdw.webp",
+          "alt": "18K Gold Plated Oval Mary Medallion Necklace with CZ"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H8f01ad42d5654e6fa9118149275f328cS.webp",
+          "alt": "18K Gold Plated Oval Mary Medallion Necklace with CZ"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H791bc4dc16f0409e871068663486aa1a1.webp",
+          "alt": "18K Gold Plated Oval Mary Medallion Necklace with CZ"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hf7846954ae334be49e6f656291cdd20fK.webp",
+          "alt": "18K Gold Plated Oval Mary Medallion Necklace with CZ"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H6138432110f748cf97ea39d8831d20da2.webp",
+          "alt": "18K Gold Plated Oval Mary Medallion Necklace with CZ"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hb34d8341691b4a6db6479eb3cc522d98A.webp",
+          "alt": "18K Gold Plated Oval Mary Medallion Necklace with CZ"
+        }
+      ],
+      "variantImages": [
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H5c27f8d7962546e3a36671453511dd80z.webp",
+          "alt": "18K Gold Plated Oval Mary Medallion Necklace with CZ - gold",
+          "label": "gold",
+          "sku": "ALI-AAEnTG7BAOVioqqEY6eBTX7X-V-3331116"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/Hbcd67b1111a34693871f64ee03774f83P.webp",
+          "alt": "18K Gold Plated Oval Mary Medallion Necklace with CZ - colorful",
+          "label": "colorful",
+          "sku": "ALI-AAEnTG7BAOVioqqEY6eBTX7X-V--2"
+        },
+        {
+          "url": "https://mecrt.com/wp-content/uploads/2026/06/H31d7778b665f4184b7384307e8d35fd1a.webp",
+          "alt": "18K Gold Plated Oval Mary Medallion Necklace with CZ - gold2",
+          "label": "gold2",
+          "sku": "ALI-AAEnTG7BAOVioqqEY6eBTX7X-V--3"
+        }
+      ],
+      "accent": "#8a7b55",
+      "features": [
+        "18K gold plated finish",
+        "Oval coin medallion pendant",
+        "Cubic Zirconia (CZ) accents",
+        "Virgin Mary depiction",
+        "Multiple variants: Gold2, Gold, Colorful"
+      ],
+      "specifications": [
+        {
+          "name": "Pendant shape",
+          "value": "Oval coin"
+        },
+        {
+          "name": "Plating",
+          "value": "18K gold plated"
+        },
+        {
+          "name": "Stone type",
+          "value": "Cubic Zirconia"
+        },
+        {
+          "name": "Variant options",
+          "value": "Gold2, Gold, Colorful"
+        }
+      ],
+      "applications": [
+        "Everyday wear as a pendant necklace",
+        "Devotional jewelry",
+        "Gift for Catholic occasions such as baptism or confirmation",
+        "Layering with other necklaces"
+      ],
+      "faq": [
+        {
+          "question": "What metal is the necklace made of?",
+          "answer": "The necklace is 18K gold plated, but the base metal is not specified."
+        },
+        {
+          "question": "Are the stones real diamonds?",
+          "answer": "No, the stones are Cubic Zirconia (CZ), which is a simulated gemstone."
+        },
+        {
+          "question": "What color variants are available?",
+          "answer": "Three variants are offered: Gold2, Gold, and Colorful."
+        }
+      ],
+      "pricing": {
+        "price": "2.77",
+        "currency": "USD",
+        "onSale": false,
+        "priceRange": {
+          "min": "2.26",
+          "max": "2.77"
+        }
+      },
+      "structuredData": {
+        "product": {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "18K Gold Plated Oval Mary Medallion Necklace with CZ",
+          "description": "18K gold plated oval coin medallion necklace with Cubic Zirconia Virgin Mary pendant, available in gold and colorful variants.",
+          "sku": "ALI-AAEnTG7BAOVioqqEY6eBTX7X",
+          "image": [
+            "https://sc04.alicdn.com/kf/Hd4134458ce0f48258c1dcc44afb7ecbdw.jpg",
+            "https://sc04.alicdn.com/kf/H8f01ad42d5654e6fa9118149275f328cS.jpg",
+            "https://sc04.alicdn.com/kf/H791bc4dc16f0409e871068663486aa1a1.jpg",
+            "https://sc04.alicdn.com/kf/Hf7846954ae334be49e6f656291cdd20fK.jpg",
+            "https://sc04.alicdn.com/kf/H6138432110f748cf97ea39d8831d20da2.jpg",
+            "https://sc04.alicdn.com/kf/Hb34d8341691b4a6db6479eb3cc522d98A.jpg"
+          ],
+          "category": "Fashion Necklace",
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Pendant shape",
+              "value": "Oval coin"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Plating",
+              "value": "18K gold plated"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Stone type",
+              "value": "Cubic Zirconia"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Variant options",
+              "value": "Gold2, Gold, Colorful"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "2.77",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "2.26",
+              "maxPrice": "2.77",
+              "priceCurrency": "USD"
+            }
+          }
+        },
+        "faq": {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What metal is the necklace made of?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The necklace is 18K gold plated, but the base metal is not specified."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are the stones real diamonds?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, the stones are Cubic Zirconia (CZ), which is a simulated gemstone."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What color variants are available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Three variants are offered: Gold2, Gold, and Colorful."
+              }
+            }
+          ]
+        }
+      },
+      "localization": {
+        "sourceLocale": "en",
+        "sourceHash": "e9ad84f64e7b828aaaf3b5dc13ab0be2fd8fa25c90c58ad42b73991c1dc6ec57",
+        "translations": {
+          "en": {
+            "status": "source",
+            "sourceHash": "e9ad84f64e7b828aaaf3b5dc13ab0be2fd8fa25c90c58ad42b73991c1dc6ec57",
+            "contentHash": "e9ad84f64e7b828aaaf3b5dc13ab0be2fd8fa25c90c58ad42b73991c1dc6ec57",
+            "attempts": 0,
+            "updatedAt": "2026-08-21T03:07:56.970Z",
             "model": "deepseek-v4-flash"
           }
         }
